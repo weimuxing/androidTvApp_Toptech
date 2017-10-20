@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dip"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/tv_record_list_r_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/block_program_title"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_marginTop="5dip"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/block_program_list"
+        android:layout_width="fill_parent"
+        android:layout_height="376dp"
+        android:layout_marginTop="3dip"
+        android:scrollbars="none"
+        android:listSelector="@drawable/button_state" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="24dip"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="11dip"
+            android:layout_height="11dip"
+            android:layout_marginTop="7dip"
+            android:visibility="gone"
+            android:src="@drawable/icon_tips_green" />
+
+        <TextView
+            android:id="@+id/block_button"
+            android:layout_width="50dip"
+            android:layout_height="24dip"
+            android:background="@drawable/button_state_program_list_green"
+            android:gravity="center"
+            android:text="@string/str_lock"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

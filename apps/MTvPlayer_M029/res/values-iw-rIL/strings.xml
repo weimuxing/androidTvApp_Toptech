@@ -1,0 +1,2673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	 <!-- For Picture -->
+    <string name="str_auto_adjust">התאמה אוטומטית</string>
+    <string name="app_name">Tvsetting</string>
+    <string name="str_pic_picture_adjustment">התאמת תמונה</string>
+    <string name="str_pic_picture">תמונה</string>
+    <string name="str_pic_picturemode">מצב תמונה</string>
+    <string name="edit_program_toast">שם התוכנית לא יכול להיות ריק!</string>
+    <string name="str_delete_program_title">אשרמחיקה?</string>
+    <string name="str_warning_isrecording">כבה את המבער לפני מתנה</string>
+    <string name="str_stop_record_to_power_dialog_message">המערכת תכבה לאחר המקליט כבויה!</string>
+    <string name="str_stop_timeshift_to_power_dialog_message">המערכת תכבה לאחר המשמרת בעת הסגירה!</string>
+    <string name="str_stop_record_to_home_dialog_message">המערכת תחזור למסך הראשי לאחר שתפסיק בוער!</string>
+    <string name="str_stop_playback_to_home_dialog_message">המערכת תחזור למסך הראשי לאחר שתפסיק לשחק!</string>
+    <string name="str_stop_timeshift_to_home_dialog_message">לאחר מערכת תעביר חזרה למסך הראשי כשמפסיקים!</string>
+    <string name="str_100">-</string>
+    <string name="str_10">-</string>
+    <string name="str_1">-</string>
+    <string name="str_root_popup_off_after">שניות מתנה</string>
+    <string name="str_schedule_select_null_msg">האירוע לא נבחר</string>
+
+    <string name="str_pic_contrast">ניגודיות</string>
+    <string name="str_pic_brightness">בהיר</string>
+    <string name="str_pic_color">רוויה</string>
+    <string name="str_pic_sharpness">חד</string>
+    <string name="str_pic_hue">Hue</string>
+    <string name="str_pic_saturation">רוויה</string>
+    <string name="str_pic_backlight">תאורה אחורית</string>
+    <string name="str_pic_colortemperature">טמפרטורת צבע</string>
+
+    <string name="str_pic_colortemperature_red">אדום</string>
+    <string name="str_pic_colortemperature_green">גרין</string>
+    <string name="str_pic_colortemperature_blue">כחול</string>
+    <string name="str_pic_zoommode">מצב זום</string>
+    <string name="str_pic_size">גודל תמונה</string>
+
+
+
+    <string name="str_pic_imgnoisereduction">הפחתת רעש תמונה</string>
+    <string name="str_pic_mpegnoisereduction">הפחתת רעש MPEG</string>
+
+    <string name="str_pic_pcimagemode">התאמת מסך מחשב</string>
+    <string name="str_pic_autotune">התאמה אוטומטית</string>
+    <string name="str_set_hdmicec_arc">ARC</string>
+    <string name="str_pic_pcimagemode_waiting">מסך מחשב מתבצעת התאמה, אנא המתן ...</string>
+    <string name="str_pic_pcimagemode_success"> התאמת תמונה הצלחה!</string>
+    <string name="str_pic_pcimagemode_failed"> אי להתאים את המסך!</string>
+
+    <!-- for pc image mode -->
+
+    <string name="str_pic_clock">שעון</string>
+    <string name="str_pic_phase">שלב</string>
+    <string name="str_pic_horizontal_pos">עמדה אופקית</string>
+    <string name="str_pic_vertical_pos">עמדה אנכית</string>
+
+    <!-- sound menu -->
+
+    <string name="str_sound_sound_adjustment">נשמע</string>
+    <string name="str_sound_soundmode">מצב סאונד</string>
+
+    <string name="str_sound_bass">בס</string>
+    <string name="str_sound_treble">צליל גבוה</string>
+    <string name="str_sound_equalizer">אקולייזר</string>
+    <string name="str_sound_equalizer120hz">120Hz</string>
+    <string name="str_sound_equalizer500hz">500Hz</string>
+    <string name="str_sound_equalizer1.5khz">1.5KHz</string>
+    <string name="str_sound_equalizer5khz">5kHz</string>
+    <string name="str_sound_equalizer10khz">10KHz</string>
+    <string name="str_sound_balance">צליל מאוזן</string>
+    <string name="str_sound_avc"> בקרת עוצמת קול אוטומטית</string>
+    <string name="str_sound_ad">מסירת לספירה</string>
+    <string name="str_sound_ad_volume">נפח לספירה</string>
+    <string name="str_sound_autohoh">HOH האוטומטי</string>
+    <string name="str_sound_truehdbypass">פלט מקור Next-Gen</string>
+
+    <string name="str_sound_srs">סראונד</string>
+
+
+
+    <string name="str_sound_surround">סראונד</string>
+
+
+
+    <string name="str_sound_spdifoutput">פלט SPDIF</string>
+
+
+	<string name="str_sound_music_mode">בנפרד להקשיב</string>
+    <string name="str_sound_separatehear">בנפרד להקשיב</string>
+
+
+
+    <!-- For 3d -->
+
+    <string name="str_3d_3d"> 3D</string>
+
+    <string name="str_3d_self_adaptive_detecttriple">בדיקה עצמית 3D</string>
+
+
+    <string name="str_3dto2d_self_adaptive_detecttriple">3D-2D-בדיקה עצמית</string>
+
+
+    <string name="str_3d_self_adaptive_detectlevel">כוח מסתגל</string>
+
+
+
+    <string name="str_3d_conversion">המרה לפורמט 3D</string>
+
+
+
+    <string name="str_3d_3dto2d">3D להפוך 2D</string>
+
+
+
+    <string name="str_3d_3ddepth">עומק 3D של שדה</string>
+
+
+
+    <string name="str_3d_3doffset">3D אופסט</string>
+
+
+
+    <string name="str_3d_autostart">התחלה אוטומטית</string>
+
+
+
+    <string name="str_3d_3doutputaspect"> יחס ממדי פלט 3D</string>
+
+
+
+    <string name="str_3d_lrswitch">אודות חילופי</string>
+
+
+
+    <!-- for Channel -->
+    <string name="str_cha_antannatype">סוג האנטנה</string>
+
+    <string name="str_cha_antannatype_none">לא מוגדר</string>
+    <string name="str_cha_antannatype_air">Wireless</string>
+    <string name="str_cha_antannatype_cable">Wired</string>
+
+    <string name="str_prompt_setup_wizard_title">אנא בחר את סוג האנטנה ולהתחיל לחפש תחנות אוטומטיות</string>
+    <string name="str_prompt_setup_wizard_next">השלב הבא</string>
+    <string name="str_prompt_setup_wizard_skip">דילוג</string>
+    <string name="str_prompt_setup_location_title">אנא בחר אזור</string>
+
+    <string name="str_cha_changing_antenna_type">אנחנו משנים את סוג האנטנה</string>
+    <string name="str_ci_async_cmd_switch_route">CI להפעיל מתג מסלול ...</string>
+    <string name="str_cha_please_wait">אנא המתן</string>
+
+    <string name="str_cha_tv_route_none">לא מוגדר</string>
+    <string name="str_cha_tv_route_dvbt">Wireless</string>
+    <string name="str_cha_tv_route_dvbc">Wired</string>
+    <string name="str_cha_tv_route_dvbs">בלוויין</string>
+    <string name="str_cha_tv_route_dvbt2">Wireless</string>
+    <string name="str_cha_tv_route_dvbs2">בלוויין</string>
+    <string name="str_cha_tv_route_dtmb">DTMB</string>
+    <string name="str_cha_tv_route_unknown">לא ידוע</string>
+
+    <string name="str_cha_channel">ערוץ</string>
+    <string name="str_cha_autotuning">חיפוש תחנה אוטומטי</string>
+    <string name="str_source">מקור</string>
+    <string name="str_cha_dtvmanualtuning"> חיפוש ידני דיגיטלי</string>
+    <string name="str_cha_atvmanualtuning">חיפוש ידני אנלוגי</string>
+
+    <string name="str_cha_manualtuning">חיפוש ידני</string>
+   
+   <string name="str_cha_bandwidth_switch">מיתוג רוחב פס</string>
+    <string name="str_cha_bandwidth_uhf_7mhz">7MHz מעל UHF</string>
+    <string name="str_cha_programedit">עורך ערוץ</string>
+    <string name="str_cha_signalinfo">מידע Signal</string>
+    <string name="str_cha_ciinformation"> מידע CI</string>
+    <string name="str_cha_software_update_oad">שדרוג תוכנה (OAD)</string>
+    <string name="str_cha_time_to_search_for_ssu">זמן לחפש SSU</string>
+    <string name="str_cha_time_to_search_for_ssu_default">0.166666666666667</string>
+    <string name="str_cha_oadscan">סריקת OAD</string>
+    <string name="str_cha_oad_view_prompt">צג בקשה לעדכון</string>
+    <string name="str_mainmenu_menu">תפריט</string>
+    <string name="str_cha_autotuning_tuningtype">סוג חיפוש תחנה אוטומטית</string>
+    <string name="str_cha_autotuning_tuningtype_atv">טלוויזיה אנלוגי</string>
+    <string name="str_cha_autotuning_country_australia">אוסטרליה</string>
+    <string name="str_cha_autotuning_country_austria">אוסטריה</string>
+    <string name="str_cha_autotuning_country_beligum">בלגיה</string>
+    <string name="str_cha_autotuning_country_bulgaral">בולגרי</string>
+    <string name="str_cha_autotuning_country_croatia">קרואטיה</string>
+    <string name="str_cha_autotuning_country_czech">צ\'כיה</string>
+    <string name="str_cha_autotuning_country_denmark">דנמרק</string>
+    <string name="str_cha_autotuning_country_finland">פינלנד</string>
+    <string name="str_cha_autotuning_country_france">צרפת</string>
+    <string name="str_menu_parentalcontrol">נעילת הורים</string>
+    <string name="str_lock_system">מערכת נעילה</string>
+    <string name="str_lock">נעילה</string>
+    <string name="str_set_pwd">שינוי סיסמה</string>
+    <string name="str_block_program">תוכנית Lock</string>
+    <string name="str_parental_contentlock">מנעול תוכן</string>
+    <string name="str_parental_guidance">רמה מוגדרת</string>
+    <string name="str_cha_airdtv_title">טלוויזיה דיגיטלית אלחוטית</string>
+    <string name="str_cha_airtv_title">Wireless</string>
+    <string name="str_cha_cabletv_title">Wired</string>
+    <string name="str_ci_cam_pincode">CI CAM פין קוד</string>
+    <string name="str_ci_set_cam_pincode_done">גדר קוד PIN בוצע</string>
+
+    <string name="str_cha_channeltuning">כוונון ערוץ</string>
+    <string name="str_cha_tv">טלביזיה אנלוגית:</string>
+    <string name="str_cha_tv_0">0</string>
+    <string name="str_cha_dtv">טלוויזיה דיגיטלית:</string>
+
+    <!-- For CA String define -->
+    <string name="str_cha_cainformation"> מידע CA</string>
+    <string name="str_ca_title">מידע CA</string>
+    <string name="str_ca_card_info">פרטי כרטיס חכם</string>
+    <string name="str_ca_card_management">ניהול כרטיס חכם</string>
+    <string name="str_ca_card_paired">זוג כרטיס מכונית</string>
+    <string name="str_ca_card_feed">האכלת כרטיס תמונה</string>
+    <string name="str_ca_info_title">פרטי כרטיס חכם</string>
+    <string name="str_ca_info_entitle">אישור כללי</string>
+    <string name="str_ca_info_detitle">Anti-אישור</string>
+    <string name="str_ca_info_purse_info">מידע ארנק</string>
+    <string name="str_ca_card_version">מידע גרסת CAS</string>
+    <string name="str_ca_mg_title">ניהול כרטיס חכם</string>
+    <string name="str_ca_mg_modify_pin">שינוי PIN</string>
+    <string name="str_ca_mg_work_time">שינוי שעות עבודה</string>
+    <string name="str_ca_mg_watch_level">שנה את דירוג הצפייה</string>
+    <string name="str_ca_info_pin_title">שינוי PIN</string>
+    <string name="str_ca_mg_old_pin">נא להזין את קוד ה- PIN המקורי:</string>
+    <string name="str_ca_mg_new_pin">אנא הזן קוד PIN חדש:</string>
+    <string name="str_ca_mg_new_pin2">ודא את קוד PIN:</string>
+    <string name="str_ca_mg_submit">אשרו</string>
+    <string name="str_set_work_time_title">שינוי שעות עבודה</string>
+    <string name="str_ca_start_work_time">קבע את שעת ההתחלה:</string>
+    <string name="str_ca_end_work_time">הגדר את שעת הסיום:</string>
+    <string name="str_ca_work_time_pin">נא להזין את הקוד הסודי שלך:</string>
+    <string name="str_work_time_hour_text">שעה</string>
+    <string name="str_work_time_minute_text">דק</string>
+    <string name="str_watch_level_title">שנה את דירוג הצפייה</string>
+    <string name="str_watch_level_text">צפו רמה:</string>
+    <string name="str_watch_level_init">0</string>
+    <string name="str_ca_operator_title">מידע המפעיל</string>
+    <string name="str_ca_op_id">מספר</string>
+    <string name="str_ca_op_operator_id">מזהה מפעיל</string>
+    <string name="str_ca_version_title">מידע גרסת CAS</string>
+    <string name="str_ca_version_id">מספר הגרסה CDCAS:</string>
+    <string name="str_ca_version_stb_num">ממיר מספר ייחודי:</string>
+    <string name="str_ca_card_id">כרטיס:</string>
+    <string name="str_ca_entitle_title">אישור כללי</string>
+    <string name="str_ca_entitle_id">זיהוי מוצר</string>
+    <string name="str_ca_entitle_video_id">יכול סרטון:</string>
+    <string name="str_ca_entitle_date">תַאֲרִיך תְפוּגָה</string>
+    <string name="str_ca_entitle_video_flag_yes">זה</string>
+    <string name="str_ca_entitle_video_flag_no">לא</string>
+    <string name="str_ca_detitle_title">Anti-אישור</string>
+    <string name="str_ca_detitle_list">רשימת קוד אישור אנטי-אישור</string>
+    <string name="str_ca_detitle_state">מדינה</string>
+    <string name="str_ca_detitle_state_yes">קראו</string>
+    <string name="str_ca_detitle_state_no">לא נקרא</string>
+    <string name="str_ca_purse_title">מידע ארנק</string>
+    <string name="str_ca_purse_id">מזהה ארנק</string>
+    <string name="str_ca_purse_points">תבל נקודות</string>
+    <string name="str_ca_purse_credit">אשראי</string>
+
+    <!-- For CA Error Type define -->
+    <string name="st_ca_rc_ok">הצלחה</string>
+    <string name="st_ca_rc_unknown">שגיאה לא ידועה</string>
+    <string name="st_ca_rc_pointer_invalid">פוינטר אינה חוקית</string>
+    <string name="st_ca_rc_card_invalid">חוקי כרטיס חכם</string>
+    <string name="st_ca_rc_pin_invalid">קוד PIN אינו חוקי</string>
+    <string name="st_ca_rc_dataspace_small">בהינתן חוסר מקום</string>
+    <string name="st_ca_rc_card_pairother">יש כרטיסים חכמים תיבות האינטראקטיביות השניות המקבילות</string>
+    <string name="st_ca_rc_data_not_find">אין נתונים להימצא</string>
+    <string name="st_ca_rc_prog_status_invalid">כדי לרכוש תוכנית הסטטוס אינו חוקי</string>
+    <string name="st_ca_rc_card_no_room">אין מקום לאחסן לקנות תוכנית כרטיס חכם</string>
+    <string name="st_ca_rc_worktime_invalid">גדר עובדות שעות חוקיות</string>
+    <string name="st_ca_rc_ippv_canntdel">לא ניתן למחוק תוכנית IPPV</string>
+    <string name="st_ca_rc_card_nopair">כרטיס חכם אינו תואם את כל ממיר</string>
+    <string name="st_ca_rc_watchrating_invalid">צפה הרמה להגדיר חוקי</string>
+    <string name="st_ca_rc_card_notsupport">הכרטיס החכם הנוכחי אינו תומך בתכונה זו</string>
+    <string name="st_ca_rc_data_error">שגיאות נתונים, הכרטיס החכם דחו</string>
+    <string name="st_ca_rc_feedtime_not_arrive">זמן ההאכלה עוד לפנינו, כרטיס הבת לא יכול להיות מוזן</string>
+    <string name="st_ca_rc_card_typeerror">האכלת כרטיס תמונת כישלון, להכניס את שגיאת סוג הכרטיס החכמה</string>
+    <string name="st_ca_rc_cas_failed">ביצוע הוראת CAS הנפקה נכשל</string>
+    <string name="st_ca_rc_oper_failed">הוראה למפעיל הנפקה נכשלה לבצע</string>
+    <string name="st_ca_rc_pin_len">פחות מ פין קוד בן שש ספרות</string>
+    <string name="st_ca_rc_diff_pin">פין הקוד אינו מתיישב</string>
+
+    <!-- For CA notify Type define -->
+    <string name="st_ca_message_cancel_type">לבטל את התצוגה הנוכחית</string>
+    <string name="st_ca_message_badcard_type">לא מזהה את הכרטיס</string>
+    <string name="st_ca_message_expicard_type">כרטיס חכם פג, להחליף עם כרטיס חדש</string>
+    <string name="st_ca_message_insertcard_type">תוכנית מקושקשת, להכניס את הכרטיס החכם</string>
+    <string name="st_ca_message_nooper_type">אין מפעיל תכנית כרטיס</string>
+    <string name="st_ca_message_blackout_type">איסור תנאי</string>
+    <string name="st_ca_message_outworktime_type">התקופה הנוכחית מוגדרת לא לצפות</string>
+    <string name="st_ca_message_watchlevel_type">צפו ברמת התוכנית גבוה סט ברמה</string>
+    <string name="st_ca_message_pairing_type">בממירים זו וכרטיסים חכמים לא מתאים</string>
+    <string name="st_ca_message_noentitle_type">לא מורשה</string>
+    <string name="st_ca_message_decryptfail_type">פענוח נכשל תכנית</string>
+    <string name="st_ca_message_nomoney_type">הכרטיס הוא פחות מהסכום</string>
+    <string name="st_ca_message_errregion_type">אזור שגוי</string>
+    <string name="st_ca_message_needfeed_type">כרטיס אמא וכרטיס בת צריך מתאים כנס כרטיס אמא</string>
+    <string name="st_ca_message_errcard_type">בדיקת כרטיס חכם נכשלת, אנא צרו קשר עם הספק שלך</string>
+    <string name="st_ca_message_update_type">שדרוג כרטיס חכם, לא למשוך את הכרטיס או כיבוי</string>
+    <string name="st_ca_message_lowcardver_type">שדרג כרטיס חכם</string>
+    <string name="st_ca_message_viewlock_type">נא לא לעתים קרובות לעבור בין ערוצים</string>
+    <string name="st_ca_message_maxrestart_type">רדום כרטיס חכם, אנא לאתחל אחרי 5 דקות</string>
+    <string name="st_ca_message_freeze_type">כרטיסים חכמים הוקפאו, אנא צרו קשר עם הספק שלך</string>
+    <string name="st_ca_message_callback_type">כרטיס חכם הושעה, אנא החזר את המפעיל להקליט דירוגים</string>
+    <string name="st_ca_message_curtain_type">וילונות התוכנית, לא ניתן לראות תצוגה מקדימה הבמה</string>
+    <string name="st_ca_message_cardteststart_type">שדרג את מבחן תבנית בדיקה ...</string>
+    <string name="st_ca_message_cardtestfaild_type">שדרג את מבחן כרטיס בדיקה נכשל, לבדוק את מודול תקשורת כרטיס מכונית</string>
+    <string name="st_ca_message_cardtestsucc_type">שדרג את מבחן כרטיס מבחן מוצלח</string>
+    <string name="st_ca_message_nocaliboper_type">כרטיס ספרייה נייד אינו קיים מפעילים מותאמים אישית</string>
+    <string name="st_ca_message_stblocked_type">אנא הפעל מחדש את הממיר</string>
+    <string name="st_ca_message_stbfreeze_type">הממירים מוקפאים</string>
+
+
+    <string name="str_cha_dtvautotuning_startscan">חיפוש תחנה התחל</string>
+    <string name="str_cha_dtvautotuning_frequency">תדיר</string>
+    <string name="str_cha_dtvautotuning_modulation">אפנון</string>
+    <string name="str_cha_dtvautotuning_symbol">שיעור Symbol</string>
+    <string name="str_cha_dtvautotuning_networkid">מזהה רשת</string>
+    <string name="str_cha_dtvautotuning_networkid_invalid">מספר הרשת אינו חוקי</string>
+    <string name="str_cha_dtvautotuning_ok">אשרו</string>
+    <string name="str_cha_dtvautotuning_auto">אוטומטי</string>
+    <string name="str_cha_dtvautotuning_signalstrength">עוצמת אות</string>
+    <string name="str_cha_dtvautotuning_signalquality">איכות אות</string>
+    <string name="str_cha_dvbsdtvtuning_scanmode">מצב חיפוש</string>
+    <string name="str_cha_dvbsdtvtuning_servicetype">סוג של שירות</string>
+    <string name="str_cha_dvbsdtvtuning_networksearch">חיפוש תחנת Network</string>
+    <string name="str_cha_dvbsdtvtuning_transponder">גבייה</string>
+    <string name="str_cha_dvbsdtvtuning_satellite">בלוויין</string>
+    <string name="str_cha_dvbsdtvtuning_searchtype">אפשרות חיפוש</string>
+    <string name="str_cha_radio">שידור:</string>
+    <string name="str_cha_data">נתונים:</string>
+    <string name="str_cha_program">ערוץ</string>
+    <string name="str_cha_tuningprogress_percent_0">0</string>
+    <string name="str_cha_tuningprogress_uhf">UHF</string>
+    <string name="str_cha_tuningprogress_vhf">VHF</string>
+    <string name="str_cha_tuningprogress_ch">ערוץ</string>
+    <string name="str_cha_tuningprogress_freq">freq</string>
+    <string name="str_cha_tuningprogress_dtv">טלוויזיה דיגיטלית</string>
+    <string name="str_cha_exittuning_info">האם אתה בטוח שתצא טלוויזיה אנלוגי / חיפוש ערוץ טלוויזיה דיגיטלי?</string>
+     <string name="str_cha_exitDTVtuning_info">בין אם כדי לצאת לחיפוש ערוץ טלוויזיה דיגיטלי?</string>
+    <string name="str_cha_exitATVtuning_info">בין אם כדי לצאת לחפש תחנות טלוויזיה אנלוגי?</string>
+    <string name="str_cha_exitAIRtuning_info">האם אתה בטוח שאתה יוצא לחפש תחנות טלוויזיה אנלוגי אלחוטית?</string>
+    <string name="str_cha_exitCABLEtuning_info">האם אתה בטוח שאתה יוצא לחפש תחנות טלביזיה בכבלים האנלוגיות?</string>
+    <string name="str_cha_exittuning_yes">זה</string>
+    <string name="str_cha_exittuning_no">לא</string>
+    <string name="str_cha_dtvmanualtuning_channelno">מספר ערוץ</string>
+    <string name="str_cha_dtvmanualtuning_ch">ערוץ</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="str_cha_dtvmanualtuning_frequency">תדיר</string>
+    <string name="str_cha_dtvmanualtuning_modulation">אפנון</string>
+    <string name="str_cha_dtvmanualtuning_symbol">שיעור Symbol</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">חיפוש</string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">עוצמת אות</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">איכות אות</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">טלוויזיה דיגיטלית:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">שידור:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">נתונים:</string>
+    <string name="str_cha_atvmanualtuning_channelno">מספר ערוץ</string>
+    <string name="str_cha_atvmanualtuning_store_channelno">שמור ל:</string>
+    <string name="str_cha_atvmanualtuning_ch">CH</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">מערכת צבע</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">אוטומטי</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">מערכת סאונד</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">אוטומטי</string>
+    <string name="str_cha_atvmanualtuning_starttuning">חיפוש</string>
+    <string name="str_cha_atvmanualtuning_fine_tune">כוונון עדין</string>
+    <string name="str_cha_atvmanualtuning_frequency">תדירות:</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">MHz</string>
+    <string name="str_cha_dtvmanualtuning_galaxy">GALAXY</string>
+    <string name="str_cha_dtvmanualtuning_polarization">קוטבי</string>
+    <string name="str_cha_dtvmanualtuning_network">רשת</string>
+    <string name="str_cha_dtvmanualtuning_scan_mode">מצב חיפוש</string>
+    <string name="str_cha_dtvmanualtuning_service_type">סוג של שירות</string>
+    <string name="str_cha_transport_stream">Transport Stream</string>
+    <string name="str_cha_service">שירות</string>
+    <string name="str_cha_save">שמור</string>
+    <string name="str_cha_software_version">גרסת תוכנה</string>
+    <string name="str_demo_demo">הצג</string>
+    <string name="str_demo_mwe"> MWe</string>
+    <string name="str_demo_dbc"> DBC</string>
+    <string name="str_demo_off">Shut</string>
+    <string name="str_demo_dlc"> DLC</string>
+    <string name="str_demo_dcc"> DCC</string>
+    <string name="str_demo_nr">הפחתת רעש תמונה</string>
+    <string name="str_demo_uclear">בחדות גבוהה Ultra</string>
+
+    <!-- for audio language list -->
+    <string name="str_audio_language_title">שפת מוסיקה</string>
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">מידע CI</string>
+    <string name="str_cimmi_hint_ci_inserted">כרטיס CI מוכנס</string>
+    <string name="str_cimmi_hint_ci_removed">הסרת כרטיס CI</string>
+    <string name="str_cimmi_hint_ci_auto_test">CI בדיקה עצמית</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">הזן את הסיסמה</string>
+    <!-- for current action -->
+    <string name="str_current_action">טענתי</string>
+    <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">מערכת קבצי וידאו אישי</string>
+    <string name="str_pvr_file_system_select_disk">בחירת דיסק</string>
+    <string name="str_pvr_file_system_time_shift_size">משך הזמן קדימה</string>
+    <string name="str_pvr_file_system_format_start">פורמט</string>
+    <string name="str_pvr_file_system_format_context">הצלחה</string>
+    <string name="str_pvr_file_system_speed_check">מבחן מהירות</string>
+    <string name="str_pvr_file_system_speed_context">Complete</string>
+    <string name="str_pvr_file_system_always_timeshift">תמיד הזמן במשמרת</string>
+    <string name="str_pvr_file_system_always_context">Open</string>
+    <!-- for pvr full page browser -->
+    <string name="str_pvr_lcn_textview">LCN</string>
+    <string name="str_pvr_channel_textview">ערוץ</string>
+    <string name="srt_pvr_program_service_textview">תוכנית אספקה</string>
+    <string name="str_pvr_program_service_tips_red">מחק</string>
+    <string name="str_pvr_program_service_tips_green">עולה</string>
+    <string name="str_pvr_program_service_tips_descend">יורד</string>
+    <string name="str_pvr_program_service_tips_blue">רצף</string>
+    <string name="str_pvr_program_service_tips_yellow">OK</string>
+    <string name="str_pvr_lcn_title">כותרת</string>
+    <string name="str_pvr_lcn_record_data">נתוני שיא</string>
+    <string name="str_pvr_lcn_data">40872</string>
+
+    <!-- For epg schedule list -->
+    <string name="str_epg_program_schedule_list_modify">שינוי</string>
+    <string name="str_epg_program_schedule_list_delete">מחק</string>
+    <!-- For sound format info-->
+    <string name="str_sound_format_mono">MONO</string>
+    <string name="str_sound_format_dual_a">DUAL</string>
+    <string name="str_sound_format_dual_ab">DUAL AB</string>
+    <string name="str_sound_format_dual_b">DUAL B</string>
+    <string name="str_sound_format_forced_mono">MONO</string>
+    <string name="str_sound_format_g_stereo">STEREO</string>
+    <string name="str_sound_format_hidev_mono">MONO</string>
+    <string name="str_sound_format_unknown">לא ידוע</string>
+    <string name="str_sound_format_k_stereo">STEREO</string>
+    <string name="str_sound_format_left_left">שמאלי</string>
+    <string name="str_sound_format_left_right">שמאל ימין</string>
+    <string name="str_sound_format_mono_sap">SAP MONO</string>
+    <string name="str_sound_format_nicam_dual_a">NICAM DUAL</string>
+    <string name="str_sound_format_nicam_dual_ab">NICAM DUAL AB</string>
+    <string name="str_sound_format_nicam_dual_b">NICAM DUAL B</string>
+    <string name="str_sound_format_nicam_mono">MONO NICAM</string>
+    <string name="str_sound_format_nicam_stereo">STEREO NICAM</string>
+    <string name="str_sound_format_right_right">ימין ימין</string>
+    <string name="str_sound_format_stereo_sap">SAP STEREO</string>
+    <string name="str_sound_format_stereo">STEREO</string>
+
+    <!-- For audio language-->
+    <string name="str_audio_language">שפת אודיו</string>
+
+    <!-- For check password-->
+    <string name="str_check_password_pass">הסיסמה נכונה</string>
+    <string name="str_check_password_wrong">סיסמא שגויה</string>
+    <string name="str_check_password_invalid">המבצע לא תקף</string>
+    <string name="str_check_password_incorrect">סיסמא שגויה!</string>
+    <string name="str_check_password_input_number">נא להזין את המספר בתור סיסמה</string>
+    <string name="str_pvr_listview_item">הצגת טקסט</string>
+    <string name="str_pvr_playback_error_reason">יכול \ לא השמיע כראוי, והסיבה היא: \ n</string>
+    <string name="str_pvr_usb_removed">USB הוסר</string>
+    <string name="str_pvr_insert_usb">אנא הכנס דיסק U!</string>
+    <string name="str_pvr_format_usb">כדי לעצב את הצעת U שנבחרה?</string>
+    <string name="str_pvr_format_usb_progressing">דיסק USB פורמט מתקדם ... \ n אין נתק את הדיסק USB!</string>
+    <string name="str_pvr_usb_speed_test_progressing">המבחן מהיר שבוצע ב ... \ n אין לנתק את דיסק U!</string>
+    <string name="str_pvr_program_saving">שמור את התכנית ... אנא המתן!</string>
+    <string name="str_pvr_exit_confirm">שריפה ... אתה בטוח שאתה רוצה לצאת?</string>
+    <string name="str_TimeShift_exit_confirm">כאשר השינוי הוא ... אתה בטוח שאתה רוצה לצאת?</string>
+    <string name="str_pvr_is_recording">צרוב ב</string>
+    <string name="str_pvr_is_TimeShift">כאשר השינוי</string>
+    <string name="str_removable_disk">דיסק נשלף</string>
+    <string name="str_editText1">0</string>
+    <string name="str_pvr_unsurpt_flsystem">מערכת קובץ לא חוקי, פורמט!</string>
+    <string name="str_pvr_is_standby">המתנה</string>
+    <string name="str_pvr_tip">אתה מתכוון להפסיק הקלטה PVR, או ללכת למסך ההמתנה הקלטה?</string>
+    <string name="str_pvr_tip2">אתה מתכוון להפסיק הקלטה PVR?</string>
+    <string name="str_pvr_abloop_too_short">AB Repeat זמן קצר מדי, הזמן המינימלי של 2 שניות.</string>
+    <string name="str_pvr_record_fail">צרוב כישלון</string>
+    <string name="str_pvr_alwaystimeshift_record_fail">תמיד זמן משמרת שיא להיכשל</string>
+    <string name="str_pvr_no_usb">דיסק U לא מזוהה</string>
+    <string name="str_pvr_disk_read_only">דיסק קשיח לקריאה בלבד</string>
+    <string name="str_pvr_out_of_space">אין מספיק מקום בכונן</string>
+    <string name="str_pvr_data_only">אתה לא יכול לצרוב תוכנית נתונים</string>
+    <string name="str_pvr_scrambled_program">תוכנית מקושקשת</string>
+    <string name="str_pvr_ch_blocked">תוכנית Lock</string>
+    <string name="str_pvr_rating_blocked">נעל רמה</string>
+    <string name="str_channel_block">תוכנית Lock</string>
+    <string name="str_pvr_retention_expired">הגבל Retention פג תוקף</string>
+    <string name="str_pvr_vod_not_allow">תוכן VOD לא מאפשר להקליט</string>
+    <string name="str_pvr_ciplus_copy_protection">גינת CI + URI</string>
+    <string name="str_pvr_ciplus_unsupport">זה אינו תומך CI +</string>
+    <string name="str_pvr_ginga_running">גינגה פועלת</string>
+    <string name="str_pvr_bad_video_audio">אודיו וידאו פגומים</string>
+    <string name="str_pvr_max_recording_reached">המספר המרבי של כוויה</string>
+    <string name="str_pvr_mehg5_data_only">תכנית נתוני MEHG5</string>
+    <string name="str_pvr_success">הצלחה</string>
+    <string name="str_pvr_error">שגיאה</string>
+    <string name="str_pvr_overwrite_before">כאשר המעבר יכסה את התוכן המיושן</string>
+    <string name="str_pvr_still_check_disk">עיבוד, אנא המתן</string>
+
+
+    <!-- for pvr menu -->
+    <string name="str_player_recorder">הקלטה</string>
+    <string name="str_player_play">שידור</string>
+    <string name="str_player_stop">עצור</string>
+    <string name="str_player_pause">השהה</string>
+    <string name="str_player_stepin">Stepping</string>
+    <string name="str_player_rev">השמעה מהירה</string>
+    <string name="str_player_ff">ישירות למשחק</string>
+    <string name="str_player_slow">Play האיטי</string>
+    <string name="str_player_time">תשדיר בחירות</string>
+    <string name="str_player_forward">קדימה</string>
+    <string name="str_player_backward">ריטריט</string>
+    <string name="str_player_capture">לכיד</string>
+    <string name="str_pvr_file_system_menu">תפריט</string>
+    <string name="str_pvr_file_system_ok">בררתי</string>
+    <string name="str_list_menu_hint_b_skip">דילוג</string>
+    <string name="str_list_menu_hint_g_fivorite">מועדף</string>
+    <string name="str_list_menu_hint_g_edit">עריכה</string>
+    <string name="str_list_menu_hint_r_delete">מחק</string>
+    <string name="str_list_menu_hint_y_move">נייד</string>
+
+    <!-- for ci+ op -->
+    <string name="str_ciplus_op_confirmation_title">אשר CI + OP רענן</string>
+    <string name="str_ciplus_op_refresh">האם אתם מאפשרים טלוויזיה לעשות רענון פרופיל מפעיל?</string>
+    <string name="str_op_menu_title">תפריט פרופילים המפעיל</string>
+    <string name="str_op_channel_list_title">רשימת ערוצי OP</string>
+    <string name="str_op_menu">תפריט OP</string>
+    <string name="str_op_forbid_channel_tuning_content">לאסור לעשות התאמות בערוץ תחת מצב OP. \ במצב OP היציאה NPlease בהתחלה.</string>
+    <string name="str_enter_op">זן OP</string>
+    <string name="str_exit_op">OP יציאה</string>
+    <string name="str_delete_profile">מחקפרופיל</string>
+    <string name="str_delete_op_msg">האם אתה בטוח שברצונך למחוק את [פרופיל המפעיל</string>
+    <string name="str_delete_op_confirm">אשר למחוק OP</string>
+    <string name="str_forbid_channel_tuning">לאסור כוונון ערוץ</string>
+    <string name="str_cam_upgrade_alarm">CAM נמצאת תחת שדרוג. \ N נסה מאוחר יותר ...</string>
+    <string name="str_op_tuning_alarm">OP הוא כוונון. \ N נסה מאוחר יותר ...</string>
+
+    <!-- for reminder -->
+    <string name="str_reminder_mode">מצב</string>
+    <string name="str_reminder_date">תאריך</string>
+    <string name="str_reminder_month">חודש</string>
+    <string name="str_reminder_hour">שעה</string>
+    <string name="str_reminder_minute">דק</string>
+    <string name="str_reminder_channel">הצג</string>
+    <string name="str_reminder_auto">אוטומטי</string>
+    <string name="str_reminder_once">לאחר</string>
+    <string name="str_reminder_daily">כל יום</string>
+    <string name="str_reminder_weekly">שבועי</string>
+    <string name="str_reminder_title">קבעתי פגישה</string>
+    <string name="str_reminder_record_event">להקליט את האירוע הזה</string>
+
+    <!-- for source info atv -->
+    <string name="str_atv_source_imageformat">מערכת צבע</string>
+    <string name="str_atv_source_soundformat">מצב סאונד</string>
+    <string name="str_atv_source_audioformat">מערכת סאונד</string>
+
+    <string name="audio_type_mpeg">MPEG</string>
+    <string name="audio_type_dolby_d">Dolby D</string>
+    <string name="audio_type_aac">AAC</string>
+    <string name="audio_type_ac3p">AC3P</string>
+    <string name="audio_type_dra1">DRA1</string>
+
+
+
+    <!-- for Audio Info AAC Profile And Level -->
+    <string name="aac_level1">AAC L1</string>
+    <string name="aac_level2">AAC L2</string>
+    <string name="aac_level4">AAC L4</string>
+    <string name="aac_level5">AAC L5</string>
+    <string name="he_aac_level2">HE-AAC L2</string>
+    <string name="he_aac_level3">HE-AAC L3</string>
+    <string name="he_aac_level4">HE-AAC L4</string>
+    <string name="he_aac_level5">HE-AAC L5</string>
+
+    <!-- for source info dtv -->
+    <string name="str_dtv_source_info_program_period">מגזרי תכנית</string>
+    <string name="str_dtv_source_info_program_name">שם התוכנית הנוכחית</string>
+    <string name="str_dtv_source_info_program_type">סוג תוכנית</string>
+    <string name="str_dtv_source_info_program_format">פורמט וידאו</string>
+    <string name="str_dtv_source_info_audio_format">פורמטי האודיו</string>
+    <string name="str_dtv_source_info_mheg5">MHEG5</string>
+    <string name="str_dtv_source_info_Subtitle">כתוביות</string>
+    <string name="str_dtv_source_info_language">מסלולים</string>
+    <string name="str_dtv_source_info_teletext">תמונה</string>
+    <string name="str_dtv_source_info_no_teletext">מצטערים, אין מידע זמין גרפי</string>
+    <string name="str_dtv_source_info_no_subtitle">מצטערים, אין מידע זמין כתוביות</string>
+    <string name="str_dtv_source_info_unsupported_teletext">מצטערים, אין תמיכה על ידי גרפי הערוץ הנוכחי</string>
+    <string name="str_dtv_source_info_unsupported_subtitle">מצטער, אינו נתמך על ידי כתוביות הערוץ הנוכחיות</string>
+    <string name="str_dtv_source_info_description">תיאור</string>
+    <string name="str_dtv_source_info_resolution">החלטה</string>
+    <string name="str_dtv_source_info_ginga">גינגה</string>
+    <string name="str_dtv_source_info_cc_exist">CC: כן</string>
+    <string name="str_dtv_source_info_cc_noexist">CC: לא</string>
+    <string name="str_source_info_lock">נעל בערוץ:</string>
+
+    <!-- for time -->
+    <string name="str_time_confirm_tip">לחצו על הכפתור האדום כדי לאשר את זה!</string>
+    <string name="str_time_time">זמן</string>
+    <string name="str_time_date">תאריך</string>
+    <string name="str_time_currenttime">זמן מקומי</string>
+    <string name="str_time_offtime">Off זמן</string>
+    <string name="str_time_schedule">זמן אתחול</string>
+    <string name="str_time_sleep">זמן שינה</string>
+    <string name="str_time_autotime">התאמה אוטומטית</string>
+    <string name="str_time_schedule_ontime">עם הזמן</string>
+    <string name="str_time_set_time_on_title">זמן אתחול</string>
+    <string name="str_time_set_time_off_title">Off זמן</string>
+    <string name="str_time_set_time_on">הגדרת זמן אתחול</string>
+    <string name="str_time_set_time_off">קיזוז זמן</string>
+    <string name="str_time_schedule_hour">שעה</string>
+    <string name="str_time_schedule_minute">דק</string>
+    <string name="str_time_schedule_source">מקור</string>
+    <string name="str_time_schedule_channel">ערוץ</string>
+    <string name="str_time_schedule_volume">נפח</string>
+    <string name="str_time_hour">שעה</string>
+    <string name="str_time_minute">דק</string>
+    <string name="str_time_second">ב</string>
+    <string name="str_time_change_timezone">אזור זמן מתעדכן אוטומטי</string>
+
+
+    <string name="str_set_setting">הגדרת</string>
+    <string name="str_set_language">שפה</string>
+    <string name="str_set_audio_language1">השפה הראשונה</string>
+    <string name="str_set_audio_language2">שפה שנייה</string>
+    <string name="str_set_subtitle_switch">כתוביות</string>
+    <string name="str_set_subtitle_language1">שפת הכתובית הראשונה</string>
+    <string name="str_set_subtitle_language2">שפת כתוביות שנית</string>
+    <string name="str_set_language_czech">צ\'כיה</string>
+    <string name="str_set_language_danish">דני</string>
+    <string name="str_set_language_german">גרמני</string>
+    <string name="str_set_language_english">אנגלית</string>
+    <string name="str_set_language_spanish">ספרדי</string>
+    <string name="str_set_language_greek">יווני</string>
+    <string name="str_set_language_french">צרפתית</string>
+    <string name="str_set_language_croatian">קרואטי</string>
+    <string name="str_set_language_italian">שפה איטלקית</string>
+    <string name="str_set_language_hungarian">הונגרי</string>
+    <string name="str_set_language_dutch">הולנדי</string>
+    <string name="str_set_language_norwegian">שפה נורבגית</string>
+    <string name="str_set_language_polish">פולני</string>
+    <string name="str_set_language_portuguese">פורטוגזי</string>
+    <string name="str_set_language_russian">רוסי</string>
+    <string name="str_set_language_romanian">רומנית</string>
+    <string name="str_set_language_slovenian">סלובני</string>
+    <string name="str_set_language_serbian">שפה סרבית</string>
+    <string name="str_set_language_finnish">פיני</string>
+    <string name="str_set_language_swedish">שבדי</string>
+    <string name="str_set_language_bulgarian">בולגרי</string>
+    <string name="str_set_language_slovak">השפה הסלובקית</string>
+    <string name="str_set_language_chinese">סיני</string>
+    <string name="str_set_language_gaelic">גאלית</string>
+    <string name="str_set_language_welsh">וולשית</string>
+    <string name="str_set_language_irish">שפה אירית</string>
+    <string name="str_set_language_arabic">ערבי</string>
+    <string name="str_set_language_latvian">לטבי</string>
+    <string name="str_set_language_hebrew">שפה עברית</string>
+    <string name="str_set_language_turkish">שפה טורקית</string>
+    <string name="str_set_language_estonian">אסטוני</string>
+    <string name="str_set_language_gallegan">גליציאנית</string>
+    <string name="str_set_language_basque">הבסקים</string>
+    <string name="str_set_language_catalan">קטלאנית</string>
+    <string name="str_set_language_icelandic">איסלנדי</string>
+    <string name="str_set_language_letzeburgesch">לוקסמבורגית</string>
+    <string name="str_set_language_lithuanian">ליטאי</string>
+    <string name="str_set_language_ukrainian">אוקראיני</string>
+    <string name="str_set_language_byelorussian">בלארוסית</string>
+    <string name="str_set_language_maori">מאורים</string>
+    
+    <string name="str_set_language_cantonese">בשנת קנטונזית</string>
+    <string name="str_set_language_korean">קוריאני</string>
+    <string name="str_set_language_japanese">יפני</string>
+    <string name="str_set_language_hindi">הינדי</string>
+    <string name="str_set_language_thai">תאילנדי</string>
+    <string name="str_set_language_vietnamese">שפה ויאטנמית</string>
+    <string name="str_set_language_malay">מלאית</string>
+    <string name="str_set_language_qab">השמע השני</string>
+    <string name="str_set_language_qac">אודיו שלישיים</string>
+    <string name="str_set_language_multiple">רב</string>
+
+
+
+    <string name="str_set_menutime">זמן תצוגת תפריט</string>
+    <string name="str_set_menutime_5sec">5 שניות</string>
+
+
+
+    <string name="str_set_switchmode">מצב Switching</string>
+    <string name="str_set_switchmode_blackscreen">שחור</string>
+    <string name="str_set_autosourceident">זיהוי מקור</string>
+    <string name="str_set_sourcepreview">תצוגה מקדימה מקור</string>
+
+
+
+    <string name="str_set_autosourceswit">מקור זיהוי אוטומטי</string>
+
+
+
+    <string name="str_set_off">Shut</string>
+    <string name="str_set_on">Open</string>
+    <string name="str_set_colorrange">טווח צבע</string>
+    <string name="str_set_colorrange_0to255">0 ל -255</string>
+    <string name="str_set_moviemode">מצב סרט</string>
+
+
+    <string name="str_set_mhlswitch">MHL מעבר אוטומטי</string>
+
+
+    <string name="str_set_bluescreenswitch">מסך כחול</string>
+
+
+    <string name="str_set_hdmicec"> CEC</string>
+
+
+
+    <string name="str_set_standyon">מערכת במצב המתנה</string>
+
+    <string name="str_set_powersetting">הגדרות צריכת חשמל</string>
+    <string name="str_set_restoretodefault">שחזר ברירות מחדל</string>
+    <string name="str_set_hdmicec_label">CEC</string>
+    <string name="str_set_hdmicec_devicelist">רשימת ציוד</string>
+    <string name="str_set_hdmicec_off">Shut</string>
+    <string name="str_set_hdmicec_onoff"> CEC ON / OFF</string>
+    <string name="str_set_cc_setting">סט CC</string>
+    <string name="str_set_boot2launcher">כוח לממשק הראשי</string>
+    <string name="str_set_bootsource">ערוץ Power</string>
+
+
+
+    <string name="str_updating_edid">עדכון מידע AMP ...</string>
+
+    <string name="str_set_hdmicec_autostandby">מתנה אוטומטית</string>
+    <string name="str_set_powersetting_powermusic">התחל סאונד</string>
+    <string name="str_set_powersetting_powerlogo">סמל Power</string>
+    <string name="str_set_powersetting_powervolume">נפח Boot</string>
+
+    <!-- Loading -->
+
+    <string name="loading">Loading</string>
+
+    <!-- for hot key -->
+
+    <string name="volume">נפח</string>
+    <string name="picture">מצב תמונה</string>
+    <string name="sound">מצב סאונד</string>
+    <string name="zoom">מצב זום</string>
+    <string name="str_root_alert_dialog_title">שורה</string>
+    <string name="str_root_alert_dialog_message">אתה בטוח שאתה רוצה לצאת ממערכת טלוויזיה?</string>
+    <string name="go_to_tuning_dialog_message">התחל חיפוש תחנה?</string>
+    <string name="str_root_alert_dialog_confirm">בררתי</string>
+    <string name="str_root_alert_dialog_cancel">בוטל</string>
+    <string name="str_root_alert_dialog_message_restore_to_default">אתה בטוח שברצונך לאפס את זה?</string>
+
+    <!-- Factory Menu -->
+
+    <string name="str_factory_adc"> התאמת ADC</string>
+    <string name="str_factory_whitebalance">איזון לבן</string>
+    <string name="str_factory_picturemode">צפה</string>
+    <string name="str_factory_non_standard">אפשרויות לא סטנדרטיות</string>
+    <string name="str_factory_non_linear"> Non_linear</string>
+    <string name="str_factory_overscan">שולי מסך</string>
+    <string name="str_factory_ssc"> התאמת SSC</string>
+    <string name="str_factory_peq"> PEQ</string>
+    <string name="str_factory_otheroption">אפשרויות אחרות</string>
+    <string name="str_factory_adc_source">מקור</string>
+    <string name="str_factory_adc_rgain"> GAIN R</string>
+    <string name="str_factory_adc_ggain">G Gain</string>
+    <string name="str_factory_adc_bgain"> B Gain</string>
+    <string name="str_factory_adc_roffset"> R לקזז</string>
+    <string name="str_factory_adc_goffset"> פיצוי g</string>
+    <string name="str_factory_adc_boffset"> אופסט B</string>
+    <string name="str_factory_adc_autoadjust">התאמה אוטומטית</string>
+    <string name="str_factory_wbadjust_source">מקור</string>
+    <string name="str_factory_wbadjust_rgain"> GAIN R</string>
+    <string name="str_factory_wbadjust_ggain">G Gain</string>
+    <string name="str_factory_wbadjust_bgain"> B Gain</string>
+    <string name="str_factory_wbadjust_roffset"> R לקזז</string>
+    <string name="str_factory_wbadjust_goffset"> פיצוי g</string>
+    <string name="str_factory_wbadjust_boffset"> אופסט B</string>
+    <string name="str_factory_wbadjust_autoadjust">התאמה אוטומטית</string>
+    <string name="str_factory_wbadjust_colortemp">טמפרטורת צבע</string>
+    <string name="str_factory_picmode_picmode">צפה</string>
+    <string name="str_factory_picmode_brightness">בהיר</string>
+    <string name="str_factory_picmode_contrast">ניגודיות</string>
+    <string name="str_factory_picmode_saturation">רוויה</string>
+    <string name="str_factory_picmode_hue">Hue</string>
+    <string name="str_factory_picmode_sharpness">חד</string>
+    <string name="str_factory_nonlinear_curvetype">סוג Curve</string>
+    <string name="str_factory_nonlinear_osd0"> OSD_0</string>
+    <string name="str_factory_nonlinear_osd25"> OSD_25</string>
+    <string name="str_factory_nonlinear_osd50"> OSD_50</string>
+    <string name="str_factory_nonlinear_osd75"> OSD_75</string>
+    <string name="str_factory_nonlinear_osd100"> OSD_100</string>
+    <string name="str_factory_overscan_source">מקור</string>
+    <string name="str_factory_overscan_hsize"> מידות h</string>
+    <string name="str_factory_overscan_hposition">עמדה אופקית</string>
+    <string name="str_factory_overscan_vsize"> גודל V</string>
+    <string name="str_factory_overscan_vposition">עמדה אנכית</string>
+    <string name="str_factory_nonstandard_viftop"> VIF_TOP</string>
+    <string name="str_factory_nonstandard_vifvgamaximum"> VIF_VGA_MAXIMUM</string>
+    <string name="str_factory_nonstandard_vifcpkp"> VIF_CR_KP</string>
+    <string name="str_factory_nonstandard_vifcpki"> VIF_CR_KI</string>
+    <string name="str_factory_nonstandard_vifasiasignaloption"> VIF_ASIA_SIGNAL_OPTION</string>
+    <string name="str_factory_nonstandard_vifcpkpkiadjust"> VIF_CR_KP_KI_ADJUST</string>
+    <string name="str_factory_nonstandard_vifovermodulation"> VIF_OVER_MODULATION</string>
+    <string name="str_factory_nonstandard_vifclampgain"> VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+    <string name="str_factory_nonstandard_chinadescrambler"> CHINA_DESCRAMBLER_BOX</string>
+    <string name="str_factory_nonstandard_delay">מושהה</string>
+    <string name="str_factory_nonstandard_vifcrthr"> VIF_CR_THR</string>
+    <string name="str_factory_nonstandard_vifversion"> VIF_VERSION</string>
+    <string name="str_factory_nonstandard_vifagcref"> VIF_AGC_REF</string>
+    <string name="str_factory_nonstandard_gaindistributionthr"> GAIN_DISTRIBUTION_THR</string>
+    <string name="str_factory_nonstandard_afecd4"> AEFC_D4</string>
+    <string name="str_factory_nonstandard_aefcd5"> AEFC_D5 [2]</string>
+    <string name="str_factory_nonstandard_aefcd8"> AEFC_D8 [3: 0]</string>
+    <string name="str_factory_nonstandard_aefcd9"> AEFC_D9 [0]</string>
+    <string name="str_factory_nonstandard_aefcd7high"> AEFC_D7_HIGH_BOUN</string>
+    <string name="str_factory_nonstandard_aefcd7"> AEFC_D7_LOW_BOUN</string>
+    <string name="str_factory_nonstandard_aefca0"> AEFC_A0</string>
+    <string name="str_factory_nonstandard_aefca1"> AEFC_A1</string>
+    <string name="str_factory_nonstandard_aefc66"> AEFC_66 [7: 6]</string>
+    <string name="str_factory_nonstandard_aefc6e"> AEFC_6E [7: 4]</string>
+    <string name="str_factory_nonstandard_aefc6elow"> AEFC_6E [3: 0]</string>
+    <string name="str_factory_nonstandard_aefc43"> AEFC_43</string>
+    <string name="str_factory_nonstandard_aefc44"> AEFC_44</string>
+    <string name="str_factory_nonstandard_aefccb"> AEFC_CB</string>
+    <string name="str_factory_nonstandard_vddsp"> AUDIO_NR_TH</string>
+    <string name="str_factory_nonstandard_audiohidev"> AUDIO_HIDEV_MODE</string>
+    <string name="str_factory_nonstandard_audionr"> AUDIO_NR_TH</string>
+    <string name="str_factory_nonstandard_audiosif">סף אודיו SIF</string>
+    <string name="str_factory_nonstandard_audiodsp"> AUDIO_DSP_VERSION</string>
+    <string name="str_factory_ssc_miuenable"> י.ב. מופעלת</string>
+    <string name="str_factory_ssc_miumodulation"> אפנון י.ב.</string>
+    <string name="str_factory_ssc_miupercentage"> אחוז י.ב. (%)</string>
+    <string name="str_factory_ssc_lvdsenable"> LVDS מופעלת</string>
+    <string name="str_factory_ssc_lvdsmodulation"> אפנון LVDS</string>
+    <string name="str_factory_ssc_lvdspercentage"> אחוז LVDS (%)</string>
+    <string name="str_factory_peq_fo1coarse"> גולמי FO1</string>
+    <string name="str_factory_peq_fo1fine"> FO1 פיין</string>
+    <string name="str_factory_peq_fo2coarse"> גולמי FO2</string>
+    <string name="str_factory_peq_fo2fine"> קנס FO2</string>
+    <string name="str_factory_peq_fo3coarse"> FO3 הגולמי</string>
+    <string name="str_factory_peq_fo3fine"> FO3 פיין</string>
+    <string name="str_factory_peq_gain1"> קבל 1</string>
+    <string name="str_factory_peq_gain2"> קבל 2</string>
+    <string name="str_factory_peq_gain3"> קבל 3</string>
+    <string name="str_factory_peq_q1"> Q1</string>
+    <string name="str_factory_peq_q2"> Q2</string>
+    <string name="str_factory_peq_q3"> Q3</string>
+    <string name="str_factory_otheroption_version">מהדורה</string>
+    <string name="str_factory_otheroption_board">משרד</string>
+    <string name="str_factory_otheroption_panel">לוח</string>
+    <string name="str_factory_otheroption_dateandtimes">תאריך / זמן</string>
+    <string name="str_factory_otheroption_watchdog">Watchdog</string>
+    <string name="str_factory_otheroption_testpattern">מצב מבחן</string>
+    <string name="str_factory_otheroption_restoretodefault">שחזר ברירות מחדל</string>
+    <string name="str_factory_otheroption_poweronmode">מצב Power</string>
+    <string name="str_factory_otheroption_uartenable"> UART הפעילה</string>
+    <string name="str_factory_otheroption_dtvavdelay"> עיכוב AV DTV (Non_standard)</string>
+    <string name="str_factory_otheroption_initialfunction">ערוץ ראשוני</string>
+    <string name="str_factory_otheroption_panelswing">נדנדות קבוצה</string>
+    <string name="str_factory_otheroption_audioprescale">prescaler אודיו</string>
+
+    <!-- for program edit -->
+
+    <string name="str_program_edit_dialog_ok">בררתי</string>
+    <string name="str_program_edit_dialog_cancel">בוטל</string>
+    <string name="str_program_edit_dialog_input">נא להזין</string>
+    <string name="str_no_sinal">אין אות</string>
+    <string name="str_channelList_favorite">לרשימת המועדפים</string>
+    <string name="str_channelList_program">רשימת ערוצים</string>
+    <string name="program_guide_time">מדריך תוכניות: זמן</string>
+
+    <string name="str_channelList_search">חיפוש</string>
+    <string name="str_channelList_sort">רצף</string>
+
+    <!-- For Record Style -->
+    <string name="str_textview_record_title">צרוב הגדרות</string>
+    <string name="str_textview_record_chaneel_name">שם ערוץ</string>
+    <string name="str_textview_record_sbutitle">כתוביות</string>
+    <string name="str_textview_record_context">נומרית</string>
+    <string name="str_textview_record_mode">מצב</string>
+    <string name="str_textview_record_start_time">שעת ההתחלה</string>
+    <string name="str_textview_record_end_time">שעת סיום</string>
+    <string name="str_textview_record_common_ok">בחר: OK</string>
+    <string name="str_record_date">מספר</string>
+    <string name="str_record_month">חודש</string>
+    <string name="str_record_hour">כאשר</string>
+    <string name="str_record_minute">פרד</string>
+
+    <!-- For schedule list style -->
+    <string name="str_textview_schedule_list_title">רשימת ערוצים</string>
+    <string name="str_textview_schedule_list_time">זמן</string>
+    <string name="str_textview_schedule_list_date">תאריך</string>
+    <string name="str_schedule_list_channel_name">שם ערוץ</string>
+    <string name="str_schedule_list_programmer_title">שם התכנית</string>
+
+    <!-- For schedule list style -->
+    <string name="str_screenshot_tip_title">טיפים מסך</string>
+    <string name="str_screenshot_tip_msg">בין אם היירוט של המסך הנוכחי כפי המסך כאשר המכונה?</string>
+    <string name="str_screenshot_opt_success">Screenshot הצלחה!</string>
+    <string name="str_screenshot_opt_failed">כישלון מסך!</string>
+
+    <!-- For epg -->
+    <string name="str_epg_title_time">מדריך תוכניות אלקטרוני: זמן</string>
+    <string name="str_epg_title_channel">מדריך תוכניות אלקטרוני: תכנית</string>
+    <string name="str_epg_tips_b_reminder">הזכר</string>
+    <string name="str_epg_tips_r_record">הקלטה</string>
+    <string name="str_epg_tips_y_schedule">מסדרים</string>
+    <string name="str_epg_tips_g_info">מידע</string>
+    <string name="str_epg_event_extend_no_info">אין מידע</string>
+    <string name="str_epg_event_age">גיל:</string>
+    <string name="str_epg_event_content">תוכן:</string>
+    <string name="str_epg_event_genre">סוג:</string>
+    <string name="str_epg_event_name">אירוע</string>
+    <string name="str_epg_event_rating">דירוג</string>
+    <string name="str_epg_event_simulcast_hd">משודר סימולטנית</string>
+    <string name="str_epg_event_broadcastlater_hd">שידור</string>
+    <string name="str_epg_event_unresolved">לא נפתר.</string>
+    <string name="str_epg_timer_conflict">סכסוך</string>
+    <string name="str_epg_timer_prompt_delete_conflict_schedule">מחק את כל לוח זמני הסכסוך?</string>
+    <string name="str_epg_timer_delete_conflict_confirm">בררתי</string>
+    <string name="str_epg_timer_delete_conflict_cancel">בוטל</string>
+
+
+    <!-- For epg Genre-->
+    <string name="str_genre_movie">סרט</string>
+    <string name="str_genre_movie_drama">סרטים / תיאטרון</string>
+    <string name="str_genre_movie_drama_general">סרטים / תיאטרון (משולב)</string>
+    <string name="str_genre_news">חדשות</string>
+    <string name="str_genre_news_factual">חדשות אמיתיות</string>
+    <string name="str_genre_news_current_default">אקטואליה</string>
+    <string name="str_genre_news_current_general">חדשות / אקטואליה (משולב)</string>
+    <string name="str_genre_news_current">לענייני חדשות / נוכחי</string>
+    <string name="str_genre_entertainment">בידור</string>
+    <string name="str_genre_show_general">הצג / Game Show תחרות (משולב)</string>
+    <string name="str_genre_show">תחרות הצג / Game Show</string>
+    <string name="str_genre_sports_general">ספורט (משולב)</string>
+    <string name="str_genre_sport">ספורט</string>
+    <string name="str_genre_chidren">ילד</string>
+    <string name="str_genre_youth">תוכניות של ילד / ילדים</string>
+    <string name="str_genre_music_default">מוסיקה</string>
+    <string name="str_genre_music_general">מוסיקה / בלט / דאנס (משולב)</string>
+    <string name="str_genre_music">מוסיקה / בלט / ריקוד</string>
+    <string name="str_genre_art_general">אמנויות / תרבות (ללא מוסיקה, משולב)</string>
+    <string name="str_genre_art">אמנויות / תרבות (בלי מוזיקה)</string>
+    <string name="str_genre_social_general">חברתי / פוליטי / כלכלי (משולב)</string>
+    <string name="str_genre_social">חברתי / פוליטי / כלכלי</string>
+    <string name="str_genre_education_default">חינוך / מידע</string>
+    <string name="str_genre_education_uk">חינוך</string>
+    <string name="str_genre_education_others_general">נושא חינוך / מדע / אמיתי (משולב)</string>
+    <string name="str_genre_education_others">חינוך / מדע / נושא אמיתי</string>
+    <string name="str_genre_infotainment">infotainment</string>
+    <string name="str_genre_life_uk">החיים</string>
+    <string name="str_genre_life">פנאי</string>
+    <string name="str_genre_not_support">לא תומך</string>
+    <string name="str_genre_original_language">מקור השפה</string>
+    <string name="str_genre_special">מיוחד</string>
+    <string name="str_genre_special_characteristics">נכס</string>
+    <string name="str_genre_reserved">שמור לשימוש עתידי</string>
+    <string name="str_genre_drama">תיאטרון</string>
+    <string name="str_genre_user_defined">משתמש מוגדר</string>
+    <string name="str_genre_undefined">לא מוגדר</string>
+    <string name="str_genre_unclassified">בַּלמָ\'ס</string>
+    <string name="str_genre_comedy">קומדיה</string>
+    <string name="str_genre_documentary">דוקומנטרי</string>
+
+
+
+    <!-- For schedule list style -->
+    <string name="str_left_time">זמן שנותר:</string>
+    <string name="str_left_time_choosen_yes">זה</string>
+    <string name="str_left_time_choosen_no">לא</string>
+
+    <!-- For screen mode hint msg -->
+    <string name="str_invalid_service">שירותים חוקיים</string>
+    <string name="str_no_ci_module">כרטיס CI אינו מוכנס</string>
+    <string name="str_ci_plus_authentication">הסמכת CI +</string>
+    <string name="str_scrambled_program">תוכנית הצפנה</string>
+    <string name="str_program_block">תוכנית Lock</string>
+    <string name="str_parental_block">נעילת הורים</string>
+    <string name="str_rating_blocked">נעל רמה</string>
+    <string name="str_input_block">BLOCK INPUT</string>
+    <string name="str_audio_only">תוכניות אודיו</string>
+    <string name="str_data_only">צג נתונים</string>
+    <string name="str_common_video"></string>
+    <string name="str_unsupported">לא תומך</string>
+    <string name="str_no_channel_banner">אין תחנה</string>
+    <string name="str_invalid_pmt">PMT אינה חוקית</string>
+    <string name="str_no_signal">אין אות</string>
+    <string name="str_no_signal_record">אין אות להפסיק לשרוף</string>
+    <string name="str_no_signal_timeshift">אין אות תחנת משמרת</string>
+    <!-- For auto update scan -->
+    <string name="str_auto_update_scan">תכנית עדכונים אוטומטית</string>
+
+    <!-- For channel control -->
+    <string name="str_channelcontrol_scan">סריקה</string>
+    <string name="str_channelcontrol_channels">ערוצים:</string>
+	<string name="str_channelcontrol_notfound">הערוץ לא נמצא</string>
+	<string name="str_channelcontrol_done">DONE</string>
+
+	<!-- For Toast style -->
+	<string name="str_3d_toast">MWe כבוי אוטומטי כדי להבטיח מרת 3D יעילה</string>
+	<string name="str_demo_toast">פונקציית המרה 3D כיבוי אוטומטי כדי להבטיח MWe יעיל</string>
+	<string name="str_cha_cities_choosen">בחר עיר</string>
+	<string name="str_invalid_3d_format">3D בפורמט חוקי</string>
+
+
+	<!-- For CA mode -->
+	<string name="email_theme">Theme</string>
+	<string name="email_time">זמן</string>
+	<string name="email_level">רמה</string>
+	<string name="email_state">מדינה</string>
+	<string name="email_aid">[מפתח אדום] מחיק [כפתור] כדי למחוק את כל</string>
+	<string name="email_del">[מפתח האדום] למחוק</string>
+	<string name="email_free_space">יתרת השטח:</string>
+	<string name="email_free_letter">Seal</string>
+	<string name="email_important">חשוב</string>
+	<string name="email_ordinary">רגיל</string>
+	<string name="email_read">קראו</string>
+	<string name="email_unread">לא נקרא</string>
+	<string name="email">E-mail</string>
+	<string name="email_notify">Notice</string>
+	<string name="really_remove_this_email">אתה בטוח שאתה רוצה למחוק את ההודעה הזו?</string>
+	<string name="really_remove_all_email">אתה בטוח שאתה רוצה למחוק את כל ההודעות?</string>
+	<string name="ippv_freeviewed_segment">השלב חינם המקדימה IPPV</string>
+	<string name="ippv_payviewed_segment">בשלב תשלום IPPV</string>
+	<string name="ippt_payviewed_segment">בסעיף תשלום IPPT</string>
+	<string name="ippv_tvsid">מזהה מפעיל:</string>
+	<string name="ippv_payviewed_productid">הצג מזהה:</string>
+	<string name="ippv_payviewed_slotid">מזהה ארנק:</string>
+	<string name="ippv_product_state">סטטוס:</string>
+	<string name="ippv_payviewed_expireddate">תאריך תפוגה:</string>
+	<string name="ippt_interval_min">מרווח זמן:</string>
+	<string name="ippv_payviewed_cantape">מחיר הקלטת וידאו:</string>
+	<string name="ippv_payviewed_price">מחיר:</string>
+	<string name="ippv_payviewed_cannottape">מחיר הסרטון לא זמין:</string>
+	<string name="ippv_pin">PIN:</string>
+	<string name="ippv_pin_ok">הצלחה</string>
+	<string name="ippv_pointer_invalid">מצביע מחיר הוא null</string>
+	<string name="ippv_card_invalid">חוקי כרטיס חכם</string>
+	<string name="ippv_card_no_room">כרטיס חכם אין תוכנית שטח אחסון</string>
+	<string name="ippv_prog_status_invalid">כדי לרכוש תוכנית הסטטוס אינו חוקי</string>
+	<string name="ippv_pin_invalid">קוד PIN אינו חוקי</string>
+	<string name="ippv_data_not_find">אין נתונים להימצא</string>
+	<string name="ippv_info_page">דף נוכחי / IPPV הכולל:</string>
+	<string name="ippv_product_state_booking">מתוזמנות</string>
+	<string name="ippv_product_state_viewed">שידור</string>
+	<string name="ippv_can_tape">Can</string>
+	<string name="ippv_can_not_tape">אין אפשרות</string>
+	<string name="str_ca_mg_child_or_parent_card">ילד / כרטיס אמא:</string>
+	<string name="str_ca_mg_child_or_parent_card1">ילד / כרטיס אמא</string>
+	<string name="str_ca_mg_child_card">כרטיס Daughter</string>
+	<string name="str_ca_mg_parent_card">כרטיס אמא</string>
+	<string name="str_ca_mg_parent_cardnum">אמא מספר כרטיס:</string>
+	<string name="str_ca_mg_child_cardnum">ילד מספר כרטיס:</string>
+	<string name="str_ca_mg_delaytime">האכלת תקופה:</string>
+	<string name="str_ca_mg_delaytime1">מחזור האכלה</string>
+	<string name="str_ca_mg_lastfeedtime">זמן האכלה אחרון:</string>
+	<string name="str_ca_mg_lastfeedtime1">זמן האכלה האחרון</string>
+	<string name="str_ca_mg_ippv_program">מידע תוכנית IPPV</string>
+	<string name="str_ca_mg_card_info">פרטי כרטיס תמונה</string>
+	<string name="really_remove_this_info">אתה בטוח שאתה רוצה למחוק את המידע הזה?</string>
+	<string name="really_remove_all_info">אתה בטוח שאתה רוצה למחוק את כל המידע?</string>
+	<string name="is_update">אם אתה רוצה לשדרג?</string>
+	<string name="update_loading">הורדת חבילת השדרוג, אנא המתן ...</string>
+	<string name="installing">התקנת חבילת שדרוג, אנא המתן ...</string>
+	<string name="update_complete_is_reboot">חבילת שדרוג כבר הורדה, אם להפעיל מחדש את השדרוג</string>
+	<string name="update_failed">הורדה נכשלה</string>
+	<string name="please_insert_parent_card">אנא הכנס את כרטיס אמא</string>
+	<string name="please_insert_child_card">אנא הכנס כרטיס הבת</string>
+	<string name="read_feeddata_from_parent_failed">כישלון בקריאת נתוני כרטיס אמא</string>
+	<string name="feeddata_successed">הצלחת האכלה</string>
+	<string name="feeddata_failed">כישלון האכלה</string>
+	<string name="delete_successed">נמחק בהצלחה</string>
+	<string name="delete_failed">מחק נכשל</string>
+	<string name="cdca_rc_ok">מקביל למכונת הכרטיס הנוכחית</string>
+	<string name="cdca_rc_card_pairother">כרטיס חכם המתאים בממירים אחרים</string>
+	<string name="cdca_rc_card_nopair">כרטיס חכם אינו תואם את כל ממיר</string>
+	<string name="cdca_rc_invalid">ממירים או כרטיס חכם הוא לא חוקי של כרטיס</string>
+	<string name="need_please_insert_child_card">כרטיס Daughter צריך להתכתב עם מאסטרקארד, הכרטיס מוכנס לתוך הנקבה</string>
+	<string name="ippv_cdca_rc_ok">מבצע מוצלח</string>
+	<string name="ippv_cdca_rc_data_not_find">לא מצאנו המפעילים המתאימים</string>
+	<string name="cdca_rc_pointer_invalid">מצביע nULL</string>
+	<string name="clean_J2T_value">רוקן להיכנס ערך הזמן</string>
+	<string name="str_stop_record_dialog_title">אתה בטוח שאתה רוצה לצאת ממערכת וידאו?</string>
+	<string name="str_stop_record_dialog_message">האם קלטת ... אתה בטוח שאתה רוצה לצאת?</string>
+	<string name="str_stop_record_playback_dialog_message">החלפת מערכת הקלטת הערוץ תפסיק הקלטה והשמעה</string>
+	<string name="str_stop_record_dialog_confirm">בררתי</string>
+	<string name="str_stop_record_dialog_cancel">בוטל</string>
+	<string name="str_stop_record_dialog_stop">עצור</string>
+	<string name="str_stop_playback_dialog_title">הפסק הפעלה</string>
+	<string name="str_stop_playback_dialog_message">מערכת הקלטת ערוץ החלפה תפסיק השמעה</string>
+	<string name="str_disk_too_slow">דיסק U לקרוא איטי מדי</string>
+	<string name="enter_old_pwd">נא להזין את הסיסמה הישנה שלך</string>
+	<string name="enter_check_pwd">נא להזין את הסיסמה שלך</string>
+	<string name="enter_new_pwd">נא להזין סיסמא חדשה</string>
+	<string name="confirm_new_pwd">אשר סיסמא חדשה</string>
+	<string name="block_program_title">תוכנית Lock</string>
+
+
+
+	<string name="str_dtv_source_info_age">גיל</string>
+
+	<!-- FOR  Option -->
+	<string name="str_menu_option">OPTION</string>
+	<string name="str_option_caption">כיתוב</string>
+	<string name="str_option_caption_off">OFF</string>
+	<string name="str_option_ginga_on_off">גינגה</string>
+	<string name="str_option_ginga_on">ON</string>
+	<string name="str_option_ginga_off">OFF</string>
+	<string name="str_option_ginga_list">יישום גינגה</string>
+	<string name="str_option_store_cookies">עוגיות חנות</string>
+	<string name="str_option_store_cookies_off">OFF</string>
+	<string name="str_option_store_cookies_on">ON</string>
+
+
+
+	<!-- for box only -->
+	<string name="wait_for_tuning_hint">האם החיפוש, אנא המתן ...</string>
+	<string name="str_pic_xvycc">xvYCC</string>
+
+
+
+	<string name="str_vchip_vchip">הגדרות V-שבב</string>
+	<string name="str_vchip_button_lock">נעל לחצן</string>
+
+
+
+	<string name="str_vchip_block_unrated_tv">טלוויזיה בלוק לא מדורגים</string>
+
+	<string name="str_vchip_usa_parental_control">בקרת הורים אמריקנית</string>
+	<string name="str_vchip_rrt5_setting">הגדרת RRT5</string>
+	<string name="str_vchip_reset_rrt5l">איפוס RRT5</string>
+	<string name="str_vchip_change_password">שינוי סיסמה</string>
+	<string name="str_vchip_check_password">אימות סיסמא</string>
+	<string name="str_vchip_enter_check_pwd">נא להזין את הסיסמה שלך</string>
+	<string name="str_vchip_enter_old_pwd">סיסמה ישנה</string>
+	<string name="str_vchip_enter_new_pwd">סיסמא חדשה</string>
+	<string name="str_vchip_confirm_new_pwd">אישור סיסמה</string>
+	<string name="changepassword_title">שינוי סיסמה</string>
+	<string name="old_password">סיסמה ישנה</string>
+	<string name="new_password">סיסמא חדשה</string>
+	<string name="confirm_password">אישור סיסמה</string>
+	<string name="oldpasswordtip">הזן את הסיסמה הישנה.</string>
+	<string name="newpasswordtip">הזן את הסיסמה החדשה.</string>
+	<string name="confirmpasswordtip">הזן את הסיסמה כדי לאשר.</string>
+	<string name="sure">אשרו</string>
+	<string name="cancel">בוטל</string>
+	<string name="clean">הסר</string>
+	<string name="passwordsettip">נא להזין את הסיסמה שלך.</string>
+	<string name="enterpassword">נא להזין את הסיסמה שלך</string>
+	<string name="password">סיסמה:</string>
+	<string name="password_tip_old">נא להזין את הסיסמה הישנה שלך.</string>
+	<string name="password_tip_new">נא להזין סיסמה חדשה.</string>
+	<string name="password_tip_condirm">נא לאשר את הסיסמה החדשה.</string>
+	<string name="errortip">הסיסמה שגויה. נא להזין מחדש את הסיסמה שלך.</string>
+
+	<!-- for USA Parental Control -->
+	<string name="usa_movie_ratings">דירוג הסרט</string>
+	<string name="usa_movie_ratings_none">אף</string>
+	<string name="usa_movie_ratings_g">G</string>
+	<string name="usa_movie_ratings_pg">PG</string>
+	<string name="usa_movie_ratings_pg_13">PG-13</string>
+	<string name="usa_movie_ratings_r">R</string>
+	<string name="usa_movie_ratings_nc_17">NC-17</string>
+	<string name="usa_movie_ratings_x">X</string>
+	<string name="usa_movie_ratings_nr">NR</string>
+	<string name="usa_tv_ratings">דירוגי טלוויזיה</string>
+	<string name="usa_tv_ratings_none">אף</string>
+	<string name="usa_tv_ratings_tv_y">טלוויזיה-Y</string>
+	<string name="usa_tv_ratings_tv_y7">TV-Y7</string>
+	<string name="usa_tv_ratings_tv_g">TV-G</string>
+	<string name="usa_tv_ratings_tv_pg">TV-PG</string>
+	<string name="usa_tv_ratings_tv_14">TV-14</string>
+	<string name="usa_tv_ratings_tv_ma">TV-MA</string>
+	<string name="usa_tv_ratings_tv_title_all">הכל</string>
+	<string name="usa_tv_ratings_tv_title_fv">FV</string>
+	<string name="usa_tv_ratings_tv_title_l">L</string>
+	<string name="usa_tv_ratings_tv_title_s">S</string>
+	<string name="usa_tv_ratings_tv_title_v">V</string>
+	<string name="usa_tv_ratings_tv_title_d">D</string>
+	<string name="contentdescription">null</string>
+
+	<string name="old_password_not_filled_completely">סיסמא ישנה זן אותו מחדש פחות מארבעה.</string>
+	<string name="new_password_not_filled_completely">סיסמא חדשה הכנס שוב פחות מארבעה.</string>
+	<string name="originalpassworderr">אנא הזן שוב שגיאת הסיסמה הישנה שלך.</string>
+	<string name="newconfirmpassworderr">הסיסמאות לא תואמות, נא להזין מחדש.</string>
+	<string name="resetsuccess">הסיסמה שונתה בהצלחה.</string>
+	<string name="resetrrt5_title">איפוס RRT5</string>
+	<string name="resetrrt5_tips">OK?</string>
+
+	 <!-- for Canadian Parental Control -->
+	<string name="str_vchip_canadian_parental_control">בקרת הורים קנדית</string>
+
+	 <!-- Closed Caption -->
+	<string name="str_setting_cc_title">הגדרות CC</string>
+	<string name="str_setting_cc_mode">מצב CC</string>
+	<string name="str_setting_cc_basic_selection">בחירת בסיסי</string>
+	<string name="str_setting_cc_advanced_selection">מבחר מתקדם</string>
+	<string name="str_setting_cc_advanced_setting">הגדרה מתקדמת</string>
+
+
+	 <!-- Closed Caption Digital -->
+	<string name="str_setting_cc_dig_title">הגדרות CC ADV</string>
+	<string name="str_setting_cc_dig_mode">מצב</string>
+	<string name="str_setting_cc_dig_font_style">סגנון גופן</string>
+	<string name="str_setting_cc_dig_font_size">גודל גופן</string>
+	<string name="str_setting_cc_dig_font_edge_style">סגנון אדג גופן</string>
+	<string name="str_setting_cc_dig_font_edge_color">גופן אדג צבע</string>
+	<string name="str_setting_cc_dig_fg_color">צבע FG</string>
+	<string name="str_setting_cc_dig_bg_color">צבע BG</string>
+	<string name="str_setting_cc_dig_fg_opacity">FG אטימה</string>
+	<string name="str_setting_cc_dig_bg_opacity">BG אטימה</string>
+	<string name="str_setting_cc_italic_attr">נטוי</string>
+	<string name="str_setting_cc_underline_attr">קו תחתון</string>
+
+
+
+	 <!-- For OAD string define -->
+	<string name="str_oad_msg_software_not_available">OAD אינו זמין!</string>
+	<string name="str_oad_msg_download_found">תוכנה חדשה נמצאת</string>
+	<string name="str_oad_msg_dowload_prompt">הורד אותו עכשיו?</string>
+	<string name="str_oad_msg_dowload_prompt_nz">שדרוג תוכנה זמין אנא בחר YES לשדרג עכשיו -. זה ייקח כמה דקות - או לעזוב מתנה (כיבוי לחצן בשלט רחוק) כאשר סיימו צופה לשדרג מאוחר יותר תודה ..</string>
+	<string name="str_oad_msg_downloading">הורדת</string>
+	<string name="str_oad_msg_downloading_nz">המקלט שלך מוריד כרגע שדרוג תוכנה חיוני. זה ייקח רק כמה דקות. נא לא להתאים המקלט שלך או לכבות במהלך הזמן הזה. תודה.</string>
+	<string name="str_oad_msg_scan_confirm">האם אתה רוצה להתחיל מחפש תוכנה חדשה?</string>
+	<string name="str_oad_downloadprogress_percent_0">0</string>
+	<string name="str_oad_yes">כן</string>
+	<string name="str_oad_no">לא</string>
+	<string name="str_oad_exit">יציאה</string>
+
+
+
+	 <!-- For NIT update string define -->
+	<string name="str_nit_msg_frequency_change_confirm">שינוי תדר! סריקה מחדש נדרש. \ n הקש על אישור כדי לסרוק ערוץ. זה עשוי לקחת קצת זמן כדי לסיים פעולה. \ n הקש יציאה להתעלם הנדרש.</string>
+	<string name="str_nit_msg_multiplexer_add_confirm">מולטיפלקס חדש עלול להיות! זמין Re-scan נדרשת. \ n הקש על אישור כדי לסרוק ערוץ. זה עשוי לקחת קצת זמן כדי לסיים פעולה. \ n הקש יציאה להתעלם הנדרש.</string>
+	<string name="str_nit_msg_multiplexer_remove_confirm">Multiplex הסיר עשוי להיות! זמין Re-scan נדרשת. \ N הקש על אישור כדי לסרוק ערוץ. זה עשוי לקחת קצת זמן כדי לסיים פעולה. \ N הקש יציאה להתעלם הנדרש.</string>
+	<string name="str_nit_ok">OK</string>
+	<string name="str_nit_exit">יציאה</string>
+
+	 <!-- For DVBS LNB Setting -->
+	<string name="str_lnbsetting_title">הגדרת LNB</string>
+	<string name="str_lnbsetting_satellite">בלוויין</string>
+	<string name="str_lnbsetting_transponder">גבייה</string>
+	<string name="str_lnbsetting_transponder_freq">(MHz)</string>
+	<string name="str_lnbsetting_transponder_symbol">(KS / s)</string>
+	<string name="str_lnbsetting_lnbpower">כוח LNB</string>
+	<string name="str_lnbsetting_compensation">פיצוי כבל ארוך</string>
+	<string name="str_lnbsetting_frequencies">LNB Low / תדרים גבוהים</string>
+	<string name="str_lnbsetting_frequencies_title">סוג LNB</string>
+	<string name="str_lnbsetting_frequencies_low">נמוך</string>
+	<string name="str_lnbsetting_frequencies_high">גבוה</string>
+	<string name="str_lnbsetting_frequencies_set">שינוי הגדרות</string>
+	<string name="str_lnbsetting_22knz_tone">Tone 22kHz</string>
+	<string name="str_lnbsetting_toneburst">toneburst</string>
+	<string name="str_lnbsetting_diseqc_1_0">DiSEqC 1.0</string>
+	<string name="str_lnbsetting_diseqc_1_1">DiSEqC 1.1</string>
+	<string name="str_lnbsetting_diseqc_1_2">DiSEqC 1.2</string>
+	<string name="str_lnbsetting_diseqc_1_3">DiSEqC 1.3</string>
+	<string name="str_lnboptting_diseqc_change">DiSEqC שינוי</string>
+	<string name="str_lnbsetting_motor_none">אף</string>
+	<string name="str_lnbsetting_motor">מוטור</string>
+	<string name="str_lnbsetting_signalquality">איכות</string>
+	<string name="str_lnbsetting_strength">Strength</string>
+	<string name="str_lnbsetting_singlecable">כבל יחיד</string>
+	<string name="str_lnbsetting_singlecable_none">אף</string>
+	<string name="str_lnbsetting_singlecable_slot">חריץ</string>
+	<string name="str_lnbsetting_singlecable_freq">תדרים</string>
+	<string name="str_lnbsetting_singlecable_pin">פין</string>
+	<string name="str_lnbsetting_singlecable_lnb">LNB</string>
+	<string name="str_lnbsetting_singlecable_verify">ודא</string>
+	<string name="str_lnboption_menu_hint_add">הוספה</string>
+	<string name="str_lnboption_menu_hint_delete">מחק</string>
+	<string name="str_lnboption_menu_hint_edit">עריכה</string>
+	<string name="str_lnboption_menu_hint_position">Position</string>
+	<string name="str_lnboption_menu_hint_limit">הגבל</string>
+	<string name="str_lnboption_menu_hint_location">מיקום</string>
+	<string name="str_lnboption_editor_number">מס</string>
+	<string name="str_lnboption_editor_longitude_direction">כיוון אורך</string>
+	<string name="str_lnboption_editor_longitude_angle">זווית קו אורך</string>
+	<string name="str_lnboption_editor_frequency">תדיר</string>
+	<string name="str_lnboption_editor_symbolrate">שערי Symbol</string>
+	<string name="str_lnboption_editor_band">Band</string>
+	<string name="str_lnboption_editor_polarization">קיטוב</string>
+	<string name="str_lnboption_editor_rename">שינוי שם</string>
+	<string name="str_lnboption_editor_name">שם</string>
+	<string name="str_lnboption_editor_del_dialog_title">טיפ</string>
+	<string name="str_lnboption_editor_del_dialog_msg">למחוק את הפריט שנבחר?</string>
+	<string name="str_lnboption_editor_del_dialog_yes">כן</string>
+	<string name="str_lnboption_editor_del_dialog_no">לא</string>
+	<string name="str_lnb_motor_editor_title">הגדרת מוטור</string>
+	<string name="str_lnb_motor_editor_move_auto">זז אוטומטי</string>
+	<string name="str_lnb_motor_editor_move_continue">עבר המשך</string>
+	<string name="str_lnb_motor_editor_move_step">שלב העברה (1)</string>
+	<string name="str_lnb_motor_editor_store_position">עמדת חנות</string>
+	<string name="str_lnb_motor_editor_goto_position">עבור אל מקם</string>
+	<string name="str_lnb_motor_editor_set_west_limit">הגדר המערבית הגבל</string>
+	<string name="str_lnb_motor_editor_set_east_limit">גדר מזרחית הגבל</string>
+	<string name="str_lnb_motor_editor_goto_reference">לך על ההפניה</string>
+	<string name="str_lnb_motor_editor_goto_x">עבור אל X</string>
+	<string name="str_lnb_motor_editor_disable_limit">השבתת הגבל</string>
+	<string name="str_lnb_motor_editor_location">מיקום:</string>
+	<string name="str_lnb_motor_editor_longitude_direction">כיוון אורך</string>
+	<string name="str_lnb_motor_editor_longitude_angle">זווית קו אורך</string>
+	<string name="str_lnb_motor_editor_latitude_direction">כיוון Latitude</string>
+	<string name="str_lnb_motor_editor_latitude_angle">זווית Latitude</string>
+	<string name="str_lnb_motor_editor_ok">אוקי</string>
+	<string name="str_lnb_motor_editor_stop">עצור</string>
+	<string name="str_lnb_motor_editor_east">מזרח</string>
+	<string name="str_lnb_motor_editor_west">המערב</string>
+
+
+	<string name="bt_info_left">Left</string>
+	<string name="bt_info_switch">בחר: OK</string>
+	<string name="bt_info_adjust">ניווט:</string>
+	<string name="bt_info_right">Right</string>
+	<string name="bt_info_up">ביום</string>
+	<string name="bt_info_down">תחתון</string>
+	<string name="bt_info_ok">בררתי</string>
+	<string name="bt_info_back">חזרות:</string>
+	<string name="bt_info_exit">צא</string>
+
+
+	<!-- For target region -->
+	<string name="str_target_region_country">מדינה</string>
+	<string name="str_target_region_primary">האזור הראשון</string>
+	<string name="str_target_region_secondary">התחום השני</string>
+	<string name="str_target_region_tertiary">התחום השלישי</string>
+	<string name="sound_screen_save">אודות כדי להיכנס למצב מסך כבוי, לחץ על מקש כלשהו כדי לבטל</string>
+
+
+	<string name="str_mhz">MHz</string>
+	<string name="exittip">הקש על מקש Esc כדי לצאת חיפוש התפריט או תחנת</string>
+	<string name="str_sound_format_desconocido">Desconocido</string>
+	<string name="str_cha_tv_route_desconocido">Desconocido</string>
+	<string name="st_ca_rc_desconocido">שגיאה לא חוקית</string>
+	<string name="sky_picture">תמונה</string>
+	<string name="sky_sound">נשמע</string>
+	<string name="sky_chanel">ערוץ</string>
+	<string name="sky_setting">הגדרת</string>
+	<string name="sky_time">זמן</string>
+	<string name="sky_lock">נעילת הורים</string>
+	<!-- For HDMI EDID Version -->
+	<string name="str_hdmi_edid_version">גרסת HDMI EDID</string>
+	<string name="str_hdmi_edid_version_change">החלפת גרסת HDMI EDID</string>
+	<string name="str_hdmi_edid_version_wait">אנא המתן ...</string>
+
+
+
+	<string name="str_tv_unknown">לא ידוע</string>
+
+	<string name="str_set_hbbtv_switch">HbbTV</string>
+
+
+	<string name="str_preferred_channel_list">רשימת ערוצים מועדפים</string>
+	<!-- For all input sources -->
+
+	<string name="str_input_source_lock_title">נעילת ערוץ</string>
+	<string name="str_input_source_lock_prompt">נעילה / ביטול נעילה</string>
+	<string name="str_input_source_reset_prompt">כל האיפוס</string>
+
+	<string name="source_info_DTV">טלוויזיה דיגיטלית</string>
+	<string name="source_info_ATV">טלוויזיה אנלוגי</string>
+	<string name="source_info_AV1">וידאו</string>
+	<string name="source_info_AV2">וידאו 2</string>
+	<string name="source_info_VGA">מחשב</string>
+	<string name="source_info_HDMI1">HD 1</string>
+	<string name="source_info_HDMI2">HD 2</string>
+		
+	<!-- EWS  -->
+	<string name="str_ews_status_awas">AWAS STATUS</string>
+	<string name="str_ews_status_siaga">STATUS SIAGA</string>
+	<string name="str_ews_status_waspada">STATUS WASPADA:</string>
+
+	<string name="str_ews_code">Bencana:</string>
+	<string name="str_ews_event_date">Tanggal:</string>
+	<string name="str_ews_position">Posisi:</string>
+	<string name="str_ews_characteristic">Karakter:</string>
+	<string name="str_ews_message">Pesan:</string>
+
+	<string name="str_ews_main_menu_location_code">קוד מיקום</string>
+
+	<string name="str_ews_location_code">קוד מיקום:</string>
+	<string name="str_ews_location_code_save">שמור</string>
+	<string name="str_ews_location_code_cancel">לבטל</string>
+
+
+
+	<string name="str_cha_ntsc_antannatype">סוג האנטנה</string>
+	<string name="tuning_no_powoff">החיפוש הוא, המבצע לא ניתן לכבות!</string>
+
+	<!-- for pvr activity -->
+	<string name="str_pvr_recording_poweroff_title">שורה</string>
+	<string name="str_pvr_timeshif_to_recording_message">האם מוזז, הגיע הזמן לקבוע פגישה, אשר שברצונך להפסיק ולהתחיל לשרוף לשרוף?</string>
+	<string name="str_pvr_recording_poweroff_message">שריפה, לאשר שאתה רוצה לשרוף ולהפסיק מחכה?</string>
+	<string name="str_pvr_timeshif_poweroff_message">כאשר השינוי הוא אשר משמרת מתנה מתי להפסיק?</string>
+	<string name="str_pvr_recording_poweroff_positive_text">זה</string>
+	<string name="str_pvr_recording_poweroff_nagative_text">לא</string>
+
+	<string name="str_channeltuning_stop">אנא המתן</string>
+
+	<string name="str_power_off_confirm">האם אתה בטוח שאתה רוצה לכבות?</string>
+
+
+	<string-array name="str_arr_pic_picturemode_vals">
+	    <item>אור</item>
+	    <item>תקן</item>
+	    <item>ג\'נטל</item>
+	    <item>משתמש</item>
+	    <item>משחק</item>
+	    <item>אוטומטי</item>
+	    <item>מחשב</item>
+	    <item>ברייט</item>
+	    <item>באופן טבעי</item>
+	    <item>ספורט</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_colortemperature_vals">
+	    <item>צבע מגניב</item>
+	    <item>תקן</item>
+	    <item>צבע חם</item>
+	    <item>משתמש</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_zoommode_vals">
+	    <item>ברירת</item>
+	    <item>0.672916666666667</item>
+	    <item>0.16875</item>
+	    <item>אוטומטי</item>
+	    <item>Panoramic</item>
+	    <item>גודל מקורי</item>
+	    <item>זום 1</item>
+	    <item>זום 2</item>
+	    <item>0.589583333333333</item>
+	    <item>לנקודה</item>
+	    <item>כתוביות</item>
+	    <item>טלוויזיה</item>
+	    <item>משתמש</item>
+	    <item>Panoramic (4x3)</item>
+	    <item>מסך רחב (4x3)</item>
+	    <item>פסים אנכיים (16x9)</item>
+	    <item>Scan (16x9)</item>
+	    <item>מזג (4x3)</item>
+	    <item>מזג (16x9)</item>
+	    <item>זום 2x</item>
+	    <item>זום 3x</item>
+	    <item>זום X4</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_imgnoisereduction_vals">
+	    <item>Shut</item>
+	    <item>חלש</item>
+	    <item>בשנת</item>
+	    <item>סטרונג</item>
+	    <item>אוטומטי</item>
+	</string-array>
+	<string-array name="str_arr_pic_mpegnoisereduction_vals">
+	    <item>Shut</item>
+	    <item>חלש</item>
+	    <item>בשנת</item>
+	    <item>סטרונג</item>
+	</string-array>
+	<string-array name="str_arr_sleep_mode_vals">
+	    <item>Shut</item>
+	    <item> 10 דקות</item>
+	    <item> 20 דקות</item>
+	    <item> 30 דקות</item>
+	    <item> 60 דקות</item>
+	    <item> 90 דקות</item>
+	    <item> 120 דקות</item>
+	    <item> 180 דקות</item>
+	    <item> 240 דקות</item>
+	</string-array>
+	<string-array name="str_arr_pvr_mode_vals">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_soundmode_vals">
+	    <item>תקן</item>
+	    <item>מוסיקה</item>
+	    <item>סרט</item>
+	    <item>ספורט</item>
+	    <item>משתמש</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_avc_vals">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_surround_vals">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_spdifoutput_vals">
+	    <item>PCM</item>
+	    <item>Shut</item>
+	    <item>RAW</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_separatehear_vals">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_self_adaptive_detecttriple_vals">
+	    <item>סגירה</item>
+	    <item>עכשיו</item>
+	    <item>בסיום הסריקה משתנה</item>
+	    <item>זמן אמת</item>
+	</string-array>
+
+	<string-array name="str_arr_3dto2d_self_adaptive_detecttriple_vals">
+	    <item>סגירה</item>
+	    <item>עכשיו</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_self_adaptive_detectlevel_vals">
+	    <item>חלש</item>
+	    <item>בשנת</item>
+	    <item>סטרונג</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3dconversion_vals">
+	    <item>סגירה</item>
+	    <item>אודות</item>
+	    <item>למעלה ולמטה</item>
+	    <item>high-definition כפול</item>
+	    <item>קווי שזור</item>
+	    <item>2D ל 3D</item>
+	    <item>אוטומטי</item>
+	    <item>לוּחַ שַׁחְמָט</item>
+	    <item>בשורה מדורגת</item>
+	    <item>interleave Frame</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3dto2d_vals">
+	    <item>סגירה</item>
+	    <item>אודות</item>
+	    <item>למעלה ולמטה</item>
+	    <item>high-definition כפול</item>
+	    <item>קווי שזור</item>
+	    <item>interleave Frame</item>
+	    <item>אוטומטי</item>
+	    <item>לוּחַ שַׁחְמָט</item>
+	    <item>בשורה מדורגת</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3ddepth_vals">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	    <item>21</item>
+	    <item>22</item>
+	    <item>23</item>
+	    <item>24</item>
+	    <item>25</item>
+	    <item>26</item>
+	    <item>27</item>
+	    <item>28</item>
+	    <item>29</item>
+	    <item>30</item>
+	    <item>31</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3doffset_vals">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	    <item>21</item>
+	    <item>22</item>
+	    <item>23</item>
+	    <item>24</item>
+	    <item>25</item>
+	    <item>26</item>
+	    <item>27</item>
+	    <item>28</item>
+	    <item>29</item>
+	    <item>30</item>
+	    <item>31</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_autostart_vals">
+	    <item>סגירה</item>
+	    <item>2D</item>
+	    <item>3D</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3doutputaspect_vals">
+	    <item>מסך מלא</item>
+	    <item>0.16875</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_lrswitch_vals">
+	    <item>סגירה</item>
+	    <item>Open</item>
+	</string-array>
+
+	<!-- FIXME: Remove element if useless -->
+	<string-array name="str_arr_cha_antannatype">
+	    <item>DTMB</item>
+	    <item>DVB-C</item>
+	    <item>DVB-T</item>
+	    <item>MAX</item>
+	</string-array>
+
+	<!-- FIXME: Remove element if useless -->
+	<string-array name="str_arr_cha_atsc_antannatype">
+	    <item>לא</item>
+	    <item>אנטנה</item>
+	    <item>Wired</item>
+	</string-array>
+
+	<string-array name="str_arr_autotuning_country">
+	    <item>אוסטרליה</item>
+	    <item>אוסטריה</item>
+	    <item>בלגיה</item>
+	    <item>בולגרי</item>
+	    <item>קרואטיה</item>
+	    <item>צ\'כיה</item>
+	    <item>דנמרק</item>
+	    <item>פינלנד</item>
+	    <item>צרפת</item>
+	    <item>גרמניה</item>
+	    <item>יוון</item>
+	    <item>הונגריה</item>
+	    <item>איטליה</item>
+	    <item>לוקסמבורג</item>
+	    <item>הולנד</item>
+	    <item>נורבגיה</item>
+	    <item>פולין</item>
+	    <item>פורטוגל</item>
+	    <item>רומני</item>
+	    <item>רוסיה</item>
+	    <item>סרביה</item>
+	    <item>סלובניה</item>
+	    <item>ספרד</item>
+	    <item>שוודיה</item>
+	    <item>שווייץ</item>
+	    <item>בריטניה</item>
+	    <item>ניו זילנד</item>
+	    <item>ערבי</item>
+	    <item>אסטוניה</item>
+	    <item>עברי</item>
+	    <item>לטביה</item>
+	    <item>סלובקיה</item>
+	    <item>טורקיה</item>
+	    <item>אירלנד</item>
+	    <item>יפן</item>
+	    <item>פיליפיני</item>
+	    <item>תאילנד</item>
+	    <item>האיים המלדיביים</item>
+	    <item>אורוגוואי</item>
+	    <item>פרו</item>
+	    <item>ארגנטינה</item>
+	    <item>צ\'ילה</item>
+	    <item>ונצואלה</item>
+	    <item>אקוודור</item>
+	    <item>קוסטה ריקה</item>
+	    <item>פרגוואי</item>
+	    <item>בוליביה</item>
+	    <item>בליז</item>
+	    <item>ניקרגואה</item>
+	    <item>גואטמלה</item>
+	    <item>סין</item>
+	    <item>טייוואן</item>
+	    <item>ברזיל</item>
+	    <item>קנדה</item>
+	    <item>מקסיקו</item>
+	    <item>ארצות הברית</item>
+	    <item>קוריאה</item>
+	    <item>פיג\'י</item>
+	    <item>אוזבקיסטן</item>
+	    <item>טג\'יקיסטן</item>
+	    <item>אתיופיה</item>
+	    <item>אזרבייג\'ן</item>
+	    <item>דרום אפריקה</item>
+	    <item>אלג\'יריה</item>
+	    <item>מצרים</item>
+	    <item>ערב הסעודית</item>
+	    <item>איראן</item>
+	    <item>עיראק</item>
+	    <item>נמיביה</item>
+	    <item>כווית</item>
+	    <item>אינדונזיה</item>
+	    <item>ישראל</item>
+	    <item>קטאר</item>
+	    <item>ניגריה</item>
+	    <item>זימבבואה</item>
+	    <item>ליטא</item>
+	    <item>מרוקו</item>
+	    <item>תוניסיה</item>
+	    <item>הודו</item>
+	    <item>וייטנאם</item>
+	    <item>הונג קונג</item>
+	    <item>קולומביה</item>
+	    <item>מלזיה</item>
+	    <item>סינגפור</item>
+	</string-array>
+	<string-array name="str_arr_signalinfo_qam_cab">
+	    <item>16QAM</item>
+	    <item>32QAM</item>
+	    <item>64QAM</item>
+	    <item>128QAM</item>
+	    <item>256QAM</item>
+	</string-array>
+
+	<string-array name="str_arr_signalinfo_qam_dvbt">
+	    <item>QPSK</item>
+	    <item>16QAM</item>
+	    <item>64QAM</item>
+	    <item>256QAM</item>
+	</string-array>
+	<!-- for dtv auto tune option -->
+	<string-array name="strs_cha_dtvautotuning_dvbc_tuning_mode">
+	    <item>חיפוש תחנת תדירות מלאה</item>
+	    <item>חיפוש תחנת Network</item>
+	</string-array>
+	<string-array name="strs_cha_dtvautotuning_demodulation_tbl">
+	    <item>16 QAM</item>
+	    <item>32 QAM</item>
+	    <item>64 QAM</item>
+	    <item>128 QAM</item>
+	    <item>256 QAM</item>
+	</string-array>
+
+	<string-array name="str_arr_dtvmanualtuning_polarization_vals">
+	    <item>מיקום אנכי</item>
+	    <item>מיקום אופקי</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_network_vals">
+	    <item>כבוי</item>
+	    <item>ביום</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_scan_mode_vals">
+	    <item>חינם</item>
+	    <item>מירוץ + חינם</item>
+	    <item>לִטרוֹף</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_service_type_vals">
+	    <item>טלוויזיה דיגיטלית</item>
+	#NAME?
+	    <item>רדיו</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_lnbtype_vals">
+	    <item>ג</item>
+	    <item>Ku</item>
+	</string-array>
+	<string-array name="str_arr_mwe_text">
+	    <item>Shut</item>
+	    <item>אופטימיזציה</item>
+	    <item>יוצאת וידה על העליונה</item>
+	    <item>מסך מפוצל</item>
+	    <item>Dynamic</item>
+	    <item>אפקט</item>
+	    <item>תיבת נייד</item>
+	</string-array>
+	<string-array name="str_arr_demo_onoff">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+
+	<string-array name="str_arr_setting_audio_type_iso_text">
+	    <item></item>
+	    <item>C.E</item>
+	    <item>H.I.</item>
+	    <item>V.I.</item>
+	</string-array>
+
+	<string-array name="str_arr_time_switch">
+	    <item>סגירה</item>
+	    <item>Open</item>
+	</string-array>
+	<string-array name="str_arr_time_autotimetype">
+	    <item>סגירה</item>
+	    <item>טלוויזיה דיגיטלית</item>
+	    <item>רשת</item>
+	    <item>אוטומטי</item>
+	</string-array>
+	<string-array name="str_arr_time_source">
+	    <item>זיכרון</item>
+	    <item>בית</item>
+	    <item>מולטימדיה</item>
+	    <item>DLNA</item>
+	</string-array>
+
+	<string-array name="str_arr_subtitle_switch">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_set_menutimetype">
+	    <item>5 שניות</item>
+	    <item>10 שניות</item>
+	    <item>15 שניות</item>
+	    <item>20 שניות</item>
+	    <item>30 שניות</item>
+	    <item>תמיד</item>
+	</string-array>
+
+	<string-array name="str_arr_set_switchmodetype">
+	    <item>שחור</item>
+	    <item>שיקוף</item>
+	</string-array>
+
+
+	<string-array name="str_arr_set_sourceidenttype">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+	<string-array name="str_arr_set_sourcepreviewtype">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+	<string-array name="str_arr_set_hdmiarctype">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_set_sourceswittype">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+
+	<string-array name="str_arr_set_moviemodetype">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_set_mhlautoswitch_onoff">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_set_bluescreenswitchtype">
+	    <item>Open</item>
+	    <item>Shut</item>
+	</string-array>
+	<string-array name="str_arr_set_colorrangetype">
+	    <item>0 ל -255</item>
+	    <item>16 כדי 235</item>
+	    <item>אוטומטי</item>
+	</string-array>
+
+	<string-array name="str_arr_set_hdmicectype">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_set_standyontype">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_set_hdmicec_onoff">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+	<string-array name="str_arr_set_powersetting_onoff">
+	    <item>Open</item>
+	    <item>Shut</item>
+	</string-array>
+	<string-array name="str_sort_type">
+	    <item>מראש</item>
+	    <item>בלוויין</item>
+	    <item>שם</item>
+	    <item>הצף</item>
+	    <item>LCN</item>
+	    <item>תדיר</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_time_check_display_info">
+	    <item>לא</item>
+	    <item>הצלחת טיימינג</item>
+	    <item>שייסגר</item>
+	    <item>כיסוי Timing</item>
+	    <item>זמן התחלה מאוחרת יותר משעת הסיום</item>
+	    <item>סוף התקופה היה חריג</item>
+	    <item>הרשימה המלאה</item>
+	    <item>ובכל סכסוך תזכורת חדש</item>
+	    <item>וגם להזכיר את הסכסוך במסד הנתונים</item>
+	</string-array>
+	<string-array name="str_arr_video_type">
+	    <item></item>
+	    <item>MPEG</item>
+	    <item>H.264</item>
+	    <item>AVS</item>
+	    <item>VC1</item>
+	    <item>HEVC</item>
+	</string-array>
+
+	<string-array name="cities_option_array">
+	    <item>אחר</item>
+	    <item>בייג\'ינג</item>
+	    <item>Anhui</item>
+	    <item>Hefei</item>
+	    <item>Anqing</item>
+	    <item>Bengbu</item>
+	    <item>שיאמן</item>
+	    <item>Quanzhou</item>
+	    <item>Luoyang</item>
+	    <item>Zhangzhou</item>
+	    <item>מָחוֹז</item>
+	    <item>גואנגדונג</item>
+	    <item>Dongguan</item>
+	    <item>גויאנג</item>
+	    <item>Seaport</item>
+	    <item>Shijiazhuang</item>
+	    <item>Qinhuangdao</item>
+	    <item>טאנגשאן</item>
+	    <item>חרבין</item>
+	    <item>Zhengzhou</item>
+	    <item>Luoyang</item>
+	    <item>נניאנג</item>
+	    <item>הוביי</item>
+	    <item>ווהאן</item>
+	    <item>הואנגנג</item>
+	    <item>ג\'ינגזהו</item>
+	    <item>ייצ\'אנג</item>
+	    <item>צ\'נגשה Quanta</item>
+	    <item>Guoan צ\'נגשה</item>
+	    <item>Nantong</item>
+	    <item>נאנצ\'אנג</item>
+	    <item>ג\'ילין</item>
+	    <item>דאליאן</item>
+	    <item>Hohhot</item>
+	    <item>שיאן</item>
+	    <item>צ\'נגדו</item>
+	    <item>אורומקי</item>
+	    <item>ג\'ינחואה</item>
+	    <item>Ningbo</item>
+	    <item>Shaoxing</item>
+	</string-array>
+
+	<string-array name="guidance_list_default_string">
+	    <item>סגירה</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	</string-array>
+
+	<string-array name="guidance_list_singapore_string">
+	    <item>סגירה</item>
+	    <item>G</item>
+	    <item>PG</item>
+	    <item>PG13</item>
+	    <item>NC16</item>
+	    <item>M18</item>
+	    <item>R21</item>
+	</string-array>
+
+	<string-array name="guidance_list_australian_string">
+	    <item>סגירה</item>
+	    <item>חסום את כל</item>
+	    <item>P</item>
+	    <item>ג</item>
+	    <item>G</item>
+	    <item>PG</item>
+	    <item>M</item>
+	    <item>MA15 +</item>
+	    <item>AV15 +</item>
+	    <item>R</item>
+	</string-array>
+
+	<string-array name="contentlock_list">
+	    <item>אף</item>
+	    <item>סמים</item>
+	    <item>אלימות</item>
+	    <item>אלימות וסמים</item>
+	    <item>סקס</item>
+	    <item>סקס וסמים</item>
+	    <item>אלימות ומין</item>
+	    <item>אלימות, סקס וסמים</item>
+	</string-array>
+
+	<string-array name="str_arr_option_caption">
+	    <item>OFF</item>
+	    <item>ON</item>
+	    <item>CC1</item>
+	    <item>CC2</item>
+	    <item>cc3</item>
+	    <item>cc4</item>
+	    <item>טקסט 1</item>
+	    <item>text2</item>
+	    <item>טקסט 3</item>
+	    <item>TEXT4</item>
+	</string-array>
+	<string-array name="str_arr_option_closed_caption">
+	    <item>OFF</item>
+	    <item>ON</item>
+	    <item>ON כשעומעם</item>
+	    <item>CC1</item>
+	    <item>CC2</item>
+	    <item>cc3</item>
+	    <item>cc4</item>
+	    <item>טקסט 1</item>
+	    <item>text2</item>
+	    <item>טקסט 3</item>
+	    <item>TEXT4</item>
+	</string-array>
+
+
+
+	<string-array name="str_arr_xvycc_vals">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_vchip_button_lock_vals">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="str_arr_vchip_block_unrated_tv_vals">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<string-array name="setting_canadian_parental_locks_titles">
+	    <item>אנגלית קנדית</item>
+	    <item>צרפתית קנדית</item>
+	</string-array>
+	<string-array name="canadian_english_titles">
+	    <item>E</item>
+	    <item>ג</item>
+	    <item>C8 +</item>
+	    <item>G</item>
+	    <item>PG</item>
+	    <item>14+</item>
+	    <item>18+</item>
+	</string-array>
+	<string-array name="canadian_french_titles">
+	    <item>E</item>
+	    <item>G</item>
+	    <item>8 עוז +</item>
+	    <item>13 ans +</item>
+	    <item>16 ans +</item>
+	    <item>18 ans +</item>
+	</string-array>
+	<string-array name="setting_canadian_parental_locks_values">
+	    <item>כבוי</item>
+	    <item>ביום</item>
+	</string-array>
+	<string-array name="rrt5_value">
+	    <item>Unlock</item>
+	    <item>נעל</item>
+	</string-array>
+	<string-array name="vchip_setting_titles">
+	    <item>נעל לחצן</item>
+	    <item>טלוויזיה בלוק לא מדורגים</item>
+	    <item>ארה"ב מנעולים הורים</item>
+	    <item>מנעולים קנדיים הורים</item>
+	    <item>הגדרת RRT5</item>
+	    <item>איפוס RRT5</item>
+	    <item>שינוי סיסמה</item>
+	</string-array>
+
+	<string-array name="setting_closed_caption">
+	    <item>מצב CC</item>
+	    <item>בחירת בסיסי</item>
+	    <item>מבחר מתקדם</item>
+	    <item>הגדרה מתקדמת</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_mode_vals">
+	    <item>ביום</item>
+	    <item>כבוי</item>
+	    <item>ביום כאשר השתק</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_basic_selection_vals">
+	    <item>כבוי</item>
+	    <item>CC1</item>
+	    <item>CC2</item>
+	    <item>cc3</item>
+	    <item>cc4</item>
+	    <item>טקסט 1</item>
+	    <item>טקסט 2</item>
+	    <item>טקסט 3</item>
+	    <item>Text4</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_advanced_selection_vals">
+	    <item>כבוי</item>
+	    <item>Service1</item>
+	    <item>Service2</item>
+	    <item>Service3</item>
+	    <item>Service4</item>
+	    <item>Service5</item>
+	    <item>Service6</item>
+	</string-array>
+
+	<string-array name="setting_digital_cc_mode">
+	    <item>Custom</item>
+	    <item>ברירת</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_size">
+	    <item>Normal</item>
+	    <item>קטן</item>
+	    <item>גדול</item>
+	    <item>ברירת</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_style">
+	    <item>ברירת</item>
+	    <item>style1</item>
+	    <item>Style2</item>
+	    <item>Style3</item>
+	    <item>Style4</item>
+	    <item>Style5</item>
+	    <item>Style6</item>
+	    <item>Style7</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_edge_style">
+	    <item>אף</item>
+	    <item>מוגבה</item>
+	    <item>מדוכא</item>
+	    <item>אחיד</item>
+	    <item>צל שמאל</item>
+	    <item>צל ימני</item>
+	    <item>ברירת</item>
+	</string-array>
+	<string-array name="setting_digital_cc_caption_color">
+	    <item>שחור</item>
+	    <item>אדום</item>
+	    <item>גרין</item>
+	    <item>צהוב</item>
+	    <item>כחול</item>
+	    <item>מג\'נטה</item>
+	    <item>ציאן</item>
+	    <item>לבן</item>
+	    <item>ברירת</item>
+	</string-array>
+	<string-array name="setting_digital_cc_caption_opacity">
+	    <item>Solid</item>
+	    <item>מהבהב</item>
+	    <item>שקוף</item>
+	    <item>שקוף</item>
+	    <item>ברירת</item>
+	</string-array>
+	<string-array name="setting_digital_cc_italic_attr">
+	    <item>OFF</item>
+	    <item>ON</item>
+	</string-array>
+	<string-array name="setting_digital_cc_underline_attr">
+	    <item>OFF</item>
+	    <item>ON</item>
+	</string-array>
+
+	<string-array name="str_arr_software_update_oad_value">
+	    <item>OFF</item>
+	    <item>ON</item>
+	</string-array>
+	<string-array name="str_arr_oad_view_prompt_value">
+	    <item>OFF</item>
+	    <item>ON</item>
+	</string-array>
+
+	<string-array name="str_arr_lnbpower_option">
+	    <item>כבוי</item>
+	    <item>13 / 18V</item>
+	    <item>13V</item>
+	    <item>18V</item>
+	    <item>14 / 19V</item>
+	    <item>14V</item>
+	    <item>19V</item>
+	</string-array>
+	<string-array name="str_arr_compensation_option">
+	    <item>כבוי</item>
+	    <item>ביום</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_option">
+	    <item>UNIVERSAL</item>
+	    <item>MDU_1</item>
+	    <item>MDU_2</item>
+	    <item>MDU_3</item>
+	    <item>MDU_4</item>
+	    <item>5150_MHZ</item>
+	    <item>5750_MHZ</item>
+	    <item>5150_5750_MHZ</item>
+	    <item>9750_MHZ</item>
+	    <item>10600_MHZ</item>
+	    <item>10750_MHZ</item>
+	    <item>11250_MHZ</item>
+	    <item>11300_MHZ</item>
+	    <item>11475_MHZ</item>
+	    <item>9750_10700_MHZ</item>
+	    <item>9750_10750_MHZ</item>
+	    <item>10000_10450_MHZ</item>
+	    <item>USER_MODE</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_low">
+	    <item>9750</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>5150</item>
+	    <item>5750</item>
+	    <item>5150</item>
+	    <item>9750</item>
+	    <item>10600</item>
+	    <item>10750</item>
+	    <item>11250</item>
+	    <item>11300</item>
+	    <item>11475</item>
+	    <item>9750</item>
+	    <item>9750</item>
+	    <item>10000</item>
+	    <item>9750</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_high">
+	    <item>10600</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>5150</item>
+	    <item>5750</item>
+	    <item>5750</item>
+	    <item>9750</item>
+	    <item>10600</item>
+	    <item>10750</item>
+	    <item>11250</item>
+	    <item>11300</item>
+	    <item>11475</item>
+	    <item>10700</item>
+	    <item>10750</item>
+	    <item>10450</item>
+	    <item>10600</item>
+	</string-array>
+	<string-array name="str_arr_22knz_tone_option">
+	    <item>Auto</item>
+	    <item>ביום</item>
+	    <item>כבוי</item>
+	</string-array>
+	<string-array name="str_arr_toneburst_option">
+	    <item>אף</item>
+	    <item>ניצת</item>
+	    <item>פרץ B</item>
+	</string-array>
+	<string-array name="str_arr_diseqc_1_0_option">
+	    <item>אף</item>
+	    <item>LNB 1</item>
+	    <item>LNB 2</item>
+	    <item>LNB 3</item>
+	    <item>LNB 4</item>
+	</string-array>
+	<string-array name="str_arr_diseqc_1_1_option">
+	    <item>אף</item>
+	    <item>LNB 1</item>
+	    <item>LNB 2</item>
+	    <item>LNB 3</item>
+	    <item>LNB 4</item>
+	    <item>LNB 5</item>
+	    <item>LNB 6</item>
+	    <item>LNB 7</item>
+	    <item>LNB 8</item>
+	    <item>LNB 9</item>
+	    <item>LNB 10</item>
+	    <item>LNB 11</item>
+	    <item>LNB 12</item>
+	    <item>LNB 13</item>
+	    <item>LNB 14</item>
+	    <item>LNB 15</item>
+	    <item>LNB 16</item>
+	</string-array>
+	<string-array name="str_arr_motor_diseqc_version">
+	    <item>אף</item>
+	    <item>DiSEqC 1.2</item>
+	    <item>DiSEqC 1.3</item>
+	</string-array>
+	<string-array name="str_arr_single_cable_slot_id">
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	</string-array>
+	<string-array name="str_arr_single_cable_lnb_option">
+		    <item>A</item>
+	    <item>B</item>
+	</string-array>
+	<string-array name="str_arr_longitude_direction_option">
+	    <item>מזרח</item>
+	    <item>המערב</item>
+	</string-array>
+	<string-array name="str_arr_latitude_direction_option">
+	    <item>צפון</item>
+	    <item>דרום</item>
+	</string-array>
+	<string-array name="str_arr_satellite_band_option">
+	    <item>ג</item>
+	    <item>Ku</item>
+	</string-array>
+	<string-array name="str_arr_transponder_polarization_option">
+	    <item>V</item>
+	    <item>H</item>
+	</string-array>
+
+	<!-- For bandwidth switch -->
+	<string-array name="str_arr_bandwidth_option">
+	    <item>7</item>
+	    <item>8</item>
+	</string-array>
+
+	<!-- For UHF 7 MHz Option -->
+	<string-array name="str_arr_uhf_7mhz_option">
+	    <item>Shut</item>
+	    <item>Open</item>
+	</string-array>
+
+	<!-- For scan type -->
+	<string-array name="str_arr_tuning_type">
+	    <item>טלוויזיה אנלוגי</item>
+	    <item>טלוויזיה דיגיטלית</item>
+	    <item>Complete</item>
+	</string-array>
+	<string-array name="str_arr_dvbc_tuning_type">
+	    <item>טלוויזיה אנלוגי</item>
+	    <item>טלוויזיה דיגיטלית CA</item>
+	    <item>אנלוגי טלוויזיה דיגיטלית טלוויזיה + CA</item>
+	</string-array>
+
+	<!-- For dvbc operator -->
+	<string-array name="str_arr_dvbc_operator">
+	    <item>אחר</item>
+	    <item>Cdsmatv</item>
+	    <item>Cdcable</item>
+	    <item>Comhem</item>
+	    <item>Upc</item>
+	    <item>Yousee</item>
+	    <item>Cableready</item>
+	    <item>Ziggo</item>
+	    <item>Stofa</item>
+	</string-array>
+
+	<string-array name="str_arr_hdmi_edid_version">
+	    <item>ברירת</item>
+	    <item>EDID 1.4</item>
+	    <item>EDID 2.0</item>
+	</string-array>
+	<string-array name="str_arr_hbbtv_switch">
+	    <item>כבוי</item>
+	    <item>ביום</item>
+	</string-array>
+
+	<string-array name="str_arr_input_sources">
+	    <item>מחשב</item>
+	    <item>טלוויזיה אנלוגי</item>
+	    <item>וידאו</item>
+	    <item>וידאו 2</item>
+	    <item>וידאו 3</item>
+	    <item>וידאו 4</item>
+	    <item>וידאו 5</item>
+	    <item>וידאו 6</item>
+	    <item>וידאו 7</item>
+	    <item>וידאו 8</item>
+	    <item>וידאו _MAX</item>
+	    <item>SVIDEO</item>
+	    <item>SVIDEO2</item>
+	    <item>SVIDEO3</item>
+	    <item>SVIDEO4</item>
+	    <item>SVIDEO_MAX</item>
+	    <item>רכיבי</item>
+	    <item>רכיב 2</item>
+	    <item>רכיב 3</item>
+	    <item>רכיב _MAX</item>
+	    <item>SCART</item>
+	    <item>SCART2</item>
+	    <item>SCART_MAX</item>
+	    <item>HD</item>
+	    <item>HD 2</item>
+	    <item>HD 3</item>
+	    <item>HD 4</item>
+	    <item>HDMI_MAX</item>
+	    <item>טלוויזיה דיגיטלית</item>
+	    <item>HD</item>
+	    <item>HD 2</item>
+	    <item>HD 3</item>
+	    <item>HD 4</item>
+	    <item>DVI_MAX</item>
+	    <item>אחסון</item>
+	    <item>KTV</item>
+	    <item>JPEG</item>
+	    <item>Digital TV 2</item>
+	    <item>STORAGE2</item>
+	    <item>DIV3</item>
+	    <item>SCALER_OP</item>
+	    <item>RUV</item>
+	    <item>מחשב 2</item>
+	    <item>מחשב 3</item>
+	    <item>NUM</item>
+	    <item>NONE</item>
+	</string-array>
+
+	<string-array name="arr_atv_antenna_type">
+	    <item>Wired</item>
+	    <item>Wireless</item>
+	</string-array>
+
+	<string-array name="str_cha_dtvmanualtuning_modulation_vals">
+	    <item>16 QAM</item>
+	    <item>32 QAM</item>
+	    <item>64 QAM</item>
+	    <item>128 QAM</item>
+	    <item>256 QAM</item>
+	    <item>אוטומטי</item>
+	</string-array>
+
+	<string-array name="str_arr_pvr_error_code">
+		<item>@string/str_pvr_success</item>
+		<item>@string/str_pvr_no_usb</item>
+		<item>@string/str_pvr_unsurpt_flsystem</item>
+		<item>@string/str_pvr_disk_read_only</item>
+		<item>@string/str_pvr_out_of_space</item>
+		<item>@string/str_pvr_success</item>
+		<item>@string/str_pvr_ciplus_copy_protection</item>
+		<item>@string/str_pvr_scrambled_program</item>
+		<item>@string/str_pvr_ciplus_unsupport</item>
+		<item>@string/str_pvr_data_only</item>
+		<item>@string/str_no_sinal</item>
+		<item>@string/str_pvr_out_of_space</item>
+		<item>@string/str_pvr_ginga_running</item>
+		<item>@string/str_pvr_bad_video_audio</item>
+		<item>@string/str_pvr_retention_expired</item>
+		<item>@string/str_pvr_ch_blocked</item>
+		<item>@string/str_pvr_rating_blocked</item>
+		<item>@string/str_pvr_max_recording_reached</item>
+		<item>@string/str_pvr_mehg5_data_only</item>
+		<item>@string/str_pvr_vod_not_allow</item>
+		<item>@string/str_pvr_error</item>
+		<item>@string/str_pvr_still_check_disk</item>
+	</string-array>
+
+	<string-array name="str_arr_set_audio_language">
+		<item>@string/str_set_language_czech</item>
+		<item>@string/str_set_language_danish</item>
+		<item>@string/str_set_language_german</item>
+		<item>@string/str_set_language_english</item>
+		<item>@string/str_set_language_spanish</item>
+		<item>@string/str_set_language_greek</item>
+		<item>@string/str_set_language_french</item>
+		<item>@string/str_set_language_croatian</item>
+		<item>@string/str_set_language_italian</item>
+		<item>@string/str_set_language_hungarian</item>
+		<item>@string/str_set_language_dutch</item>
+		<item>@string/str_set_language_norwegian</item>
+		<item>@string/str_set_language_polish</item>
+		<item>@string/str_set_language_portuguese</item>
+		<item>@string/str_set_language_russian</item>
+		<item>@string/str_set_language_romanian</item>
+		<item>@string/str_set_language_slovenian</item>
+		<item>@string/str_set_language_serbian</item>
+		<item>@string/str_set_language_finnish</item>
+		<item>@string/str_set_language_swedish</item>
+		<item>@string/str_set_language_bulgarian</item>
+		<item>@string/str_set_language_slovak</item>
+		<item>@string/str_set_language_chinese</item>
+		<item>@string/str_set_language_gaelic</item>
+		<item>@string/str_set_language_welsh</item>
+		<item>@string/str_set_language_irish</item>
+		<item>@string/str_set_language_arabic</item>
+		<item>@string/str_set_language_latvian</item>
+		<item>@string/str_set_language_hebrew</item>
+		<item>@string/str_set_language_turkish</item>
+		<item>@string/str_set_language_estonian</item>
+		<item>@string/str_set_language_gallegan</item>
+		<item>@string/str_set_language_basque</item>
+		<item>@string/str_set_language_catalan</item>
+		<item>@string/str_set_language_icelandic</item>
+		<item>@string/str_set_language_letzeburgesch</item>
+		<item>@string/str_set_language_lithuanian</item>
+		<item>@string/str_set_language_ukrainian</item>
+		<item>@string/str_set_language_byelorussian</item>
+		<item>@string/str_set_language_maori</item>
+		<item>@string/str_set_language_cantonese</item>
+		<item>@string/str_set_language_korean</item>
+		<item>@string/str_set_language_japanese</item>
+		<item>@string/str_set_language_hindi</item>
+		<item>@string/str_set_language_thai</item>
+		<item>@string/str_set_language_vietnamese</item>
+		<item>@string/str_set_language_malay</item>
+		<item>@string/str_set_language_qab</item>
+		<item>@string/str_set_language_qac</item>
+	</string-array>
+
+	<string-array name="str_arr_set_subtitle_language">
+		<item>@string/str_set_language_czech</item>
+		<item>@string/str_set_language_danish</item>
+		<item>@string/str_set_language_german</item>
+		<item>@string/str_set_language_english</item>
+		<item>@string/str_set_language_spanish</item>
+		<item>@string/str_set_language_greek</item>
+		<item>@string/str_set_language_french</item>
+		<item>@string/str_set_language_croatian</item>
+		<item>@string/str_set_language_italian</item>
+		<item>@string/str_set_language_hungarian</item>
+		<item>@string/str_set_language_dutch</item>
+		<item>@string/str_set_language_norwegian</item>
+		<item>@string/str_set_language_polish</item>
+		<item>@string/str_set_language_portuguese</item>
+		<item>@string/str_set_language_russian</item>
+		<item>@string/str_set_language_romanian</item>
+		<item>@string/str_set_language_slovenian</item>
+		<item>@string/str_set_language_serbian</item>
+		<item>@string/str_set_language_finnish</item>
+		<item>@string/str_set_language_swedish</item>
+		<item>@string/str_set_language_bulgarian</item>
+		<item>@string/str_set_language_slovak</item>
+		<item>@string/str_set_language_chinese</item>
+		<item>@string/str_set_language_gaelic</item>
+		<item>@string/str_set_language_welsh</item>
+		<item>@string/str_set_language_irish</item>
+		<item>@string/str_set_language_arabic</item>
+		<item>@string/str_set_language_latvian</item>
+		<item>@string/str_set_language_hebrew</item>
+		<item>@string/str_set_language_turkish</item>
+		<item>@string/str_set_language_estonian</item>
+		<item>@string/str_set_language_gallegan</item>
+		<item>@string/str_set_language_basque</item>
+		<item>@string/str_set_language_catalan</item>
+		<item>@string/str_set_language_icelandic</item>
+		<item>@string/str_set_language_letzeburgesch</item>
+		<item>@string/str_set_language_lithuanian</item>
+		<item>@string/str_set_language_ukrainian</item>
+		<item>@string/str_set_language_byelorussian</item>
+		<item>@string/str_set_language_maori</item>
+		<item>@string/str_set_language_cantonese</item>
+		<item>@string/str_set_language_korean</item>
+		<item>@string/str_set_language_japanese</item>
+		<item>@string/str_set_language_hindi</item>
+		<item>@string/str_set_language_thai</item>
+		<item>@string/str_set_language_vietnamese</item>
+		<item>@string/str_set_language_malay</item>
+		<item>@string/str_set_language_multiple</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_uk">
+		<item>@string/str_genre_unclassified</item>
+		<item>@string/str_genre_movie</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_chidren</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_education_uk</item>
+		<item>@string/str_genre_life_uk</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_drama</item>
+	</string-array>
+	<string-array name="str_arr_epg_genre_nz">
+		<item>@string/str_genre_undefined</item>
+		<item>@string/str_genre_movie_drama_general</item>
+		<item>@string/str_genre_news_current_general</item>
+		<item>@string/str_genre_show_general</item>
+		<item>@string/str_genre_sports_general</item>
+		<item>@string/str_genre_youth</item>
+		<item>@string/str_genre_music_general</item>
+		<item>@string/str_genre_art_general</item>
+		<item>@string/str_genre_social_general</item>
+		<item>@string/str_genre_education_others_general</item>
+		<item>@string/str_genre_life</item>
+		<item>@string/str_genre_original_language</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_user_defined</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_au">
+		<item></item>
+		<item>@string/str_genre_movie</item>
+		<item>@string/str_genre_news</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_chidren</item>
+		<item>@string/str_genre_music_default</item>
+		<item>@string/str_genre_art</item>
+		<item>@string/str_genre_news_current_default</item>
+		<item>@string/str_genre_education_default</item>
+		<item>@string/str_genre_infotainment</item>
+		<item>@string/str_genre_special</item>
+		<item>@string/str_genre_comedy</item>
+		<item>@string/str_genre_drama</item>
+		<item>@string/str_genre_documentary</item>
+	<item></item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_default">
+		<item>@string/str_genre_unclassified</item>
+		<item>@string/str_genre_movie_drama</item>
+		<item>@string/str_genre_news_current</item>
+		<item>@string/str_genre_show</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_youth</item>
+		<item>@string/str_genre_music</item>
+		<item>@string/str_genre_art</item>
+		<item>@string/str_genre_social</item>
+		<item>@string/str_genre_education_others</item>
+		<item>@string/str_genre_life</item>
+		<item>@string/str_genre_special_characteristics</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_user_defined</item>
+	</string-array>
+
+
+	<string-array name="str_arr_option_store_cookies">
+		<item>@string/str_option_store_cookies_off</item>
+		<item>@string/str_option_store_cookies_on</item>
+	</string-array>
+</resources>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_user_menu"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_user_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- For factory Adjust -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_Mute_Color"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@+id/linearlayout_factory_copy_miracast"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_Mute_Color1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_set_mute_color"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_user_Mute_Color2"
+                    android:layout_width="133dp"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Picture Mode -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_VolumeCurve"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_VolumeCurve1"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_textview_factory_panelinfo_text_volumecurve"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_user_VolumeCurve2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_panelinfo_text_volumecurve_8w"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Nonlinear -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_power_on_mode"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_power_on_mode1"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_poweronmode"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_user_power_on_mode2"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_Display_logo"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_Display_logo1"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_display_logo"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_user_Display_logo2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_off"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_Aging_mode"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_Aging_mode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_again_mode"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_intitial_channel"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_intitial_channel1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_initialfunction"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_user_intitial_channel2"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_initialfunction_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_factory_program_preset_function"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_factory_program_preset_function"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_factoryprogrampresetfunction"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_pvr_record_all"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_pvr_record_all1"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_pvrrecordall"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_user_pvr_record_all2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_user_dtv_preset"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_user_dtv_preset1"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_dtv_preset"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_user_dtv_preset2"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_dtv_preset_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Uart Enable -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_uartenable"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_uartenable"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_uartenable"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_uartenable_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Total run time -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_total_run_time"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_total_run_time"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_total_run_time"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_running_time"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_total_run_time"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_scrolling_display"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_scrolling_display"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_scrolling_display"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_scrolling_display_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_record_miracast_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            
+            <!-- Record miracast -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_record_miracast"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_record_miracast"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_record_miracast_text"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_record_miracast_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_record_miracast_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            
+            <!-- For copy to usb -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_copy_miracast"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusDown="@+id/linearlayout_user_Mute_Color"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_copy_miracast"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_copy_miracast_text"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

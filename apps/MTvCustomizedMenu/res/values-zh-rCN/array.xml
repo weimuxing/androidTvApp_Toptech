@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2015 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="str_arr_pic_picturemode_vals">
+        <item>明亮</item>
+        <item>标准</item>
+        <item>柔和</item>
+        <item>用户</item>
+        <item>游戏</item>
+        <item>自动</item>
+        <item>电脑</item>
+        <item>艳丽</item>
+        <item>自然</item>
+        <item>运动</item>
+    </string-array>
+
+    <string-array name="str_arr_pic_PC_image_mode_vals">
+        <item>时钟</item>
+        <item>相位</item>
+        <item>水平位置</item>
+        <item>垂直位置</item>
+    </string-array>
+
+    <string-array name="str_arr_pic_color_temperature_vals">
+        <item>冷</item>
+        <item>标准</item>
+        <item>暖</item>
+        <item>用户</item>
+    </string-array>
+
+    <string-array name="str_arr_pic_zoom_mode_vals">
+        <item>默认</item>
+        <item>16:9</item>
+        <item>4:3</item>
+        <item>自动</item>
+        <item>全景</item>
+        <item>Just Scan</item>
+    </string-array>
+
+    <string-array name="str_arr_pic_open_hdr_vals">
+        <item>Off</item>
+        <item>Auto</item>
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+        <item>Ref. Mode</item>
+    </string-array>
+
+    <string-array name="str_arr_pic_dolby_hdr_vals">
+        <item>Off</item>
+        <item>Vivid</item>
+    </string-array>
+
+    <string-array name="str_arr_pic_image_noise_reduction_vals">
+        <item>关</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>强</item>
+        <item>自动</item>
+    </string-array>
+
+    <string-array name="str_arr_pic_mpeg_noise_reduction_vals">
+        <item>关</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>强</item>
+    </string-array>
+
+    <string-array name="str_arr_sound_sound_mode_vals">
+        <item>标准</item>
+        <item>音乐</item>
+        <item>影院</item>
+        <item>体育</item>
+        <item>用户</item>
+    </string-array>
+
+    <string-array name="str_arr_sound_SPDIF_output_vals">
+        <item>PCM</item>
+        <item>关</item>
+        <item>RAW</item>
+    </string-array>
+
+    <string-array name="str_arr_mwe_text">
+        <item>关</item>
+        <item>优化</item>
+        <item>增强</item>
+        <item>分屏</item>
+        <item>动态</item>
+        <item>效果</item>
+        <item>方块移动</item>
+    </string-array>
+
+    <string-array name="str_arr_pic_imgnoisereduction_vals">
+        <item>关</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>强</item>
+        <item>自动</item>
+    </string-array>
+
+    <string-array name="str_arr_3d_self_adaptive_detecttriple_vals">
+        <item>Off</item>
+        <item>Right Now</item>
+        <item>When Source Change</item>
+        <item>Real Time</item>
+    </string-array>
+
+    <string-array name="str_arr_3dto2d_self_adaptive_detecttriple_vals">
+        <item>Off</item>
+        <item>Right Now</item>
+    </string-array>
+
+    <string-array name="str_arr_3d_3dconversion_vals">
+        <item>None</item>
+        <item>SBS</item>
+        <item>TB</item>
+        <item>FP</item>
+        <item>LA</item>
+        <item>2D-3D</item>
+        <item>Auto</item>
+        <item>CB</item>
+        <item>PA</item>
+        <item>FA</item>
+    </string-array>
+
+    <string-array name="str_arr_3d_3dto2d_vals">
+        <item>None</item>
+        <item>SBS</item>
+        <item>TB</item>
+        <item>FP</item>
+        <item>LA</item>
+        <item>FA</item>
+        <item>Auto</item>
+        <item>CB</item>
+        <item>PA</item>
+    </string-array>
+
+    <string-array name="str_arr_3d_autostart_vals">
+        <item>OFF</item>
+        <item>2D</item>
+        <item>3D</item>
+    </string-array>
+
+    <string-array name="str_arr_3d_3doutputaspect_vals">
+        <item>Full</item>
+        <item>4:3</item>
+    </string-array>
+
+    <string-array name="str_arr_misc_closed_caption">
+        <item>OFF</item>
+        <item>ON</item>
+        <item>ON When Muted</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+
+    <string-array name="str_arr_misc_menu_keeping_time">
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>15 秒</item>
+        <item>20 秒</item>
+        <item>30 秒</item>
+        <item>Always</item>
+    </string-array>
+
+    <string-array name="str_arr_misc_switchmodetype">
+        <item>Black Screen</item>
+        <item>Mirroring</item>
+    </string-array>
+
+    <string-array name="str_arr_misc_colorrangetype">
+        <item>0~255</item>
+        <item>16~235</item>
+        <item>auto</item>
+    </string-array>
+
+    <string-array name="str_arr_language_audio_language">
+        <item>@string/str_language_czech</item>
+        <item>@string/str_language_danish</item>
+        <item>@string/str_language_german</item>
+        <item>@string/str_language_english</item>
+        <item>@string/str_language_spanish</item>
+        <item>@string/str_language_greek</item>
+        <item>@string/str_language_french</item>
+        <item>@string/str_language_croatian</item>
+        <item>@string/str_language_italian</item>
+        <item>@string/str_language_hungarian</item>
+        <item>@string/str_language_dutch</item>
+        <item>@string/str_language_norwegian</item>
+        <item>@string/str_language_polish</item>
+        <item>@string/str_language_portuguese</item>
+        <item>@string/str_language_russian</item>
+        <item>@string/str_language_romanian</item>
+        <item>@string/str_language_slovenian</item>
+        <item>@string/str_language_serbian</item>
+        <item>@string/str_language_finnish</item>
+        <item>@string/str_language_swedish</item>
+        <item>@string/str_language_bulgarian</item>
+        <item>@string/str_language_slovak</item>
+        <item>@string/str_language_chinese</item>
+        <item>@string/str_language_gaelic</item>
+        <item>@string/str_language_welsh</item>
+        <item>@string/str_language_irish</item>
+        <item>@string/str_language_arabic</item>
+        <item>@string/str_language_latvian</item>
+        <item>@string/str_language_hebrew</item>
+        <item>@string/str_language_turkish</item>
+        <item>@string/str_language_estonian</item>
+        <item>@string/str_language_gallegan</item>
+        <item>@string/str_language_basque</item>
+        <item>@string/str_language_catalan</item>
+        <item>@string/str_language_icelandic</item>
+        <item>@string/str_language_letzeburgesch</item>
+        <item>@string/str_language_lithuanian</item>
+        <item>@string/str_language_ukrainian</item>
+        <item>@string/str_language_byelorussian</item>
+        <item>@string/str_language_maori</item>
+        <item>@string/str_language_mandarin</item>
+        <item>@string/str_language_cantonese</item>
+        <item>@string/str_language_korean</item>
+        <item>@string/str_language_japanese</item>
+        <item>@string/str_language_hindi</item>
+        <item>@string/str_language_thai</item>
+        <item>@string/str_language_vietnamese</item>
+        <item>@string/str_language_malay</item>
+        <item>@string/str_language_qab</item>
+        <item>@string/str_language_qac</item>
+    </string-array>
+
+    <string-array name="str_arr_language_subtitle_language">
+        <item>@string/str_language_czech</item>
+        <item>@string/str_language_danish</item>
+        <item>@string/str_language_german</item>
+        <item>@string/str_language_english</item>
+        <item>@string/str_language_spanish</item>
+        <item>@string/str_language_greek</item>
+        <item>@string/str_language_french</item>
+        <item>@string/str_language_croatian</item>
+        <item>@string/str_language_italian</item>
+        <item>@string/str_language_hungarian</item>
+        <item>@string/str_language_dutch</item>
+        <item>@string/str_language_norwegian</item>
+        <item>@string/str_language_polish</item>
+        <item>@string/str_language_portuguese</item>
+        <item>@string/str_language_russian</item>
+        <item>@string/str_language_romanian</item>
+        <item>@string/str_language_slovenian</item>
+        <item>@string/str_language_serbian</item>
+        <item>@string/str_language_finnish</item>
+        <item>@string/str_language_swedish</item>
+        <item>@string/str_language_bulgarian</item>
+        <item>@string/str_language_slovak</item>
+        <item>@string/str_language_chinese</item>
+        <item>@string/str_language_gaelic</item>
+        <item>@string/str_language_welsh</item>
+        <item>@string/str_language_irish</item>
+        <item>@string/str_language_arabic</item>
+        <item>@string/str_language_latvian</item>
+        <item>@string/str_language_hebrew</item>
+        <item>@string/str_language_turkish</item>
+        <item>@string/str_language_estonian</item>
+        <item>@string/str_language_gallegan</item>
+        <item>@string/str_language_basque</item>
+        <item>@string/str_language_catalan</item>
+        <item>@string/str_language_icelandic</item>
+        <item>@string/str_language_letzeburgesch</item>
+        <item>@string/str_language_lithuanian</item>
+        <item>@string/str_language_ukrainian</item>
+        <item>@string/str_language_byelorussian</item>
+        <item>@string/str_language_maori</item>
+        <item>@string/str_language_mandarin</item>
+        <item>@string/str_language_cantonese</item>
+        <item>@string/str_language_korean</item>
+        <item>@string/str_language_japanese</item>
+        <item>@string/str_language_hindi</item>
+        <item>@string/str_language_thai</item>
+        <item>@string/str_language_vietnamese</item>
+        <item>@string/str_language_malay</item>
+        <item>@string/str_language_multiple</item>
+    </string-array>
+
+    <string-array name="str_arr_pvr_time_shift_size">
+        <item>512M</item>
+        <item>1G</item>
+        <item>2G</item>
+        <item>4G</item>
+    </string-array>
+
+    <string-array name="str_arr_hdmi_edid_version">
+        <item>预设</item>
+        <item>EDID 1.4</item>
+        <item>EDID 2.0</item>
+    </string-array>
+
+    <string-array name="str_arr_power_powermusic">
+        <item>关闭</item>
+        <item>预设</item>
+    </string-array>
+
+    <string-array name="str_arr_power_powerlogo">
+        <item>关闭</item>
+        <item>预设</item>
+    </string-array>
+
+    <string-array name="str_arr_input_sources">
+        <item>DTV</item>
+        <item>VGA</item>
+        <item>ATV</item>
+        <item>CVBS</item>
+        <item>YPBPR1</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+    </string-array>
+
+    <string-array name="str_arr_sleep_timer">
+        <item>关闭</item>
+        <item>10 分钟</item>
+        <item>20 分钟</item>
+        <item>30 分钟</item>
+        <item>60 分钟</item>
+        <item>90 分钟</item>
+        <item>120 分钟</item>
+        <item>180 分钟</item>
+        <item>240 分钟</item>
+    </string-array>
+
+    <string-array name="str_arr_signalinfo_qam_cab">
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+
+    <string-array name="str_arr_signalinfo_qam_dvbt">
+        <item>QPSK</item>
+        <item>16QAM</item>
+        <item>64QAM</item>
+        <item>256QAM</item>
+    </string-array>
+</resources>

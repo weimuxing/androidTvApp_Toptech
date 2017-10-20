@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/settings_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/layout_item0" android:visibility="visible" style="@style/layout_item0">
+            <ImageView android:id="@+id/item0_shadow" android:visibility="visible" android:src="@drawable/shadow_big_left" android:scaleType="fitXY" style="@style/item0_shadow" />
+            <ImageView android:id="@+id/item0" android:background="@drawable/green_no_shadow" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:src="@drawable/app_picasa" android:scaleType="centerInside" style="@style/item0" />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/layout_item1" android:visibility="visible" style="@style/layout_item1">
+            <ImageView android:id="@+id/item1_shadow" android:visibility="visible" android:src="@drawable/shadow_big_center" android:scaleType="fitXY" style="@style/item1_shadow" />
+            <ImageView android:id="@+id/item1" android:background="@drawable/orange_no_shadow" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:src="@drawable/app_skype" android:scaleType="centerInside" style="@style/item1" />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/layout_item2" android:visibility="visible" style="@style/layout_item2">
+            <ImageView android:id="@+id/item2_shadow" android:visibility="visible" android:src="@drawable/shadow_big_center" android:scaleType="fitXY" style="@style/item2_shadow" />
+            <ImageView android:id="@+id/item2" android:background="@drawable/blue_no_shadow" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:src="@drawable/app_twitter" android:scaleType="centerInside" style="@style/item2" />
+        </FrameLayout>
+        <FrameLayout android:id="@+id/layout_item3" android:visibility="visible" style="@style/layout_item3">
+            <ImageView android:id="@+id/item3_shadow" android:visibility="visible" android:src="@drawable/shadow_big_right" android:scaleType="fitXY" style="@style/item3_shadow" />
+            <ImageView android:id="@+id/item3" android:background="@drawable/yellow_no_shadow" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:src="@drawable/app_yahoo" android:scaleType="centerInside" style="@style/item3" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

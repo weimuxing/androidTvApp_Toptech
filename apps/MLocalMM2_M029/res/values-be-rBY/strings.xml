@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <string name="app_name">UI-LocalMM</string>
+
+    <string name="back">таму</string>
+
+    <string name="folder">тэчка</string>
+
+    <string name="rootDirectory">/mnt/usb</string>
+
+    <string name="sambarootDirectory">/mnt/samba</string>
+
+    <string name="unsupport_format">Гэты фармат не можа гуляць</string>
+
+    <string name="exit_ok">ОК</string>
+
+    <string name="exit_cancel">адмяніць</string>
+
+    <string name="current_time">бягучы час :</string>
+
+    <string name="total_duration">поўнае час :</string>
+
+    <string name="choice">выбар</string>
+
+    <string name="confirm">пацвярджаць</string>
+
+    <string name="exit_title">выхад</string>
+
+    <string name="exit_confirm">пацверджання выдалення?</string>
+
+    <string name="the_first_file">Першы файл!</string>
+
+    <string name="the_last_file">Апошні файл!</string>
+
+    <string name="net_disconnect">Чыстая адключаны, калі ласка, праверце яго!
+
+    </string>
+
+    <string name="display_pip">Паказаць PIP</string>
+
+    <string name="hide_pip">схаваць PIP</string>
+
+    <string name="pre_channel">папярэдні канал</string>
+
+    <string name="next_channel">далей каналl</string>
+
+
+
+    <!-- ####################文件浏览模块资源定义区#################### -->
+
+    <string name="picture">малюнак</string>
+
+    <string name="song">песня</string>
+
+    <string name="video">відэа</string>
+
+    <string name="samba">самба</string>
+
+    <string name="dlna">DLNA</string>
+
+    <string name="other">іншы</string>
+
+    <string name="all">усё</string>
+
+    <string name="page_up">на старонку ўверх</string>
+
+    <string name="page_down">старонку ўніз</string>
+
+    <string name="slash">/</string>
+
+
+
+    <!-- 加载进度提示信息定义区 -->
+
+    <string name="loading_top">Загрузка пачатку старонкі Калі ласка, пачакайце
+
+    </string>
+
+    <string name="loading_usb_device">Загрузка USB-прылады</string>
+
+    <string name="loading_local_resource">Загрузка лакальны рэсурс, калі ласка, пачакайце
+
+    </string>
+
+    <string name="loading_dlna_device">AlphaЗагрузка DLNA прылады, калі ласка, пачакайце
+
+    </string>
+
+    <string name="loading_dlna_resource">Загрузка DLNA рэсурсу, калі ласка, пачакайце
+
+    </string>
+
+    <string name="miss_dlna_device">Загрузка DLNA рэсурсаў не атрымалася</string>
+
+    <string name="loading_samba_device">Загрузка SAMBA прылады, калі ласка, пачакайце
+
+    </string>
+
+    <string name="loading_samba_resource">Загрузка рэсурсаў SAMBA, калі ласка, пачакайце
+
+    </string>
+
+    <string name="miss_samba_device">Нагрузка SAMBA рэсурсаў не атрымалася</string>
+
+    <string name="is_scanning_disc">Яна скануе дыск!</string>
+
+    <string name="login_wrong_password">няправільны пароль</string>
+
+    <string name="login_failed">Не атрымалася Увайсці SAMBA</string>
+
+    <string name="login_other_failed">Уваход SAMBA выключэнняў</string>
+
+    <string name="login_title">увайсці</string>
+
+    <string name="network_connect_failed">Падключыцца да прылады не ўдалося, не могуць
+
+        сумесна выкарыстоўваць рэсурсы сеткі</string>
+
+    <string name="network_unconnected">не звязаныя сеткі, калі ласка, праверце і паўторыце
+
+    </string>
+
+    <string name="login_samba">Уваход Samba, калі ласка, пачакайце</string>
+
+    <string name="logging_out_samba">Logouting Samba, калі ласка, пачакайце</string>
+
+    <string name="login_success">Уваход Samba Паспяховы</string>
+
+    <string name="mount_failed">Гора Samba не ўдалося</string>
+
+
+
+    <string-array name="data_source">
+
+        <item>лакальнае прылада дыск</item>
+
+        <item>сеткі SAMBA прылада</item>
+
+        <!--<item>сеткі DLNA прылада</item>-->
+    </string-array>
+
+
+
+    <!-- ####################媒体播放器资源定义区#################### -->
+
+    <!-- 图片播放模块资源定义区 -->
+
+    <string name="file_name">імя файла:</string>
+
+    <string name="photo_info">інфармацыя пра фатаграфію</string>
+
+    <string name="file_create_time">час стварэння:</string>
+
+    <string name="file_size">памер файла:</string>
+
+    <string name="file_format">форма файлt:</string>
+
+    <string name="display_img_name">Назва карціны дысплей</string>
+
+    <string name="disk_eject">дыск выманне</string>
+
+    <string name="photo_3D_toast">не працуе ў рэжыме 3D</string>
+
+    <string name="photo_set_wallpaper">фота шпалеры</string>
+
+    <string name="first_photo">першае фота!</string>
+
+    <string name="last_photo">Апошняя фатаграфія!</string>
+
+    <string name="can_not_decode">На фатаграфіі занадта вялікі, каб быць
+
+        прааналізаваны!</string>
+
+    <string name="current_pic">Бягучая карціна:</string>
+
+    <string name="is_setting_wallpaper">Гэта стварае шпалеры, калі ласка, пачакайце...
+
+    </string>
+
+    <string name="picture_can_not_decode">Гэтая карціна не можа дэкадаваць!</string>
+
+    <string name="picture_decoding">Карціна дэкадавання...</string>
+
+
+
+    <!-- 音乐播放模块资源定义区 -->
+
+    <string name="music_info">інфармацыю пра музыку</string>
+
+    <string name="file_duration">файл працягласцю:</string>
+
+    <string name="music_default_time">00:00</string>
+
+    <string name="Artist_name">выканаўца:</string>
+
+    <string name="file_path">шлях да файла:</string>
+
+    <string name="none_lyrics_find">Не знайшлі тэкст!</string>
+
+    <string name="unknown">невядомы</string>
+
+    <string name="singer">спявачка:</string>
+
+    <string name="current_song">бягучая песня:</string>
+
+    <string name="exit_music_play">Вызначэнне музыкі разыгрываецца?</string>
+
+    <string name="alert">апавяшчэнне</string>
+
+
+
+    <!-- 视频播放模块资源定义区 -->
+
+    <string name="no_video_track">трэк ні відэа</string>
+
+    <string name="audio_codec">аўдыё кодэк</string>
+
+    <string name="video_codec">відэа кодэк</string>
+
+    <string name="duration">працягласць:</string>
+
+    <string name="default_time">--:--:--</string>
+
+    <string name="video_default_time">00:00:00</string>
+
+    <string name="choose_time_0">0</string>
+
+    <string name="choose_time_colon">:</string>
+
+    <string name="programe_info">праграма інфармацыя</string>
+
+    <string name="show_info">паказаць інфармацыя</string>
+
+    <string name="buffering">буферызацыі...</string>
+
+    <string name="playing">гульні</string>
+
+    <string name="video_subtitle">субтытраў відэа</string>
+
+    <string name="video_track">видеодорожки</string>
+
+    <string name="video_channel">відэаканал</string>
+
+    <string name="video_media_full_resize">відэа поўнае змяненне памеру</string>
+
+    <string name="video_media_default">памер відэа па змаўчанні</string>
+
+    <string name="video_media_full">відэа ў поўны памер</string>
+
+    <string name="video_media_error_unknown">відэаносьбітаў памылкі невядомая</string>
+
+    <string name="video_media_error_malformed">відэаносьбітаў памылцы няправільна</string>
+
+    <string name="video_media_error_io">відэаносьбітаў памылка ўводу-вываду</string>
+
+    <string name="video_media_error_unsupported">відэаносьбітаў памылка Непадтрымоўваны</string>
+
+    <string name="video_media_error_format_unsupport">відэаносьбітаў памылку Непадтрымоўваны фармат
+
+    </string>
+
+    <string name="video_media_error_not_connected">відэаносьбітаў памылкі не звязаны</string>
+
+    <string name="video_media_error_audio_unsupport">відэаносьбітаў памылка аўдыё Непадтрымоўваны
+
+    </string>
+
+    <string name="video_media_error_video_unsupport">відэаносьбітаў памылкі Непадтрымоўваны відэа
+
+    </string>
+
+    <string name="video_media_error_no_license">відэаносьбітаў памылкі няма ліцэнзіі</string>
+
+    <string name="video_media_error_license_expired">відэаносьбітаў памылка ліцэнзіі скончыўся</string>
+
+    <string name="video_media_other_error_unknown">іншыя невядомая памылка</string>
+
+    <string name="video_media_error_not_valid">відэаносьбітаў памылкі не дзейнічае</string>
+
+    <string name="video_media_error_server_died">медыя-сервер памёр</string>
+
+    <string name="video_media_infor_no_index">відэа не паказчык, ён не seeked</string>
+
+    <string name="video_media_infor_no_index_ab">відэа не паказчык, ён не ўсталяваў AB</string>
+
+    <string name="subtitle_type">падзагаловак тыпу</string>
+
+    <string name="subtitle_out_path">субтытры з шляху</string>
+
+    <string name="subtitle_in_no">субтытраў няма</string>
+
+    <string name="subtitle_language">мова субтытраў</string>
+
+    <string name="subtitle_color">падзагаловак колеру</string>
+
+    <string name="subtitle_font">падзагаловак шрыфтаt</string>
+
+    <string name="subtitle_font_size">Памер шрыфта субтытраў</string>
+
+    <string name="subtitle_frame">падзагаловак кадра</string>
+
+    <string name="subtitle_area">падзагаловак вобласці</string>
+
+    <string name="subtitle_adjust">падзагаловак рэгулявання</string>
+
+    <string name="subtitleList">спіс субтытраў</string>
+
+    <string name="playList">спіс гуляць</string>
+
+    <string name="subtitle_setting">Усталёўка субтытраў</string>
+
+    <string name="a_b_section_repeat">A-B Раздзел паўтор</string>
+
+    <string name="section_replay">Раздзел паўтор</string>
+
+    <string name="set_begin_a">Ўсталяваць пачатковую кропку A</string>
+
+    <string name="set_begin_b">Ўсталяваць пачатковую кропку B</string>
+
+    <string name="audio_track_count">адсочваць падлік</string>
+
+    <string name="audio_track_number">адсочваць колькасць</string>
+
+    <string name="audio_track_duration">адсочваць працягласць</string>
+
+    <string name="audio_track_language">адсочваць мову</string>
+
+    <string name="audio_track_setting">адсочваць налады</string>
+
+    <string name="point_a">кропка A размяшчэння</string>
+
+    <string name="point_b">кропка B размяшчэння</string>
+
+    <string name="one_times_speed">1 раз хуткасць</string>
+
+    <string name="x_times_speed">раз хуткасць</string>
+
+    <string name="playing_settings">гульня налады</string>
+
+    <string name="open_ab_repeat">адкрыць A-B паўтор</string>
+
+    <string name="set_point_a_first">уставки 1.</string>
+
+
+
+    <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+
+    <string name="subtitle_0_value_1">паказаць знешнія субтытры</string>
+
+    <string name="subtitle_0_value_2">паказаць ўнутраны субтытраў</string>
+
+    <string name="subtitle_1_value_1">выбраць шлях</string>
+
+    <string name="subtitle_1_value_2">ніякіх знешніх субтытраў</string>
+
+    <string name="subtitle_2_value_1">ніхто</string>
+
+    <string name="subtitle_2_value_2">падзагаловак </string>
+
+    <string name="subtitle_3_value_1">невядомы</string>
+
+    <string name="subtitle_3_value_2">ніхто</string>
+
+    <string name="subtitle_4_value_1">songti</string>
+
+    <string name="subtitle_4_value_2">xingxu</string>
+
+    <string name="subtitle_4_value_3">kaiti</string>
+
+    <string name="subtitle_5_value_1">вялікі</string>
+
+    <string name="subtitle_5_value_2">сярэдні</string>
+
+    <string name="subtitle_5_value_3">невялікі</string>
+
+    <string name="subtitle_6_value_1">бялілы</string>
+
+    <string name="subtitle_6_value_2">чорны</string>
+
+    <string name="subtitle_6_value_3">сіні</string>
+
+    <string name="subtitle_7_value_1">няма</string>
+
+    <string name="subtitle_7_value_2">ды</string>
+
+    <string name="subtitle_8_value_1">ніжні</string>
+
+    <string name="subtitle_8_value_2">топ</string>
+
+    <string name="subtitle_9_value">0 ms</string>
+
+
+
+    <string-array name="subtitle_setting_opt">
+
+        <item>паказаць знешнія субтытры</item>
+
+        <item>выбраць шлях</item>
+
+        <item>ніхто</item>
+
+        <item>невядомы</item>
+
+        <item>songti</item>
+
+        <item>сярэдні</item>
+
+        <item>бялілы</item>
+
+        <item>няма</item>
+
+        <item>ніжні</item>
+
+        <item>0 ms</item>
+
+    </string-array>
+
+
+
+    <string name="subtitle_change_msg">знешніх субтытраў, калі ласка, зменіце да
+
+        унутраным!</string>
+
+    <string name="subtitle_change_path">ўнутраныя субтытры, калі ласка, зменіце да знешніх!
+
+    </string>
+
+    <string name="choose_time_failed">можа не месца!!</string>
+
+    <string name="choose_time_invalid">недапушчальнае час, калі ласка, паўтарыце!</string>
+
+
+
+    <string-array name="play_setting_opt">
+
+        <item>адкрыць</item>
+
+        <item></item>
+
+    </string-array>
+
+
+
+    <string name="play_setting_0_value_1">адкрыць</string>
+
+    <string name="play_setting_0_value_2">закрываць</string>
+
+    <string name="video_size_unknown">невядомы</string>
+
+
+
+    <string-array name="audio_track_setting_opt">
+
+        <item>гукавую дарожку 1</item>
+
+        <item>1</item>
+
+        <item>00:00:00</item>
+
+        <item>невядомы</item>
+
+    </string-array>
+
+
+
+    <string name="audio_track_setting_0_value_1">гукавую дарожку</string>
+
+
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="weather_condition">
+		<item>Торнадо</item>
+		<item>Тропическая буря</item>
+		<item>Ураган</item>
+		<item>Сильные грозы</item>
+		<item>Грозы</item>
+		<item>Смешанный дождь и снег</item>
+		<item>Смешанный дождь и дождь</item>
+		<item>Смешанный снег и снег</item>
+		<item>Изморозь</item>
+		<item>изморось</item>
+		<item>Ледяной дождь</item>
+		<item>ливни</item>
+		<item>ливни</item>
+		<item>Порывы снега</item>
+		<item>Легкие снежные ливни</item>
+		<item>Низовая метель</item>
+		<item>Снег</item>
+		<item>Град</item>
+		<item>мокрый снег</item>
+		<item>Пыли</item>
+		<item>туманный</item>
+		<item>Мгла</item>
+		<item>дымчатый</item>
+		<item>бушующий</item>
+		<item>Ветреный</item>
+		<item>Холодно</item>
+		<item>облачный</item>
+		<item>В основном облачно</item>
+		<item>В основном облачно</item>
+		<item>Переменная облачность</item>
+		<item>Переменная облачность</item>
+		<item>Очистить</item>
+		<item>Солнечно</item>
+		<item>Справедливая</item>
+		<item>Справедливая</item>
+		<item>Смешанный дождь и град</item>
+		<item>Горячий</item>
+		<item>Изолированные грозы</item>
+		<item>Рассеянные грозы</item>
+		<item>Рассеянные грозы</item>
+		<item>Рассеянные ливни</item>
+		<item>Снегопад</item>
+		<item>Рассеянные снежные ливни</item>
+		<item>Снегопад</item>
+		<item>Переменная облачность</item>
+		<item>гроза</item>
+		<item>Снегопады</item>
+		<item>Изолированные громы</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>Dropbox</item>
+		<item>Магазин приложений</item>
+				  
+		<item>Библиотека приложений</item>
+		<item>Менеджер приложений</item>
+		<item>настройки</item>
+		<item>браузер</item>
+		<item>Skype</item>
+		<item>YouTube</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910 # Сеул</item>
+		<item>2345969 # Кенги-</item>
+		<item>28816906 # Инчхон</item>
+		<item>2345966 # Gangwon-do</item>
+		<item>2345967 # Кёнсан-Намдо</item>
+		<item>2345970 # Кёнсан-делать</item>
+		<item>28816908 # Кванджу</item>
+		<item>28816909 # Тэгу</item>
+		<item>28816902 # Тэджон</item>
+		<item>28816913 # Пусан</item>
+		<item>28828129 # Седжонг</item>
+		<item>28816901 # Ульсан</item>
+		<item>2345972 # Чолла-Намдо</item>
+		<item>2345964 # Чолла-Пукто</item>
+		<item>28834807 # Чеджудо</item>
+		<item>2345973 # Чхунчхон-Намдо</item>
+		<item>2345965 # Чхунчхон-Пукто</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>январь</item>
+		<item>февраль</item>
+		<item>Март</item>
+		<item>апрель</item>
+		<item>май</item>
+		<item>июнь</item>
+		<item>июль</item>
+		<item>август</item>
+		<item>сентябрь</item>
+		<item>октябрь</item>
+		<item>ноябрь</item>
+		<item>декабрь</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>солнце</item>
+		<item>понедельник</item>
+		<item>вторник</item>
+		<item>Мы б</item>
+		<item>четверг</item>
+		<item>пятница</item>
+		<item>Сидел</item>
+    </string-array>
+
+</resources>

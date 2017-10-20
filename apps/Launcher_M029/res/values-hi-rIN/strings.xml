@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">लांचर</string>
+
+	<string name="application_num">स्थापित अनुप्रयोगों की संख्या:</string>
+
+	<string name="temp_unit_c">℃</string>
+	<string name="temp_unit_f">℉</string>
+
+	<string name="loading">लोड हो रहा है...</string>
+	<string name="instruction_loading">कृपया रुको, लोड हो रहा है .....</string>
+
+	<string name="weather_location">मौसम शहर का चयन करें</string>
+	<string name="applabel">आवेदन</string>
+
+	<string name="errornetwork">नेटवर्क विफलता!</string>
+	<string name="load_error">लोड डेटा विफलता!</string>
+
+
+	<string name="day_of_candar">गु</string>
+
+	<string name="add_app_title">अपने पसंदीदा एपीएस चुनें</string>
+	<string name="tips">मेरी एप्प्स</string>
+	<string name="savemsg">      परिवर्तनों को सुरक्षित करें?</string>
+	<string name="delmsg">क्या आप शॉर्टकट को डेल करना चाहते हैं?</string>
+	<string name="min_apk_num">कम से कम एक एपीके की आवश्यकता है!</string>
+	<string name="ok">हाँ</string>
+	<string name="cancle">नहीं</string>
+	<string name="all_check_title">सभी चेक किए गए</string>
+	<string name="rev_check_title">रिवर्स चेक</string>
+	<string name="month">मीटर</string>
+	<string name="pick_wallpaper">वॉलपेपर चुनें</string>
+	<string name="chooser_wallpaper">वॉलपेपर चुनें</string>
+	<string name="activity_not_found">गतिविधि नहीं मिली</string>
+	<string name="url_select">यूआरएल का चयन करें</string>
+	<string name="wallpaper_instructions">वॉलपेपर निर्देश</string>
+	<string name="wallpaper">वॉलपेपर</string>
+	<string name="wallpaper_set">वॉलपेपर सफलतापूर्वक सेट!</string>
+
+
+	<string name="contentdes">img</string>
+	<string name="city001">शेन्ज़ेन</string>
+	<string name="gallery_info">कृपया यूएसबी फ्लैश ड्राइव डालें या छवियों की पहचान करने में असमर्थ</string>
+
+</resources>

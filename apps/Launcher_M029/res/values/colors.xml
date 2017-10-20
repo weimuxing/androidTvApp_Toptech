@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black2">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FFCCCCCC</color>
+    <color name="red">#FFFF0000</color>
+    <color name="bluegreen">#FF218F9C</color>
+    <color name="notic_bgcolor">#FFCFEDF0</color>
+    
+    <!-- 班级成员  字体颜色 -->
+    <color name="member_name">#FFFFFFFF</color>
+    <color name="member_level">#FFadfaff</color>
+    <color name="member_label">#FFFFFFFF</color>
+    <color name="member_item">#FFFFFFFF</color>
+    
+    <!-- 互动信息 字体颜色 -->
+    <color name="msg_title">#FFFFFFFF</color>
+    <color name="msg_date">#FFFFFFFF</color>
+    <color name="msg_bt">#FFFFFFFF</color>
+    <color name="msg_content">#FFFFFFFF</color>
+    <color name="msg_reply">#FFFFFFFF</color>
+    <color name="msg_label">#FFFFFFFF</color>
+    <color name="msg_item">#FFFFFFFF</color>
+    
+     <!-- 作业练习 字体颜色 -->
+    <color name="work_label">#FFFFFFFF</color>
+    <color name="work_item">#FFFFFFFF</color>
+    <color name="work_date">#FFFFFFFF</color>
+    
+</resources>

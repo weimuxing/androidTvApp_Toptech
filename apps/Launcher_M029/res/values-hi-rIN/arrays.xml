@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="weather_condition">
+		<item>बवंडर</item>
+		<item>उष्णकटिबंधीय तूफान</item>
+		<item>तूफान</item>
+		<item>भयानक गर्जना</item>
+		<item>गरज के साथ वर्षा</item>
+		<item>मिश्रित बारिश और बर्फ</item>
+		<item>मिश्रित बारिश और गीली घास</item>
+		<item>मिश्रित बर्फ और गीली घास</item>
+		<item>जमा देने वाली हवा</item>
+		<item>बूंदा बांदी</item>
+		<item>बर्फ़ीली वर्षा</item>
+		<item>वर्षा</item>
+		<item>वर्षा</item>
+		<item>स्नो फ़्लरीज़</item>
+		<item>हल्का हिमपात</item>
+		<item>उड़ती हुई बर्फ़</item>
+		<item>हिमपात</item>
+		<item>जय हो</item>
+		<item>ओले के साथ वर्षा</item>
+		<item>धूल</item>
+		<item>धूमिल</item>
+		<item>धुन्ध</item>
+		<item>धुएँ के रंग का</item>
+		<item>धमकी से</item>
+		<item>तूफानी</item>
+		<item>सर्दी</item>
+		<item>धुंधला</item>
+		<item>अधिकतर बादल से धिरा हुआ</item>
+		<item>अधिकतर बादल से धिरा हुआ</item>
+		<item>आंशिक रूप से बादल छाएंगे</item>
+		<item>आंशिक रूप से बादल छाएंगे</item>
+		<item>स्पष्ट</item>
+		<item>धूप</item>
+		<item>निष्पक्ष</item>
+		<item>निष्पक्ष</item>
+		<item>मिश्रित बारिश और ओलों</item>
+		<item>गरम</item>
+		<item>अलग थलग बादलों का गरजना</item>
+		<item>अस्तव्यस्त आँधी</item>
+		<item>अस्तव्यस्त आँधी</item>
+		<item>बिखरी हुई बारिश</item>
+		<item>भारी बर्फ</item>
+		<item>बिखरे हुए हिमपात</item>
+		<item>भारी बर्फ</item>
+		<item>आंशिक रूप से बादल छाएंगे</item>
+		<item>गरज के साथ छींटे</item>
+		<item>बर्फ़बारी</item>
+		<item>छुट पुट गरज के साथ छींटे</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>ड्रॉपबॉक्स</item>
+		<item>ऐप स्टोर</item>
+				  
+		<item>ऐप लाइब्रेरी</item>
+		<item>एप्लिकेशन का प्रबंधक</item>
+		<item>सेटिंग्स</item>
+		<item>ब्राउज़र</item>
+		<item>स्काइप</item>
+		<item>यूट्यूब</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910 # सियोल</item>
+		<item>2345969 # गियॉन्गी-डो</item>
+		<item>28816906 # इनचान</item>
+		<item>2345966 # गंगवोन-डू</item>
+		<item>2345967 # ग्यांगसैग्नाम-डो</item>
+		<item>2345970 # ग्यांगसैग्बुक-डो</item>
+		<item>28816908 # ग्वांगजू</item>
+		<item>28816909 # डेगू</item>
+		<item>28816902 # डाइजॉन</item>
+		<item>28816913 # बुसान</item>
+		<item>28828129 # सेजोंग</item>
+		<item>28816901 # उल्सान</item>
+		<item>2345972 # जेओलानम-डो</item>
+		<item>2345964 # जेओलाबक-डो</item>
+		<item>28834807 # जेजुड़ो</item>
+		<item>2345973 # चंगच्यॉन्गनाम-डो</item>
+		<item>2345965 # चुंगचेऑन्गबुक-डो</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>जनवरी</item>
+		<item>फ़रवरी</item>
+		<item>मार्च</item>
+		<item>अप्रैल</item>
+		<item>मई</item>
+		<item>जून</item>
+		<item>जुलाई</item>
+		<item>अगस्त</item>
+		<item>सितम्बर</item>
+		<item>अक्टूबर</item>
+		<item>नवम्बर</item>
+		<item>दिसम्बर</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>रवि</item>
+		<item>सोम</item>
+		<item>मंगल</item>
+		<item>मेल कराना</item>
+		<item>गुरु</item>
+		<item>शुक्र</item>
+		<item>बैठ गया</item>
+    </string-array>
+
+</resources>

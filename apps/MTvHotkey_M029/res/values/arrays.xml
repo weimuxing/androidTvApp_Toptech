@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="more_setting_listview_icon">
+        <item>setting_icon_personalized</item>
+        <item>setting_icon_image</item>
+        <item>setting_icon_voice</item>
+        <item>setting_icon_channel</item>
+        <item>setting_icon_network</item>
+        <item>setting_icon_system</item>
+    </array>
+     <string-array name="more_setting_listview_icon_focus">
+        <item>setting_icon_personalized_focus</item>
+        <item>setting_icon_image_focus</item>
+        <item>setting_icon_voice_focus</item>
+        <item>setting_icon_channel_focus</item>
+        <item>setting_icon_network_focus</item>
+        <item>setting_icon_system_focus</item>
+    </string-array>
+    
+        <!-- setting listview  -->
+    <string-array name="more_setting_listview_text">
+        <item>DTV</item>
+        <item>ATV</item>
+        <item>AV</item>
+        <item>YPBPR</item>
+        <item>VGA</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3/MHL</item>
+        <item>MultiMedia</item>
+    </string-array> 
+</resources>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">תפריט יצרן</string>
+
+
+
+	<string name="str_factory_adc">ADC כוונון</string>
+	<string name="str_factory_adc_source">מָקוֹר</string>
+	<string name="str_factory_adc_rgain">R רווח</string>
+	<string name="str_factory_adc_ggain">G Gain</string>
+	<string name="str_factory_adc_bgain">B רווח</string>
+	<string name="str_factory_adc_roffset">R אופסט</string>
+	<string name="str_factory_adc_goffset">G קיזוז</string>
+	<string name="str_factory_adc_boffset">B אופסט</string>
+	<string name="str_factory_adc_phase">שלב</string>
+	<string name="str_factory_adc_autoadjust">כיוונון אוטומטי</string>
+	<string name="str_factory_adc_autoadjust_val">המתן בבקשה!</string>
+	<string name="str_factory_adc_autoadjust_ok">הַצלָחָה</string>
+	<string name="str_factory_adc_autoadjust_failed">נִכשָׁל</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">מצב העיתוי בחר שגיאה</string>
+	<string name="str_text_adc_adjust">ADC כוונון</string>
+	<string name="str_textview_factory_adc_source_val">VGA</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">האם אתה בטוח שדרוג?</string>
+	<string name="str_textview_factory_dialogmenu_confirm">לְאַשֵׁר</string>
+	<string name="str_textview_factory_dialogmenu_cancel">לְבַטֵל</string>
+	<string name="str_design_menu">תפריט עיצוב</string>
+	<string name="str_factory_menu">תפריט יצרן</string>
+
+
+
+	<string name="str_factory_whitebalance">איזון לבן</string>
+	<string name="str_factory_wbadjust_source">מָקוֹר</string>
+	<string name="str_factory_wbadjust_rgain">R רווח</string>
+	<string name="str_factory_wbadjust_ggain">G Gain</string>
+	<string name="str_factory_wbadjust_bgain">B רווח</string>
+	<string name="str_factory_wbadjust_roffset">R אופסט</string>
+	<string name="str_factory_wbadjust_goffset">G קיזוז</string>
+	<string name="str_factory_wbadjust_boffset">B אופסט</string>
+	<string name="str_factory_wbadjust_autoadjust">התאמה אוטומטית</string>
+	<string name="str_factory_wbadjust_colortemp">טמפרטורת הצבע</string>
+	<string name="str_wb_adjust_text">W / B כוונון</string>
+	<string name="str_textview_factory_wbadjust_source_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">מצב תמונה</string>
+	<string name="str_factory_picmode_picmode">מצב תמונה</string>
+	<string name="str_factory_picmode_brightness">בְּהִירוּת</string>
+	<string name="str_factory_picmode_contrast">בניגוד</string>
+	<string name="str_factory_picmode_saturation">רִוּוּי</string>
+	<string name="str_factory_picmode_hue">צֶבַע</string>
+	<string name="str_factory_picmode_sharpness">חַדוּת</string>
+	<string name="str_factory_picmode_backlight">פנס אחורי</string>
+	<string name="str_picture_mode_text">מצב תמונה</string>
+	<string name="str_textview_factory_picmode_picmode_val">VGA</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">אופציות לא סטנדרטיות</string>
+	<string name="str_factory_nonstandard_vif">VIF (לחץ עלי)</string>
+	<string name="str_factory_nonstandard_vd">VD (לחץ עלי)</string>
+	<string name="str_factory_nonstandard_audio">AUDIO (לחץ עלי)</string>
+	<string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+	<string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+	<string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+	<string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+	<string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+	<string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">סין_DES_BOX_Delay</string>
+	<string name="str_factory_nonstandard_delay">לְעַכֵּב</string>
+	<string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+	<string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+	<string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+	<string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+	<string name="str_factory_nonstandard_aefcd5">AFEC_D5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">AFEC_D8 [3: 0]</string>
+	<string name="str_factory_nonstandard_aefcd9">AFEC_D9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+	<string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+	<string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+	<string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+	<string name="str_factory_nonstandard_aefc66">AFEC_66 [7: 6]</string>
+	<string name="str_factory_nonstandard_aefc6e">AFEC_6E [7: 4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">AFEC_6E [3: 0]</string>
+	<string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+	<string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+	<string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+	<string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+	<string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+	<string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+	<string name="str_factory_nonstandard_audiosif">אודיו SIF סף</string>
+	<string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+	<string name="str_Non_Standard_Adjust_text">התאמה לא סטנדרטית</string>
+	<string name="str_textview_factory_nonstandard_default_val">128</string>
+
+
+	<string name="str_factory_non_linear">לֹא קָוִי</string>
+	<string name="str_factory_nonlinear_curvetype">סוג עקומה</string>
+	<string name="str_factory_nonlinear_osd0">OSD_0</string>
+	<string name="str_factory_nonlinear_osd25">OSD_25</string>
+	<string name="str_factory_nonlinear_osd50">OSD_50</string>
+	<string name="str_factory_nonlinear_osd75">OSD_75</string>
+	<string name="str_factory_nonlinear_osd100">OSD_100</string>
+	<string name="str_Non_Linear_Adjust_text">כוונון שאינו ליניארי</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">VGA</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">OverScan</string>
+	<string name="str_factory_overscan_source">מָקוֹר</string>
+	<string name="str_factory_overscan_hsize">גודל</string>
+	<string name="str_factory_overscan_vsize">גודל V</string>
+	<string name="str_factory_overscan_vposition">מיקום V</string>
+	<string name="str_factory_overscan_adjust_text">OverScan כוונון</string>
+	<string name="str_textview_factory_overscan_source_val">טרקטורונים</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">התאמת SSC</string>
+	<string name="str_factory_ssc_miuenable">MIU הפעל</string>
+	<string name="str_factory_ssc_miumodulation">מודולציה</string>
+	<string name="str_factory_ssc_miupercentage">(%)</string>
+	<string name="str_factory_ssc_lvdsenable">LVDS הפעל</string>
+	<string name="str_factory_ssc_lvdsmodulation">LVDS אפנון</string>
+	<string name="str_factory_ssc_lvdspercentage">LVDS אחוז (%)</string>
+	<string name="str_factory_ssc_u_miuenable">MIU_U הפעל</string>
+	<string name="str_factory_ssc_u_miumodulation">שינויי MIU_U</string>
+	<string name="str_factory_ssc_u_miupercentage">אחוז MIU_U (%)</string>
+	<string name="str_factory_ssc_u_lvdsenable">LVDS_U הפעל</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">LVDS_U אפנון</string>
+	<string name="str_factory_ssc_u_lvdspercentage">LVDS_U אחוז (%)</string>
+	<string name="str_ssc_adjust_text">התאמת SSC</string>
+	<string name="str_textview_factory_ssc_default_val">128</string>
+
+
+
+	<string name="str_factory_peq">PEQ</string>
+	<string name="str_factory_peq_fo1coarse">FO1 גס</string>
+	<string name="str_factory_peq_fo1fine">FO1 בסדר</string>
+	<string name="str_factory_peq_fo2coarse">FO2 גס</string>
+	<string name="str_factory_peq_fo2fine">FO2 בסדר</string>
+	<string name="str_factory_peq_fo3coarse">FO3 גס</string>
+	<string name="str_factory_peq_fo3fine">FO3 בסדר</string>
+	<string name="str_factory_peq_fo4coarse">FO4 גס</string>
+	<string name="str_factory_peq_fo4fine">FO4 בסדר</string>
+	<string name="str_factory_peq_fo5coarse">FO5 גס</string>
+	<string name="str_factory_peq_fo5fine">FO5 בסדר</string>
+	<string name="str_factory_peq_gain1">רווח 1</string>
+	<string name="str_factory_peq_gain2">רווח 2</string>
+	<string name="str_factory_peq_gain3">רווח 3</string>
+	<string name="str_factory_peq_gain4">רווח 4</string>
+	<string name="str_factory_peq_gain5">רווח 5</string>
+	<string name="str_factory_peq_q1">Q1</string>
+	<string name="str_factory_peq_q2">Q2</string>
+	<string name="str_factory_peq_q3">ש 3</string>
+	<string name="str_factory_peq_q4">ש 4</string>
+	<string name="str_factory_peq_q5">ש 5</string>
+	<string name="str_peq_adjust_text">כוונון PEQ</string>
+	<string name="str_textview_factory_peq_default_val">128</string>
+
+
+	<string name="str_factory_ci_setting">CI הגדרת המפעל</string>
+	<string name="str_factory_ci_credential_mode">CI + מצב אישורי כניסה</string>
+	<string name="str_factory_ci_performance_monitor">מעקב אחר ביצועים</string>
+	<string name="str_factory_ci_resource_manager">מנהל משאבים</string>
+	<string name="str_factory_ci_application_infomation">מידע על הבקשה</string>
+	<string name="str_factory_ci_conditional_access_support">תמיכה בגישה מותנית</string>
+	<string name="str_factory_ci_host_control">בקרת מארח</string>
+	<string name="str_factory_ci_date_time">תאריך שעה</string>
+	<string name="str_factory_ci_man_machine_interface">מאן ממשק מכונה</string>
+	<string name="str_factory_ci_low_speed_communication">תקשורת מהירות נמוכה</string>
+	<string name="str_factory_ci_content_control">בקרת תוכן</string>
+	<string name="str_factory_ci_host_language_country">ארץ שפה מארח</string>
+	<string name="str_factory_ci_cam_upgrade">שדרוג CAM</string>
+	<string name="str_factory_ci_operator_profile">פרופיל מפעיל</string>
+	<string name="str_factory_ci_specific_application_support">תמיכה ספציפית ליישום</string>
+	<string name="str_factory_ci_app_man_machine_interface">יישום אדם ממשק מכונה</string>
+	<string name="str_factory_ci_program_map_table">טבלת מפת תוכניות (ללא שימוש)</string>
+	<string name="str_factory_ci_host_service_shunning">שירות המארח Shunning</string>
+	<string name="str_factory_ci_canal_ready_authentication">אימות מוכן לתעלה</string>
+	<string name="str_factory_ci_default_tx_rx">ברירת מחדל TX / RX</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">מבחן (CI Library)</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">בדיקה (Nand Flash)</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">תצורת הר</string>
+
+
+
+	<string name="str_factory_pqtableupdate">עדכון טבלת PQ</string>
+
+
+	<string name="str_factory_ursa_info">מידע Ursa</string>
+	<string name="str_factory_ursa_version">גִרְסָה</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">רשימת שינויים</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">פרטי לוח</string>
+	<string name="str_textview_factory_panelinfo_text_timode">מצב Ti</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">מצב Bit</string>
+	<string name="str_textview_factory_panelinfo_text_swap">מצב החלפה</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">מצב כפול</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">מצב מראה</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">VolumeCurve</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω 8W</string>
+
+
+
+	<string name="str_set_mute_color">השתקת צבע</string>
+
+
+	<string name="str_factory_otheroption">אפשרויות אחרות</string>
+	<string name="str_factory_otheroption_version">גִרְסָה</string>
+	<string name="str_factory_otheroption_name">שֵׁם</string>
+	<string name="str_factory_otheroption_build">לִבנוֹת</string>
+	<string name="str_factory_otheroption_changelist">רשימת שינויים</string>
+	<string name="str_factory_otheroption_board">לוּחַ</string>
+	<string name="str_factory_otheroption_panel">לוּחַ</string>
+	<string name="str_factory_otheroption_date">תַאֲרִיך</string>
+	<string name="str_factory_otheroption_time">זְמַן</string>
+	<string name="str_factory_otheroption_watchdog">כלב</string>
+	<string name="str_factory_otheroption_wake_on_lan">להתעורר על לאן</string>
+	<string name="str_factory_otheroption_testpattern">דפוס בדיקה</string>
+	<string name="str_factory_otheroption_upgrademboot">שדרג Mboot</string>
+	<string name="str_factory_otheroption_upgrademain">שדרוג ראשי</string>
+	<string name="str_factory_otheroption_upgrade6m30">שדרג את 6M30</string>
+	<string name="str_factory_otheroption_upgradedualursa">שדרוג Dual Ursa</string>
+	<string name="str_factory_otheroption_restoretodefault">שחזר אל ברירת המחדל</string>
+	<string name="str_factory_otheroption_poweronmode">מצב מופעל</string>
+	<string name="str_factory_otheroption_uartenable">הפעלת Uart</string>
+	<string name="str_factory_otheroption_display_logo">לוגו תצוגה</string>
+	<string name="str_factory_otheroption_dtvavdelay">DTV AV Delay (לא תקני)</string>
+	<string name="str_factory_otheroption_initialfunction">ערוץ ראשוני</string>
+	<string name="str_factory_otheroption_panelswing">פאנל הנדנדה</string>
+	<string name="str_factory_otheroption_audioprescale">אודיו Prescale</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">3D להגדרה עצמית ברמת זיהוי</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">האם אתה בטוח שדרוג?</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">לְאַשֵׁר</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">לְבַטֵל</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">אנא חבר USB!</string>
+	<string name="str_factory_otheroption_xvycc">Xvicc</string>
+	<string name="str_factory_otheroption_pvrrecordall">RVR להקליט את כל</string>
+	<string name="str_other_option_text">אפשרות אחרת</string>
+	<string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+	<string name="str_textview_factory_otheroption_board_val">J2</string>
+	<string name="str_textview_factory_otheroption_panel_val">רזולוציה מלאה</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">עַל</string>
+	<string name="str_textview_factory_otheroption_text_off">כבוי</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >></string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >></string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >></string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >></string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+	<string name="str_textview_factory_otheroption_default_val">0"</string>
+	<string name="str_factory_otheroption_main_pq_version">ראשי גירסת PQ</string>
+	<string name="str_factory_otheroption_sub_pq_version">גרסה PQ Sub</string>
+	<string name="str_textview_factory_otheroption_waiting_val">בבקשה תחכה!</string>
+	<string name="str_factory_otheroption_mstv_tool">ניקוי באגים של Uart</string>
+	<string name="str_factory_otheroption_pq_update">עדכון PQ</string>
+	<string name="str_factory_otheroption_pq_update_state">בבקשה תלחץ!</string>
+	<string name="str_factory_nonstandard_afeccf_av">AFEC_CF [2] _AV</string>
+	<string name="str_factory_nonstandard_afeccf_atv">AFEC_CF [2] _ATV</string>
+	<string name="str_ursa_test_result_title">תוצאה:</string>
+	<string name="str_ursa_test_run_auto">הפעלה אוטומטית</string>
+	<string name="str_ursa_test_title">מבחן אורסה</string>
+	<string name="str_ursa_test_run">לָרוּץ</string>
+	<string name="str_Info_title">מידע</string>
+	<string name="str_factory_otheroption_sw_version">גרסת SW</string>
+	<string name="str_factory_otheroption_dtv_preset">DTV מראש</string>
+	<string name="str_factory_otheroption_dtv_preset_state">בבקשה תלחץ!</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">המתן בבקשה...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">סיום, AC לאחר 1 דקות.</string>
+	<string name="enter">מקש אישור להזין תפריט המפעל -></string>
+	<string name="tips">L-R Ajust, "אישור" הזן הבא, "יציאה" / "תפריט" לחזור</string>
+	<string name="str_factory_otheroption_str_enable">הפעל STR</string>
+	<string name="str_factory_otheroption_audiodelay">רמקול השהיה אודיו</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">IP אפשר מיפוי</string>
+	<string name="str_ipenablemapping_text">IP אפשר מיפוי</string>
+
+
+	<string name="str_factory_update">שדרג מ - USB</string>
+	<string name="str_factory_upgrade">שדרג מ - USB</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">עדכון מפתח HDCP מ USB</string>
+	<string name="str_factory_updateCIkeyfromUSB">עדכן מפתח CI Plus מתוך USB</string>
+	<string name="str_factory_upgrade_ci_upgrade">שדרוג Ci</string>
+	<string name="str_factory_upgrade_ci_display">תצוגת Ci</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">שדרוג Hdcp</string>
+	<string name="str_factory_upgrade_hdcp_display">תצוגת HDCP</string>
+	<string name="str_factory_upgrade_mac_upgrade">Mac שדרוג</string>
+	<string name="str_factory_upgrade_mac_display">Mac תצוגה</string>
+	<string name="str_factory_upgrade_sn_upgrade">שדרוג SN</string>
+	<string name="str_factory_upgrade_sn_display">תצוגה SN</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">שדרוג Hdcp2</string>
+	<string name="str_factory_upgrade_hdcp2_display">תצוגת Hdcp2</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">מידע על דמו</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">DVBT מידע</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">מידע DVBC</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">获取 DVBT / DVBC מידע 失败</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">תוכנית המפעל מראש פונקציה</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">תוכנית מראש במפעל</string>
+	<string name="str_factory_otheroption_factoryprogramreset">איפוס תוכנית המפעל</string>
+	<string name="str_factory_otheroption_backupdbtousb">גיבוי DB ל- USB</string>
+	<string name="str_factory_otheroption_restoredbfromusb">שחזור DB מ USB</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">בבקשה תלחץ!</string>
+	<string name="str_textview_factory_otheroption_text_pass">לַעֲבוֹר</string>
+	<string name="str_textview_factory_otheroption_text_fail">לְהִכָּשֵׁל</string>
+	<string name="str_factory_db_path">/ Tvdatabase / מסד נתונים /</string>
+	<string name="str_factory_db_file">* Cmdb * .bin</string>
+
+	<string name="str_factory_again_mode">מצב ההזדקנות</string>
+	<string name="str_factory_running_time">זמן הספק (H / 2)</string>
+
+
+	<string name="str_design_menu_sound">נשמע</string>
+	<string name="str_factory_prescale">פרס</string>
+	<string name="str_factory_avc_enable">Avc הפעל</string>
+	<string name="str_factory_avc_threthold">Avc Thl</string>
+	<string name="str_factory_drc_enable">DRC אפשר</string>
+	<string name="str_factory_drc_threthold">Drc Thl</string>
+	<string name="str_factory_sound_effect">אפקט (HPF)</string>
+	<string name="str_factory_sound_toneffect">טוֹן</string>
+	<string name="str_factory_audio_delay">עיכוב שמע (רמקול)</string>
+	<string name="str_factory_audio_nr">אודיו NR</string>
+	<string name="str_factory_lineout">LineOut (AUOUT1)</string>
+	<string name="str_factory_speaker">אמצעי אחסון (AUOUT0)</string>
+	<string name="str_factory_audio_spdif_delay">עיכוב שמע (spdif)</string>
+
+	<string name="str_factory_ota_info">מידע OTA</string>
+	<string name="str_factory_ota_info_praname">שם פרטי</string>
+	<string name="str_factory_ota_info_cusname">CusName</string>
+	<string name="str_factory_ota_info_proname">ProName</string>
+	<string name="str_factory_ota_info_preversion">היפוך</string>
+	<string name="str_factory_onidaview">אפשרות גלילה זמינה</string>
+
+	<string name="str_textview_factory_total_run_time">ח</string>
+	<string name="str_total_run_time">סך הכל</string>
+
+</resources>

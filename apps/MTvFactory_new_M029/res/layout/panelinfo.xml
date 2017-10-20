@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/factory_panel_info"
+            android:layout_width="fill_parent"
+            android:layout_height="47dip"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_factory_panel_info"
+            android:textColor="#ffffff"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearlayout_panel_info_changelist"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@+id/linearlayout_panel_info_dual"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_panel_info_changelist"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_ursa_changelist"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_panel_info_changelist_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_ursa_changelist_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_panel_info_timode"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_panel_info_timode"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_textview_factory_panelinfo_text_timode"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_panel_info_timode_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_off"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_panel_info_bitmode"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_panel_info_bitmode"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_textview_factory_panelinfo_text_bitmode"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_panel_info_bitmode_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_off"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_panel_info_swap"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_panel_info_swap"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_textview_factory_panelinfo_text_swap"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_panel_info_swap_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_off"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_panel_info_mirror"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_panel_info_mirror"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_textview_factory_panelinfo_text_mirror"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_panel_info_mirror_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_off"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_panel_info_dual"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusDown="@+id/linearlayout_panel_info_changelist"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_panel_info_dual"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_textview_factory_panelinfo_text_dual"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_panel_info_dual_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_off"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

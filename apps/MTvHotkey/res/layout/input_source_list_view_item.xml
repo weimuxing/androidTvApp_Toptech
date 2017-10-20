@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view_item_bg"
+    android:layout_width ="266dp"
+    android:orientation ="horizontal"
+    android:layout_height ="34dp">
+    <TextView
+        android:id="@+id/input_source_data"
+        android:layout_width ="150dp"
+        android:layout_height ="34dp"
+        android:gravity ="center"
+        android:layout_marginLeft ="30dp"
+        android:textColor ="#ffffff" />
+    <ImageView
+        android:id="@+id/input_source_img"
+        android:layout_width ="34dp"
+        android:layout_height ="17dp"
+        android:layout_marginTop ="8dp"
+        android:src ="@drawable/list_menu_img_date_disable"/>
+</LinearLayout>

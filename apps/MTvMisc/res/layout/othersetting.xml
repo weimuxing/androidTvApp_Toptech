@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="167dip"
+    android:layout_height="33dip"
+    android:layout_x="533dip"
+    android:layout_y="133dip"
+    android:orientation="vertical"
+    android:layout_gravity="right|top">
+    <LinearLayout
+        android:layout_width="169dp"
+        android:layout_height="33dip"
+        android:background="@drawable/menu2_focus"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textview_pic"
+            android:layout_width="45dip"
+            android:layout_height="33dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/picture"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_audio"
+            android:layout_width="40dip"
+            android:layout_height="33dip"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/sound"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+        <TextView
+            android:id="@+id/textview_3d"
+            android:layout_width="33dip"
+            android:layout_height="33dip"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/str_3d"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+</LinearLayout>

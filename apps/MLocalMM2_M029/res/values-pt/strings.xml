@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MM local</string>
+  <string name="mm_version">MM-Produto-AN Versão-1.4.2</string>
+  <string name="back">Retroceder</string>
+  <string name="exit">Saída</string>
+  <string name="folder">pasta</string>
+  <string name="rootDirectory">/mnt/usb</string>
+  <string name="sambarootDirectory">/mnt/samba</string>
+  <string name="unsupport_format">Não é possível reproduzir o formato</string>
+  <string name="exit_ok">OK</string>
+  <string name="exit_cancel">Cancelar</string>
+  <string name="current_time">Tempo atual:</string>
+  <string name="total_duration">Tempo total:</string>
+  <string name="choice">selecionar</string>
+  <string name="confirm">Confirmar</string>
+  <string name="ok">OK</string>
+  <string name="exit_title">Saída</string>
+  <string name="exit_confirm">confirmar eliminação?</string>
+  <string name="the_first_file">Primeiro ficheiro</string>
+  <string name="the_last_file">Último ficheiro</string>
+  <string name="net_disconnect">A internet está desligada, verifique a ligação!</string>
+  <string name="display_pip">Exibir PIP</string>
+  <string name="hide_pip">Ocultar PIP</string>
+  <string name="pre_channel">Canal anterior</string>
+  <string name="next_channel">Canal seguinte</string>
+  <string name="max_tip">Proporção máxima!</string>
+  <string name="min_tip">Proporção mínima!</string>
+  <string name="busy_tip">O sistema está ocupado, tente novamente mais tarde!</string>
+  <!-- ####################文件浏览模块资源定义区#################### -->
+  <string name="picture">IMAGEM</string>
+  <string name="song">música</string>
+  <string name="video">vídeo</string>
+  <string name="samba">Samba</string>
+  <string name="dlna">DLNA</string>
+  <string name="other">Outras</string>
+  <string name="all">Todos</string>
+  <string name="page_up">página para cima</string>
+  <string name="page_down">página para baixo</string>
+  <string name="samba_usr">nome do utilizador:</string>
+  <string name="samba_pwd">palavra-passe:</string>
+  <string name="samba_confirm">Iniciar sessão</string>
+  <string name="samba_cancel">Cancelar</string>
+  <string name="slash">/</string>
+  <!-- 加载进度提示信息定义区 -->
+  <string name="loading_top">A carregar página superior, aguarde</string>
+  <string name="loading_usb_device">A carregar dispositivo USB</string>
+  <string name="loading_local_resource">A carregar recurso local, aguarde</string>
+  <string name="loading_dlna_device">A carregar dispositivo DLNA, aguarde</string>
+  <string name="loading_dlna_resource">A carregar recurso DLNA, aguarde</string>
+  <string name="miss_dlna_device">Falha no carregamento do recurso DLNA</string>
+  <string name="loading_samba_device">A carregar dispositivo SAMBA, aguarde</string>
+  <string name="loading_samba_resource">A carregar recurso SAMBA, aguarde</string>
+  <string name="miss_samba_device">Falha no carregamento do recurso SAMBA</string>
+  <string name="is_scanning_disc">A analisar disco</string>
+  <string name="login_wrong_password">Palavra-passe errada</string>
+  <string name="login_failed">Falha a iniciar sessão SAMBA</string>
+  <string name="login_other_failed">Exceção de início de sessão SAMBA</string>
+  <string name="login_title">Iniciar sessão</string>
+  <string name="network_connect_failed">Falha a ligar ao servidor, não é possível partilhar recursos de rede</string>
+  <string name="network_unconnected">Rede não ligada, verifique e tente novamente
+
+    </string>
+  <string name="login_samba">A iniciar sessão Samba, aguarde</string>
+  <string name="logging_out_samba">A terminar sessão Samba, aguarde</string>
+  <string name="login_success">Início de sessão Samba com sucesso</string>
+  <string name="mount_failed">Falha ao montar Samba</string>
+  <string-array name="data_source">
+    <item>dispositivo de disco local</item>
+    <item>dispositivo de rede SAMBA</item>
+    <!--<item>network DLNA device</item>-->
+  </string-array>
+  <!-- ####################媒体播放器资源定义区#################### -->
+  <!-- 图片播放模块资源定义区 -->
+  <string name="file_name">nome do ficheiro:</string>
+  <string name="photo_info">informação sobre a fotografia</string>
+  <string name="file_create_time">hora de criação:</string>
+  <string name="file_size">tamanho do ficheiro:</string>
+  <string name="file_format">formato de ficheiro:</string>
+  <string name="display_img_name">nome da imagem de exibição</string>
+  <string name="disk_eject">ejetar disco</string>
+  <string name="photo_3D_toast">não funcionar em modo 3D</string>
+  <string name="photo_set_wallpaper">fotografia de fundo</string>
+  <string name="first_photo">primeira foto</string>
+  <string name="last_photo">última foto</string>
+  <string name="can_not_decode">A foto é demasiado grande para ser analisada!</string>
+  <string name="current_pic">A imagem atual é:</string>
+  <string name="is_setting_wallpaper">A definir imagem de fundo, aguarde...</string>
+  <string name="picture_can_not_decode">Não é possível descodificar esta imagem!</string>
+  <string name="picture_decoding">A descodificar imagem...</string>
+  <string name="picture_wallpaper">A definir imagem de fundo...</string>
+  <string name="picture_decode_failed">Falha a descodificar imagem!</string>
+  <string name="picture_can_not_set3d">Não é uma imagem 3D!</string>
+  <string name="picture_playing_time">intervalo de tempo de reprodução</string>
+  <string name="picture_animation_setting">efeito de animação</string>
+  <string name="photo_GIF_toast">não funcionar em modo de animação GIF</string>
+  <string name="photo_out_of_memory_toast">Pouca memória!</string>
+  <string name="photo_scale_or_rotate_toast">não funcionar em modo de escala ou de rotação</string>
+  <string name="photo_pan_success_toast">panorâmica da imagem com sucesso!</string>
+  <string name="photo_pan_failed_toast">falha na panorâmica da imagem!</string>
+  <string name="photo_pan_parameter_invalid">parâmetro da panorâmica da imagem inválido!</string>
+  <string name="not_supported_3D_this_platform">sem suporte 3D na plataforma!</string>
+  <!-- 音乐播放模块资源定义区 -->
+  <string name="music_info">informações da música</string>
+  <string name="file_duration">duração do ficheiro:</string>
+  <string name="Artist_name">nome do artista:</string>
+  <string name="file_path">caminho do ficheiro:</string>
+  <string name="none_lyrics_find">Letras não encontradas!</string>
+  <string name="unknown">desconhecido</string>
+  <string name="singer">Cantor(a):</string>
+  <string name="current_song">Música atual:</string>
+  <string name="exit_music_play">Determinar a música reproduzida?</string>
+  <string name="alert">Alerta</string>
+  <!-- 视频播放模块资源定义区 -->
+  <string name="no_video_track">nenhuma faixa de vídeo</string>
+  <string name="audio_codec">codec de áudio:</string>
+  <string name="video_codec">codec de vídeo:</string>
+  <string name="duration">duração:</string>
+  <string name="default_time">--:--:--</string>
+    <string name="video_default_time">00:00:00</string>
+  <string name="choose_time_0">0</string>
+  <string name="choose_time_colon">:</string>
+  <string name="programe_info">informações do programa</string>
+  <string name="show_info">erro na reprodução </string>
+  <string name="buffering">a colocar na memória intermédia...</string>
+  <string name="playing">a reproduzir</string>
+  <string name="video_subtitle">legenda do vídeo</string>
+  <string name="video_track">faixa de vídeo</string>
+  <string name="video_thumbnail_mode">modo miniatura</string>
+  <string name="video_rotate_mode">modo de rotação</string>
+  <string name="video_channel">canal de vídeo</string>
+  <string name="video_media_full_resize">redimensionar total do vídeo</string>
+  <string name="video_media_play_next">Continuar a reproduzir o vídeo seguinte?</string>
+  <string name="video_media_default">tamanho padrão do vídeo</string>
+  <string name="video_media_full">tamanho total do vídeo</string>
+  <string name="video_media_error_unknown">erro do suporte de vídeo: desconhecido</string>
+  <string name="video_media_error_malformed">erro do suporte de vídeo: malformado</string>
+  <string name="video_media_error_io">erro do suporte de vídeo: io</string>
+  <string name="video_media_error_unsupported">erro do suporte de vídeo: não suportado</string>
+  <string name="video_media_error_format_unsupport">erro do suporte de vídeo: formato não suportado</string>
+  <string name="video_media_error_not_connected">erro do suporte de vídeo: não ligado</string>
+  <string name="video_media_error_audio_unsupport">erro do suporte de vídeo: áudio não suportado</string>
+  <string name="video_media_error_video_unsupport">erro do suporte de vídeo: vídeo não suportado</string>
+  <string name="video_media_error_no_license">erro do suporte de vídeo: sem licença</string>
+  <string name="video_media_error_license_expired">erro do suporte de vídeo: licença expirada</string>
+  <string name="video_media_other_error_unknown">outro erro desconhecido</string>
+  <string name="video_media_error_not_valid">erro do suporte de vídeo: não válido</string>
+  <string name="video_media_error_server_died">servidor multimédia não responde</string>
+  <string name="video_media_infor_no_index">vídeo sem índice, não foi possível procurar</string>
+  <string name="video_media_infor_no_index_ab">vídeo sem índice, A-B não definido</string>
+  <string name="video_media_do_forward_info">não avançar rápido com muita frequência! intervalo deve ser &gt; 600 ms</string>
+  <string name="video_audio_track_switch_info">não alterar a faixa de áudio com muita frequência!</string>
+  <string name="video_thumbnail_switch_info">não abrir/fechar modo miniatura com muita frequência!</string>
+  <string name="video_no_support_two_4k">Não suporta vídeo 4k.</string>
+  <string name="video_iso_tip">Não suportado pelo ficheiro ISO blu-ray! </string>
+  <string name="open_file_fail">Não foi possível abrir o ficheiro! </string>
+  <string name="subtitle_type">tipo de legenda</string>
+  <string name="subtitle_out_path">caminho da legenda</string>
+  <string name="subtitle_in_no">n.º da legenda</string>
+  <string name="subtitle_language">Idioma das Legendas</string>
+  <string name="subtitle_color">cor da legenda</string>
+  <string name="subtitle_font">tipo de letra da legenda</string>
+  <string name="subtitle_font_size">tamanho do tipo de letra da legenda</string>
+  <string name="subtitle_frame">estrutura da legenda</string>
+  <string name="subtitle_area">área da legenda</string>
+  <string name="subtitle_adjust">ajustar legenda</string>
+  <string name="subtitleList">lista de legendas</string>
+  <string name="playList">Lista de reprodução</string>
+  <string name="subtitle_setting">Definição da legenda</string>
+  <string name="a_b_section_repeat">Repetir secção A-B</string>
+  <string name="section_replay">Reproduzir novamente secção</string>
+  <string name="set_begin_a">Definir ponto de partida A</string>
+  <string name="set_begin_b">Definir ponto de partida B</string>
+  <string name="audio_track_count">contagem da faixa</string>
+  <string name="audio_track_number">número da faixa</string>
+  <string name="audio_track_duration">duração da faixa</string>
+  <string name="audio_track_language">idioma da faixa</string>
+  <string name="audio_track_codec">codec da faixa</string>
+  <string name="audio_track_channel">canal da faixa</string>
+  <string name="audio_track_name">nome da faixa</string>
+  <string name="audio_track_setting">definição da faixa</string>
+  <string name="point_a">Posição do ponto A</string>
+  <string name="point_b">Posição do ponto B</string>
+  <string name="one_times_speed">velocidade x1</string>
+  <string name="x_times_speed">velocidade x</string>
+  <string name="playing_settings">Definições de reprodução</string>
+  <string name="open_ab_repeat">repetir A-B aberto</string>
+  <string name="set_point_a_first">definir ponto A primeiro</string>
+  <string name="video_three_d_setting">definição do vídeo 3D</string>
+  <string name="video_rotate_degrees_setting">definição do grau de rotação do vídeo</string>
+  <string name="video_rotate_degrees_setting_info">Esta definição do grau será aplicada na próxima reprodução de vídeo</string>
+  <string name="video_3D_none">Desligado</string>
+  <string name="video_3D_side_by_side">SBS</string>
+  <string name="video_3D_top_bottom">TB</string>
+  <string name="video_3D_frame_packing">FP</string>
+  <string name="video_3D_line_alternative">LA</string>
+  <string name="video_3D_2dto3d">2D-3D</string>
+  <string name="video_3D_3dto2d">3D-2D</string>
+  <string name="video_3D_auto">Auto</string>
+  <string name="video_3D_check_board">CB</string>
+  <string name="video_3D_pixel_alternative">PA</string>
+  <string name="video_3D_frame_alternative">FA</string>
+  <string name="video_3D_count">COUNT</string>
+  <string name="video_3D_switch_info">não abrir/fechar o 3D com muita frequência!</string>
+  <string name="aspect_ratio_16X9">formato 16:9</string>
+  <string name="aspect_ratio_4X3">formato 4:3</string>
+  <string name="aspect_ratio_default">formato padrão</string>
+  <string name="can_not_open_dual">não é possível abrir descodificação dupla em modo 3D</string>
+  <string name="can_not_open_3D">não é possível abrir 3D em modo de descodificação dupla</string>
+  <string name="can_not_open_3D_pip">não é possível abrir 3D em modo PIP</string>
+  <string name="video_start_time">tempo de início do vídeo</string>
+  <string name="video_buffer_time">Tempo de memória intermédia: </string>
+  <string name="video_first_video_frame_time">Definir tempo do primeiro fotograma: </string>
+  <string name="video_breakpoint_play">saltar para a última reprodução?</string>
+  <string name="video_breakpoint">ponto de interrupção da reprodução</string>
+  <string name="can_not_open_dual_pip">não é possível abrir descodificação dupla em modo PIP/POP/DUALVIEW</string>
+  <string name="can_not_open_dual_4kVideo">não é possível abrir descodificação dupla em modo 4k1k/4k2k</string>
+  <string name="can_not_open_dual_HEVC_Video">não é possível abrir descodificação dupla em modo H.265/HEVC</string>
+  <string name="can_not_open_dual_Thumbnail_Video">não é possível abrir descodificação dupla em modo Miniatura</string>
+  <string name="can_not_open_dual_this_platform">não é possível abrir descodificação dupla na plataforma</string>
+  <string name="can_not_open_thumbnail_dual_Video">não é possível abrir miniatura em modo de Descodificação dupla</string>
+  <string name="can_not_open_thumbnail_4kVideo">não é possível abrir miniatura em modo 4k1k/4k2k</string>
+  <string name="can_not_open_thumbnail_3DMode">não é possível abrir miniatura em modo 3D</string>
+  <string name="can_not_open_thumbnail_this_platform">A miniatura não é suportada na plataforma!</string>
+  <string name="can_not_open_dual_rotate_mode">não é possível abrir descodificação dupla em modo de Rotação</string>
+  <string name="can_not_open_rotate_dual_mode">não é possível abrir a rotação em modo de Visualização dupla</string>
+  <string name="can_not_open_rotate">esta plataforma não suporta rotação</string>
+  <string name="can_not_support_aspect_ratio">o vídeo atual não suporta o formato</string>
+  <!--divx string -->
+  <string name="video_divx_title">Título</string>
+  <string name="video_divx_edition">Edição</string>
+  <string name="video_divx_chapter">Capítulo</string>
+  <string name="video_divx_autochapter">Capítulo automático</string>
+  <string name="video_divx_title_resume">Retomar DivX</string>
+  <string name="video_divx_resume">
+        Retomar de onde parou na última reprodução?</string>
+  <!--    VOD -->
+  <string name="video_divx_vod">DivX(R) VOD</string>
+  <!--    register -->
+  <string name="divx_vod_drm_register">
+        Deve registar o seu dispositivo para reproduzir vídeo protegidos DivX</string>
+  <string name="divx_vod_drm_registration_code">Código de registo:</string>
+  <string name="divx_vod_drm_register_at">Registar em</string>
+  <!--    Deregistration -->
+  <string name="divx_vod_drm_deregistration_confirm">
+        O seu dispositivo já se encontra registado \n \n
+        Tem a certeza de que pretende anular o registo?</string>
+  <string name="divx_vod_drm_deregistration_code">Código de anulação do registo:</string>
+  <string name="divx_vod_drm_deregister_at">Anular registo em</string>
+  <string name="divx_vod_drm_deregister">Continuar com o registo?</string>
+  <!--    Authorization Error -->
+  <string name="divx_vod_drm_authorization_error">
+        O seu dispositivo não está autorizado a reproduzir este vídeo protegido DivX</string>
+  <!--    Rental -->
+  <string name="divx_vod_drm_rental">Este vídeo de aluguer DivX utilizou</string>
+  <string name="divx_vod_drm_views">visualizações</string>
+  <string name="divx_vod_drm_rental_expired">Este vídeo de aluguer DivX expirou.</string>
+  <string name="divx_vod_drm_rental_confirm">Continuar?</string>
+  <!--    Unauthorized DivX DRM Version -->
+  <string name="divx_vod_drm_unauthorized_version">
+        Versão DRM do DivX não autorizada</string>
+  <!--    Unauthorized Video Output -->
+  <string name="divx_vod_drm_unauthorized_video">
+        Saída de vídeo não autorizada. Experimente outra interface.</string>
+  <!--    URL -->
+  <string name="video_divx_vod_url">http://vod.divx.com</string>
+  <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+  <string name="subtitle_0_value_1">exibir legenda externa</string>
+  <string name="subtitle_0_value_2">exibir legenda interna</string>
+  <string name="subtitle_1_value_1">selecione o caminho</string>
+  <string name="subtitle_1_value_2">nenhuma legenda externa</string>
+  <string name="subtitle_2_value_1">Nenhuma</string>
+  <string name="subtitle_2_value_2">Legendas</string>
+  <string name="subtitle_3_value_1">desconhecido</string>
+  <string name="subtitle_3_value_2">Nenhuma</string>
+  <string name="subtitle_4_value_1">Padrão</string>
+  <string name="subtitle_4_value_2">sans_serif</string>
+  <string name="subtitle_4_value_3">monospace</string>
+  <string name="subtitle_5_value_1">grande</string>
+  <string name="subtitle_5_value_2">Meio</string>
+  <string name="subtitle_5_value_3">Small</string>
+  <string name="subtitle_6_value_1">White</string>
+  <string name="subtitle_6_value_2">Black</string>
+  <string name="subtitle_6_value_3">Azul</string>
+  <string name="subtitle_7_value_1">Não</string>
+  <string name="subtitle_7_value_2">Sim</string>
+  <string name="subtitle_8_value_1">inferior</string>
+  <string name="subtitle_8_value_2">Top</string>
+  <string name="subtitle_9_value">0 ms</string>
+  <string-array name="subtitle_setting_opt">
+    <item>exibir legenda externa</item>
+    <item>selecione o caminho</item>
+    <item>Nenhuma</item>
+    <item>desconhecido</item>
+    <item>Padrão</item>
+    <item>Meio</item>
+    <item>White</item>
+    <item>Não</item>
+    <item>inferior</item>
+    <item>0 ms</item>
+  </string-array>
+  <string name="subtitle_change_msg">legenda externa, altere para a legenda interna!</string>
+  <string name="subtitle_change_path">legenda interna, altere para a legenda externa!</string>
+  <string name="choose_time_failed">não é possível localizar!</string>
+  <string name="choose_time_invalid">tempo inválido, tente novamente!</string>
+  <string name="subtitle_change_invalid">A legenda da imagem não suporta esta operação!</string>
+  <string-array name="play_setting_opt">
+    <item>abrir</item>
+    <item>Fechar</item>
+    <item>abrir</item>
+    <item>Fechar</item>
+    <item>Fechar</item>
+        <item></item>
+  </string-array>
+  <string name="play_setting_0_value_1">abrir</string>
+  <string name="play_setting_0_value_2">Fechar</string>
+  <string name="video_size_unknown">desconhecido</string>
+  <string-array name="audio_track_setting_opt">
+    <item>faixa de áudio 1</item>
+    <item>1</item>
+        <item>00:00:00</item>
+    <item>desconhecido</item>
+    <item>Não determinado</item>
+    <item>Não determinado</item>
+    <item>Não determinado</item>
+  </string-array>
+  <string name="audio_track_setting_0_value_1">faixa de áudio</string>
+  <string name="subtitle_setting_0_value_1">interno</string>
+  <string name="subtitle_setting_0_value_2">externo</string>
+  <string name="set_wallpaper">Imagem de fundo</string>
+  
+  <!-- add by fangcuihong,20160718 -->
+    <string name="toast_scale">Escala: %.1f</string>
+    <string name="toast_rotate">Rodar: %.1f</string>
+	
+
+    <!-- end -->
+</resources>

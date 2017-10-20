@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<ImageView 
+	    android:id="@+id/cf_icon"
+	    android:layout_width="@dimen/x55"
+	    android:layout_height="@dimen/x55"/>
+	
+	<com.toptech.launcherkorea2.WaterTextView 
+	    android:id="@+id/cf_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal|bottom"
+	    android:gravity="center_horizontal|top"
+	    android:background="@color/bluegreen"/>
+	
+</FrameLayout>

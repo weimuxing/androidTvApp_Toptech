@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"	 android:id="@+id/equalizer_menu" 
+   style="@style/sound_sty_eq"	android:background="@drawable/colour_bg">
+   		<LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginBottom="10dp">
+    		<TextView 
+    			android:text="@string/str_sound_equalizer"
+    			android:layout_width="fill_parent"				android:layout_height="25dp"		        android:layout_marginTop="20dp"		        android:layout_marginLeft="10dp"		        android:gravity="center"
+    			android:textSize="20dp"
+    			android:textColor="#FFFFFF"></TextView>"
+	      
+       </LinearLayout> 
+    	 <!-- For 120hz -->
+		 <LinearLayout android:layout_marginTop="20dp" android:id="@+id/linearlayout_sound_equalizer120hz" style="@style/sound_sty_seekbar_btn">
+				<TextView style="@style/sound_sty_eq_seekbar_name"  android:text="@string/str_sound_equalizer120hz"/>				<SeekBar style="@style/sound_sty_eq_bar" /> 					
+				<TextView  style="@style/sound_sty_seekbar_indicator" />	   											
+		</LinearLayout>
+		<!-- For 500hz -->
+		 <LinearLayout android:id="@+id/linearlayout_sound_equalizer500hz" style="@style/sound_sty_seekbar_btn">
+				<TextView style="@style/sound_sty_eq_seekbar_name"  android:text="@string/str_sound_equalizer500hz"/>
+				<SeekBar style="@style/sound_sty_eq_bar" />								<TextView  style="@style/sound_sty_seekbar_indicator" />	   											
+		</LinearLayout>
+		<!-- For 1.5khz -->
+		 <LinearLayout android:id="@+id/linearlayout_sound_equalizer1_5khz" style="@style/sound_sty_seekbar_btn">
+				<TextView style="@style/sound_sty_eq_seekbar_name"  android:text="@string/str_sound_equalizer1.5khz"/>
+				<SeekBar style="@style/sound_sty_eq_bar" /> 					   															<TextView  style="@style/sound_sty_seekbar_indicator" />					
+		</LinearLayout>
+		<!-- For 5khz -->
+		 <LinearLayout android:id="@+id/linearlayout_sound_equalizer5khz" style="@style/sound_sty_seekbar_btn">
+				<TextView style="@style/sound_sty_eq_seekbar_name"  android:text="@string/str_sound_equalizer5khz"/>
+				<SeekBar style="@style/sound_sty_eq_bar" /> 	   															<TextView  style="@style/sound_sty_seekbar_indicator" />	
+		</LinearLayout>
+		<!-- For 10khz -->
+		 <LinearLayout android:id="@+id/linearlayout_sound_equalizer10khz" style="@style/sound_sty_seekbar_btn">
+				<TextView style="@style/sound_sty_eq_seekbar_name"  android:text="@string/str_sound_equalizer10khz"/>				<SeekBar style="@style/sound_sty_eq_bar" /> 					
+				<TextView  style="@style/sound_sty_seekbar_indicator" />	   											
+		</LinearLayout>
+	<LinearLayout    android:layout_width="fill_parent"    android:layout_height="30dip"    android:layout_marginTop="25dip"    android:gravity="center"    android:orientation="horizontal" >        <TextView         android:layout_width="wrap_content"        android:minWidth="65dp"        android:layout_height="25dp"        android:gravity="center"        android:drawableRight="@drawable/navigate_img"        android:textColor="@color/bottom_info_text_color"        android:text="@string/bt_info_adjust"        android:layout_marginLeft="40dp"        android:layout_marginRight="40dp"        android:textSize="14sp"/>    <TextView         android:layout_width="wrap_content"        android:layout_height="25dp"        android:textColor="@color/bottom_info_text_color"        android:text="@string/bt_info_switch"        android:textSize="14sp"        android:gravity="center"        android:layout_marginLeft="40dp"        android:layout_marginRight="40dp"              />     <TextView         android:layout_width="60dp"         android:layout_height="25dp"         android:layout_marginLeft="40dp"         android:layout_marginRight="40dp"         android:gravity="center"         android:drawableRight="@drawable/back_image"         android:text="@string/bt_info_back"         android:textColor="@color/bottom_info_text_color"         android:textSize="14sp" />	<TextView         android:layout_width="80dp"         android:layout_height="25dp"         android:layout_marginLeft="40dp"         android:layout_marginRight="40dp"         		 android:visibility="gone"         android:text="@string/bt_info_back_exit"         android:textColor="@color/bottom_info_text_color"         android:textSize="14sp" />    <ImageView         android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:visibility="gone"		android:src="@drawable/ok_image"        android:layout_marginLeft="30dp"        android:layout_marginRight="30dp"        android:layout_weight="1"        />	<ImageView         android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:visibility="gone"		android:src="@drawable/back_image"        android:layout_marginLeft="30dp"        android:layout_marginRight="30dp"        android:layout_weight="1"        /></LinearLayout>
+    
+</LinearLayout>

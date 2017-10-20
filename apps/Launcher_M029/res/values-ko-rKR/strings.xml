@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Launcher</string>
+	<string name="chooser_wallpaper">선택벽지소스</string>
+    <string name="wallpaper_instructions">설정 벽지</string>
+    <string name="pick_wallpaper">벽지</string>
+    <string name="activity_not_found">당신의장비거기는 없습니다설치비디오</string>
+    <string name="url_select">선택 하십시오플레이주소</string>
+    
+    <string name="loading">로드....</string>
+    <string name="instruction_loading">나중，데이터 로드.....</string>
+    
+    <string name="weather_location">지역 선택</string>
+    <string name="applabel">모든앱</string>
+    
+    <string name="errornetwork">네트워크 오류!</string>
+     <string name="load_error">데이터를 로드 하지 못했습니다!</string>
+    
+     <!-- datetime -->
+     <string name="day_of_candar">월</string>
+     
+     <string name="add_app_title">응용 프로그램 추가</string>
+     <string name="tips">확인</string>
+     <string name="savemsg">변경 사항을 저장하시겠습니까?</string>
+     <string name="delmsg">삭제응용 바로 가기?</string>
+     <string name="min_apk_num">적어도 예약응용 프로그램!</string>
+    <string name="ok">확인</string> 
+    <string name="cancle">취소</string>
+    <string name="month">월</string>
+    
+</resources>

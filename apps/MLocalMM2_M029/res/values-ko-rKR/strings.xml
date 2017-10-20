@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">미디어 플레이어</string>
+	<string name="mm_version">MM-Product-AN 버전 -1.4.2</string>
+	<string name="back">뒤로</string>
+	<string name="folder">폴더</string>
+	<string name="rootDirectory">/ mnt / usb</string>
+	<string name="sambarootDirectory">/ mnt / 삼바</string>
+	<string name="unsupport_format">이 형식은 지원되지 않습니다.</string>
+	<string name="exit_ok">승인</string>
+	<string name="exit_cancel">취소</string>
+	<string name="current_time">현재 시간 :</string>
+	<string name="total_duration">총 시간 :</string>
+	<string name="choice">네비게이션</string>
+	<string name="confirm">고르다</string>
+	<string name="exit_title">출구</string>
+	<string name="exit_confirm">그것을 제거 확인?</string>
+	<string name="the_first_file">이것은 첫 번째 파일입니다!</string>
+	<string name="the_last_file">이것은 마지막 파일입니다!</string>
+	<string name="net_disconnect">인터넷이 끊어졌습니다. 확인해주세요!</string>
+	<string name="display_pip">PIP 표시</string>
+	<string name="hide_pip">PIP 숨기기</string>
+	<string name="pre_channel">이전 채널</string>
+	<string name="next_channel">다음 채널</string>
+	<string name="max_tip">Maxmium Scale Ratio에 도달했습니다!</string>
+	<string name="min_tip">최소 규모 비율에 도달했습니다!</string>
+	<string name="busy_tip_notice">로딩 중 기다려주세요!</string>
+	<string name="busy_tip">시스템이 바쁘다가 나중에 다시 시도하십시오!</string>
+
+
+	<string name="picture">그림</string>
+	<string name="song">노래</string>
+	<string name="video">비디오</string>
+	<string name="samba">삼바</string>
+	<string name="dlna">DLNA</string>
+	<string name="other">다른</string>
+	<string name="all">모든</string>
+	<string name="page_up">페이지 위로</string>
+	<string name="page_down">Page Down</string>
+	<string name="samba_usr">사용자 이름:</string>
+	<string name="samba_pwd">암호:</string>
+	<string name="samba_confirm">로그인</string>
+	<string name="samba_cancel">취소</string>
+	<string name="slash">/</string>
+
+
+	<string name="loading_top">로딩 톱 페이지, 잠시 기다려주십시오.</string>
+	<string name="loading_usb_device">USB 장치로드 중</string>
+	<string name="loading_local_resource">로컬 리소스로드 중, 잠시 기다려주십시오.</string>
+	<string name="loading_dlna_device">DLNA 장치로드 중, 잠시 기다려주십시오.</string>
+	<string name="loading_dlna_resource">DLNA 리소스로드 중, 잠시 기다려주십시오.</string>
+	<string name="miss_dlna_device">DLNA 리소스로드 실패</string>
+	<string name="loading_samba_device">SAMBA 장치로드 중, 잠시 기다려주십시오.</string>
+	<string name="loading_samba_resource">SAMBA 리소스로드 중, 잠시 기다려주십시오.</string>
+	<string name="miss_samba_device">SAMBA 리소스로드 실패</string>
+	<string name="is_scanning_disc">디스크 스캔입니다!</string>
+	<string name="login_wrong_password">잘못된 비밀번호</string>
+	<string name="login_failed">SAMBA에 로그인하지 못했습니다.</string>
+	<string name="login_other_failed">로그인 SAMBA 예외</string>
+	<string name="login_title">로그인</string>
+	<string name="network_connect_failed">장치에 연결하지 못했습니다. 네트워크 리소스를 공유 할 수 없습니다.</string>
+	<string name="network_unconnected">연결되지 않은 네트워크입니다. 확인하고 다시 시도하십시오.</string>
+	<string name="login_samba">로그인 Samba, 잠시 기다려주십시오.</string>
+	<string name="logging_out_samba">로그 아웃 삼바, 잠시 기다려주십시오.</string>
+	<string name="login_success">로그인 삼바 성공</string>
+	<string name="mount_failed">삼바 산 실패</string>
+
+	<string-array name="data_source">
+		<item>로컬 디스크 장치</item>
+		<item>네트워크 SAMBA 장치</item>
+    </string-array>
+
+	<string name="file_name">파일 이름:</string>
+	<string name="photo_info">사진 정보</string>
+	<string name="file_create_time">시간 생성 :</string>
+	<string name="file_size">파일 크기 :</string>
+	<string name="file_format">파일 형식:</string>
+	<string name="file_resolution">해결:</string>
+	<string name="display_img_name">표시 사진의 이름</string>
+	<string name="disk_eject">디스크 꺼내기</string>
+	<string name="photo_3D_toast">3D 모드에서 작동하지 않는다.</string>
+	<string name="photo_set_wallpaper">사진 벽지</string>
+	<string name="first_photo">첫 번째 사진!</string>
+	<string name="last_photo">마지막 사진!</string>
+	<string name="can_not_decode">사진이 너무 커서 분석 할 수 없습니다!</string>
+	<string name="current_pic">현재 그림은 :</string>
+	<string name="is_setting_wallpaper">벽지를 설정하고 있습니다. 잠시 기다려주십시오 ...</string>
+	<string name="picture_can_not_decode">이 그림은 디코딩 할 수 없습니다!</string>
+	<string name="picture_decoding">그림이 디코딩 중입니다 ...</string>
+	<string name="picture_wallpaper">배경 화면 설정 중 ...</string>
+	<string name="picture_decode_failed">그림 디코딩 실패!</string>
+	<string name="picture_can_not_set3d">3D 그림이 아닙니다!</string>
+	<string name="picture_playing_time">재생 간격 시간</string>
+	<string name="picture_animation_setting">애니메이션 효과</string>
+	<string name="photo_GIF_toast">GIF 애니메이션 모드에서 작동하지 않는다.</string>
+	<string name="photo_out_of_memory_toast">메모리 부족!</string>
+	<string name="photo_scale_or_rotate_toast">스케일 또는 회전 모드로 작동하지 않는다.</string>
+	<string name="photo_pan_success_toast">이미지 팬 성공적으로!</string>
+	<string name="photo_pan_failed_toast">이미지 팬이 실패했습니다!</string>
+	<string name="photo_pan_parameter_invalid">이미지 팬 매개 변수가 유효하지 않습니다!</string>
+	<string name="not_supported_3D_this_platform">플랫폼에서 3D를 지원하지 않습니다!</string>
+	<string name="photo_media_play_next">다음 사진을 계속 재생 하시겠습니까?</string>
+	<string name="file_not_support">파일이 지원되지 않습니다.</string>
+	<string name="photo_not_support_scale">플랫폼 메모리가 너무 낮아 스케일을 지원할 수 없습니다!</string>
+	<string name="photo_setwallpaper_succ">배경 화면 설정 성공!</string>
+	<string name="photo_setwallpaper_fail">벽지 설정 실패!</string>
+
+
+	<string name="music_info">음악 정보</string>
+	<string name="file_duration">파일 지속 시간 :</string>
+	<string name="music_default_time">0</string>
+	<string name="Artist_name">아티스트 이름 :</string>
+	<string name="file_path">파일 경로:</string>
+	<string name="none_lyrics_find">가사를 찾지 못했습니다!</string>
+	<string name="unknown">알 수 없는</string>
+	<string name="singer">가수:</string>
+	<string name="current_song">현재 노래 :</string>
+	<string name="exit_music_play">연주 된 음악을 결정 하시겠습니까?</string>
+	<string name="alert">경보</string>
+	<string name="music_media_play_next">다음 음악을 계속 연주하나요?</string>
+
+	<string name="no_video_track">없음 비디오 트랙</string>
+	<string name="audio_codec">오디오 코덱 :</string>
+	<string name="video_codec">비디오 코덱 :</string>
+	<string name="duration">지속:</string>
+	<string name="default_time">- : - : -</string>
+	<string name="video_default_time">0</string>
+	<string name="choose_time_0">0</string>
+	<string name="choose_time_colon">:</string>
+	<string name="programe_info">비디오 정보</string>
+	<string name="show_info">재생 오류</string>
+	<string name="buffering">버퍼링 중 ...</string>
+	<string name="playing">연주 중</string>
+	<string name="video_subtitle">비디오 자막</string>
+	<string name="video_track">비디오 트랙</string>
+	<string name="picture_mode">그림 모드</string>
+	<string name="video_mode">소리 설정</string>
+	<string name="video_surround">서라운드</string>
+	<string name="video_spdif">SPDIF 출력</string>
+	<string name="music_equalizer">평형 장치</string>
+	<string name="Color_tem">색온도</string>
+	<string name="noise_resuction">소음 감소</string>
+	<string name="video_thumbnail_mode">미리보기 이미지 모드</string>
+	<string name="video_rotate_mode">회전 모드</string>
+	<string name="video_channel">비디오 채널</string>
+	<string name="video_media_full_resize">동영상 전체 크기 조정</string>
+	<string name="video_media_play_next">다음 비디오를 계속 재생 하시겠습니까?</string>
+	<string name="video_media_default">동영상 기본 크기</string>
+	<string name="video_media_full">비디오 풀 사이즈</string>
+	<string name="video_media_error_unknown">비디오 미디어 오류 알 수 없음</string>
+	<string name="video_media_error_malformed">비디오 미디어 오류가 잘못되었습니다.</string>
+	<string name="video_media_error_io">비디오 미디어 오류 io</string>
+	<string name="video_media_error_unsupported">지원되지 않는 비디오 미디어 오류</string>
+	<string name="video_media_error_format_unsupport">비디오 미디어 오류 형식 unsupport</string>
+	<string name="video_media_error_not_connected">비디오 미디어 오류가 연결되지 않았습니다.</string>
+	<string name="video_media_error_audio_unsupport">비디오 미디어 오류 오디오 지원되지 않음</string>
+	<string name="video_media_error_video_unsupport">비디오 미디어 오류 비디오 unsupport</string>
+	<string name="video_media_error_no_license">비디오 미디어 오류 라이센스 없음</string>
+	<string name="video_media_error_license_expired">비디오 미디어 오류 라이센스가 만료되었습니다.</string>
+	<string name="video_media_other_error_unknown">기타 알 수없는 오류</string>
+	<string name="video_media_error_not_valid">비디오 미디어 오류가 잘못되었습니다.</string>
+	<string name="video_media_error_server_died">미디어 서버가 사망했습니다.</string>
+	<string name="video_media_infor_no_index">동영상 색인 없음, 찾지 않음</string>
+	<string name="video_media_infor_no_index_ab">동영상 색인 없음, 설정되지 않음 AB</string>
+	<string name="video_media_do_forward_info">너무 자주 ff하지 마세요! 간격은 600 ms보다 커야합니다.</string>
+	<string name="video_audio_track_switch_info">오디오 트랙을 너무 자주 바꾸지 마십시오!</string>
+	<string name="video_thumbnail_switch_info">축소판 모드를 너무 자주 열거 나 닫지 마십시오!</string>
+	<string name="video_no_support_two_4k">두 개의 4k 비디오를 지원하지 않습니다.</string>
+	<string name="video_no_support_seamless_dualscreen">듀얼 모드에서 끊김없는 재생은 지원되지 않습니다!</string>
+	<string name="video_iso_tip">블루 레이 ISO 파일에서 지원되지 않습니다!</string>
+	<string name="open_file_fail">파일을 열 수 없습니다!</string>
+	<string name="subtitle_type">자막 유형</string>
+	<string name="subtitle_out_path">경로 자막</string>
+	<string name="subtitle_in_no">자막 번호</string>
+	<string name="subtitle_language">자막 언어</string>
+	<string name="subtitle_color">자막 색상</string>
+	<string name="subtitle_font">자막 글꼴</string>
+	<string name="subtitle_font_size">자막 글꼴 크기</string>
+	<string name="subtitle_frame">자막 프레임</string>
+	<string name="subtitle_area">자막 영역</string>
+	<string name="subtitle_adjust">자막 조정</string>
+	<string name="subtitleList">자막 목록</string>
+	<string name="subtitle_unit">ms</string>
+	<string name="playList">플레이리스트</string>
+	<string name="playmusictip">메뉴를 눌러 목록에서 음악을 삭제하십시오.</string>
+	<string name="playtip">메뉴를 눌러 목록에서 비디오를 제거하십시오.</string>
+	<string name="subtitle_setting">자막 설정</string>
+	<string name="a_b_section_repeat">A-B 구간 반복</string>
+	<string name="section_replay">섹션 재생</string>
+	<string name="set_begin_a">세트 포인트 A</string>
+	<string name="set_begin_b">점 B 설정</string>
+	<string name="audio_track_count">트랙 수</string>
+	<string name="audio_track_number">트랙 번호</string>
+	<string name="audio_track_duration">트랙 지속 시간</string>
+	<string name="audio_track_language">언어 추적</string>
+	<string name="audio_track_codec">트랙 코덱</string>
+	<string name="audio_track_channel">채널 추적</string>
+	<string name="audio_track_name">트랙 이름</string>
+	<string name="audio_track_setting">트랙 설정</string>
+	<string name="picture_mode_contrast">대조</string>
+	<string name="picture_mode_brightness">명도</string>
+	<string name="picture_mode_hue">색조</string>
+	<string name="picture_mode_sharpness">날카로움</string>
+	<string name="picture_mode_color">색깔</string>
+	<string name="picture_mode_backlight">뒷등</string>
+	<string name="video_mode_120hz">120Hz</string>
+	<string name="video_mode_500Hz">500Hz</string>
+	<string name="video_mode_1_5KHz">1.5KHz</string>
+	<string name="video_mode_5KHz">5KHz</string>
+	<string name="video_mode_10KHz">10KHz</string>
+	<string name="video_mode_bass">베이스</string>
+	<string name="video_mode_treble">고음부</string>
+	<string name="video_mode_balance">밸런스</string>
+	<string name="video_mode_kybass">켄터키 썬더</string>
+	<string name="video_mode_kylevel">썬더 레벨</string>
+	<string name="point_a">지점 위치</string>
+	<string name="point_b">B 지점 위치</string>
+	<string name="one_times_speed">보통 속도</string>
+	<string name="x_times_speed">시간 속도</string>
+	<string name="playing_settings">설정 재생 중</string>
+	<string name="open_ab_repeat">A-B 반복 열기</string>
+	<string name="set_point_a_first">세트 포인트 A 우선</string>
+	<string name="video_three_d_setting">비디오 3D 설정</string>
+	<string name="video_rotate_degrees_setting">비디오 회전 각도 설정</string>
+	<string name="video_rotate_degrees_setting_info">이 각도 설정은 다음 비디오 재생시 효과적입니다.</string>
+
+	<string name="video_picture_setting">그림 설정</string>
+	<string name="video_sound_setting">비디오 사운드 설정</string>
+	<string name="music_sound_model">EQ 설정</string>
+	<string name="music_sound_setting">소리 설정</string>
+	<string name="video_3D_none">떨어져서</string>
+	<string name="video_3D_side_by_side">SBS</string>
+	<string name="video_3D_top_bottom">결핵</string>
+	<string name="video_3D_frame_packing">FP</string>
+	<string name="video_3D_line_alternative">라</string>
+	<string name="video_3D_2dto3d">2D-3D</string>
+	<string name="video_3D_3dto2d">3D-2D</string>
+	<string name="video_3D_auto">자동</string>
+	<string name="video_3D_check_board">CB</string>
+	<string name="video_3D_pixel_alternative">아빠</string>
+	<string name="video_3D_frame_alternative">파</string>
+	<string name="video_3D_count">카운트</string>
+	<string name="video_3D_switch_info">3D를 너무 자주 열거 나 닫지 마십시오!</string>
+	<string name="video_3D_auto_detect_info">자동 감지 3D가 실패했습니다. 3D 형식 mannully를 선택하십시오!</string>
+
+	<string name="aspect_ratio_16X9">종횡비가 16 : 9입니다.</string>
+	<string name="aspect_ratio_4X3">종횡비가 4 : 3입니다.</string>
+	<string name="aspect_ratio_default">종횡비가 기본값 임</string>
+	<string name="can_not_open_dual">3D 모드에서 이중 디코드를 열 수 없음</string>
+	<string name="can_not_open_3D">듀얼 디코드 모드에서 3D를 열 수 없음</string>
+	<string name="can_not_open_3D_pip">PIP 모드에서 3D를 열 수 없음</string>
+	<string name="video_start_time">비디오 시작 시간</string>
+	<string name="video_buffer_time">버퍼 시간 :</string>
+	<string name="video_first_video_frame_time">첫 번째 프레임 시간 푸시 :</string>
+	<string name="video_breakpoint_play">마지막 연극으로 건너 뛰시겠습니까?</string>
+	<string name="video_breakpoint">재생 다시 시작</string>
+	<string name="can_not_open_dual_pip">PIP / POP / DUALVIEW 모드에서 이중 디코드를 열 수 없음</string>
+	<string name="can_not_open_dual_4kVideo">4k1k / 4k2k 모드에서 이중 디코드를 열 수 없음</string>
+	<string name="can_not_open_dual_HEVC_Video">H.265 / HEVC 모드에서 이중 디코드를 열 수 없음</string>
+	<string name="can_not_open_dual_Thumbnail_Video">축소판 그림 모드에서 이중 디코드를 열 수 없음</string>
+	<string name="can_not_open_dual_this_platform">플랫폼에서 이중 디코드를 열 수 없습니다!</string>
+	<string name="can_not_open_thumbnail_dual_Video">듀얼 디코드 모드에서 썸네일을 열 수 없습니다.</string>
+	<string name="can_not_open_thumbnail_4kVideo">4k1k / 4k2k 모드에서 미리보기 이미지를 열 수 없습니다.</string>
+	<string name="can_not_open_thumbnail_3DMode">3D 모드에서 미리보기 이미지를 열 수 없습니다.</string>
+	<string name="can_not_open_thumbnail_this_platform">미리보기 이미지는 플랫폼에서 지원되지 않습니다!</string>
+	<string name="can_not_open_dual_rotate_mode">회전 모드에서 이중 디코드를 열 수 없음</string>
+	<string name="can_not_open_rotate_dual_mode">이중보기 모드에서 회전 열 수 없음</string>
+	<string name="can_not_open_rotate">이 플랫폼은 회전을 지원하지 않습니다.</string>
+	<string name="can_not_support_aspect_ratio">현재 비디오는 종횡비를 지원할 수 없습니다.</string>
+
+
+	<string name="video_divx_title">표제</string>
+	<string name="video_divx_edition">판</string>
+	<string name="video_divx_chapter">장</string>
+	<string name="video_divx_autochapter">AutoChapter</string>
+
+	<string name="video_divx_title_resume">DivX 이력서</string>
+	<string name="video_divx_resume">마지막 경기에서 멈춘 곳에서 다시 시작 하시겠습니까?</string>
+
+	<string name="video_divx_vod">DivX (R) VOD</string>
+
+	<string name="divx_vod_drm_register">DivX로 보호되는 비디오를 재생하려면 장치를 등록해야합니다</string>
+	<string name="divx_vod_drm_registration_code">등록 코드:</string>
+	<string name="divx_vod_drm_register_at">에 등록</string>
+
+	<string name="divx_vod_drm_deregistration_confirm">기기가 이미 등록되었습니다. \ n \ n 등록을 취소 하시겠습니까?</string>
+	<string name="divx_vod_drm_deregistration_code">등록 취소 코드 :</string>
+	<string name="divx_vod_drm_deregister_at">면제하다</string>
+	<string name="divx_vod_drm_deregister">등록을 계속 하시겠습니까?</string>
+
+	<string name="divx_vod_drm_authorization_error">장치에이 DivX 보호 된 비디오를 재생할 수있는 권한이 없습니다</string>
+
+	<string name="divx_vod_drm_rental">이 DivX 대여가 사용했습니다.</string>
+	<string name="divx_vod_drm_views">views</string>
+	<string name="divx_vod_drm_rental_expired">이 DivX 대여가 만료되었습니다.</string>
+	<string name="divx_vod_drm_rental_confirm">잇다?</string>
+
+	<string name="divx_vod_drm_unauthorized_version">무단 DivX DRM 버전</string>
+
+	<string name="divx_vod_drm_unauthorized_video">승인되지 않은 비디오 출력. 다른 인터페이스를 시도하십시오.</string>
+
+	<string name="video_divx_vod_url">http://vod.divx.com</string>
+
+
+
+	<string name="subtitle_0_value_1">외부 자막 표시</string>
+	<string name="subtitle_0_value_2">내부 자막 표시</string>
+	<string name="subtitle_1_value_1">경로 선택</string>
+	<string name="subtitle_1_value_2">외부 자막 없음</string>
+	<string name="subtitle_2_value_1">없음</string>
+	<string name="subtitle_2_value_2">부제</string>
+	<string name="subtitle_3_value_1">알 수 없는</string>
+	<string name="subtitle_3_value_2">없음</string>
+	<string name="subtitle_4_value_1">태만</string>
+	<string name="subtitle_4_value_2">산세 리프</string>
+	<string name="subtitle_4_value_3">모노 스페이스</string>
+	<string name="subtitle_5_value_1">큰</string>
+	<string name="subtitle_5_value_2">중간</string>
+	<string name="subtitle_5_value_3">작은</string>
+	<string name="subtitle_6_value_1">화이트</string>
+	<string name="subtitle_6_value_2">검은</string>
+	<string name="subtitle_6_value_3">푸른</string>
+	<string name="subtitle_7_value_1">아니</string>
+	<string name="subtitle_7_value_2">예</string>
+	<string name="subtitle_8_value_1">바닥</string>
+	<string name="subtitle_8_value_2">상단</string>
+	<string name="subtitle_9_value">0 ms</string>
+
+    <string-array name="subtitle_setting_opt">
+		<item>외부 자막 표시</item>
+		<item>경로 선택</item>
+		<item>없음</item>
+		<item>알 수 없는</item>
+		<item>태만</item>
+		<item>중간</item>
+		<item>화이트</item>
+		<item>아니</item>
+		<item>바닥</item>
+		<item>0 ms</item>
+    </string-array>
+
+	<string name="subtitle_change_msg">외부 자막, 내부로 변경하십시오!</string>
+	<string name="subtitle_change_path">내부 부제, 외부로 변경하십시오!</string>
+	<string name="choose_time_failed">위치 수 없습니다!</string>
+	<string name="choose_time_invalid">시간이 잘못되었습니다. 다시 시도하십시오.</string>
+	<string name="subtitle_change_invalid">이미지 캡션은이 작업을 지원하지 않습니다!</string>
+	<string name="external_subtitle_setting_operation_invalid">이 작업을 지원하지 않습니다! 밀고 자 설정 한 외부 자막 경로를 확인하십시오!</string>
+    
+	<string-array name="play_setting_opt">
+		<item>열다</item>
+		<item>닫기</item>
+		<item>열다</item>
+		<item>닫기</item>
+		<item>닫기</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+	<string name="play_setting_0_value_1">에</string>
+	<string name="play_setting_0_value_2">떨어져서</string>
+	<string name="video_size_unknown">알 수 없는</string>
+
+	<string-array name="audio_track_setting_opt">
+		<item>오디오 트랙 1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>알 수 없는</item>
+		<item>분명치 않은</item>
+		<item>분명치 않은</item>
+		<item>분명치 않은</item>
+	</string-array>
+	<string-array name="picture_setting_opt">
+	<!-- Skye add for onida-->
+		<item>가벼움</item>
+		<item>뉴스</item>
+		<item>영화</item>
+		<item>표준</item>
+		<item>경기</item>
+		<item>자동</item>
+		<item>PC</item>
+		<item>생생한</item>
+		<item>에코 파워</item>
+		<item>스포츠</item>
+	</string-array>
+	<string-array name="video_setting_opt">
+		<item>표준</item>
+		<item>음악</item>
+		<item>영화</item>
+		<item>플랫</item>
+	</string-array>
+	<string-array name="video_color_temperature">
+		<item>시원한</item>
+		<item>표준</item>
+		<item>따뜻한</item>
+	</string-array>
+	<string-array name="noise_reduuction">
+		<item>떨어져서</item>
+		<item>낮은</item>
+		<item>매질</item>
+		<item>높은</item>
+	</string-array>
+	<string-array name="surround_onoff">
+		<item>떨어져서</item>
+		<item>에</item>
+	</string-array>
+	<string-array name="spdif_model">
+		<item>PCM</item>
+		<item>떨어져서</item>
+		<item>노골적인</item>
+	</string-array>
+	<string-array name="tv_sound_mode_types">
+		<item>표준</item>
+		<item>음악</item>
+		<item>영화</item>
+		<item>플랫</item>
+	</string-array>
+
+	<string name="audio_track_setting_0_value_1">오디오 트랙</string>
+	<string name="subtitle_setting_0_value_1">안의</string>
+	<string name="subtitle_setting_0_value_2">외부</string>
+
+	<string name="video_goldenlefteye_mode">황금빛 왼쪽 눈</string>
+	<string name="dual_mode_not_support_golden_left_eye">듀얼 디코드 모드는 골든 왼쪽 눈을 지원할 수 없습니다!</string>
+	<string name="stb_not_support_golden_left_eye">이 플랫폼은 골든 왼쪽 눈을 지원할 수 없습니다!</string>
+	<string name="menu_exit_confirm">로컬 파일을 삭제 하시겠습니까? 회복 할 수없는</string>
+
+	<string name="edit_copy">부</string>
+	<string name="edit_delete">지우다</string>
+	<string name="edit_move">움직임</string>
+	<string name="edit_paste">풀</string>
+	<string name="edit_rename">이름 바꾸기</string>
+	<string name="str_cancel">취소</string>
+	<string name="str_del">지우다</string>
+	<string name="str_sure_del">삭제 확인</string>
+	<string name="str_sure_del_ask">확실하게 삭제 하시겠습니까?</string>
+	<string name="write_error">쓰기 권한이 거부되었습니다.</string>
+	<string name="read_error">읽기 오류</string>
+
+	<string name="str_rename_notice">주의!</string>
+	<string name="str_rename_file_exist">파일 이름이 있습니다. 덮으시겠습니까?</string>
+
+	<string name="str_copyingtitle">잠시만 기다려주세요.</string>
+	<string name="str_copyingcontext">사자...</string>
+	<string name="str_copystop">복사 중지</string>
+	<string name="str_source">출처:</string>
+	<string name="str_target">목표:</string>
+
+	<string name="str_delcontext">삭제 중 ...</string>
+
+
+	<string name="err_target_same">Cann은 파일을 같은 경로로 복사하지 않습니다!</string>
+	<string name="err_target_child">대상 경로가 잘못되었습니다!</string>
+
+
+	<string name="copy_revocer_text">  존재한다면, 당신은 확실히 복구 할 수 있습니까?</string>
+	<string name="copy_revocer_yes">다시 덮다</string>
+	<string name="copy_revocer_no">취소</string>
+	<string name="full">공간이 가득 차고 파일 복사가 실패합니다.</string>
+	<string name="copy_interrupt">네트워크가 연결 해제되고 복사가 중단됩니다.</string>
+	<string name="copy_get_file_count">파일 수 계산</string>
+	<string name="copy_fail">복사 실패</string>
+	<string name="ok">승인</string>
+	<string name="openning">열어주세요, 기다려주십시오 ......</string>
+	<string name="del_error">실패</string>
+	<string name="rename_error">파일 이름에 특수 문자가 포함되어 있으며 파일 이름이 수정되지 않습니다.</string>
+	<string name="rename_fail">파일 이름 바꾸기 실패</string>
+	<string name="err_not_free_space">공간이 충분하지 않습니다!</string>
+	<string name="error_invalid_path">잘못된 경로</string>
+	<string name="str_OK">승인</string>
+	<string name="str_rename_text">이름 바꾸기 :</string>
+	<string name="str_usb1_name">USB</string>
+	<string name="str_sdcard_name">SD 카드</string>
+
+	<string name="video_media_play_prev">이전 동영상을 계속 재생 하시겠습니까?</string>
+
+
+
+	<string name="toast_scale">축척 : % .1f</string>
+	<string name="toast_rotate">회전 : % .1f</string>
+
+
+
+	<string name="str_internal_storage">내부 저장소</string>
+	<string name="str_external_sdcard">외부 Sdcard</string>
+
+</resources>

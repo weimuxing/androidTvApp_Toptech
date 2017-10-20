@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/str_textview_factory_pq_nrsetting"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+
+    <!-- nr enable -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_pq_nrsetting_enable"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusUp="@+id/linearlayout_factory_pq_nrsetting_spf_snr"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:id="@+id/textview_factory_pq_nrsetting_enable"
+            android:layout_width="180dip"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_pq_nrsetting_enable"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_pq_nrsetting_enableval"
+            android:layout_width="133dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/str_textview_factory_pq_colorsetting_text"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+        <!-- nrsetting_dnr_y -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_nrsetting_dnr_y"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_dnr_y"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_nrsetting_dnr_y"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_dnr_yval"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+        <!-- nrsetting_dnr_c -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_nrsetting_dnr_c"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_dnr_c"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_nrsetting_dnr_c"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_dnr_cval"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+        <!-- nrsetting_dnr_y_color_dep -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_nrsetting_dnr_y_color_dep"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:visibility="gone"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_dnr_y_color_dep"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_nrsetting_dnr_y_color_dep"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_dnr_y_color_depval"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+        <!-- nrsetting_spf_snr_mr -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_nrsetting_spf_snr_mr"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_spf_snr_mr"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_nrsetting_spf_snr_mr"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_spf_snr_mrval"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+        <!-- nrsetting_spf_snr -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_nrsetting_spf_snr"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:nextFocusDown="@+id/linearlayout_factory_pq_nrsetting_enable"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_spf_snr"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_nrsetting_spf_snr"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_nrsetting_spf_snrval"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+</LinearLayout>

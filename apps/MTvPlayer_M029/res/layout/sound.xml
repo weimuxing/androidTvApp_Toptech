@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/sound_sty_menu" >
+
+  <!--   <LinearLayout
+	    android:layout_width="560dp"
+	    android:layout_height="340dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="110dip"
+            android:layout_height="33dip"
+
+            android:gravity="left"
+            android:text="@string/str_sound_sound_adjustment"
+            android:textColor="#FFFFFF"
+            android:textSize="13dip" >
+        </TextView>
+
+        <ImageView style="@style/pic_mode_sty_disabledot" >
+        </ImageView>
+
+        <ImageView style="@style/sound_sty_enabledot" >
+        </ImageView>
+
+        <ImageView style="@style/pic_mode_sty_disabledot" >
+        </ImageView>
+
+        <ImageView style="@style/pic_mode_sty_disabledot" >
+        </ImageView>
+
+        <ImageView style="@style/pic_mode_sty_disabledot" >
+        </ImageView>
+
+        <ImageView style="@style/pic_mode_sty_disabledot" >
+        </ImageView>
+
+        <ImageView style="@style/pic_mode_sty_disabledot" >
+        </ImageView>
+
+        <ImageView style="@style/pic_mode_sty_disabledot" >
+        </ImageView>
+    </LinearLayout> --> 
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:paddingLeft="40dp"
+            android:text="@string/str_sound_sound_adjustment"
+            android:textColor="#D3D3D3D3"
+            android:textSize="23sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+            <!-- For Sound Mode -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_soundmode"
+                style="@style/sound_sty_combo_btn"
+                >
+
+                <ImageView style="@style/sound_sty_leftarrow"></ImageView>
+                <TextView
+                    style="@style/sound_sty_combo_name"
+                    android:text="@string/str_sound_soundmode" />
+                <TextView style="@style/sound_sty_combo_indicator" />
+                <ImageView style="@style/sound_sty_rightarrow"></ImageView>
+            </LinearLayout>
+            <!-- For Bass -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_bass"
+                style="@style/sound_sty_seekbar_btn"
+        >
+                <TextView
+                    style="@style/sound_sty_seekbar_name"
+                    android:text="@string/str_sound_bass" />
+                <SeekBar style="@style/sound_sty_bar" />
+                <TextView style="@style/sound_sty_seekbar_indicator" />
+            </LinearLayout>
+
+            <!-- For Treble -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_treble"
+                style="@style/sound_sty_seekbar_btn"
+                >
+                <TextView
+                    style="@style/sound_sty_seekbar_name"
+                    android:text="@string/str_sound_treble" />
+                <SeekBar style="@style/sound_sty_bar" />
+                <TextView style="@style/sound_sty_seekbar_indicator" />
+            </LinearLayout>
+
+            <!-- For Balance -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_balance"
+                style="@style/sound_sty_seekbar_btn"
+              >
+                <TextView
+                    style="@style/sound_sty_seekbar_name"
+                    android:text="@string/str_sound_balance" />
+                <SeekBar style="@style/sound_sty_bar" />
+                <TextView style="@style/sound_sty_seekbar_indicator" />
+            </LinearLayout>
+
+            <!-- For AVC -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_avc"
+                style="@style/sound_sty_combo_btn"
+               >
+                <ImageView style="@style/sound_sty_leftarrow"></ImageView>
+                <TextView
+                    style="@style/sound_sty_combo_name"
+                    android:text="@string/str_sound_avc" />
+                <TextView style="@style/sound_sty_combo_indicator" />
+                <ImageView style="@style/sound_sty_rightarrow"></ImageView>
+            </LinearLayout>
+            <!-- For Surround -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_surround"
+                style="@style/sound_sty_combo_btn"
+                >
+                <ImageView style="@style/sound_sty_leftarrow"></ImageView>
+                <TextView
+                    style="@style/sound_sty_combo_name"
+                    android:text="@string/str_sound_surround" />
+                <TextView style="@style/sound_sty_combo_indicator" />
+                <ImageView style="@style/sound_sty_rightarrow"></ImageView>
+            </LinearLayout>
+            <!-- For SPDIF OUTPUT -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_spdifoutput"
+                style="@style/sound_sty_combo_btn"
+                >
+                <ImageView style="@style/sound_sty_leftarrow"></ImageView>
+                <TextView
+                    style="@style/sound_sty_combo_name"
+                    android:text="@string/str_sound_spdifoutput" />
+                <TextView style="@style/sound_sty_combo_indicator" />
+                <ImageView style="@style/sound_sty_rightarrow"></ImageView>
+            </LinearLayout>
+             
+            <!-- For Separate Hearing -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_separatehear"
+                style="@style/button_style">
+                <TextView
+                    style="@style/button_textview_style"
+                    android:id="@+id/sound_musicmode"
+                    android:text="@string/str_sound_separatehear" />
+            </LinearLayout>
+   			<!-- for Equalizer -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_equalizer"
+                android:nextFocusDown="@+id/linearlayout_sound_soundmode"
+                style="@style/button_style">
+                <TextView
+                    style="@style/button_textview_style"
+                    android:text="@string/str_sound_equalizer" />
+            </LinearLayout>
+
+            <!-- For AD -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_ad"
+                style="@style/sound_sty_combo_btn"
+                android:visibility="gone"
+               >
+                <ImageView style="@style/sound_sty_leftarrow"></ImageView>
+                <TextView
+                    style="@style/sound_sty_combo_name"
+                    android:text="@string/str_sound_ad" />
+                <TextView style="@style/sound_sty_combo_indicator" />
+                <ImageView style="@style/sound_sty_rightarrow"></ImageView>
+            </LinearLayout>
+
+             <!-- For HOH -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_hoh"
+                style="@style/sound_sty_combo_btn"
+                android:visibility="gone"
+                >
+                <ImageView style="@style/sound_sty_leftarrow"></ImageView>
+                <TextView
+                    style="@style/sound_sty_combo_name"
+                    android:text="@string/str_sound_autohoh" />
+                <TextView style="@style/sound_sty_combo_indicator" />
+                <ImageView style="@style/sound_sty_rightarrow"></ImageView>
+            </LinearLayout>
+
+             <!-- For HDByPass -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_hdbypass"
+                style="@style/sound_sty_combo_btn"
+               >
+                <ImageView style="@style/sound_sty_leftarrow"></ImageView>
+                <TextView
+                    style="@style/sound_sty_combo_name"
+                    android:text="@string/str_sound_truehdbypass" />
+                <TextView style="@style/sound_sty_combo_indicator" />
+                <ImageView style="@style/sound_sty_rightarrow"></ImageView>
+            </LinearLayout>
+
+
+
+            <!-- For SRS -->
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_srs"
+                style="@style/sound_sty_combo_btn"
+                android:visibility="gone"
+                >
+                <ImageView style="@style/sound_sty_leftarrow"></ImageView>
+                <TextView
+                    style="@style/sound_sty_combo_name"
+                    android:text="@string/str_sound_srs" />
+                <TextView style="@style/sound_sty_combo_indicator" />
+                <ImageView style="@style/sound_sty_rightarrow"></ImageView>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

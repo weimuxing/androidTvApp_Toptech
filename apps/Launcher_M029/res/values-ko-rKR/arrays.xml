@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+        
+     <array name="appnames">
+         <item>Dropbox</item>   
+<!--         <item>Appstore</item> -->
+        <item>App Library</item>
+        <item>App Manager</item>         
+        <item>Settings</item>
+        <item>Browser</item> 
+        <item>Skype</item>
+        <item>YouTube</item>
+    </array>
+    
+    <string-array name="county">
+        <item>28816910#서울특별시</item>
+        <item>2345969#경기도</item>
+        <item>28816906#인천광역시</item>
+        <item>2345966#강원도</item>
+        <item>2345967#경상남도</item>
+        <item>2345970#경상북도</item>
+        <item>28816908#광주광역시</item>
+        <item>28816909#대구광역시</item>
+        <item>28816902#대전광역시</item>
+        <item>28816913#부산광역시</item>
+        <item>28828129#세종특별자치시</item>
+        <item>28816901#울산광역시</item>
+        <item>2345972#전라남도</item>
+        <item>2345964#전라북도</item>
+        <item>28834807#제주도</item>
+        <item>2345973#충청남도</item>
+        <item>2345965#충청북도</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+        <item>일</item>
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+    </string-array>
+        
+</resources>

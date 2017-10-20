@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <string name="app_name">UI-LocalMM</string>
+
+    <string name="back">กลับ</string>
+
+    <string name="folder">โฟลเดอร์</string>
+
+    <string name="rootDirectory">/mnt/usb</string>
+
+    <string name="sambarootDirectory">/mnt/samba</string>
+
+    <string name="unsupport_format">รูปแบบนี้จะไม่สามารถเล่น</string>
+
+    <string name="exit_ok">ตกลง</string>
+
+    <string name="exit_cancel">ยกเลิก</string>
+
+    <string name="current_time">เวลาปัจจุบัน :</string>
+
+    <string name="total_duration">เวลารวม :</string>
+
+    <string name="choice">ทางเลือก</string>
+
+    <string name="confirm">ยืนยัน</string>
+
+    <string name="exit_title">ทางออก</string>
+
+    <string name="exit_confirm">ยืนยันการลบ?</string>
+
+    <string name="the_first_file">ไฟล์แรก!</string>
+
+    <string name="the_last_file">ไฟล์ล่าสุด!</string>
+
+    <string name="net_disconnect">สุทธิคือตัดการเชื่อมต่อโปรดตรวจสอบมัน!</string>
+
+    <string name="display_pip">แสดง PIP</string>
+
+    <string name="hide_pip">ซ่อน PIP</string>
+
+    <string name="pre_channel">ช่องก่อนหน้า</string>
+
+    <string name="next_channel">ช่องถัดไป</string>
+
+
+
+    <!-- ####################文件浏览模块资源定义区#################### -->
+
+    <string name="picture">ภาพ</string>
+
+    <string name="song">เพลง</string>
+
+    <string name="video">วีดีโอ</string>
+
+    <string name="samba">แซมบ้า</string>
+
+    <string name="dlna">DLNA</string>
+
+    <string name="other">อื่น ๆ</string>
+
+    <string name="all">ทั้งหมด</string>
+
+    <string name="page_up">หน้าขึ้น</string>
+
+    <string name="page_down">เลื่อนหน้าลง</string>
+
+    <string name="slash">/</string>
+
+
+
+    <!-- 加载进度提示信息定义区 -->
+
+    <string name="loading_top">โหลดหน้าเว็บยอดนิยม, กรุณารอสักครู่</string>
+
+    <string name="loading_usb_device">กำลังโหลดอุปกรณ์ USB</string>
+
+    <string name="loading_local_resource">โหลดทรัพยากรท้องถิ่น, กรุณารอสักครู่</string>
+
+    <string name="loading_dlna_device">กำลังโหลดอุปกรณ์ DLNA, กรุณารอสักครู่</string>
+
+    <string name="loading_dlna_resource">โหลดทรัพยากร DLNA, กรุณารอสักครู่</string>
+
+    <string name="miss_dlna_device">โหลดทรัพยากร DLNA ล้มเหลว</string>
+
+    <string name="loading_samba_device">อุปกรณ์โหลด Samba, กรุณารอสักครู่</string>
+
+    <string name="loading_samba_resource">โหลด SAMBA ทรัพยากรกรุณารอสักครู่</string>
+
+    <string name="miss_samba_device">โหลด SAMBA ทรัพยากรล้มเหลว</string>
+
+    <string name="is_scanning_disc">มันจะสแกนแผ่น!</string>
+
+    <string name="login_wrong_password">รหัสผ่านผิด</string>
+
+    <string name="login_failed">ล้มเหลวในการเข้าสู่ระบบ SAMBA</string>
+
+    <string name="login_other_failed">ยกเว้นเข้าสู่ระบบ SAMBA</string>
+
+    <string name="login_title">เข้าสู่ระบบ</string>
+
+    <string name="network_connect_failed">เชื่อมต่อกับอุปกรณ์ล้มเหลวไม่สามารถใช้ทรัพยากรเครือข่าย</string>
+
+    <string name="network_unconnected">เครือข่ายไม่เกี่ยวเนื่องกัน, กรุณาตรวจสอบและลองอีกครั้ง
+
+    </string>
+
+    <string name="login_samba">เข้าสู่ระบบ Samba, กรุณารอสักครู่</string>
+
+    <string name="logging_out_samba">ออกจากระบบ Samba, กรุณารอสักครู่</string>
+
+    <string name="login_success">เข้าสู่ระบบที่ประสบความสำเร็จแซมบ้า</string>
+
+    <string name="mount_failed">เมาแซมบ้าล้มเหลว</string>
+
+
+
+    <string-array name="data_source">
+
+        <item>อุปกรณ์ดิสก์ท้องถิ่น</item>
+
+        <item>อุปกรณ์เครือข่าย SAMBA</item>
+
+        <!--<item>อุปกรณ์เครือข่าย DLNA</item>-->
+    </string-array>
+
+
+
+    <!-- ####################媒体播放器资源定义区#################### -->
+
+    <!-- 图片播放模块资源定义区 -->
+
+    <string name="file_name">ชื่อไฟล์:</string>
+
+    <string name="photo_info">ข้อมูลภาพ</string>
+
+    <string name="file_create_time">เวลาที่สร้าง:</string>
+
+    <string name="file_size">ขนาดไฟล์:</string>
+
+    <string name="file_format">รูปแบบไฟล์:</string>
+
+    <string name="display_img_name">ชื่อของรูปภาพที่แสดง</string>
+
+    <string name="disk_eject">ดิสก์ออก</string>
+
+    <string name="photo_3D_toast">ที่จะไม่ทำงานในโหมด 3D</string>
+
+    <string name="photo_set_wallpaper">วอลล์เปเปอร์ภาพ</string>
+
+    <string name="first_photo">ภาพแรก!</string>
+
+    <string name="last_photo">ภาพล่าสุด!</string>
+
+    <string name="can_not_decode">ภาพมีขนาดใหญ่เกินไปที่จะวิเคราะห์!</string>
+
+    <string name="current_pic">ภาพปัจจุบันคือ:</string>
+
+    <string name="is_setting_wallpaper">มันคือการตั้งค่าภาพพื้นหลังโปรดรอสักครู่ ...</string>
+
+    <string name="picture_can_not_decode">ภาพนี้ไม่สามารถถอดรหัส!</string>
+
+    <string name="picture_decoding">ภาพเป็นถอดรหัส ...</string>
+
+
+
+    <!-- 音乐播放模块资源定义区 -->
+
+    <string name="music_info">ข้อมูลเพลง</string>
+
+    <string name="file_duration">ระยะเวลาที่ไฟล์:</string>
+
+    <string name="music_default_time">00:00</string>
+
+    <string name="Artist_name">ชื่อศิลปิน:</string>
+
+    <string name="file_path">เส้นทางของไฟล์:</string>
+
+    <string name="none_lyrics_find">ไม่พบเพลง!</string>
+
+    <string name="unknown">ไม่ทราบ</string>
+
+    <string name="singer">นักร้อง:</string>
+
+    <string name="current_song">เพลงปัจจุบัน:</string>
+
+    <string name="exit_music_play">กำหนดเพลงที่เล่นออกมา?</string>
+
+    <string name="alert">แจ้งเตือน</string>
+
+
+
+    <!-- 视频播放模块资源定义区 -->
+
+    <string name="no_video_track">ติดตามวิดีโอไม่มี</string>
+
+    <string name="audio_codec">ตัวแปลงสัญญาณเสียง</string>
+
+    <string name="video_codec">ตัวแปลงสัญญาณวิดีโอ</string>
+
+    <string name="duration">ระยะเวลา:</string>
+
+    <string name="default_time">--:--:--</string>
+
+    <string name="video_default_time">00:00:00</string>
+
+    <string name="choose_time_0">0</string>
+
+    <string name="choose_time_colon">:</string>
+
+    <string name="programe_info">ข้อมูลโปรแกรม</string>
+
+    <string name="show_info">แสดงข้อมูล </string>
+
+    <string name="buffering">บัฟเฟอร์...</string>
+
+    <string name="playing">เล่น</string>
+
+    <string name="video_subtitle">คำบรรยายภาพวิดีโอ</string>
+
+    <string name="video_track">เพลงวิดีโอ</string>
+
+    <string name="video_channel">ช่องทางวิดีโอ</string>
+
+    <string name="video_media_full_resize">วิดีโอปรับขนาดเต็ม</string>
+
+    <string name="video_media_default">ขนาดเริ่มต้นวิดีโอ</string>
+
+    <string name="video_media_full">วิดีโอขนาดเต็ม</string>
+
+    <string name="video_media_error_unknown">วิดีโอที่ไม่รู้จักข้อผิดพลาดของสื่อ</string>
+
+    <string name="video_media_error_malformed">วิดีโอสื่อในรูปแบบข้อผิดพลาด</string>
+
+    <string name="video_media_error_io">วิดีโอ IO สื่อผิดพลาด</string>
+
+    <string name="video_media_error_unsupported">วิดีโอที่ไม่สนับสนุนข้อผิดพลาดของสื่อ</string>
+
+    <string name="video_media_error_format_unsupport">วิดีโอสื่อผิดพลาด unsupport รูปแบบ</string>
+
+    <string name="video_media_error_not_connected">วิดีโอข้อผิดพลาดของสื่อไม่ได้เชื่อมต่อ</string>
+
+    <string name="video_media_error_audio_unsupport">วิดีโอเสียงที่ไม่สนับสนุนข้อผิดพลาดของสื่อ</string>
+
+    <string name="video_media_error_video_unsupport">วิดีโอที่ไม่สนับสนุนข้อผิดพลาดของสื่อ</string>
+
+    <string name="video_media_error_no_license">วิดีโอข้อผิดพลาดของสื่อไม่มีการอนุญาต</string>
+
+    <string name="video_media_error_license_expired">วิดีโอใบอนุญาตหมดอายุข้อผิดพลาดของสื่อ</string>
+
+    <string name="video_media_other_error_unknown">ข้อผิดพลาดที่ไม่รู้จักอื่น ๆ</string>
+
+    <string name="video_media_error_not_valid">วิดีโอข้อผิดพลาดของสื่อไม่ถูกต้อง</string>
+
+    <string name="video_media_error_server_died">มีเดียเซิร์ฟเวอร์เสียชีวิต</string>
+
+    <string name="video_media_infor_no_index">วิดีโอดัชนีไม่ก็ไม่แสวงหา</string>
+
+    <string name="video_media_infor_no_index_ab">วิดีโอดัชนีไม่ก็ไม่ได้ตั้งค่า AB</string>
+
+    <string name="subtitle_type">ประเภทของคำบรรยาย</string>
+
+    <string name="subtitle_out_path">คำบรรยายที่ออกเส้นทาง</string>
+
+    <string name="subtitle_in_no">คำบรรยายในยังไม่มี</string>
+
+    <string name="subtitle_language">ภาษาคำบรรยาย</string>
+
+    <string name="subtitle_color">สีคำบรรยาย</string>
+
+    <string name="subtitle_font">ตัวอักษรคำบรรยาย</string>
+
+    <string name="subtitle_font_size">ขนาดตัวอักษรบรรยาย</string>
+
+    <string name="subtitle_frame">กรอบคำบรรยาย</string>
+
+    <string name="subtitle_area">พื้นที่ย่อย</string>
+
+    <string name="subtitle_adjust">ปรับคำบรรยาย</string>
+
+    <string name="subtitleList">รายการคำบรรยาย</string>
+
+    <string name="playList">รายการเพลง</string>
+
+    <string name="subtitle_setting">การตั้งค่าคำบรรยาย</string>
+
+    <string name="a_b_section_repeat">A-B ทำซ้ำตามมาตรา</string>
+
+    <string name="section_replay">บางส่วนของรีเพลย์</string>
+
+    <string name="set_begin_a">ตั้งจุดเริ่มต้น  A</string>
+
+    <string name="set_begin_b"> ตั้งจุดเริ่มต้น B</string>
+
+    <string name="audio_track_count">ติดตามนับ</string>
+
+    <string name="audio_track_number">ติดตามจำนวน</string>
+
+    <string name="audio_track_duration">ติดตามระยะเวลา</string>
+
+    <string name="audio_track_language">ติดตามภาษา</string>
+
+    <string name="audio_track_setting">ติดตามการตั้งค่า</string>
+
+    <string name="point_a">ตำแหน่งจุดของ  A</string>
+
+    <string name="point_b">ตำแหน่งจุดของ  B</string>
+
+    <string name="one_times_speed">1 ความเร็วครั้ง</string>
+
+    <string name="x_times_speed">ความเร็วครั้ง</string>
+
+    <string name="playing_settings">การตั้งค่าการเล่นเกม</string>
+
+    <string name="open_ab_repeat">เปิด A-B ทำซ้ำ</string>
+
+    <string name="set_point_a_first">ตั้งจุดแรก</string>
+
+
+
+    <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+
+    <string name="subtitle_0_value_1">แสดงคำบรรยายภายนอก</string>
+
+    <string name="subtitle_0_value_2">แสดงคำบรรยายภายใน</string>
+
+    <string name="subtitle_1_value_1">เลือกเส้นทาง</string>
+
+    <string name="subtitle_1_value_2">ไม่มีคำบรรยายภายนอก</string>
+
+    <string name="subtitle_2_value_1">ไม่</string>
+
+    <string name="subtitle_2_value_2">คำบรรยาย </string>
+
+    <string name="subtitle_3_value_1">ไม่ทราบ</string>
+
+    <string name="subtitle_3_value_2">ไม่</string>
+
+    <string name="subtitle_4_value_1">songti</string>
+
+    <string name="subtitle_4_value_2">xingxu</string>
+
+    <string name="subtitle_4_value_3">kaiti</string>
+
+    <string name="subtitle_5_value_1">ใหญ่</string>
+
+    <string name="subtitle_5_value_2">กลาง</string>
+
+    <string name="subtitle_5_value_3">เล็ก</string>
+
+    <string name="subtitle_6_value_1">ขาว</string>
+
+    <string name="subtitle_6_value_2">สีดำ</string>
+
+    <string name="subtitle_6_value_3">สีน้ำเงิน</string>
+
+    <string name="subtitle_7_value_1">ไม่</string>
+
+    <string name="subtitle_7_value_2">ใช่</string>
+
+    <string name="subtitle_8_value_1">ก้น</string>
+
+    <string name="subtitle_8_value_2">ด้านบน</string>
+
+    <string name="subtitle_9_value">0 ms</string>
+
+
+
+    <string-array name="subtitle_setting_opt">
+
+        <item>แสดงคำบรรยายภายนอก</item>
+
+        <item>เลือกเส้นทาง</item>
+
+        <item>ไม่</item>
+
+        <item>ไม่ทราบ</item>
+
+        <item>songti</item>
+
+        <item>กลาง</item>
+
+        <item>ขาว</item>
+
+        <item>ไม่</item>
+
+        <item>ก้น</item>
+
+        <item>0 ms</item>
+
+    </string-array>
+
+
+
+    <string name="subtitle_change_msg">คำบรรยายภายนอกโปรดเปลี่ยนไปภายใน!</string>
+
+    <string name="subtitle_change_path">คำบรรยายภายในโปรดเปลี่ยนไปภายนอก!</string>
+
+    <string name="choose_time_failed">ไม่สามารถตั้ง!</string>
+
+    <string name="choose_time_invalid">เวลาที่ไม่ถูกต้องโปรดลองอีกครั้ง!</string>
+
+
+
+    <string-array name="play_setting_opt">
+
+        <item>เปิด</item>
+
+        <item></item>
+
+    </string-array>
+
+
+
+    <string name="play_setting_0_value_1">เปิด</string>
+
+    <string name="play_setting_0_value_2">ปิด</string>
+
+    <string name="video_size_unknown">ไม่ทราบ</string>
+
+
+
+    <string-array name="audio_track_setting_opt">
+
+        <item>ร่องเสียง 1</item>
+
+        <item>1</item>
+
+        <item>00:00:00</item>
+
+        <item>ไม่ทราบ</item>
+
+    </string-array>
+
+
+
+    <string name="audio_track_setting_0_value_1">ร่องเสียง</string>
+
+	<!-- add by fangcuihong,20160718 -->
+    <string name="toast_scale">ขนาด: %.1f</string>
+    <string name="toast_rotate">หมุน: %.1f</string>
+	
+
+    <!-- end -->
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="weather_condition">
+		<item>Tornade</item>
+		<item>Tempête tropicale</item>
+		<item>ouragan</item>
+		<item>Orages violents</item>
+		<item>Des orages</item>
+		<item>Pluie mélangée et neige</item>
+		<item>Douches et averses mixtes</item>
+		<item>Neige et neige mélangées</item>
+		<item>Bruine verglaçante</item>
+		<item>Bruine</item>
+		<item>Pluie verglaçante</item>
+		<item>Douches</item>
+		<item>Douches</item>
+		<item>Averses de neige</item>
+		<item>Légère chute de neige</item>
+		<item>Souffle de neige</item>
+		<item>Neige</item>
+		<item>Saluer</item>
+		<item>Neige fondue</item>
+		<item>poussière</item>
+		<item>Brumeux</item>
+		<item>Brume</item>
+		<item>Enfumé</item>
+		<item>De tempête</item>
+		<item>Venteux</item>
+		<item>Du froid</item>
+		<item>Nuageux</item>
+		<item>Plutôt nuageux</item>
+		<item>Plutôt nuageux</item>
+		<item>Partiellement nuageux</item>
+		<item>Partiellement nuageux</item>
+		<item>Clair</item>
+		<item>Ensoleillé</item>
+		<item>Juste</item>
+		<item>Juste</item>
+		<item>Pluie mixte et grêle</item>
+		<item>Chaud</item>
+		<item>Orages isolés</item>
+		<item>Orages dispersés</item>
+		<item>Orages dispersés</item>
+		<item>Averses éparses</item>
+		<item>Beaucoup de neige</item>
+		<item>Averses de neige dispersées</item>
+		<item>Beaucoup de neige</item>
+		<item>Partiellement nuageux</item>
+		<item>Douches</item>
+		<item>Douches de neige</item>
+		<item>Nuages ​​isolés</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>Dropbox</item>
+		<item>Magasin d\'applications</item>
+				  
+		<item>Bibliothèque d\'applications</item>
+		<item>Gestionnaire d\'application</item>
+		<item>Paramètres</item>
+		<item>Navigateur</item>
+		<item>Skype</item>
+		<item>Youtube</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910 # Séoul</item>
+		<item>2345969 # Gyeonggi-do</item>
+		<item>28816906 # Incheon</item>
+		<item>2345966 # Gangwon-do</item>
+		<item>2345967 # Gyeongsangnam-do</item>
+		<item>2345970 # Gyeongsangbuk-do</item>
+		<item>28816908 # Gwangju</item>
+		<item>28816909 # Daegu</item>
+		<item>28816902 # Daejeon</item>
+		<item>28816913 # Busan</item>
+		<item>28828129 # Sejong</item>
+		<item>28816901 # Ulsan</item>
+		<item>2345972 # Jeollanam-do</item>
+		<item>2345964 # Jeollabuk-do</item>
+		<item>28834807 # Jejudo</item>
+		<item>2345973 # Chungcheongnam-do</item>
+		<item>2345965 # Chungcheongbuk-do</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>Jan</item>
+		<item>Fév</item>
+		<item>Mars</item>
+		<item>avril</item>
+		<item>Mai</item>
+		<item>juin</item>
+		<item>juillet</item>
+		<item>Août</item>
+		<item>Sep</item>
+		<item>Oct</item>
+		<item>Nov</item>
+		<item>Déc</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>Soleil</item>
+		<item>Lun</item>
+		<item>Mar</item>
+		<item>Mer</item>
+		<item>Jeu</item>
+		<item>Ven</item>
+		<item>Sam</item>
+	</string-array>
+
+</resources>

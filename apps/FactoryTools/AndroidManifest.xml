@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.toptech.factorytools"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTTES" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name="com.toptech.factorytools.AgingActivity"
+            android:launchMode="singleInstance"
+            android:enabled="false"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter android:priority="3">
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.toptech.factorytools.PanelSettingActivity"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.toptech.factorytools.Factorytest"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.toptech.factorytools.FactoryShow"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.toptech.factorytools.HotKeyReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.toptech.factorytools.HotKeyReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.toptech.factorytools.EthernetAndWiFiReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.toptech.factorytools.Wifi_test" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.toptech.factorytools.Ethernet_test" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.toptech.factorytools.UpdateKeyReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.toptech.factorytools.MAC_TYPE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.toptech.factorytools.HDCP_KEY_TYPE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.toptech.factorytools.CI_KEY_TYPE" />
+            </intent-filter>
+        </receiver>
+        <service 
+            android:name="com.toptech.factorytools.MainService"
+            android:exported="false"/>
+    </application>
+
+</manifest>

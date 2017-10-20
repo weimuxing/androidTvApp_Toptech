@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Lançador</string>
+
+	<string name="application_num">O número de aplicativos instalados:</string>
+
+	<string name="temp_unit_c">℃</string>
+	<string name="temp_unit_f">℉</string>
+
+	<string name="loading">Carregando...</string>
+	<string name="instruction_loading">Por favor wiat, carregando .....</string>
+
+	<string name="weather_location">Selecione a cidade do tempo</string>
+	<string name="applabel">Aplicação</string>
+
+	<string name="errornetwork">Falha na rede!</string>
+	<string name="load_error">Carregar falha de dados!</string>
+
+
+	<string name="day_of_candar">º</string>
+
+	<string name="add_app_title">Selecione seus APLICADORES favoritos</string>
+	<string name="tips">MEUS APLICTOS</string>
+	<string name="savemsg">      Salvar alterações?</string>
+	<string name="delmsg">Deseja del atacar?</string>
+	<string name="min_apk_num">Pelo menos um APK é obrigatório!</string>
+	<string name="ok">sim</string>
+	<string name="cancle">Não</string>
+	<string name="all_check_title">Todos Checked</string>
+	<string name="rev_check_title">Verificação reversa</string>
+	<string name="month">M</string>
+	<string name="pick_wallpaper">Escolha o papel de parede</string>
+	<string name="chooser_wallpaper">Escolha o papel de parede</string>
+	<string name="activity_not_found">Atividade não encontrada</string>
+	<string name="url_select">Url select</string>
+	<string name="wallpaper_instructions">Instruções de papel de parede</string>
+	<string name="wallpaper">Papel de parede</string>
+	<string name="wallpaper_set">Papel de parede configurado com sucesso!</string>
+
+
+	<string name="contentdes">Img</string>
+	<string name="city001">ShenZhen</string>
+	<string name="gallery_info">Insira a unidade flash usb ou não é possível identificar imagens</string>
+
+</resources>

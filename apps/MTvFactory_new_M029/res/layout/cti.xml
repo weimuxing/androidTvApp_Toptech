@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/str_textview_factory_pq_ctisetting"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+
+    <!-- comb_83 -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_pq_ctisetting_comb_83"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusUp="@+id/linearlayout_factory_pq_ctisetting_ycdelay"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:id="@+id/textview_factory_pq_comb_83"
+            android:layout_width="180dip"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_textview_factory_pq_ctisetting_comb_83"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/textview_factory_pq_comb_83val"
+            android:layout_width="133dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/str_textview_factory_pq_colorsetting_text"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+        <!-- vip_post_cti -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_ctisetting_vip_post_cti"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_ctisetting_vip_post_cti"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_ctisetting_vip_post_cti"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_ctisetting_vip_post_ctival"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+        <!-- vip_post_cti_coef -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_ctisetting_vip_post_cti_coef"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_ctisetting_vip_post_cti_coef"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_ctisetting_vip_post_cti_coef"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_ctisetting_vip_post_cti_coefval"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+        <!-- precti -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_ctisetting_precti"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_ctisetting_precti"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_ctisetting_precti"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_ctisetting_prectival"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+        <!-- ycdelay-->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_ctisetting_ycdelay"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:nextFocusDown="@+id/linearlayout_factory_pq_ctisetting_comb_83"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_ctisetting_ycdelay"
+                android:layout_width="180dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_ctisetting_ycdelay"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+
+            <TextView
+                android:id="@+id/textview_factory_pq_ctisetting_ycdelayval"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_textview_factory_pq_colorsetting_text"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+       
+</LinearLayout>

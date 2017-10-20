@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">שם האפליקציה</string>
+	<string name="mm_version">Mm_version</string>
+	<string name="back">חזור</string>
+	<string name="folder">תיקייה</string>
+	<string name="rootDirectory">rootDirectory</string>
+	<string name="sambarootDirectory">SambarootDirectory</string>
+	<string name="unsupport_format">Unsupport_format</string>
+	<string name="exit_ok">יציאה</string>
+	<string name="exit_cancel">יציאה</string>
+	<string name="current_time">זמן נוכחי</string>
+	<string name="total_duration">Total_duration</string>
+	<string name="choice">בְּחִירָה</string>
+	<string name="confirm">לְאַשֵׁר</string>
+	<string name="exit_title">יציאה</string>
+	<string name="exit_confirm">יציאה</string>
+	<string name="the_first_file">The_first_file</string>
+	<string name="the_last_file">The_last_file</string>
+	<string name="net_disconnect">Net_disconnect</string>
+	<string name="display_pip">Display_pip</string>
+	<string name="hide_pip">Hide_pip</string>
+	<string name="pre_channel">Pre_channel</string>
+	<string name="next_channel">Next_channel</string>
+	<string name="max_tip">Max_tip</string>
+	<string name="min_tip">Min_tip</string>
+	<string name="busy_tip_notice">Busy_tip_notice</string>
+	<string name="busy_tip">Busy_tip</string>
+
+
+	<string name="picture">תְמוּנָה</string>
+	<string name="song">שִׁיר</string>
+	<string name="video">וִידֵאוֹ</string>
+	<string name="samba">סמבה</string>
+	<string name="dlna">דנה</string>
+	<string name="other">אַחֵר</string>
+	<string name="all">את כל</string>
+	<string name="page_up">גלול למעלה</string>
+	<string name="page_down">Page_down</string>
+	<string name="samba_usr">Samba_usr</string>
+	<string name="samba_pwd">Samba_pwd</string>
+	<string name="samba_confirm">Samba_confirm</string>
+	<string name="samba_cancel">Samba_cancel</string>
+	<string name="slash">קו נטוי</string>
+
+
+	<string name="loading_top">Loading_top</string>
+	<string name="loading_usb_device">Loading_usb_device</string>
+	<string name="loading_local_resource">הטעינה</string>
+	<string name="loading_dlna_device">Loading_dlna_device</string>
+	<string name="loading_dlna_resource">טוען</string>
+	<string name="miss_dlna_device">Miss_dlna_device</string>
+	<string name="loading_samba_device">Loading_samba_device</string>
+	<string name="loading_samba_resource">Loading_samba_resource</string>
+	<string name="miss_samba_device">Miss_samba_device</string>
+	<string name="is_scanning_disc">Is_scanning_disc</string>
+	<string name="login_wrong_password">התחברות</string>
+	<string name="login_failed">ההתחברות נכשלה</string>
+	<string name="login_other_failed">התחברות_other_failed</string>
+	<string name="login_title">login_title</string>
+	<string name="network_connect_failed">Network_connect_failed</string>
+	<string name="network_unconnected">מחובר לרשת</string>
+	<string name="login_samba">login_samba</string>
+	<string name="logging_out_samba">Logging_out_samba</string>
+	<string name="login_success">התחברות</string>
+	<string name="mount_failed">Mount_failed</string>
+
+	<string-array name="data_source">
+		<item>התקן דיסק מקומי</item>
+		<item>התקן SAMBA רשת</item>
+    </string-array>
+
+
+	<string name="file_name">שם קובץ</string>
+	<string name="photo_info">תמונה</string>
+	<string name="file_create_time">File_create_time</string>
+	<string name="file_size">גודל הקובץ</string>
+	<string name="file_format">File_format</string>
+	<string name="file_resolution">קובץ</string>
+	<string name="display_img_name">תצוגה_img_name</string>
+	<string name="disk_eject">Disk_eject</string>
+	<string name="photo_3D_toast">Photo_3D_toast</string>
+	<string name="photo_set_wallpaper">תמונה</string>
+	<string name="first_photo">First_photo</string>
+	<string name="last_photo">תמונה אחרונה</string>
+	<string name="can_not_decode">Can_not_decode</string>
+	<string name="current_pic">Current_pic</string>
+	<string name="is_setting_wallpaper">Is_setting_wallpaper</string>
+	<string name="picture_can_not_decode">תמונה_can_not_decode</string>
+	<string name="picture_decoding">תמונה</string>
+	<string name="picture_wallpaper">תמונה</string>
+	<string name="picture_decode_failed">תמונה_decode_failed</string>
+	<string name="picture_can_not_set3d">תמונה_can_not_set3d</string>
+	<string name="picture_playing_time">זמן</string>
+	<string name="picture_animation_setting">הגדרות</string>
+	<string name="photo_GIF_toast">Photo_GIF_toast</string>
+	<string name="photo_out_of_memory_toast">תמונה</string>
+	<string name="photo_scale_or_rotate_toast">תמונה</string>
+	<string name="photo_pan_success_toast">תמונה</string>
+	<string name="photo_pan_failed_toast">Photo_pan_failed_toast</string>
+	<string name="photo_pan_parameter_invalid">Photo_pan_parameter_invalid</string>
+	<string name="not_supported_3D_this_platform">Not_supported_3D_thisplatform</string>
+	<string name="photo_media_play_next">תמונה</string>
+	<string name="file_not_support">File_not_support</string>
+	<string name="photo_not_support_scale">תמונה</string>
+	<string name="photo_setwallpaper_succ">תמונה</string>
+	<string name="photo_setwallpaper_fail">תמונה</string>
+
+
+	<string name="music_info">Music_info</string>
+	<string name="file_duration">File_duration</string>
+	<string name="music_default_time">זמן_מוסיקה</string>
+	<string name="Artist_name">שם אמן</string>
+	<string name="file_path">File_path</string>
+	<string name="none_lyrics_find">None_lyrics_find</string>
+	<string name="unknown">לא ידוע</string>
+	<string name="singer">זמר</string>
+	<string name="current_song">הנוכחי</string>
+	<string name="exit_music_play">יציאה</string>
+	<string name="alert">עֵרָנִי</string>
+	<string name="music_media_play_next">music_media_play_next</string>
+
+	<string name="no_video_track">No_video_track</string>
+	<string name="audio_codec">אודיו</string>
+	<string name="video_codec">Codec וידאו</string>
+	<string name="duration">מֶשֶׁך</string>
+	<string name="default_time">Default_time</string>
+	<string name="video_default_time">Video_default_time</string>
+	<string name="choose_time_0">Select_time_0</string>
+	<string name="choose_time_colon">Select_time_colon</string>
+	<string name="programe_info">Programe_info</string>
+	<string name="show_info">Show_info</string>
+	<string name="buffering">חציצה</string>
+	<string name="playing">משחק</string>
+	<string name="video_subtitle">Video_subtitle</string>
+	<string name="video_track">Video_track</string>
+	<string name="picture_mode">תמונה</string>
+	<string name="video_mode">מצב וידאו</string>
+	<string name="video_surround">Video_surround</string>
+	<string name="video_spdif">Video_spdif</string>
+	<string name="music_equalizer">music_equalizer</string>
+	<string name="Color_tem">צבע_טקסט</string>
+
+	<string name="noise_resuction">הפחתת רעש</string>
+
+	<string name="video_thumbnail_mode">Video_thumbnail_mode</string>
+	<string name="video_rotate_mode">Video_rotate_mode</string>
+	<string name="video_channel">Video_channel</string>
+	<string name="video_media_full_resize">Video_media_full_resize</string>
+	<string name="video_media_play_next">Video_media_play_next</string>
+	<string name="video_media_default">Video_media_default</string>
+	<string name="video_media_full">Video_media_full</string>
+	<string name="video_media_error_unknown">Video_media_error_unknown</string>
+	<string name="video_media_error_malformed">Video_media_error_malformed</string>
+	<string name="video_media_error_io">Video_media_error_io</string>
+	<string name="video_media_error_unsupported">Video_media_error_unsupported</string>
+	<string name="video_media_error_format_unsupport">Video_media_error_format_unsupport</string>
+	<string name="video_media_error_not_connected">Video_media_error_not_connected</string>
+	<string name="video_media_error_audio_unsupport">Video_media_error_audio_unsupport</string>
+	<string name="video_media_error_video_unsupport">Video_media_error_video_unsupport</string>
+	<string name="video_media_error_no_license">Video_media_error_no_license</string>
+	<string name="video_media_error_license_expired">Video_media_error_license_expired</string>
+	<string name="video_media_other_error_unknown">Video_media_other_error_unknown</string>
+	<string name="video_media_error_not_valid">Video_media_error_not_valid</string>
+	<string name="video_media_error_server_died">Video_media_error_server_died</string>
+	<string name="video_media_infor_no_index">Video_media_infor_no_index</string>
+	<string name="video_media_infor_no_index_ab">Video_media_infor_no_index_ab</string>
+	<string name="video_media_do_forward_info">Video_media_do_forward_info</string>
+	<string name="video_audio_track_switch_info">Video_audio_track_switch_info</string>
+	<string name="video_thumbnail_switch_info">Video_thumbnail_switch_info</string>
+	<string name="video_no_support_two_4k">Video_no_support_two_4k</string>
+	<string name="video_no_support_seamless_dualscreen">Video_no_support_seamless_dualscreen</string>
+	<string name="video_iso_tip">Video_iso_tip</string>
+	<string name="open_file_fail">פתח</string>
+	<string name="subtitle_type">כותרת משנה</string>
+	<string name="subtitle_out_path">כתוביות</string>
+	<string name="subtitle_in_no">כתוביות</string>
+	<string name="subtitle_language">כתוביות -</string>
+	<string name="subtitle_color">כתוביות</string>
+	<string name="subtitle_font">כתוביות</string>
+	<string name="subtitle_font_size">כתוביות</string>
+	<string name="subtitle_frame">כותרת משנה</string>
+	<string name="subtitle_area">כתוביות</string>
+	<string name="subtitle_adjust">כתוביות</string>
+	<string name="subtitleList">כתוביות</string>
+	<string name="subtitle_unit">כתוביות</string>
+	<string name="playList">פלייליסט</string>
+	<string name="playmusictip">משחק</string>
+	<string name="playtip">playtip</string>
+	<string name="subtitle_setting">כתוביות</string>
+	<string name="a_b_section_repeat">A_b_section_repeat</string>
+	<string name="section_replay">קטע חלק TV</string>
+	<string name="set_begin_a">Set_begin_a</string>
+	<string name="set_begin_b">Set_begin_b</string>
+	<string name="audio_track_count">Audio_track_count</string>
+	<string name="audio_track_number">אודיו</string>
+	<string name="audio_track_duration">Audio_track_duration</string>
+	<string name="audio_track_language">שמע</string>
+	<string name="audio_track_codec">Audio_track_codec</string>
+	<string name="audio_track_channel">Audio_track_channel</string>
+	<string name="audio_track_name">שמע</string>
+	<string name="audio_track_setting">Audio_track_setting</string>
+	<string name="picture_mode_contrast">תמונה</string>
+	<string name="picture_mode_brightness">תמונה /</string>
+	<string name="picture_mode_hue">תמונה</string>
+	<string name="picture_mode_sharpness">תמונה</string>
+	<string name="picture_mode_color">תמונה</string>
+	<string name="picture_mode_backlight">תמונה</string>
+	<string name="video_mode_120hz">Video_mode_120hz</string>
+	<string name="video_mode_500Hz">Video_mode_500Hz</string>
+	<string name="video_mode_1_5KHz">Video_mode_1_5KHz</string>
+	<string name="video_mode_5KHz">Video_mode_5KHz</string>
+	<string name="video_mode_10KHz">Video_mode_10KHz</string>
+	<string name="video_mode_bass">Video_mode_bass</string>
+	<string name="video_mode_treble">Video_mode_treble</string>
+	<string name="video_mode_balance">Video_mode_balance</string>
+	<string name="video_mode_kybass">Video_mode_kybass</string>
+	<string name="video_mode_kylevel">Video_mode_kylevel</string>
+	<string name="point_a">Point_a</string>
+	<string name="point_b">Point_b</string>
+	<string name="one_times_speed">One_times_speed</string>
+	<string name="x_times_speed">X_times_speed</string>
+	<string name="playing_settings">משחקים</string>
+	<string name="open_ab_repeat">Open_ab_repeat</string>
+	<string name="set_point_a_first">Set_point_a_first</string>
+	<string name="video_three_d_setting">Video_three_d_setting</string>
+	<string name="video_rotate_degrees_setting">Video_rotate_degrees_setting</string>
+	<string name="video_rotate_degrees_setting_info">Video_rotate_degrees_setting_info</string>
+
+	<string name="video_picture_setting">Video_picture_setting</string>
+	<string name="video_sound_setting">Video_sound_setting</string>
+	<string name="music_sound_model">Music_sound_model</string>
+	<string name="music_sound_setting">Music_sound_setting</string>
+	<string name="video_3D_none">Video_3D_ לא</string>
+	<string name="video_3D_side_by_side">Video_3D_side_by_side</string>
+	<string name="video_3D_top_bottom">Video_3D_top_bottom</string>
+	<string name="video_3D_frame_packing">Video_3D_frame_packing</string>
+	<string name="video_3D_line_alternative">Video_3D_line_alternative</string>
+	<string name="video_3D_2dto3d">Video_3D_2dto3d</string>
+	<string name="video_3D_3dto2d">Video_3D_3dto2d</string>
+	<string name="video_3D_auto">Video_3D_auto</string>
+	<string name="video_3D_check_board">Video_3D_check_board</string>
+	<string name="video_3D_pixel_alternative">Video_3D_pixel_alternative</string>
+	<string name="video_3D_frame_alternative">Video_3D_frame_alternative</string>
+	<string name="video_3D_count">Video_3D_count</string>
+	<string name="video_3D_switch_info">Video_3D_switch_info</string>
+	<string name="video_3D_auto_detect_info">Video_3D_auto_detect_info</string>
+
+	<string name="aspect_ratio_16X9">היבט</string>
+	<string name="aspect_ratio_4X3">היבט</string>
+	<string name="aspect_ratio_default">היבט</string>
+	<string name="can_not_open_dual">Can_not_open_dual</string>
+	<string name="can_not_open_3D">Can_not_open_3D</string>
+	<string name="can_not_open_3D_pip">Can_not_open_3D_pip</string>
+	<string name="video_start_time">Video_start_time</string>
+	<string name="video_buffer_time">Video_buffer_time</string>
+	<string name="video_first_video_frame_time">Video_first_video_frame_time</string>
+	<string name="video_breakpoint_play">Video_breakpoint_play</string>
+	<string name="video_breakpoint">Video_breakpoint</string>
+	<string name="can_not_open_dual_pip">Can_not_open_dual_pip</string>
+	<string name="can_not_open_dual_4kVideo">Can_not_open_dual_4kVideo</string>
+	<string name="can_not_open_dual_HEVC_Video">Can_not_open_dual_HEVC_Video</string>
+	<string name="can_not_open_dual_Thumbnail_Video">Can_not_open_dual_Thumbnail_Video</string>
+	<string name="can_not_open_dual_this_platform">יכול להיות</string>
+	<string name="can_not_open_thumbnail_dual_Video">Can_not_open_thumbnail_dual_Video</string>
+	<string name="can_not_open_thumbnail_4kVideo">Can_not_open_thumbnail_4kVideo</string>
+	<string name="can_not_open_thumbnail_3DMode">קוד</string>
+	<string name="can_not_open_thumbnail_this_platform">Can_not_open_thumbnail_this_platform</string>
+	<string name="can_not_open_dual_rotate_mode">Can_not_open_dual_rotate_mode</string>
+	<string name="can_not_open_rotate_dual_mode">Can_not_open_rotate_dual_mode</string>
+	<string name="can_not_open_rotate">Can_not_open_rotate</string>
+	<string name="can_not_support_aspect_ratio">Can_not_support_aspect_ratio</string>
+
+
+	<string name="video_divx_title">Video_divx_title</string>
+	<string name="video_divx_edition">Video_divx_edition</string>
+	<string name="video_divx_chapter">Video_divx_chapter</string>
+	<string name="video_divx_autochapter">Video_divx_autochapter</string>
+
+	<string name="video_divx_title_resume">Video_divx_title_resume</string>
+	<string name="video_divx_resume">Video_divx_resume</string>
+
+	<string name="video_divx_vod">Video_divx_vod</string>
+
+	<string name="divx_vod_drm_register">Divx_vod_drm_register</string>
+	<string name="divx_vod_drm_registration_code">Divx_vod_drm_registration_code</string>
+	<string name="divx_vod_drm_register_at">Divx_vod_drm_register_at</string>
+
+	<string name="divx_vod_drm_deregistration_confirm">Divx_vod_drm_deregistration_confirm</string>
+	<string name="divx_vod_drm_deregistration_code">Divx_vod_drm_deregistration_code</string>
+	<string name="divx_vod_drm_deregister_at">Divx_vod_drm_deregister_at</string>
+	<string name="divx_vod_drm_deregister">Divx_vod_drm_deregister</string>
+
+	<string name="divx_vod_drm_authorization_error">Divx_vod_drm_authorization_error</string>
+
+	<string name="divx_vod_drm_rental">Divx_vod_drm_rental</string>
+	<string name="divx_vod_drm_views">Divx_vod_drm_views</string>
+	<string name="divx_vod_drm_rental_expired">Divx_vod_drm_rental_expired</string>
+	<string name="divx_vod_drm_rental_confirm">Divx_vod_drm_rental_confirm</string>
+
+	<string name="divx_vod_drm_unauthorized_version">Divx_vod_drm_unauthorized_version</string>
+
+	<string name="divx_vod_drm_unauthorized_video">Divx_vod_drm_unauthorized_video</string>
+
+	<string name="video_divx_vod_url">Video_divx_vod_url</string>
+
+
+
+	<string name="subtitle_0_value_1">כותרת המשנה</string>
+	<string name="subtitle_0_value_2">כותרת המשנה</string>
+	<string name="subtitle_1_value_1">כותרת המשנה</string>
+	<string name="subtitle_1_value_2">כותרת המשנה</string>
+	<string name="subtitle_2_value_1">כותרת המשנה</string>
+	<string name="subtitle_2_value_2">כותרת המשנה</string>
+	<string name="subtitle_3_value_1">כותרת המשנה</string>
+	<string name="subtitle_3_value_2">כתוביות בעברית</string>
+	<string name="subtitle_4_value_1">כתובית_4_value_1</string>
+	<string name="subtitle_4_value_2">תת כותרת_4_value_2</string>
+	<string name="subtitle_4_value_3">כתובית</string>
+	<string name="subtitle_5_value_1">כותרת המשנה</string>
+	<string name="subtitle_5_value_2">כותרת המשנה</string>
+	<string name="subtitle_5_value_3">כותרת המשנה</string>
+	<string name="subtitle_6_value_1">כתובית</string>
+	<string name="subtitle_6_value_2">כותרת המשנה</string>
+	<string name="subtitle_6_value_3">כתוביות</string>
+	<string name="subtitle_7_value_1">כותרת המשנה</string>
+	<string name="subtitle_7_value_2">כתובית</string>
+	<string name="subtitle_8_value_1">כותרת המשנה</string>
+	<string name="subtitle_8_value_2">כותרת המשנה</string>
+	<string name="subtitle_9_value">כתוביות</string>
+
+	<string-array name="subtitle_setting_opt">
+		<item>הצג כותרת משנה חיצונית</item>
+		<item>בחר נתיב</item>
+		<item>אף אחד</item>
+		<item>לא ידוע</item>
+		<item>בְּרִירַת מֶחדָל</item>
+		<item>אֶמצַע</item>
+		<item>לבן</item>
+		<item>לא</item>
+		<item>תַחתִית</item>
+		<item>0 ms</item>
+    </string-array>
+
+	<string name="subtitle_change_msg">כתוביות</string>
+	<string name="subtitle_change_path">כותרת משנה</string>
+	<string name="choose_time_failed">Select_time_failed</string>
+	<string name="choose_time_invalid">Select_time_invalid</string>
+	<string name="subtitle_change_invalid">כותרת משנה</string>
+	<string name="external_subtitle_setting_operation_invalid">חיצוני_subtitle_setting_operation_invalid</string>
+
+	<string-array name="play_setting_opt">
+		<item>לִפְתוֹחַ</item>
+		<item>לִסְגוֹר</item>
+		<item>לִפְתוֹחַ</item>
+		<item>לִסְגוֹר</item>
+		<item>לִסְגוֹר</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>	
+
+	<string name="play_setting_0_value_1">Play_setting_0_value_1</string>
+	<string name="play_setting_0_value_2">Play_setting_0_value_2</string>
+	<string name="video_size_unknown">Video_size_unknown</string>
+	
+	<string-array name="audio_track_setting_opt">
+		<item>רצועת שמע 1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>לא ידוע</item>
+		<item>לא נקבע</item>
+		<item>לא נקבע</item>
+		<item>לא נקבע</item>
+    </string-array>
+    <string-array name="picture_setting_opt">
+         <!-- Skye add for onida-->
+		<item>קְלִילוּת</item>
+		<item>חֲדָשׁוֹת</item>
+		<item>בית קולנוע</item>
+		<item>נוֹרמָלִי</item>
+		<item>מִשְׂחָק</item>
+		<item>אוטו</item>
+		<item>PC</item>
+		<item>בָּהִיר</item>
+		<item>EcoPower</item>
+		<item>ספורט</item>
+    </string-array>
+    <string-array name="video_setting_opt">
+		<item>נוֹרמָלִי</item>
+		<item>מוּסִיקָה</item>
+		<item>סרט</item>
+		<item>שָׁטוּחַ</item>
+    </string-array>
+    <string-array name="video_color_temperature">
+		<item>מגניב</item>
+		<item>נוֹרמָלִי</item>
+		<item>חַם</item>
+    </string-array>
+    <string-array name="noise_reduuction">
+		<item>כבוי</item>
+		<item>נָמוּך</item>
+		<item>בינוני</item>
+		<item>גָבוֹהַ</item>
+    </string-array>
+    <string-array name="surround_onoff">
+		<item>כבוי</item>
+		<item>עַל</item>
+    </string-array>
+    <string-array name="spdif_model">
+		<item>PCM</item>
+		<item>כבוי</item>
+		<item>גלם</item>
+    </string-array>
+    <string-array name="tv_sound_mode_types">
+		<item>נוֹרמָלִי</item>
+		<item>מוּסִיקָה</item>
+		<item>סרט</item>
+		<item>שָׁטוּחַ</item>
+    </string-array>
+
+	
+
+	<string name="audio_track_setting_0_value_1">Audio_track_setting_0_value_1</string>
+	<string name="subtitle_setting_0_value_1">כותרת המשנה</string>
+	<string name="subtitle_setting_0_value_2">כותרת המשנה</string>
+
+	<string name="video_goldenlefteye_mode">Video_goldenlefteye_mode</string>
+	<string name="dual_mode_not_support_golden_left_eye">כפול</string>
+	<string name="stb_not_support_golden_left_eye">Stb_not_support_golden_left_eye</string>
+	<string name="menu_exit_confirm">תפריט</string>
+
+	<string name="edit_copy">Edit_copy</string>
+	<string name="edit_delete">Edit_delete</string>
+	<string name="edit_move">Edit_move</string>
+	<string name="edit_paste">עריכה</string>
+	<string name="edit_rename">Edit_rename</string>
+	<string name="str_cancel">Str_cancel</string>
+	<string name="str_del">Str_del</string>
+	<string name="str_sure_del">Str_sure_del</string>
+	<string name="str_sure_del_ask">Str_sure_del_ask</string>
+	<string name="write_error">write_error</string>
+	<string name="read_error">קריאה</string>
+
+	<string name="str_rename_notice">Str_rename_notice</string>
+	<string name="str_rename_file_exist">Str_rename_file_exist</string>
+
+	<string name="str_copyingtitle">str_copyingtitle</string>
+	<string name="str_copyingcontext">Str_coppingcontext</string>
+	<string name="str_copystop">Str_copystop</string>
+	<string name="str_source">Str_source</string>
+	<string name="str_target">Str_target</string>
+
+	<string name="str_delcontext">Str_delcontext</string>
+
+
+	<string name="err_target_same">Err_target_same</string>
+	<string name="err_target_child">Err_target_child</string>
+
+
+	<string name="copy_revocer_text">העתקה</string>
+	<string name="copy_revocer_yes">העתקה</string>
+	<string name="copy_revocer_no">העתקה</string>
+	<string name="full">מלא</string>
+	<string name="copy_interrupt">עותק</string>
+	<string name="copy_get_file_count">עותק</string>
+	<string name="copy_fail">עותק</string>
+	<string name="ok">בסדר</string>
+	<string name="openning">פתוח</string>
+	<string name="del_error">טרור</string>
+	<string name="rename_error">שינוי שם</string>
+	<string name="rename_fail">Rename_fail</string>
+	<string name="err_not_free_space">Err_not_free_space</string>
+	<string name="error_invalid_path">שגיאה</string>
+	<string name="str_OK">Str_OK</string>
+	<string name="str_rename_text">Str_rename_text</string>
+	<string name="str_usb1_name">Str_usb1_name</string>
+	<string name="str_sdcard_name">Str_sdcard_name</string>
+
+	<string name="video_media_play_prev">Video_media_play_prev</string>
+
+
+
+	<string name="toast_scale">Toast_scale</string>
+	<string name="toast_rotate">Toast_rotate</string>
+
+
+
+	<string name="str_internal_storage">Str_internal_storage</string>
+	<string name="str_external_sdcard">Str_external_sdcard</string>
+
+
+</resources>

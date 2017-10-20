@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<style  name="ItemCombo">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">33dp</item>
+    <item name="android:background">@drawable/button_state</item>
+    <item name="android:focusable">true</item>
+    <item name="android:focusableInTouchMode">true</item>
+    <item name="android:orientation">horizontal</item>
+</style>
+
+<style  name="TextViewStyleSingle">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">33dp</item>
+    <item name="android:gravity">left|center_vertical</item>
+    <item name="android:paddingLeft">20dp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">13dp</item>
+</style>
+
+<style  name="TextViewStyleOption">
+    <item name="android:layout_width">200dp</item>
+    <item name="android:layout_height">33dp</item>
+    <item name="android:gravity">left|center_vertical</item>
+    <item name="android:paddingLeft">20dp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">13dp</item>
+</style>
+
+<style  name="TextViewStyleValue" parent="@style/TextViewStyleOption">
+    <item name="android:layout_width">200dp</item>
+    <item name="android:layout_height">33dp</item>
+    <item name="android:gravity">left|center_vertical</item>
+    <item name="android:paddingRight">20dp</item>
+    <item name="android:textColor">#ff0000</item>
+    <item name="android:textSize">13dp</item>
+</style>
+</resources>

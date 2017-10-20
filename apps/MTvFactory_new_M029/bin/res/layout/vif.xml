@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/str_vif_text"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- For VIF_TOP -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_viftop"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_viftop"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_viftop"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_viftop_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For VIF_AGC_REF -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifagcref"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@+id/linearlayout_factory_nonstandard_vifversion"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifagcref"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifagcref"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifagcref_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!--
+                 For VIF_VGA_MAXIMUM
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifvgamaximum"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifvgamaximum"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifvgamaximum"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_factory_nonstandard_vifvgamaximum_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            -->
+            <!-- For VIF_CP_KP -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifcpkp"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifcpkp"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifcpkp"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifcpkp_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For VIF_CP_KI -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifcpki"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifcpki"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifcpki"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifcpki_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For VIF_ASIA_SIGNAL_OPTION -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifasiasignaloption"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifasiasignaloption"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifasiasignaloption"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifasiasignaloption_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For VIF_CP_KP_KI_ADJUST -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifcpkpkiadjust"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifcpkpkiadjust"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifcpkpkiadjust"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifcpkpkiadjust_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For VIF_OVER_MODULATION -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifovermodulation"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifovermodulation"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifovermodulation"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifovermodulation_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For VIF_CLAMPGAIN_GAIN_OV_NEGGATIVE -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifclampgain"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifclampgain"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifclampgain"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifclampgain_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For CHINA_DESCRAMBLER_BOX -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_chinadescrambler"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_chinadescrambler"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_chinadescrambler"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_chinadescrambler_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For China_DES_BOX_Delay -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_chinadescrambler_delay"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_chinadescrambler_delay"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_chinadescrambler_delay"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_chinadescrambler_delay_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For VIF_CR_THR -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifcrthr"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifcrthr"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifcrthr"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifcrthr_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Delay -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_delay"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_delay"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_delay"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_delay_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For VIF_VERSION -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_vifversion"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusDown="@+id/linearlayout_factory_nonstandard_vifagcref"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifversion"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_vifversion"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_vifversion_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!--
+                 For GAIN_DISTRIBUTION_THR
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_nonstandard_gaindistributionthr"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state">
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_gaindistributionthr"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_nonstandard_gaindistributionthr"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+                <TextView
+                    android:id="@+id/textview_factory_nonstandard_gaindistributionthr_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_nonstandard_default_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

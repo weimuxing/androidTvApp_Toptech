@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_view_cont"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout 
+	    android:id="@+id/ll_menu_pop1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/tableheadhalf">
+	    <ImageView 
+	        android:id="@+id/iv_menu_pop_icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/menu_popu_tip_icon"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/iv_menu_pop_icon"
+	        android:layout_centerVertical="true"
+	        android:textColor="@color/white"
+	        android:paddingLeft="10dip"
+	        android:paddingRight="25dip"
+	        android:text="@string/weather_location"/>
+	    <ImageView 
+	        android:id="@+id/iv_menu_pop_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/selector_close"/>
+	</RelativeLayout>	
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        android:divider="@drawable/divider2"
+        android:focusable="true"
+        android:listSelector="@null">
+    </ListView>
+ 
+</LinearLayout>

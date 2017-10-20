@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:gravity="center"
+
+    android:layout_height="wrap_content"
+
+    android:paddingTop="10dip" >
+
+
+
+    <TextView
+
+        android:id="@+id/back_tv"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="15dip"
+
+        android:text="@string/back"
+
+        android:textColor="#CCCCCCCC"
+
+        android:textSize="15sp" />
+
+
+
+    <ImageView
+
+        android:id="@+id/back_iv"
+
+        android:layout_width="13dip"
+
+        android:layout_height="13dip"
+
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="3dp"
+
+        android:layout_toLeftOf="@id/back_tv"
+
+        android:background="@drawable/back" />
+
+
+
+    <TextView
+
+        android:id="@+id/confirm_tv"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="20dip"
+
+        android:layout_toLeftOf="@id/back_iv"
+
+        android:text="@string/confirm"
+
+        android:textColor="#CCCCCCCC"
+
+        android:textSize="15sp" />
+
+
+
+    <ImageView
+
+        android:id="@+id/confirm_iv"
+
+        android:layout_width="15dip"
+
+        android:layout_height="15dip"
+        android:layout_marginLeft="30dp"
+		android:layout_marginTop="3dp"
+        android:layout_marginRight="7dip"
+
+        android:layout_toLeftOf="@id/confirm_tv"
+
+        android:background="@drawable/confirm" />
+
+
+
+    <TextView
+
+        android:id="@+id/choice_tv"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="20dip"
+
+        android:layout_toLeftOf="@id/confirm_iv"
+
+        android:text="@string/choice"
+
+        android:textColor="#CCCCCCCC"
+
+        android:textSize="15sp" />
+
+
+
+    <ImageView
+
+        android:id="@+id/choose_iv"
+
+        android:layout_width="15dip"
+
+        android:layout_height="15dip"
+		android:layout_marginTop="3dp"
+        android:layout_marginRight="10dip"
+
+        android:layout_toLeftOf="@id/choice_tv"
+
+        android:background="@drawable/navigate_img" />
+
+
+
+</RelativeLayout>

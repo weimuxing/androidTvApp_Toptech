@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/top_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x50"
+        android:layout_marginTop="@dimen/y10"
+        android:focusable="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main_source"
+            android:layout_width="@dimen/x50"
+            android:layout_height="@dimen/x50"
+            android:layout_marginLeft="@dimen/x15"
+            android:background="@drawable/main_source_bg"
+            android:drawableTop="@drawable/source_menu_icon"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/main_media"
+            android:layout_width="@dimen/x50"
+            android:layout_height="@dimen/x50"
+            android:layout_marginLeft="@dimen/x15"
+            android:background="@drawable/main_source_bg"
+            android:drawableTop="@drawable/multimedia_icon"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        layout="@layout/tips"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <!-- {1} part -->
+
+    <RelativeLayout
+        android:id="@+id/coverflow_ly"
+        android:layout_width="@dimen/x700"
+        android:layout_height="@dimen/y190"
+        android:layout_below="@+id/top_ly"
+        android:layout_centerHorizontal="true"
+        android:focusable="true" >
+
+        <ImageView
+            android:id="@+id/cf_left"
+            android:layout_width="@dimen/x60"
+            android:layout_height="@dimen/x60"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10"
+            android:focusable="true"
+            android:src="@drawable/selector_bleft" />
+
+        <com.toptech.launcherkorea2.view.CoverFlow
+            android:id="@+id/coverflow"
+            android:layout_width="@dimen/x550"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_toRightOf="@+id/cf_left"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/cf_right"
+            android:layout_width="@dimen/x60"
+            android:layout_height="@dimen/x60"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_toRightOf="@+id/coverflow"
+            android:focusable="true"
+            android:src="@drawable/selector_bright" />
+
+        <TextView
+            android:id="@+id/gallery_app_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x17" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tvview_ly"
+        android:layout_width="@dimen/x900"
+        android:layout_height="@dimen/y270"
+        android:layout_below="@+id/coverflow_ly"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_marginTop="@dimen/y10"
+        android:focusable="true" >
+
+        <AbsoluteLayout
+            android:id="@+id/image_tv_layout"
+            android:layout_width="@dimen/x400"
+            android:layout_height="@dimen/y270" >
+
+            <Button
+                android:id="@+id/imagetv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tv_bg"
+                android:contentDescription="@string/contentdes" >
+            </Button>
+
+            <LinearLayout
+                android:id="@+id/tv_surfaceview_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/x5" />
+        </AbsoluteLayout>
+
+        <LinearLayout
+            android:id="@+id/main_image"
+            android:layout_width="@dimen/x400"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x100"
+            android:layout_toRightOf="@+id/image_tv_layout"
+            android:background="@drawable/image_onida"
+            android:focusable="true" >
+
+            <ImageView
+                android:id="@+id/main_pic"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/onida_advetisement_logo"
+                android:scaleType="fitXY" >
+            </ImageView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- {2} part -->
+
+    <FrameLayout
+        android:id="@+id/add_app_ly"
+        android:layout_width="@dimen/x58"
+        android:layout_height="@dimen/x58"
+     	android:layout_alignTop="@+id/app_gellery_ly"
+        android:layout_marginLeft="@dimen/x20">
+
+        <ImageView
+            android:id="@+id/add_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:layout_marginTop="@dimen/y20"
+            android:src="@drawable/selector_addapp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/app_gellery_ly"
+        android:layout_width="@dimen/x1000"
+        android:layout_height="@dimen/x80"
+        android:layout_toRightOf="@+id/add_app_ly"
+        android:layout_below="@+id/tvview_ly"
+        android:layout_marginTop="@dimen/y50" 
+        android:layout_centerHorizontal="true"
+         >
+
+        <com.toptech.launcherkorea2.shortcut.AppGallery
+            android:id="@+id/show_app"
+            android:layout_width="@dimen/x960"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            
+            android:focusable="true" />
+    </FrameLayout>
+
+</RelativeLayout>

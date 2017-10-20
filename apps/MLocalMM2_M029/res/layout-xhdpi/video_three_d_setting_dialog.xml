@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/video3DAuto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="20dip"
+            android:orientation="vertical" >
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dip"
+                android:background="@drawable/line" >
+        </ImageView>
+
+        <ListView
+                android:id="@+id/video3DList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:drawSelectorOnTop="false"
+                android:divider="@null"
+                android:listSelector="@drawable/list_selector"
+                android:scrollbars="none"
+                android:scrollingCache="true"
+                ></ListView>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/line" >
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>

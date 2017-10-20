@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2015 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources>
+
+    <string name="app_name">TvMiscSetting</string>
+
+    <string name="pipOrpop">PIP/POP</string>
+    <string name="other">その他</string>
+    <string name="display">Display</string>
+
+    <string name="volumeSmall">ボリューム-</string>
+    <string name="moveScreen">移屏</string>
+    <string name="volumeBig">ボリューム+</string>
+    <string name="fullScreenCall">フルスクリーンコール</string>
+    <string name="exit">終了する</string>
+    <string name="source">ソース</string>
+    <string name="channelBig">チャンネル+</string>
+    <string name="channelSmall">チャンネル-</string>
+    <string name="full_screen">全屏</string>
+    <string name="switch_vol">切换音频</string>
+    <string name="switch_main">Switch earphone audio to main</string>
+    <string name="switch_sub">Switch earphone audio to sub</string>
+    <string name="back">戻る</string>
+    <string name="wait">データがロードされ......</string>
+
+    <string name="str_pip">PIP</string>
+    <string name="str_pop">POP</string>
+    <string name="str_dual">デュアル</string>
+    <string name="picture">画像</string>
+    <string name="sound">サウンド</string>
+    <string name="str_3d">3D</string>
+
+
+    <!-- for Picture -->
+    <string name="str_pic_mode">ピクチャーモード</string>
+    <string-array name="str_arr_pic_mode_vals">
+        <item>lightness</item>
+        <item>standard</item>
+        <item>soft</item>
+        <item>user</item>
+        <item>game</item>
+        <item>auto</item>
+        <item>pc</item>
+        <item>vivid</item>
+        <item>natural</item>
+        <item>sports</item>
+    </string-array>
+
+    <string name="str_pic_contrast">コントラスト</string>
+    <string name="str_pic_brightness">明るさ</string>
+    <string name="str_pic_sharpness">鋭さ</string>
+    <string name="str_pic_hue">Hue</string>
+    <string name="str_pic_saturation">Saturation</string>
+    <string name="str_pic_backlight">Back Light</string>
+
+   <!-- for audio -->
+    <string name="str_audio_volume">ボリューム</string>
+    <string name="str_audio_audiomode">オーディオモード</string>
+    <string-array name="str_arr_audio_audiomode_vals">
+        <item>標準</item>
+        <item>音楽</item>
+        <item>ムービー</item>
+        <item>スポーツの</item>
+        <item>ユーザー</item>
+    </string-array>
+    <string name="str_audio_bass">低音</string>
+    <string name="str_audio_treble">高音域</string>
+    <string name="str_audio_balance">バランス</string>
+    <string name="str_audio_spdif_mode">SPDIFモード</string>
+    <string-array name="str_arr_spdif_mode_vals">
+        <item>PCM</item>
+        <item>Off</item>
+        <item>Auto</item>
+        <item>Bypass</item>
+        <item>Transcode</item>
+    </string-array>
+
+    <string name="str_3d_detect">3D 自己検出</string>
+    <string-array name="str_arr_3d_detect_vals">
+        <item>Off</item>
+        <item>Right Now</item>
+        <item>When Scan Change</item>
+        <item>Real Time</item>
+    </string-array>
+    <string name="str_3dto2d_detect">3D-2D 自己検出</string>
+    <string-array name="str_arr_3dto2d_detect_vals">
+        <item>Off</item>
+        <item>Right Now</item>
+    </string-array>
+    <string name="str_3d_conversion">3D 変換</string>
+    <string-array name="str_arr_3d_conversion_vals">
+        <item>None</item>
+        <item>SBS</item>
+        <item>TB</item>
+        <item>FP</item>
+        <item>FP_720P</item>
+        <item>LA</item>
+        <item>FA</item>
+        <item>FIELD_ALTERNATIVE</item>
+        <item>CB</item>
+        <item>2D-3D</item>
+        <item>DUALVIEW</item>
+        <item>PA</item>
+        <item>4K2K_VIDEO_SPLIT</item>
+        <item>FRAME_L</item>
+        <item>FRAME_R</item>
+    </string-array>
+    <string name="str_3d_3dto2d">3D-2D</string>
+    <string-array name="str_arr_3d_3dto2d_vals">
+        <item>None</item>
+        <item>SBS</item>
+        <item>TB</item>
+        <item>FP</item>
+        <item>FP_720P</item>
+        <item>LA</item>
+        <item>FA</item>
+        <item>FIELD_ALTERNATIVE</item>
+        <item>CB</item>
+        <item>2D-3D</item>
+        <item>DUALVIEW</item>
+        <item>PA</item>
+        <item>4K2K_VIDEO_SPLIT</item>
+        <item>FRAME_L</item>
+        <item>FRAME_R</item>
+    </string-array>
+    <string name="str_3d_lrswitch">3D アスペクト比</string>
+    <string-array name="str_arr_lrswitch_vals">
+        <item>閉じる</item>
+        <item>開く</item>
+    </string-array>
+    <string name="str_3d_depth">3D 深さ</string>
+    <string name="str_3d_offset">3D オフセット</string>
+    <string name="str_pip_err_title">PIP Error</string>
+    <string name="str_pip_err_msg">Sorry,cannot show PIP window at this moment</string>
+    <string name="str_pop_err_title">PoP Error</string>
+    <string name="str_pop_err_msg">Sorry,cannot show PoP window at this moment</string>
+    <string name="str_dual_err_title">Dual Error</string>
+    <string name="str_dual_err_msg">Sorry,cannot show Dual window at this moment</string>
+    <string name="str_ok_label">OK</string>
+
+   <!-- for display setting -->
+    <string name="str_display_area">Area</string>
+    <string name="str_resolution">Resolution</string>
+
+   <!-- for display area -->
+    <string name="str_display_area_top">Top</string>
+    <string name="str_display_area_bottom">Bottom</string>
+    <string name="str_display_area_left">Left</string>
+    <string name="str_display_area_right">Right</string>
+    <string name="str_display_area_default">Restore default</string>
+
+    <string-array name="str_arr_input_source_vals">
+        <item>VGA</item>
+        <item>ATV</item>
+        <item>CVBS</item>
+        <item>CVBS2</item>
+        <item>CVBS3</item>
+        <item>CVBS4</item>
+        <item>CVBS5</item>
+        <item>CVBS6</item>
+        <item>CVBS7</item>
+        <item>CVBS8</item>
+        <item>CVBS_MAX</item>
+        <item>SVIDEO</item>
+        <item>SVIDEO2</item>
+        <item>SVIDEO3</item>
+        <item>SVIDEO4</item>
+        <item>SVIDEO_MAX</item>
+        <item>YPBPR1</item>
+        <item>YPBPR2</item>
+        <item>YPBPR3</item>
+        <item>YPBPR_MAX</item>
+        <item>SCART</item>
+        <item>SCART2</item>
+        <item>SCART_MAX</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>DTV</item>
+        <item>DVI</item>
+        <item>DVI2</item>
+        <item>DVI3</item>
+        <item>DVI4</item>
+        <item>DVI_MAX</item>
+        <item>STORAGE</item>
+        <item>KTV</item>
+        <item>JPEG</item>
+        <item>DTV</item>
+        <item>STORAGE2</item>
+        <item>DIV3</item>
+        <item>SCALER_OP</item>
+        <item>RUV</item>
+        <item>VGA2</item>
+        <item>VGA3</item>
+        <item>NONE</item>
+    </string-array>
+
+    <string name="solution_device_notsupport">Device Not Support 4K2K</string>
+
+</resources>

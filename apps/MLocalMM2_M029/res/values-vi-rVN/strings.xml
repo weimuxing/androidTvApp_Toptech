@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <string name="app_name">LocalMM</string>
+
+    <string name="back">trở lại</string>
+
+    <string name="folder">thư mục</string>
+
+    <string name="rootDirectory">/mnt/usb</string>
+
+    <string name="sambarootDirectory">/mnt/samba</string>
+
+    <string name="unsupport_format">Định dạng này không thể chơi</string>
+
+    <string name="exit_ok">ok</string>
+
+    <string name="exit_cancel">hủy bỏ</string>
+
+    <string name="current_time">Chơi thời gian:</string>
+
+    <string name="total_duration">Tổng thời gian:</string>
+
+    <string name="choice">sự lựa chọn</string>
+
+    <string name="confirm">xác nhận</string>
+
+    <string name="exit_title">lối ra</string>
+
+    <string name="exit_confirm">xác nhận xóa?</string>
+
+    <string name="the_first_file">Các tập tin đầu tiên!</string>
+
+    <string name="the_last_file">Các tập tin mới nhất !</string>
+
+    <string name="net_disconnect">Net là ngắt kết nối, hãy kiểm tra nó !</string>
+
+    <string name="display_pip">Hiển thị PIP</string>
+
+    <string name="hide_pip">Hide PIP</string>
+
+    <string name="pre_channel">trước Kênh</string>
+
+    <string name="next_channel">Kênh Tiếp theo</string>
+
+
+
+    <!-- ####################文件浏览模块资源定义区#################### -->
+
+    <string name="picture">hình ảnh</string>
+
+    <string name="song">bài hát</string>
+
+    <string name="video">video</string>
+
+    <string name="samba">Samba</string>
+
+    <string name="dlna">DLNA</string>
+
+    <string name="other">khác</string>
+
+    <string name="all">tất cả</string>
+
+    <string name="page_up">trang lên</string>
+
+    <string name="page_down">trang xuống</string>
+
+    <string name="slash">/</string>
+
+
+
+    <!-- 加载进度提示信息定义区 -->
+
+    <string name="loading_top">tải Top Page, xin vui lòng chờ đợi</string>
+
+    <string name="loading_usb_device">Device tải USB</string>
+
+    <string name="loading_local_resource">Đang tải tài nguyên địa phương, vui lòng chờ đợi</string>
+
+    <string name="loading_dlna_device">Đang tải Device DLNA, Please Wait</string>
+
+    <string name="loading_dlna_resource">Đang tải DLNA Resource, Please Wait</string>
+
+    <string name="miss_dlna_device">Tải DLNA Resource Không thành công</string>
+
+    <string name="loading_samba_device">Đang tải SAMBA Device, Please Wait</string>
+
+    <string name="loading_samba_resource">Đang tải SAMBA Resource, Please Wait</string>
+
+    <string name="miss_samba_device">ải SAMBA Resource Không</string>
+
+    <string name="is_scanning_disc">Nó có chức năng quét đĩa!</string>
+
+    <string name="login_wrong_password">Sai Mật Khẩu</string>
+
+    <string name="login_failed">Không Để Đăng nhập SAMBA</string>
+
+    <string name="login_other_failed">Đăng nhập SAMBA Exception</string>
+
+    <string name="login_title">Đăng Nhập</string>
+
+    <string name="network_connect_failed">Kết nối Để Device Không, không thể chia sẻ NetworkResources</string>
+
+    <string name="network_unconnected">Chưa được nối mạng, hãy kiểm tra và thử lại </string>
+
+    <string name="login_samba">Đăng nhập Samba, Please Wait</string>
+
+    <string name="logging_out_samba">logouting Samba, xin vui lòng chờ đợi</string>
+
+    <string name="login_success">Đăng nhập thành công Samba</string>
+
+    <string name="mount_failed">Núi Samba Không</string>
+
+
+
+    <string-array name="data_source">
+
+        <item>đĩa thiết bị địa phương</item>
+
+        <item>thiết bị mạng SAMBA</item>
+
+        <!--<item>mạng DLNA thiết bị</item>-->
+    </string-array>
+
+
+
+    <!-- ####################媒体播放器资源定义区#################### -->
+
+    <!-- 图片播放模块资源定义区 -->
+
+    <string name="file_name">tên tập tin:</string>
+
+    <string name="photo_info">Thông tin hình ảnh</string>
+
+    <string name="file_create_time">tạo ra thời gian:</string>
+
+    <string name="file_size">Kích thước tập tin:</string>
+
+    <string name="file_format">định dạng file:</string>
+
+    <string name="display_img_name">Tên của hình ảnh hiển thị</string>
+
+    <string name="disk_eject">đĩa eject</string>
+
+    <string name="photo_3D_toast">không hoạt động trong chế độ 3D</string>
+
+    <string name="photo_set_wallpaper">ảnh nền</string>
+
+    <string name="first_photo">bức ảnh đầu tiên!</string>
+
+    <string name="last_photo">ảnh cuối cùng!</string>
+
+    <string name="can_not_decode">TBức ảnh là quá lớn để có thể thực hiện phân tích!</string>
+
+    <string name="current_pic">Hình hiện nay là:</string>
+
+    <string name="is_setting_wallpaper">Nó được thiết lập hình nền, vui lòng đợi. . .</string>
+
+    <string name="picture_can_not_decode">Bức ảnh này không thể giải mã!</string>
+
+    <string name="picture_decoding">hình ảnh giải mã...</string>
+
+
+
+    <!-- 音乐播放模块资源定义区 -->
+
+    <string name="music_info">Thông tin âm nhạc</string>
+
+    <string name="file_duration">Thời hạn nộp hồ sơ:</string>
+
+    <string name="music_default_time">00:00</string>
+
+    <string name="Artist_name">Tên nghệ sĩ:</string>
+
+    <string name="file_path">đường dẫn tập tin:</string>
+
+    <string name="none_lyrics_find">Không tìm thấy lời bài hát!</string>
+
+    <string name="unknown">Không biết</string>
+
+    <string name="singer">Ca sĩ::</string>
+
+    <string name="current_song">Bài hát hiện tại:</string>
+
+    <string name="exit_music_play">Xác định âm nhạc diễn ra?</string>
+
+    <string name="alert">Báo động</string>
+
+
+
+    <!-- 视频播放模块资源定义区 -->
+
+    <string name="no_video_track">theo dõi video none</string>
+
+    <string name="audio_codec">audio codec:</string>
+
+    <string name="video_codec">video codec:</string>
+
+    <string name="duration">Độ dài::</string>
+
+    <string name="default_time">--:--:--</string>
+
+    <string name="video_default_time">00:00:00</string>
+
+    <string name="choose_time_0">0</string>
+
+    <string name="choose_time_colon">:</string>
+
+    <string name="programe_info">Thông tin programe</string>
+
+    <string name="show_info">hiển thị thông tin</string>
+
+    <string name="buffering">đệm ......</string>
+
+    <string name="playing">chơi</string>
+
+    <string name="video_subtitle">thêm phụ đề</string>
+
+    <string name="video_track">Video theo dõi</string>
+
+    <string name="video_channel">kênh video</string>
+
+    <string name="video_media_full_resize">toàn thay đổi kích thước hình</string>
+
+    <string name="video_media_default">Kích thước mặc định hình</string>
+
+    <string name="video_media_full">kích thước video đầy đủ</string>
+
+    <string name="video_media_error_unknown">Video truyền thông báo lỗi không rõ</string>
+
+    <string name="video_media_error_malformed">Video lỗi phương tiện truyền thông dị hình</string>
+
+    <string name="video_media_error_io">io lỗi media video</string>
+
+    <string name="video_media_error_unsupported">Video lỗi phương tiện truyền thông không được hỗ trợ</string>
+
+    <string name="video_media_error_format_unsupport">phương tiện truyền thông định dạng video lỗi unsupport</string>
+
+    <string name="video_media_error_not_connected">Video lỗi phương tiện truyền thông không được kết nối</string>
+
+    <string name="video_media_error_audio_unsupport">media video âm thanh lỗi unsupport</string>
+
+    <string name="video_media_error_video_unsupport">phương tiện truyền thông video video lỗi unsupport</string>
+
+    <string name="video_media_error_no_license">video phương tiện truyền thông báo lỗi không có giấy phép</string>
+
+    <string name="video_media_error_license_expired">Video phương tiện truyền thông lỗi giấy phép hết hạn</string>
+
+    <string name="video_media_other_error_unknown">không biết lỗi khác</string>
+
+    <string name="video_media_error_not_valid">Video Phương Tiến transfer message error not valid</string>
+
+    <string name="video_media_error_server_died">phương tiện truyền thông máy chủ đã chết</string>
+
+    <string name="video_media_infor_no_index">Video không có chỉ mục, nó không seeked</string>
+
+    <string name="video_media_infor_no_index_ab">Video không có chỉ mục, nó không được thiết lập AB</string>
+
+    <string name="subtitle_type">Loại phụ đề</string>
+
+    <string name="subtitle_out_path">phụ đề ra khỏi con đường</string>
+
+    <string name="subtitle_in_no">phụ đề trong không</string>
+
+    <string name="subtitle_language">ngôn ngữ phụ đề</string>
+
+    <string name="subtitle_color">màu phụ đề</string>
+
+    <string name="subtitle_font">font phụ đề</string>
+
+    <string name="subtitle_font_size">Kích thước font phụ đề</string>
+
+    <string name="subtitle_frame">khung phụ đề</string>
+
+    <string name="subtitle_area">khu vực phụ đề</string>
+
+    <string name="subtitle_adjust">phụ đề điều chỉnh</string>
+
+    <string name="subtitleList">subtitleList</string>
+
+    <string name="playList">playList</string>
+
+    <string name="subtitle_setting">Subtitle Setting</string>
+
+    <string name="a_b_section_repeat">A-B lặp lại mục</string>
+
+    <string name="section_replay">Mục replay</string>
+
+    <string name="set_begin_a">Thiết lập điểm khởi đầu A</string>
+
+    <string name="set_begin_b">Đặt khởi điểm B</string>
+
+    <string name="audio_track_count">theo dõi số</string>
+
+    <string name="audio_track_number">số lượng theo dõi</string>
+
+    <string name="audio_track_duration">theo dõi thời gian</string>
+
+    <string name="audio_track_language">theo dõi ngôn ngữ</string>
+
+    <string name="audio_track_setting">thiết lập theo dõi</string>
+
+    <string name="point_a">The A vị trí điểm</string>
+
+    <string name="point_b">Các vị trí điểm B</string>
+
+    <string name="one_times_speed">1 lần tăng tốc</string>
+
+    <string name="x_times_speed">lần tốc độ</string>
+
+    <string name="playing_settings">Thiết lập chơi</string>
+
+    <string name="open_ab_repeat">mở A-B lặp lại</string>
+
+    <string name="set_point_a_first">thiết lập điểm đầu tiên</string>
+
+
+
+    <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+
+    <string name="subtitle_0_value_1">hiển thị phụ đề bên ngoài</string>
+
+    <string name="subtitle_0_value_2">hiển thị phụ đề bên trong</string>
+
+    <string name="subtitle_1_value_1">lựa chọn con đường</string>
+
+    <string name="subtitle_1_value_2">không có phụ đề bên ngoài</string>
+
+    <string name="subtitle_2_value_1">không ai</string>
+
+    <string name="subtitle_2_value_2">phụ đề </string>
+
+    <string name="subtitle_3_value_1">không biết</string>
+
+    <string name="subtitle_3_value_2">không ai</string>
+
+    <string name="subtitle_4_value_1">vỡ nợ</string>
+
+    <string name="subtitle_4_value_2">sans serif</string>
+
+    <string name="subtitle_4_value_3">monospace</string>
+
+    <string name="subtitle_5_value_1">lớn</string>
+
+    <string name="subtitle_5_value_2">ở giữa</string>
+
+    <string name="subtitle_5_value_3">nhỏ</string>
+
+    <string name="subtitle_6_value_1">trắng</string>
+
+    <string name="subtitle_6_value_2">đen</string>
+
+    <string name="subtitle_6_value_3">màu xanh</string>
+
+    <string name="subtitle_7_value_1">không</string>
+
+    <string name="subtitle_7_value_2">vâng</string>
+
+    <string name="subtitle_8_value_1">đáy</string>
+
+    <string name="subtitle_8_value_2">đỉnh</string>
+
+    <string name="subtitle_9_value">0 ms</string>
+
+
+
+    <string-array name="subtitle_setting_opt">
+
+        <item>hiển thị phụ đề bên ngoài</item>
+
+        <item>lựa chọn con đường</item>
+
+        <item>không ai</item>
+
+        <item>không biết</item>
+
+        <item>vỡ nợ</item>
+
+        <item>ở giữa</item>
+
+        <item>trắng</item>
+
+        <item>không</item>
+
+        <item>đáy</item>
+
+        <item>0 ms</item>
+
+    </string-array>
+
+
+
+    <string name="subtitle_change_msg">phụ đề bên ngoài, hãy thay đổi để bên trong!</string>
+
+    <string name="subtitle_change_path">phụ đề bên trong , hãy thay đổi để bên ngoài!</string>
+
+    <string name="choose_time_failed">không thể vị trí!!</string>
+
+    <string name="choose_time_invalid">thời gian không hợp lệ , vui lòng thử lại !</string>
+
+
+
+    <string-array name="play_setting_opt">
+
+        <item>mở</item>
+
+        <item></item>
+
+    </string-array>
+
+
+
+    <string name="play_setting_0_value_1">mở</string>
+
+    <string name="play_setting_0_value_2">gần</string>
+
+    <string name="video_size_unknown">không biết</string>
+
+
+
+    <string-array name="audio_track_setting_opt">
+
+        <item>theo dõi âm thanh 1</item>
+
+        <item>1</item>
+
+        <item>00:00:00</item>
+
+        <item>chưa quyết định</item>
+
+    </string-array>
+
+
+
+    <string name="audio_track_setting_0_value_1">theo dõi âm thanh</string>
+
+	<!-- add by fangcuihong,20160718 -->
+    <string name="toast_scale">Tỉ lệ: %.1f</string>
+    <string name="toast_rotate">Xoay: %.1f</string>
+	
+
+    <!-- end -->
+
+</resources>

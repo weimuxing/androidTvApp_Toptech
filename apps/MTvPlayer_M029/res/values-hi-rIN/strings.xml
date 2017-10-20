@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<!-- For Picture -->
+    <string name="str_auto_adjust">स्वत: समायोजन</string>
+    <string name="app_name">Tvsetting</string>
+    <string name="str_pic_picture_adjustment">छवि समायोजन</string>
+    <string name="str_pic_picture">छवि</string>
+    <string name="str_pic_picturemode">छवि मोड</string>
+    <string name="edit_program_toast">कार्यक्रम का नाम खाली नहीं हो सकता!</string>
+    <string name="str_delete_program_title">हटाने की पुष्टि करें?</string>
+    <string name="str_warning_isrecording">इससे पहले अतिरिक्त बर्नर को बंद कर दें</string>
+    <string name="str_stop_record_to_power_dialog_message">प्रणाली रिकॉर्डर के बाद बंद हो जाएगा बंद कर दिया है!</string>
+    <string name="str_stop_timeshift_to_power_dialog_message">प्रणाली बदलाव के बाद बंद हो जाएगा जब बंद हो रहा!</string>
+    <string name="str_stop_record_to_home_dialog_message">तुम्हारे जाने के बाद जल रोक प्रणाली मुख्य स्क्रीन पर वापस आ जाएगी!</string>
+    <string name="str_stop_playback_to_home_dialog_message">प्रणाली के बाद आप खेलना बंद मुख्य स्क्रीन पर वापस आ जाएगी!</string>
+    <string name="str_stop_timeshift_to_home_dialog_message">जब आप रोक प्रणाली के बाद मुख्य स्क्रीन पर वापस आ जाएगा!</string>
+    <string name="str_100">-</string>
+    <string name="str_10">-</string>
+    <string name="str_1">-</string>
+    <string name="str_root_popup_off_after">सेकंड स्टैंडबाय</string>
+    <string name="str_schedule_select_null_msg">घटना चयनित नहीं है</string>
+
+	<string-array name="str_arr_pic_picturemode_vals">
+		<item>प्रकाश</item>
+		<item>मानक</item>
+		<item>सज्जन</item>
+		<item>उपयोगकर्ता</item>
+		<item>खेल</item>
+		<item>स्वचालित</item>
+		<item>कंप्यूटर</item>
+		<item>उज्ज्वल</item>
+		<item>स्वाभाविक रूप से</item>
+		<item>खेल</item>
+    </string-array>
+
+	<string name="str_pic_contrast">विरोध</string>
+    <string name="str_pic_brightness">चमक</string>
+    <string name="str_pic_color">परिपूर्णता</string>
+    <string name="str_pic_sharpness">तीखेपन</string>
+    <string name="str_pic_hue">रंग</string>
+    <string name="str_pic_saturation">परिपूर्णता</string>
+    <string name="str_pic_backlight">बैकलाइट</string>
+    <string name="str_pic_colortemperature">रंग तापमान</string>
+
+	<string-array name="str_arr_pic_colortemperature_vals">
+		<item>कूल रंग</item>
+		<item>मानक</item>
+		<item>गर्म रंग</item>
+		<item>उपयोगकर्ता</item>
+    </string-array>
+
+	<string name="str_pic_colortemperature_red">लाल</string>
+    <string name="str_pic_colortemperature_green">ग्रीन</string>
+    <string name="str_pic_colortemperature_blue">नीला</string>
+    <string name="str_pic_zoommode">ज़ूम मोड</string>
+    <string name="str_pic_size">छवि का आकार</string>
+
+	<string-array name="str_arr_pic_zoommode_vals">
+		<item>चूक</item>
+		<item>16:9</item>
+		<item>4:3</item>
+		<item>स्वचालित</item>
+		<item>नयनाभिराम</item>
+		<item>मूल आकार</item>
+		<item>ज़ूम 1</item>
+		<item>ज़ूम 2</item>
+		<item>14:9</item>
+		<item>बिंदु को इंगित</item>
+		<item>उपशीर्षक</item>
+		<item>टेलीविज़न</item>
+		<item>उपयोगकर्ता</item>
+		<item>नयनाभिराम (4x3)</item>
+		<item>वाइडस्क्रीन (4x3)</item>
+		<item>कार्यक्षेत्र सलाखों (16x9)</item>
+		<item>स्कैन (16x9)</item>
+		<item>मर्ज (4x3)</item>
+		<item>मर्ज (16x9)</item>
+		<item>ज़ूम 2x</item>
+		<item>3x जूम</item>
+		<item>4x जूम</item>
+    </string-array>
+
+	<string name="str_pic_imgnoisereduction">छवि शोर न्यूनीकरण</string>
+    <string name="str_pic_mpegnoisereduction">एमपीईजी शोर न्यूनीकरण</string>
+	
+    <string-array name="str_arr_pic_imgnoisereduction_vals">
+		<item>बंद</item>
+		<item>कमज़ोर</item>
+		<item>में</item>
+		<item>मज़बूत</item>
+		<item>स्वचालित</item>
+    </string-array>
+    <string-array name="str_arr_pic_mpegnoisereduction_vals">
+		<item>बंद</item>
+		<item>कमज़ोर</item>
+		<item>में</item>
+		<item>मज़बूत</item>
+    </string-array>
+    <string-array name="str_arr_sleep_mode_vals">
+		<item>बंद</item>
+		<item>  10 मिनट</item>
+		<item>  20 मिनट</item>
+		<item>  30 मिनट</item>
+		<item>  60 मिनट</item>
+		<item>  90 मिनट</item>
+		<item>  120 मिनट</item>
+		<item>  180 मिनट</item>
+		<item>  240 मिनट</item>
+    </string-array>
+    <string-array name="str_arr_pvr_mode_vals">
+		<item>बंद</item>
+		<item>खुला है</item>
+    </string-array>
+	
+	<string name="str_pic_pcimagemode">पीसी स्क्रीन समायोजन</string>
+    <string name="str_pic_autotune">स्वत: समायोजन</string>
+    <string name="str_set_hdmicec_arc">एआरसी</string>
+    <string name="str_pic_pcimagemode_waiting">कंप्यूटर स्क्रीन समायोजित किया जा रहा है, कृपया प्रतीक्षा करें ...</string>
+    <string name="str_pic_pcimagemode_success">  चित्र समायोजन सफलता!</string>
+    <string name="str_pic_pcimagemode_failed">  स्क्रीन को समायोजित करने में विफलता!</string>
+
+    <!-- for pc image mode -->
+
+    <string name="str_pic_clock">घड़ी</string>
+    <string name="str_pic_phase">अवस्था</string>
+    <string name="str_pic_horizontal_pos">क्षैतिज स्थिति</string>
+    <string name="str_pic_vertical_pos">ऊर्ध्वाधर स्थिति</string>
+
+    <!-- sound menu -->
+
+    <string name="str_sound_sound_adjustment">ध्वनि</string>
+    <string name="str_sound_soundmode">ध्वनि मोड</string>
+	
+	<string-array name="str_arr_sound_soundmode_vals">
+		<item>मानक</item>
+		<item>संगीत</item>
+		<item>चलचित्र</item>
+		<item>खेल</item>
+		<item>उपयोगकर्ता</item>
+    </string-array>
+
+	<string name="str_sound_bass">बास</string>
+    <string name="str_sound_treble">उच्च पिच</string>
+    <string name="str_sound_equalizer">तुल्यकारक</string>
+    <string name="str_sound_equalizer120hz">120Hz</string>
+    <string name="str_sound_equalizer500hz">500Hz</string>
+    <string name="str_sound_equalizer1.5khz">1.5KHz</string>
+    <string name="str_sound_equalizer5khz">5KHz</string>
+    <string name="str_sound_equalizer10khz">10KHz</string>
+    <string name="str_sound_balance">बैलेंस्ड ध्वनि</string>
+    <string name="str_sound_avc">  स्वत: वॉल्यूम नियंत्रण</string>
+    <string name="str_sound_ad">ई हवाले</string>
+    <string name="str_sound_ad_volume">ई की मात्रा</string>
+    <string name="str_sound_autohoh">ऑटो HOH</string>
+    <string name="str_sound_truehdbypass">अगली पीढ़ी स्रोत उत्पादन</string>
+
+    <string name="str_sound_srs">चारों ओर ध्वनि</string>
+
+	<string-array name="str_arr_sound_avc_vals">
+        <item>बंद</item>
+        <item>खुला है</item>
+    </string-array>
+
+	<string name="str_sound_surround">चारों ओर ध्वनि</string>
+		
+	 <string-array name="str_arr_sound_surround_vals">
+        <item>बंद </item>
+        <item>खुला है</item>
+        <item>खुला है</item>
+    </string-array>
+
+	<string name="str_sound_spdifoutput">SPDIF उत्पादन</string>
+	
+	<string-array name="str_arr_sound_spdifoutput_vals">
+        <item>Pपीसीएम</item>
+        <item>बंद</item>
+        <item>रॉ</item>
+    </string-array>
+
+	<string name="str_sound_music_mode">व्यक्तिगत रूप से सुनने</string>
+	<string name="str_sound_separatehear">व्यक्तिगत रूप से सुनने</string>
+
+	<string-array name="str_arr_sound_separatehear_vals">
+        <item>बंद</item>
+        <item>खुला है</item>
+    </string-array>
+
+	<!-- For 3d -->
+
+    <string name="str_3d_3d"> 3 डी </string>
+
+	<string name="str_3d_self_adaptive_detecttriple">3 डी आत्म परीक्षण</string>
+	
+	 <string-array name="str_arr_3d_self_adaptive_detecttriple_vals">
+		<item>पास</item>
+		<item>अब</item>
+		<item>जब स्कैन में परिवर्तन</item>
+		<item>वास्तविक समय</item>
+    </string-array>
+
+    <string name="str_3dto2d_self_adaptive_detecttriple">3 डी-2 डी आत्म परीक्षण</string>
+    <string-array name="str_arr_3dto2d_self_adaptive_detecttriple_vals">
+        <item>पास</item>
+        <item>अब</item>
+    </string-array>
+	
+	<string name="str_3d_self_adaptive_detectlevel">अनुकूली शक्ति</string>
+
+    <string-array name="str_arr_3d_self_adaptive_detectlevel_vals">
+        <item>कमज़ोर</item>
+        <item>में</item>
+        <item>मज़बूत</item>
+    </string-array>
+
+    <string name="str_3d_conversion">3 डी प्रारूप रूपांतरण</string>
+	
+	<string-array name="str_arr_3d_3dconversion_vals">
+		<item>पास</item>
+		<item>के बारे में</item>
+		<item>ऊपर और नीचे</item>
+		<item>दोहरी उच्च परिभाषा</item>
+		<item>इंटरवुवन लाइनों</item>
+		<item>2 डी 3 डी करने के लिए</item>
+		<item>स्वचालित</item>
+		<item>बिसात</item>
+		<item>कंपित पंक्ति</item>
+		<item>फ़्रेम Interleave</item>
+    </string-array>
+
+    <string name="str_3d_3dto2d">3D 2D बारी</string>
+
+    <string-array name="str_arr_3d_3dto2d_vals">
+		<item>पास</item>
+		<item>के बारे में</item>
+		<item>ऊपर और नीचे</item>
+		<item>दोहरी उच्च परिभाषा</item>
+		<item>इंटरवुवन लाइनों</item>
+		<item>फ़्रेम Interleave</item>
+		<item>स्वचालित</item>
+		<item>बिसात</item>
+		<item>कंपित पंक्ति</item>
+    </string-array>
+
+	<string name="str_3d_3ddepth">मैदान के 3D गहराई</string>
+
+	<string-array name="str_arr_3d_3ddepth_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string name="str_3d_3doffset">3 डी ऑफसेट</string>
+
+    <string-array name="str_arr_3d_3doffset_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+	<string name="str_3d_autostart">स्वत: शुरू</string>
+
+    <string-array name="str_arr_3d_autostart_vals">
+		<item>पास</item>
+		<item>2 डी</item>
+		<item>3 डी</item>
+    </string-array>
+
+    <string name="str_3d_3doutputaspect"> 3 डी उत्पादन पहलू अनुपात</string>
+
+    <string-array name="str_arr_3d_3doutputaspect_vals">
+		<item>पूर्ण स्क्रीन</item>
+		<item>4:3</item>
+    </string-array>
+
+    <string name="str_3d_lrswitch">विनिमय के बारे में</string>
+
+    <string-array name="str_arr_3d_lrswitch_vals">
+		<item>पास</item>
+		<item>खुला है</item>
+    </string-array>
+	
+	<!-- for Channel -->
+    <string name="str_cha_antannatype">एंटीना के प्रकार</string>
+
+    <string name="str_cha_antannatype_none">अपरिभाषित</string>
+    <string name="str_cha_antannatype_air">वायरलेस</string>
+    <string name="str_cha_antannatype_cable">वायर्ड</string>
+	
+	    <!-- FIXME: Remove element if useless -->
+    <string-array name="str_arr_cha_antannatype">
+		<item>DTMB</item>
+		<item>DVB-C</item>
+		<item>DVB-T</item>
+		<item>मैक्स</item>
+    </string-array>
+
+    <!-- FIXME: Remove element if useless -->
+    <string-array name="str_arr_cha_atsc_antannatype">
+		<item>नहीं</item>
+		<item>एंटीना</item>
+		<item>वायर्ड</item>
+    </string-array>
+
+	    <string name="str_prompt_setup_wizard_title">कृपया एंटीना प्रकार का चयन करें और स्वत: स्टेशन खोज शुरू</string>
+    <string name="str_prompt_setup_wizard_next">अगले कदम</string>
+    <string name="str_prompt_setup_wizard_skip">जाएं</string>
+    <string name="str_prompt_setup_location_title">कृपया क्षेत्र का चयन करें</string>
+
+    <string name="str_cha_changing_antenna_type">हम एंटीना प्रकार बदल रहे हैं</string>
+    <string name="str_ci_async_cmd_switch_route">सीआई मार्ग स्विच आह्वान ...</string>
+    <string name="str_cha_please_wait">कृपया प्रतीक्षा करें</string>
+
+    <string name="str_cha_tv_route_none">अपरिभाषित</string>
+    <string name="str_cha_tv_route_dvbt">वायरलेस</string>
+    <string name="str_cha_tv_route_dvbc">वायर्ड</string>
+    <string name="str_cha_tv_route_dvbs">उपग्रह</string>
+    <string name="str_cha_tv_route_dvbt2">वायरलेस</string>
+    <string name="str_cha_tv_route_dvbs2">उपग्रह</string>
+    <string name="str_cha_tv_route_dtmb">DTMB</string>
+    <string name="str_cha_tv_route_unknown">अज्ञात</string>
+
+    <string name="str_cha_channel">चैनल</string>
+    <string name="str_cha_autotuning">स्वचालित स्टेशन खोज</string>
+    <string name="str_source">स्रोत</string>
+    <string name="str_cha_dtvmanualtuning">  डिजिटल मैनुअल खोजें</string>
+    <string name="str_cha_atvmanualtuning">एनालॉग मैनुअल खोजें</string>
+
+
+   
+   <string name="str_cha_bandwidth_switch">बैंडविड्थ स्विचिंग</string>
+    <string name="str_cha_bandwidth_uhf_7mhz">यूएचएफ से अधिक 7MHz</string>
+    <string name="str_cha_programedit">चैनल संपादक</string>
+    <string name="str_cha_signalinfo">सिग्नल जानकारी</string>
+    <string name="str_cha_ciinformation">  सीआई जानकारी</string>
+    <string name="str_cha_software_update_oad">सॉफ्टवेयर उन्नयन (ओ.ए.डी.)</string>
+    <string name="str_cha_time_to_search_for_ssu">समय SSU के लिए खोज करने के लिए</string>
+    <string name="str_cha_time_to_search_for_ssu_default">4:00</string>
+    <string name="str_cha_oadscan">ओ.ए.डी. स्कैन</string>
+    <string name="str_cha_oad_view_prompt">अद्यतन करने के लिए शीघ्र देखें</string>
+    <string name="str_mainmenu_menu">मेन्यू</string>
+    <string name="str_cha_autotuning_tuningtype">स्वचालित स्टेशन खोज प्रकार</string>
+    <string name="str_cha_autotuning_tuningtype_atv">एनालॉग टीवी</string>
+    <string name="str_cha_autotuning_country_australia">ऑस्ट्रेलिया</string>
+    <string name="str_cha_autotuning_country_austria">ऑस्ट्रिया</string>
+    <string name="str_cha_autotuning_country_beligum">बेल्जियम</string>
+    <string name="str_cha_autotuning_country_bulgaral">बल्गेरियाई</string>
+    <string name="str_cha_autotuning_country_croatia">क्रोएशिया</string>
+    <string name="str_cha_autotuning_country_czech">चेक</string>
+    <string name="str_cha_autotuning_country_denmark">डेनमार्क</string>
+    <string name="str_cha_autotuning_country_finland">फिनलैंड</string>
+    <string name="str_cha_autotuning_country_france">फ्रांस</string>
+    <string name="str_menu_parentalcontrol">बाल ताला</string>
+    <string name="str_lock_system">लॉकिंग सिस्टम</string>
+    <string name="str_lock">लॉक करना</string>
+    <string name="str_set_pwd">पासवर्ड बदलें</string>
+    <string name="str_block_program">लॉक कार्यक्रम</string>
+    <string name="str_parental_contentlock">सामग्री लॉक</string>
+    <string name="str_parental_guidance">स्तर के लिए निर्धारित है</string>
+    <string name="str_cha_airdtv_title">वायरलेस डिजिटल टीवी</string>
+    <string name="str_cha_airtv_title">वायरलेस</string>
+    <string name="str_cha_cabletv_title">वायर्ड</string>
+    <string name="str_ci_cam_pincode">सीआई सीएएम पिन कोड</string>
+    <string name="str_ci_set_cam_pincode_done">सेट पिन कोड सम्पन्न</string>
+
+	<string-array name="str_arr_autotuning_country">
+		<item>ऑस्ट्रेलिया</item>
+		<item>ऑस्ट्रिया</item>
+		<item>बेल्जियम</item>
+		<item>बल्गेरियाई</item>
+		<item>क्रोएशिया</item>
+		<item>चेक</item>
+		<item>डेनमार्क</item>
+		<item>फिनलैंड</item>
+		<item>फ्रांस</item>
+		<item>जर्मनी</item>
+		<item>ग्रीस</item>
+		<item>हंगरी</item>
+		<item>इटली</item>
+		<item>लक्समबर्ग</item>
+		<item>नीदरलैंड</item>
+		<item>नॉर्वे</item>
+		<item>पोलैंड</item>
+		<item>पुर्तगाल</item>
+		<item>रोमानिया</item>
+		<item>रूस</item>
+		<item>सर्बिया</item>
+		<item>स्लोवेनिया</item>
+		<item>स्पेन</item>
+		<item>स्वीडन</item>
+		<item>स्विट्जरलैंड</item>
+		<item>ब्रिटेन</item>
+		<item>न्यूजीलैंड</item>
+		<item>अरब</item>
+		<item>एस्तोनिया</item>
+		<item>यहूदी</item>
+		<item>लातविया</item>
+		<item>स्लोवाकिया</item>
+		<item>टर्की</item>
+		<item>आयरलैंड</item>
+		<item>जापान</item>
+		<item>फिलीपींस</item>
+		<item>थाईलैंड</item>
+		<item>मालदीव</item>
+		<item>उरुग्वे</item>
+		<item>पेरू</item>
+		<item>अर्जेंटीना</item>
+		<item>चिली</item>
+		<item>वेनेजुएला</item>
+		<item>इक्वेडोर</item>
+		<item>कोस्टा रिका</item>
+		<item>परागुआ</item>
+		<item>बोलीविया</item>
+		<item>बेलीज</item>
+		<item>निकारागुआ</item>
+		<item>ग्वाटेमाला</item>
+		<item>चीन</item>
+		<item>ताइवान</item>
+		<item>ब्राज़िल</item>
+		<item>कनाडा</item>
+		<item>मेक्सिको</item>
+		<item>अमेरिका</item>
+		<item>कोरिया</item>
+		<item>फिजी</item>
+		<item>उज़्बेकिस्तान</item>
+		<item>तजाकिस्तान</item>
+		<item>इथियोपिया</item>
+		<item>आज़रबाइजान</item>
+		<item>दक्षिण अफ्रीका</item>
+		<item>एलजीरिया</item>
+		<item>मिस्र</item>
+		<item>सऊदी अरब</item>
+		<item>ईरान</item>
+		<item>इराक</item>
+		<item>नामीबिया</item>
+		<item>कुवैट</item>
+		<item>इंडोनेशिया</item>
+		<item>इजराइल</item>
+		<item>कतर</item>
+		<item>नाइजीरिया</item>
+		<item>जिम्बाब्वे</item>
+		<item>लिथुआनिया</item>
+		<item>मोरक्को</item>
+		<item>ट्यूनीशिया</item>
+		<item>भारत</item>
+		<item>वियतनाम</item>
+		<item>हांगकांग</item>
+		<item>कोलम्बिया</item>
+		<item>मलेशिया</item>
+		<item>सिंगापुर</item>
+    </string-array>
+
+	<string-array name="str_arr_signalinfo_qam_cab">
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+
+    <string-array name="str_arr_signalinfo_qam_dvbt">
+        <item>QPSK</item>
+        <item>16QAM</item>
+        <item>64QAM</item>
+        <item>256QAM</item>
+    </string-array>
+
+	    <string name="str_cha_channeltuning">चैनल ट्यूनिंग</string>
+    <string name="str_cha_tv">एनालॉग टीवी:</string>
+    <string name="str_cha_tv_0">0</string>
+    <string name="str_cha_dtv">डिजिटल टीवी:</string>
+
+    <!-- For CA String define -->
+    <string name="str_cha_cainformation"> सीए सूचना</string>
+    <string name="str_ca_title">सीए सूचना</string>
+    <string name="str_ca_card_info">स्मार्ट कार्ड की जानकारी</string>
+    <string name="str_ca_card_management">स्मार्ट कार्ड प्रबंधन</string>
+    <string name="str_ca_card_paired">मशीन कार्ड जोड़ी</string>
+    <string name="str_ca_card_feed">चित्र कार्ड खिला</string>
+    <string name="str_ca_info_title">स्मार्ट कार्ड की जानकारी</string>
+    <string name="str_ca_info_entitle">जनरल प्राधिकरण</string>
+    <string name="str_ca_info_detitle">विरोधी प्राधिकरण</string>
+    <string name="str_ca_info_purse_info">बटुआ जानकारी</string>
+    <string name="str_ca_card_version">कैस संस्करण जानकारी</string>
+    <string name="str_ca_mg_title">स्मार्ट कार्ड प्रबंधन</string>
+    <string name="str_ca_mg_modify_pin">पिन बदलें</string>
+    <string name="str_ca_mg_work_time">काम के घंटे को संशोधित</string>
+    <string name="str_ca_mg_watch_level">देखने रेटिंग को संशोधित</string>
+    <string name="str_ca_info_pin_title">पिन बदलें</string>
+    <string name="str_ca_mg_old_pin">मूल पिन कोड डालें:</string>
+    <string name="str_ca_mg_new_pin">एक नया पिन कोड दर्ज करें:</string>
+    <string name="str_ca_mg_new_pin2">यकीन है कि पिन कोड करें:</string>
+    <string name="str_ca_mg_submit">की पुष्टि करें</string>
+    <string name="str_set_work_time_title">काम के घंटे को संशोधित</string>
+    <string name="str_ca_start_work_time">सेट शुरू करने का समय:</string>
+    <string name="str_ca_end_work_time">सेट करें अंत समय:</string>
+    <string name="str_ca_work_time_pin">अपना पिन दर्ज करें:</string>
+    <string name="str_work_time_hour_text">घंटा</string>
+    <string name="str_work_time_minute_text">मिनट</string>
+    <string name="str_watch_level_title">देखने रेटिंग को संशोधित</string>
+    <string name="str_watch_level_text">देखो स्तर:</string>
+    <string name="str_watch_level_init">0</string>
+    <string name="str_ca_operator_title">ऑपरेटर जानकारी</string>
+    <string name="str_ca_op_id">संख्या</string>
+    <string name="str_ca_op_operator_id">ऑपरेटर आईडी</string>
+    <string name="str_ca_version_title">कैस संस्करण जानकारी</string>
+    <string name="str_ca_version_id">CDCAS संस्करण संख्या:</string>
+    <string name="str_ca_version_stb_num">सेट टॉप बॉक्स अद्वितीय संख्या:</string>
+    <string name="str_ca_card_id">कार्ड:</string>
+    <string name="str_ca_entitle_title">जनरल प्राधिकरण</string>
+    <string name="str_ca_entitle_id">उत्पाद ID</string>
+    <string name="str_ca_entitle_video_id">कर सकते हैं वीडियो:</string>
+    <string name="str_ca_entitle_date">समाप्ति दिनांक</string>
+    <string name="str_ca_entitle_video_flag_yes">यह है</string>
+    <string name="str_ca_entitle_video_flag_no">नहीं</string>
+    <string name="str_ca_detitle_title">विरोधी प्राधिकरण</string>
+    <string name="str_ca_detitle_list">विरोधी प्राधिकरण पुष्टि कोड सूची</string>
+    <string name="str_ca_detitle_state">राज्य</string>
+    <string name="str_ca_detitle_state_yes">पढ़ना</string>
+    <string name="str_ca_detitle_state_no">अपठित</string>
+    <string name="str_ca_purse_title">बटुआ जानकारी</string>
+    <string name="str_ca_purse_id">वॉलेट आईडी</string>
+    <string name="str_ca_purse_points">अंक खर्च करते हैं</string>
+    <string name="str_ca_purse_credit">श्रेय</string>
+
+    <!-- For CA Error Type define -->
+    <string name="st_ca_rc_ok">सफलता</string>
+    <string name="st_ca_rc_unknown">अज्ञात त्रुटि</string>
+    <string name="st_ca_rc_pointer_invalid">सूचक अमान्य है</string>
+    <string name="st_ca_rc_card_invalid">स्मार्ट कार्ड अमान्य</string>
+    <string name="st_ca_rc_pin_invalid">पिन कोड अमान्य है</string>
+    <string name="st_ca_rc_dataspace_small">स्थान की कमी को देखते हुए</string>
+    <string name="st_ca_rc_card_pairother">स्मार्ट कार्ड इसी अन्य सेट-टॉप बॉक्स है</string>
+    <string name="st_ca_rc_data_not_find">कोई डेटा पाया जा सकता है</string>
+    <string name="st_ca_rc_prog_status_invalid">कार्यक्रम स्थिति खरीदने के लिए अमान्य है</string>
+    <string name="st_ca_rc_card_no_room">वहाँ एक स्मार्ट कार्ड कार्यक्रम खरीदने के लिए स्टोर करने के लिए कोई जगह नहीं है</string>
+    <string name="st_ca_rc_worktime_invalid">काम के घंटे निर्धारित करें अमान्य</string>
+    <string name="st_ca_rc_ippv_canntdel">IPPV कार्यक्रम हटाया नहीं जा सकता</string>
+    <string name="st_ca_rc_card_nopair">स्मार्ट कार्ड किसी भी सेट-टॉप बॉक्स के अनुरूप नहीं है</string>
+    <string name="st_ca_rc_watchrating_invalid">स्तर अमान्य सेट देखो</string>
+    <string name="st_ca_rc_card_notsupport">वर्तमान स्मार्ट कार्ड इस सुविधा का समर्थन नहीं करता</string>
+    <string name="st_ca_rc_data_error">डाटा त्रुटियों, स्मार्ट कार्ड को अस्वीकार कर दिया</string>
+    <string name="st_ca_rc_feedtime_not_arrive">दूध पिलाने की समय अभी तक आने के लिए किया जाता है, बेटी कार्ड खिलाया नहीं किया जा सकता</string>
+    <string name="st_ca_rc_card_typeerror">चित्र कार्ड खिला विफलता, स्मार्ट कार्ड प्रकार की त्रुटि सम्मिलित</string>
+    <string name="st_ca_rc_cas_failed">जारी करने वाले cas अनुदेश निष्पादन में विफल रहा है</string>
+    <string name="st_ca_rc_oper_failed">जारी करने वाले ऑपरेटर अनुदेश निष्पादित करने में विफल रहा</string>
+    <string name="st_ca_rc_pin_len">की तुलना में छह अंकों कोड पिन कम</string>
+    <string name="st_ca_rc_diff_pin">पिन कोड असंगत है</string>
+
+    <!-- For CA notify Type define -->
+    <string name="st_ca_message_cancel_type">रद्द वर्तमान प्रदर्शन</string>
+    <string name="st_ca_message_badcard_type">कार्ड को नहीं पहचानता है</string>
+    <string name="st_ca_message_expicard_type">स्मार्ट कार्ड समाप्त हो रहा है, एक नया कार्ड के साथ बदलें</string>
+    <string name="st_ca_message_insertcard_type">तले हुए कार्यक्रम, स्मार्ट कार्ड डालने</string>
+    <string name="st_ca_message_nooper_type">कोई कार्ड कार्यक्रम ऑपरेटर है</string>
+    <string name="st_ca_message_blackout_type">स्थितियां प्रतिबंध</string>
+    <string name="st_ca_message_outworktime_type">वर्तमान अवधि नहीं देख के लिए सेट है</string>
+    <string name="st_ca_message_watchlevel_type">स्तर सेट की तुलना में कार्यक्रम स्तर उच्च देखो</string>
+    <string name="st_ca_message_pairing_type">यह सेट-टॉप बॉक्स और स्मार्ट कार्ड के अनुरूप नहीं है</string>
+    <string name="st_ca_message_noentitle_type">अधिकृत नहीं</string>
+    <string name="st_ca_message_decryptfail_type">डिक्रिप्शन कार्यक्रम में विफल रहा है</string>
+    <string name="st_ca_message_nomoney_type">कार्ड राशि से कम है</string>
+    <string name="st_ca_message_errregion_type">गलत क्षेत्र</string>
+    <string name="st_ca_message_needfeed_type">माँ कार्ड और बेटी कार्ड मां कार्ड डालने अनुरूप करने की जरूरत है</string>
+    <string name="st_ca_message_errcard_type">स्मार्ट कार्ड की जांच विफल रहता है, अपने वाहक से संपर्क करें</string>
+    <string name="st_ca_message_update_type">स्मार्ट कार्ड उन्नयन, कार्ड या बंद खींच नहीं है</string>
+    <string name="st_ca_message_lowcardver_type">स्मार्ट कार्ड को अपग्रेड करें</string>
+    <string name="st_ca_message_viewlock_type">कृपया अक्सर चैनल स्विच नहीं है</string>
+    <string name="st_ca_message_maxrestart_type">स्मार्ट कार्ड निष्क्रिय, 5 मिनट के बाद फिर से चालू करें</string>
+    <string name="st_ca_message_freeze_type">स्मार्ट कार्ड जमे हुए किया गया है, अपने वाहक से संपर्क करें</string>
+    <string name="st_ca_message_callback_type">स्मार्ट कार्ड निलंबित कर दिया गया, ऑपरेटर रेटिंग रिकॉर्ड करने के लिए वापस जाएँ</string>
+    <string name="st_ca_message_curtain_type">पर्दे कार्यक्रम, पूर्वावलोकन नहीं किया जा सकता है चरण</string>
+    <string name="st_ca_message_cardteststart_type">परीक्षण कार्ड परीक्षण अपग्रेड करें ...</string>
+    <string name="st_ca_message_cardtestfaild_type">अपग्रेड परीक्षण कार्ड परीक्षण विफल रहता है, मशीन कार्ड संचार मॉड्यूल की जांच</string>
+    <string name="st_ca_message_cardtestsucc_type">परीक्षण कार्ड परीक्षण अपग्रेड सफल रहा</string>
+    <string name="st_ca_message_nocaliboper_type">पोर्टेबल पुस्तकालय कार्ड कस्टम ऑपरेटरों में मौजूद नहीं है</string>
+    <string name="st_ca_message_stblocked_type">सेट-टॉप बॉक्स फिर से प्रारंभ करें</string>
+    <string name="st_ca_message_stbfreeze_type">सेट टॉप बॉक्स जमी</string>
+		
+	    <!-- for dtv auto tune option -->
+    <string-array name="strs_cha_dtvautotuning_dvbc_tuning_mode">
+        <item>पूर्ण आवृत्ति स्टेशन खोज</item>
+        <item>नेटवर्क स्टेशन खोज</item>
+    </string-array>
+    <string-array name="strs_cha_dtvautotuning_demodulation_tbl">
+        <item>16 QAM</item>
+        <item>32 QAM</item>
+        <item>64 QAM</item>
+        <item>128 QAM</item>
+        <item>256 QAM</item>
+    </string-array>
+	
+    <string name="str_cha_dtvautotuning_startscan">प्रारंभ स्टेशन खोज</string>
+    <string name="str_cha_dtvautotuning_frequency">आवृत्ति</string>
+    <string name="str_cha_dtvautotuning_modulation">मॉड्यूलेशन</string>
+    <string name="str_cha_dtvautotuning_symbol">प्रतीक दर</string>
+    <string name="str_cha_dtvautotuning_networkid">नेटवर्क आईडी</string>
+    <string name="str_cha_dtvautotuning_networkid_invalid">नेटवर्क संख्या अमान्य है</string>
+    <string name="str_cha_dtvautotuning_ok">की पुष्टि करें</string>
+    <string name="str_cha_dtvautotuning_auto">स्वचालित</string>
+    <string name="str_cha_dtvautotuning_signalstrength">सिग्नल शक्ति</string>
+    <string name="str_cha_dtvautotuning_signalquality">सिग्नल गुणवत्ता</string>
+    <string name="str_cha_dvbsdtvtuning_scanmode">खोज मोड</string>
+    <string name="str_cha_dvbsdtvtuning_servicetype">सेवा का प्रकार</string>
+    <string name="str_cha_dvbsdtvtuning_networksearch">नेटवर्क स्टेशन खोज</string>
+    <string name="str_cha_dvbsdtvtuning_transponder">ट्रांसपोंडर</string>
+    <string name="str_cha_dvbsdtvtuning_satellite">उपग्रह</string>
+    <string name="str_cha_dvbsdtvtuning_searchtype">खोजें विकल्प</string>
+    <string name="str_cha_radio">प्रसारण:</string>
+    <string name="str_cha_data">डाटा:</string>
+    <string name="str_cha_program">चैनल</string>
+    <string name="str_cha_tuningprogress_percent_0">0</string>
+    <string name="str_cha_tuningprogress_uhf">यूएचएफ</string>
+    <string name="str_cha_tuningprogress_vhf">वीएचएफ</string>
+    <string name="str_cha_tuningprogress_ch">चैनल</string>
+    <string name="str_cha_tuningprogress_freq">फ्रीक</string>
+    <string name="str_cha_tuningprogress_dtv">डिजिटल टीवी</string>
+    <string name="str_cha_exittuning_info">क्या आप वाकई एनालॉग टीवी / डिजिटल टीवी चैनल खोज से बाहर निकलने के हैं?</string>
+     <string name="str_cha_exitDTVtuning_info">डिजिटल टीवी चैनल खोज बाहर निकलने के लिए जा रहा है?</string>
+    <string name="str_cha_exitATVtuning_info">एनालॉग टीवी स्टेशन खोज बाहर निकलने के लिए जा रहा है?</string>
+    <string name="str_cha_exitAIRtuning_info">क्या आप वाकई वायरलेस एनालॉग टीवी स्टेशन खोज से बाहर निकलने के हैं?</string>
+    <string name="str_cha_exitCABLEtuning_info">क्या आप वाकई एनालॉग केबल टीवी स्टेशन खोज से बाहर निकलने के हैं?</string>
+    <string name="str_cha_exittuning_yes">यह है</string>
+    <string name="str_cha_exittuning_no">नहीं</string>
+    <string name="str_cha_dtvmanualtuning_channelno">चैनल संख्या</string>
+    <string name="str_cha_dtvmanualtuning_ch">चैनल</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="str_cha_dtvmanualtuning_frequency">आवृत्ति</string>
+    <string name="str_cha_dtvmanualtuning_modulation">मॉड्यूलेशन</string>
+    <string name="str_cha_dtvmanualtuning_symbol">प्रतीक दर</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">खोज</string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">सिग्नल शक्ति</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">सिग्नल गुणवत्ता</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">डिजिटल टीवी:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">प्रसारण:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">डाटा:</string>
+    <string name="str_cha_atvmanualtuning_channelno">चैनल संख्या</string>
+    <string name="str_cha_atvmanualtuning_store_channelno">पर सहेजें:</string>
+    <string name="str_cha_atvmanualtuning_ch">सीएच</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">रंग प्रणाली</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">स्वचालित</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">ध्वनि प्रणाली</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">स्वचालित</string>
+    <string name="str_cha_atvmanualtuning_starttuning">खोज</string>
+    <string name="str_cha_atvmanualtuning_fine_tune">ठीक ट्यूनिंग</string>
+    <string name="str_cha_atvmanualtuning_frequency">आवृत्ति:</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">मेगाहर्ट्ज</string>
+    <string name="str_cha_dtvmanualtuning_galaxy">GALAXY</string>
+    <string name="str_cha_dtvmanualtuning_polarization">विचारों में भिन्नता</string>
+    <string name="str_cha_dtvmanualtuning_network">नेटवर्क</string>
+    <string name="str_cha_dtvmanualtuning_scan_mode">खोज मोड</string>
+    <string name="str_cha_dtvmanualtuning_service_type">सेवा का प्रकार</string>
+    <string name="str_cha_transport_stream">परिवहन स्ट्रीम</string>
+    <string name="str_cha_service">सेवा</string>
+    <string name="str_cha_save">सहेजें</string>
+    <string name="str_cha_software_version">सॉफ्टवेयर संस्करण</string>
+    <string name="str_demo_demo">प्रदर्शन</string>
+    <string name="str_demo_mwe">  मेगावाट</string>
+    <string name="str_demo_dbc">  डीबीसी</string>
+    <string name="str_demo_off">बंद</string>
+    <string name="str_demo_dlc">  डीएलसी</string>
+    <string name="str_demo_dcc">  डीसीसी</string>
+    <string name="str_demo_nr">छवि शोर न्यूनीकरण</string>
+    <string name="str_demo_uclear">अल्ट्रा हाई डेफिनिशन</string>
+
+	<string-array name="str_arr_dtvmanualtuning_polarization_vals">
+			<item>लंबवत स्थिति</item>
+			<item>क्षैतिज स्थिति</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_network_vals">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_scan_mode_vals">
+		<item>मुक्त</item>
+		<item>नि: शुल्क + हाथापाई</item>
+		<item>संघर्ष</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_service_type_vals">
+		<item>डिजिटल टीवी</item>
+		<item>+ डिजिटल टीवी प्रसारण</item>
+		<item>रेडियो</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_lnbtype_vals">
+		<item>सी</item>
+		<item>केयू</item>
+    </string-array>
+    <string-array name="str_arr_mwe_text">
+		<item>बंद</item>
+		<item>अनुकूलन</item>
+		<item>पलड़ा भारी प्राप्त</item>
+		<item>स्प्लिट स्क्रीन</item>
+		<item>गतिशील</item>
+		<item>प्रभाव</item>
+		<item>बॉक्स मोबाइल</item>
+    </string-array>
+    <string-array name="str_arr_demo_onoff">
+		<item>बंद</item>
+		<item>खुला है</item>
+    </string-array>
+	
+	    <!-- for audio language list -->
+    <string name="str_audio_language_title">संगीत भाषा</string>
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">सीआई जानकारी</string>
+    <string name="str_cimmi_hint_ci_inserted">सीआई कार्ड डाला जाता है</string>
+    <string name="str_cimmi_hint_ci_removed">सीआई कार्ड हटाने</string>
+    <string name="str_cimmi_hint_ci_auto_test">सीआई आत्म परीक्षण</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">पासवर्ड दर्ज करें</string>
+    <!-- for current action -->
+    <string name="str_current_action">भार</string>
+    <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">व्यक्तिगत वीडियो फाइल सिस्टम</string>
+    <string name="str_pvr_file_system_select_disk">डिस्क चयन</string>
+    <string name="str_pvr_file_system_time_shift_size">समय की लंबाई आगे</string>
+    <string name="str_pvr_file_system_format_start">स्वरूप</string>
+    <string name="str_pvr_file_system_format_context">सफलता</string>
+    <string name="str_pvr_file_system_speed_check">गति परीक्षण</string>
+    <string name="str_pvr_file_system_speed_context">पूरा</string>
+    <string name="str_pvr_file_system_always_timeshift">हमेशा समय-शिफ्ट</string>
+    <string name="str_pvr_file_system_always_context">खुला है</string>
+    <!-- for pvr full page browser -->
+    <string name="str_pvr_lcn_textview">LCN</string>
+    <string name="str_pvr_channel_textview">चैनल</string>
+    <string name="srt_pvr_program_service_textview">आपूर्ति कार्यक्रम</string>
+    <string name="str_pvr_program_service_tips_red">हटाना</string>
+    <string name="str_pvr_program_service_tips_green">आरोही</string>
+    <string name="str_pvr_program_service_tips_descend">अवरोही</string>
+    <string name="str_pvr_program_service_tips_blue">अनुक्रम</string>
+    <string name="str_pvr_program_service_tips_yellow">ठीक</string>
+    <string name="str_pvr_lcn_title">शीर्षक</string>
+    <string name="str_pvr_lcn_record_data">रिकॉर्ड डेटा</string>
+    <string name="str_pvr_lcn_data">40872</string>
+
+    <!-- For epg schedule list -->
+    <string name="str_epg_program_schedule_list_modify">परिवर्तन</string>
+    <string name="str_epg_program_schedule_list_delete">हटाना</string>
+    <!-- For sound format info-->
+    <string name="str_sound_format_mono">मोनो</string>
+    <string name="str_sound_format_dual_a">दोहरी एक</string>
+    <string name="str_sound_format_dual_ab">दोहरी एबी</string>
+    <string name="str_sound_format_dual_b">दोहरी बी</string>
+    <string name="str_sound_format_forced_mono">मोनो</string>
+    <string name="str_sound_format_g_stereo">स्टीरियो</string>
+    <string name="str_sound_format_hidev_mono">मोनो</string>
+    <string name="str_sound_format_unknown">अज्ञात</string>
+    <string name="str_sound_format_k_stereo">स्टीरियो</string>
+    <string name="str_sound_format_left_left">वाम वाम</string>
+    <string name="str_sound_format_left_right">वाम सही</string>
+    <string name="str_sound_format_mono_sap">मोनो एसएपी</string>
+    <string name="str_sound_format_nicam_dual_a">NICAM दोहरी एक</string>
+    <string name="str_sound_format_nicam_dual_ab">NICAM दोहरी एबी</string>
+    <string name="str_sound_format_nicam_dual_b">NICAM दोहरी बी</string>
+    <string name="str_sound_format_nicam_mono">NICAM मोनो</string>
+    <string name="str_sound_format_nicam_stereo">NICAM स्टीरियो</string>
+    <string name="str_sound_format_right_right">सही सही</string>
+    <string name="str_sound_format_stereo_sap">स्टीरियो एसएपी</string>
+    <string name="str_sound_format_stereo">स्टीरियो</string>
+
+    <!-- For audio language-->
+    <string name="str_audio_language">ऑडियो भाषा</string>
+
+    <!-- For check password-->
+    <string name="str_check_password_pass">पासवर्ड सही है</string>
+    <string name="str_check_password_wrong">गलत पासवर्ड</string>
+    <string name="str_check_password_invalid">अमान्य कार्रवाई</string>
+    <string name="str_check_password_incorrect">ग़लत पासवर्ड!</string>
+    <string name="str_check_password_input_number">एक पासवर्ड के रूप में संख्या दर्ज करें</string>
+    <string name="str_pvr_listview_item">पाठ प्रदर्शन</string>
+    <string name="str_pvr_playback_error_reason">कर सकते हैं \'टी प्लेबैक ठीक से, कारण है: \ n</string>
+    <string name="str_pvr_usb_removed">यूएसबी हटाया</string>
+    <string name="str_pvr_insert_usb">यू डिस्क डालें!</string>
+    <string name="str_pvr_format_usb">चयनित यू प्रस्ताव फ़ॉर्मेट करने के लिए?</string>
+    <string name="str_pvr_format_usb_progressing">स्वरूप यूएसबी डिस्क प्रगति ... \ n कृपया यूएसबी डिस्क अनप्लग न करें!</string>
+    <string name="str_pvr_usb_speed_test_progressing">स्पीड टेस्ट में ... \ N यू डिस्क अनप्लग न किए गए!</string>
+    <string name="str_pvr_program_saving">कार्यक्रम में सहेजें ... कृपया प्रतीक्षा करें!</string>
+    <string name="str_pvr_exit_confirm">जलती हुई ... क्या आप वाकई छोड़ना चाहते हैं?</string>
+    <string name="str_TimeShift_exit_confirm">जब बदलाव है ... क्या आप वाकई छोड़ना चाहते हैं?</string>
+    <string name="str_pvr_is_recording">में जला</string>
+    <string name="str_pvr_is_TimeShift">जब में बदलाव</string>
+    <string name="str_removable_disk">हटाने योग्य डिस्क</string>
+    <string name="str_editText1">0</string>
+    <string name="str_pvr_unsurpt_flsystem">असमर्थित फ़ाइल प्रणाली, प्रारूप!</string>
+    <string name="str_pvr_is_standby">अतिरिक्त</string>
+    <string name="str_pvr_tip">आप पीवीआर रिकॉर्डिंग बंद, या रिकॉर्डिंग स्टैंडबाय पर जाने के लिए जा रहे हैं?</string>
+    <string name="str_pvr_tip2">आप पीवीआर रिकॉर्डिंग बंद करने जा रहे हैं?</string>
+    <string name="str_pvr_abloop_too_short">एबी दोहराने समय बहुत छोटा है, 2 सेकंड की न्यूनतम समय है।</string>
+    <string name="str_pvr_record_fail">विफलता जला</string>
+    <string name="str_pvr_alwaystimeshift_record_fail">हमेशा समय पारी रिकॉर्ड असफल</string>
+    <string name="str_pvr_no_usb">यू डिस्क का पता नहीं है</string>
+    <string name="str_pvr_disk_read_only">केवल पढ़ने के लिए हार्ड डिस्क</string>
+    <string name="str_pvr_out_of_space">अपर्याप्त डिस्क स्थान</string>
+    <string name="str_pvr_data_only">आप डेटा कार्यक्रम जला नहीं कर सकते हैं</string>
+    <string name="str_pvr_scrambled_program">तले हुए कार्यक्रम</string>
+    <string name="str_pvr_ch_blocked">लॉक कार्यक्रम</string>
+    <string name="str_pvr_rating_blocked">स्तर ताला</string>
+    <string name="str_channel_block">लॉक कार्यक्रम</string>
+    <string name="str_pvr_retention_expired">रिटेंशन सीमा समाप्त हो गई</string>
+    <string name="str_pvr_vod_not_allow">VOD सामग्री को रिकॉर्ड करने की अनुमति नहीं</string>
+    <string name="str_pvr_ciplus_copy_protection">सीआई + यूआरआई संरक्षण</string>
+    <string name="str_pvr_ciplus_unsupport">यह समर्थन नहीं करता सीआई +</string>
+    <string name="str_pvr_ginga_running">Ginga चल रहा है</string>
+    <string name="str_pvr_bad_video_audio">क्षतिग्रस्त ऑडियो और वीडियो</string>
+    <string name="str_pvr_max_recording_reached">जला की अधिकतम संख्या</string>
+    <string name="str_pvr_mehg5_data_only">MEHG5 डेटा कार्यक्रम</string>
+    <string name="str_pvr_success">सफलता</string>
+    <string name="str_pvr_error">त्रुटि</string>
+    <string name="str_pvr_overwrite_before">पाली पुरानी सामग्री को कवर किया जाएगा जब</string>
+    <string name="str_pvr_still_check_disk">प्रसंस्करण, कृपया प्रतीक्षा करें</string>
+
+	<string-array name="str_arr_pvr_error_code">
+        <item>@string/str_pvr_success</item>
+        <item>@string/str_pvr_no_usb</item>
+        <item>@string/str_pvr_unsurpt_flsystem</item>
+        <item>@string/str_pvr_disk_read_only</item>
+        <item>@string/str_pvr_out_of_space</item>
+        <item>@string/str_pvr_success</item>
+        <item>@string/str_pvr_ciplus_copy_protection</item>
+        <item>@string/str_pvr_scrambled_program</item>
+        <item>@string/str_pvr_ciplus_unsupport</item>
+        <item>@string/str_pvr_data_only</item>
+        <item>@string/str_no_sinal</item>
+        <item>@string/str_pvr_out_of_space</item>
+        <item>@string/str_pvr_ginga_running</item>
+        <item>@string/str_pvr_bad_video_audio</item>
+        <item>@string/str_pvr_retention_expired</item>
+        <item>@string/str_pvr_ch_blocked</item>
+        <item>@string/str_pvr_rating_blocked</item>
+        <item>@string/str_pvr_max_recording_reached</item>
+        <item>@string/str_pvr_mehg5_data_only</item>
+        <item>@string/str_pvr_vod_not_allow</item>
+        <item>@string/str_pvr_error</item>
+        <item>@string/str_pvr_still_check_disk</item>
+    </string-array>
+
+	<!-- for pvr menu -->
+    <string name="str_player_recorder">रिकॉर्डिंग</string>
+    <string name="str_player_play">प्रसारण</string>
+    <string name="str_player_stop">रोक</string>
+    <string name="str_player_pause">ठहराव</string>
+    <string name="str_player_stepin">कदम</string>
+    <string name="str_player_rev">फास्ट प्लेबैक</string>
+    <string name="str_player_ff">त्वरित प्ले</string>
+    <string name="str_player_slow">धीरे प्ले</string>
+    <string name="str_player_time">निर्वाचन प्रसारण</string>
+    <string name="str_player_forward">आगे</string>
+    <string name="str_player_backward">पीछे हटना</string>
+    <string name="str_player_capture">कैद</string>
+    <string name="str_pvr_file_system_menu">मेन्यू</string>
+    <string name="str_pvr_file_system_ok">निर्धारित</string>
+    <string name="str_list_menu_hint_b_skip">जाएं</string>
+    <string name="str_list_menu_hint_g_fivorite">पसंदीदा</string>
+    <string name="str_list_menu_hint_g_edit">संपादित करें</string>
+    <string name="str_list_menu_hint_r_delete">हटाना</string>
+    <string name="str_list_menu_hint_y_move">मोबाइल</string>
+
+    <!-- for ci+ op -->
+    <string name="str_ciplus_op_confirmation_title">सीआई + ओपी ताज़ा पुष्टि</string>
+    <string name="str_ciplus_op_refresh">आप टीवी ऑपरेटर प्रोफ़ाइल ताज़ा करने के लिए अनुमति देते हैं?</string>
+    <string name="str_op_menu_title">ऑपरेटर प्रोफाइल मेनू</string>
+    <string name="str_op_channel_list_title">ओपी चैनल सूची</string>
+    <string name="str_op_menu">ओपी मेनू</string>
+    <string name="str_op_forbid_channel_tuning_content">ओ पी मोड के तहत चैनल धुन करने के लिए पहली बार में NPlease बाहर निकलने के ओ पी मोड न करे। \।</string>
+    <string name="str_enter_op">ओपी दर्ज</string>
+    <string name="str_exit_op">बाहर निकलें ओपी</string>
+    <string name="str_delete_profile">प्रोफ़ाइल हटाएं</string>
+    <string name="str_delete_op_msg">आप हटाना ऑपरेटर प्रोफ़ाइल [हैं</string>
+    <string name="str_delete_op_confirm">ओपी को हटाने के लिए की पुष्टि करें</string>
+    <string name="str_forbid_channel_tuning">ना करे चैनल ट्यूनिंग</string>
+    <string name="str_cam_upgrade_alarm">सीएएम उन्नयन किया जा रहा है। \ N कृपया बाद में प्रयास ...</string>
+    <string name="str_op_tuning_alarm">ओपी ट्यूनिंग है। \ N कृपया बाद की कोशिश ...</string>
+
+    <!-- for reminder -->
+    <string name="str_reminder_mode">मोड</string>
+    <string name="str_reminder_date">तिथि</string>
+    <string name="str_reminder_month">माह</string>
+    <string name="str_reminder_hour">घंटा</string>
+    <string name="str_reminder_minute">मिनट</string>
+    <string name="str_reminder_channel">प्रदर्शन</string>
+    <string name="str_reminder_auto">स्वचालित</string>
+    <string name="str_reminder_once">एक बार</string>
+    <string name="str_reminder_daily">हर दिन</string>
+    <string name="str_reminder_weekly">साप्ताहिक</string>
+    <string name="str_reminder_title">एक नियुक्ति सेट</string>
+    <string name="str_reminder_record_event">इस घटना के रिकॉर्ड</string>
+
+    <!-- for source info atv -->
+    <string name="str_atv_source_imageformat">रंग प्रणाली</string>
+    <string name="str_atv_source_soundformat">ध्वनि मोड</string>
+    <string name="str_atv_source_audioformat">ध्वनि प्रणाली</string>
+
+    <string name="audio_type_mpeg">एमपीईजी</string>
+    <string name="audio_type_dolby_d">डॉल्बी डी</string>
+    <string name="audio_type_aac">एएसी</string>
+    <string name="audio_type_ac3p">AC3P</string>
+    <string name="audio_type_dra1">DRA1</string>
+
+	<string-array name="str_arr_setting_audio_type_iso_text">
+        <item></item>
+        <item>C.E</item>
+        <item>H.I.</item>
+        <item>V.I.</item>
+    </string-array>
+
+    <!-- for Audio Info AAC Profile And Level -->
+    <string name="aac_level1">एएसी एल 1</string>
+    <string name="aac_level2">एएसी एल 2</string>
+    <string name="aac_level4">एएसी L4</string>
+    <string name="aac_level5">एएसी L5</string>
+    <string name="he_aac_level2">HE-AAC एल 2</string>
+    <string name="he_aac_level3">HE-AAC L3</string>
+    <string name="he_aac_level4">HE-AAC L4</string>
+    <string name="he_aac_level5">HE-AAC L5</string>
+
+    <!-- for source info dtv -->
+    <string name="str_dtv_source_info_program_period">कार्यक्रम खंडों</string>
+    <string name="str_dtv_source_info_program_name">वर्तमान कार्यक्रम का नाम</string>
+    <string name="str_dtv_source_info_program_type">कार्यक्रम के प्रकार</string>
+    <string name="str_dtv_source_info_program_format">वीडियो प्रारूप</string>
+    <string name="str_dtv_source_info_audio_format">ऑडियो प्रारूप</string>
+    <string name="str_dtv_source_info_mheg5">MHEG5</string>
+    <string name="str_dtv_source_info_Subtitle">उपशीर्षक</string>
+    <string name="str_dtv_source_info_language">पटरियों</string>
+    <string name="str_dtv_source_info_teletext">फ़ोटो</string>
+    <string name="str_dtv_source_info_no_teletext">क्षमा करें, कोई जानकारी उपलब्ध नहीं ग्राफिक</string>
+    <string name="str_dtv_source_info_no_subtitle">क्षमा करें, कोई जानकारी उपलब्ध नहीं उपशीर्षक</string>
+    <string name="str_dtv_source_info_unsupported_teletext">क्षमा करें, वर्तमान चैनल ग्राफिक द्वारा समर्थित नहीं है</string>
+    <string name="str_dtv_source_info_unsupported_subtitle">क्षमा करें, वर्तमान चैनल उपशीर्षक द्वारा समर्थित नहीं है</string>
+    <string name="str_dtv_source_info_description">विवरण</string>
+    <string name="str_dtv_source_info_resolution">संकल्प</string>
+    <string name="str_dtv_source_info_ginga">Ginga</string>
+    <string name="str_dtv_source_info_cc_exist">सीसी: हाँ</string>
+    <string name="str_dtv_source_info_cc_noexist">सीसी: नहीं</string>
+    <string name="str_source_info_lock">चैनल लॉक:</string>
+
+    <!-- for time -->
+    <string name="str_time_confirm_tip">यह पुष्टि करने के लिए लाल बटन दबाएँ!</string>
+    <string name="str_time_time">समय</string>
+    <string name="str_time_date">तिथि</string>
+    <string name="str_time_currenttime">वर्तमान समय</string>
+    <string name="str_time_offtime">समय बंद</string>
+    <string name="str_time_schedule">बूट समय</string>
+    <string name="str_time_sleep">नींद समय</string>
+    <string name="str_time_autotime">स्वत: समायोजन</string>
+    <string name="str_time_schedule_ontime">समय पर</string>
+    <string name="str_time_set_time_on_title">बूट समय</string>
+    <string name="str_time_set_time_off_title">समय बंद</string>
+    <string name="str_time_set_time_on">बूट समय की स्थापना</string>
+    <string name="str_time_set_time_off">समय की स्थापना</string>
+    <string name="str_time_schedule_hour">घंटा</string>
+    <string name="str_time_schedule_minute">मिनट</string>
+    <string name="str_time_schedule_source">स्रोत</string>
+    <string name="str_time_schedule_channel">चैनल</string>
+    <string name="str_time_schedule_volume">आयतन</string>
+    <string name="str_time_hour">घंटा</string>
+    <string name="str_time_minute">मिनट</string>
+    <string name="str_time_second">दूसरा</string>
+    <string name="str_time_change_timezone">समय-क्षेत्र स्वत: अद्यतन</string>
+
+    <string-array name="str_arr_time_switch">
+		<item>पास</item>
+		<item>खुला है</item>
+    </string-array>
+    <string-array name="str_arr_time_autotimetype">
+		<item>पास</item>
+		<item>डिजिटल टीवी</item>
+		<item>नेटवर्क</item>
+		<item>स्वचालित</item>
+    </string-array>
+    <string-array name="str_arr_time_source">
+		<item>स्मृति</item>
+		<item>घर</item>
+		<item>मल्टीमीडिया</item>
+		<item>DLNA</item>
+    </string-array>
+
+    <string-array name="str_arr_subtitle_switch">
+		<item>बंद</item>
+		<item>खुला है</item>
+    </string-array>
+	
+    <string name="str_set_setting">सेट करें</string>
+    <string name="str_set_language">भाषा</string>
+    <string name="str_set_audio_language1">सबसे पहले भाषा</string>
+    <string name="str_set_audio_language2">दूसरी भाषा</string>
+    <string name="str_set_subtitle_switch">उपशीर्षक</string>
+    <string name="str_set_subtitle_language1">पहले उपशीर्षक भाषा</string>
+    <string name="str_set_subtitle_language2">दूसरा उपशीर्षक भाषा</string>
+    <string name="str_set_language_czech">चेक</string>
+    <string name="str_set_language_danish">डेनिश</string>
+    <string name="str_set_language_german">जर्मन</string>
+    <string name="str_set_language_english">अंग्रेजी</string>
+    <string name="str_set_language_spanish">स्पेनिश</string>
+    <string name="str_set_language_greek">यूनानी</string>
+    <string name="str_set_language_french">फ्रेंच</string>
+    <string name="str_set_language_croatian">क्रोएशियाई</string>
+    <string name="str_set_language_italian">इतालवी भाषा</string>
+    <string name="str_set_language_hungarian">हंगेरी</string>
+    <string name="str_set_language_dutch">डच</string>
+    <string name="str_set_language_norwegian">नार्वे भाषा</string>
+    <string name="str_set_language_polish">पोलिश</string>
+    <string name="str_set_language_portuguese">पुर्तगाली</string>
+    <string name="str_set_language_russian">रूसी</string>
+    <string name="str_set_language_romanian">रोमानियाई</string>
+    <string name="str_set_language_slovenian">स्लोवेनियाई</string>
+    <string name="str_set_language_serbian">सर्बियाई भाषा</string>
+    <string name="str_set_language_finnish">फिनिश</string>
+    <string name="str_set_language_swedish">स्वीडिश</string>
+    <string name="str_set_language_bulgarian">बल्गेरियाई</string>
+    <string name="str_set_language_slovak">स्लोवाक भाषा</string>
+    <string name="str_set_language_chinese">चीनी</string>
+    <string name="str_set_language_gaelic">गेलिक</string>
+    <string name="str_set_language_welsh">वेल्श</string>
+    <string name="str_set_language_irish">आयरिश भाषा</string>
+    <string name="str_set_language_arabic">अरबी भाषा</string>
+    <string name="str_set_language_latvian">लात्वीयावासी</string>
+    <string name="str_set_language_hebrew">हिब्रू भाषा</string>
+    <string name="str_set_language_turkish">तुर्की भाषा</string>
+    <string name="str_set_language_estonian">एस्तोनियावासी</string>
+    <string name="str_set_language_gallegan">गैलिशियन्</string>
+    <string name="str_set_language_basque">बस्क</string>
+    <string name="str_set_language_catalan">कैटलन</string>
+    <string name="str_set_language_icelandic">आइसलैंड का</string>
+    <string name="str_set_language_letzeburgesch">लक्जमबर्गिश</string>
+    <string name="str_set_language_lithuanian">लिथुआनियाई</string>
+    <string name="str_set_language_ukrainian">यूक्रेनी</string>
+    <string name="str_set_language_byelorussian">बेलारूसी</string>
+    <string name="str_set_language_maori">माओरी</string>
+    
+    <string name="str_set_language_cantonese">कैंटोनीज़ में</string>
+    <string name="str_set_language_korean">कोरियाई</string>
+    <string name="str_set_language_japanese">जापानी</string>
+    <string name="str_set_language_hindi">हिन्दी</string>
+    <string name="str_set_language_thai">थाई</string>
+    <string name="str_set_language_vietnamese">वियतनामी भाषा</string>
+    <string name="str_set_language_malay">मलायी</string>
+    <string name="str_set_language_qab">दूसरे ऑडियो</string>
+    <string name="str_set_language_qac">तीसरा ऑडियो</string>
+    <string name="str_set_language_multiple">बहुभाषी</string>
+
+    <string-array name="str_arr_set_audio_language">
+        <item>@string/str_set_language_czech</item>
+        <item>@string/str_set_language_danish</item>
+        <item>@string/str_set_language_german</item>
+        <item>@string/str_set_language_english</item>
+        <item>@string/str_set_language_spanish</item>
+        <item>@string/str_set_language_greek</item>
+        <item>@string/str_set_language_french</item>
+        <item>@string/str_set_language_croatian</item>
+        <item>@string/str_set_language_italian</item>
+        <item>@string/str_set_language_hungarian</item>
+        <item>@string/str_set_language_dutch</item>
+        <item>@string/str_set_language_norwegian</item>
+        <item>@string/str_set_language_polish</item>
+        <item>@string/str_set_language_portuguese</item>
+        <item>@string/str_set_language_russian</item>
+        <item>@string/str_set_language_romanian</item>
+        <item>@string/str_set_language_slovenian</item>
+        <item>@string/str_set_language_serbian</item>
+        <item>@string/str_set_language_finnish</item>
+        <item>@string/str_set_language_swedish</item>
+        <item>@string/str_set_language_bulgarian</item>
+        <item>@string/str_set_language_slovak</item>
+        <item>@string/str_set_language_chinese</item>
+        <item>@string/str_set_language_gaelic</item>
+        <item>@string/str_set_language_welsh</item>
+        <item>@string/str_set_language_irish</item>
+        <item>@string/str_set_language_arabic</item>
+        <item>@string/str_set_language_latvian</item>
+        <item>@string/str_set_language_hebrew</item>
+        <item>@string/str_set_language_turkish</item>
+        <item>@string/str_set_language_estonian</item>
+        <item>@string/str_set_language_gallegan</item>
+        <item>@string/str_set_language_basque</item>
+        <item>@string/str_set_language_catalan</item>
+        <item>@string/str_set_language_icelandic</item>
+        <item>@string/str_set_language_letzeburgesch</item>
+        <item>@string/str_set_language_lithuanian</item>
+        <item>@string/str_set_language_ukrainian</item>
+        <item>@string/str_set_language_byelorussian</item>
+        <item>@string/str_set_language_maori</item>
+        <item>@string/str_set_language_cantonese</item>
+        <item>@string/str_set_language_korean</item>
+        <item>@string/str_set_language_japanese</item>
+        <item>@string/str_set_language_hindi</item>
+        <item>@string/str_set_language_thai</item>
+        <item>@string/str_set_language_vietnamese</item>
+        <item>@string/str_set_language_malay</item>
+        <item>@string/str_set_language_qab</item>
+        <item>@string/str_set_language_qac</item>
+    </string-array>
+
+    <string-array name="str_arr_set_subtitle_language">
+        <item>@string/str_set_language_czech</item>
+        <item>@string/str_set_language_danish</item>
+        <item>@string/str_set_language_german</item>
+        <item>@string/str_set_language_english</item>
+        <item>@string/str_set_language_spanish</item>
+        <item>@string/str_set_language_greek</item>
+        <item>@string/str_set_language_french</item>
+        <item>@string/str_set_language_croatian</item>
+        <item>@string/str_set_language_italian</item>
+        <item>@string/str_set_language_hungarian</item>
+        <item>@string/str_set_language_dutch</item>
+        <item>@string/str_set_language_norwegian</item>
+        <item>@string/str_set_language_polish</item>
+        <item>@string/str_set_language_portuguese</item>
+        <item>@string/str_set_language_russian</item>
+        <item>@string/str_set_language_romanian</item>
+        <item>@string/str_set_language_slovenian</item>
+        <item>@string/str_set_language_serbian</item>
+        <item>@string/str_set_language_finnish</item>
+        <item>@string/str_set_language_swedish</item>
+        <item>@string/str_set_language_bulgarian</item>
+        <item>@string/str_set_language_slovak</item>
+        <item>@string/str_set_language_chinese</item>
+        <item>@string/str_set_language_gaelic</item>
+        <item>@string/str_set_language_welsh</item>
+        <item>@string/str_set_language_irish</item>
+        <item>@string/str_set_language_arabic</item>
+        <item>@string/str_set_language_latvian</item>
+        <item>@string/str_set_language_hebrew</item>
+        <item>@string/str_set_language_turkish</item>
+        <item>@string/str_set_language_estonian</item>
+        <item>@string/str_set_language_gallegan</item>
+        <item>@string/str_set_language_basque</item>
+        <item>@string/str_set_language_catalan</item>
+        <item>@string/str_set_language_icelandic</item>
+        <item>@string/str_set_language_letzeburgesch</item>
+        <item>@string/str_set_language_lithuanian</item>
+        <item>@string/str_set_language_ukrainian</item>
+        <item>@string/str_set_language_byelorussian</item>
+        <item>@string/str_set_language_maori</item>
+        <item>@string/str_set_language_cantonese</item>
+        <item>@string/str_set_language_korean</item>
+        <item>@string/str_set_language_japanese</item>
+        <item>@string/str_set_language_hindi</item>
+        <item>@string/str_set_language_thai</item>
+        <item>@string/str_set_language_vietnamese</item>
+        <item>@string/str_set_language_malay</item>
+        <item>@string/str_set_language_multiple</item>
+    </string-array>	
+
+    <string-array name="str_arr_set_menutimetype">
+		<item>5 सेकंड</item>
+		<item>10 सेकंड</item>
+		<item>15 सेकंड</item>
+		<item>20 सेकंड</item>
+		<item>30 सेकंड</item>
+		<item>सदैव</item>
+    </string-array>
+	
+    <string name="str_set_menutime">मेनू प्रदर्शन समय</string>
+    <string name="str_set_menutime_5sec">5 सेकंड</string>
+
+    <string-array name="str_arr_set_switchmodetype">
+        <item>काला</item>
+        <item>मिररिंग</item>
+    </string-array>
+
+    <string name="str_set_switchmode">स्विचिंग मोड</string>
+    <string name="str_set_switchmode_blackscreen">काला</string>
+    <string name="str_set_autosourceident">स्रोत पहचान</string>
+    <string name="str_set_sourcepreview">स्रोत पूर्वावलोकन</string>
+
+    <string-array name="str_arr_set_sourceidenttype">
+		<item>बंद</item>
+		<item>खुला है</item>
+    </string-array>
+    <string-array name="str_arr_set_sourcepreviewtype">
+		<item>बंद</item>
+		<item>खुला है</item>
+    </string-array>
+    <string-array name="str_arr_set_hdmiarctype">
+		<item>बंद</item>
+		<item>खुला है</item>
+    </string-array>
+
+	<string name="str_set_autosourceswit">स्वचालित पहचान स्रोत</string>
+
+    <string-array name="str_arr_set_sourceswittype">
+        <item>बंद</item>
+        <item>खुला है</item>
+    </string-array>
+
+    <string name="str_set_off">बंद</string>
+    <string name="str_set_on">खुला है</string>
+    <string name="str_set_colorrange">रंग रेंज</string>
+    <string name="str_set_colorrange_0to255">0 करने के लिए 255</string>
+    <string name="str_set_moviemode">मूवी मोड</string>
+
+    <string-array name="str_arr_set_moviemodetype">
+        <item>बंद</item>
+        <item>खुला है</item>
+    </string-array>
+
+    <string name="str_set_mhlswitch">स्वचालित स्विचिंग MHL</string>
+
+    <string-array name="str_arr_set_mhlautoswitch_onoff">
+        <item>बंद</item>
+        <item>खुला है</item>
+    </string-array>
+
+	<string name="str_set_bluescreenswitch">ब्लू स्क्रीन</string>
+
+    <string-array name="str_arr_set_bluescreenswitchtype">
+		<item>खुला है</item>
+		<item>बंद</item>
+    </string-array>
+    <string-array name="str_arr_set_colorrangetype">
+		<item>0 करने के लिए 255</item>
+		<item>16 करने के लिए 235</item>
+		<item>स्वचालित</item>
+    </string-array>
+
+	<string name="str_set_hdmicec"> सीईसी </string>
+
+    <string-array name="str_arr_set_hdmicectype">
+        <item>बंद</item>
+        <item>खुला है</item>
+    </string-array>
+
+    <string name="str_set_standyon">सिस्टम स्टैंडबाय</string>
+
+    <string-array name="str_arr_set_standyontype">
+        <item>बंद</item>
+        <item>खुला है</item>
+    </string-array>
+
+	<string name="str_set_powersetting">पावर सेटिंग</string>
+    <string name="str_set_restoretodefault">डिफ़ॉल्ट पुनर्स्थापित</string>
+    <string name="str_set_hdmicec_label">सीईसी</string>
+    <string name="str_set_hdmicec_devicelist">उपकरण सूची</string>
+    <string name="str_set_hdmicec_off">बंद</string>
+    <string name="str_set_hdmicec_onoff">  सीईसी / बंद</string>
+    <string name="str_set_cc_setting">सीसी सेट</string>
+    <string name="str_set_boot2launcher">मुख्य इंटरफ़ेस करने के लिए पावर</string>
+    <string name="str_set_bootsource">पावर चैनल</string>
+
+    <string-array name="str_arr_set_hdmicec_onoff">
+		<item>बंद</item>
+		<item>खुला है</item>
+    </string-array>
+    <string-array name="str_arr_set_powersetting_onoff">
+		<item>खुला है</item>
+		<item>बंद</item>
+    </string-array>
+
+    <string name="str_updating_edid">एएमपी जानकारी अद्यतन ...</string>
+
+    <string name="str_set_hdmicec_autostandby">ऑटो स्टैंडबाय</string>
+    <string name="str_set_powersetting_powermusic">प्रारंभ ध्वनि</string>
+    <string name="str_set_powersetting_powerlogo">पावर आइकन</string>
+    <string name="str_set_powersetting_powervolume">बूट मात्रा</string>
+
+    <!-- Loading -->
+
+    <string name="loading">लदान</string>
+
+    <!-- for hot key -->
+
+    <string name="volume">आयतन</string>
+    <string name="picture">छवि मोड</string>
+    <string name="sound">ध्वनि मोड</string>
+    <string name="zoom">ज़ूम मोड</string>
+    <string name="str_root_alert_dialog_title">शीघ्र</string>
+    <string name="str_root_alert_dialog_message">क्या आप वाकई टीवी प्रणाली से बाहर निकलना चाहते?</string>
+    <string name="go_to_tuning_dialog_message">स्टेशन खोज आरंभ?</string>
+    <string name="str_root_alert_dialog_confirm">निर्धारित</string>
+    <string name="str_root_alert_dialog_cancel">रद्द</string>
+    <string name="str_root_alert_dialog_message_restore_to_default">क्या आप वाकई इसे रीसेट करना चाहते हैं?</string>
+
+    <!-- Factory Menu -->
+
+    <string name="str_factory_adc"> एडीसी समायोजन</string>
+    <string name="str_factory_whitebalance">व्हाइट बैलेंस</string>
+    <string name="str_factory_picturemode">राय</string>
+    <string name="str_factory_non_standard">अमानक विकल्प</string>
+    <string name="str_factory_non_linear"> Non_linear</string>
+    <string name="str_factory_overscan">ओवरस्कैन</string>
+    <string name="str_factory_ssc"> एसएससी समायोजन</string>
+    <string name="str_factory_peq"> PEQ</string>
+    <string name="str_factory_otheroption">अन्य विकल्प</string>
+    <string name="str_factory_adc_source">स्रोत</string>
+    <string name="str_factory_adc_rgain"> आर लाभ</string>
+    <string name="str_factory_adc_ggain">जी लाभ</string>
+    <string name="str_factory_adc_bgain"> बी लाभ</string>
+    <string name="str_factory_adc_roffset"> आर ऑफसेट</string>
+    <string name="str_factory_adc_goffset"> जी मुआवजा</string>
+    <string name="str_factory_adc_boffset"> ऑफसेट बी</string>
+    <string name="str_factory_adc_autoadjust">स्वत: समायोजन</string>
+    <string name="str_factory_wbadjust_source">स्रोत</string>
+    <string name="str_factory_wbadjust_rgain"> आर लाभ</string>
+    <string name="str_factory_wbadjust_ggain">जी लाभ</string>
+    <string name="str_factory_wbadjust_bgain"> बी लाभ</string>
+    <string name="str_factory_wbadjust_roffset"> आर ऑफसेट</string>
+    <string name="str_factory_wbadjust_goffset"> जी मुआवजा</string>
+    <string name="str_factory_wbadjust_boffset"> ऑफसेट बी</string>
+    <string name="str_factory_wbadjust_autoadjust">स्वत: समायोजन</string>
+    <string name="str_factory_wbadjust_colortemp">रंग तापमान</string>
+    <string name="str_factory_picmode_picmode">राय</string>
+    <string name="str_factory_picmode_brightness">चमक</string>
+    <string name="str_factory_picmode_contrast">विरोध</string>
+    <string name="str_factory_picmode_saturation">परिपूर्णता</string>
+    <string name="str_factory_picmode_hue">रंग</string>
+    <string name="str_factory_picmode_sharpness">तीखेपन</string>
+    <string name="str_factory_nonlinear_curvetype">वक्र प्रकार</string>
+    <string name="str_factory_nonlinear_osd0"> OSD_0</string>
+    <string name="str_factory_nonlinear_osd25"> OSD_25</string>
+    <string name="str_factory_nonlinear_osd50"> OSD_50</string>
+    <string name="str_factory_nonlinear_osd75"> OSD_75</string>
+    <string name="str_factory_nonlinear_osd100"> OSD_100</string>
+    <string name="str_factory_overscan_source">स्रोत</string>
+    <string name="str_factory_overscan_hsize"> ज आयाम</string>
+    <string name="str_factory_overscan_hposition">क्षैतिज स्थिति</string>
+    <string name="str_factory_overscan_vsize"> वी आकार</string>
+    <string name="str_factory_overscan_vposition">ऊर्ध्वाधर स्थिति</string>
+    <string name="str_factory_nonstandard_viftop"> VIF_TOP</string>
+    <string name="str_factory_nonstandard_vifvgamaximum"> VIF_VGA_MAXIMUM</string>
+    <string name="str_factory_nonstandard_vifcpkp"> VIF_CR_KP</string>
+    <string name="str_factory_nonstandard_vifcpki"> VIF_CR_KI</string>
+    <string name="str_factory_nonstandard_vifasiasignaloption"> VIF_ASIA_SIGNAL_OPTION</string>
+    <string name="str_factory_nonstandard_vifcpkpkiadjust"> VIF_CR_KP_KI_ADJUST</string>
+    <string name="str_factory_nonstandard_vifovermodulation"> VIF_OVER_MODULATION</string>
+    <string name="str_factory_nonstandard_vifclampgain"> VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+    <string name="str_factory_nonstandard_chinadescrambler"> CHINA_DESCRAMBLER_BOX</string>
+    <string name="str_factory_nonstandard_delay">विलंबित</string>
+    <string name="str_factory_nonstandard_vifcrthr"> VIF_CR_THR</string>
+    <string name="str_factory_nonstandard_vifversion"> VIF_VERSION</string>
+    <string name="str_factory_nonstandard_vifagcref"> VIF_AGC_REF</string>
+    <string name="str_factory_nonstandard_gaindistributionthr"> GAIN_DISTRIBUTION_THR</string>
+    <string name="str_factory_nonstandard_afecd4"> AEFC_D4</string>
+    <string name="str_factory_nonstandard_aefcd5"> AEFC_D5 [2]</string>
+    <string name="str_factory_nonstandard_aefcd8"> AEFC_D8 [3: 0]</string>
+    <string name="str_factory_nonstandard_aefcd9"> AEFC_D9 [0]</string>
+    <string name="str_factory_nonstandard_aefcd7high"> AEFC_D7_HIGH_BOUN</string>
+    <string name="str_factory_nonstandard_aefcd7"> AEFC_D7_LOW_BOUN</string>
+    <string name="str_factory_nonstandard_aefca0"> AEFC_A0</string>
+    <string name="str_factory_nonstandard_aefca1"> AEFC_A1</string>
+    <string name="str_factory_nonstandard_aefc66"> AEFC_66 [7: 6]</string>
+    <string name="str_factory_nonstandard_aefc6e"> AEFC_6E [7: 4]</string>
+    <string name="str_factory_nonstandard_aefc6elow"> AEFC_6E [3: 0]</string>
+    <string name="str_factory_nonstandard_aefc43"> AEFC_43</string>
+    <string name="str_factory_nonstandard_aefc44"> AEFC_44</string>
+    <string name="str_factory_nonstandard_aefccb"> AEFC_CB</string>
+    <string name="str_factory_nonstandard_vddsp"> AUDIO_NR_TH</string>
+    <string name="str_factory_nonstandard_audiohidev"> AUDIO_HIDEV_MODE</string>
+    <string name="str_factory_nonstandard_audionr"> AUDIO_NR_TH</string>
+    <string name="str_factory_nonstandard_audiosif">ऑडियो SIF सीमा</string>
+    <string name="str_factory_nonstandard_audiodsp"> AUDIO_DSP_VERSION</string>
+    <string name="str_factory_ssc_miuenable"> MIU सक्षम</string>
+    <string name="str_factory_ssc_miumodulation"> MIU मॉडुलन</string>
+    <string name="str_factory_ssc_miupercentage"> MIU प्रतिशत (%)</string>
+    <string name="str_factory_ssc_lvdsenable"> LVDS सक्षम</string>
+    <string name="str_factory_ssc_lvdsmodulation"> LVDS मॉडुलन</string>
+    <string name="str_factory_ssc_lvdspercentage"> LVDS प्रतिशत (%)</string>
+    <string name="str_factory_peq_fo1coarse"> FO1 कच्चे तेल</string>
+    <string name="str_factory_peq_fo1fine"> ललित FO1</string>
+    <string name="str_factory_peq_fo2coarse"> FO2 कच्चे तेल</string>
+    <string name="str_factory_peq_fo2fine"> FO2 ठीक</string>
+    <string name="str_factory_peq_fo3coarse"> क्रूड FO3</string>
+    <string name="str_factory_peq_fo3fine"> ललित FO3</string>
+    <string name="str_factory_peq_gain1"> लाभ 1</string>
+    <string name="str_factory_peq_gain2"> लाभ 2</string>
+    <string name="str_factory_peq_gain3"> लाभ 3</string>
+    <string name="str_factory_peq_q1"> Q1</string>
+    <string name="str_factory_peq_q2"> Q2</string>
+    <string name="str_factory_peq_q3"> Q3</string>
+    <string name="str_factory_otheroption_version">संस्करण</string>
+    <string name="str_factory_otheroption_board">दफ्तर</string>
+    <string name="str_factory_otheroption_panel">पैनल</string>
+    <string name="str_factory_otheroption_dateandtimes">दिनांक / समय</string>
+    <string name="str_factory_otheroption_watchdog">निगरानी</string>
+    <string name="str_factory_otheroption_testpattern">परीक्षण मोड</string>
+    <string name="str_factory_otheroption_restoretodefault">डिफ़ॉल्ट पुनर्स्थापित</string>
+    <string name="str_factory_otheroption_poweronmode">पावर मोड</string>
+    <string name="str_factory_otheroption_uartenable"> सक्षम करने से UART</string>
+    <string name="str_factory_otheroption_dtvavdelay"> DTV ऐव डेले (Non_standard)</string>
+    <string name="str_factory_otheroption_initialfunction">प्रारंभिक चैनल</string>
+    <string name="str_factory_otheroption_panelswing">समूह झूलों</string>
+    <string name="str_factory_otheroption_audioprescale">ऑडियो prescaler</string>
+
+    <!-- for program edit -->
+
+    <string name="str_program_edit_dialog_ok">निर्धारित</string>
+    <string name="str_program_edit_dialog_cancel">रद्द</string>
+    <string name="str_program_edit_dialog_input">दर्ज करें</string>
+    <string name="str_no_sinal">कोई संकेत</string>
+    <string name="str_channelList_favorite">पसंदीदा सूची</string>
+    <string name="str_channelList_program">कार्यक्रम सूची</string>
+    <string name="program_guide_time">कार्यक्रम गाइड: समय</string>
+
+    <string name="str_channelList_search">खोज</string>
+    <string name="str_channelList_sort">अनुक्रम</string>
+
+    <string-array name="str_sort_type">
+		<item>प्रीसेट</item>
+		<item>उपग्रह</item>
+		<item>नाम</item>
+		<item>एन्क्रिप्शन</item>
+		<item>LCN</item>
+		<item>आवृत्ति</item>
+    </string-array>
+
+    <!-- For Record Style -->
+    <string name="str_textview_record_title">सेटिंग्स जला</string>
+    <string name="str_textview_record_chaneel_name">चैनल का नाम</string>
+    <string name="str_textview_record_sbutitle">उपशीर्षक</string>
+    <string name="str_textview_record_context">न्यूमेरिकल</string>
+    <string name="str_textview_record_mode">मोड</string>
+    <string name="str_textview_record_start_time">प्रारंभ समय</string>
+    <string name="str_textview_record_end_time">समाप्ति समय</string>
+    <string name="str_textview_record_common_ok">का चयन करें: ठीक है</string>
+    <string name="str_record_date">संख्या</string>
+    <string name="str_record_month">माह</string>
+    <string name="str_record_hour">कब</string>
+    <string name="str_record_minute">फूट डालो</string>
+
+    <!-- For schedule list style -->
+    <string name="str_textview_schedule_list_title">कार्यक्रम सूची</string>
+    <string name="str_textview_schedule_list_time">समय</string>
+    <string name="str_textview_schedule_list_date">तिथि</string>
+    <string name="str_schedule_list_channel_name">चैनल का नाम</string>
+    <string name="str_schedule_list_programmer_title">कार्यक्रम का नाम</string>
+
+    <!-- For schedule list style -->
+    <string name="str_screenshot_tip_title">स्क्रीनशॉट टिप्स</string>
+    <string name="str_screenshot_tip_msg">स्क्रीन के रूप में वर्तमान स्क्रीन के अवरोधन चाहे जब मशीन?</string>
+    <string name="str_screenshot_opt_success">स्क्रीनशॉट सफलता!</string>
+    <string name="str_screenshot_opt_failed">स्क्रीनशॉट विफलता!</string>
+
+    <!-- For epg -->
+    <string name="str_epg_title_time">इलेक्ट्रॉनिक प्रोग्राम मार्गदर्शिका: समय</string>
+    <string name="str_epg_title_channel">इलेक्ट्रॉनिक प्रोग्राम गाइड: कार्यक्रम</string>
+    <string name="str_epg_tips_b_reminder">याद दिलाना</string>
+    <string name="str_epg_tips_r_record">रिकॉर्डिंग</string>
+    <string name="str_epg_tips_y_schedule">व्यवस्था</string>
+    <string name="str_epg_tips_g_info">सूचना</string>
+    <string name="str_epg_event_extend_no_info">कोई सूचना नहीं</string>
+    <string name="str_epg_event_age">उम्र:</string>
+    <string name="str_epg_event_content">सामग्री:</string>
+    <string name="str_epg_event_genre">प्रकार:</string>
+    <string name="str_epg_event_name">घटना</string>
+    <string name="str_epg_event_rating">रेटिंग</string>
+    <string name="str_epg_event_simulcast_hd">साइमलकास्ट</string>
+    <string name="str_epg_event_broadcastlater_hd">प्रसारण</string>
+    <string name="str_epg_event_unresolved">इसका समाधान नहीं किया।</string>
+    <string name="str_epg_timer_conflict">संघर्ष</string>
+    <string name="str_epg_timer_prompt_delete_conflict_schedule">सभी संघर्ष अनुसूची हटाना चाहते हैं?</string>
+    <string name="str_epg_timer_delete_conflict_confirm">निर्धारित</string>
+    <string name="str_epg_timer_delete_conflict_cancel">रद्द</string>
+
+    <string-array name="str_arr_epg_time_check_display_info">
+		<item>नहीं</item>
+		<item>समय सफलता</item>
+		<item>बाहर समय</item>
+		<item>समय कवर</item>
+		<item>प्रारंभ समाप्ति समय के बाद समय</item>
+		<item>समय की अवधि के अंत पार हो गई है</item>
+		<item>सूची भरा है</item>
+		<item>और एक नया रिमाइंडर संघर्ष</item>
+		<item>और डेटाबेस में संघर्ष को याद दिलाना</item>
+    </string-array>
+    <string-array name="str_arr_video_type">
+        <item></item>
+		<item>एमपीईजी</item>
+		<item>264</item>
+		<item>AVS</item>
+		<item>VC1</item>
+		<item>HEVC</item>
+    </string-array>
+
+    <!-- For epg Genre-->
+    <string name="str_genre_movie">चलचित्र</string>
+    <string name="str_genre_movie_drama">फिल्म / रंगमंच</string>
+    <string name="str_genre_movie_drama_general">फिल्म / रंगमंच (एकीकृत)</string>
+    <string name="str_genre_news">समाचार</string>
+    <string name="str_genre_news_factual">समाचार और सच</string>
+    <string name="str_genre_news_current_default">वर्तमान घटनाये</string>
+    <string name="str_genre_news_current_general">समाचार / करंट अफेयर्स (एकीकृत)</string>
+    <string name="str_genre_news_current">समाचार / करंट अफेयर्स</string>
+    <string name="str_genre_entertainment">मनोरंजन</string>
+    <string name="str_genre_show_general">दिखाएँ / गेम शो प्रतियोगिता (एकीकृत)</string>
+    <string name="str_genre_show">दिखाएँ / गेम शो प्रतियोगिता</string>
+    <string name="str_genre_sports_general">खेल (एकीकृत)</string>
+    <string name="str_genre_sport">खेल</string>
+    <string name="str_genre_chidren">बच्चा</string>
+    <string name="str_genre_youth">बच्चे / बच्चों के कार्यक्रम</string>
+    <string name="str_genre_music_default">संगीत</string>
+    <string name="str_genre_music_general">संगीत / बैले / नृत्य (एकीकृत)</string>
+    <string name="str_genre_music">संगीत / बैले / नृत्य</string>
+    <string name="str_genre_art_general">कला / संस्कृति (संगीत के बिना, एकीकृत)</string>
+    <string name="str_genre_art">कला / संस्कृति (संगीत के बिना)</string>
+    <string name="str_genre_social_general">सामाजिक / राजनीतिक / आर्थिक (एकीकृत)</string>
+    <string name="str_genre_social">सामाजिक / राजनीतिक / आर्थिक</string>
+    <string name="str_genre_education_default">शिक्षा / सूचना</string>
+    <string name="str_genre_education_uk">शिक्षा</string>
+    <string name="str_genre_education_others_general">शिक्षा / विज्ञान / वास्तविक विषय (एकीकृत)</string>
+    <string name="str_genre_education_others">शिक्षा / विज्ञान / वास्तविक विषय</string>
+    <string name="str_genre_infotainment">इंफोटेनमेंट</string>
+    <string name="str_genre_life_uk">जीवन</string>
+    <string name="str_genre_life">अवकाश</string>
+    <string name="str_genre_not_support">का समर्थन नहीं करता</string>
+    <string name="str_genre_original_language">स्रोत भाषा</string>
+    <string name="str_genre_special">विशेष</string>
+    <string name="str_genre_special_characteristics">संपत्ति</string>
+    <string name="str_genre_reserved">भविष्य में उपयोग के लिए आरक्षित</string>
+    <string name="str_genre_drama">थिएटर</string>
+    <string name="str_genre_user_defined">उपयोगकर्ता-परिभाषित</string>
+    <string name="str_genre_undefined">अपरिभाषित</string>
+    <string name="str_genre_unclassified">अवर्गीकृत</string>
+    <string name="str_genre_comedy">कॉमेडी</string>
+    <string name="str_genre_documentary">दस्तावेज़ी</string>
+
+    <string-array name="str_arr_epg_genre_uk">
+        <item>@string/str_genre_unclassified</item>
+        <item>@string/str_genre_movie</item>
+        <item>@string/str_genre_news_factual</item>
+        <item>@string/str_genre_entertainment</item>
+        <item>@string/str_genre_sport</item>
+        <item>@string/str_genre_chidren</item>
+        <item>@string/str_genre_entertainment</item>
+        <item>@string/str_genre_news_factual</item>
+        <item>@string/str_genre_news_factual</item>
+        <item>@string/str_genre_education_uk</item>
+        <item>@string/str_genre_life_uk</item>
+        <item>@string/str_genre_not_support</item>
+        <item>@string/str_genre_not_support</item>
+        <item>@string/str_genre_not_support</item>
+        <item>@string/str_genre_not_support</item>
+        <item>@string/str_genre_drama</item>
+    </string-array>
+
+    <string-array name="str_arr_epg_genre_nz">
+        <item>@string/str_genre_undefined</item>
+        <item>@string/str_genre_movie_drama_general</item>
+        <item>@string/str_genre_news_current_general</item>
+        <item>@string/str_genre_show_general</item>
+        <item>@string/str_genre_sports_general</item>
+        <item>@string/str_genre_youth</item>
+        <item>@string/str_genre_music_general</item>
+        <item>@string/str_genre_art_general</item>
+        <item>@string/str_genre_social_general</item>
+        <item>@string/str_genre_education_others_general</item>
+        <item>@string/str_genre_life</item>
+        <item>@string/str_genre_original_language</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_user_defined</item>
+    </string-array>
+
+    <string-array name="str_arr_epg_genre_au">
+        <item></item>
+        <item>@string/str_genre_movie</item>
+        <item>@string/str_genre_news</item>
+        <item>@string/str_genre_entertainment</item>
+        <item>@string/str_genre_sport</item>
+        <item>@string/str_genre_chidren</item>
+        <item>@string/str_genre_music_default</item>
+        <item>@string/str_genre_art</item>
+        <item>@string/str_genre_news_current_default</item>
+        <item>@string/str_genre_education_default</item>
+        <item>@string/str_genre_infotainment</item>
+        <item>@string/str_genre_special</item>
+        <item>@string/str_genre_comedy</item>
+        <item>@string/str_genre_drama</item>
+        <item>@string/str_genre_documentary</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="str_arr_epg_genre_default">
+        <item>@string/str_genre_unclassified</item>
+        <item>@string/str_genre_movie_drama</item>
+        <item>@string/str_genre_news_current</item>
+        <item>@string/str_genre_show</item>
+        <item>@string/str_genre_sport</item>
+        <item>@string/str_genre_youth</item>
+        <item>@string/str_genre_music</item>
+        <item>@string/str_genre_art</item>
+        <item>@string/str_genre_social</item>
+        <item>@string/str_genre_education_others</item>
+        <item>@string/str_genre_life</item>
+        <item>@string/str_genre_special_characteristics</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_user_defined</item>
+    </string-array>
+
+    <!-- For schedule list style -->
+    <string name="str_left_time">यह है</string>
+    <string name="str_left_time_choosen_yes">नहीं</string>
+    <string name="str_left_time_choosen_no">否</string>
+
+    <string name="str_invalid_service">सीआई कार्ड डाला जाता है</string>
+    <string name="str_no_ci_module">सीआई + प्रमाणन</string>
+    <string name="str_ci_plus_authentication">एन्क्रिप्शन कार्यक्रम</string>
+    <string name="str_scrambled_program">लॉक कार्यक्रम</string>
+    <string name="str_program_block">माता पिता ताला</string>
+    <string name="str_parental_block">स्तर ताला</string>
+    <string name="str_rating_blocked">इनपुट ब्लॉक</string>
+    <string name="str_input_block">श्रव्य कार्यक्रम</string>
+    <string name="str_audio_only">डाटा शो</string>
+    <string name="str_data_only">数据节目</string>
+    <string name="str_common_video">का समर्थन नहीं करता</string>
+    <string name="str_unsupported">कोई स्टेशन</string>
+    <string name="str_no_channel_banner">पीएमटी अमान्य है</string>
+    <string name="str_invalid_pmt">कोई संकेत</string>
+    <string name="str_no_signal">कोई संकेत जल को रोकने के लिए</string>
+    <string name="str_no_signal_record">कोई संकेत रोक पारी</string>
+    <string name="str_no_signal_timeshift">无信号停止时移</string>
+    <string name="str_auto_update_scan">自动更新节目</string>
+
+
+    <string name="str_channelcontrol_scan">चैनल:</string>
+    <string name="str_channelcontrol_channels">चैनल नहीं मिला</string>
+    <string name="str_channelcontrol_notfound">DONE</string>
+    <string name="str_channelcontrol_done">DONE</string>
+
+
+    <string name="str_3d_toast">3 डी रूपांतरण समारोह स्वचालित रूप से प्रभावी मेगावाट सुनिश्चित करने के लिए शट डाउन</string>
+    <string name="str_demo_toast">शहर का चयन करें</string>
+    <string name="str_cha_cities_choosen">3 डी स्वरूप अमान्य</string>
+    <string name="str_invalid_3d_format">无效3D格式</string>
+
+    <string-array name="cities_option_array">
+		<item>अन्य</item>
+		<item>बीजिंग</item>
+		<item>एन्हुई</item>
+		<item>हेफ़ेई</item>
+		<item>Anqing</item>
+		<item>Bengbu</item>
+		<item>ज़ियामेन</item>
+		<item>Quanzhou</item>
+		<item>लुओयांग</item>
+		<item>Zhangzhou</item>
+		<item>केंटन</item>
+		<item>गुआंग्डोंग</item>
+		<item>Dongguan</item>
+		<item>गुईयांग</item>
+		<item>बंदरगाह</item>
+		<item>शीज़ीयाज़ूआंग</item>
+		<item>Qinhuangdao</item>
+		<item>तांगशान</item>
+		<item>हार्बिन</item>
+		<item>झेंग्झौ</item>
+		<item>लुओयांग</item>
+		<item>नानयांग</item>
+		<item>हुबेई</item>
+		<item>वुहान</item>
+		<item>हुआंगान्ग</item>
+		<item>जिंगज़ोऊ</item>
+		<item>Yichang</item>
+		<item>चांग्शा क्वांटा</item>
+		<item>चांग्शा गुऑन</item>
+		<item>Nantong</item>
+		<item>नैनचांग</item>
+		<item>जिलिन</item>
+		<item>डालियान</item>
+		<item>होहोट</item>
+		<item>शीआन</item>
+		<item>चेंगदू</item>
+		<item>उरूमची</item>
+		<item>जिंहुआ</item>
+		<item>Ningbo</item>
+		<item>Shaoxing</item>
+    </string-array>
+
+    <!-- For CA mode -->
+    <string name="email_theme">विषय</string>
+    <string name="email_time">समय</string>
+    <string name="email_level">स्तर</string>
+    <string name="email_state">राज्य</string>
+    <string name="email_aid">[लाल कुंजी] सभी को नष्ट करने के [बटन] हटाएं</string>
+    <string name="email_del">[लाल कुंजी] को हटाने के लिए</string>
+    <string name="email_free_space">शेष अंतरिक्ष:</string>
+    <string name="email_free_letter">सील</string>
+    <string name="email_important">महत्त्वपूर्ण</string>
+    <string name="email_ordinary">साधारण</string>
+    <string name="email_read">पढ़ना</string>
+    <string name="email_unread">अपठित</string>
+    <string name="email">ई-मेल</string>
+    <string name="email_notify">नोटिस</string>
+    <string name="really_remove_this_email">क्या आप वाकई इस संदेश को हटाना चाहते हैं?</string>
+    <string name="really_remove_all_email">क्या आप वाकई सभी संदेशों को हटाना चाहते हैं?</string>
+    <string name="ippv_freeviewed_segment">IPPV मुक्त पूर्वावलोकन चरण</string>
+    <string name="ippv_payviewed_segment">IPPV प्रभारी चरण</string>
+    <string name="ippt_payviewed_segment">IPPT प्रभारी खंड</string>
+    <string name="ippv_tvsid">ऑपरेटर ID:</string>
+    <string name="ippv_payviewed_productid">पहचान पत्र दिखाने:</string>
+    <string name="ippv_payviewed_slotid">वॉलेट ID:</string>
+    <string name="ippv_product_state">स्थिति:</string>
+    <string name="ippv_payviewed_expireddate">सीमा समाप्ति दिनांक:</string>
+    <string name="ippt_interval_min">समय अंतराल:</string>
+    <string name="ippv_payviewed_cantape">वीडियो रिकॉर्डिंग कीमत:</string>
+    <string name="ippv_payviewed_price">कीमत:</string>
+    <string name="ippv_payviewed_cannottape">वीडियो उपलब्ध नहीं है कीमत:</string>
+    <string name="ippv_pin">पिन:</string>
+    <string name="ippv_pin_ok">सफलता</string>
+    <string name="ippv_pointer_invalid">मूल्य सूचक रिक्त है</string>
+    <string name="ippv_card_invalid">स्मार्ट कार्ड अमान्य</string>
+    <string name="ippv_card_no_room">स्मार्ट कार्ड भंडारण अंतरिक्ष कार्यक्रम नहीं है</string>
+    <string name="ippv_prog_status_invalid">कार्यक्रम स्थिति खरीदने के लिए अमान्य है</string>
+    <string name="ippv_pin_invalid">पिन कोड अमान्य है</string>
+    <string name="ippv_data_not_find">कोई डेटा पाया जा सकता है</string>
+    <string name="ippv_info_page">वर्तमान पृष्ठ / कुल IPPV:</string>
+    <string name="ippv_product_state_booking">अनुसूचित</string>
+    <string name="ippv_product_state_viewed">प्रसारण</string>
+    <string name="ippv_can_tape">कर सकते हैं</string>
+    <string name="ippv_can_not_tape">नहीं कर सकते</string>
+    <string name="str_ca_mg_child_or_parent_card">बच्चे / माता कार्ड:</string>
+    <string name="str_ca_mg_child_or_parent_card1">बच्चे / माता कार्ड</string>
+    <string name="str_ca_mg_child_card">बेटी कार्ड</string>
+    <string name="str_ca_mg_parent_card">माँ कार्ड</string>
+    <string name="str_ca_mg_parent_cardnum">माँ कार्ड नंबर:</string>
+    <string name="str_ca_mg_child_cardnum">बाल कार्ड नंबर:</string>
+    <string name="str_ca_mg_delaytime">दूध पिलाने की अवधि:</string>
+    <string name="str_ca_mg_delaytime1">खिला चक्र</string>
+    <string name="str_ca_mg_lastfeedtime">अंतिम खिलाने समय:</string>
+    <string name="str_ca_mg_lastfeedtime1">अंतिम खिलाने समय</string>
+    <string name="str_ca_mg_ippv_program">IPPV कार्यक्रम की जानकारी</string>
+    <string name="str_ca_mg_card_info">चित्र कार्ड की जानकारी</string>
+    <string name="really_remove_this_info">क्या आप वाकई इस जानकारी हटाना चाहते हैं?</string>
+    <string name="really_remove_all_info">क्या आप वाकई जानकारी के सभी हटाना चाहते हैं?</string>
+    <string name="is_update">चाहे आप अपग्रेड करना चाहते हैं?</string>
+    <string name="update_loading">उन्नयन पैकेज डाउनलोड, कृपया प्रतीक्षा करें ...</string>
+    <string name="installing">उन्नयन पैकेज इंस्टॉल, कृपया प्रतीक्षा करें ...</string>
+    <string name="update_complete_is_reboot">नवीनीकरण पैकेज डाउनलोड किया गया है, चाहे उन्नयन पुनः आरंभ करने के</string>
+    <string name="update_failed">डाउनलोड विफल</string>
+    <string name="please_insert_parent_card">मां कार्ड डालें</string>
+    <string name="please_insert_child_card">बेटी कार्ड डालें</string>
+    <string name="read_feeddata_from_parent_failed">माँ कार्ड डेटा पढ़ने विफलता</string>
+    <string name="feeddata_successed">दूध पिलाने की सफलता</string>
+    <string name="feeddata_failed">दूध पिलाने की विफलता</string>
+    <string name="delete_successed">सफलतापूर्वक नष्ट कर दिया</string>
+    <string name="delete_failed">हटाएँ विफल रहा है</string>
+    <string name="cdca_rc_ok">वर्तमान कार्ड मशीन के अनुरूप</string>
+    <string name="cdca_rc_card_pairother">स्मार्ट कार्ड अन्य सेट-टॉप बॉक्स के लिए इसी</string>
+    <string name="cdca_rc_card_nopair">स्मार्ट कार्ड किसी भी सेट-टॉप बॉक्स के अनुरूप नहीं है</string>
+    <string name="cdca_rc_invalid">सेट टॉप बॉक्स या स्मार्ट कार्ड अवैध कार्ड नहीं है</string>
+    <string name="need_please_insert_child_card">बेटी कार्ड मास्टर कार्ड के साथ पत्र व्यवहार करने की जरूरत है, कार्ड महिला में डाला</string>
+    <string name="ippv_cdca_rc_ok">सफल आपरेशन</string>
+    <string name="ippv_cdca_rc_data_not_find">हम उचित ऑपरेटरों नहीं मिला</string>
+    <string name="cdca_rc_pointer_invalid">अशक्त सूचक</string>
+    <string name="clean_J2T_value">खाली समय मान दर्ज</string>
+    <string name="str_stop_record_dialog_title">क्या आप वाकई वीडियो प्रणाली से बाहर निकलना चाहते?</string>
+    <string name="str_stop_record_dialog_message">रिकॉर्डिंग है ... क्या आप वाकई छोड़ना चाहते हैं?</string>
+    <string name="str_stop_record_playback_dialog_message">स्विचिंग चैनल रिकॉर्डिंग प्रणाली रिकॉर्डिंग और प्लेबैक बंद हो जाएगा</string>
+    <string name="str_stop_record_dialog_confirm">निर्धारित</string>
+    <string name="str_stop_record_dialog_cancel">रद्द</string>
+    <string name="str_stop_record_dialog_stop">रोक</string>
+    <string name="str_stop_playback_dialog_title">प्लेबैक बंद करें</string>
+    <string name="str_stop_playback_dialog_message">स्विचिंग चैनल रिकॉर्डिंग प्रणाली प्लेबैक बंद हो जाएगा</string>
+    <string name="str_disk_too_slow">यू डिस्क बहुत धीमी गति से पढ़</string>
+    <string name="enter_old_pwd">अपने पुराने पासवर्ड दर्ज करें</string>
+    <string name="enter_check_pwd">अपना पासवर्ड दर्ज करें</string>
+    <string name="enter_new_pwd">एक नया पासवर्ड दर्ज करें</string>
+    <string name="confirm_new_pwd">नए पासवर्ड की पुष्टि</string>
+    <string name="block_program_title">लॉक कार्यक्रम</string>
+
+    <string-array name="guidance_list_default_string">
+		<item>पास</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+    </string-array>
+
+    <string-array name="guidance_list_singapore_string">
+		<item>पास</item>
+		<item>जी</item>
+		<item>पीजी</item>
+		<item>PG13</item>
+		<item>NC16</item>
+		<item>M18</item>
+		<item>R21</item>
+    </string-array>
+
+    <string-array name="guidance_list_australian_string">
+		<item>पास</item>
+		<item>ब्लॉक सभी</item>
+		<item>पी</item>
+		<item>सी</item>
+		<item>जी</item>
+		<item>पीजी</item>
+		<item>एम</item>
+		<item>MA15 +</item>
+		<item>AV15 +</item>
+		<item>आर</item>
+    </string-array>
+
+    <string-array name="contentlock_list">
+		<item>कोई नहीं</item>
+		<item>ड्रग्स</item>
+		<item>हिंसा</item>
+		<item>हिंसा और ड्रग्स</item>
+		<item>लिंग</item>
+		<item>सेक्स और ड्रग्स</item>
+		<item>हिंसा और सेक्स</item>
+		<item>हिंसा, सेक्स और ड्रग्स</item>
+    </string-array>
+
+    <string name="str_dtv_source_info_age">आयु</string>
+
+    <!-- FOR  Option -->
+    <string name="str_menu_option">विकल्प</string>
+    <string name="str_option_caption">शीर्षक</string>
+    <string name="str_option_caption_off">बंद</string>
+    <string name="str_option_ginga_on_off">Ginga</string>
+    <string name="str_option_ginga_on">पर</string>
+    <string name="str_option_ginga_off">बंद</string>
+    <string name="str_option_ginga_list">Ginga आवेदन</string>
+    <string name="str_option_store_cookies">स्टोर कुकीज़</string>
+    <string name="str_option_store_cookies_off">बंद</string>
+    <string name="str_option_store_cookies_on">पर</string>
+
+    <string-array name="str_arr_option_caption">
+		<item>बंद</item>
+		<item>पर</item>
+		<item>CC1</item>
+		<item>CC2</item>
+		<item>CC3</item>
+		<item>CC4</item>
+		<item>टेक्स्ट 1</item>
+		<item>टेक्स्ट 2</item>
+		<item>टेक्स्ट 3</item>
+		<item>टेक्स्ट 4</item>
+    </string-array>
+    <string-array name="str_arr_option_closed_caption">
+		<item>बंद</item>
+		<item>पर</item>
+		<item>पर जब म्यूट किए गए</item>
+		<item>CC1</item>
+		<item>CC2</item>
+		<item>CC3</item>
+		<item>CC4</item>
+		<item>टेक्स्ट 1</item>
+		<item>टेक्स्ट 2</item>
+		<item>टेक्स्ट 3</item>
+		<item>टेक्स्ट 4</item>
+    </string-array>
+
+    <string-array name="str_arr_option_store_cookies">
+        <item>@string/str_option_store_cookies_off</item>
+        <item>@string/str_option_store_cookies_on</item>
+    </string-array>
+
+    <!-- for box only -->
+    <string name="wait_for_tuning_hint">"खोज, कृपया प्रतीक्षा है ..."</string>
+    <string name="str_pic_xvycc">xvYCC</string>
+
+    <string-array name="str_arr_xvycc_vals">
+        <item>बंद </item>
+        <item>खुला है </item>
+    </string-array>
+
+    <string name="str_vchip_vchip">वि चिप सेटिंग्स</string>
+    <string name="str_vchip_button_lock">बटन लॉक</string>
+
+    <string-array name="str_arr_vchip_button_lock_vals">
+        <item>बंद </item>
+        <item>खुला है </item>
+    </string-array>
+	
+    <string name="str_vchip_block_unrated_tv">ब्लॉक अनरेटेड टीवी</string>
+
+    <string-array name="str_arr_vchip_block_unrated_tv_vals">
+        <item>बंद </item>
+        <item>खुला है </item>
+    </string-array>
+
+    <string name="str_vchip_usa_parental_control">संयुक्त राज्य अमेरिका माता पिता नियंत्रण</string>
+    <string name="str_vchip_rrt5_setting">RRT5 सेटिंग</string>
+    <string name="str_vchip_reset_rrt5l">रीसेट RRT5</string>
+    <string name="str_vchip_change_password">पासवर्ड बदलें</string>
+    <string name="str_vchip_check_password">पासवर्ड सत्यापन</string>
+    <string name="str_vchip_enter_check_pwd">अपना पासवर्ड दर्ज करें</string>
+    <string name="str_vchip_enter_old_pwd">पुराने पासवर्ड</string>
+    <string name="str_vchip_enter_new_pwd">नया पासवर्ड</string>
+    <string name="str_vchip_confirm_new_pwd">पासवर्ड की पुष्टि करें</string>
+    <string name="changepassword_title">पासवर्ड बदलें</string>
+    <string name="old_password">पुराने पासवर्ड</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="oldpasswordtip">पुराना पासवर्ड डालें।</string>
+    <string name="newpasswordtip">नया पासवर्ड डालें।</string>
+    <string name="confirmpasswordtip">पुष्टि करने के लिए पासवर्ड दर्ज करें।</string>
+    <string name="sure">की पुष्टि करें</string>
+    <string name="cancel">रद्द</string>
+    <string name="clean">हटाना</string>
+    <string name="passwordsettip">अपना पासवर्ड दर्ज करें।</string>
+    <string name="enterpassword">अपना पासवर्ड दर्ज करें</string>
+    <string name="password">पासवर्ड:</string>
+    <string name="password_tip_old">अपने पुराने पासवर्ड दर्ज करें।</string>
+    <string name="password_tip_new">एक नया पासवर्ड दर्ज करें।</string>
+    <string name="password_tip_condirm">नया पासवर्ड की पुष्टि करें।</string>
+    <string name="errortip">पासवर्ड गलत है। कृपया अपना पासवर्ड फिर से दर्ज करें।</string>
+
+    <!-- for USA Parental Control -->
+    <string name="usa_movie_ratings">मूवी रेटिंग</string>
+    <string name="usa_movie_ratings_none">कोई नहीं</string>
+    <string name="usa_movie_ratings_g">जी</string>
+    <string name="usa_movie_ratings_pg">पीजी</string>
+    <string name="usa_movie_ratings_pg_13">पीजी -13</string>
+    <string name="usa_movie_ratings_r">आर</string>
+    <string name="usa_movie_ratings_nc_17">NC-17</string>
+    <string name="usa_movie_ratings_x">एक्स</string>
+    <string name="usa_movie_ratings_nr">एन.आर.</string>
+    <string name="usa_tv_ratings">टीवी रेटिंग</string>
+    <string name="usa_tv_ratings_none">कोई नहीं</string>
+    <string name="usa_tv_ratings_tv_y">TV-Y</string>
+    <string name="usa_tv_ratings_tv_y7">TV-Y7</string>
+    <string name="usa_tv_ratings_tv_g">टीवी-जी</string>
+    <string name="usa_tv_ratings_tv_pg">टीवी-पीजी</string>
+    <string name="usa_tv_ratings_tv_14">टीवी -14</string>
+    <string name="usa_tv_ratings_tv_ma">TV-MA</string>
+    <string name="usa_tv_ratings_tv_title_all">सभी</string>
+    <string name="usa_tv_ratings_tv_title_fv">FV</string>
+    <string name="usa_tv_ratings_tv_title_l">एल</string>
+    <string name="usa_tv_ratings_tv_title_s">एस</string>
+    <string name="usa_tv_ratings_tv_title_v">वी</string>
+    <string name="usa_tv_ratings_tv_title_d">डी</string>
+    <string name="contentdescription">अशक्त</string>
+
+    <string name="old_password_not_filled_completely">पुराने पासवर्ड कृपया कम से कम चार पुनः दर्ज करें।</string>
+    <string name="new_password_not_filled_completely">कम से कम चार नया पासवर्ड पुन: दर्ज।</string>
+    <string name="originalpassworderr">कृपया अपने पुराने पासवर्ड त्रुटि पुनः दर्ज करें।</string>
+    <string name="newconfirmpassworderr">पासवर्ड से मेल नहीं खाती, पुन: दर्ज करें।</string>
+    <string name="resetsuccess">पासवर्ड सफलतापूर्वक बदला गया।</string>
+    <string name="resetrrt5_title">रीसेट RRT5</string>
+    <string name="resetrrt5_tips">ठीक है?</string>
+
+    <!-- for Canadian Parental Control -->
+    <string name="str_vchip_canadian_parental_control">कनाडा के माता पिता का नियंत्रण</string>
+
+    <string-array name="setting_canadian_parental_locks_titles">
+		<item>कनाडाई अंग्रेज़ी</item>
+		<item>कनाडा के फ्रेंच</item>
+    </string-array>
+    <string-array name="canadian_english_titles">
+		<item>ए</item>
+		<item>सी</item>
+		<item>सी 8 +</item>
+		<item>जी</item>
+		<item>पीजी</item>
+		<item>14+</item>
+		<item>18+</item>
+    </string-array>
+    <string-array name="canadian_french_titles">
+		<item>ए</item>
+		<item>जी</item>
+		<item>8 ans +</item>
+		<item>13 ans +</item>
+		<item>16 ans +</item>
+		<item>18 ans +</item>
+    </string-array>
+    <string-array name="setting_canadian_parental_locks_values">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+    <string-array name="rrt5_value">
+		<item>अनलॉक</item>
+		<item>ताला</item>
+    </string-array>
+    <string-array name="vchip_setting_titles">
+		<item>बटन लॉक</item>
+		<item>ब्लॉक अनरेटेड टीवी</item>
+		<item>संयुक्त राज्य अमेरिका माता पिता ताले</item>
+		<item>कनाडा के माता पिता ताले</item>
+		<item>RRT5 सेटिंग</item>
+		<item>रीसेट RRT5</item>
+		<item>पासवर्ड बदलें</item>
+    </string-array>
+
+    <!-- Closed Caption -->
+    <string name="str_setting_cc_title">सीसी सेटिंग</string>
+    <string name="str_setting_cc_mode">सीसी मोड</string>
+    <string name="str_setting_cc_basic_selection">बेसिक चयन</string>
+    <string name="str_setting_cc_advanced_selection">उन्नत चयन</string>
+    <string name="str_setting_cc_advanced_setting">उन्नत सेटिंग</string>
+
+    <string-array name="setting_closed_caption">
+		<item>सीसी मोड</item>
+		<item>बेसिक चयन</item>
+		<item>उन्नत चयन</item>
+		<item>उन्नत सेटिंग</item>
+    </string-array>
+    <string-array name="str_arr_setting_cc_mode_vals">
+		<item>पर</item>
+		<item>बंद</item>
+		<item>जब म्यूट पर</item>
+    </string-array>
+    <string-array name="str_arr_setting_cc_basic_selection_vals">
+		<item>बंद</item>
+		<item>CC1</item>
+		<item>CC2</item>
+		<item>CC3</item>
+		<item>CC4</item>
+		<item>पाठ 1</item>
+		<item>पाठ 2</item>
+		<item>पाठ 3</item>
+		<item>टेक्स्ट 4</item>
+    </string-array>
+    <string-array name="str_arr_setting_cc_advanced_selection_vals">
+		<item>बंद</item>
+		<item>Service1</item>
+		<item>Service2</item>
+		<item>service3</item>
+		<item>Service4</item>
+		<item>Service5</item>
+		<item>Service6</item>
+    </string-array>
+
+    <!-- Closed Caption Digital -->
+    <string name="str_setting_cc_dig_title">ADV सीसी सेटिंग</string>
+    <string name="str_setting_cc_dig_mode">मोड</string>
+    <string name="str_setting_cc_dig_font_style">फ़ॉन्ट शैली</string>
+    <string name="str_setting_cc_dig_font_size">फ़ॉन्ट का आकार</string>
+    <string name="str_setting_cc_dig_font_edge_style">फ़ॉन्ट सिरा शैली</string>
+    <string name="str_setting_cc_dig_font_edge_color">फ़ॉन्ट एज रंग</string>
+    <string name="str_setting_cc_dig_fg_color">FG रंग</string>
+    <string name="str_setting_cc_dig_bg_color">बीजी रंग</string>
+    <string name="str_setting_cc_dig_fg_opacity">FG अपारदर्शिता</string>
+    <string name="str_setting_cc_dig_bg_opacity">बीजी अपारदर्शिता</string>
+    <string name="str_setting_cc_italic_attr">तिरछा</string>
+    <string name="str_setting_cc_underline_attr">रेखांकित करना</string>
+
+    <string-array name="setting_digital_cc_mode">
+		<item>रिवाज</item>
+		<item>चूक</item>
+    </string-array>
+    <string-array name="setting_digital_cc_font_size">
+		<item>साधारण</item>
+		<item>छोटा</item>
+		<item>बड़ा</item>
+		<item>चूक</item>
+    </string-array>
+    <string-array name="setting_digital_cc_font_style">
+		<item>चूक</item>
+		<item>style1</item>
+		<item>style2</item>
+		<item>Style3</item>
+		<item>style4</item>
+		<item>style5</item>
+		<item>Style6</item>
+		<item>Style7</item>
+    </string-array>
+    <string-array name="setting_digital_cc_font_edge_style">
+		<item>कोई नहीं</item>
+		<item>उठाया</item>
+		<item>उदास</item>
+		<item>वर्दी</item>
+		<item>वाम छाया</item>
+		<item>सही छाया</item>
+		<item>चूक</item>
+    </string-array>
+    <string-array name="setting_digital_cc_caption_color">
+		<item>काला</item>
+		<item>लाल</item>
+		<item>ग्रीन</item>
+		<item>पीला</item>
+		<item>नीला</item>
+		<item>मैजेंटा</item>
+		<item>सियान</item>
+		<item>सफेद</item>
+		<item>चूक</item>
+    </string-array>
+    <string-array name="setting_digital_cc_caption_opacity">
+		<item>ठोस</item>
+		<item>चमकता</item>
+		<item>पारभासी</item>
+		<item>पारदर्शक</item>
+		<item>चूक</item>
+    </string-array>
+    <string-array name="setting_digital_cc_italic_attr">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+    <string-array name="setting_digital_cc_underline_attr">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+
+    <!-- For OAD string define -->
+    <string name="str_oad_msg_software_not_available">ओ.ए.डी. उपलब्ध नहीं है!</string>
+    <string name="str_oad_msg_download_found">नए सॉफ्टवेयर पाया जाता है</string>
+    <string name="str_oad_msg_dowload_prompt">इसे अभी डाउनलोड करें?</string>
+    <string name="str_oad_msg_dowload_prompt_nz">एक सॉफ्टवेयर उन्नयन उपलब्ध है अब अपग्रेड करने के लिए हाँ का चयन करें -। यह कुछ मिनटों के ले जाएगा - या स्टैंडबाय में जब बाद में उन्नत करने के लिए धन्यवाद देख लेने (रिमोट पर बटन बंद) छोड़ ..</string>
+    <string name="str_oad_msg_downloading">डाउनलोड कर रहा है</string>
+    <string name="str_oad_msg_downloading_nz">आपका रिसीवर वर्तमान में एक आवश्यक सॉफ्टवेयर उन्नयन डाउनलोड कर रहा है। यह केवल कुछ ही मिनट लगेंगे। धन्यवाद कृपया अपने रिसीवर को समायोजित करने या इस समय के दौरान स्विच ऑफ न करें।।</string>
+    <string name="str_oad_msg_scan_confirm">आप नए सॉफ्टवेयर की तलाश शुरू करने के लिए करना चाहते हैं?</string>
+    <string name="str_oad_downloadprogress_percent_0">0</string>
+    <string name="str_oad_yes">हां</string>
+    <string name="str_oad_no">नहीं</string>
+    <string name="str_oad_exit">निकास</string>
+
+    <string-array name="str_arr_software_update_oad_value">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+    <string-array name="str_arr_oad_view_prompt_value">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+
+    <!-- For NIT update string define -->
+    <string name="str_nit_msg_frequency_change_confirm">आवश्यक अनदेखी करने के लिए आवृत्ति परिवर्तन! फिर से स्कैन की आवश्यकता है। \ n ठीक चैनल स्कैन करने के लिए। इसमें कुछ समय कार्रवाई खत्म करने के लिए दबाएं बाहर निकलें लग सकता है। \।</string>
+    <string name="str_nit_msg_multiplexer_add_confirm">आवश्यक अनदेखी करने के लिए नए मल्टीप्लेक्स हो सकता है उपलब्ध है! फिर से स्कैन की आवश्यकता है। \ n ठीक चैनल स्कैन करने के लिए। इसमें कुछ समय कार्रवाई खत्म करने के लिए दबाएं बाहर निकलें लग सकता है। \।</string>
+    <string name="str_nit_msg_multiplexer_remove_confirm">आवश्यक अनदेखी करने के लिए मल्टीप्लेक्स हटा दिया। हो सकता है उपलब्ध है! फिर से स्कैन के लिए आवश्यक है \ n ठीक चैनल स्कैन करने के लिए। इसमें कुछ समय कार्रवाई खत्म करने के लिए दबाएं बाहर निकलें लग सकता है। \।</string>
+    <string name="str_nit_ok">ठीक</string>
+    <string name="str_nit_exit">निकास</string>
+
+    <!-- For DVBS LNB Setting -->
+    <string name="str_lnbsetting_title">LNB सेटिंग</string>
+    <string name="str_lnbsetting_satellite">उपग्रह</string>
+    <string name="str_lnbsetting_transponder">ट्रांसपोंडर</string>
+    <string name="str_lnbsetting_transponder_freq">(मेगाहर्ट्ज)</string>
+    <string name="str_lnbsetting_transponder_symbol">(एस / s)</string>
+    <string name="str_lnbsetting_lnbpower">LNB पावर</string>
+    <string name="str_lnbsetting_compensation">लंबे केबल मुआवजा</string>
+    <string name="str_lnbsetting_frequencies">LNB कम / उच्च आवृत्ति</string>
+    <string name="str_lnbsetting_frequencies_title">LNB प्रकार</string>
+    <string name="str_lnbsetting_frequencies_low">कम</string>
+    <string name="str_lnbsetting_frequencies_high">उच्च</string>
+    <string name="str_lnbsetting_frequencies_set">सेटिंग बदलने</string>
+    <string name="str_lnbsetting_22knz_tone">22kHz स्वर</string>
+    <string name="str_lnbsetting_toneburst">Toneburst</string>
+    <string name="str_lnbsetting_diseqc_1_0">DiSEqC 1.0</string>
+    <string name="str_lnbsetting_diseqc_1_1">DiSEqC 1.1</string>
+    <string name="str_lnbsetting_diseqc_1_2">DiSEqC 1.2</string>
+    <string name="str_lnbsetting_diseqc_1_3">DiSEqC 1.3</string>
+    <string name="str_lnboptting_diseqc_change">बदल रहा है DiSEqC</string>
+    <string name="str_lnbsetting_motor_none">कोई नहीं</string>
+    <string name="str_lnbsetting_motor">मोटर</string>
+    <string name="str_lnbsetting_signalquality">गुणवत्ता</string>
+    <string name="str_lnbsetting_strength">शक्ति</string>
+    <string name="str_lnbsetting_singlecable">एकल केबल</string>
+    <string name="str_lnbsetting_singlecable_none">कोई नहीं</string>
+    <string name="str_lnbsetting_singlecable_slot">स्लॉट</string>
+    <string name="str_lnbsetting_singlecable_freq">आवृत्तियों</string>
+    <string name="str_lnbsetting_singlecable_pin">पिन</string>
+    <string name="str_lnbsetting_singlecable_lnb">LNB</string>
+    <string name="str_lnbsetting_singlecable_verify">सत्यापित करें</string>
+    <string name="str_lnboption_menu_hint_add">जोड़ना</string>
+    <string name="str_lnboption_menu_hint_delete">हटाना</string>
+    <string name="str_lnboption_menu_hint_edit">संपादित करें</string>
+    <string name="str_lnboption_menu_hint_position">स्थिति</string>
+    <string name="str_lnboption_menu_hint_limit">सीमा</string>
+    <string name="str_lnboption_menu_hint_location">स्थान</string>
+    <string name="str_lnboption_editor_number">नहीं।</string>
+    <string name="str_lnboption_editor_longitude_direction">देशांतर दिशा</string>
+    <string name="str_lnboption_editor_longitude_angle">देशांतर कोण</string>
+    <string name="str_lnboption_editor_frequency">आवृत्ति</string>
+    <string name="str_lnboption_editor_symbolrate">प्रतीक दर</string>
+    <string name="str_lnboption_editor_band">बैंड</string>
+    <string name="str_lnboption_editor_polarization">चुंबक बनाने की क्रिया</string>
+    <string name="str_lnboption_editor_rename">नाम बदलें</string>
+    <string name="str_lnboption_editor_name">नाम</string>
+    <string name="str_lnboption_editor_del_dialog_title">टिप</string>
+    <string name="str_lnboption_editor_del_dialog_msg">चयनित आइटम हटाएं?</string>
+    <string name="str_lnboption_editor_del_dialog_yes">हां</string>
+    <string name="str_lnboption_editor_del_dialog_no">नहीं</string>
+    <string name="str_lnb_motor_editor_title">मोटर की स्थापना</string>
+    <string name="str_lnb_motor_editor_move_auto">ऑटो ले जाएँ</string>
+    <string name="str_lnb_motor_editor_move_continue">जारी रखें ले जाएँ</string>
+    <string name="str_lnb_motor_editor_move_step">ले जाएँ चरण (1)</string>
+    <string name="str_lnb_motor_editor_store_position">स्टोर स्थिति</string>
+    <string name="str_lnb_motor_editor_goto_position">स्थिति पर जाएं</string>
+    <string name="str_lnb_motor_editor_set_west_limit">पश्चिम सीमा निर्धारित करें</string>
+    <string name="str_lnb_motor_editor_set_east_limit">पूर्व सीमा निर्धारित करें</string>
+    <string name="str_lnb_motor_editor_goto_reference">संदर्भ के लिए जाओ</string>
+    <string name="str_lnb_motor_editor_goto_x">एक्स पर जाएं</string>
+    <string name="str_lnb_motor_editor_disable_limit">अक्षम सीमा</string>
+    <string name="str_lnb_motor_editor_location">स्थान:</string>
+    <string name="str_lnb_motor_editor_longitude_direction">देशांतर दिशा</string>
+    <string name="str_lnb_motor_editor_longitude_angle">देशांतर कोण</string>
+    <string name="str_lnb_motor_editor_latitude_direction">अक्षांश दिशा</string>
+    <string name="str_lnb_motor_editor_latitude_angle">अक्षांश कोण</string>
+    <string name="str_lnb_motor_editor_ok">ठीक है</string>
+    <string name="str_lnb_motor_editor_stop">रोक</string>
+    <string name="str_lnb_motor_editor_east">पूर्व</string>
+    <string name="str_lnb_motor_editor_west">पश्चिम</string>
+
+    <string-array name="str_arr_lnbpower_option">
+		<item>बंद</item>
+		<item>13 / 18V</item>
+		<item>13V</item>
+		<item>18V</item>
+		<item>14 / 19V</item>
+		<item>14V</item>
+		<item>19V</item>
+    </string-array>
+    <string-array name="str_arr_compensation_option">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_option">
+		<item>यूनिवर्सल</item>
+		<item>MDU_1</item>
+		<item>MDU_2</item>
+		<item>MDU_3</item>
+		<item>MDU_4</item>
+		<item>5150_MHZ</item>
+		<item>5750_MHZ</item>
+		<item>5150_5750_MHZ</item>
+		<item>9750_MHZ</item>
+		<item>10600_MHZ</item>
+		<item>10750_MHZ</item>
+		<item>11250_MHZ</item>
+		<item>11300_MHZ</item>
+		<item>11475_MHZ</item>
+		<item>9750_10700_MHZ</item>
+		<item>9750_10750_MHZ</item>
+		<item>10000_10450_MHZ</item>
+		<item>USER_MODE</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_low">
+		<item>9750</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>5150</item>
+		<item>5750</item>
+		<item>5150</item>
+		<item>9750</item>
+		<item>10600</item>
+		<item>10750</item>
+		<item>11250</item>
+		<item>11300</item>
+		<item>11475</item>
+		<item>9750</item>
+		<item>9750</item>
+		<item>10000</item>
+		<item>9750</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_high">
+		<item>10600</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>5150</item>
+		<item>5750</item>
+		<item>5750</item>
+		<item>9750</item>
+		<item>10600</item>
+		<item>10750</item>
+		<item>11250</item>
+		<item>11300</item>
+		<item>11475</item>
+		<item>10700</item>
+		<item>10750</item>
+		<item>10450</item>
+		<item>10600</item>
+    </string-array>
+    <string-array name="str_arr_22knz_tone_option">
+		<item>ऑटो</item>
+		<item>पर</item>
+		<item>बंद</item>
+    </string-array>
+    <string-array name="str_arr_toneburst_option">
+		<item>कोई नहीं</item>
+		<item>फट एक</item>
+		<item>फट बी</item>
+    </string-array>
+    <string-array name="str_arr_diseqc_1_0_option">
+		<item>कोई नहीं</item>
+		<item>LNB 1</item>
+		<item>LNB 2</item>
+		<item>LNB 3</item>
+		<item>LNB 4</item>
+    </string-array>
+    <string-array name="str_arr_diseqc_1_1_option">
+		<item>कोई नहीं</item>
+		<item>LNB 1</item>
+		<item>LNB 2</item>
+		<item>LNB 3</item>
+		<item>LNB 4</item>
+		<item>LNB 5</item>
+		<item>LNB 6</item>
+		<item>LNB 7</item>
+		<item>LNB 8</item>
+		<item>LNB 9</item>
+		<item>LNB 10</item>
+		<item>LNB 11</item>
+		<item>LNB 12</item>
+		<item>LNB 13</item>
+		<item>LNB 14</item>
+		<item>LNB 15</item>
+		<item>LNB 16</item>
+    </string-array>
+    <string-array name="str_arr_motor_diseqc_version">
+		<item>कोई नहीं</item>
+		<item>DiSEqC 1.2</item>
+		<item>DiSEqC 1.3</item>
+    </string-array>
+    <string-array name="str_arr_single_cable_slot_id">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+    </string-array>
+    <string-array name="str_arr_single_cable_lnb_option">
+		<item>एक</item>
+		<item>बी</item>
+    </string-array>
+    <string-array name="str_arr_longitude_direction_option">
+		<item>पूर्व</item>
+		<item>पश्चिम</item>
+    </string-array>
+    <string-array name="str_arr_latitude_direction_option">
+		<item>उत्तर</item>
+		<item>दक्षिण</item>
+    </string-array>
+    <string-array name="str_arr_satellite_band_option">
+		<item>सी</item>
+		<item>केयू</item>
+    </string-array>
+    <string-array name="str_arr_transponder_polarization_option">
+		<item>वी</item>
+		<item>एच</item>
+    </string-array>
+
+    <string name="bt_info_left">बाएं</string>
+    <string name="bt_info_switch">का चयन करें: ठीक है</string>
+    <string name="bt_info_adjust">नेविगेशन:</string>
+    <string name="bt_info_right">सही</string>
+    <string name="bt_info_up">पर</string>
+    <string name="bt_info_down">कम</string>
+    <string name="bt_info_ok">निर्धारित</string>
+    <string name="bt_info_back">यह दिखाता है:</string>
+    <string name="bt_info_exit">छोड़ना</string>
+
+    <!-- For bandwidth switch -->
+    <string-array name="str_arr_bandwidth_option">
+		<item>7</item>
+		<item>8</item>
+    </string-array>
+
+    <!-- For UHF 7 MHz Option -->
+    <string-array name="str_arr_uhf_7mhz_option">
+		<item>बंद</item>
+		<item>खुला है</item>
+    </string-array>
+
+    <!-- For target region -->
+    <string name="str_target_region_country">देश</string>
+    <string name="str_target_region_primary">पहले क्षेत्र</string>
+    <string name="str_target_region_secondary">दूसरा क्षेत्र</string>
+    <string name="str_target_region_tertiary">तीसरे क्षेत्र</string>
+    <string name="sound_screen_save">, ऑफ स्क्रीन मोड में प्रवेश करने को रद्द करने के कोई भी कुंजी दबाएं बारे में</string>
+    <!-- For scan type -->
+
+    <string-array name="str_arr_tuning_type">
+		<item>एनालॉग टीवी</item>
+		<item>डिजिटल टीवी</item>
+		<item>पूरा</item>
+    </string-array>
+    <string-array name="str_arr_dvbc_tuning_type">
+		<item>एनालॉग टीवी</item>
+		<item>डिजिटल टीवी सीए</item>
+		<item>एनालॉग टीवी डिजिटल टीवी + सीए</item>
+    </string-array>
+
+    <!-- For dvbc operator -->
+    <string-array name="str_arr_dvbc_operator">
+		<item>अन्य लोग</item>
+		<item>Cdsmatv</item>
+		<item>Cdcable</item>
+		<item>Comhem</item>
+		<item>Upc</item>
+		<item>Yousee</item>
+		<item>Cableready</item>
+		<item>Ziggo</item>
+		<item>Stofa</item>
+    </string-array>
+
+    <string name="str_mhz">मेगाहर्ट्ज</string>
+    <string name="exittip">मेनू या स्टेशन खोज बाहर निकलने के लिए Escape कुंजी दबाएं</string>
+    <string name="str_sound_format_desconocido">Desconocido</string>
+    <string name="str_cha_tv_route_desconocido">Desconocido</string>
+    <string name="st_ca_rc_desconocido">अमान्य त्रुटि</string>
+    <string name="sky_picture">छवि</string>
+    <string name="sky_sound">ध्वनि</string>
+    <string name="sky_chanel">चैनल</string>
+    <string name="sky_setting">सेट करें</string>
+    <string name="sky_time">समय</string>
+    <string name="sky_lock">बाल ताला</string>
+    <!-- For HDMI EDID Version -->
+    <string name="str_hdmi_edid_version">HDMI ईडीआईडी संस्करण</string>
+    <string name="str_hdmi_edid_version_change">स्विचिंग HDMI ईडीआईडी संस्करण</string>
+    <string name="str_hdmi_edid_version_wait">कृपया प्रतीक्षा करें ...</string>
+
+    <string-array name="str_arr_hdmi_edid_version">
+		<item>चूक</item>
+		<item>ईडीआईडी 1.4</item>
+		<item>ईडीआईडी 2.0</item>
+    </string-array>
+
+    <string name="str_tv_unknown">अज्ञात</string>
+
+    <string name="str_set_hbbtv_switch">HBBTV</string>
+    <string-array name="str_arr_hbbtv_switch">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+
+    <string name="str_preferred_channel_list">Preferred Channel List</string>
+    <!-- For all input sources -->
+    <string-array name="str_arr_input_sources">
+		<item>कंप्यूटर</item>
+		<item>एनालॉग टीवी</item>
+		<item>वीडियो</item>
+		<item>वीडियो 2</item>
+		<item>वीडियो 3</item>
+		<item>वीडियो 4</item>
+		<item>वीडियो 5</item>
+		<item>वीडियो 6</item>
+		<item>वीडियो 7</item>
+		<item>वीडियो 8</item>
+		<item>वीडियो _MAX</item>
+		<item>sVideo</item>
+		<item>SVIDEO2</item>
+		<item>SVIDEO3</item>
+		<item>SVIDEO4</item>
+		<item>SVIDEO_MAX</item>
+		<item>अवयव</item>
+		<item>घटक 2</item>
+		<item>घटक 3</item>
+		<item>घटक _MAX</item>
+		<item>SCART</item>
+		<item>SCART2</item>
+		<item>SCART_MAX</item>
+		<item>एच.डी.</item>
+		<item>HD 2</item>
+		<item>HD 3</item>
+		<item>HD 4</item>
+		<item>HDMI_MAX</item>
+		<item>डिजिटल टीवी</item>
+		<item>एच.डी.</item>
+		<item>HD 2</item>
+		<item>HD 3</item>
+		<item>HD 4</item>
+		<item>DVI_MAX</item>
+		<item>भंडारण</item>
+		<item>KTV</item>
+		<item>जेपीईजी</item>
+		<item>डिजिटल टीवी 2</item>
+		<item>STORAGE2</item>
+		<item>DIV3</item>
+		<item>SCALER_OP</item>
+		<item>RUV</item>
+		<item>कंप्यूटर 2</item>
+		<item>कम्प्यूटर 3</item>
+		<item>NUM</item>
+		<item>कोई नहीं</item>
+    </string-array>
+
+    <string name="str_input_source_lock_title">चैनल ताला</string>
+    <string name="str_input_source_lock_prompt">लॉक / अनलॉक</string>
+    <string name="str_input_source_reset_prompt">सभी रीसेट</string>
+
+    <string name="source_info_DTV">डिजिटल टीवी</string>
+    <string name="source_info_ATV">एनालॉग टीवी</string>
+    <string name="source_info_AV1">वीडियो</string>
+    <string name="source_info_AV2">वीडियो 2</string>
+    <string name="source_info_VGA">कंप्यूटर</string>
+    <string name="source_info_HDMI1">HD 1</string>
+    <string name="source_info_HDMI2">HD 2</string>
+    
+    <!-- EWS  -->
+    <string name="str_ews_status_awas">स्थिति आवास</string>
+    <string name="str_ews_status_siaga">स्थिति SIAGA</string>
+    <string name="str_ews_status_waspada">स्थिति WASPADA:</string>
+
+    <string name="str_ews_code">Bencana:</string>
+    <string name="str_ews_event_date">Tanggal:</string>
+    <string name="str_ews_position">Posisi:</string>
+    <string name="str_ews_characteristic">फोनों:</string>
+    <string name="str_ews_message">pesan:</string>
+
+    <string name="str_ews_main_menu_location_code">स्थान कोड</string>
+
+    <string name="str_ews_location_code">स्थान कोड:</string>
+    <string name="str_ews_location_code_save">सहेजें</string>
+    <string name="str_ews_location_code_cancel">रद्द करना</string>
+
+    <string-array name="arr_atv_antenna_type">
+        <item>वायर्ड</item>
+        <item>वायरलेस</item>
+    </string-array>
+
+	<string name="str_cha_ntsc_antannatype">एंटीना के प्रकार</string>
+	<string name="tuning_no_powoff">खोज है, आपरेशन बंद नहीं किया जा सकता है!</string>
+
+	<!-- for pvr activity -->
+	<string name="str_pvr_recording_poweroff_title">शीघ्र</string>
+	<string name="str_pvr_timeshif_to_recording_message">समय-स्थानांतरित, समय एक नियुक्ति बनाने के लिए आ गया है है, पुष्टि करें कि आप बंद करो और जल जला शुरू करना चाहते हैं?</string>
+	<string name="str_pvr_recording_poweroff_message">जलन, पुष्टि करें कि आप को जलाने और इंतज़ार कर बंद करना चाहते हैं?</string>
+	<string name="str_pvr_timeshif_poweroff_message">पारी की पुष्टि की है और अतिरिक्त पारी जब जब रोकने के लिए?</string>
+	<string name="str_pvr_recording_poweroff_positive_text">यह है</string>
+	<string name="str_pvr_recording_poweroff_nagative_text">नहीं</string>
+
+	<string-array name="str_cha_dtvmanualtuning_modulation_vals">
+		<item>16 QAM</item>
+		<item>32 QAM</item>
+		<item>64 QAM</item>
+		<item>128 QAM</item>
+		<item>256 QAM</item>
+		<item>स्वचालित</item>
+    </string-array>
+
+	<string name="str_channeltuning_stop">कृपया प्रतीक्षा करें</string>
+
+    <string name="str_power_off_confirm">क्या आप वाकई बंद करने के लिए चाहते हैं?</string>
+
+
+</resources>

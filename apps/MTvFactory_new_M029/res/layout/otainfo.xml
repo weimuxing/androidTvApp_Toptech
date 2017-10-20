@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dip"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_factory_ota_info"
+            android:textColor="#ffffff"
+            android:textSize="17dip" />
+    </LinearLayout>
+    <!-- For plaName -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_plaName"
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_ota_info_praname"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/factory_ota_info_praname_val"
+            android:layout_width="250dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    <!-- For cusName -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_ota_info_cusname"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/factory_ota_info_cusname_val"
+            android:layout_width="250dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    <!-- For proName -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_ota_info_proname"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/factory_ota_info_proname_val"
+            android:layout_width="250dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+    <!-- For plaName -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="33dip"
+        android:background="@drawable/button_state"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp" >
+
+        <TextView
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="@string/str_factory_ota_info_preversion"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+
+        <TextView
+            android:id="@+id/factory_ota_info_preversion_val"
+            android:layout_width="250dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+</LinearLayout>

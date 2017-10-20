@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2014 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="275dp"
+    android:layout_height="336dp"
+    android:layout_gravity="center"
+    android:background = "@drawable/picture_mode_img_bg" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_cha_channel"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp" >
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="47dp"
+            android:gravity="left"
+            android:text="@string/str_cha_channel"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:background="@drawable/button_state" />
+
+            <ImageView style="@style/sound_sty_disabledot" ></ImageView>
+            <ImageView style="@style/sound_sty_disabledot"></ImageView>
+            <ImageView style="@style/sound_sty_enabledot"></ImageView>
+            <ImageView style="@style/sound_sty_disabledot"></ImageView>
+            <ImageView style="@style/sound_sty_disabledot"></ImageView>
+            <ImageView style="@style/sound_sty_disabledot"></ImageView>
+            <ImageView style="@style/sound_sty_disabledot"></ImageView>
+            <ImageView style="@style/pic_mode_sty_disabledot"></ImageView>
+    </LinearLayout>
+
+    <com.mstar.tv.tvplayer.ui.component.CycleScrollView
+        android:id="@+id/cyclescrollview_channel_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_marginTop="15dip" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_channel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!-- For ComboButton Antenna Type -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_antennatype"
+                style="@style/menu_vchip_sty_combo_btn" >
+
+                <ImageView style="@style/menu_vchip_sty_leftarrow" >
+                </ImageView>
+
+                <TextView
+                    style="@style/menu_vchip_sty_combo_name"
+                    android:text="@string/str_cha_antannatype" />
+
+                <TextView style="@style/menu_vchip_sty_combo_indicator" />
+
+                <ImageView style="@style/menu_vchip_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+
+           <!-- For EPG -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_epg"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <TextView
+                    android:id="@+id/textview_cha_epg"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_epg"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For Subcode -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_subcode"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <TextView
+                    android:id="@+id/textview_cha_subcode"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_subcode"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For Auto Tuning -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_autotuning"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <TextView
+                    android:id="@+id/textview_cha_autotuning"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_autotuning"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For DTV Manual Tuning -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_dtvmanualtuning"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <TextView
+                    android:id="@+id/textview_cha_dtvmanualtuning"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_dtvmanualtuning"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For ATV Manual Tuning -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_atvmanualtuning"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <TextView
+                    android:id="@+id/textview_cha_atvmanualtuning"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_atvmanualtuning"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For DVBS LNB Setting -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_dvbs_lnbsetting"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_cha_dvb_lnbsetting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_lnbsetting_title"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For Bandwidth Switch -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_bandwidth_switch"
+                style="@style/pic_mode_sty_combo_btn" >
+
+                <ImageView style="@style/pic_mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView
+                    style="@style/pic_mode_sty_combo_name"
+                    android:text="@string/str_cha_bandwidth_switch" />
+
+                <TextView style="@style/pic_mode_sty_combo_indicator" />
+
+                <ImageView style="@style/pic_mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+
+            <!-- For UHF 7 MHz Option -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_bandwidth_uhf_7mhz"
+                android:visibility="gone"
+                style="@style/pic_mode_sty_combo_btn" >
+
+                <ImageView style="@style/pic_mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView
+                    style="@style/pic_mode_sty_combo_name"
+                    android:text="@string/str_cha_bandwidth_uhf_7mhz" />
+
+                <TextView style="@style/pic_mode_sty_combo_indicator" />
+
+                <ImageView style="@style/pic_mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+
+            <!-- For Program Edit -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_programedit"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <TextView
+                    android:id="@+id/textview_cha_programedit"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_programedit"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For Signal Informaiton -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_signalinfo"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+                <TextView
+                    android:id="@+id/textview_cha_signalinfo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_signalinfo"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For Emergency Warning Broadcast System (EWBS) -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_emergencyInfo"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/textview_cha_emergencyInfo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_emergencyInfo"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For CA Information -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_cainformation"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textview_cha_cainformation"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="27dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_cainformation"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <!-- For CI Information -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_ciinformation"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <TextView
+                    android:id="@+id/textview_cha_ciinformation"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_ciinformation"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="27dp" />
+            </LinearLayout>
+
+            <!-- For Standby Scan -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_active_standby_scan"
+                style="@style/pic_mode_sty_combo_btn"
+                android:visibility="gone" >
+
+                <ImageView style="@style/pic_mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView
+                    style="@style/pic_mode_sty_combo_name"
+                    android:text="@string/str_cha_active_standby_scan" />
+
+                <TextView style="@style/pic_mode_sty_combo_indicator" />
+
+                <ImageView style="@style/pic_mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+
+            <!-- For Software Update OAD -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_software_update_oad"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    style="@style/pic_mode_sty_leftarrow"
+                    android:layout_marginTop="10dp" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/textview_cha_software_update_oad"
+                    android:layout_width="110dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="27dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_software_update_oad"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textview_cha_software_update_oad_val"
+                    android:layout_width="110dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_set_off"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    style="@style/pic_mode_sty_rightarrow"
+                    android:layout_marginTop="10dp" >
+                </ImageView>
+            </LinearLayout>
+
+            <!-- For OAD Time -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_oadtime"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <ImageView
+                    style="@style/pic_mode_sty_leftarrow"
+                    android:layout_marginTop="10dp" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/textview_cha_time_to_search_for_ssu"
+                    android:layout_width="110dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="27dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_time_to_search_for_ssu"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textview_cha_time_to_search_for_ssu_val"
+                    android:layout_width="110dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_cha_time_to_search_for_ssu_default"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    style="@style/pic_mode_sty_rightarrow"
+                    android:layout_marginTop="10dp" >
+                </ImageView>
+            </LinearLayout>
+
+            <!-- For OAD Scan -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_oadscan"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/button_state" >
+
+                <TextView
+                    android:id="@+id/textview_cha_oadscan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_cha_oadscan"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft = "27dp" />
+            </LinearLayout>
+
+            <!-- For OAD View Prompt -->
+            <LinearLayout
+                android:id="@+id/linearlayout_cha_oad_view_prompt"
+                style="@style/pic_mode_sty_combo_btn" >
+
+                <ImageView style="@style/pic_mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView
+                    style="@style/pic_mode_sty_combo_name"
+                    android:text="@string/str_cha_oad_view_prompt" />
+
+                <TextView style="@style/pic_mode_sty_combo_indicator" />
+
+                <ImageView style="@style/pic_mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.mstar.tv.tvplayer.ui.component.CycleScrollView>
+    <include layout="@layout/mainmenu_footer" />
+</LinearLayout>
+

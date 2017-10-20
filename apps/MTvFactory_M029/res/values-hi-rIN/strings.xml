@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">फैक्टरी मेनू</string>
+
+
+
+	<string name="str_factory_adc">एडीसी समायोजित करें</string>
+	<string name="str_factory_adc_source">स्रोत</string>
+	<string name="str_factory_adc_rgain">लाभ</string>
+	<string name="str_factory_adc_ggain">जी लाभ</string>
+	<string name="str_factory_adc_bgain">बी लाभ</string>
+	<string name="str_factory_adc_roffset">आर ऑफ़सेट</string>
+	<string name="str_factory_adc_goffset">जी ऑफ़सेट</string>
+	<string name="str_factory_adc_boffset">बी ऑफ़सेट</string>
+	<string name="str_factory_adc_phase">अवस्था</string>
+	<string name="str_factory_adc_autoadjust">ऑटो ट्यून</string>
+	<string name="str_factory_adc_autoadjust_val">कृपया प्रतीक्षा करें!</string>
+	<string name="str_factory_adc_autoadjust_ok">सफलता</string>
+	<string name="str_factory_adc_autoadjust_failed">अनुत्तीर्ण होना</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">समय मोड चयन त्रुटि</string>
+	<string name="str_text_adc_adjust">एडीसी समायोजित करें</string>
+	<string name="str_textview_factory_adc_source_val">वीजीए</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">क्या आप निश्चित रूप से अपग्रेड कर रहे हैं?</string>
+	<string name="str_textview_factory_dialogmenu_confirm">की पुष्टि करें</string>
+	<string name="str_textview_factory_dialogmenu_cancel">रद्द करना</string>
+	<string name="str_design_menu">डिजाइन मेनू</string>
+	<string name="str_factory_menu">फैक्टरी मेनू</string>
+
+
+
+	<string name="str_factory_whitebalance">श्वेत संतुलन</string>
+	<string name="str_factory_wbadjust_source">स्रोत</string>
+	<string name="str_factory_wbadjust_rgain">लाभ</string>
+	<string name="str_factory_wbadjust_ggain">जी लाभ</string>
+	<string name="str_factory_wbadjust_bgain">बी लाभ</string>
+	<string name="str_factory_wbadjust_roffset">आर ऑफ़सेट</string>
+	<string name="str_factory_wbadjust_goffset">जी ऑफ़सेट</string>
+	<string name="str_factory_wbadjust_boffset">बी ऑफ़सेट</string>
+	<string name="str_factory_wbadjust_autoadjust">अपने आप सही करना</string>
+	<string name="str_factory_wbadjust_colortemp">रंग का तापमान</string>
+	<string name="str_wb_adjust_text">डब्ल्यू / बी समायोजित करें</string>
+	<string name="str_textview_factory_wbadjust_source_val">वीजीए</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">वीजीए</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">चित्र मोड</string>
+	<string name="str_factory_picmode_picmode">चित्र मोड</string>
+	<string name="str_factory_picmode_brightness">चमक</string>
+	<string name="str_factory_picmode_contrast">विरोध</string>
+	<string name="str_factory_picmode_saturation">परिपूर्णता</string>
+	<string name="str_factory_picmode_hue">रंग</string>
+	<string name="str_factory_picmode_sharpness">तीखेपन</string>
+	<string name="str_factory_picmode_backlight">बैकलाइट</string>
+	<string name="str_picture_mode_text">चित्र मोड</string>
+	<string name="str_textview_factory_picmode_picmode_val">वीजीए</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">गैर-मानक विकल्प</string>
+	<string name="str_factory_nonstandard_vif">वीआईएफ (मुझे क्लिक करें)</string>
+	<string name="str_factory_nonstandard_vd">वी डी (मुझे क्लिक करें)</string>
+	<string name="str_factory_nonstandard_audio">ऑडियो (मुझे क्लिक करें)</string>
+	<string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+	<string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+	<string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+	<string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+	<string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+	<string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">China_DES_BOX_Delay</string>
+	<string name="str_factory_nonstandard_delay">विलंब</string>
+	<string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+	<string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+	<string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+	<string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+	<string name="str_factory_nonstandard_aefcd5">AFEC_D5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">AFEC_D8 [3: 0]</string>
+	<string name="str_factory_nonstandard_aefcd9">AFEC_D9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+	<string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+	<string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+	<string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+	<string name="str_factory_nonstandard_aefc66">AFEC_66 [7: 6]</string>
+	<string name="str_factory_nonstandard_aefc6e">AFEC_6E [7: 4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">AFEC_6E [3: 0]</string>
+	<string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+	<string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+	<string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+	<string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+	<string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+	<string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+	<string name="str_factory_nonstandard_audiosif">ऑडियो सीआईएफ थ्रेसहोल्ड</string>
+	<string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+	<string name="str_Non_Standard_Adjust_text">गैर मानक समायोजित करें</string>
+	<string name="str_textview_factory_nonstandard_default_val">128</string>
+
+
+	<string name="str_factory_non_linear">Non_linear</string>
+	<string name="str_factory_nonlinear_curvetype">वक्र प्रकार</string>
+	<string name="str_factory_nonlinear_osd0">OSD_0</string>
+	<string name="str_factory_nonlinear_osd25">OSD_25</string>
+	<string name="str_factory_nonlinear_osd50">OSD_50</string>
+	<string name="str_factory_nonlinear_osd75">OSD_75</string>
+	<string name="str_factory_nonlinear_osd100">OSD_100</string>
+	<string name="str_Non_Linear_Adjust_text">गैर-रैखिक समायोजित करें</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">वीजीए</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">ओवरस्कैन</string>
+	<string name="str_factory_overscan_source">स्रोत</string>
+	<string name="str_factory_overscan_hsize">एच आकार</string>
+	<string name="str_factory_overscan_hposition">एच स्थिति</string>
+	<string name="str_factory_overscan_vsize">वी आकार</string>
+	<string name="str_factory_overscan_vposition">वी स्थिति</string>
+	<string name="str_factory_overscan_adjust_text">ओवरस्कैन समायोजित करें</string>
+	<string name="str_textview_factory_overscan_source_val">एटीवी</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">एसएससी समायोजित करें</string>
+	<string name="str_factory_ssc_miuenable">एमआईयू सक्षम करें</string>
+	<string name="str_factory_ssc_miumodulation">एमआईयू मॉड्यूलेशन</string>
+	<string name="str_factory_ssc_miupercentage">एमआईयू प्रतिशत (%)</string>
+	<string name="str_factory_ssc_lvdsenable">एलवीडीएस सक्षम करें</string>
+	<string name="str_factory_ssc_lvdsmodulation">एलवीडीएस मॉडुलन</string>
+	<string name="str_factory_ssc_lvdspercentage">एलवीडीएस प्रतिशत (%)</string>
+	<string name="str_factory_ssc_u_miuenable">MIU_U सक्षम करें</string>
+	<string name="str_factory_ssc_u_miumodulation">MIU_U मोड्यूलेशन</string>
+	<string name="str_factory_ssc_u_miupercentage">MIU_U प्रतिशत (%)</string>
+	<string name="str_factory_ssc_u_lvdsenable">LVDS_U सक्षम करें</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">LVDS_U मॉड्यूलेशन</string>
+	<string name="str_factory_ssc_u_lvdspercentage">एलवीडीएसयूयू प्रतिशत (%)</string>
+	<string name="str_ssc_adjust_text">एसएससी समायोजित करें</string>
+	<string name="str_textview_factory_ssc_default_val">128</string>
+
+
+
+	<string name="str_factory_peq">PEQ</string>
+	<string name="str_factory_peq_fo1coarse">एफओ 1 मोटे</string>
+	<string name="str_factory_peq_fo1fine">एफओ 1 ललित</string>
+	<string name="str_factory_peq_fo2coarse">एफओ 2 मोटे</string>
+	<string name="str_factory_peq_fo2fine">एफओ 2 ठीक</string>
+	<string name="str_factory_peq_fo3coarse">एफओ 3 मोटे</string>
+	<string name="str_factory_peq_fo3fine">एफओ 3 ललित</string>
+	<string name="str_factory_peq_fo4coarse">एफओ 4 मोटे</string>
+	<string name="str_factory_peq_fo4fine">एफओ 4 ठीक</string>
+	<string name="str_factory_peq_fo5coarse">एफओ 5 मोटे</string>
+	<string name="str_factory_peq_fo5fine">एफओ 5 ठीक है</string>
+	<string name="str_factory_peq_gain1">Gain1</string>
+	<string name="str_factory_peq_gain2">Gain2</string>
+	<string name="str_factory_peq_gain3">Gain3</string>
+	<string name="str_factory_peq_gain4">Gain4</string>
+	<string name="str_factory_peq_gain5">Gain5</string>
+	<string name="str_factory_peq_q1">Q1</string>
+	<string name="str_factory_peq_q2">Q2</string>
+	<string name="str_factory_peq_q3">Q3</string>
+	<string name="str_factory_peq_q4">Q4</string>
+	<string name="str_factory_peq_q5">क्यू 5</string>
+	<string name="str_peq_adjust_text">PEQ समायोजित करें</string>
+	<string name="str_textview_factory_peq_default_val">128</string>
+
+
+	<string name="str_factory_ci_setting">सीआई फैक्टरी सेटिंग</string>
+	<string name="str_factory_ci_credential_mode">सीआई + क्रेडेंशियल मोड</string>
+	<string name="str_factory_ci_performance_monitor">प्रदर्शन निरीक्षक</string>
+	<string name="str_factory_ci_resource_manager">संसाधन प्रबंधक</string>
+	<string name="str_factory_ci_application_infomation">आवेदन की सूचना</string>
+	<string name="str_factory_ci_conditional_access_support">सशर्त पहुंच समर्थन</string>
+	<string name="str_factory_ci_host_control">होस्ट नियंत्रण</string>
+	<string name="str_factory_ci_date_time">दिनांक समय</string>
+	<string name="str_factory_ci_man_machine_interface">मैन मशीन इंटरफेस</string>
+	<string name="str_factory_ci_low_speed_communication">कम गति संचार</string>
+	<string name="str_factory_ci_content_control">सामग्री नियंत्रण</string>
+	<string name="str_factory_ci_host_language_country">होस्ट भाषा देश</string>
+	<string name="str_factory_ci_cam_upgrade">सीएएम अपग्रेड</string>
+	<string name="str_factory_ci_operator_profile">ऑपरेटर प्रोफ़ाइल</string>
+	<string name="str_factory_ci_specific_application_support">विशिष्ट अनुप्रयोग समर्थन</string>
+	<string name="str_factory_ci_app_man_machine_interface">एप्लिकेशन मैन मशीन इंटरफ़ेस</string>
+	<string name="str_factory_ci_program_map_table">कार्यक्रम मानचित्र तालिका (कोई प्रयुक्त नहीं)</string>
+	<string name="str_factory_ci_host_service_shunning">होस्ट सेवा दिखाना</string>
+	<string name="str_factory_ci_canal_ready_authentication">नहर तैयार प्रमाणीकरण</string>
+	<string name="str_factory_ci_default_tx_rx">डिफ़ॉल्ट TX ​​/ RX</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">टेस्ट (सीआई लाइब्रेरी)</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">टेस्ट (नंद फ्लैश)</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">माउंट कॉन्फ़िग</string>
+
+
+
+	<string name="str_factory_pqtableupdate">पीक्यू टेबल अपडेट</string>
+
+
+	<string name="str_factory_ursa_info">उर्स जानकारी</string>
+	<string name="str_factory_ursa_version">संस्करण</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">सूचि बदलें</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">पैनल जानकारी</string>
+	<string name="str_textview_factory_panelinfo_text_timode">तिवारी मोड</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">बिट मोड</string>
+	<string name="str_textview_factory_panelinfo_text_swap">स्वैप मोड</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">दोहरा अंदाज</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">मिरर मोड</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">VolumeCurve</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω8W</string>
+
+
+
+	<string name="str_set_mute_color">मूक रंग</string>
+
+
+	<string name="str_factory_otheroption">अन्य विकल्प</string>
+	<string name="str_factory_otheroption_version">संस्करण</string>
+	<string name="str_factory_otheroption_name">नाम</string>
+	<string name="str_factory_otheroption_build">निर्माण</string>
+	<string name="str_factory_otheroption_changelist">सूचि बदलें</string>
+	<string name="str_factory_otheroption_board">मंडल</string>
+	<string name="str_factory_otheroption_panel">पैनल</string>
+	<string name="str_factory_otheroption_date">तारीख</string>
+	<string name="str_factory_otheroption_time">पहर</string>
+	<string name="str_factory_otheroption_watchdog">देखो कुत्ता</string>
+	<string name="str_factory_otheroption_wake_on_lan">लैन पर जागो</string>
+	<string name="str_factory_otheroption_testpattern">परीक्षण पैटर्न</string>
+	<string name="str_factory_otheroption_upgrademboot">Mboot अपग्रेड करें</string>
+	<string name="str_factory_otheroption_upgrademain">मुख्य अपग्रेड करें</string>
+	<string name="str_factory_otheroption_upgrade6m30">6M30 अपग्रेड करें</string>
+	<string name="str_factory_otheroption_upgradedualursa">दोहरा ऊर्स अपग्रेड करें</string>
+	<string name="str_factory_otheroption_restoretodefault">डिफ़ॉल्ट रिस्टोर करे</string>
+	<string name="str_factory_otheroption_poweronmode">पावर ऑन मोड</string>
+	<string name="str_factory_otheroption_uartenable">Uart सक्षम करें</string>
+	<string name="str_factory_otheroption_display_logo">प्रदर्शन लोगो</string>
+	<string name="str_factory_otheroption_dtvavdelay">डीटीवी एवी देरी (गैर-मानक)</string>
+	<string name="str_factory_otheroption_initialfunction">प्रारंभिक चैनल</string>
+	<string name="str_factory_otheroption_panelswing">पैनल स्विंग</string>
+	<string name="str_factory_otheroption_audioprescale">ऑडियो प्रेस्केल</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">3 डी स्व-अनुकूली खोज स्तर</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">क्या आप निश्चित रूप से अपग्रेड कर रहे हैं?</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">की पुष्टि करें</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">रद्द करना</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">कृपया यूएसबी प्लग करें!</string>
+	<string name="str_factory_otheroption_xvycc">xvYCC</string>
+	<string name="str_factory_otheroption_pvrrecordall">आरवीआर सभी रिकॉर्ड</string>
+	<string name="str_other_option_text">अन्य विकल्प समायोजित करें</string>
+	<string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+	<string name="str_textview_factory_otheroption_board_val">J2</string>
+	<string name="str_textview_factory_otheroption_panel_val">पूर्ण एच डी</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">पर</string>
+	<string name="str_textview_factory_otheroption_text_off">बंद</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+	<string name="str_textview_factory_otheroption_default_val">0 "</string>
+	<string name="str_factory_otheroption_main_pq_version">मुख्य पीक्यू संस्करण</string>
+	<string name="str_factory_otheroption_sub_pq_version">उप पीक्यू संस्करण</string>
+	<string name="str_textview_factory_otheroption_waiting_val">कृपया प्रतीक्षा करते रहे!</string>
+	<string name="str_factory_otheroption_mstv_tool">Uart डिबग</string>
+	<string name="str_factory_otheroption_pq_update">पीक्यू अपडेट</string>
+	<string name="str_factory_otheroption_pq_update_state">फिर से लॉगिन करने के लिए!</string>
+	<string name="str_factory_nonstandard_afeccf_av">AFEC_CF [2] _AV</string>
+	<string name="str_factory_nonstandard_afeccf_atv">AFEC_CF [2] _ATV</string>
+	<string name="str_ursa_test_result_title">परिणाम :</string>
+	<string name="str_ursa_test_run_auto">ऑटो चालू करें</string>
+	<string name="str_ursa_test_title">उर्स टेस्ट</string>
+	<string name="str_ursa_test_run">रन</string>
+	<string name="str_Info_title">जानकारी</string>
+	<string name="str_factory_otheroption_sw_version">SW संस्करण</string>
+	<string name="str_factory_otheroption_dtv_preset">डीटीवी प्रीसेट</string>
+	<string name="str_factory_otheroption_dtv_preset_state">फिर से लॉगिन करने के लिए!</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">कृपया प्रतीक्षा करें...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">समाप्त, 1 मिनट के बाद एसी बंद करें</string>
+	<string name="enter">ठीक है, फ़ैक्टरी मेनू दर्ज करें -></string>
+	<string name="tips">एल-आर एजॉल्फ़, "ओके" अगला प्रविष्ट करें, "बाहर निकलें" / "मेनू" रिटर्न</string>
+	<string name="str_factory_otheroption_str_enable">एसटीआर सक्षम करें</string>
+	<string name="str_factory_otheroption_audiodelay">स्पीकर ऑडियो विलंब</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">आईपी ​​मैपिंग सक्षम करें</string>
+	<string name="str_ipenablemapping_text">आईपी ​​मैपिंग सक्षम करें</string>
+
+
+	<string name="str_factory_update">यूएसबी से अपग्रेड करें</string>
+	<string name="str_factory_upgrade">यूएसबी से अपग्रेड करें</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">USB से HDCP कुंजी अपडेट करें</string>
+	<string name="str_factory_updateCIkeyfromUSB">सीआई प्लस कुंजी को यूएसबी से अपडेट करें</string>
+	<string name="str_factory_upgrade_ci_upgrade">सीई अपग्रेड</string>
+	<string name="str_factory_upgrade_ci_display">सीआई डिस्प्ले</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">एचडीसीपी अपग्रेड</string>
+	<string name="str_factory_upgrade_hdcp_display">एचडीसीपी डिस्प्ले</string>
+	<string name="str_factory_upgrade_mac_upgrade">मैक अपग्रेड</string>
+	<string name="str_factory_upgrade_mac_display">मैक डिस्प्ले</string>
+	<string name="str_factory_upgrade_sn_upgrade">एस एन अपग्रेड</string>
+	<string name="str_factory_upgrade_sn_display">एसएन डिस्प्ले</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">एचडीसीपी 2 अपग्रेड</string>
+	<string name="str_factory_upgrade_hdcp2_display">एचडीसीपी 2 डिस्प्ले</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">डेमोड जानकारी</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">डीवीबीटी जानकारी</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">DVBC जानकारी</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">获取 डीवीबीटी / डीवीबीसी जानकारी 失败</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">फैक्टरी कार्यक्रम प्रीसेट फ़ंक्शन</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">फैक्टरी कार्यक्रम प्रीसेट</string>
+	<string name="str_factory_otheroption_factoryprogramreset">फैक्टरी कार्यक्रम रीसेट</string>
+	<string name="str_factory_otheroption_backupdbtousb">यूएसबी के लिए बैकअप डीबी</string>
+	<string name="str_factory_otheroption_restoredbfromusb">यूएसबी से डीबी को पुनर्स्थापित करें</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">फिर से लॉगिन करने के लिए!</string>
+	<string name="str_textview_factory_otheroption_text_pass">उत्तीर्ण करना</string>
+	<string name="str_textview_factory_otheroption_text_fail">असफल</string>
+	<string name="str_factory_db_path">/ Tvdatabase / डाटाबेस /</string>
+	<string name="str_factory_db_file">* CMDB * .bin</string>
+
+	<string name="str_factory_again_mode">एजिंग मोड</string>
+	<string name="str_factory_running_time">बिजली समय (एच / 2)</string>
+
+
+	<string name="str_design_menu_sound">ध्वनि</string>
+	<string name="str_factory_prescale">Prescale</string>
+	<string name="str_factory_avc_enable">एवीसी सक्षम करें</string>
+	<string name="str_factory_avc_threthold">एवीसी थिल</string>
+	<string name="str_factory_drc_enable">डीआरसी सक्षम करें</string>
+	<string name="str_factory_drc_threthold">डीसीसी थिल</string>
+	<string name="str_factory_sound_effect">प्रभाव (HPF)</string>
+	<string name="str_factory_sound_toneffect">सुर</string>
+	<string name="str_factory_audio_delay">ऑडियो विलंब (स्पीकर)</string>
+	<string name="str_factory_audio_nr">ऑडियो एनआर</string>
+	<string name="str_factory_lineout">LineOut (AUOUT1)</string>
+	<string name="str_factory_speaker">मात्रा (AUOUT0)</string>
+	<string name="str_factory_audio_spdif_delay">ऑडियो विलंब (SPDIF)</string>
+
+	<string name="str_factory_ota_info">ओटीए जानकारी</string>
+	<string name="str_factory_ota_info_praname">praName</string>
+	<string name="str_factory_ota_info_cusname">cusName</string>
+	<string name="str_factory_ota_info_proname">proName</string>
+	<string name="str_factory_ota_info_preversion">preVersion</string>
+	<string name="str_factory_onidaview">स्क्रॉलिंग विकल्प उपलब्ध</string>
+
+	<string name="str_textview_factory_total_run_time">ज</string>
+	<string name="str_total_run_time">TotalRunTime</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    <RelativeLayout
+        android:id="@+id/menuBgRelativeLayout"
+        android:layout_width="333dip"
+        android:layout_height="333dip"
+        android:background="@drawable/menu_bg">
+        <!-- Focus button -->
+        <ImageView
+            android:id="@+id/menuFocusImage"
+            android:layout_width="114dip"
+            android:layout_height="114dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/menu_focus"
+            android:visibility="invisible" />
+        <!-- Upper part of the control -->
+        <ImageView
+            android:id="@+id/upImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dip"
+            android:src="@drawable/common_img_arrow_u"
+            android:visibility="invisible" />
+        <TextView
+            android:id="@+id/upText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/upImage"
+            android:layout_marginTop="10dip"
+            android:visibility="invisible" />
+        <!-- Left part of the control -->
+        <ImageView
+            android:id="@+id/leftImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/common_img_arrow_l"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dip"
+            android:visibility="invisible" />
+        <TextView
+            android:id="@+id/leftText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/leftImage"
+            android:layout_marginLeft="10dip"
+            android:visibility="invisible" />
+        <!-- Right part of the control -->
+        <TextView
+            android:id="@+id/rightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/rightImage"
+            android:layout_marginRight="10dip"
+            android:layout_centerVertical="true"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/rightImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/common_img_arrow_r"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dip"
+            android:layout_centerVertical="true"
+            android:visibility="invisible" />
+        <!-- Down part of the control -->
+        <TextView
+            android:id="@+id/downText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/downImage"
+            android:layout_marginBottom="10dip"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/downImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/common_img_arrow_d"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dip"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</LinearLayout>

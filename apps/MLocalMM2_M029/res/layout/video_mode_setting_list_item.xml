@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="7dip"
+    android:paddingBottom="7dip">
+
+    <TextView
+        android:id="@+id/settingNameTextView"
+        android:layout_width="70dip"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:layout_marginLeft="30dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+    
+    <SeekBar
+        android:id="@+id/showProgressBar"
+        android:layout_width="300dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+		android:progressDrawable="@drawable/seekbar_line"
+		android:thumb="@drawable/seekbar_icon"
+        android:thumbOffset="0dip"/>
+
+    <ImageView
+        android:id="@+id/leftImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/left" />
+
+    <TextView
+        android:id="@+id/settingOptionTextView"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dip"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="#b2b2b2"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/rightImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="7dp"
+        android:layout_gravity="center"
+        android:src="@drawable/right" />
+
+</LinearLayout>

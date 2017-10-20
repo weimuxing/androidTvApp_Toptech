@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/factorytestview1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/factorytest_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        android:visibility="gone"
+        android:textSize="80sp" />
+
+    <LinearLayout
+        android:id="@+id/factorytestview2"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn1"
+                style="@style/skye_factory_teststyle"
+                android:layout_weight="1"
+                android:text="@string/str_factory_test_power" />
+
+            <TextView
+                android:id="@+id/btn2"
+                style="@style/skye_factory_teststyle"
+                android:layout_weight="1"
+                android:text="@string/str_factory_test_chup" />
+
+            <TextView
+                android:id="@+id/btn3"
+                style="@style/skye_factory_teststyle"
+                android:layout_weight="1"
+                android:text="@string/str_factory_test_chdown" />
+
+            <TextView
+                android:id="@+id/btn4"
+                style="@style/skye_factory_teststyle"
+                android:layout_weight="1"
+                android:text="@string/str_factory_test_voldown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn5"
+                style="@style/skye_factory_teststyle"
+                android:layout_weight="1"
+                android:text="@string/str_factory_test_volup" />
+
+            <TextView
+                android:id="@+id/btn6"
+                style="@style/skye_factory_teststyle"
+                android:layout_weight="1"
+                android:text="@string/str_factory_test_menu" />
+
+            <TextView
+                android:id="@+id/btn7"
+                style="@style/skye_factory_teststyle"
+                android:layout_weight="1"
+                android:text="@string/str_factory_test_source" />
+
+            <TextView
+                android:id="@+id/btn8"
+                style="@style/skye_factory_teststyle"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:text="@string/str_factory_test_ready" />
+        </LinearLayout>
+        
+       <LinearLayout
+	    android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal" >
+
+		<TextView 
+		    android:id="@+id/btn_usb1"
+		    android:text="@string/str_usb1"
+		    style="@style/skye_factory_teststyle"
+            android:layout_weight="1"
+		    />
+		<TextView 
+		    android:id="@+id/btn_usb2"
+		    android:text="@string/str_usb2"
+		    style="@style/skye_factory_teststyle"
+            android:layout_weight="1"
+		    />
+		<TextView 
+		    android:id="@+id/btn_usb3"
+		    android:text="@string/str_usb3"
+		    style="@style/skye_factory_teststyle"
+            android:layout_weight="1"
+		    />
+    </LinearLayout>  
+    
+    </LinearLayout>
+            
+</FrameLayout>

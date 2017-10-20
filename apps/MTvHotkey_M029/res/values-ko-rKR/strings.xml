@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+    <string name="app_name">com.mstar.tvsetting.hotkey</string>
+	<string name="str_textviewhot_key_combo_button_picture_mode">그림 모드</string>
+	<string name="str_textviewhot_key_combo_button_pvr_mode">PVR 모드</string>
+	<string name="str_textviewhot_key_combo_button_sleep_mode">수면 모드</string>
+	<string name="str_textviewhot_key_combo_button_sound_mode">사운드 모드</string>
+	<string name="str_hot_key_volume_default_val">50</string>
+	<string name="str_textviewhot_key_combo_button_zoom_mode">줌 모드</string>
+	<string name="action_settings">설정</string>
+	<string name="str_mainmenu_menu">메뉴</string>
+	<string name="static_source_alert">첫 번째 정적 프리뷰 soure로 선택 하시겠습니까?</string>
+
+
+	<string name="tip11">탐색 :</string>
+	<string name="tip22">고르다:</string>
+	<string name="tip33">뒤로:</string>
+
+
+	<string name="str_inpsrc_title">입력 소스 갤러리</string>
+	<string name="str_inpsrc_bg_preview_mode">BK 미리보기 모드</string>
+	<string name="str_program_edit_dialog_ok">승인</string>
+	<string name="str_program_edit_dialog_cancel">취소</string>
+
+	<string name="str_source_av">AV</string>
+	<string name="str_source_hdmi">HDMI</string>
+	<string name="str_source_ypbpr">YPbPr</string>
+	<string name="volume">음량</string>
+	<string name="str_source_no_dtv">TV</string>
+
+	<string-array name="str_arr_input_source_vals">
+        <item>VGA</item>
+        <item>ATV</item>
+        <item>AV1</item>
+        <item>AV2</item>
+        <item>CVBS3</item>
+        <item>CVBS4</item>
+        <item>CVBS5</item>
+        <item>CVBS6</item>
+        <item>CVBS7</item>
+        <item>CVBS8</item>
+        <item>CVBS_MAX</item>
+        <item>SVIDEO</item>
+        <item>SVIDEO2</item>
+        <item>SVIDEO3</item>
+        <item>SVIDEO4</item>
+        <item>SVIDEO_MAX</item>
+        <item>YPBPR</item>
+        <item>YPBPR2</item>
+        <item>YPBPR3</item>
+        <item>YPBPR_MAX</item>
+        <item>SCART</item>
+        <item>SCART2</item>
+        <item>SCART_MAX</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+        <item>HDMI4</item>
+        <item>HDMI_MAX</item>
+        <item>DTV</item>
+        <item>DVI</item>
+        <item>DVI2</item>
+        <item>DVI3</item>
+        <item>DVI4</item>
+        <item>DVI_MAX</item>
+        <item>STORAGE</item>
+        <item>KTV</item>
+        <item>JPEG</item>
+        <item>DTV2</item>
+        <item>STORAGE2</item>
+        <item>DIV3</item>
+        <item>SCALER_OP</item>
+        <item>RUV</item>
+        <item>VGA2</item>
+        <item>VGA3</item>
+    </string-array>
+    <string-array name="str_arr_input_source_vals_onida">
+        <item>VGA</item>
+        <item>ATV</item>
+        <item>AV1</item>
+        <item>AV2</item>
+        <item>CVBS3</item>
+        <item>CVBS4</item>
+        <item>CVBS5</item>
+        <item>CVBS6</item>
+        <item>CVBS7</item>
+        <item>CVBS8</item>
+        <item>CVBS_MAX</item>
+        <item>SVIDEO</item>
+        <item>SVIDEO2</item>
+        <item>SVIDEO3</item>
+        <item>SVIDEO4</item>
+        <item>SVIDEO_MAX</item>
+        <item>YPBPR</item>
+        <item>YPBPR2</item>
+        <item>YPBPR3</item>
+        <item>YPBPR_MAX</item>
+        <item>SCART</item>
+        <item>SCART2</item>
+        <item>SCART_MAX</item>
+        <item>HDMI1/ARC</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+        <item>HDMI4</item>
+        <item>HDMI_MAX</item>
+        <item>DTV</item>
+        <item>DVI</item>
+        <item>DVI2</item>
+        <item>DVI3</item>
+        <item>DVI4</item>
+        <item>DVI_MAX</item>
+        <item>STORAGE</item>
+        <item>KTV</item>
+        <item>JPEG</item>
+        <item>DTV2</item>
+        <item>STORAGE2</item>
+        <item>DIV3</item>
+        <item>SCALER_OP</item>
+        <item>RUV</item>
+        <item>VGA2</item>
+        <item>VGA3</item>
+    </string-array>
+    <string-array name="str_arr_atsc_input_source_vals">
+        <item>VGA</item>
+        <item></item>
+        <item>CVBS</item>
+        <item>CVBS2</item>
+        <item>CVBS3</item>
+        <item>CVBS4</item>
+        <item>CVBS5</item>
+        <item>CVBS6</item>
+        <item>CVBS7</item>
+        <item>CVBS8</item>
+        <item>CVBS_MAX</item>
+        <item>SVIDEO</item>
+        <item>SVIDEO2</item>
+        <item>SVIDEO3</item>
+        <item>SVIDEO4</item>
+        <item>SVIDEO_MAX</item>
+        <item>YPBPR1</item>
+        <item>YPBPR2</item>
+        <item>YPBPR3</item>
+        <item>YPBPR_MAX</item>
+        <item>SCART</item>
+        <item>SCART2</item>
+        <item>SCART_MAX</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+        <item>HDMI4</item>
+        <item>HDMI_MAX</item>
+        <item>TV</item>
+        <item>DVI</item>
+        <item>DVI2</item>
+        <item>DVI3</item>
+        <item>DVI4</item>
+        <item>DVI_MAX</item>
+        <item>STORAGE</item>
+        <item>KTV</item>
+        <item>JPEG</item>
+        <item>DTV2</item>
+        <item>STORAGE2</item>
+        <item>DIV3</item>
+        <item>SCALER_OP</item>
+        <item>RUV</item>
+        <item>VGA2</item>
+        <item>VGA3</item>
+    </string-array>
+    <string-array name="str_arr_idsb_input_source_vals">
+        <item>VGA</item>
+        <item>CABLE</item>
+        <item>CVBS</item>
+        <item>CVBS2</item>
+        <item>CVBS3</item>
+        <item>CVBS4</item>
+        <item>CVBS5</item>
+        <item>CVBS6</item>
+        <item>CVBS7</item>
+        <item>CVBS8</item>
+        <item>CVBS_MAX</item>
+        <item>SVIDEO</item>
+        <item>SVIDEO2</item>
+        <item>SVIDEO3</item>
+        <item>SVIDEO4</item>
+        <item>SVIDEO_MAX</item>
+        <item>YPBPR1</item>
+        <item>YPBPR2</item>
+        <item>YPBPR3</item>
+        <item>YPBPR_MAX</item>
+        <item>SCART</item>
+        <item>SCART2</item>
+        <item>SCART_MAX</item>
+        <item>HDMI1</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+        <item>HDMI4</item>
+        <item>HDMI_MAX</item>
+        <item>AIR</item>
+        <item>DVI</item>
+        <item>DVI2</item>
+        <item>DVI3</item>
+        <item>DVI4</item>
+        <item>DVI_MAX</item>
+        <item>STORAGE</item>
+        <item>KTV</item>
+        <item>JPEG</item>
+        <item>DTV2</item>
+        <item>STORAGE2</item>
+        <item>DIV3</item>
+        <item>SCALER_OP</item>
+        <item>RUV</item>
+        <item>VGA2</item>
+        <item>VGA3</item>
+    </string-array>
+
+	<string name="str_input_source_dialog">잠시만 기다려주세요.</string>
+	<string name="str_input_source_title">입력 소스</string>
+
+	<string name="str_root_popup_left">이내에</string>
+	<string name="str_root_popup_second">초</string>
+	<string name="str_root_popup_switch_to">로 전환</string>
+	<string name="str_root_popup_ready_to_switch">스위치를 실행할 준비가되었습니다.</string>
+	<string name="str_root_popup_ready_off">종료 준비 완료</string>
+	<string name="str_root_popup_off_after">종료 전의 초 수</string>
+	<string name="str_root_popup_off_infor">취소하려면 아무 키나 누르십시오.</string>
+	<string name="str_root_popup_system_clock_change">시스템 시계가 변경되었습니다. \'자동 실행 \'기능을 종료하십시오!</string>
+	<string name="str_stop_record_dialog_title">녹화 중지</string>
+	<string name="str_stop_record_dialog_message">사용자가 입력 소스를 변경하려는 경우 시스템에서 레코드를 중지합니다.</string>
+	<string name="str_stop_record_dialog_confirm">확인</string>
+	<string name="str_stop_record_dialog_cancel">취소</string>
+	<string name="str_media_browser">미디어 브라우저</string>
+	<string name="str_source_preview_warning">소스 preivew가 비활성화되었습니다.</string>
+
+</resources>

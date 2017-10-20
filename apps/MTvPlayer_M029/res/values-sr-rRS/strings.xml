@@ -1,0 +1,2671 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	 <!-- For Picture -->
+    <string name="str_auto_adjust">Аутоматско подешавање</string>
+    <string name="app_name">Твсеттинг</string>
+    <string name="str_pic_picture_adjustment">Слика Подешавање</string>
+    <string name="str_pic_picture">слика</string>
+    <string name="str_pic_picturemode">Слика режим</string>
+    <string name="edit_program_toast">Назив програма не може бити празна!</string>
+    <string name="str_delete_program_title">Потврди Делете?</string>
+    <string name="str_warning_isrecording">Искључите горионик пре приправности</string>
+    <string name="str_stop_record_to_power_dialog_message">Систем ће се искључити након рекордер је искључен!</string>
+    <string name="str_stop_timeshift_to_power_dialog_message">Систем ће се искључити након смене када се затвара!</string>
+    <string name="str_stop_record_to_home_dialog_message">Систем ће се вратити на главни екран након што престанете гори!</string>
+    <string name="str_stop_playback_to_home_dialog_message">Систем ће се вратити на главни екран када престанем да играм!</string>
+    <string name="str_stop_timeshift_to_home_dialog_message">Након систем ће се вратити на главни екран када престанете!</string>
+    <string name="str_100">-</string>
+    <string name="str_10">-</string>
+    <string name="str_1">-</string>
+    <string name="str_root_popup_off_after">секунди приправности</string>
+    <string name="str_schedule_select_null_msg">Овај догађај није изабран</string>
+
+    <string name="str_pic_contrast">контраст</string>
+    <string name="str_pic_brightness">бистрина</string>
+    <string name="str_pic_color">засићење</string>
+    <string name="str_pic_sharpness">оштрина</string>
+    <string name="str_pic_hue">нијанса</string>
+    <string name="str_pic_saturation">засићење</string>
+    <string name="str_pic_backlight">бацклигхт</string>
+    <string name="str_pic_colortemperature">temperatura боје</string>
+
+    <string name="str_pic_colortemperature_red">црвен</string>
+    <string name="str_pic_colortemperature_green">зелен</string>
+    <string name="str_pic_colortemperature_blue">блуе</string>
+    <string name="str_pic_zoommode">зоом мод</string>
+    <string name="str_pic_size">veličina слике</string>
+
+
+
+    <string name="str_pic_imgnoisereduction">Слика смањење буке</string>
+    <string name="str_pic_mpegnoisereduction">МПЕГ-смањење буке</string>
+
+    <string name="str_pic_pcimagemode">ПК подешавање екрана</string>
+    <string name="str_pic_autotune">Аутоматско подешавање</string>
+    <string name="str_set_hdmicec_arc">АРЦ</string>
+    <string name="str_pic_pcimagemode_waiting">Цомпутер сцреен се подешава, сачекајте ...</string>
+    <string name="str_pic_pcimagemode_success"> Подешавање слике успех!</string>
+    <string name="str_pic_pcimagemode_failed"> Пропуст да подесите екран!</string>
+
+    <!-- for pc image mode -->
+
+    <string name="str_pic_clock">сат</string>
+    <string name="str_pic_phase">фаза</string>
+    <string name="str_pic_horizontal_pos">хоризонталан положај</string>
+    <string name="str_pic_vertical_pos">вертикални положај</string>
+
+    <!-- sound menu -->
+
+    <string name="str_sound_sound_adjustment">звук</string>
+    <string name="str_sound_soundmode">Режим звука</string>
+
+    <string name="str_sound_bass">бас</string>
+    <string name="str_sound_treble">high pitch</string>
+    <string name="str_sound_equalizer">еквилајзер</string>
+    <string name="str_sound_equalizer120hz">120Хз</string>
+    <string name="str_sound_equalizer500hz">500Хз</string>
+    <string name="str_sound_equalizer1.5khz">1.5кХз</string>
+    <string name="str_sound_equalizer5khz">5кХз</string>
+    <string name="str_sound_equalizer10khz">10КХз</string>
+    <string name="str_sound_balance">избалансиран звук</string>
+    <string name="str_sound_avc"> Аутоматска контрола јачине звука</string>
+    <string name="str_sound_ad">ад предаја</string>
+    <string name="str_sound_ad_volume">ад tom</string>
+    <string name="str_sound_autohoh">ауто ХОХ</string>
+    <string name="str_sound_truehdbypass">Нект-ген извор излаз</string>
+
+    <string name="str_sound_srs">Сурроунд звук</string>
+
+
+
+    <string name="str_sound_surround">Сурроунд звук</string>
+
+
+
+    <string name="str_sound_spdifoutput">СПДИФ излаз</string>
+
+
+	<string name="str_sound_music_mode">pojedinačno слушати</string>
+    <string name="str_sound_separatehear">pojedinačno слушати</string>
+
+
+
+    <!-- For 3d -->
+
+    <string name="str_3d_3d"> 3Д</string>
+
+    <string name="str_3d_self_adaptive_detecttriple">3Д Селф-тест</string>
+
+
+    <string name="str_3dto2d_self_adaptive_detecttriple">3Д-2Д Селф-тест</string>
+
+
+    <string name="str_3d_self_adaptive_detectlevel">адаптиве снага</string>
+
+
+
+    <string name="str_3d_conversion">3Д формат претворбе</string>
+
+
+
+    <string name="str_3d_3dto2d">3Д турн 2Д</string>
+
+
+
+    <string name="str_3d_3ddepth">3Д дубина поља</string>
+
+
+
+    <string name="str_3d_3doffset">3Д Оффсет</string>
+
+
+
+    <string name="str_3d_autostart">automatski почетак</string>
+
+
+
+    <string name="str_3d_3doutputaspect"> 3Д излаз омјер</string>
+
+
+
+    <string name="str_3d_lrswitch">о размени</string>
+
+
+
+    <!-- for Channel -->
+    <string name="str_cha_antannatype">Тип антене</string>
+
+    <string name="str_cha_antannatype_none">недефинисан</string>
+    <string name="str_cha_antannatype_air">бежични</string>
+    <string name="str_cha_antannatype_cable">жичани</string>
+
+    <string name="str_prompt_setup_wizard_title">Изаберите врсту антене и почне аутоматско тражење станица</string>
+    <string name="str_prompt_setup_wizard_next">Наредни корак</string>
+    <string name="str_prompt_setup_wizard_skip">прескочити</string>
+    <string name="str_prompt_setup_location_title">Молимо одаберите регион</string>
+
+    <string name="str_cha_changing_antenna_type">Мењамо тип антене</string>
+    <string name="str_ci_async_cmd_switch_route">Ци позивају прекидач роуте ...</string>
+    <string name="str_cha_please_wait">Молимо сачекајте</string>
+
+    <string name="str_cha_tv_route_none">недефинисан</string>
+    <string name="str_cha_tv_route_dvbt">бежични</string>
+    <string name="str_cha_tv_route_dvbc">жичани</string>
+    <string name="str_cha_tv_route_dvbs">сателит</string>
+    <string name="str_cha_tv_route_dvbt2">бежични</string>
+    <string name="str_cha_tv_route_dvbs2">сателит</string>
+    <string name="str_cha_tv_route_dtmb">ДТМБ</string>
+    <string name="str_cha_tv_route_unknown">непознат</string>
+
+    <string name="str_cha_channel">канал</string>
+    <string name="str_cha_autotuning">Аутоматско тражење станица</string>
+    <string name="str_source">извор</string>
+    <string name="str_cha_dtvmanualtuning"> Дигитални Ручно претраживање</string>
+    <string name="str_cha_atvmanualtuning">Аналогни Ручно претраживање</string>
+
+	<string name="str_cha_manualtuning">Ручно претраживање</string>
+   
+   <string name="str_cha_bandwidth_switch">бандвидтх пребацивање</string>
+    <string name="str_cha_bandwidth_uhf_7mhz">7МХз преко УХФ</string>
+    <string name="str_cha_programedit">kanal Уредник</string>
+    <string name="str_cha_signalinfo">informacije сигнал</string>
+    <string name="str_cha_ciinformation"> Ци информације</string>
+    <string name="str_cha_software_update_oad">Софтвер за надоградњу (ОАД)</string>
+    <string name="str_cha_time_to_search_for_ssu">Време је да Сеарцх фор ССУ</string>
+    <string name="str_cha_time_to_search_for_ssu_default">0.166666666666667</string>
+    <string name="str_cha_oadscan">ОАД скенирања</string>
+    <string name="str_cha_oad_view_prompt">Погледај Упитај се Упдате</string>
+    <string name="str_mainmenu_menu">мени</string>
+    <string name="str_cha_autotuning_tuningtype">Аутоматска станица претрага тип</string>
+    <string name="str_cha_autotuning_tuningtype_atv">аналогни ТВ</string>
+    <string name="str_cha_autotuning_country_australia">Аустралија</string>
+    <string name="str_cha_autotuning_country_austria">Аустрија</string>
+    <string name="str_cha_autotuning_country_beligum">Белгија</string>
+    <string name="str_cha_autotuning_country_bulgaral">бугарски</string>
+    <string name="str_cha_autotuning_country_croatia">Хрватска</string>
+    <string name="str_cha_autotuning_country_czech">чешки</string>
+    <string name="str_cha_autotuning_country_denmark">Данска</string>
+    <string name="str_cha_autotuning_country_finland">Финска</string>
+    <string name="str_cha_autotuning_country_france">Француска</string>
+    <string name="str_menu_parentalcontrol">Блокада за децу</string>
+    <string name="str_lock_system">лоцкинг</string>
+    <string name="str_lock">Лоцкинг</string>
+    <string name="str_set_pwd">Промена лозинке</string>
+    <string name="str_block_program">Родитељ</string>
+    <string name="str_parental_contentlock">sadržaj лоцк</string>
+    <string name="str_parental_guidance">Ниво сет</string>
+    <string name="str_cha_airdtv_title">Бежични дигитални ТВ</string>
+    <string name="str_cha_airtv_title">бежични</string>
+    <string name="str_cha_cabletv_title">жичани</string>
+    <string name="str_ci_cam_pincode">Ци Цам ПИН код</string>
+    <string name="str_ci_set_cam_pincode_done">Сет ПИН код Готово</string>
+
+    <string name="str_cha_channeltuning">channel tuning</string>
+    <string name="str_cha_tv">Аналогни ТВ:</string>
+    <string name="str_cha_tv_0">0</string>
+    <string name="str_cha_dtv">Дигитална ТВ:</string>
+
+    <!-- For CA String define -->
+    <string name="str_cha_cainformation"> ЦА информације</string>
+    <string name="str_ca_title">ЦА информације</string>
+    <string name="str_ca_card_info">Смарт информације картица</string>
+    <string name="str_ca_card_management">Смарт менаџмент картица</string>
+    <string name="str_ca_card_paired">Машина картица пар</string>
+    <string name="str_ca_card_feed">Пицтуре картица храњење</string>
+    <string name="str_ca_info_title">Смарт информације картица</string>
+    <string name="str_ca_info_entitle">Опште овлашћење</string>
+    <string name="str_ca_info_detitle">Анти-овлашћење</string>
+    <string name="str_ca_info_purse_info">новчаник информације</string>
+    <string name="str_ca_card_version">ЦАС верзија информације</string>
+    <string name="str_ca_mg_title">Смарт менаџмент картица</string>
+    <string name="str_ca_mg_modify_pin">Промени ПИН</string>
+    <string name="str_ca_mg_work_time">Модификује радно време</string>
+    <string name="str_ca_mg_watch_level">Измените рејтинг гледања</string>
+    <string name="str_ca_info_pin_title">Промени ПИН</string>
+    <string name="str_ca_mg_old_pin">Молимо унесите оригинални ПИН код:</string>
+    <string name="str_ca_mg_new_pin">Унесите нови ПИН код:</string>
+    <string name="str_ca_mg_new_pin2">Уверите се да је ПИН код:</string>
+    <string name="str_ca_mg_submit">потврдити</string>
+    <string name="str_set_work_time_title">Модификује радно време</string>
+    <string name="str_ca_start_work_time">Подесите време почетка:</string>
+    <string name="str_ca_end_work_time">Подесите време завршетка:</string>
+    <string name="str_ca_work_time_pin">Унесите ПИН:</string>
+    <string name="str_work_time_hour_text">сат</string>
+    <string name="str_work_time_minute_text">минут</string>
+    <string name="str_watch_level_title">Измените рејтинг гледања</string>
+    <string name="str_watch_level_text">Ватцх Левел:</string>
+    <string name="str_watch_level_init">0</string>
+    <string name="str_ca_operator_title">informacije оператор</string>
+    <string name="str_ca_op_id">број</string>
+    <string name="str_ca_op_operator_id">оператор ИД</string>
+    <string name="str_ca_version_title">ЦАС верзија информације</string>
+    <string name="str_ca_version_id">ЦДЦАС број верзије:</string>
+    <string name="str_ca_version_stb_num">Сет-топ бок јединствен број:</string>
+    <string name="str_ca_card_id">картица:</string>
+    <string name="str_ca_entitle_title">Опште овлашћење</string>
+    <string name="str_ca_entitle_id">ИД производа</string>
+    <string name="str_ca_entitle_video_id">Цан видео:</string>
+    <string name="str_ca_entitle_date">Рок употребе</string>
+    <string name="str_ca_entitle_video_flag_yes">to је</string>
+    <string name="str_ca_entitle_video_flag_no">не</string>
+    <string name="str_ca_detitle_title">Анти-овлашћење</string>
+    <string name="str_ca_detitle_list">Анти-овлашћење потврда код листа</string>
+    <string name="str_ca_detitle_state">држава</string>
+    <string name="str_ca_detitle_state_yes">читати</string>
+    <string name="str_ca_detitle_state_no">непрочитан</string>
+    <string name="str_ca_purse_title">новчаник информације</string>
+    <string name="str_ca_purse_id">новчаник ИД</string>
+    <string name="str_ca_purse_points">Проведите бодова</string>
+    <string name="str_ca_purse_credit">кредит</string>
+
+    <!-- For CA Error Type define -->
+    <string name="st_ca_rc_ok">успех</string>
+    <string name="st_ca_rc_unknown">nepoznata грешка</string>
+    <string name="st_ca_rc_pointer_invalid">Поинтер је неважећи</string>
+    <string name="st_ca_rc_card_invalid">Смарт картице неважећи</string>
+    <string name="st_ca_rc_pin_invalid">ПИН код је неважећи</string>
+    <string name="st_ca_rc_dataspace_small">С обзиром на недостатак простора</string>
+    <string name="st_ca_rc_card_pairother">Паметне картице имају одговарајући други сет-топ бок</string>
+    <string name="st_ca_rc_data_not_find">Нема података који се могу наћи</string>
+    <string name="st_ca_rc_prog_status_invalid">За куповину статуса програма је неважећи</string>
+    <string name="st_ca_rc_card_no_room">Нема простора за складиштење да купи паметне картице програм</string>
+    <string name="st_ca_rc_worktime_invalid">Сет радно време неважећи</string>
+    <string name="st_ca_rc_ippv_canntdel">ИППВ програм не може бити обрисана</string>
+    <string name="st_ca_rc_card_nopair">Смарт картица не одговара на било који сет-топ бок</string>
+    <string name="st_ca_rc_watchrating_invalid">Пази ниво сет неважећи</string>
+    <string name="st_ca_rc_card_notsupport">Садашњи смарт картица не подржава ову функцију</string>
+    <string name="st_ca_rc_data_error">Грешке података, смарт картица одбијена</string>
+    <string name="st_ca_rc_feedtime_not_arrive">Храњење време тек долази, кћерка картица се не може хранити</string>
+    <string name="st_ca_rc_card_typeerror">Слика картица храњење неуспех, убаците смарт тип картице грешку</string>
+    <string name="st_ca_rc_cas_failed">извршење издавање час упутство фаилед</string>
+    <string name="st_ca_rc_oper_failed">Издавање инструкција оператер није успео да изврши</string>
+    <string name="st_ca_rc_pin_len">Мање од шест цифара ПИН код</string>
+    <string name="st_ca_rc_diff_pin">Пин код је недоследан</string>
+
+    <!-- For CA notify Type define -->
+    <string name="st_ca_message_cancel_type">Отказали тренутни приказ</string>
+    <string name="st_ca_message_badcard_type">Не признаје картицу</string>
+    <string name="st_ca_message_expicard_type">Смарт картица истиче, замените новом картицом</string>
+    <string name="st_ca_message_insertcard_type">Кајгану програма, убаците смарт картицу</string>
+    <string name="st_ca_message_nooper_type">Нема оператер програма картица</string>
+    <string name="st_ca_message_blackout_type">Услови забрана</string>
+    <string name="st_ca_message_outworktime_type">Садашњи период је подешен тако да не гледа</string>
+    <string name="st_ca_message_watchlevel_type">Ватцх ниво програма већа од сета нивоа</string>
+    <string name="st_ca_message_pairing_type">Овај сет-топ кутије и паметне картице не одговарају</string>
+    <string name="st_ca_message_noentitle_type">није овлашћен</string>
+    <string name="st_ca_message_decryptfail_type">Дешифровање није успела програм</string>
+    <string name="st_ca_message_nomoney_type">Картица је мања од износа</string>
+    <string name="st_ca_message_errregion_type">netačna област</string>
+    <string name="st_ca_message_needfeed_type">Мајка картица и картица за треба да одговарају уметак мајка картице</string>
+    <string name="st_ca_message_errcard_type">Провера смарт картица не успе, обратите се носач</string>
+    <string name="st_ca_message_update_type">Смарт надоградња картица, не вуците картицу или гашење</string>
+    <string name="st_ca_message_lowcardver_type">Молимо Вас да надоградите смарт картице</string>
+    <string name="st_ca_message_viewlock_type">Молимо вас да не често пребацивања канала</string>
+    <string name="st_ca_message_maxrestart_type">Смарт картица успаване, молимо вас да поново после 5 минута</string>
+    <string name="st_ca_message_freeze_type">Смарт картице су замрзнуте, обратите се носач</string>
+    <string name="st_ca_message_callback_type">Смарт картица је суспендована, вратите оператеру да снима оцене</string>
+    <string name="st_ca_message_curtain_type">Завесе програма, не могу да се прегледају фаза</string>
+    <string name="st_ca_message_cardteststart_type">Надоградња тест Тест картице ...</string>
+    <string name="st_ca_message_cardtestfaild_type">Упграде тест Тест картица не успе, проверите комуникациони модул машина картице</string>
+    <string name="st_ca_message_cardtestsucc_type">Упграде тест Тест картица успешно</string>
+    <string name="st_ca_message_nocaliboper_type">Портабле чланска карта не постоји у прилагођеним оператера</string>
+    <string name="st_ca_message_stblocked_type">Молимо Вас да поново сет-топ бок</string>
+    <string name="st_ca_message_stbfreeze_type">Сет-топ бок је замрзнут</string>
+
+
+    <string name="str_cha_dtvautotuning_startscan">Почетак станица претрага</string>
+    <string name="str_cha_dtvautotuning_frequency">фреквенција</string>
+    <string name="str_cha_dtvautotuning_modulation">модулација</string>
+    <string name="str_cha_dtvautotuning_symbol">Симбол стопа</string>
+    <string name="str_cha_dtvautotuning_networkid">ИД мреже</string>
+    <string name="str_cha_dtvautotuning_networkid_invalid">Број мрежа је неважећи</string>
+    <string name="str_cha_dtvautotuning_ok">потврдити</string>
+    <string name="str_cha_dtvautotuning_auto">аутоматски</string>
+    <string name="str_cha_dtvautotuning_signalstrength">јачина сигнала</string>
+    <string name="str_cha_dtvautotuning_signalquality">квалитет сигнала</string>
+    <string name="str_cha_dvbsdtvtuning_scanmode">Тражи режим</string>
+    <string name="str_cha_dvbsdtvtuning_servicetype">Врста услуге</string>
+    <string name="str_cha_dvbsdtvtuning_networksearch">Мрежа станица претрага</string>
+    <string name="str_cha_dvbsdtvtuning_transponder">транспондер</string>
+    <string name="str_cha_dvbsdtvtuning_satellite">сателит</string>
+    <string name="str_cha_dvbsdtvtuning_searchtype">Тражи Опција</string>
+    <string name="str_cha_radio">емитују:</string>
+    <string name="str_cha_data">podaci:</string>
+    <string name="str_cha_program">канал</string>
+    <string name="str_cha_tuningprogress_percent_0">0</string>
+    <string name="str_cha_tuningprogress_uhf">ухф</string>
+    <string name="str_cha_tuningprogress_vhf">УКВ</string>
+    <string name="str_cha_tuningprogress_ch">канал</string>
+    <string name="str_cha_tuningprogress_freq">фрек</string>
+    <string name="str_cha_tuningprogress_dtv">Дигитална ТВ</string>
+    <string name="str_cha_exittuning_info">Да ли сте сигурни да изађете из аналогног ТВ / дигитални ТВ претрагу канала?</string>
+     <string name="str_cha_exitDTVtuning_info">Да ли бисте изашли дигитални претрагу ТВ канала?</string>
+    <string name="str_cha_exitATVtuning_info">Да ли да изађете из претрагу аналогни телевизијску станицу?</string>
+    <string name="str_cha_exitAIRtuning_info">Да ли сте сигурни да изађете бежични аналогни потрагу телевизију?</string>
+    <string name="str_cha_exitCABLEtuning_info">Да ли сте сигурни да изађете из аналогног кабловску телевизију тражење станица?</string>
+    <string name="str_cha_exittuning_yes">to је</string>
+    <string name="str_cha_exittuning_no">не</string>
+    <string name="str_cha_dtvmanualtuning_channelno">broj канала</string>
+    <string name="str_cha_dtvmanualtuning_ch">канал</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64КАМ</string>
+    <string name="str_cha_dtvmanualtuning_frequency">фреквенција</string>
+    <string name="str_cha_dtvmanualtuning_modulation">модулација</string>
+    <string name="str_cha_dtvmanualtuning_symbol">Симбол стопа</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">претраживање</string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">јачина сигнала</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">квалитет сигнала</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">Дигитална ТВ:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">емитују:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">podaci:</string>
+    <string name="str_cha_atvmanualtuning_channelno">broj канала</string>
+    <string name="str_cha_atvmanualtuning_store_channelno">Саве то:</string>
+    <string name="str_cha_atvmanualtuning_ch">Ч</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">Цолоур Систем</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">аутоматски</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">озвучење</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">аутоматски</string>
+    <string name="str_cha_atvmanualtuning_starttuning">претраживање</string>
+    <string name="str_cha_atvmanualtuning_fine_tune">фино подешавање</string>
+    <string name="str_cha_atvmanualtuning_frequency">Фреквенција:</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">МГц</string>
+    <string name="str_cha_dtvmanualtuning_galaxy">Галаки</string>
+    <string name="str_cha_dtvmanualtuning_polarization">поларитет</string>
+    <string name="str_cha_dtvmanualtuning_network">мрежа</string>
+    <string name="str_cha_dtvmanualtuning_scan_mode">Тражи режим</string>
+    <string name="str_cha_dtvmanualtuning_service_type">Врста услуге</string>
+    <string name="str_cha_transport_stream">транспорт стреам</string>
+    <string name="str_cha_service">сервис</string>
+    <string name="str_cha_save">саве</string>
+    <string name="str_cha_software_version">Верзија софтвера</string>
+    <string name="str_demo_demo">шоу</string>
+    <string name="str_demo_mwe"> МВЕ</string>
+    <string name="str_demo_dbc"> ДБЦ</string>
+    <string name="str_demo_off">затворити</string>
+    <string name="str_demo_dlc"> ДЛЦ</string>
+    <string name="str_demo_dcc"> ДЦЦ</string>
+    <string name="str_demo_nr">Слика смањење буке</string>
+    <string name="str_demo_uclear">Ултра високе резолуције</string>
+
+    <!-- for audio language list -->
+    <string name="str_audio_language_title">мусиц Језик</string>
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">Ци информације</string>
+    <string name="str_cimmi_hint_ci_inserted">Ци картица уметнута</string>
+    <string name="str_cimmi_hint_ci_removed">Уклањање Ци картица</string>
+    <string name="str_cimmi_hint_ci_auto_test">Ци Селф-тест</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">Унесите лозинку</string>
+    <!-- for current action -->
+    <string name="str_current_action">оптерећење</string>
+    <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">Лични видео систем датотека</string>
+    <string name="str_pvr_file_system_select_disk">диск Избор</string>
+    <string name="str_pvr_file_system_time_shift_size">Дужина времена напред</string>
+    <string name="str_pvr_file_system_format_start">формат</string>
+    <string name="str_pvr_file_system_format_context">успех</string>
+    <string name="str_pvr_file_system_speed_check">спеед тест</string>
+    <string name="str_pvr_file_system_speed_context">комплетан</string>
+    <string name="str_pvr_file_system_always_timeshift">Увек време-смена</string>
+    <string name="str_pvr_file_system_always_context">otvoreno</string>
+    <!-- for pvr full page browser -->
+    <string name="str_pvr_lcn_textview">ЛЦН</string>
+    <string name="str_pvr_channel_textview">канал</string>
+    <string name="srt_pvr_program_service_textview">program за</string>
+    <string name="str_pvr_program_service_tips_red">избрисати</string>
+    <string name="str_pvr_program_service_tips_green">узлазни</string>
+    <string name="str_pvr_program_service_tips_descend">силазни</string>
+    <string name="str_pvr_program_service_tips_blue">секвенца</string>
+    <string name="str_pvr_program_service_tips_yellow">у реду</string>
+    <string name="str_pvr_lcn_title">наслов</string>
+    <string name="str_pvr_lcn_record_data">Снимање података</string>
+    <string name="str_pvr_lcn_data">40872</string>
+
+    <!-- For epg schedule list -->
+    <string name="str_epg_program_schedule_list_modify">модификација</string>
+    <string name="str_epg_program_schedule_list_delete">избрисати</string>
+    <!-- For sound format info-->
+    <string name="str_sound_format_mono">Моно</string>
+    <string name="str_sound_format_dual_a">Дуал</string>
+    <string name="str_sound_format_dual_ab">Дуал АБ</string>
+    <string name="str_sound_format_dual_b">ДУАЛ Б</string>
+    <string name="str_sound_format_forced_mono">Моно</string>
+    <string name="str_sound_format_g_stereo">Стерео</string>
+    <string name="str_sound_format_hidev_mono">Моно</string>
+    <string name="str_sound_format_unknown">НЕПОЗНАТО</string>
+    <string name="str_sound_format_k_stereo">Стерео</string>
+    <string name="str_sound_format_left_left">Лефт</string>
+    <string name="str_sound_format_left_right">лефт ригхт</string>
+    <string name="str_sound_format_mono_sap">Моно САП-</string>
+    <string name="str_sound_format_nicam_dual_a">НИЦАМ Дуал</string>
+    <string name="str_sound_format_nicam_dual_ab">НИЦАМ Дуал АБ</string>
+    <string name="str_sound_format_nicam_dual_b">НИЦАМ ДУАЛ Б</string>
+    <string name="str_sound_format_nicam_mono">НИЦАМ Моно</string>
+    <string name="str_sound_format_nicam_stereo">Ницам Стерео</string>
+    <string name="str_sound_format_right_right">Ригхт Ригхт</string>
+    <string name="str_sound_format_stereo_sap">Стерео САП-</string>
+    <string name="str_sound_format_stereo">Стерео</string>
+
+    <!-- For audio language-->
+    <string name="str_audio_language">аудио Језик</string>
+
+    <!-- For check password-->
+    <string name="str_check_password_pass">Је лозинка исправна</string>
+    <string name="str_check_password_wrong">Погрешна лозинка</string>
+    <string name="str_check_password_invalid">инвалид рада</string>
+    <string name="str_check_password_incorrect">Погрешна лозинка!</string>
+    <string name="str_check_password_input_number">Молимо Вас да унесете број као лозинка</string>
+    <string name="str_pvr_listview_item">tekst дисплеј</string>
+    <string name="str_pvr_playback_error_reason">Цан \'т ПлаиБацк правилно, а разлог је: \ н</string>
+    <string name="str_pvr_usb_removed">, УСБ уклоњено</string>
+    <string name="str_pvr_insert_usb">Молимо убаците У диск!</string>
+    <string name="str_pvr_format_usb">За форматирање изабрану У понуду?</string>
+    <string name="str_pvr_format_usb_progressing">Формат УСБ диск Напредовање ... \ нМолимо Не извуците УСБ диск!</string>
+    <string name="str_pvr_usb_speed_test_progressing">Спеед Тест спроведена у ... \ н Не извуците У диск!</string>
+    <string name="str_pvr_program_saving">Саве тхе програм ... Сачекајте!</string>
+    <string name="str_pvr_exit_confirm">Бурнинг ... сте сигурни да желите да отказ?</string>
+    <string name="str_TimeShift_exit_confirm">Када је помак ... сте сигурни да желите да отказ?</string>
+    <string name="str_pvr_is_recording">Бурн ин</string>
+    <string name="str_pvr_is_TimeShift">Када је помак у</string>
+    <string name="str_removable_disk">prenosivi диск</string>
+    <string name="str_editText1">0</string>
+    <string name="str_pvr_unsurpt_flsystem">Неподржан фајл систем, формата!</string>
+    <string name="str_pvr_is_standby">приправност</string>
+    <string name="str_pvr_tip">Да ли ће се зауставити пвр снимање, или идите у стање приправности снимање?</string>
+    <string name="str_pvr_tip2">Да ли ће се зауставити пвр снимање?</string>
+    <string name="str_pvr_abloop_too_short">АБ понављање време је сувише кратак, минимално време од 2 секунде.</string>
+    <string name="str_pvr_record_fail">бурн неуспех</string>
+    <string name="str_pvr_alwaystimeshift_record_fail">Увек Тиме Схифт запис не</string>
+    <string name="str_pvr_no_usb">У диска није откривен</string>
+    <string name="str_pvr_disk_read_only">Хард диск само за читање</string>
+    <string name="str_pvr_out_of_space">Недовољно простора на диску</string>
+    <string name="str_pvr_data_only">Ви не можете спалити програм података</string>
+    <string name="str_pvr_scrambled_program">Сцрамблед програма</string>
+    <string name="str_pvr_ch_blocked">Родитељ</string>
+    <string name="str_pvr_rating_blocked">левел лоцк</string>
+    <string name="str_channel_block">Родитељ</string>
+    <string name="str_pvr_retention_expired">Ограничење задржавање истекао</string>
+    <string name="str_pvr_vod_not_allow">: ВОД садржај не дозвољавају да снимате</string>
+    <string name="str_pvr_ciplus_copy_protection">Цл + УРИ заштита</string>
+    <string name="str_pvr_ciplus_unsupport">То не подржава ЦИ +</string>
+    <string name="str_pvr_ginga_running">Гинга ради</string>
+    <string name="str_pvr_bad_video_audio">Оштећен аудио и видео</string>
+    <string name="str_pvr_max_recording_reached">Максималан број опекотина</string>
+    <string name="str_pvr_mehg5_data_only">МЕХГ5 програма подаци</string>
+    <string name="str_pvr_success">успех</string>
+    <string name="str_pvr_error">грешка</string>
+    <string name="str_pvr_overwrite_before">Када ће смена покрити застарели садржај</string>
+	    <string name="str_pvr_still_check_disk">Обрада, сачекајте</string>
+
+
+    <!-- for pvr menu -->
+    <string name="str_player_recorder">снимање</string>
+    <string name="str_player_play">emitovanje</string>
+    <string name="str_player_stop">Стоп</string>
+    <string name="str_player_pause">пауза</string>
+    <string name="str_player_stepin">степпинг</string>
+    <string name="str_player_rev">Брза репродукција</string>
+    <string name="str_player_ff">brzo Игра</string>
+    <string name="str_player_slow">слов игра</string>
+    <string name="str_player_time">izborni емитовање</string>
+    <string name="str_player_forward">напред</string>
+    <string name="str_player_backward">повлачење</string>
+    <string name="str_player_capture">хватање</string>
+    <string name="str_pvr_file_system_menu">мени</string>
+    <string name="str_pvr_file_system_ok">одредити</string>
+    <string name="str_list_menu_hint_b_skip">прескочити</string>
+    <string name="str_list_menu_hint_g_fivorite">фаворит</string>
+    <string name="str_list_menu_hint_g_edit">едит</string>
+    <string name="str_list_menu_hint_r_delete">избрисати</string>
+    <string name="str_list_menu_hint_y_move">мобиле</string>
+
+    <!-- for ci+ op -->
+    <string name="str_ciplus_op_confirmation_title">Потврдити ЦИ + ОП Освежи</string>
+    <string name="str_ciplus_op_refresh">Да ли дозвољавате ТВ да уради оператера профил рефресх?</string>
+    <string name="str_op_menu_title">Оператор Профили Мени</string>
+    <string name="str_op_channel_list_title">ДБ Листа канала</string>
+    <string name="str_op_menu">ДБ Мени</string>
+    <string name="str_op_forbid_channel_tuning_content">Забранити да раде канала песму под оп моде. \ НМолимо излаз оп моде у почетку.</string>
+    <string name="str_enter_op">Ентер ОП</string>
+    <string name="str_exit_op">екит ДБ</string>
+    <string name="str_delete_profile">Брисање профила</string>
+    <string name="str_delete_op_msg">Да ли сте сигурни да обришете профил оператер [</string>
+    <string name="str_delete_op_confirm">Потврди за брисање ОП</string>
+    <string name="str_forbid_channel_tuning">Забрањују Цханнел Тунинг</string>
+    <string name="str_cam_upgrade_alarm">Цам је под надоградње. \ НПокушајте касније ...</string>
+    <string name="str_op_tuning_alarm">ОП је тунинг. \ НПокушајте касније ...</string>
+
+    <!-- for reminder -->
+    <string name="str_reminder_mode">начин</string>
+    <string name="str_reminder_date">датум</string>
+    <string name="str_reminder_month">месец</string>
+    <string name="str_reminder_hour">сат</string>
+    <string name="str_reminder_minute">минут</string>
+    <string name="str_reminder_channel">шоу</string>
+    <string name="str_reminder_auto">аутоматски</string>
+    <string name="str_reminder_once">једном</string>
+    <string name="str_reminder_daily">svaki дан</string>
+    <string name="str_reminder_weekly">недељно</string>
+    <string name="str_reminder_title">Сет састанак</string>
+    <string name="str_reminder_record_event">Снимање овај догађај</string>
+
+    <!-- for source info atv -->
+    <string name="str_atv_source_imageformat">Цолоур Систем</string>
+    <string name="str_atv_source_soundformat">Режим звука</string>
+    <string name="str_atv_source_audioformat">соунд систем</string>
+
+    <string name="audio_type_mpeg">МПЕГ-</string>
+    <string name="audio_type_dolby_d">долби Год</string>
+    <string name="audio_type_aac">: ААЦ</string>
+    <string name="audio_type_ac3p">АЦ3П</string>
+    <string name="audio_type_dra1">ДРА1</string>
+
+
+
+    <!-- for Audio Info AAC Profile And Level -->
+    <string name="aac_level1">: ААЦ Л1</string>
+    <string name="aac_level2">: ААЦ Л2</string>
+    <string name="aac_level4">: ААЦ Л4</string>
+    <string name="aac_level5">: ААЦ Л5</string>
+    <string name="he_aac_level2">ХЕ-ААЦ Л2</string>
+    <string name="he_aac_level3">ХЕ-ААЦ Л3</string>
+    <string name="he_aac_level4">ХЕ-ААЦ Л4</string>
+    <string name="he_aac_level5">ХЕ-ААЦ Л5</string>
+
+    <!-- for source info dtv -->
+    <string name="str_dtv_source_info_program_period">сегменти програм</string>
+    <string name="str_dtv_source_info_program_name">Садашњи програм име</string>
+    <string name="str_dtv_source_info_program_type">Врста програма</string>
+    <string name="str_dtv_source_info_program_format">Формат видео</string>
+    <string name="str_dtv_source_info_audio_format">аудио формати</string>
+    <string name="str_dtv_source_info_mheg5">МХЕГ5</string>
+    <string name="str_dtv_source_info_Subtitle">титл</string>
+    <string name="str_dtv_source_info_language">трацкс</string>
+    <string name="str_dtv_source_info_teletext">слика</string>
+    <string name="str_dtv_source_info_no_teletext">Жао ми је, нема доступних информација графички</string>
+    <string name="str_dtv_source_info_no_subtitle">Жао ми је, нема доступних информација титл</string>
+    <string name="str_dtv_source_info_unsupported_teletext">Жао нам је, није подржан од стране актуелног канала графику</string>
+    <string name="str_dtv_source_info_unsupported_subtitle">Жао ми је, не подржава тренутни канал титлови</string>
+    <string name="str_dtv_source_info_description">опис</string>
+    <string name="str_dtv_source_info_resolution">резолуција</string>
+    <string name="str_dtv_source_info_ginga">ГИНГА</string>
+    <string name="str_dtv_source_info_cc_exist">КЗ: Да</string>
+    <string name="str_dtv_source_info_cc_noexist">КЗ: Не</string>
+    <string name="str_source_info_lock">Цханнел лоцк:</string>
+
+    <!-- for time -->
+    <string name="str_time_confirm_tip">Притисните црвено дугме да то потврди!</string>
+    <string name="str_time_time">време</string>
+    <string name="str_time_date">датум</string>
+    <string name="str_time_currenttime">тренутно време</string>
+    <string name="str_time_offtime">офф време</string>
+    <string name="str_time_schedule">боот време</string>
+    <string name="str_time_sleep">слееп Време</string>
+    <string name="str_time_autotime">Аутоматско подешавање</string>
+    <string name="str_time_schedule_ontime">на време</string>
+    <string name="str_time_set_time_on_title">боот време</string>
+    <string name="str_time_set_time_off_title">офф време</string>
+    <string name="str_time_set_time_on">Подешавање времена за подизање система</string>
+    <string name="str_time_set_time_off">Кренете пут</string>
+    <string name="str_time_schedule_hour">сат</string>
+    <string name="str_time_schedule_minute">минут</string>
+    <string name="str_time_schedule_source">извор</string>
+    <string name="str_time_schedule_channel">канал</string>
+    <string name="str_time_schedule_volume">обим</string>
+    <string name="str_time_hour">сат</string>
+    <string name="str_time_minute">минут</string>
+    <string name="str_time_second">други</string>
+    <string name="str_time_change_timezone">Временска аутоматски ажурира</string>
+
+
+    <string name="str_set_setting">поставити</string>
+    <string name="str_set_language">језик</string>
+    <string name="str_set_audio_language1">prvi језик</string>
+    <string name="str_set_audio_language2">drugi језик</string>
+    <string name="str_set_subtitle_switch">титл</string>
+    <string name="str_set_subtitle_language1">Први језик титла</string>
+    <string name="str_set_subtitle_language2">Други језик титла</string>
+    <string name="str_set_language_czech">чешки</string>
+    <string name="str_set_language_danish">дански</string>
+    <string name="str_set_language_german">немачки</string>
+    <string name="str_set_language_english">енглески</string>
+    <string name="str_set_language_spanish">шпански</string>
+    <string name="str_set_language_greek">грчки</string>
+    <string name="str_set_language_french">француски</string>
+    <string name="str_set_language_croatian">хрватски</string>
+    <string name="str_set_language_italian">Италијански језик</string>
+    <string name="str_set_language_hungarian">мађарски</string>
+    <string name="str_set_language_dutch">холандски</string>
+    <string name="str_set_language_norwegian">норвешког језика</string>
+    <string name="str_set_language_polish">пољски</string>
+    <string name="str_set_language_portuguese">португалски</string>
+    <string name="str_set_language_russian">руски</string>
+    <string name="str_set_language_romanian">румунски</string>
+    <string name="str_set_language_slovenian">словеначки</string>
+    <string name="str_set_language_serbian">srpski језик</string>
+    <string name="str_set_language_finnish">фински</string>
+    <string name="str_set_language_swedish">шведски</string>
+    <string name="str_set_language_bulgarian">бугарски</string>
+    <string name="str_set_language_slovak">Словачки језик</string>
+    <string name="str_set_language_chinese">кинески</string>
+    <string name="str_set_language_gaelic">келтски</string>
+    <string name="str_set_language_welsh">велшки</string>
+    <string name="str_set_language_irish">Ирски језик</string>
+    <string name="str_set_language_arabic">арапски</string>
+    <string name="str_set_language_latvian">летонски</string>
+    <string name="str_set_language_hebrew">Хебрејски језик</string>
+    <string name="str_set_language_turkish">Турски језик</string>
+    <string name="str_set_language_estonian">естонски</string>
+    <string name="str_set_language_gallegan">галицијски</string>
+    <string name="str_set_language_basque">баскијски</string>
+    <string name="str_set_language_catalan">каталонски</string>
+    <string name="str_set_language_icelandic">исландски</string>
+    <string name="str_set_language_letzeburgesch">luksemburški</string>
+    <string name="str_set_language_lithuanian">литвански</string>
+    <string name="str_set_language_ukrainian">украјински</string>
+    <string name="str_set_language_byelorussian">Белоруски</string>
+    <string name="str_set_language_maori">Маор</string>
+    
+    <string name="str_set_language_cantonese">u Цантонесе</string>
+    <string name="str_set_language_korean">корејски</string>
+    <string name="str_set_language_japanese">јапански</string>
+    <string name="str_set_language_hindi">хинди</string>
+    <string name="str_set_language_thai">Тајландски</string>
+    <string name="str_set_language_vietnamese">Вијетнамски језик</string>
+    <string name="str_set_language_malay">малајски</string>
+    <string name="str_set_language_qab">Други Аудио</string>
+    <string name="str_set_language_qac">treći звук</string>
+    <string name="str_set_language_multiple">мултилингуал</string>
+
+
+
+    <string name="str_set_menutime">приказ менија време</string>
+    <string name="str_set_menutime_5sec">5 секунди</string>
+
+
+
+    <string name="str_set_switchmode">switching Моде</string>
+    <string name="str_set_switchmode_blackscreen">црн</string>
+    <string name="str_set_autosourceident">Извор идентификације</string>
+    <string name="str_set_sourcepreview">Извор Преглед</string>
+
+
+
+    <string name="str_set_autosourceswit">Аутоматски идентификациони Извор</string>
+
+
+
+    <string name="str_set_off">затворити</string>
+    <string name="str_set_on">otvoreno</string>
+    <string name="str_set_colorrange">Палета боја</string>
+    <string name="str_set_colorrange_0to255">0 до 255</string>
+    <string name="str_set_moviemode">movie моде</string>
+
+
+    <string name="str_set_mhlswitch">Аутоматско пребацивање МХЛ</string>
+
+
+    <string name="str_set_bluescreenswitch">блуе сцреен</string>
+
+
+    <string name="str_set_hdmicec"> ЦИК</string>
+
+
+
+    <string name="str_set_standyon">Стање мировања система</string>
+
+    <string name="str_set_powersetting">Повер Подешавања</string>
+    <string name="str_set_restoretodefault">Ресторе Дефаултс</string>
+    <string name="str_set_hdmicec_label">ЦИК</string>
+    <string name="str_set_hdmicec_devicelist">oprema Листа</string>
+    <string name="str_set_hdmicec_off">затворити</string>
+    <string name="str_set_hdmicec_onoff"> ЦИК укључивање / искључивање</string>
+    <string name="str_set_cc_setting">КЗ скуп</string>
+    <string name="str_set_boot2launcher">Снага у главни интерфејс</string>
+    <string name="str_set_bootsource">snaga канал</string>
+
+
+
+    <string name="str_updating_edid">Амп информације ажурирање ...</string>
+
+    <string name="str_set_hdmicec_autostandby">Аутоматска Стандби</string>
+    <string name="str_set_powersetting_powermusic">Почетак Звук</string>
+    <string name="str_set_powersetting_powerlogo">snaga икона</string>
+    <string name="str_set_powersetting_powervolume">боот обим</string>
+
+    <!-- Loading -->
+
+    <string name="loading">утовар</string>
+
+    <!-- for hot key -->
+
+    <string name="volume">обим</string>
+    <string name="picture">Слика режим</string>
+    <string name="sound">Режим звука</string>
+    <string name="zoom">зоом мод</string>
+    <string name="str_root_alert_dialog_title">брз</string>
+    <string name="str_root_alert_dialog_message">Јеси ли сигуран да желиш да изађете из ТВ систем?</string>
+    <string name="go_to_tuning_dialog_message">Старт тражење станица?</string>
+    <string name="str_root_alert_dialog_confirm">одредити</string>
+    <string name="str_root_alert_dialog_cancel">отказан</string>
+    <string name="str_root_alert_dialog_message_restore_to_default">Сигурни сте да желите да га вратите?</string>
+
+    <!-- Factory Menu -->
+
+    <string name="str_factory_adc"> podešavanje АЦП</string>
+    <string name="str_factory_whitebalance">Баланс беле боје</string>
+    <string name="str_factory_picturemode">поглед</string>
+    <string name="str_factory_non_standard">нестандардне опције</string>
+    <string name="str_factory_non_linear"> Нон_линеар</string>
+    <string name="str_factory_overscan">ивице екрана</string>
+    <string name="str_factory_ssc"> ССЦ подешавање</string>
+    <string name="str_factory_peq"> ПЕК</string>
+    <string name="str_factory_otheroption">Остале опције</string>
+    <string name="str_factory_adc_source">извор</string>
+    <string name="str_factory_adc_rgain"> : Р ДОБИТАК</string>
+    <string name="str_factory_adc_ggain">Г Гаин</string>
+    <string name="str_factory_adc_bgain"> Б Гаин</string>
+    <string name="str_factory_adc_roffset"> ø оффсет</string>
+    <string name="str_factory_adc_goffset"> г. компензација</string>
+    <string name="str_factory_adc_boffset"> оффсет Б</string>
+    <string name="str_factory_adc_autoadjust">Аутоматско подешавање</string>
+    <string name="str_factory_wbadjust_source">извор</string>
+    <string name="str_factory_wbadjust_rgain"> : Р ДОБИТАК</string>
+    <string name="str_factory_wbadjust_ggain">Г Гаин</string>
+    <string name="str_factory_wbadjust_bgain"> Б Гаин</string>
+    <string name="str_factory_wbadjust_roffset"> ø оффсет</string>
+    <string name="str_factory_wbadjust_goffset"> г. компензација</string>
+    <string name="str_factory_wbadjust_boffset"> оффсет Б</string>
+    <string name="str_factory_wbadjust_autoadjust">Аутоматско подешавање</string>
+    <string name="str_factory_wbadjust_colortemp">temperatura боје</string>
+    <string name="str_factory_picmode_picmode">поглед</string>
+    <string name="str_factory_picmode_brightness">бистрина</string>
+    <string name="str_factory_picmode_contrast">контраст</string>
+    <string name="str_factory_picmode_saturation">засићење</string>
+    <string name="str_factory_picmode_hue">нијанса</string>
+    <string name="str_factory_picmode_sharpness">оштрина</string>
+    <string name="str_factory_nonlinear_curvetype">крива Тип</string>
+    <string name="str_factory_nonlinear_osd0"> ОСД_0</string>
+    <string name="str_factory_nonlinear_osd25"> ОСД_25</string>
+    <string name="str_factory_nonlinear_osd50"> ОСД_50</string>
+    <string name="str_factory_nonlinear_osd75"> ОСД_75</string>
+    <string name="str_factory_nonlinear_osd100"> ОСД_100</string>
+    <string name="str_factory_overscan_source">извор</string>
+    <string name="str_factory_overscan_hsize"> х Димензије</string>
+    <string name="str_factory_overscan_hposition">хоризонталан положај</string>
+    <string name="str_factory_overscan_vsize"> в veličina</string>
+    <string name="str_factory_overscan_vposition">вертикални положај</string>
+    <string name="str_factory_nonstandard_viftop"> ВИФ_ТОП</string>
+    <string name="str_factory_nonstandard_vifvgamaximum"> ВИФ_ВГА_МАКСИМУМ</string>
+    <string name="str_factory_nonstandard_vifcpkp"> ВИФ_ЦР_КП</string>
+    <string name="str_factory_nonstandard_vifcpki"> ВИФ_ЦР_КИ</string>
+    <string name="str_factory_nonstandard_vifasiasignaloption"> ВИФ_АСИА_СИГНАЛ_ОПТИОН</string>
+    <string name="str_factory_nonstandard_vifcpkpkiadjust"> ВИФ_ЦР_КП_КИ_АДЈУСТ</string>
+    <string name="str_factory_nonstandard_vifovermodulation"> ВИФ_ОВЕР_МОДУЛАТИОН</string>
+    <string name="str_factory_nonstandard_vifclampgain"> ВИФ_ЦЛАМПГАИН_ГАИН_ОВ_НЕГАТИВЕ</string>
+    <string name="str_factory_nonstandard_chinadescrambler"> ЦХИНА_ДЕСЦРАМБЛЕР_БОКС</string>
+    <string name="str_factory_nonstandard_delay">одложен</string>
+    <string name="str_factory_nonstandard_vifcrthr"> ВИФ_ЦР_ТХР</string>
+    <string name="str_factory_nonstandard_vifversion"> ВИФ_ВЕРСИОН</string>
+    <string name="str_factory_nonstandard_vifagcref"> ВИФ_АГЦ_РЕФ</string>
+    <string name="str_factory_nonstandard_gaindistributionthr"> ГАИН_ДИСТРИБУТИОН_ТХР</string>
+    <string name="str_factory_nonstandard_afecd4"> АЕФЦ_Д4</string>
+    <string name="str_factory_nonstandard_aefcd5"> АЕФЦ_Д5 [2]</string>
+    <string name="str_factory_nonstandard_aefcd8"> АЕФЦ_Д8 [3: 0]</string>
+    <string name="str_factory_nonstandard_aefcd9"> АЕФЦ_Д9 [0]</string>
+    <string name="str_factory_nonstandard_aefcd7high"> АЕФЦ_Д7_ХИГХ_БОУН</string>
+    <string name="str_factory_nonstandard_aefcd7"> АЕФЦ_Д7_ЛОВ_БОУН</string>
+    <string name="str_factory_nonstandard_aefca0"> АЕФЦ_А0</string>
+    <string name="str_factory_nonstandard_aefca1"> АЕФЦ_А1</string>
+    <string name="str_factory_nonstandard_aefc66"> АЕФЦ_66 [7: 6]</string>
+    <string name="str_factory_nonstandard_aefc6e"> АЕФЦ_6Е [7: 4]</string>
+    <string name="str_factory_nonstandard_aefc6elow"> АЕФЦ_6Е [3: 0]</string>
+    <string name="str_factory_nonstandard_aefc43"> АЕФЦ_43</string>
+    <string name="str_factory_nonstandard_aefc44"> АЕФЦ_44</string>
+    <string name="str_factory_nonstandard_aefccb"> АЕФЦ_ЦБ</string>
+    <string name="str_factory_nonstandard_vddsp"> АУДИО_НР_ТХ</string>
+    <string name="str_factory_nonstandard_audiohidev"> АУДИО_ХИДЕВ_МОДЕ</string>
+    <string name="str_factory_nonstandard_audionr"> АУДИО_НР_ТХ</string>
+    <string name="str_factory_nonstandard_audiosif">Аудио ФСИ праг</string>
+    <string name="str_factory_nonstandard_audiodsp"> АУДИО_ДСП_ВЕРСИОН</string>
+    <string name="str_factory_ssc_miuenable"> Миу омогућено</string>
+    <string name="str_factory_ssc_miumodulation"> Миу модулација</string>
+    <string name="str_factory_ssc_miupercentage"> МИУ проценат (%)</string>
+    <string name="str_factory_ssc_lvdsenable"> СПИ омогућен</string>
+    <string name="str_factory_ssc_lvdsmodulation"> СПИ модулација</string>
+    <string name="str_factory_ssc_lvdspercentage"> ЛВДС проценат (%)</string>
+    <string name="str_factory_peq_fo1coarse"> ФО1 сирови</string>
+    <string name="str_factory_peq_fo1fine"> фине ФО1</string>
+    <string name="str_factory_peq_fo2coarse"> ФО2 сирови</string>
+    <string name="str_factory_peq_fo2fine"> ФО2 добро</string>
+    <string name="str_factory_peq_fo3coarse"> sirova ФО3</string>
+    <string name="str_factory_peq_fo3fine"> фине ФО3</string>
+    <string name="str_factory_peq_gain1"> Гаин 1</string>
+    <string name="str_factory_peq_gain2"> Гаин 2</string>
+    <string name="str_factory_peq_gain3"> Гаин 3</string>
+    <string name="str_factory_peq_q1"> К1</string>
+    <string name="str_factory_peq_q2"> К2</string>
+    <string name="str_factory_peq_q3"> К3</string>
+    <string name="str_factory_otheroption_version">издање</string>
+    <string name="str_factory_otheroption_board">канцеларија</string>
+    <string name="str_factory_otheroption_panel">панел</string>
+    <string name="str_factory_otheroption_dateandtimes">Датум / Време</string>
+    <string name="str_factory_otheroption_watchdog">пас чувар</string>
+    <string name="str_factory_otheroption_testpattern">тест режим</string>
+    <string name="str_factory_otheroption_restoretodefault">Ресторе Дефаултс</string>
+    <string name="str_factory_otheroption_poweronmode">snaga режим</string>
+    <string name="str_factory_otheroption_uartenable"> Омогућавање уарт</string>
+    <string name="str_factory_otheroption_dtvavdelay"> ДТВ АВ кашњење (Нон_стандард)</string>
+    <string name="str_factory_otheroption_initialfunction">preliminarni канал</string>
+    <string name="str_factory_otheroption_panelswing">Група љуљашке</string>
+    <string name="str_factory_otheroption_audioprescale">аудио prescaler</string>
+
+    <!-- for program edit -->
+
+    <string name="str_program_edit_dialog_ok">одредити</string>
+    <string name="str_program_edit_dialog_cancel">отказан</string>
+    <string name="str_program_edit_dialog_input">Молимо Вас да унесете</string>
+    <string name="str_no_sinal">Нема сигнала</string>
+    <string name="str_channelList_favorite">favorites лист</string>
+    <string name="str_channelList_program">Листа програм</string>
+    <string name="program_guide_time">Програм на енглеском: Време</string>
+
+    <string name="str_channelList_search">претраживање</string>
+    <string name="str_channelList_sort">секвенца</string>
+
+    <!-- For Record Style -->
+    <string name="str_textview_record_title">бурн Сеттингс</string>
+    <string name="str_textview_record_chaneel_name">Назив канала</string>
+    <string name="str_textview_record_sbutitle">титл</string>
+    <string name="str_textview_record_context">нумерички</string>
+    <string name="str_textview_record_mode">начин</string>
+    <string name="str_textview_record_start_time">Почетак Време</string>
+    <string name="str_textview_record_end_time">Крај Време</string>
+    <string name="str_textview_record_common_ok">Изаберите: У реду</string>
+    <string name="str_record_date">број</string>
+    <string name="str_record_month">месец</string>
+    <string name="str_record_hour">kada</string>
+    <string name="str_record_minute">поделити</string>
+
+    <!-- For schedule list style -->
+    <string name="str_textview_schedule_list_title">Листа програм</string>
+    <string name="str_textview_schedule_list_time">време</string>
+    <string name="str_textview_schedule_list_date">датум</string>
+    <string name="str_schedule_list_channel_name">Назив канала</string>
+    <string name="str_schedule_list_programmer_title">Назив програма</string>
+
+    <!-- For schedule list style -->
+    <string name="str_screenshot_tip_title">Сцреенсхотс Савети</string>
+    <string name="str_screenshot_tip_msg">Без обзира да ли пресретање тренутног екрана као на екрану када је машина?</string>
+    <string name="str_screenshot_opt_success">С Успех!</string>
+    <string name="str_screenshot_opt_failed">С неуспех!</string>
+
+    <!-- For epg -->
+    <string name="str_epg_title_time">Електронски програмски водич: Време</string>
+    <string name="str_epg_title_channel">Електронски програмски водич: програм</string>
+    <string name="str_epg_tips_b_reminder">подсетити</string>
+    <string name="str_epg_tips_r_record">снимање</string>
+    <string name="str_epg_tips_y_schedule">уредити</string>
+    <string name="str_epg_tips_g_info">informacije</string>
+    <string name="str_epg_event_extend_no_info">Нема информација</string>
+    <string name="str_epg_event_age">Старост:</string>
+    <string name="str_epg_event_content">sadržaj:</string>
+    <string name="str_epg_event_genre">Тип:</string>
+    <string name="str_epg_event_name">догађај</string>
+    <string name="str_epg_event_rating">Оцењивање</string>
+    <string name="str_epg_event_simulcast_hd">симулцаст</string>
+    <string name="str_epg_event_broadcastlater_hd">emitovanje</string>
+    <string name="str_epg_event_unresolved">Није решен.</string>
+    <string name="str_epg_timer_conflict">конфликт</string>
+    <string name="str_epg_timer_prompt_delete_conflict_schedule">Обриши све Распоред конфликта?</string>
+    <string name="str_epg_timer_delete_conflict_confirm">одредити</string>
+    <string name="str_epg_timer_delete_conflict_cancel">отказан</string>
+
+
+    <!-- For epg Genre-->
+    <string name="str_genre_movie">филм</string>
+    <string name="str_genre_movie_drama">Филм / позориште</string>
+    <string name="str_genre_movie_drama_general">Филм / позориште (интегрисана)</string>
+    <string name="str_genre_news">новости</string>
+    <string name="str_genre_news_factual">Вести и истина</string>
+    <string name="str_genre_news_current_default">Актуелни догађаји</string>
+    <string name="str_genre_news_current_general">Новости / Цуррент Аффаирс (интегрисана)</string>
+    <string name="str_genre_news_current">Новости / Цуррент Аффаирс</string>
+    <string name="str_genre_entertainment">забава</string>
+    <string name="str_genre_show_general">Схов / игра шоу такмичење (интегрисана)</string>
+    <string name="str_genre_show">Схов / игра шоу такмичење</string>
+    <string name="str_genre_sports_general">Спорт (интегрисана)</string>
+    <string name="str_genre_sport">спортски</string>
+    <string name="str_genre_chidren">дете</string>
+    <string name="str_genre_youth">Колевка / дечји програм</string>
+    <string name="str_genre_music_default">музика</string>
+    <string name="str_genre_music_general">Мусиц / Балет / Денс (интегрисана)</string>
+    <string name="str_genre_music">Мусиц / Балет / Денс</string>
+    <string name="str_genre_art_general">Уметност / култура (без музике, интегрисана)</string>
+    <string name="str_genre_art">Уметност / Култура (без музике)</string>
+    <string name="str_genre_social_general">Социјално / политичко / економска (интегрисана)</string>
+    <string name="str_genre_social">Социјално / политичко / економска</string>
+    <string name="str_genre_education_default">Образовање / Информације</string>
+    <string name="str_genre_education_uk">образовање</string>
+    <string name="str_genre_education_others_general">Образовање / Наука / реална тема (интегрисана)</string>
+    <string name="str_genre_education_others">Образовање / Наука / стварни тему</string>
+    <string name="str_genre_infotainment">инфотаинмент</string>
+    <string name="str_genre_life_uk">живот</string>
+    <string name="str_genre_life">слободно време</string>
+    <string name="str_genre_not_support">Не подржава</string>
+    <string name="str_genre_original_language">Извор језика</string>
+    <string name="str_genre_special">посебан</string>
+    <string name="str_genre_special_characteristics">имовина</string>
+    <string name="str_genre_reserved">Резервисано за будућу употребу</string>
+    <string name="str_genre_drama">театар</string>
+    <string name="str_genre_user_defined">Усер-дефинед</string>
+    <string name="str_genre_undefined">недефинисан</string>
+    <string name="str_genre_unclassified">некласификован</string>
+    <string name="str_genre_comedy">комедија</string>
+    <string name="str_genre_documentary">документарни филм</string>
+
+
+
+    <!-- For schedule list style -->
+    <string name="str_left_time">Преостало време:</string>
+    <string name="str_left_time_choosen_yes">to је</string>
+    <string name="str_left_time_choosen_no">не</string>
+
+    <!-- For screen mode hint msg -->
+    <string name="str_invalid_service">Неважећи услуги</string>
+    <string name="str_no_ci_module">Ци картица није уметнута</string>
+    <string name="str_ci_plus_authentication">Цл + сертификација</string>
+    <string name="str_scrambled_program">енкрипција програма</string>
+    <string name="str_program_block">Родитељ</string>
+    <string name="str_parental_block">Родитељска блокада</string>
+    <string name="str_rating_blocked">левел лоцк</string>
+    <string name="str_input_block">Блокиран улаз</string>
+    <string name="str_audio_only">аудио програми</string>
+    <string name="str_data_only">подаци показују</string>
+    <string name="str_common_video"></string>
+    <string name="str_unsupported">Не подржава</string>
+    <string name="str_no_channel_banner">но станица</string>
+    <string name="str_invalid_pmt">ПМТ је неважећи</string>
+    <string name="str_no_signal">Нема сигнала</string>
+    <string name="str_no_signal_record">Нема сигнала да се заустави гори</string>
+    <string name="str_no_signal_timeshift">Нема сигнала станица смена</string>
+    <!-- For auto update scan -->
+    <string name="str_auto_update_scan">Аутоматско ажурирање програма</string>
+
+    <!-- For channel control -->
+    <string name="str_channelcontrol_scan">СКЕНИРАЊЕ</string>
+    <string name="str_channelcontrol_channels">КАНАЛИ:</string>
+	<string name="str_channelcontrol_notfound">Канал није пронађен</string>
+	<string name="str_channelcontrol_done">ГОТОВО</string>
+
+	<!-- For Toast style -->
+	<string name="str_3d_toast">МВЕ се аутоматски искључује да обезбеди ефикасно конверзију 3Д</string>
+	<string name="str_demo_toast">3Д функција за конверзију аутоматски искључити да обезбеди ефикасно МВЕ</string>
+	<string name="str_cha_cities_choosen">Град Изабери</string>
+	<string name="str_invalid_3d_format">3Д формату неважећи</string>
+
+
+	<!-- For CA mode -->
+	<string name="email_theme">тема</string>
+	<string name="email_time">време</string>
+	<string name="email_level">ниво</string>
+	<string name="email_state">држава</string>
+	<string name="email_aid">[Црвени тастер] Делете [дугме] за брисање свих</string>
+	<string name="email_del">[Црвени тастер] за брисање</string>
+	<string name="email_free_space">Преостали простор:</string>
+	<string name="email_free_letter">печат</string>
+	<string name="email_important">важно</string>
+	<string name="email_ordinary">обичан</string>
+	<string name="email_read">читати</string>
+	<string name="email_unread">непрочитан</string>
+	<string name="email">Е-пошта</string>
+	<string name="email_notify">објава</string>
+	<string name="really_remove_this_email">Да ли си сигуран да желите да избришете ову поруку?</string>
+	<string name="really_remove_all_email">Да ли си сигуран да желите да избришете све поруке?</string>
+	<string name="ippv_freeviewed_segment">ИППВ бесплатно приказ фаза</string>
+	<string name="ippv_payviewed_segment">ИППВ пуњење фаза</string>
+	<string name="ippt_payviewed_segment">секција ИППТ пуњење</string>
+	<string name="ippv_tvsid">Оператор ИД</string>
+	<string name="ippv_payviewed_productid">Схов ИД:</string>
+	<string name="ippv_payviewed_slotid">Валлет ИД</string>
+	<string name="ippv_product_state">статус:</string>
+	<string name="ippv_payviewed_expireddate">Рок трајања:</string>
+	<string name="ippt_interval_min">Временски интервал:</string>
+	<string name="ippv_payviewed_cantape">Видео снимање Цена:</string>
+	<string name="ippv_payviewed_price">Цена:</string>
+	<string name="ippv_payviewed_cannottape">Видео није доступан Цена:</string>
+	<string name="ippv_pin">ПИН-:</string>
+	<string name="ippv_pin_ok">успех</string>
+	<string name="ippv_pointer_invalid">Цена показивач нулл</string>
+	<string name="ippv_card_invalid">Смарт картице неважећи</string>
+	<string name="ippv_card_no_room">Смарт картица нема складиштење свемирски програм</string>
+	<string name="ippv_prog_status_invalid">За куповину статуса програма је неважећи</string>
+	<string name="ippv_pin_invalid">ПИН код је неважећи</string>
+	<string name="ippv_data_not_find">Нема података који се могу наћи</string>
+	<string name="ippv_info_page">Тренутни страна / укупно ИППВ:</string>
+	<string name="ippv_product_state_booking">планиран</string>
+	<string name="ippv_product_state_viewed">emitovanje</string>
+	<string name="ippv_can_tape">моћи</string>
+	<string name="ippv_can_not_tape">Цан нот</string>
+	<string name="str_ca_mg_child_or_parent_card">Дете / мајка картица:</string>
+	<string name="str_ca_mg_child_or_parent_card1">Дете / мајка картица</string>
+	<string name="str_ca_mg_child_card">картица за</string>
+	<string name="str_ca_mg_parent_card">мајка картица</string>
+	<string name="str_ca_mg_parent_cardnum">Број мајка картица:</string>
+	<string name="str_ca_mg_child_cardnum">Број деце картица:</string>
+	<string name="str_ca_mg_delaytime">Феединг период:</string>
+	<string name="str_ca_mg_delaytime1">hranjenje циклус</string>
+	<string name="str_ca_mg_lastfeedtime">Последњи Храњење време:</string>
+	<string name="str_ca_mg_lastfeedtime1">Последњи пут Храњење</string>
+	<string name="str_ca_mg_ippv_program">ИППВ информације о програму</string>
+	<string name="str_ca_mg_card_info">Пицтуре картица</string>
+	<string name="really_remove_this_info">Да ли си сигуран да желите да избришете ову информацију?</string>
+	<string name="really_remove_all_info">Да ли си сигуран да желите да избришете све информације?</string>
+	<string name="is_update">Без обзира да ли желите да надоградите?</string>
+	<string name="update_loading">Преузимање пакет надоградње, сачекајте ...</string>
+	<string name="installing">Инсталирање пакета надоградње, сачекајте ...</string>
+	<string name="update_complete_is_reboot">Надоградња пакет је преузета, да ли да поново надоградњу</string>
+	<string name="update_failed">Преузимање није успело</string>
+	<string name="please_insert_parent_card">Молимо вас да убаците картицу мајка</string>
+	<string name="please_insert_child_card">Молимо вас да убаците картицу кћер</string>
+	<string name="read_feeddata_from_parent_failed">Мајка картица подаци читање неуспех</string>
+	<string name="feeddata_successed">Феединг Успех</string>
+	<string name="feeddata_failed">Феединг неуспех</string>
+	<string name="delete_successed">успешно обрисан</string>
+	<string name="delete_failed">Брисање није успело</string>
+	<string name="cdca_rc_ok">Одговара тренутном машине картице</string>
+	<string name="cdca_rc_card_pairother">Смарт картица одговара другим сет-топ бок</string>
+	<string name="cdca_rc_card_nopair">Смарт картица не одговара на било који сет-топ бок</string>
+	<string name="cdca_rc_invalid">Сет-топ бок или смарт картица није неважећи картица</string>
+	<string name="need_please_insert_child_card">Ћерка треба картица да одговарају мастер картице, картица убачена у женски</string>
+	<string name="ippv_cdca_rc_ok">uspešna операција</string>
+	<string name="ippv_cdca_rc_data_not_find">Нисмо пронашли одговарајуће операторе</string>
+	<string name="cdca_rc_pointer_invalid">null Поинтер</string>
+	<string name="clean_J2T_value">Празан унесите вредност времена</string>
+	<string name="str_stop_record_dialog_title">Јеси ли сигуран да желиш да изађете видео систем?</string>
+	<string name="str_stop_record_dialog_message">Снима ... сте сигурни да желите да отказ?</string>
+	<string name="str_stop_record_playback_dialog_message">Пребацивање систем канала за снимање ће се зауставити снимање и репродукцију</string>
+	<string name="str_stop_record_dialog_confirm">одредити</string>
+	<string name="str_stop_record_dialog_cancel">отказан</string>
+	<string name="str_stop_record_dialog_stop">Стоп</string>
+	<string name="str_stop_playback_dialog_title">зауставили репродукцију</string>
+	<string name="str_stop_playback_dialog_message">Пребацивање систем канала снимање ће се зауставити репродукцију</string>
+	<string name="str_disk_too_slow">У диска реад преспоро</string>
+	<string name="enter_old_pwd">Унесите стару лозинку</string>
+	<string name="enter_check_pwd">Унесите лозинку</string>
+	<string name="enter_new_pwd">Унесите нову лозинку</string>
+	<string name="confirm_new_pwd">Потврди нову лозинку</string>
+	<string name="block_program_title">Родитељ</string>
+
+
+
+	<string name="str_dtv_source_info_age">старост</string>
+
+	<!-- FOR  Option -->
+	<string name="str_menu_option">ОПЦИЈА</string>
+	<string name="str_option_caption">натпис</string>
+	<string name="str_option_caption_off">ОН</string>
+	<string name="str_option_ginga_on_off">гинга</string>
+	<string name="str_option_ginga_on">О</string>
+	<string name="str_option_ginga_off">ОН</string>
+	<string name="str_option_ginga_list">гинга Примена</string>
+	<string name="str_option_store_cookies">складиште колачиће</string>
+	<string name="str_option_store_cookies_off">ОН</string>
+	<string name="str_option_store_cookies_on">О</string>
+
+
+
+	<!-- for box only -->
+	<string name="wait_for_tuning_hint">Да ли је претрага, сачекајте ...</string>
+	<string name="str_pic_xvycc">квИЦЦ</string>
+
+
+
+	<string name="str_vchip_vchip">поставке в-цхип</string>
+	<string name="str_vchip_button_lock">дугме за закључавање</string>
+
+
+
+	<string name="str_vchip_block_unrated_tv">Блок УНРАТЕД ТВ-</string>
+
+	<string name="str_vchip_usa_parental_control">САД Родитељска контрола</string>
+	<string name="str_vchip_rrt5_setting">РРТ5 Подешавање</string>
+	<string name="str_vchip_reset_rrt5l">Ресет РРТ5</string>
+	<string name="str_vchip_change_password">Промена лозинке</string>
+	<string name="str_vchip_check_password">verifikacija пассворд</string>
+	<string name="str_vchip_enter_check_pwd">Унесите лозинку</string>
+	<string name="str_vchip_enter_old_pwd">Старо Лозинка</string>
+	<string name="str_vchip_enter_new_pwd">Нова лозинка</string>
+	<string name="str_vchip_confirm_new_pwd">Потврди лозинку</string>
+	<string name="changepassword_title">Промена лозинке</string>
+	<string name="old_password">Старо Лозинка</string>
+	<string name="new_password">Нова лозинка</string>
+	<string name="confirm_password">Потврди лозинку</string>
+	<string name="oldpasswordtip">Унесите стару лозинку.</string>
+	<string name="newpasswordtip">Унесите нову лозинку.</string>
+	<string name="confirmpasswordtip">Унесите лозинку да бисте потврдили.</string>
+	<string name="sure">потврдити</string>
+	<string name="cancel">отказан</string>
+	<string name="clean">уклонити</string>
+	<string name="passwordsettip">Молимо унесите лозинку.</string>
+	<string name="enterpassword">Унесите лозинку</string>
+	<string name="password">пассворд:</string>
+	<string name="password_tip_old">Унесите стару лозинку.</string>
+	<string name="password_tip_new">Молимо унесите нову лозинку.</string>
+	<string name="password_tip_condirm">Молимо потврдите нову лозинку.</string>
+	<string name="errortip">Лозинка је нетачна. Поново унесите лозинку.</string>
+
+	<!-- for USA Parental Control -->
+	<string name="usa_movie_ratings">Мовие Оцене</string>
+	<string name="usa_movie_ratings_none">ниједан</string>
+	<string name="usa_movie_ratings_g">Г</string>
+	<string name="usa_movie_ratings_pg">ПГ</string>
+	<string name="usa_movie_ratings_pg_13">ПГ 13</string>
+	<string name="usa_movie_ratings_r">: Р</string>
+	<string name="usa_movie_ratings_nc_17">НЦ-17</string>
+	<string name="usa_movie_ratings_x">к</string>
+	<string name="usa_movie_ratings_nr">НП</string>
+	<string name="usa_tv_ratings">ТВ гледаности</string>
+	<string name="usa_tv_ratings_none">ниједан</string>
+	<string name="usa_tv_ratings_tv_y">ТВ-И</string>
+	<string name="usa_tv_ratings_tv_y7">ТВ-И7</string>
+	<string name="usa_tv_ratings_tv_g">ТВ-Г</string>
+	<string name="usa_tv_ratings_tv_pg">ТВ-ПГ</string>
+	<string name="usa_tv_ratings_tv_14">ТВ 14</string>
+	<string name="usa_tv_ratings_tv_ma">ТВ мр</string>
+	<string name="usa_tv_ratings_tv_title_all">СВЕ</string>
+	<string name="usa_tv_ratings_tv_title_fv">ФВ</string>
+	<string name="usa_tv_ratings_tv_title_l">П</string>
+	<string name="usa_tv_ratings_tv_title_s">Н</string>
+	<string name="usa_tv_ratings_tv_title_v">в</string>
+	<string name="usa_tv_ratings_tv_title_d">Год</string>
+	<string name="contentdescription">нула</string>
+
+	<string name="old_password_not_filled_completely">Старо Лозинка Унесите поново мање од четири.</string>
+	<string name="new_password_not_filled_completely">Нова лозинка Поново унесите мање од четири.</string>
+	<string name="originalpassworderr">Поново унесите стару грешку лозинку.</string>
+	<string name="newconfirmpassworderr">Лозинка не одговара, поново унесите.</string>
+	<string name="resetsuccess">Лозинка је успешно промењена.</string>
+	<string name="resetrrt5_title">Ресет РРТ5</string>
+	<string name="resetrrt5_tips">У реду?</string>
+
+	 <!-- for Canadian Parental Control -->
+	<string name="str_vchip_canadian_parental_control">Канадски Родитељска контрола</string>
+
+	 <!-- Closed Caption -->
+	<string name="str_setting_cc_title">ЦЦ Подешавања</string>
+	<string name="str_setting_cc_mode">КЗ мод</string>
+	<string name="str_setting_cc_basic_selection">osnovni Избор</string>
+	<string name="str_setting_cc_advanced_selection">Напредна Избор</string>
+	<string name="str_setting_cc_advanced_setting">Напредна подешавања</string>
+
+
+	 <!-- Closed Caption Digital -->
+	<string name="str_setting_cc_dig_title">НАР ЦЦ Подешавања</string>
+	<string name="str_setting_cc_dig_mode">начин</string>
+	<string name="str_setting_cc_dig_font_style">фонта</string>
+	<string name="str_setting_cc_dig_font_size">Величина фонта</string>
+	<string name="str_setting_cc_dig_font_edge_style">Фонт Стил ивица</string>
+	<string name="str_setting_cc_dig_font_edge_color">Фонт ивице Боја</string>
+	<string name="str_setting_cc_dig_fg_color">ФГ боја</string>
+	<string name="str_setting_cc_dig_bg_color">бг боја</string>
+	<string name="str_setting_cc_dig_fg_opacity">ФГ Непрозирност</string>
+	<string name="str_setting_cc_dig_bg_opacity">БГ Непрозирност</string>
+	<string name="str_setting_cc_italic_attr">италиц</string>
+	<string name="str_setting_cc_underline_attr">подвући</string>
+
+
+
+	 <!-- For OAD string define -->
+	<string name="str_oad_msg_software_not_available">ОАД није доступан!</string>
+	<string name="str_oad_msg_download_found">Нови софтвер се налази</string>
+	<string name="str_oad_msg_dowload_prompt">Преузмите га сада?</string>
+	<string name="str_oad_msg_dowload_prompt_nz">Надоградњу софтвера је доступан Изаберите ИЕС да сада упграде -. Ово ће потрајати неколико минута - или остави у стању мировања (искључивање на даљинском управљачу) када завршите гледање за надоградњу касније Хвала ..</string>
+	<string name="str_oad_msg_downloading">Преузимање</string>
+	<string name="str_oad_msg_downloading_nz">Ваш пријемник је тренутно преузима битну надоградњу софтвера Ово ће потрајати само неколико минута.. Немојте подесите ваш пријемник или искључите у овом тренутку. Хвала.</string>
+	<string name="str_oad_msg_scan_confirm">Да ли желите да покренете у потрази за новим софтвером?</string>
+	<string name="str_oad_downloadprogress_percent_0">0</string>
+	<string name="str_oad_yes">да</string>
+	<string name="str_oad_no">не</string>
+	<string name="str_oad_exit">излаз</string>
+
+
+
+	 <!-- For NIT update string define -->
+	<string name="str_nit_msg_frequency_change_confirm">! Ре-скенирање је потребна промена фреквенција \ нПритисните ОК да скенира канал.. Ово може потрајати неко време да заврши акцију \. НПритисните Изађи да игноришу потребно.</string>
+	<string name="str_nit_msg_multiplexer_add_confirm">Нови мултиплекс можда је потребно доступан Ре-скенирање \ нПритисните ОК да скенира канал.. Ово може потрајати неко време да заврши акцију \. НПритисните Изађи да игноришу потребно.</string>
+	<string name="str_nit_msg_multiplexer_remove_confirm">Мултиплекс уклоњене можда је потребно доступан Ре-скенирање \ нПритисните ОК да скенира канал.. Ово може потрајати неко време да заврши акцију \. НПритисните Изађи да игноришу потребно.</string>
+	<string name="str_nit_ok">у реду</string>
+	<string name="str_nit_exit">излаз</string>
+
+	 <!-- For DVBS LNB Setting -->
+	<string name="str_lnbsetting_title">ЛНБ-Подешавање</string>
+	<string name="str_lnbsetting_satellite">сателит</string>
+	<string name="str_lnbsetting_transponder">транспондер</string>
+	<string name="str_lnbsetting_transponder_freq">(МХз)</string>
+	<string name="str_lnbsetting_transponder_symbol">(КС / с)</string>
+	<string name="str_lnbsetting_lnbpower">ЛНБ напајање</string>
+	<string name="str_lnbsetting_compensation">Дуго кабл Компензација</string>
+	<string name="str_lnbsetting_frequencies">ЛНБ-Лов / високе фреквенције</string>
+	<string name="str_lnbsetting_frequencies_title">ЛНБ-Тип</string>
+	<string name="str_lnbsetting_frequencies_low">низак</string>
+	<string name="str_lnbsetting_frequencies_high">висок</string>
+	<string name="str_lnbsetting_frequencies_set">Промена Сеттинг</string>
+	<string name="str_lnbsetting_22knz_tone">22КХз Тоне</string>
+	<string name="str_lnbsetting_toneburst">распрскавање тонова</string>
+	<string name="str_lnbsetting_diseqc_1_0">ДиСЕкЦ 1.0</string>
+	<string name="str_lnbsetting_diseqc_1_1">ДиСЕкЦ 1.1</string>
+	<string name="str_lnbsetting_diseqc_1_2">ДиСЕкЦ 1.2</string>
+	<string name="str_lnbsetting_diseqc_1_3">ДиСЕкЦ 1.3</string>
+	<string name="str_lnboptting_diseqc_change">Промена ДиСЕкЦ</string>
+	<string name="str_lnbsetting_motor_none">ниједан</string>
+	<string name="str_lnbsetting_motor">мотор</string>
+	<string name="str_lnbsetting_signalquality">квалитет</string>
+	<string name="str_lnbsetting_strength">снага</string>
+	<string name="str_lnbsetting_singlecable">сингле кабл</string>
+	<string name="str_lnbsetting_singlecable_none">ниједан</string>
+	<string name="str_lnbsetting_singlecable_slot">прорез</string>
+	<string name="str_lnbsetting_singlecable_freq">frekvencije</string>
+	<string name="str_lnbsetting_singlecable_pin">игла</string>
+	<string name="str_lnbsetting_singlecable_lnb">ЛНБ-</string>
+	<string name="str_lnbsetting_singlecable_verify">проверити</string>
+	<string name="str_lnboption_menu_hint_add">додати</string>
+	<string name="str_lnboption_menu_hint_delete">избрисати</string>
+	<string name="str_lnboption_menu_hint_edit">едит</string>
+	<string name="str_lnboption_menu_hint_position">положај</string>
+	<string name="str_lnboption_menu_hint_limit">лимит</string>
+	<string name="str_lnboption_menu_hint_location">локација</string>
+	<string name="str_lnboption_editor_number">Не.</string>
+	<string name="str_lnboption_editor_longitude_direction">dužina Правац</string>
+	<string name="str_lnboption_editor_longitude_angle">dužina Угао</string>
+	<string name="str_lnboption_editor_frequency">фреквенција</string>
+	<string name="str_lnboption_editor_symbolrate">Симбол рате</string>
+	<string name="str_lnboption_editor_band">група</string>
+	<string name="str_lnboption_editor_polarization">поларизација</string>
+	<string name="str_lnboption_editor_rename">Преименовање</string>
+	<string name="str_lnboption_editor_name">име</string>
+	<string name="str_lnboption_editor_del_dialog_title">врх</string>
+	<string name="str_lnboption_editor_del_dialog_msg">Обриши изабрану ставку?</string>
+	<string name="str_lnboption_editor_del_dialog_yes">да</string>
+	<string name="str_lnboption_editor_del_dialog_no">не</string>
+	<string name="str_lnb_motor_editor_title">мотор Подешавање</string>
+	<string name="str_lnb_motor_editor_move_auto">Мове Ауто</string>
+	<string name="str_lnb_motor_editor_move_continue">Мове Наставити</string>
+	<string name="str_lnb_motor_editor_move_step">Мове Корак (1)</string>
+	<string name="str_lnb_motor_editor_store_position">сторе Позиција</string>
+	<string name="str_lnb_motor_editor_goto_position">Иди на Поситион</string>
+	<string name="str_lnb_motor_editor_set_west_limit">Сет Вест Лимит</string>
+	<string name="str_lnb_motor_editor_set_east_limit">Сет Еаст Лимит</string>
+	<string name="str_lnb_motor_editor_goto_reference">Иди на Референце</string>
+	<string name="str_lnb_motor_editor_goto_x">Иди на Кс</string>
+	<string name="str_lnb_motor_editor_disable_limit">дисабле Лимит</string>
+	<string name="str_lnb_motor_editor_location">Локација:</string>
+	<string name="str_lnb_motor_editor_longitude_direction">dužina Правац</string>
+	<string name="str_lnb_motor_editor_longitude_angle">dužina Угао</string>
+	<string name="str_lnb_motor_editor_latitude_direction">Ширина Смер</string>
+	<string name="str_lnb_motor_editor_latitude_angle">ширина угла</string>
+	<string name="str_lnb_motor_editor_ok">ок</string>
+	<string name="str_lnb_motor_editor_stop">Стоп</string>
+	<string name="str_lnb_motor_editor_east">Исток</string>
+	<string name="str_lnb_motor_editor_west">Запад</string>
+
+
+	<string name="bt_info_left">лево</string>
+	<string name="bt_info_switch">Изаберите: У реду</string>
+	<string name="bt_info_adjust">Навигација:</string>
+	<string name="bt_info_right">десно</string>
+	<string name="bt_info_up">на</string>
+	<string name="bt_info_down">нижи</string>
+	<string name="bt_info_ok">одредити</string>
+	<string name="bt_info_back">returns:</string>
+	<string name="bt_info_exit">одустати</string>
+
+
+	<!-- For target region -->
+	<string name="str_target_region_country">земља</string>
+	<string name="str_target_region_primary">Прва област</string>
+	<string name="str_target_region_secondary">Друга област</string>
+	<string name="str_target_region_tertiary">Трећа област</string>
+	<string name="sound_screen_save">Да уђе у режим са екрана, притисните било који тастер да бисте отказали</string>
+
+
+	<string name="str_mhz">МГц</string>
+	<string name="exittip">Притисните Есцапе тастер да бисте изашли из менија или станице претрагу</string>
+	<string name="str_sound_format_desconocido">Непознато</string>
+	<string name="str_cha_tv_route_desconocido">Непознато</string>
+	<string name="st_ca_rc_desconocido">неважећи greška</string>
+	<string name="sky_picture">слика</string>
+	<string name="sky_sound">звук</string>
+	<string name="sky_chanel">канал</string>
+	<string name="sky_setting">поставити</string>
+	<string name="sky_time">време</string>
+	<string name="sky_lock">Блокада за децу</string>
+	<!-- For HDMI EDID Version -->
+	<string name="str_hdmi_edid_version">ХДМИ, ЕДИД верзија</string>
+	<string name="str_hdmi_edid_version_change">Пребацивање ХДМИ, ЕДИД верзију</string>
+	<string name="str_hdmi_edid_version_wait">Молимо сачекајте ...</string>
+
+
+
+	<string name="str_tv_unknown">непознат</string>
+
+	<string name="str_set_hbbtv_switch">ХббТВ</string>
+
+
+	<string name="str_preferred_channel_list">Жељени Листа канала</string>
+	<!-- For all input sources -->
+
+	<string name="str_input_source_lock_title">брава канал</string>
+	<string name="str_input_source_lock_prompt">Лоцк / унлоцк</string>
+	<string name="str_input_source_reset_prompt">све ресет</string>
+
+	<string name="source_info_DTV">Дигитална ТВ</string>
+	<string name="source_info_ATV">аналогни ТВ</string>
+	<string name="source_info_AV1">видео</string>
+	<string name="source_info_AV2">видео 2</string>
+	<string name="source_info_VGA">компјутер</string>
+	<string name="source_info_HDMI1">ХД 1</string>
+	<string name="source_info_HDMI2">ХД 2</string>
+		
+	<!-- EWS  -->
+	<string name="str_ews_status_awas">СТАЊЕ АВАС</string>
+	<string name="str_ews_status_siaga">СТАЊЕ СИАГА</string>
+	<string name="str_ews_status_waspada">СТАЊЕ ВАСПАДА:</string>
+
+	<string name="str_ews_code">бенцана:</string>
+	<string name="str_ews_event_date">Танггал:</string>
+	<string name="str_ews_position">Позиција:</string>
+	<string name="str_ews_characteristic">карактер:</string>
+	<string name="str_ews_message">песан:</string>
+
+	<string name="str_ews_main_menu_location_code">Локација код</string>
+
+	<string name="str_ews_location_code">Локација код:</string>
+	<string name="str_ews_location_code_save">саве</string>
+	<string name="str_ews_location_code_cancel">отказати</string>
+
+
+
+	<string name="str_cha_ntsc_antannatype">Тип антене</string>
+	<string name="tuning_no_powoff">Је претрага, операција се не може затворити!</string>
+
+	<!-- for pvr activity -->
+	<string name="str_pvr_recording_poweroff_title">брз</string>
+	<string name="str_pvr_timeshif_to_recording_message">Да ли је време померене, дошло је време да закажете, потврдите да желите да зауставите и почети да гори гори?</string>
+	<string name="str_pvr_recording_poweroff_message">Бурнинг, потврдите да желите да се спали и немој више чекати?</string>
+	<string name="str_pvr_timeshif_poweroff_message">Када је промена потврђује и приправности помак када да престану?</string>
+	<string name="str_pvr_recording_poweroff_positive_text">to је</string>
+	<string name="str_pvr_recording_poweroff_nagative_text">не</string>
+
+	<string name="str_channeltuning_stop">Молимо сачекајте</string>
+
+	<string name="str_power_off_confirm">Да ли сте сигурни да желите да искључивање?</string>
+
+	<string-array name="str_arr_pic_picturemode_vals">
+	    <item>светло</item>
+	    <item>стандард</item>
+	    <item>нежан</item>
+	    <item>корисник</item>
+	    <item>игра</item>
+	    <item>аутоматски</item>
+	    <item>компјутер</item>
+	    <item>светао</item>
+	    <item>природно</item>
+	    <item>спортски</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_colortemperature_vals">
+	    <item>цоол цолоур</item>
+	    <item>стандард</item>
+	    <item>топла боја</item>
+	    <item>корисник</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_zoommode_vals">
+	    <item>Уобичајено</item>
+	    <item>0.672916666666667</item>
+	    <item>0.16875</item>
+	    <item>аутоматски</item>
+	    <item>панорамски</item>
+	    <item>Максимална величина</item>
+	    <item>зоом 1</item>
+	    <item>зоом 2</item>
+	    <item>0.589583333333333</item>
+	    <item>Поинт то поинт</item>
+	    <item>титл</item>
+	    <item>телевизија</item>
+	    <item>корисник</item>
+	    <item>Панорамски (4к3)</item>
+	    <item>Видесцреен (4к3)</item>
+	    <item>Вертикалне пруге (16к9)</item>
+	    <item>Сцан (16к9)</item>
+	    <item>Мерге (4к3)</item>
+	    <item>Мерге (16к9)</item>
+	    <item>зоом 2к</item>
+	    <item>3к оптички зум</item>
+	    <item>4к зум</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_imgnoisereduction_vals">
+	    <item>затворити</item>
+	    <item>слаб</item>
+	    <item>у</item>
+	    <item>јак</item>
+	    <item>аутоматски</item>
+	</string-array>
+	<string-array name="str_arr_pic_mpegnoisereduction_vals">
+	    <item>затворити</item>
+	    <item>слаб</item>
+	    <item>у</item>
+	    <item>јак</item>
+	</string-array>
+	<string-array name="str_arr_sleep_mode_vals">
+	    <item>затворити</item>
+	    <item> 10 минута</item>
+	    <item> 20 минута</item>
+	    <item> 30 минута</item>
+	    <item> 60 минута</item>
+	    <item> 90 минута</item>
+	    <item> 120 минута</item>
+	    <item> 180 минута</item>
+	    <item> 240 минута</item>
+	</string-array>
+	<string-array name="str_arr_pvr_mode_vals">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_soundmode_vals">
+	    <item>стандард</item>
+	    <item>музика</item>
+	    <item>филм</item>
+	    <item>спортски</item>
+	    <item>корисник</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_avc_vals">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_surround_vals">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_spdifoutput_vals">
+	    <item>Долби</item>
+	    <item>затворити</item>
+	    <item>Рав</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_separatehear_vals">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_self_adaptive_detecttriple_vals">
+	    <item>близу</item>
+	    <item>сада</item>
+	    <item>Када је скенирање мења</item>
+	    <item>у реалном времену</item>
+	</string-array>
+
+	<string-array name="str_arr_3dto2d_self_adaptive_detecttriple_vals">
+	    <item>близу</item>
+	    <item>сада</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_self_adaptive_detectlevel_vals">
+	    <item>слаб</item>
+	    <item>у</item>
+	    <item>јак</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3dconversion_vals">
+	    <item>близу</item>
+	    <item>око</item>
+	    <item>Горе-доле</item>
+	    <item>Дуал хигх-дефинитион</item>
+	    <item>испреплетени линије</item>
+	    <item>2Д у 3Д</item>
+	    <item>аутоматски</item>
+	    <item>табла за играње даме</item>
+	    <item>распоређен ред</item>
+	    <item>фраме Интерлеаве</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3dto2d_vals">
+	    <item>близу</item>
+	    <item>око</item>
+	    <item>Горе-доле</item>
+	    <item>Дуал хигх-дефинитион</item>
+	    <item>испреплетени линије</item>
+	    <item>фраме Интерлеаве</item>
+	    <item>аутоматски</item>
+	    <item>табла за играње даме</item>
+	    <item>распоређен ред</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3ddepth_vals">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	    <item>21</item>
+	    <item>22</item>
+	    <item>23</item>
+	    <item>24</item>
+	    <item>25</item>
+	    <item>26</item>
+	    <item>27</item>
+	    <item>28</item>
+	    <item>29</item>
+	    <item>30</item>
+	    <item>31</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3doffset_vals">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	    <item>21</item>
+	    <item>22</item>
+	    <item>23</item>
+	    <item>24</item>
+	    <item>25</item>
+	    <item>26</item>
+	    <item>27</item>
+	    <item>28</item>
+	    <item>29</item>
+	    <item>30</item>
+	    <item>31</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_autostart_vals">
+	    <item>близу</item>
+	    <item>2Д</item>
+	    <item>3Д</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3doutputaspect_vals">
+	    <item>фулл сцреен</item>
+	    <item>0.16875</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_lrswitch_vals">
+	    <item>близу</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<!-- FIXME: Remove element if useless -->
+	<string-array name="str_arr_cha_antannatype">
+	    <item>ДТМБ</item>
+	    <item>ДВБ-Ц,</item>
+	    <item>, ДВБ-Т</item>
+	    <item>МАКС</item>
+	</string-array>
+
+	<!-- FIXME: Remove element if useless -->
+	<string-array name="str_arr_cha_atsc_antannatype">
+	    <item>не</item>
+	    <item>антена</item>
+	    <item>жичани</item>
+	</string-array>
+
+	<string-array name="str_arr_autotuning_country">
+	    <item>Аустралија</item>
+	    <item>Аустрија</item>
+	    <item>Белгија</item>
+	    <item>бугарски</item>
+	    <item>Хрватска</item>
+	    <item>чешки</item>
+	    <item>Данска</item>
+	    <item>Финска</item>
+	    <item>Француска</item>
+	    <item>Немачка</item>
+	    <item>Грчка</item>
+	    <item>Мађарска</item>
+	    <item>Италија</item>
+	    <item>Луксембург</item>
+	    <item>Холандија</item>
+	    <item>Норвешка</item>
+	    <item>Пољска</item>
+	    <item>Португалија</item>
+	    <item>Румунија</item>
+	    <item>Русија</item>
+	    <item>Србија</item>
+	    <item>Словенија</item>
+	    <item>Шпанија</item>
+	    <item>Шведска</item>
+	    <item>Швајцарска</item>
+	    <item>Британија</item>
+	    <item>Нови Зеланд</item>
+	    <item>арапски</item>
+	    <item>Естонија</item>
+	    <item>Хебрејски</item>
+	    <item>Летонија</item>
+	    <item>Словачка</item>
+	    <item>Турска</item>
+	    <item>Ирска</item>
+	    <item>Јапан</item>
+	    <item>Филипини</item>
+	    <item>Тајланд</item>
+	    <item>Малдиви</item>
+	    <item>Уругвај</item>
+	    <item>Перу</item>
+	    <item>Аргентина</item>
+	    <item>Чиле</item>
+	    <item>Венецуела</item>
+	    <item>Еквадор</item>
+	    <item>Костарика</item>
+	    <item>Парагвај</item>
+	    <item>Боливија</item>
+	    <item>Белиз</item>
+	    <item>Никарагва</item>
+	    <item>Гватемала</item>
+	    <item>Кина</item>
+	    <item>Тајван</item>
+	    <item>Бразил</item>
+	    <item>Канада</item>
+	    <item>Мексико</item>
+	    <item>Сједињене Америчке државе</item>
+	    <item>Кореја</item>
+	    <item>Фиџи</item>
+	    <item>узбекистан</item>
+	    <item>Таџикистан</item>
+	    <item>Етиопија</item>
+	    <item>Азербејџан</item>
+	    <item>Јужна Африка</item>
+	    <item>Алжир</item>
+	    <item>Египат</item>
+	    <item>Саудијска Арабија</item>
+	    <item>Иран</item>
+	    <item>Ирак</item>
+	    <item>Намибија</item>
+	    <item>Кувајт</item>
+	    <item>Индонезија</item>
+	    <item>Израел</item>
+	    <item>катар</item>
+	    <item>Нигерија</item>
+	    <item>Зимбабве</item>
+	    <item>Литванија</item>
+	    <item>Мароко</item>
+	    <item>Тунис</item>
+	    <item>Индија</item>
+	    <item>Вијетнам</item>
+	    <item>Хонгконг</item>
+	    <item>Колумбија</item>
+	    <item>Малезија</item>
+	    <item>Сингапур</item>
+	</string-array>
+	<string-array name="str_arr_signalinfo_qam_cab">
+	    <item>16КАМ</item>
+	    <item>32КАМ</item>
+	    <item>64КАМ</item>
+	    <item>128КАМ</item>
+	    <item>256КАМ</item>
+	</string-array>
+
+	<string-array name="str_arr_signalinfo_qam_dvbt">
+	    <item>КПСК</item>
+	    <item>16КАМ</item>
+	    <item>64КАМ</item>
+	    <item>256КАМ</item>
+	</string-array>
+	<!-- for dtv auto tune option -->
+	<string-array name="strs_cha_dtvautotuning_dvbc_tuning_mode">
+	    <item>Пуна учесталост претрага станица</item>
+	    <item>Мрежа станица претрага</item>
+	</string-array>
+	<string-array name="strs_cha_dtvautotuning_demodulation_tbl">
+	    <item>16 КАМ</item>
+	    <item>32 КАМ</item>
+	    <item>64 КАМ</item>
+	    <item>128 КАМ</item>
+	    <item>256 КАМ</item>
+	</string-array>
+
+	<string-array name="str_arr_dtvmanualtuning_polarization_vals">
+	    <item>vertikalni положај</item>
+	    <item>хоризонталном положају</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_network_vals">
+	    <item>искључен</item>
+	    <item>на</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_scan_mode_vals">
+	    <item>бесплатно</item>
+	    <item>Фрее + ​​Сцрамбле</item>
+	    <item>јагма</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_service_type_vals">
+	    <item>Дигитална ТВ</item>
+	#NAME?
+	    <item>радио</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_lnbtype_vals">
+	    <item>, Ц</item>
+	    <item>ку</item>
+	</string-array>
+	<string-array name="str_arr_mwe_text">
+	    <item>затворити</item>
+	    <item>оптимизација</item>
+	    <item>Стицање предност</item>
+	    <item>podeljeni екран</item>
+	    <item>динамичан</item>
+	    <item>дејство</item>
+	    <item>бок Мобилни</item>
+	</string-array>
+	<string-array name="str_arr_demo_onoff">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+
+	<string-array name="str_arr_setting_audio_type_iso_text">
+	    <item></item>
+	    <item>Ц.Е</item>
+	    <item>Х.И.</item>
+	    <item>В.л.</item>
+	</string-array>
+
+	<string-array name="str_arr_time_switch">
+	    <item>близу</item>
+	    <item>otvoreno</item>
+	</string-array>
+	<string-array name="str_arr_time_autotimetype">
+	    <item>близу</item>
+	    <item>Дигитална ТВ</item>
+	    <item>мрежа</item>
+	    <item>аутоматски</item>
+	</string-array>
+	<string-array name="str_arr_time_source">
+	    <item>меморија</item>
+	    <item>кући</item>
+	    <item>мултимедијални</item>
+	    <item>за ДЛНА</item>
+	</string-array>
+
+	<string-array name="str_arr_subtitle_switch">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_set_menutimetype">
+	    <item>5 секунди</item>
+	    <item>10 секунди</item>
+	    <item>15 секунди</item>
+	    <item>20 секунди</item>
+	    <item>30 секунди</item>
+	    <item>увек</item>
+	</string-array>
+
+	<string-array name="str_arr_set_switchmodetype">
+	    <item>црн</item>
+	    <item>мирроринг</item>
+	</string-array>
+
+
+	<string-array name="str_arr_set_sourceidenttype">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+	<string-array name="str_arr_set_sourcepreviewtype">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+	<string-array name="str_arr_set_hdmiarctype">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_set_sourceswittype">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+
+	<string-array name="str_arr_set_moviemodetype">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_set_mhlautoswitch_onoff">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_set_bluescreenswitchtype">
+	    <item>otvoreno</item>
+	    <item>затворити</item>
+	</string-array>
+	<string-array name="str_arr_set_colorrangetype">
+	    <item>0 до 255</item>
+	    <item>16 то 235</item>
+	    <item>аутоматски</item>
+	</string-array>
+
+	<string-array name="str_arr_set_hdmicectype">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_set_standyontype">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_set_hdmicec_onoff">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+	<string-array name="str_arr_set_powersetting_onoff">
+	    <item>otvoreno</item>
+	    <item>затворити</item>
+	</string-array>
+	<string-array name="str_sort_type">
+	    <item>унапред постављени</item>
+	    <item>сателит</item>
+	    <item>име</item>
+	    <item>енцриптион</item>
+	    <item>ЛЦН</item>
+	    <item>фреквенција</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_time_check_display_info">
+	    <item>не</item>
+	    <item>Тиминг Успех</item>
+	    <item>Тиминг од</item>
+	    <item>тиминг поклопац</item>
+	    <item>Старт пута већа него на крају времена</item>
+	    <item>Крај рока је прекорачен</item>
+	    <item>Листа је пуна</item>
+	    <item>И нови подсетник сукоб</item>
+	    <item>И подсети сукоб у бази података</item>
+	</string-array>
+	<string-array name="str_arr_video_type">
+	    <item></item>
+	    <item>МПЕГ-</item>
+	    <item>Х.264 Аудио кодек</item>
+	    <item>Света</item>
+	    <item>: ВЦ1</item>
+	    <item>ХЕВЦ</item>
+	</string-array>
+
+	<string-array name="cities_option_array">
+	    <item>други</item>
+	    <item>Пекинг</item>
+	    <item>Анхуи,</item>
+	    <item>хефеи</item>
+	    <item>Анкинг</item>
+	    <item>Бенгбу</item>
+	    <item>Ксиамен</item>
+	    <item>куанзхоу</item>
+	    <item>Луоианг</item>
+	    <item>Чжанчжоу</item>
+	    <item>кантон</item>
+	    <item>Гуандонг</item>
+	    <item>донггуан</item>
+	    <item>Гуанг</item>
+	    <item>морска лука</item>
+	    <item>схијиазхуанг</item>
+	    <item>Кинхуангдао</item>
+	    <item>Тангшан</item>
+	    <item>харбин</item>
+	    <item>зхенгзхоу</item>
+	    <item>Луоианг</item>
+	    <item>Нанианг</item>
+	    <item>хубеи</item>
+	    <item>Вухан</item>
+	    <item>Хуанган</item>
+	    <item>Ђингџоу</item>
+	    <item>Иицханг</item>
+	    <item>Чангша Куанта</item>
+	    <item>Чангша Гуан</item>
+	    <item>Нантонг</item>
+	    <item>нанцханг</item>
+	    <item>Ђилин</item>
+	    <item>далиан</item>
+	    <item>Хух-Хото</item>
+	    <item>Ксиан</item>
+	    <item>Ченгду</item>
+	    <item>Урумчи</item>
+	    <item>Џинхуа</item>
+	    <item>нингбо</item>
+	    <item>СХАОКСИНГ</item>
+	</string-array>
+
+	<string-array name="guidance_list_default_string">
+	    <item>близу</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	</string-array>
+
+	<string-array name="guidance_list_singapore_string">
+	    <item>близу</item>
+	    <item>Г</item>
+	    <item>ПГ</item>
+	    <item>ПГ13</item>
+	    <item>НЦ16</item>
+	    <item>М18</item>
+	    <item>Р21</item>
+	</string-array>
+
+	<string-array name="guidance_list_australian_string">
+	    <item>близу</item>
+	    <item>блок Информације</item>
+	    <item>н</item>
+	    <item>, Ц</item>
+	    <item>Г</item>
+	    <item>ПГ</item>
+	    <item>П</item>
+	    <item>МА15 +</item>
+	    <item>АВ15 +</item>
+	    <item>: Р</item>
+	</string-array>
+
+	<string-array name="contentlock_list">
+	    <item>ниједан</item>
+	    <item>лекови</item>
+	    <item>насиље</item>
+	    <item>Насиље и дрога</item>
+	    <item>секс</item>
+	    <item>Секс, дрога</item>
+	    <item>Насиље и секс</item>
+	    <item>Насиље, Секс, дрога</item>
+	</string-array>
+
+	<string-array name="str_arr_option_caption">
+	    <item>ОН</item>
+	    <item>О</item>
+	    <item>ЦЦ1</item>
+	    <item>ЦЦ2</item>
+	    <item>ЦЦ3</item>
+	    <item>ЦЦ4</item>
+	    <item>тект1</item>
+	    <item>Текст2</item>
+	    <item>Текст 3</item>
+	    <item>тект4</item>
+	</string-array>
+	<string-array name="str_arr_option_closed_caption">
+	    <item>ОН</item>
+	    <item>О</item>
+	    <item>ОН Када Мутед</item>
+	    <item>ЦЦ1</item>
+	    <item>ЦЦ2</item>
+	    <item>ЦЦ3</item>
+	    <item>ЦЦ4</item>
+	    <item>тект1</item>
+	    <item>Текст2</item>
+	    <item>Текст 3</item>
+	    <item>тект4</item>
+	</string-array>
+
+
+
+	<string-array name="str_arr_xvycc_vals">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_vchip_button_lock_vals">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="str_arr_vchip_block_unrated_tv_vals">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<string-array name="setting_canadian_parental_locks_titles">
+	    <item>Канадски енглески</item>
+	    <item>Канадски француски</item>
+	</string-array>
+	<string-array name="canadian_english_titles">
+	    <item>е</item>
+	    <item>, Ц</item>
+	    <item>Ц8 +</item>
+	    <item>Г</item>
+	    <item>ПГ</item>
+	    <item>14+</item>
+	    <item>18+</item>
+	</string-array>
+	<string-array name="canadian_french_titles">
+	    <item>е</item>
+	    <item>Г</item>
+	    <item>8 анс +</item>
+	    <item>13 година +</item>
+	    <item>16 анс +</item>
+	    <item>18 анс +</item>
+	</string-array>
+	<string-array name="setting_canadian_parental_locks_values">
+	    <item>искључен</item>
+	    <item>на</item>
+	</string-array>
+	<string-array name="rrt5_value">
+	    <item>откључати</item>
+	    <item>закључати</item>
+	</string-array>
+	<string-array name="vchip_setting_titles">
+	    <item>дугме за закључавање</item>
+	    <item>Блок УНРАТЕД ТВ-</item>
+	    <item>УСА Парентал Браве</item>
+	    <item>Цанадиан Парентал Браве</item>
+	    <item>РРТ5 Подешавање</item>
+	    <item>Ресет РРТ5</item>
+	    <item>Промена лозинке</item>
+	</string-array>
+
+	<string-array name="setting_closed_caption">
+	    <item>КЗ режим</item>
+	    <item>osnovni Избор</item>
+	    <item>Напредна Избор</item>
+	    <item>Напредна подешавања</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_mode_vals">
+	    <item>на</item>
+	    <item>искључен</item>
+	    <item>На Када звука</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_basic_selection_vals">
+	    <item>искључен</item>
+	    <item>ЦЦ1</item>
+	    <item>ЦЦ2</item>
+	    <item>ЦЦ3</item>
+	    <item>ЦЦ4</item>
+	    <item>тект1</item>
+	    <item>Текст2</item>
+	    <item>Текст 3</item>
+	    <item>тект4</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_advanced_selection_vals">
+	    <item>искључен</item>
+	    <item>Сервице1</item>
+	    <item>Сервице2</item>
+	    <item>Сервице3</item>
+	    <item>службу4</item>
+	    <item>Сервице5</item>
+	    <item>Сервице6</item>
+	</string-array>
+
+	<string-array name="setting_digital_cc_mode">
+	    <item>обичај</item>
+	    <item>Уобичајено</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_size">
+	    <item>нормалан</item>
+	    <item>мали</item>
+	    <item>велики</item>
+	    <item>Уобичајено</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_style">
+	    <item>Уобичајено</item>
+	    <item>стиле1</item>
+	    <item>стиле2</item>
+	    <item>стиле3</item>
+	    <item>Стиле4</item>
+	    <item>Стиле5</item>
+	    <item>Стиле6</item>
+	    <item>Стиле7</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_edge_style">
+	    <item>ниједан</item>
+	    <item>Раисед</item>
+	    <item>утучен</item>
+	    <item>униформа</item>
+	    <item>лефт Схадов</item>
+	    <item>Десни Схадов</item>
+	    <item>Уобичајено</item>
+	</string-array>
+	<string-array name="setting_digital_cc_caption_color">
+	    <item>црн</item>
+	    <item>црвен</item>
+	    <item>зелен</item>
+	    <item>жут</item>
+	    <item>блуе</item>
+	    <item>магента</item>
+	    <item>циан</item>
+	    <item>бео</item>
+	    <item>Уобичајено</item>
+	</string-array>
+	<string-array name="setting_digital_cc_caption_opacity">
+	    <item>солидан</item>
+	    <item>treperi</item>
+	    <item>прозрачан</item>
+	    <item>транспарентан</item>
+	    <item>Уобичајено</item>
+	</string-array>
+	<string-array name="setting_digital_cc_italic_attr">
+	    <item>ОН</item>
+	    <item>О</item>
+	</string-array>
+	<string-array name="setting_digital_cc_underline_attr">
+	    <item>ОН</item>
+	    <item>О</item>
+	</string-array>
+
+	<string-array name="str_arr_software_update_oad_value">
+	    <item>ОН</item>
+	    <item>О</item>
+	</string-array>
+	<string-array name="str_arr_oad_view_prompt_value">
+	    <item>ОН</item>
+	    <item>О</item>
+	</string-array>
+
+	<string-array name="str_arr_lnbpower_option">
+	    <item>искључен</item>
+	    <item>13 / 18В</item>
+	    <item>13В</item>
+	    <item>18В</item>
+	    <item>14 / 19В</item>
+	    <item>14В</item>
+	    <item>19В</item>
+	</string-array>
+	<string-array name="str_arr_compensation_option">
+	    <item>искључен</item>
+	    <item>на</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_option">
+	    <item>УНИВЕРЗАЛНИ</item>
+	    <item>МДУ_1</item>
+	    <item>МДУ_2</item>
+	    <item>МДУ_3</item>
+	    <item>МДУ_4</item>
+	    <item>5150_МХЗ</item>
+	    <item>5750_МХЗ</item>
+	    <item>5150_5750_МХЗ</item>
+	    <item>9750_МХЗ</item>
+	    <item>10600_МХЗ</item>
+	    <item>10750_МХЗ</item>
+	    <item>11250_МХЗ</item>
+	    <item>11300_МХЗ</item>
+	    <item>11475_МХЗ</item>
+	    <item>9750_10700_МХЗ</item>
+	    <item>9750_10750_МХЗ</item>
+	    <item>10000_10450_МХЗ</item>
+	    <item>УСЕР_МОДЕ</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_low">
+	    <item>9750</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>5150</item>
+	    <item>5750</item>
+	    <item>5150</item>
+	    <item>9750</item>
+	    <item>10600</item>
+	    <item>10750</item>
+	    <item>11250</item>
+	    <item>11300</item>
+	    <item>11475</item>
+	    <item>9750</item>
+	    <item>9750</item>
+	    <item>10000</item>
+	    <item>9750</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_high">
+	    <item>10600</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>5150</item>
+	    <item>5750</item>
+	    <item>5750</item>
+	    <item>9750</item>
+	    <item>10600</item>
+	    <item>10750</item>
+	    <item>11250</item>
+	    <item>11300</item>
+	    <item>11475</item>
+	    <item>10700</item>
+	    <item>10750</item>
+	    <item>10450</item>
+	    <item>10600</item>
+	</string-array>
+	<string-array name="str_arr_22knz_tone_option">
+	    <item>ауто</item>
+	    <item>на</item>
+	    <item>искључен</item>
+	</string-array>
+	<string-array name="str_arr_toneburst_option">
+	    <item>ниједан</item>
+	    <item>Бурст</item>
+	    <item>бурст Б</item>
+	</string-array>
+	<string-array name="str_arr_diseqc_1_0_option">
+	    <item>ниједан</item>
+	    <item>ЛНБ-1</item>
+	    <item>ЛНБ-2</item>
+	    <item>ЛНБ-3</item>
+	    <item>ЛНБ-4</item>
+	</string-array>
+	<string-array name="str_arr_diseqc_1_1_option">
+	    <item>ниједан</item>
+	    <item>ЛНБ-1</item>
+	    <item>ЛНБ-2</item>
+	    <item>ЛНБ-3</item>
+	    <item>ЛНБ-4</item>
+	    <item>ЛНБ-5</item>
+	    <item>ЛНБ-6</item>
+	    <item>ЛНБ-7</item>
+	    <item>ЛНБ-8</item>
+	    <item>ЛНБ-9</item>
+	    <item>ЛНБ-10</item>
+	    <item>ЛНБ-11</item>
+	    <item>ЛНБ-12</item>
+	    <item>ЛНБ-13</item>
+	    <item>ЛНБ-14</item>
+	    <item>ЛНБ-15</item>
+	    <item>ЛНБ-16</item>
+	</string-array>
+	<string-array name="str_arr_motor_diseqc_version">
+	    <item>ниједан</item>
+	    <item>ДиСЕкЦ 1.2</item>
+	    <item>ДиСЕкЦ 1.3</item>
+	</string-array>
+	<string-array name="str_arr_single_cable_slot_id">
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	</string-array>
+	<string-array name="str_arr_single_cable_lnb_option">
+		    <item>A</item>
+	    <item>Б</item>
+	</string-array>
+	<string-array name="str_arr_longitude_direction_option">
+	    <item>Исток</item>
+	    <item>Запад</item>
+	</string-array>
+	<string-array name="str_arr_latitude_direction_option">
+	    <item>север</item>
+	    <item>југ</item>
+	</string-array>
+	<string-array name="str_arr_satellite_band_option">
+	    <item>, Ц</item>
+	    <item>ку</item>
+	</string-array>
+	<string-array name="str_arr_transponder_polarization_option">
+	    <item>в</item>
+	    <item>В</item>
+	</string-array>
+
+	<!-- For bandwidth switch -->
+	<string-array name="str_arr_bandwidth_option">
+	    <item>7</item>
+	    <item>8</item>
+	</string-array>
+
+	<!-- For UHF 7 MHz Option -->
+	<string-array name="str_arr_uhf_7mhz_option">
+	    <item>затворити</item>
+	    <item>otvoreno</item>
+	</string-array>
+
+	<!-- For scan type -->
+	<string-array name="str_arr_tuning_type">
+	    <item>аналогни ТВ</item>
+	    <item>Дигитална ТВ</item>
+	    <item>комплетан</item>
+	</string-array>
+	<string-array name="str_arr_dvbc_tuning_type">
+	    <item>аналогни ТВ</item>
+	    <item>Дигитална ТВ ЦА</item>
+	    <item>Аналогни ТВ Дигитална ТВ + ЦА</item>
+	</string-array>
+
+	<!-- For dvbc operator -->
+	<string-array name="str_arr_dvbc_operator">
+	    <item>други</item>
+	    <item>Цдсматв</item>
+	    <item>Цдцабле</item>
+	    <item>Цомхем</item>
+	    <item>упц</item>
+	    <item>ИоуСее</item>
+	    <item>Цаблереади</item>
+	    <item>Зигго</item>
+	    <item>стофа</item>
+	</string-array>
+
+	<string-array name="str_arr_hdmi_edid_version">
+	    <item>Уобичајено</item>
+	    <item>ЕДИД 1.4</item>
+	    <item>ЕДИД 2.0</item>
+	</string-array>
+	<string-array name="str_arr_hbbtv_switch">
+	    <item>искључен</item>
+	    <item>на</item>
+	</string-array>
+
+	<string-array name="str_arr_input_sources">
+	    <item>компјутер</item>
+	    <item>аналогни ТВ</item>
+	    <item>видео</item>
+	    <item>видео 2</item>
+	    <item>видео 3</item>
+	    <item>видео 4</item>
+	    <item>видео 5</item>
+	    <item>видео 6</item>
+	    <item>видео 7</item>
+	    <item>видео 8</item>
+	    <item>видео _Мак</item>
+	    <item>СВИДЕО</item>
+	    <item>СВИДЕО2</item>
+	    <item>СВИДЕО3</item>
+	    <item>СВИДЕО4</item>
+	    <item>СВИДЕО_МАКС</item>
+	    <item>komponente</item>
+	    <item>komponenta 2</item>
+	    <item>komponenta 3</item>
+	    <item>komponenta _Мак</item>
+	    <item>ХДМИ</item>
+	    <item>СЦАРТ2</item>
+	    <item>СЦАРТ_МАКС</item>
+	    <item>ХД</item>
+	    <item>ХД 2</item>
+	    <item>ХД 3</item>
+	    <item>ХД 4</item>
+	    <item>ХДМИ_МАКС</item>
+	    <item>Дигитална ТВ</item>
+	    <item>ХД</item>
+	    <item>ХД 2</item>
+	    <item>ХД 3</item>
+	    <item>ХД 4</item>
+	    <item>ДВИ_МАКС</item>
+	    <item>Стораге</item>
+	    <item>КТВ</item>
+	    <item>ЈПГ</item>
+	    <item>Дигитална ТВ 2</item>
+	    <item>СТОРАГЕ2</item>
+	    <item>: ДИВ3</item>
+	    <item>СЦАЛЕР_ОП</item>
+	    <item>теренски</item>
+	    <item>цомпутер 2</item>
+	    <item>компјутер 3</item>
+	    <item>БРОЈ</item>
+	    <item>НИЈЕДАН</item>
+	</string-array>
+
+	<string-array name="arr_atv_antenna_type">
+	    <item>жичани</item>
+	    <item>бежични</item>
+	</string-array>
+
+	<string-array name="str_cha_dtvmanualtuning_modulation_vals">
+	    <item>16 КАМ</item>
+	    <item>32 КАМ</item>
+	    <item>64 КАМ</item>
+	    <item>128 КАМ</item>
+	    <item>256 КАМ</item>
+	    <item>аутоматски</item>
+	</string-array>
+	<string-array name="str_arr_pvr_error_code">
+		<item>@string/str_pvr_success</item>
+		<item>@string/str_pvr_no_usb</item>
+		<item>@string/str_pvr_unsurpt_flsystem</item>
+		<item>@string/str_pvr_disk_read_only</item>
+		<item>@string/str_pvr_out_of_space</item>
+		<item>@string/str_pvr_success</item>
+		<item>@string/str_pvr_ciplus_copy_protection</item>
+		<item>@string/str_pvr_scrambled_program</item>
+		<item>@string/str_pvr_ciplus_unsupport</item>
+		<item>@string/str_pvr_data_only</item>
+		<item>@string/str_no_sinal</item>
+		<item>@string/str_pvr_out_of_space</item>
+		<item>@string/str_pvr_ginga_running</item>
+		<item>@string/str_pvr_bad_video_audio</item>
+		<item>@string/str_pvr_retention_expired</item>
+		<item>@string/str_pvr_ch_blocked</item>
+		<item>@string/str_pvr_rating_blocked</item>
+		<item>@string/str_pvr_max_recording_reached</item>
+		<item>@string/str_pvr_mehg5_data_only</item>
+		<item>@string/str_pvr_vod_not_allow</item>
+		<item>@string/str_pvr_error</item>
+		<item>@string/str_pvr_still_check_disk</item>
+	</string-array>
+
+	<string-array name="str_arr_set_audio_language">
+		<item>@string/str_set_language_czech</item>
+		<item>@string/str_set_language_danish</item>
+		<item>@string/str_set_language_german</item>
+		<item>@string/str_set_language_english</item>
+		<item>@string/str_set_language_spanish</item>
+		<item>@string/str_set_language_greek</item>
+		<item>@string/str_set_language_french</item>
+		<item>@string/str_set_language_croatian</item>
+		<item>@string/str_set_language_italian</item>
+		<item>@string/str_set_language_hungarian</item>
+		<item>@string/str_set_language_dutch</item>
+		<item>@string/str_set_language_norwegian</item>
+		<item>@string/str_set_language_polish</item>
+		<item>@string/str_set_language_portuguese</item>
+		<item>@string/str_set_language_russian</item>
+		<item>@string/str_set_language_romanian</item>
+		<item>@string/str_set_language_slovenian</item>
+		<item>@string/str_set_language_serbian</item>
+		<item>@string/str_set_language_finnish</item>
+		<item>@string/str_set_language_swedish</item>
+		<item>@string/str_set_language_bulgarian</item>
+		<item>@string/str_set_language_slovak</item>
+		<item>@string/str_set_language_chinese</item>
+		<item>@string/str_set_language_gaelic</item>
+		<item>@string/str_set_language_welsh</item>
+		<item>@string/str_set_language_irish</item>
+		<item>@string/str_set_language_arabic</item>
+		<item>@string/str_set_language_latvian</item>
+		<item>@string/str_set_language_hebrew</item>
+		<item>@string/str_set_language_turkish</item>
+		<item>@string/str_set_language_estonian</item>
+		<item>@string/str_set_language_gallegan</item>
+		<item>@string/str_set_language_basque</item>
+		<item>@string/str_set_language_catalan</item>
+		<item>@string/str_set_language_icelandic</item>
+		<item>@string/str_set_language_letzeburgesch</item>
+		<item>@string/str_set_language_lithuanian</item>
+		<item>@string/str_set_language_ukrainian</item>
+		<item>@string/str_set_language_byelorussian</item>
+		<item>@string/str_set_language_maori</item>
+		<item>@string/str_set_language_cantonese</item>
+		<item>@string/str_set_language_korean</item>
+		<item>@string/str_set_language_japanese</item>
+		<item>@string/str_set_language_hindi</item>
+		<item>@string/str_set_language_thai</item>
+		<item>@string/str_set_language_vietnamese</item>
+		<item>@string/str_set_language_malay</item>
+		<item>@string/str_set_language_qab</item>
+		<item>@string/str_set_language_qac</item>
+	</string-array>
+
+	<string-array name="str_arr_set_subtitle_language">
+		<item>@string/str_set_language_czech</item>
+		<item>@string/str_set_language_danish</item>
+		<item>@string/str_set_language_german</item>
+		<item>@string/str_set_language_english</item>
+		<item>@string/str_set_language_spanish</item>
+		<item>@string/str_set_language_greek</item>
+		<item>@string/str_set_language_french</item>
+		<item>@string/str_set_language_croatian</item>
+		<item>@string/str_set_language_italian</item>
+		<item>@string/str_set_language_hungarian</item>
+		<item>@string/str_set_language_dutch</item>
+		<item>@string/str_set_language_norwegian</item>
+		<item>@string/str_set_language_polish</item>
+		<item>@string/str_set_language_portuguese</item>
+		<item>@string/str_set_language_russian</item>
+		<item>@string/str_set_language_romanian</item>
+		<item>@string/str_set_language_slovenian</item>
+		<item>@string/str_set_language_serbian</item>
+		<item>@string/str_set_language_finnish</item>
+		<item>@string/str_set_language_swedish</item>
+		<item>@string/str_set_language_bulgarian</item>
+		<item>@string/str_set_language_slovak</item>
+		<item>@string/str_set_language_chinese</item>
+		<item>@string/str_set_language_gaelic</item>
+		<item>@string/str_set_language_welsh</item>
+		<item>@string/str_set_language_irish</item>
+		<item>@string/str_set_language_arabic</item>
+		<item>@string/str_set_language_latvian</item>
+		<item>@string/str_set_language_hebrew</item>
+		<item>@string/str_set_language_turkish</item>
+		<item>@string/str_set_language_estonian</item>
+		<item>@string/str_set_language_gallegan</item>
+		<item>@string/str_set_language_basque</item>
+		<item>@string/str_set_language_catalan</item>
+		<item>@string/str_set_language_icelandic</item>
+		<item>@string/str_set_language_letzeburgesch</item>
+		<item>@string/str_set_language_lithuanian</item>
+		<item>@string/str_set_language_ukrainian</item>
+		<item>@string/str_set_language_byelorussian</item>
+		<item>@string/str_set_language_maori</item>
+		<item>@string/str_set_language_cantonese</item>
+		<item>@string/str_set_language_korean</item>
+		<item>@string/str_set_language_japanese</item>
+		<item>@string/str_set_language_hindi</item>
+		<item>@string/str_set_language_thai</item>
+		<item>@string/str_set_language_vietnamese</item>
+		<item>@string/str_set_language_malay</item>
+		<item>@string/str_set_language_multiple</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_uk">
+		<item>@string/str_genre_unclassified</item>
+		<item>@string/str_genre_movie</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_chidren</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_education_uk</item>
+		<item>@string/str_genre_life_uk</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_drama</item>
+	</string-array>
+	<string-array name="str_arr_epg_genre_nz">
+		<item>@string/str_genre_undefined</item>
+		<item>@string/str_genre_movie_drama_general</item>
+		<item>@string/str_genre_news_current_general</item>
+		<item>@string/str_genre_show_general</item>
+		<item>@string/str_genre_sports_general</item>
+		<item>@string/str_genre_youth</item>
+		<item>@string/str_genre_music_general</item>
+		<item>@string/str_genre_art_general</item>
+		<item>@string/str_genre_social_general</item>
+		<item>@string/str_genre_education_others_general</item>
+		<item>@string/str_genre_life</item>
+		<item>@string/str_genre_original_language</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_user_defined</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_au">
+		<item></item>
+		<item>@string/str_genre_movie</item>
+		<item>@string/str_genre_news</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_chidren</item>
+		<item>@string/str_genre_music_default</item>
+		<item>@string/str_genre_art</item>
+		<item>@string/str_genre_news_current_default</item>
+		<item>@string/str_genre_education_default</item>
+		<item>@string/str_genre_infotainment</item>
+		<item>@string/str_genre_special</item>
+		<item>@string/str_genre_comedy</item>
+		<item>@string/str_genre_drama</item>
+		<item>@string/str_genre_documentary</item>
+	<item></item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_default">
+		<item>@string/str_genre_unclassified</item>
+		<item>@string/str_genre_movie_drama</item>
+		<item>@string/str_genre_news_current</item>
+		<item>@string/str_genre_show</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_youth</item>
+		<item>@string/str_genre_music</item>
+		<item>@string/str_genre_art</item>
+		<item>@string/str_genre_social</item>
+		<item>@string/str_genre_education_others</item>
+		<item>@string/str_genre_life</item>
+		<item>@string/str_genre_special_characteristics</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_user_defined</item>
+	</string-array>
+
+
+	<string-array name="str_arr_option_store_cookies">
+		<item>@string/str_option_store_cookies_off</item>
+		<item>@string/str_option_store_cookies_on</item>
+	</string-array>
+</resources>

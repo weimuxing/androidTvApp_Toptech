@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">เปิด</string>
+
+	<string name="application_num">จำนวนแอพพลิเคชันที่ติดตั้งไว้:</string>
+
+	<string name="temp_unit_c">℃</string>
+	<string name="temp_unit_f">℉</string>
+
+	<string name="loading">กำลังโหลด ...</string>
+	<string name="instruction_loading">กรุณาโหลด, โหลด .....</string>
+
+	<string name="weather_location">เลือกเมืองสภาพอากาศ</string>
+	<string name="applabel">ใบสมัคร</string>
+
+	<string name="errornetwork">เครือข่ายล่ม!</string>
+	<string name="load_error">โหลดข้อมูลล้มเหลว!</string>
+
+
+	<string name="day_of_candar">Th</string>
+
+	<string name="add_app_title">เลือกแอพพลิเคชันที่คุณชื่นชอบ</string>
+	<string name="tips">แอพพลิเคชันของฉัน</string>
+	<string name="savemsg">      บันทึกการเปลี่ยนแปลง?</string>
+	<string name="delmsg">คุณต้องการลบทางลัดหรือไม่?</string>
+	<string name="min_apk_num">ต้องการ APK อย่างน้อยหนึ่งรายการ!</string>
+	<string name="ok">ใช่</string>
+	<string name="cancle">ไม่</string>
+	<string name="all_check_title">ตรวจสอบแล้วทั้งหมด</string>
+	<string name="rev_check_title">ตรวจสอบย้อนกลับ</string>
+	<string name="month">ม.</string>
+	<string name="pick_wallpaper">เลือกวอลเปเปอร์</string>
+	<string name="chooser_wallpaper">เลือกวอลล์เปเปอร์</string>
+	<string name="activity_not_found">ไม่พบกิจกรรม</string>
+	<string name="url_select">เลือก URL แล้ว</string>
+	<string name="wallpaper_instructions">คำแนะนำวอลเปเปอร์</string>
+	<string name="wallpaper">วอลล์เปเปอร์</string>
+	<string name="wallpaper_set">วอลเปเปอร์สำเร็จแล้ว!</string>
+
+
+	<string name="contentdes">img</string>
+	<string name="city001">เซินเจิ้น</string>
+	<string name="gallery_info">โปรดใส่ USB Flash Drive หรือไม่สามารถระบุภาพได้</string>
+
+</resources>

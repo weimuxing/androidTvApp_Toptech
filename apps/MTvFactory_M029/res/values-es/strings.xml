@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Menú de fábrica</string>
+
+
+
+	<string name="str_factory_adc">ADC Adjust</string>
+	<string name="str_factory_adc_source">Fuente</string>
+	<string name="str_factory_adc_rgain">Ganancia</string>
+	<string name="str_factory_adc_ggain">G Ganancia</string>
+	<string name="str_factory_adc_bgain">B Ganancia</string>
+	<string name="str_factory_adc_roffset">R Offset</string>
+	<string name="str_factory_adc_goffset">G Offset</string>
+	<string name="str_factory_adc_boffset">B Offset</string>
+	<string name="str_factory_adc_phase">fase</string>
+	<string name="str_factory_adc_autoadjust">Sintonización automática</string>
+	<string name="str_factory_adc_autoadjust_val">¡Por favor espera!</string>
+	<string name="str_factory_adc_autoadjust_ok">éxito</string>
+	<string name="str_factory_adc_autoadjust_failed">ha fallado</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">Error de selección del modo de tiempo</string>
+	<string name="str_text_adc_adjust">ADC Adjust</string>
+	<string name="str_textview_factory_adc_source_val">VGA</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">¿Estás seguro de la actualización?</string>
+	<string name="str_textview_factory_dialogmenu_confirm">Confirmar</string>
+	<string name="str_textview_factory_dialogmenu_cancel">Cancelar</string>
+	<string name="str_design_menu">Menú de diseño</string>
+	<string name="str_factory_menu">Menú de fábrica</string>
+
+
+
+	<string name="str_factory_whitebalance">Balance de blancos</string>
+	<string name="str_factory_wbadjust_source">Fuente</string>
+	<string name="str_factory_wbadjust_rgain">Ganancia</string>
+	<string name="str_factory_wbadjust_ggain">G Ganancia</string>
+	<string name="str_factory_wbadjust_bgain">B Ganancia</string>
+	<string name="str_factory_wbadjust_roffset">R Offset</string>
+	<string name="str_factory_wbadjust_goffset">G Offset</string>
+	<string name="str_factory_wbadjust_boffset">B Offset</string>
+	<string name="str_factory_wbadjust_autoadjust">Auto ajuste</string>
+	<string name="str_factory_wbadjust_colortemp">Temperatura del color</string>
+	<string name="str_wb_adjust_text">W / B Ajustar</string>
+	<string name="str_textview_factory_wbadjust_source_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">Modo de imagen</string>
+	<string name="str_factory_picmode_picmode">Modo de imagen</string>
+	<string name="str_factory_picmode_brightness">Brillo</string>
+	<string name="str_factory_picmode_contrast">Contraste</string>
+	<string name="str_factory_picmode_saturation">Saturación</string>
+	<string name="str_factory_picmode_hue">Matiz</string>
+	<string name="str_factory_picmode_sharpness">Nitidez</string>
+	<string name="str_factory_picmode_backlight">Iluminar desde el fondo</string>
+	<string name="str_picture_mode_text">Modo de imagen</string>
+	<string name="str_textview_factory_picmode_picmode_val">VGA</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">Opciones no estándar</string>
+	<string name="str_factory_nonstandard_vif">VIF (haga clic en mí)</string>
+	<string name="str_factory_nonstandard_vd">VD (haga clic en mí)</string>
+	<string name="str_factory_nonstandard_audio">AUDIO (haga clic en mí)</string>
+	<string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+	<string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+	<string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+	<string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+	<string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+	<string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">China_DES_BOX_Delay</string>
+	<string name="str_factory_nonstandard_delay">Retrasar</string>
+	<string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+	<string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+	<string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+	<string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+	<string name="str_factory_nonstandard_aefcd5">AFEC_D5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">AFEC_D8 [3: 0]</string>
+	<string name="str_factory_nonstandard_aefcd9">AFEC_D9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+	<string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+	<string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+	<string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+	<string name="str_factory_nonstandard_aefc66">AFEC_66 [7: 6]</string>
+	<string name="str_factory_nonstandard_aefc6e">AFEC_6E [7: 4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">AFEC_6E [3: 0]</string>
+	<string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+	<string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+	<string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+	<string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+	<string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+	<string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+	<string name="str_factory_nonstandard_audiosif">Audio Sif Umbral</string>
+	<string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+	<string name="str_Non_Standard_Adjust_text">Ajuste no estándar</string>
+	<string name="str_textview_factory_nonstandard_default_val">128</string>
+
+
+	<string name="str_factory_non_linear">No lineal</string>
+	<string name="str_factory_nonlinear_curvetype">Tipo de curva</string>
+	<string name="str_factory_nonlinear_osd0">OSD_0</string>
+	<string name="str_factory_nonlinear_osd25">OSD_25</string>
+	<string name="str_factory_nonlinear_osd50">OSD_50</string>
+	<string name="str_factory_nonlinear_osd75">OSD_75</string>
+	<string name="str_factory_nonlinear_osd100">OSD_100</string>
+	<string name="str_Non_Linear_Adjust_text">Ajuste no lineal</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">VGA</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">OverScan</string>
+	<string name="str_factory_overscan_source">Fuente</string>
+	<string name="str_factory_overscan_hsize">Tamaño h</string>
+	<string name="str_factory_overscan_hposition">Posición H</string>
+	<string name="str_factory_overscan_vsize">Tamaño V</string>
+	<string name="str_factory_overscan_vposition">Posición V</string>
+	<string name="str_factory_overscan_adjust_text">Ajuste de OverScan</string>
+	<string name="str_textview_factory_overscan_source_val">Canal de televisión británico</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">SSC Ajustar</string>
+	<string name="str_factory_ssc_miuenable">MIU Habilitar</string>
+	<string name="str_factory_ssc_miumodulation">Modulación MIU</string>
+	<string name="str_factory_ssc_miupercentage">MIU Porcentaje (%)</string>
+	<string name="str_factory_ssc_lvdsenable">Habilitar LVDS</string>
+	<string name="str_factory_ssc_lvdsmodulation">Modulación LVDS</string>
+	<string name="str_factory_ssc_lvdspercentage">Porcentaje de LVDS (%)</string>
+	<string name="str_factory_ssc_u_miuenable">MIU_U Habilitar</string>
+	<string name="str_factory_ssc_u_miumodulation">MIU_U Modulación</string>
+	<string name="str_factory_ssc_u_miupercentage">MIU_U Porcentaje (%)</string>
+	<string name="str_factory_ssc_u_lvdsenable">LVDS_U Habilitar</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">Modulación LVDS_U</string>
+	<string name="str_factory_ssc_u_lvdspercentage">LVDS_U Porcentaje (%)</string>
+	<string name="str_ssc_adjust_text">SSC Ajustar</string>
+	<string name="str_textview_factory_ssc_default_val">128</string>
+
+
+
+	<string name="str_factory_peq">PEQ</string>
+	<string name="str_factory_peq_fo1coarse">FO1 Coarse</string>
+	<string name="str_factory_peq_fo1fine">FO1 Bien</string>
+	<string name="str_factory_peq_fo2coarse">FO2 Grueso</string>
+	<string name="str_factory_peq_fo2fine">FO2 Bien</string>
+	<string name="str_factory_peq_fo3coarse">FO3 Grueso</string>
+	<string name="str_factory_peq_fo3fine">FO3 Bien</string>
+	<string name="str_factory_peq_fo4coarse">FO4 grueso</string>
+	<string name="str_factory_peq_fo4fine">FO4 Bien</string>
+	<string name="str_factory_peq_fo5coarse">FO5 Grueso</string>
+	<string name="str_factory_peq_fo5fine">FO5 Bien</string>
+	<string name="str_factory_peq_gain1">Ganancia 1</string>
+	<string name="str_factory_peq_gain2">Ganancia2</string>
+	<string name="str_factory_peq_gain3">Ganancia3</string>
+	<string name="str_factory_peq_gain4">Ganancia4</string>
+	<string name="str_factory_peq_gain5">Ganancia5</string>
+	<string name="str_factory_peq_q1">Q1</string>
+	<string name="str_factory_peq_q2">Q2</string>
+	<string name="str_factory_peq_q3">Q3</string>
+	<string name="str_factory_peq_q4">Cuarto</string>
+	<string name="str_factory_peq_q5">Q5</string>
+	<string name="str_peq_adjust_text">PEQ Ajustar</string>
+	<string name="str_textview_factory_peq_default_val">128</string>
+
+
+	<string name="str_factory_ci_setting">Configuración de fábrica de CI</string>
+	<string name="str_factory_ci_credential_mode">Modo de credencial CI +</string>
+	<string name="str_factory_ci_performance_monitor">Monitor de rendimiento</string>
+	<string name="str_factory_ci_resource_manager">Administrador de recursos</string>
+	<string name="str_factory_ci_application_infomation">Información de la solicitud</string>
+	<string name="str_factory_ci_conditional_access_support">Soporte de acceso condicional</string>
+	<string name="str_factory_ci_host_control">Control del host</string>
+	<string name="str_factory_ci_date_time">Fecha y hora</string>
+	<string name="str_factory_ci_man_machine_interface">Interfaz hombre máquina</string>
+	<string name="str_factory_ci_low_speed_communication">Comunicación de baja velocidad</string>
+	<string name="str_factory_ci_content_control">Control de contenido</string>
+	<string name="str_factory_ci_host_language_country">País del lenguaje principal</string>
+	<string name="str_factory_ci_cam_upgrade">Actualización CAM</string>
+	<string name="str_factory_ci_operator_profile">Perfil del operador</string>
+	<string name="str_factory_ci_specific_application_support">Soporte de aplicaciones específicas</string>
+	<string name="str_factory_ci_app_man_machine_interface">Interfaz Hombre Máquina de Aplicación</string>
+	<string name="str_factory_ci_program_map_table">Tabla del Mapa del Programa (No Usado)</string>
+	<string name="str_factory_ci_host_service_shunning">Servicio de Host Shunning</string>
+	<string name="str_factory_ci_canal_ready_authentication">Autenticación de Canal Ready</string>
+	<string name="str_factory_ci_default_tx_rx">Predeterminado TX / RX</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">Prueba (Biblioteca CI)</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">Prueba (Nand Flash)</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">Configurar el montaje</string>
+
+
+
+	<string name="str_factory_pqtableupdate">Actualización de la tabla PQ</string>
+
+
+	<string name="str_factory_ursa_info">Ursa Info</string>
+	<string name="str_factory_ursa_version">Versión</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">Lista de cambios</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">Información del Panel</string>
+	<string name="str_textview_factory_panelinfo_text_timode">Modo ti</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">Modo de bit</string>
+	<string name="str_textview_factory_panelinfo_text_swap">Modo de intercambio</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">Modo dual</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">Modo Espejo</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">VolumeCurve</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω8W</string>
+
+
+
+	<string name="str_set_mute_color">Mute Color</string>
+
+
+	<string name="str_factory_otheroption">Otras opciones</string>
+	<string name="str_factory_otheroption_version">Versión</string>
+	<string name="str_factory_otheroption_name">Nombre</string>
+	<string name="str_factory_otheroption_build">Construir</string>
+	<string name="str_factory_otheroption_changelist">Lista de cambios</string>
+	<string name="str_factory_otheroption_board">Tablero</string>
+	<string name="str_factory_otheroption_panel">Panel</string>
+	<string name="str_factory_otheroption_date">Fecha</string>
+	<string name="str_factory_otheroption_time">Hora</string>
+	<string name="str_factory_otheroption_watchdog">Perro de vigilancia</string>
+	<string name="str_factory_otheroption_wake_on_lan">Activación de la LAN</string>
+	<string name="str_factory_otheroption_testpattern">Patrón de prueba</string>
+	<string name="str_factory_otheroption_upgrademboot">Actualizar Mboot</string>
+	<string name="str_factory_otheroption_upgrademain">Actualizar Main</string>
+	<string name="str_factory_otheroption_upgrade6m30">Actualizar 6M30</string>
+	<string name="str_factory_otheroption_upgradedualursa">Actualizar Dual Ursa</string>
+	<string name="str_factory_otheroption_restoretodefault">Restaurar a los valores predeterminados</string>
+	<string name="str_factory_otheroption_poweronmode">Modo de encendido</string>
+	<string name="str_factory_otheroption_uartenable">Uart Habilitar</string>
+	<string name="str_factory_otheroption_display_logo">Mostrar Logotipo</string>
+	<string name="str_factory_otheroption_dtvavdelay">DTV AV Delay (No Estándar)</string>
+	<string name="str_factory_otheroption_initialfunction">Canal inicial</string>
+	<string name="str_factory_otheroption_panelswing">Panel Swing</string>
+	<string name="str_factory_otheroption_audioprescale">Audio Prescale</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">Nivel de detección autoadaptable en 3D</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">¿Estás seguro de la actualización?</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">Confirmar</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">Cancelar</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">Por favor, enchufe USB!</string>
+	<string name="str_factory_otheroption_xvycc">Xvycc</string>
+	<string name="str_factory_otheroption_pvrrecordall">Registro RVR Todos</string>
+	<string name="str_other_option_text">Otras Opciones Ajustar</string>
+	<string name="str_textview_factory_otheroption_version_val">0,0,1</string>
+	<string name="str_textview_factory_otheroption_board_val">J2</string>
+	<string name="str_textview_factory_otheroption_panel_val">Full HD</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">En</string>
+	<string name="str_textview_factory_otheroption_text_off">Apagado</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+	<string name="str_textview_factory_otheroption_default_val">0 "</string>
+	<string name="str_factory_otheroption_main_pq_version">Versión Principal PQ</string>
+	<string name="str_factory_otheroption_sub_pq_version">Sub PQ Version</string>
+	<string name="str_textview_factory_otheroption_waiting_val">¡Por favor espera!</string>
+	<string name="str_factory_otheroption_mstv_tool">Depuración de Uart</string>
+	<string name="str_factory_otheroption_pq_update">PQ Actualización</string>
+	<string name="str_factory_otheroption_pq_update_state">¡Por favor haz click!</string>
+	<string name="str_factory_nonstandard_afeccf_av">AFEC_CF [2] _AV</string>
+	<string name="str_factory_nonstandard_afeccf_atv">AFEC_CF [2] _ATV</string>
+	<string name="str_ursa_test_result_title">Resultado:</string>
+	<string name="str_ursa_test_run_auto">Ejecutar auto</string>
+	<string name="str_ursa_test_title">Prueba de Ursa</string>
+	<string name="str_ursa_test_run">correr</string>
+	<string name="str_Info_title">Información</string>
+	<string name="str_factory_otheroption_sw_version">Versión SW</string>
+	<string name="str_factory_otheroption_dtv_preset">Preset DTV</string>
+	<string name="str_factory_otheroption_dtv_preset_state">¡Por favor haz click!</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">Por favor espera...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">Finalizar, AC apagado después de 1 min.</string>
+	<string name="enter">Tecla OK entrar en el menú de fábrica -></string>
+	<string name="tips">L-R Ajust, "OK" entrar a continuación, "Salir" / "Menú" volver</string>
+	<string name="str_factory_otheroption_str_enable">Habilitar STR</string>
+	<string name="str_factory_otheroption_audiodelay">Retardo de audio del altavoz</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">Mapeo de habilitación de IP</string>
+	<string name="str_ipenablemapping_text">Mapeo de habilitación de IP</string>
+
+
+	<string name="str_factory_update">Actualización desde USB</string>
+	<string name="str_factory_upgrade">Actualización desde USB</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">Actualizar clave HDCP Desde USB</string>
+	<string name="str_factory_updateCIkeyfromUSB">Actualización de la tecla CI Plus desde USB</string>
+	<string name="str_factory_upgrade_ci_upgrade">Actualización Ci</string>
+	<string name="str_factory_upgrade_ci_display">Pantalla Ci</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">Actualización Hdcp</string>
+	<string name="str_factory_upgrade_hdcp_display">Pantalla Hdcp</string>
+	<string name="str_factory_upgrade_mac_upgrade">Actualización de Mac</string>
+	<string name="str_factory_upgrade_mac_display">Pantalla Mac</string>
+	<string name="str_factory_upgrade_sn_upgrade">Actualización SN</string>
+	<string name="str_factory_upgrade_sn_display">Mostrar SN</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">Actualización Hdcp2</string>
+	<string name="str_factory_upgrade_hdcp2_display">Pantalla Hdcp2</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">Demod info</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">DVBT información</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">Información de DVBC</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">获取 DVBT / DVBC información 失败</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">Función de preajuste del programa de fábrica</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">Programa de fábrica Preset</string>
+	<string name="str_factory_otheroption_factoryprogramreset">Reinicio del programa de fábrica</string>
+	<string name="str_factory_otheroption_backupdbtousb">Copia de seguridad de DB a USB</string>
+	<string name="str_factory_otheroption_restoredbfromusb">Restaurar DB desde USB</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">¡Por favor haz click!</string>
+	<string name="str_textview_factory_otheroption_text_pass">Pasar</string>
+	<string name="str_textview_factory_otheroption_text_fail">Fallar</string>
+	<string name="str_factory_db_path">/ Tvdatabase / Base de datos /</string>
+	<string name="str_factory_db_file">Cmdb * .bin</string>
+
+	<string name="str_factory_again_mode">Modo de envejecimiento</string>
+	<string name="str_factory_running_time">TIEMPO DE ENERGÍA (H / 2)</string>
+
+
+	<string name="str_design_menu_sound">Sonar</string>
+	<string name="str_factory_prescale">Prescale</string>
+	<string name="str_factory_avc_enable">Avc Habilitar</string>
+	<string name="str_factory_avc_threthold">Avc Thl</string>
+	<string name="str_factory_drc_enable">Drc Enable</string>
+	<string name="str_factory_drc_threthold">Drc Thl</string>
+	<string name="str_factory_sound_effect">Efecto (HPF)</string>
+	<string name="str_factory_sound_toneffect">Tono</string>
+	<string name="str_factory_audio_delay">Retardo de audio (altavoz)</string>
+	<string name="str_factory_audio_nr">Audio NR</string>
+	<string name="str_factory_lineout">LineOut (AUOUT1)</string>
+	<string name="str_factory_speaker">Volumen (AUOUT0)</string>
+	<string name="str_factory_audio_spdif_delay">Audio Delay (spdif)</string>
+
+	<string name="str_factory_ota_info">OTA Info</string>
+	<string name="str_factory_ota_info_praname">Nombre de la pra</string>
+	<string name="str_factory_ota_info_cusname">CusName</string>
+	<string name="str_factory_ota_info_proname">Pro nombre</string>
+	<string name="str_factory_ota_info_preversion">Preversión</string>
+	<string name="str_factory_onidaview">Opciones de desplazamiento disponibles</string>
+
+	<string name="str_textview_factory_total_run_time">marido</string>
+	<string name="str_total_run_time">TotalRunTime</string>
+
+</resources>

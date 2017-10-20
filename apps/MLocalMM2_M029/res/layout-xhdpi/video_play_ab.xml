@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/play_ab_head_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/a_b_section_repeat"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/line" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/line_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/play_ab_on_or_off"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_below="@id/play_ab_head_txt"
+            android:gravity="center"
+            android:paddingLeft="26dp"
+            android:text="@string/section_replay"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/play_on_or_off_checkbox"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:button="@drawable/checkbox_video_setting_style"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/play_ab_a_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/music_seliter_1"
+        android:gravity="center"
+        android:text="@string/set_begin_a"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/play_ab_b_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@drawable/music_seliter_1"
+        android:gravity="center"
+        android:text="@string/set_begin_b"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dip"
+        android:background="@drawable/line" >
+    </ImageView>
+</LinearLayout>

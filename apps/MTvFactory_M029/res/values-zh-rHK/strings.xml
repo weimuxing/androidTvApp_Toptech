@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">工廠菜單</string>
+
+
+
+	<string name="str_factory_adc">ADC調整</string>
+	<string name="str_factory_adc_source">資源</string>
+	<string name="str_factory_adc_rgain">R增益</string>
+	<string name="str_factory_adc_ggain">G增益</string>
+	<string name="str_factory_adc_bgain">B增益</string>
+	<string name="str_factory_adc_roffset">R偏移</string>
+	<string name="str_factory_adc_goffset">G偏移</string>
+	<string name="str_factory_adc_boffset">B偏移</string>
+	<string name="str_factory_adc_phase">相</string>
+	<string name="str_factory_adc_autoadjust">自動調諧</string>
+	<string name="str_factory_adc_autoadjust_val">請稍候！</string>
+	<string name="str_factory_adc_autoadjust_ok">成功</string>
+	<string name="str_factory_adc_autoadjust_failed">失敗</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">定時模式選擇錯誤</string>
+	<string name="str_text_adc_adjust">ADC調整</string>
+	<string name="str_textview_factory_adc_source_val">VGA</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">你確定升級嗎</string>
+	<string name="str_textview_factory_dialogmenu_confirm">確認</string>
+	<string name="str_textview_factory_dialogmenu_cancel">取消</string>
+	<string name="str_design_menu">設計菜單</string>
+	<string name="str_factory_menu">工廠菜單</string>
+
+
+
+	<string name="str_factory_whitebalance">白平衡</string>
+	<string name="str_factory_wbadjust_source">資源</string>
+	<string name="str_factory_wbadjust_rgain">R增益</string>
+	<string name="str_factory_wbadjust_ggain">G增益</string>
+	<string name="str_factory_wbadjust_bgain">B增益</string>
+	<string name="str_factory_wbadjust_roffset">R偏移</string>
+	<string name="str_factory_wbadjust_goffset">G偏移</string>
+	<string name="str_factory_wbadjust_boffset">B偏移</string>
+	<string name="str_factory_wbadjust_autoadjust">自動調整</string>
+	<string name="str_factory_wbadjust_colortemp">色溫</string>
+	<string name="str_wb_adjust_text">W / B調整</string>
+	<string name="str_textview_factory_wbadjust_source_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">圖片模式</string>
+	<string name="str_factory_picmode_picmode">圖片模式</string>
+	<string name="str_factory_picmode_brightness">亮度</string>
+	<string name="str_factory_picmode_contrast">對比</string>
+	<string name="str_factory_picmode_saturation">飽和</string>
+	<string name="str_factory_picmode_hue">色調</string>
+	<string name="str_factory_picmode_sharpness">銳度</string>
+	<string name="str_factory_picmode_backlight">逆光</string>
+	<string name="str_picture_mode_text">圖片模式</string>
+	<string name="str_textview_factory_picmode_picmode_val">VGA</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">非標選項</string>
+	<string name="str_factory_nonstandard_vif">VIF（點擊我）</string>
+	<string name="str_factory_nonstandard_vd">VD（點擊我）</string>
+	<string name="str_factory_nonstandard_audio">音頻（點擊我）</string>
+	<string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+	<string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+	<string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+	<string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+	<string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+	<string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">China_DES_BOX_Delay</string>
+	<string name="str_factory_nonstandard_delay">延遲</string>
+	<string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+	<string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+	<string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+	<string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+	<string name="str_factory_nonstandard_aefcd5">AFEC_D5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">AFEC_D8 [3：0]</string>
+	<string name="str_factory_nonstandard_aefcd9">AFEC_D9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+	<string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+	<string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+	<string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+	<string name="str_factory_nonstandard_aefc66">AFEC_66 [7：6]</string>
+	<string name="str_factory_nonstandard_aefc6e">AFEC_6E [7：4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">AFEC_6E [3：0]</string>
+	<string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+	<string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+	<string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+	<string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+	<string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+	<string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+	<string name="str_factory_nonstandard_audiosif">音頻Sif閾值</string>
+	<string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+	<string name="str_Non_Standard_Adjust_text">非標準調整</string>
+	<string name="str_textview_factory_nonstandard_default_val">128</string>
+
+
+	<string name="str_factory_non_linear">Non_linear</string>
+	<string name="str_factory_nonlinear_curvetype">曲線類型</string>
+	<string name="str_factory_nonlinear_osd0">OSD_0</string>
+	<string name="str_factory_nonlinear_osd25">OSD_25</string>
+	<string name="str_factory_nonlinear_osd50">OSD_50</string>
+	<string name="str_factory_nonlinear_osd75">OSD_75</string>
+	<string name="str_factory_nonlinear_osd100">OSD_100</string>
+	<string name="str_Non_Linear_Adjust_text">非線性調整</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">VGA</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">紙張大小</string>
+	<string name="str_factory_overscan_source">資源</string>
+	<string name="str_factory_overscan_hsize">H尺寸</string>
+	<string name="str_factory_overscan_hposition">H位置</string>
+	<string name="str_factory_overscan_vsize">V尺寸</string>
+	<string name="str_factory_overscan_vposition">V位置</string>
+	<string name="str_factory_overscan_adjust_text">超掃描調整</string>
+	<string name="str_textview_factory_overscan_source_val">ATV</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">SSC調整</string>
+	<string name="str_factory_ssc_miuenable">MIU啟用</string>
+	<string name="str_factory_ssc_miumodulation">MIU調製</string>
+	<string name="str_factory_ssc_miupercentage">MIU百分比（％）</string>
+	<string name="str_factory_ssc_lvdsenable">LVDS啟用</string>
+	<string name="str_factory_ssc_lvdsmodulation">LVDS調製</string>
+	<string name="str_factory_ssc_lvdspercentage">LVDS百分比（％）</string>
+	<string name="str_factory_ssc_u_miuenable">MIU_U啟用</string>
+	<string name="str_factory_ssc_u_miumodulation">MIU_U調製</string>
+	<string name="str_factory_ssc_u_miupercentage">MIU_U百分比（％）</string>
+	<string name="str_factory_ssc_u_lvdsenable">LVDS_U啟用</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">LVDS_U調製</string>
+	<string name="str_factory_ssc_u_lvdspercentage">LVDS_U百分比（％）</string>
+	<string name="str_ssc_adjust_text">SSC調整</string>
+	<string name="str_textview_factory_ssc_default_val">128</string>
+
+
+
+	<string name="str_factory_peq">PEQ</string>
+	<string name="str_factory_peq_fo1coarse">FO1粗</string>
+	<string name="str_factory_peq_fo1fine">FO1很好</string>
+	<string name="str_factory_peq_fo2coarse">FO2粗</string>
+	<string name="str_factory_peq_fo2fine">FO2精細</string>
+	<string name="str_factory_peq_fo3coarse">FO3粗</string>
+	<string name="str_factory_peq_fo3fine">FO3好</string>
+	<string name="str_factory_peq_fo4coarse">FO4粗</string>
+	<string name="str_factory_peq_fo4fine">FO4好</string>
+	<string name="str_factory_peq_fo5coarse">FO5粗</string>
+	<string name="str_factory_peq_fo5fine">FO5很好</string>
+	<string name="str_factory_peq_gain1">增益1</string>
+	<string name="str_factory_peq_gain2">增益2</string>
+	<string name="str_factory_peq_gain3">增益3</string>
+	<string name="str_factory_peq_gain4">Gain4</string>
+	<string name="str_factory_peq_gain5">Gain5</string>
+	<string name="str_factory_peq_q1">Q1</string>
+	<string name="str_factory_peq_q2">Q2</string>
+	<string name="str_factory_peq_q3">Q3</string>
+	<string name="str_factory_peq_q4">Q4</string>
+	<string name="str_factory_peq_q5">Q5</string>
+	<string name="str_peq_adjust_text">PEQ調整</string>
+	<string name="str_textview_factory_peq_default_val">128</string>
+
+
+	<string name="str_factory_ci_setting">CI出廠設置</string>
+	<string name="str_factory_ci_credential_mode">CI +憑證模式</string>
+	<string name="str_factory_ci_performance_monitor">性能監視器</string>
+	<string name="str_factory_ci_resource_manager">資源經理</string>
+	<string name="str_factory_ci_application_infomation">申請資料</string>
+	<string name="str_factory_ci_conditional_access_support">條件訪問支持</string>
+	<string name="str_factory_ci_host_control">主機控制</string>
+	<string name="str_factory_ci_date_time">約會時間</string>
+	<string name="str_factory_ci_man_machine_interface">人機界面</string>
+	<string name="str_factory_ci_low_speed_communication">低速通信</string>
+	<string name="str_factory_ci_content_control">內容控制</string>
+	<string name="str_factory_ci_host_language_country">主機語言國家</string>
+	<string name="str_factory_ci_cam_upgrade">CAM升級</string>
+	<string name="str_factory_ci_operator_profile">運營商簡介</string>
+	<string name="str_factory_ci_specific_application_support">具體應用支持</string>
+	<string name="str_factory_ci_app_man_machine_interface">應用人機界面</string>
+	<string name="str_factory_ci_program_map_table">節目地圖表（未使用）</string>
+	<string name="str_factory_ci_host_service_shunning">主機服務閃爍</string>
+	<string name="str_factory_ci_canal_ready_authentication">運河就緒認證</string>
+	<string name="str_factory_ci_default_tx_rx">默認TX / RX</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">測試（CI庫）</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">測試（Nand Flash）</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">安裝配置</string>
+
+
+
+	<string name="str_factory_pqtableupdate">PQ表更新</string>
+
+
+	<string name="str_factory_ursa_info">大熊貓信息</string>
+	<string name="str_factory_ursa_version">版</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">更改列表</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">面板信息</string>
+	<string name="str_textview_factory_panelinfo_text_timode">Ti模式</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">位模式</string>
+	<string name="str_textview_factory_panelinfo_text_swap">交換模式</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">雙模式</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">鏡像模式</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">VolumeCurve</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω8W</string>
+
+
+
+	<string name="str_set_mute_color">靜音色</string>
+
+
+	<string name="str_factory_otheroption">其他選項</string>
+	<string name="str_factory_otheroption_version">版</string>
+	<string name="str_factory_otheroption_name">名稱</string>
+	<string name="str_factory_otheroption_build">建立</string>
+	<string name="str_factory_otheroption_changelist">更改列表</string>
+	<string name="str_factory_otheroption_board">板</string>
+	<string name="str_factory_otheroption_panel">面板</string>
+	<string name="str_factory_otheroption_date">日期</string>
+	<string name="str_factory_otheroption_time">時間</string>
+	<string name="str_factory_otheroption_watchdog">看狗</string>
+	<string name="str_factory_otheroption_wake_on_lan">藍色喚醒</string>
+	<string name="str_factory_otheroption_testpattern">測試模式</string>
+	<string name="str_factory_otheroption_upgrademboot">升級Mboot</string>
+	<string name="str_factory_otheroption_upgrademain">升級主</string>
+	<string name="str_factory_otheroption_upgrade6m30">升級6M30</string>
+	<string name="str_factory_otheroption_upgradedualursa">升級雙大熊座</string>
+	<string name="str_factory_otheroption_restoretodefault">恢復為默認值</string>
+	<string name="str_factory_otheroption_poweronmode">開機模式</string>
+	<string name="str_factory_otheroption_uartenable">Uart啟用</string>
+	<string name="str_factory_otheroption_display_logo">顯示徽標</string>
+	<string name="str_factory_otheroption_dtvavdelay">DTV AV延遲（非標準）</string>
+	<string name="str_factory_otheroption_initialfunction">初始通道</string>
+	<string name="str_factory_otheroption_panelswing">面板擺動</string>
+	<string name="str_factory_otheroption_audioprescale">音頻預分頻</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">3D自適應檢測級別</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">你確定升級嗎</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">確認</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">取消</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">請插USB！</string>
+	<string name="str_factory_otheroption_xvycc">xvYCC標準</string>
+	<string name="str_factory_otheroption_pvrrecordall">RVR全部記錄</string>
+	<string name="str_other_option_text">其他選項調整</string>
+	<string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+	<string name="str_textview_factory_otheroption_board_val">J2</string>
+	<string name="str_textview_factory_otheroption_panel_val">全高清</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">上</string>
+	<string name="str_textview_factory_otheroption_text_off">離</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >>“</string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >>“</string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >>“</string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >>“</string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+	<string name="str_textview_factory_otheroption_default_val">0“</string>
+	<string name="str_factory_otheroption_main_pq_version">主要PQ版本</string>
+	<string name="str_factory_otheroption_sub_pq_version">Sub PQ版本</string>
+	<string name="str_textview_factory_otheroption_waiting_val">請等待！</string>
+	<string name="str_factory_otheroption_mstv_tool">Uart調試</string>
+	<string name="str_factory_otheroption_pq_update">PQ更新</string>
+	<string name="str_factory_otheroption_pq_update_state">請點擊！</string>
+	<string name="str_factory_nonstandard_afeccf_av">AFEC_CF [2] _AV</string>
+	<string name="str_factory_nonstandard_afeccf_atv">AFEC_CF [2] _ATV</string>
+	<string name="str_ursa_test_result_title">結果：</string>
+	<string name="str_ursa_test_run_auto">運行自動</string>
+	<string name="str_ursa_test_title">大熊測試</string>
+	<string name="str_ursa_test_run">跑</string>
+	<string name="str_Info_title">信息</string>
+	<string name="str_factory_otheroption_sw_version">SW版本</string>
+	<string name="str_factory_otheroption_dtv_preset">DTV預設</string>
+	<string name="str_factory_otheroption_dtv_preset_state">請點擊！</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">請稍候...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">1分鐘後完成AC。</string>
+	<string name="enter">OK鍵進入出廠菜單 - ></string>
+	<string name="tips">L-R Ajust，“確定”進入下一步，“退出”/“菜單”返回</string>
+	<string name="str_factory_otheroption_str_enable">啟用STR</string>
+	<string name="str_factory_otheroption_audiodelay">揚聲器音頻延遲</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">IP啟用映射</string>
+	<string name="str_ipenablemapping_text">IP啟用映射</string>
+
+
+	<string name="str_factory_update">從USB升級</string>
+	<string name="str_factory_upgrade">從USB升級</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">更新HDCP密鑰從USB</string>
+	<string name="str_factory_updateCIkeyfromUSB">從USB更新CI Plus密鑰</string>
+	<string name="str_factory_upgrade_ci_upgrade">Ci升級</string>
+	<string name="str_factory_upgrade_ci_display">Ci顯示</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">Hdcp升級</string>
+	<string name="str_factory_upgrade_hdcp_display">Hdcp顯示</string>
+	<string name="str_factory_upgrade_mac_upgrade">Mac升級</string>
+	<string name="str_factory_upgrade_mac_display">Mac顯示器</string>
+	<string name="str_factory_upgrade_sn_upgrade">SN升級</string>
+	<string name="str_factory_upgrade_sn_display">SN顯示</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">Hdcp2升級</string>
+	<string name="str_factory_upgrade_hdcp2_display">Hdcp2顯示</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">Demod信息</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">DVBT信息</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">DVBC信息</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">獲取DVBT / DVBC信息失敗</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">工廠程序預置功能</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">工廠程序預設</string>
+	<string name="str_factory_otheroption_factoryprogramreset">工廠程序復位</string>
+	<string name="str_factory_otheroption_backupdbtousb">將數據備份到USB</string>
+	<string name="str_factory_otheroption_restoredbfromusb">從USB還原DB</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">請點擊！</string>
+	<string name="str_textview_factory_otheroption_text_pass">通過</string>
+	<string name="str_textview_factory_otheroption_text_fail">失敗</string>
+	<string name="str_factory_db_path">/ tvdatabase /數據庫/</string>
+	<string name="str_factory_db_file">* CMDB * .bin文件</string>
+
+	<string name="str_factory_again_mode">老化模式</string>
+	<string name="str_factory_running_time">動力時間（H / 2）</string>
+
+
+	<string name="str_design_menu_sound">聲音</string>
+	<string name="str_factory_prescale">預分頻</string>
+	<string name="str_factory_avc_enable">啟用Avc</string>
+	<string name="str_factory_avc_threthold">Avc Thl</string>
+	<string name="str_factory_drc_enable">Drc啟用</string>
+	<string name="str_factory_drc_threthold">DrC Thl</string>
+	<string name="str_factory_sound_effect">效果（HPF）</string>
+	<string name="str_factory_sound_toneffect">音</string>
+	<string name="str_factory_audio_delay">音頻延遲（揚聲器）</string>
+	<string name="str_factory_audio_nr">音頻NR</string>
+	<string name="str_factory_lineout">線路輸出（AUOUT1）</string>
+	<string name="str_factory_speaker">卷（AUOUT0）</string>
+	<string name="str_factory_audio_spdif_delay">音頻延遲（spdif）</string>
+
+	<string name="str_factory_ota_info">OTA信息</string>
+	<string name="str_factory_ota_info_praname">praName</string>
+	<string name="str_factory_ota_info_cusname">cusName</string>
+	<string name="str_factory_ota_info_proname">proName</string>
+	<string name="str_factory_ota_info_preversion">preVersion</string>
+	<string name="str_factory_onidaview">滾動選項可靠</string>
+
+	<string name="str_textview_factory_total_run_time">H</string>
+	<string name="str_total_run_time">TotalRunTime</string>
+
+</resources>

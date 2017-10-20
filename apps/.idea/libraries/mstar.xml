@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mstar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MTvTest/libs/mstar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

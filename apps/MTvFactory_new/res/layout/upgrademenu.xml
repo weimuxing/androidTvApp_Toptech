@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_upgrade_menu"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_upgrade_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_PQ"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@+id/linearlayout_upgrade_mac_upgrade"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_PQ"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_upgrade_pq"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_PQ2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_pq_update_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_main"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_main1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_upgrademain"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_main2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgrademain_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_mboot"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_mboot1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_upgrademboot"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_mboot2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgrademboot_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Nonlinear -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_6m30"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_6m30_1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_upgrade6m30"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_6m30_2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgrade6m30_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Non-standard -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_dual_ursa"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_dual_ursa1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_upgradedualursa"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_dual_ursa2"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgradedualursa_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For SSC -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_ci_upgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_ci_upgrade1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_ci_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_ci_upgrade2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_ci_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_ci_display"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_ci_display1"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_ci_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_ci_displa2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_ci_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_serial_upgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_serial_upgrade1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_upgrade_serial_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_serial_upgrade2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_upgrade_serial_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_sn_display"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_sn_display1"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_sn_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_sn_display2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_sn_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_hdcp_upgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_hdcp_upgrade1"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_hdcp_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_hdcp_upgrade2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_hdcp_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_hdcp_display"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_hdcp_display1"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_hdcp_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_hdcp_display2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_hdcp_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_hdcp2_upgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_hdcp2_upgrade1"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_hdcp2_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_hdcp2_upgrade2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_hdcp2_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_hdcp2_display"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_hdcp2_display1"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_hdcp2_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_hdcp2_display2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_hdcp2_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_mac_upgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusDown="@+id/linearlayout_upgrade_PQ"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_mac_upgrade1"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_mac_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_mac_upgrade2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_mac_upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_upgrade_mac_display"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_upgrade_mac_display1"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_upgrade_mac_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_upgrade_mac_display2"
+                    android:layout_width="133dip"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_factory_upgrade_mac_display"
+                    android:textColor="#BBBBBB"
+                    android:textSize="13dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

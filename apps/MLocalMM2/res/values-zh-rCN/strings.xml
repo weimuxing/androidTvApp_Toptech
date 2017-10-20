@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UI-LocalMM</string>
+    <string name="back">返回</string>
+    <string name="folder">文件夹</string>
+    <string name="rootDirectory">/mnt/usb</string>
+    <string name="sambarootDirectory">/mnt/samba</string>
+    <string name="unsupport_format">格式不支持</string>
+    <string name="exit_ok">确定</string>
+    <string name="exit_cancel">取消</string>
+    <string name="current_time">当前时间 :</string>
+    <string name="total_duration">总时长 :</string>
+    <string name="choice">选择</string>
+    <string name="confirm">确认</string>
+    <string name="exit_title">警告</string>
+    <string name="exit_confirm">确定把此节目删除节目列表?</string>
+    <string name="the_first_file">已经是第一个文件!</string>
+    <string name="the_last_file">已经是最后一个文件!</string>
+    <string name="net_disconnect">网络已断开!</string>
+    <string name="display_pip">显示PIP</string>
+    <string name="hide_pip">隐藏PIP</string>
+    <string name="pre_channel">上一个频道</string>
+    <string name="next_channel">下一个频道</string>
+    <string name="max_tip">达到最大的缩放比例！</string>
+    <string name="min_tip">达到最小的缩放比例！</string>
+    <string name="busy_tip">系统正在处理中，请稍后重试！</string>
+
+    <!-- ####################文件浏览模块资源定义区#################### -->
+    <string name="picture">图片</string>
+    <string name="song">歌曲</string>
+    <string name="video">视频</string>
+    <string name="samba">Samba</string>
+    <string name="dlna">DLNA</string>
+    <string name="other">其它</string>
+    <string name="all">全部</string>
+    <string name="page_up">上一页</string>
+    <string name="page_down">下一页</string>
+    <string name="samba_usr">用户名:</string>
+    <string name="samba_pwd">密码:</string>
+    <string name="samba_confirm">登录</string>
+    <string name="samba_cancel">取消</string>
+    <string name="slash">/</string>
+
+    <!-- 加载进度提示信息定义区 -->
+    <string name="loading_top">正在加载主页面,请稍等。。。</string>
+    <string name="loading_usb_device">正在加载USB设备,请稍等。。。</string>
+    <string name="loading_local_resource">正在加载本地资源,请稍等。。。</string>
+    <string name="loading_dlna_device">正在加载DLNA设备,请稍等。。。</string>
+    <string name="loading_dlna_resource">正在加载DLNA资源,请稍等。。。</string>
+    <string name="miss_dlna_device">无法加载DLNA资源</string>
+    <string name="loading_samba_device">正在加载SAMBA设备,请稍等。。。</string>
+    <string name="loading_samba_resource">正在加载SAMBA资源,请稍等。。。</string>
+    <string name="miss_samba_device">无法加载SAMBA资源</string>
+    <string name="is_scanning_disc">磁盘正在扫描!</string>
+    <string name="login_wrong_password">错误的密码</string>
+    <string name="login_failed">登陆SAMBA设备失败</string>
+    <string name="login_other_failed">登陆SAMBA设备异常</string>
+    <string name="login_title">登陆</string>
+    <string name="network_connect_failed">网络连接异常,无法共享网络资源</string>
+    <string name="network_unconnected">网络不可用,请检查网络后重试</string>
+    <string name="login_samba">正在登陆SAMBA设备</string>
+    <string name="logging_out_samba">正在登出SAMBA设备</string>
+    <string name="login_success">成功登陆SAMBA设备</string>
+    <string name="mount_failed">挂载SAMBA设备失败</string>
+
+    <string-array name="data_source">
+        <item>本地磁盘设备</item>
+        <item>网络SAMBA设备</item>
+        <!--<item>网络DLNA设备</item>-->
+    </string-array>
+
+    <!-- ####################媒体播放器资源定义区####################### -->
+    <!-- 图片播放模块资源定义区 -->
+    <string name="file_name">文件名称:</string>
+    <string name="photo_info">图片信息</string>
+    <string name="file_create_time">创建时间:</string>
+    <string name="file_size">文件大小:</string>
+    <string name="file_format">文件格式:</string>
+    <string name="display_img_name">显示图片的名称</string>
+    <string name="disk_eject">磁盘已移除</string>
+    <string name="photo_3D_toast">3D模式下，不允许该操作</string>
+    <string name="photo_set_wallpaper">设置墙纸</string>
+    <string name="first_photo">当前已为第一张图片!</string>
+    <string name="last_photo">当前已为最后一张图片!</string>
+    <string name="can_not_decode">图片过大，不能解析!</string>
+    <string name="can_not_decode_previous">上一张图片过大，不能解析!</string>
+    <string name="can_not_decode_next">下一张图片过大，不能解析!</string>
+    <string name="current_pic">当前的图片为:</string>
+    <string name="is_setting_wallpaper">正在设置墙纸，请稍后。。。</string>
+    <string name="picture_can_not_decode">该图片不能解析!</string>
+    <string name="picture_decoding">图片正在解析。。。</string>
+    <string name="picture_wallpaper">正在设置壁纸。。。</string>
+    <string name="picture_decode_failed">图片解析出错!</string>
+    <string name="picture_can_not_set3d">不是3D图片!</string>
+    <string name="picture_playing_time">幻灯片间隔时间</string>
+    <string name="picture_animation_setting">动画效果</string>
+    <string name="photo_GIF_toast">GIF动画模式下，不允许该操作</string>
+    <string name="photo_out_of_memory_toast">内存不足!</string>
+    <string name="photo_scale_or_rotate_toast">缩放和旋转模式下，不允许设置3D模式</string>
+    <string name="photo_pan_success_toast">图片平移成功</string>
+    <string name="photo_pan_failed_toast">图片平移失败!</string>
+    <string name="photo_pan_parameter_invalid">图片平移参数无效!</string>
+    <string name="not_supported_3D_this_platform">该平台不支持3D</string>
+    <string name="photo_media_play_next">继续播放下一张图片？</string>
+    <string name="file_not_support">格式不支持</string>
+    <string name="photo_not_support_scale">平台内存太小，不支持缩放操作！</string>
+    <string name="photo_zooming">图片缩放中...</string>
+	<string name="photo_rotating">图片旋转中...</string>
+    <!-- 音乐播放模块资源定义区 -->
+    <string name="music_info">歌曲信息</string>
+    <string name="file_duration">歌曲时长:</string>
+    <string name="music_default_time">00:00</string>
+    <string name="Artist_name">演唱者名:</string>
+    <string name="file_path">文件路径:</string>
+    <string name="none_lyrics_find">没找到歌词!</string>
+    <string name="unknown">未知</string>
+    <string name="singer">演唱者:</string>
+    <string name="current_song">当前歌曲:</string>
+    <string name="exit_music_play">确定退出音乐播放吗?</string>
+    <string name="alert">提醒</string>
+    <string name="music_media_play_next">继续播放下一个音乐？</string>
+
+    <!-- 视频播放模块资源定义区 -->
+    <string name="no_video_track">无音轨</string>
+    <string name="audio_codec">音频编码:</string>
+    <string name="video_codec">视频编码:</string>
+    <string name="duration">时    长:</string>
+    <string name="default_time">--:--:--</string>
+    <string name="video_default_time">00:00:00</string>
+    <string name="choose_time_0">0</string>
+    <string name="choose_time_colon">:</string>
+    <string name="programe_info">视频信息</string>
+    <string name="show_info">播放错误 </string>
+    <string name="buffering">此视频正在缓冲，请等待。。。</string>
+    <string name="playing">正在播放</string>
+    <string name="video_subtitle">字幕</string>
+    <string name="video_track">音轨</string>
+    <string name="video_thumbnail_mode">Thumbnail模式</string>
+    <string name="video_rotate_mode">Rotate模式</string>
+    <string name="video_channel">声道</string>
+    <string name="video_media_full_resize">视频拉伸全屏</string>
+	<string name="video_media_play_next">继续播放下一个视频？</string>
+    <string name="video_media_default">视频默认分辨率</string>
+    <string name="video_media_full">视频等比例全屏</string>
+    <string name="video_media_error_unknown">未知错误</string>
+    <string name="video_media_error_malformed">其它异常错误</string>
+    <string name="video_media_error_io">IO 读写错误</string>
+    <string name="video_media_error_unsupported">系统不支持错误</string>
+    <string name="video_media_error_format_unsupport">格式不支持</string>
+    <string name="video_media_error_not_connected">数据连接错误</string>
+    <string name="video_media_error_audio_unsupport">音频格式不支持</string>
+    <string name="video_media_error_video_unsupport">视频格式不支持</string>
+    <string name="video_media_error_no_license">播放的数据没有授权许可</string>
+    <string name="video_media_error_license_expired">授权许可过期</string>
+    <string name="video_media_other_error_unknown">其它未知错误</string>
+    <string name="video_media_error_not_valid">不是有效的连续视频序列</string>
+    <string name="video_media_info_video_decoder_over_capability">not support 4k2k in pip mode</string>
+    <string name="video_media_error_server_died">媒体播放器服务端卡死</string>
+    <string name="video_media_infor_no_index">视频文件没有索引,无法定位开始位置或快退</string>
+    <string name="video_media_infor_no_index_ab">视频文件没有索引,无法设置AB复播</string>
+    <string name="video_no_support_two_4k">不支持两个4k video同时播放.</string>
+    <string name="video_no_support_seamless_dualscreen">不支持在双屏模式下进行无缝播放!</string>
+    <string name="video_sub_no_support_fullscreen_in_4K2K">Video sub do not support fullscreen in 4K2K!</string>
+    <string name="video_display_previous_video_last_frame">Because the video only has audio, it displays the last frame of previous video in video seamless playback!!</string>
+    <string name="video_iso_tip">ISO文件不支持</string>
+    <string name="open_file_fail">无法打开此文件! </string>
+    <string name="subtitle_type">显示字幕类别</string>
+    <string name="subtitle_out_path">外接字幕路径</string>
+    <string name="subtitle_in_no">内接字幕编号</string>
+    <string name="subtitle_language">字幕语言</string>
+    <string name="subtitle_color">文本字幕颜色</string>
+    <string name="subtitle_font">文本字幕字体</string>
+    <string name="subtitle_font_size">文本字幕大小</string>
+    <string name="subtitle_frame">文本字幕带边框</string>
+    <string name="subtitle_area">文本字幕位置</string>
+    <string name="subtitle_adjust">字幕时间轴调整</string>
+    <string name="subtitle_trackname">subtitle trackname</string>
+    <string name="subtitleList">字幕列表</string>
+    <string name="playList">播放列表</string>
+    <string name="subtitle_setting">字幕设置</string>
+    <string name="a_b_section_repeat">A-B 区段重复</string>
+    <string name="section_replay">区段重复播放</string>
+    <string name="set_begin_a">设置起始点 A</string>
+    <string name="set_begin_b">设置起始点 B</string>
+    <string name="audio_track_count">音轨个数</string>
+    <string name="audio_track_number">设置音轨编号</string>
+    <string name="audio_track_duration">音轨总时长</string>
+    <string name="audio_track_language">音轨语言</string>
+    <string name="audio_track_codec">音轨编码</string>
+    <string name="audio_track_channel">音轨声道</string>
+    <string name="audio_track_name">音轨名称</string>
+    <string name="audio_track_setting">音轨设置</string>
+    <string name="point_a">A点的位置</string>
+    <string name="point_b">B点的位置</string>
+    <string name="one_times_speed">1倍速</string>
+    <string name="x_times_speed">倍速</string>
+    <string name="playing_settings">播放设置</string>
+    <string name="open_ab_repeat">使用AB播放必须先打开此功能</string>
+    <string name="set_point_a_first">设置B点位置之前必须先设置A点位置</string>
+    <string name="set_b_point_failed">B点设置失败，AB点时间间隔太短</string>
+    <string name="video_three_d_setting">3D设置</string>
+    <string name="video_rotate_degrees_setting">视频旋转角度设置</string>
+    <string name="video_rotate_degrees_setting_info">此角度设置将会在下个视频播放有效</string>
+
+    <string name="video_3D_none">关闭</string>
+    <string name="video_3D_side_by_side">左右</string>
+    <string name="video_3D_top_bottom">上下</string>
+    <string name="video_3D_frame_packing">双高清</string>
+    <string name="video_3D_line_alternative">行交织</string>
+    <string name="video_3D_2dto3d">2D转3D</string>
+    <string name="video_3D_3dto2d">3D转2D</string>
+    <string name="video_3D_auto">自动</string>
+    <string name="video_3D_check_board">棋盘格</string>
+    <string name="video_3D_pixel_alternative">列交错</string>
+    <string name="video_3D_frame_alternative">帧交替</string>
+    <string name="video_3D_count">COUNT</string>
+    <string name="video_3D_auto_detect_info">自动检测失败，请手动选择3D模式</string>
+
+    <string name="video_HDR_none">关闭</string>
+    <string name="video_HDR_auto">自动</string>
+    <string name="video_HDR_low">低</string>
+    <string name="video_HDR_middle">中</string>
+    <string name="video_HDR_high">高</string>
+    <string name="video_HDR_ref_mode">ref mode</string>
+
+
+    <string name="video_DolbyHDR_none">关闭</string>
+    <string name="video_DolbyHDR_vivid">绚丽</string>
+    <string name="video_DolbyHDR_bright">明亮的</string>
+    <string name="video_DolbyHDR_dark">黑暗的</string>
+
+    <string name="aspect_ratio_16X9">16:9的分辨率</string>
+    <string name="aspect_ratio_4X3">4:3的分辨率</string>
+    <string name="aspect_ratio_default">默认为自动的分辨率</string>
+    <string name="can_not_open_dual_in_3d_mode">3D模式下不能打开双解</string>
+    <string name="can_not_open_dual_in_hdr_mode">Open HDR模式下不能打开双解</string>
+    <string name="can_not_open_dual_in_dolbyhdr_mode">Dolby HDR模式下不能打开双解</string>
+    <string name="can_not_open_3D">双解模式下不能打开3D</string>
+    <string name="can_not_open_3D_in_HDR_or_dolbyHDR_mode_except_2DTo3D">Open HDR 或者 Dolby HDR模式下不能打开3D（除了2DTO3D模式）</string>
+    <string name="can_not_open_HDR_in_dualdecode_mode">双解模式下不能打开Open HDR</string>
+    <string name="can_not_open_DolbyHDR_in_dualdecode_mode">双解模式下不能打开Dolby HDR</string>
+    <string name="can_not_open_HDR_in_3d_mode_except_2DTo3D">3D模式下（除了2DTO3D模式）不能打开open HDR</string>
+    <string name="can_not_open_DolbyHDR_in_3d_mode_except_2DTo3D">3D模式下（除了2DTO3D模式）不能打开Dolby HDR</string>
+    <string name="can_not_open_3D_pip">PIP模式下不能打开3D</string>
+    <string name="video_start_time">视频起播时间</string>
+    <string name="video_buffer_time">缓冲时间 : </string>
+    <string name="video_first_video_frame_time">出第一帧画面时间 : </string>
+    <string name="video_breakpoint_play">是否接着前次播放？</string>
+    <string name="video_breakpoint">断点播放</string>
+    <string name="continuous_play">continuous play</string>
+    <string name="video_audio_AC4">AC4</string>
+    <string name="video_swdr">SWDR</string>
+    <string name="video_swdr_level">SWDR Level</string>
+    <string name="video_swdr_status">SWDR Status</string>
+    <string name="can_not_open_dual_pip">PIP/POP/DUALVIEW模式下不能打开双解</string>
+    <string name="can_not_open_dual_4kVideo">4k1k/4k2k模式下不能打开双解</string>
+    <string name="can_not_open_dual_HEVC_Video">H.265/HEVC模式下不能打开双解</string>
+    <string name="can_not_open_dual_Thumbnail_Video">Thumbnail模式下不能打开双解</string>
+    <string name="can_not_open_dual_this_platform">该平台不支持双解</string>
+    <string name="can_not_open_thumbnail_dual_Video">双解模式下不能打开Thumbnail</string>
+    <string name="can_not_open_thumbnail_4kVideo">4k1k/4k2k模式下不能打开Thumbnail</string>
+    <string name="can_not_open_thumbnail_3DMode">3D模式下不能打开Thumbnail</string>
+    <string name="can_not_open_thumbnail_this_platform">该平台不支持thumbnail功能</string>
+    <string name="can_not_open_dual_rotate_mode">Rotate模式下不能打开双解</string>
+    <string name="can_not_open_rotate_dual_mode">Dual View模式下不能打开旋转功能</string>
+    <string name="can_not_support_aspect_ratio">当前视频不支持比例模式</string>
+    <string name="can_not_open_HDR_this_platform">该平台不支持open HDR</string>
+    <string name="can_not_open_Dolby_HDR_this_platform">该平台不支持Dolby HDR</string>
+
+    <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+    <string name="subtitle_0_value_1">显示外接字幕</string>
+    <string name="subtitle_0_value_2">显示内接字幕</string>
+    <string name="subtitle_1_value_1">点击选择路径</string>
+    <string name="subtitle_1_value_2">无外接字幕</string>
+    <string name="subtitle_2_value_1">无</string>
+    <string name="subtitle_2_value_2">字幕</string>
+    <string name="subtitle_3_value_1">未知</string>
+    <string name="subtitle_3_value_2">无</string>
+    <string name="subtitle_4_value_1">默认</string>
+    <string name="subtitle_4_value_2">无衬线</string>
+    <string name="subtitle_4_value_3">单间隔</string>
+    <string name="subtitle_5_value_1">大</string>
+    <string name="subtitle_5_value_2">中</string>
+    <string name="subtitle_5_value_3">小</string>
+    <string name="subtitle_6_value_1">白色</string>
+    <string name="subtitle_6_value_2">黑色</string>
+    <string name="subtitle_6_value_3">蓝色</string>
+    <string name="subtitle_7_value_1">否</string>
+    <string name="subtitle_7_value_2">是</string>
+    <string name="subtitle_8_value_1">视频画面底部</string>
+    <string name="subtitle_8_value_2">视频画面顶部</string>
+    <string name="subtitle_9_value">0</string>
+
+    <string-array name="subtitle_setting_opt">
+        <item>显示外接字幕</item>
+        <item>点击选择路径</item>
+        <item>无</item>
+        <item>未知</item>
+        <item>默认</item>
+        <item>中</item>
+        <item>白色</item>
+        <item>否</item>
+        <item>视频画面底部</item>
+        <item>0</item>
+        <item>subtitle track name</item>
+    </string-array>
+
+    <string name="subtitle_change_msg">您所选的是外接字幕,只有内接字幕才有字幕编号!</string>
+    <string name="subtitle_change_path">您所选的是内接字幕,只有外接字幕才可以选择路径!</string>
+    <string name="choose_time_failed">该视频不能精确定位!!</string>
+    <string name="choose_time_invalid">您设定的时间不合法,请重试!</string>
+    <string name="subtitle_change_invalid">图像字幕不支持该操作!</string>
+    <string name="external_subtitle_setting_operation_invalid">不支持该操作！请检查是否设置外接字幕路径了！</string>
+    <string name="inner_subtitle_setting_opration_invalid">该影片没有内置字幕，不支持该操作！</string>
+
+    <string-array name="play_setting_opt">
+        <item>开</item>
+        <item>关</item>
+        <item>开</item>
+        <item>关</item>
+        <item>关</item>
+        <item></item>
+        <item>关</item>
+        <item>关</item>
+        <item>关</item>
+        <item>开</item>
+        <item>关</item>
+        <item>关</item>
+    </string-array>
+
+    <string name="play_setting_0_value_1">开</string>
+    <string name="play_setting_0_value_2">关</string>
+    <string name="video_size_unknown">未知</string>
+
+    <string-array name="audio_track_setting_opt">
+        <item>音轨1</item>
+        <item>1</item>
+        <item>00:00:00</item>
+        <item>未知</item>
+        <item>未知</item>
+        <item>未知</item>
+        <item>未知</item>
+    </string-array>
+
+    <string name="audio_track_setting_0_value_1">音轨</string>
+    <string name="subtitle_setting_0_value_1">内接</string>
+    <string name="subtitle_setting_0_value_2">外接</string>
+
+    <string name="video_goldenlefteye_mode">黄金左眼</string>
+    <string name="dual_mode_not_support_golden_left_eye">双解模式不支持黄金左眼 ！</string>
+    <string name="stb_not_support_golden_left_eye">该平台不支持黄金左眼 ！</string>
+
+    <string name="four_video_play_in_gridview">四宫格视频播放</string>
+    <string name="nine_video_play_in_gridview">九宫格视频播放</string>
+    <string name="not_support_multiplayback">该平台不支持多路播放</string>
+
+    <string name="video_HDR_mode">Open HDR</string>
+    <string name="video_DolbyHDR_mode">Dolby HDR</string>
+</resources>

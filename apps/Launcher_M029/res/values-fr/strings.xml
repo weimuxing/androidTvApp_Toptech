@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Lanceur</string>
+
+	<string name="application_num">Le nombre d\'applications installées:</string>
+
+	<string name="temp_unit_c">℃</string>
+	<string name="temp_unit_f">℉</string>
+
+	<string name="loading">Chargement...</string>
+	<string name="instruction_loading">S\'il vous plait, chargez .....</string>
+
+	<string name="weather_location">Sélectionnez la météo</string>
+	<string name="applabel">Application</string>
+
+	<string name="errornetwork">Panne de réseau!</string>
+	<string name="load_error">Chargez l\'échec des données!</string>
+
+
+	<string name="day_of_candar">Th</string>
+
+	<string name="add_app_title">Sélectionnez vos APPS préférés</string>
+	<string name="tips">MES APPLICATIONS</string>
+	<string name="savemsg">      Sauvegarder les modifications?</string>
+	<string name="delmsg">Voulez-vous supprimer le raccourci?</string>
+	<string name="min_apk_num">Au moins un APK requis!</string>
+	<string name="ok">Oui</string>
+	<string name="cancle">Non</string>
+	<string name="all_check_title">Tous vérifiés</string>
+	<string name="rev_check_title">Vérification inverse</string>
+	<string name="month">M</string>
+	<string name="pick_wallpaper">Choisissez le fond d\'écran</string>
+	<string name="chooser_wallpaper">Choisissez le fond d\'écran</string>
+	<string name="activity_not_found">Activité non trouvée</string>
+	<string name="url_select">Url select</string>
+	<string name="wallpaper_instructions">Instructions de fond d\'écran</string>
+	<string name="wallpaper">Fond d\'écran</string>
+	<string name="wallpaper_set">Fond d\'écran défini avec succès!</string>
+
+
+	<string name="contentdes">Img</string>
+	<string name="city001">ShenZhen</string>
+	<string name="gallery_info">Veuillez insérer le lecteur flash USB ou ne pas pouvoir identifier les images</string>
+</resources>

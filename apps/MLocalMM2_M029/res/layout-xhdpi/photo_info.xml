@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top|center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="2dip" >
+
+    <TextView
+        android:id="@+id/program_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/photo_info"
+        android:textSize="18sp" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dip"
+        android:background="@drawable/line" >
+    </ImageView>
+    <RelativeLayout
+        android:id="@+id/filename_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:paddingLeft="30dip"
+            android:text="@string/file_name"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="650dip"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/filename"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/duration_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/duration_tv"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:paddingLeft="30dip"
+            android:text="@string/file_create_time"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="350dip"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/duration_tv"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/filesize_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/filesize"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:paddingLeft="30dip"
+            android:text="@string/file_size"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_zise"
+            android:layout_width="650dip"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/filesize"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fileformat_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fileformat"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:paddingLeft="30dip"
+            android:text="@string/file_format"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_format"
+            android:layout_width="650dip"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/fileformat"
+            android:textSize="15sp" />
+    </RelativeLayout>
+        <RelativeLayout
+        android:id="@+id/file_resolution"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/resolution"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:paddingLeft="30dip"
+            android:text="@string/file_resolution"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/resolution_val"
+            android:layout_width="650dip"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/resolution"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

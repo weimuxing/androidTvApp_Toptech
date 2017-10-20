@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_picture_menu"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_picture_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- For Picture Mode -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_mode"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@+id/linearlayout_picture_PQ"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_mode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_picturemode"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Non Linear -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_Non_linear"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_Non_linear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_non_linear"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For ADC Adjust -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_ADC_Adjust"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_ADC_Adjust"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_picture_ADC_Adjust"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For White Balance -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_White_Balance"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_White_Balance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_whitebalance"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Overscan -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_Overscan"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_Overscan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_overscan"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Non Standard Adjust -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_Non_standard_Adjust"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_Non_standard_Adjust"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_non_standard"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For SSC Adjust -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_SSC_Adjust"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_SSC_Adjust"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_ssc"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Test Pattern -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_Test_Pattern"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_Test_Pattern"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_factory_testpattern"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Test Pattern -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_Test_Pattern"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_Test_Pattern1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_picture_testpattern"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_picture_Test_Pattern2"
+                    android:layout_width="133dp"
+                    android:layout_height="33dip"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_off"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For xvycc -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_xvycc"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_xvycc1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_xvycc"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_picture_xvycc2"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_upgrademain_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            
+            <!-- For MFC -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_mfc"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_mfc"
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_picture_mfc"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_picture_mfc_val"
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/str_picture_mfc_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For 3D Self Adaptive -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_3d_adaptive"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_3d_adaptive"
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_picture_3d_adaptive"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_picture_3d_adaptive_val"
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/str_picture_3d_adaptive_val"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For DTV AV delay -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_DTV_AV_delay"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_DTV_AV_delay1"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_dtvavdelay"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_picture_DTV_AV_delay2"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_on"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_PQ"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusDown="@+id/linearlayout_picture_mode"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_picture_PQ"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_pq"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

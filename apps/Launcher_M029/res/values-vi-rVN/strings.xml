@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Trình khởi chạy</string>
+
+	<string name="application_num">Số lượng ứng dụng đã cài đặt:</string>
+
+	<string name="temp_unit_c">℃</string>
+	<string name="temp_unit_f">℉</string>
+
+	<string name="loading">Tải...</string>
+	<string name="instruction_loading">Xin vui lòng tải .....</string>
+
+	<string name="weather_location">Chọn thành phố thời tiết</string>
+	<string name="applabel">Ứng dụng</string>
+
+	<string name="errornetwork">Lỗi mạng!</string>
+	<string name="load_error">Tải dữ liệu thất bại!</string>
+
+
+	<string name="day_of_candar">Th</string>
+
+	<string name="add_app_title">Chọn APPS yêu thích của bạn</string>
+	<string name="tips">NHỮNG ỨNG DỤNG CỦA TÔI</string>
+	<string name="savemsg">      Lưu thay đổi?</string>
+	<string name="delmsg">Bạn có muốn del các phím tắt?</string>
+	<string name="min_apk_num">Yêu cầu ít nhất một APK!</string>
+	<string name="ok">Vâng</string>
+	<string name="cancle">Không</string>
+	<string name="all_check_title">Tất cả đã kiểm tra</string>
+	<string name="rev_check_title">Kiểm tra ngược</string>
+	<string name="month">M</string>
+	<string name="pick_wallpaper">Chọn hình nền</string>
+	<string name="chooser_wallpaper">Chọn hình nền</string>
+	<string name="activity_not_found">Không tìm thấy hoạt động</string>
+	<string name="url_select">Chọn Url</string>
+	<string name="wallpaper_instructions">Hướng dẫn hình nền</string>
+	<string name="wallpaper">Hình nền</string>
+	<string name="wallpaper_set">Hình nền được thiết lập thành công!</string>
+
+
+	<string name="contentdes">Img</string>
+	<string name="city001">ShenZhen</string>
+	<string name="gallery_info">Vui lòng lắp ổ USB flash hoặc không thể xác định được hình ảnh</string>
+
+</resources>

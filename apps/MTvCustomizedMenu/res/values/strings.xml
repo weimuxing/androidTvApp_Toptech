@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2015 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- UI font -->
+    <string name="font" translatable="false">sans-serif</string>
+    <string name="light_font" translatable="false">sans-serif-light</string>
+    <string name="thin_font" translatable="false">sans-serif-thin</string>
+    <string name="condensed_font" translatable="false">sans-serif-condensed</string>
+    <string name="option_item_text_font" translatable="false">@string/condensed_font</string>
+    <string name="option_item_secondary_text_font" translatable="false">@string/condensed_font</string>
+    <string name="option_item_divider_font" translatable="false">@string/condensed_font</string>
+
+    <!-- Name of application -->
+    <string name="app_name">Live Channels</string>
+
+    <!-- Common string -->
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="cancel">Cancel</string>
+    <string name="str_ok">OK</string>
+
+    <string name="str_save">Save</string>
+
+    <!-- Advanced options -->
+    <string name="advanced_option">Advanced Option</string>
+    <string name="str_menu_picture">Picture</string>
+
+    <!-- Menu Part -->
+    <string name="str_menu_sound">Sound</string>
+    <string name="str_menu_language">Language</string>
+    <string name="str_menu_pvr">PVR</string>
+    <string name="str_menu_hdmi">HDMI</string>
+    <string name="str_menu_power">Power</string>
+    <string name="str_menu_time">Time</string>
+    <string name="str_menu_demo">DEMO</string>
+    <string name="str_menu_3d">3D</string>
+    <string name="str_menu_misc">Misc</string>
+
+    <!-- Picture settings -->
+    <string name="picture_mode">Picture Mode</string>
+    <string name="contrast">Contrast</string>
+    <string name="brightness">Brightness</string>
+    <string name="hue">Hue</string>
+    <string name="sharpness">Sharpness</string>
+    <string name="saturation">Saturation</string>
+    <string name="backlight">Back Light</string>
+    <string name="PC_image_mode">PC Image mode</string>
+    <string name="clock">Clock</string>
+    <string name="phase">Phase</string>
+    <string name="horizontalposition">Horizontal Position</string>
+    <string name="verticalposition">Vertical Position</string>
+    <string name="color_temperature">Color Temperature</string>
+    <string name="colorred">Color Red</string>
+    <string name="colorgreen">Color Green</string>
+    <string name="colorblue">Color Blue</string>
+    <string name="zoom_mode">Zoom Mode</string>
+    <string name="open_hdr">Open HDR</string>
+    <string name="dolby_hdr">Dolby HDR</string>
+    <string name="image_noise_reduction">Image Noise Reduction</string>
+    <string name="mpeg_noise_reduction">Mpeg Noise Reduction</string>
+    <string name="standard_mode">Standard</string>
+    <string name="soft_mode">Soft</string>
+    <string name="nature">Nature</string>
+    <string name="str_default">Default</string>
+    <string name="xvycc">xvYCC</string>
+    <string name="PC_image_mode_auto">Auto Tune</string>
+
+    <!-- Sound settings -->
+    <string name="sound_mode">Sound Mode</string>
+    <string name="low_pitch">Low Pitch</string>
+    <string name="high_pitch">High Pitch</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="eq_120Hz">120Hz</string>
+    <string name="eq_500Hz">500Hz</string>
+    <string name="eq_1_5KHz">1.5KHz</string>
+    <string name="eq_5KHz">5KHz</string>
+    <string name="eq_10KHz">10KHz</string>
+    <string name="balance">Balance</string>
+    <string name="AVC">AVC</string>
+    <string name="AD">AD</string>
+    <string name="AD_volume">AD Volume </string>
+    <string name="video_description">Video Description</string>
+    <string name="auto_HOH">Auto HOH</string>
+    <string name="HD_bypass">HD Bypass</string>
+    <string name="surround">Surround</string>
+    <string name="SRS">SRS</string>
+    <string name="SPDIF_output">SPDIF Output</string>
+    <string name="alone">Alone</string>
+    <string name="user_mode">User</string>
+    <string name="PCM">PCM</string>
+
+    <!-- Time settings -->
+    <string name="str_time_time">Time</string>
+    <string name="str_time_date">Date</string>
+    <string name="str_time_currenttime">Current Time</string>
+    <string name="str_time_offtime">Off Time</string>
+    <string name="str_time_schedule">Scheduled Time</string>
+    <string name="str_time_sleep">Sleep Time</string>
+    <string name="str_time_autotime">Auto Adjust</string>
+    <string name="str_time_schedule_ontime">On Time</string>
+    <string name="str_time_set_time_on_title">Boot Time</string>
+    <string name="str_time_set_time_off_title">Unattended Time</string>
+    <string name="str_time_set_time_on">Setting Boot Time</string>
+    <string name="str_time_set_time_off">Setting Off Time</string>
+    <string name="str_time_set_time_hour_minute">Setting Hour, Minute</string>
+    <string name="str_time_schedule_hour">Hour</string>
+    <string name="str_time_schedule_minute">Minute</string>
+    <string name="str_time_schedule_source">Source</string>
+    <string name="str_time_schedule_channel">Channel</string>
+    <string name="str_time_schedule_volume">Volume</string>
+    <string name="str_time_hour">Hour</string>
+    <string name="str_time_minute">Minute</string>
+    <string name="str_time_second">Second</string>
+    <string name="str_time_change_timezone">Timezone automatic updated</string>
+
+    <!-- Demo settings -->
+    <string name="str_demo_mwe">Media Window Enhancement</string>
+    <string name="str_demo_dbc">DBC</string>
+    <string name="str_demo_dlc">DLC</string>
+    <string name="str_demo_dcc">DCC</string>
+    <string name="str_demo_nr">Picture NR</string>
+    <string name="str_demo_uclear">Ultra Clear</string>
+
+    <!-- For 3D -->
+    <string name="str_3d_self_adaptive_detecttriple">3D Self Detect</string>
+    <string name="str_3dto2d_self_adaptive_detecttriple">3D-2D Self Detect</string>
+    <string name="str_3d_self_adaptive_detectlevel">SelfAdaptive Level</string>
+    <string name="str_3d_conversion">3D Conversion</string>
+    <string name="str_3d_3dto2d">3D to 2D</string>
+    <string name="str_3d_3ddepth">3D Depth</string>
+    <string name="str_3d_3doffset">3D Offset</string>
+    <string name="str_3d_autostart">Auto Start</string>
+    <string name="str_3d_3doutputaspect">3D Output Aspect</string>
+    <string name="str_3d_lrswitch">LR View Switch</string>
+
+    <!-- Misc -->
+    <string name="str_misc_ginga_on_off">Ginga</string>
+    <string name="str_misc_ginga_list">Ginga Application</string>
+    <string name="str_vchip_vchip">V-chip settings</string>
+    <string name="str_vchip_button_lock">Button Lock</string>
+
+    <string name="str_misc_location_code">Location code</string>
+
+    <string name="str_misc_signalinfo">Signal Information</string>
+    <string name="str_misc_software_version">Software Version</string>
+    <string name="str_misc_channel">Channel</string>
+    <string name="str_misc_frequency">Frequency</string>
+    <string name="str_misc_network">Network</string>
+    <string name="str_misc_transportstream">Transport stream</string>
+    <string name="str_misc_service">Service</string>
+    <string name="str_misc_signalstrength">Signal Strength</string>
+    <string name="str_misc_signalquality">Signal Quality</string>
+    <string name="str_misc_antannatype">Antenna Type</string>
+    <string name="str_misc_antannatype_air">Air</string>
+    <string name="str_misc_antannatype_cable">Cable</string>
+    <string name="str_misc_modulation">Modulation</string>
+    <string name="str_misc_symbol">Symbol Rate</string>
+    <string name="str_misc_dvbs">Satellite</string>
+
+    <!-- Closed Caption -->
+    <string name="str_misc_cc_title">CC Settings</string>
+    <string name="str_miscg_cc_mode">CC mode</string>
+    <string name="str_misc_cc_basic_selection">Basic Selection</string>
+    <string name="str_misc_cc_advanced_selection">Advanced Selection</string>
+    <string name="str_misc_cc_advanced_setting">Advanced CC Setting</string>
+    <string name="str_misc_closed_caption">Close Caption</string>
+    <string name="str_misc_store_cookies">Store Cookies</string>
+    <string name="str_set_menutime">Menu Time</string>
+    <string name="str_set_menutime_5sec">5 Seconds</string>
+
+    <string name="str_set_switchmode">Switch Mode</string>
+    <string name="str_set_switchmode_blackscreen">Black Screen</string>
+    <string name="str_set_autosourceidentify">Source Identify</string>
+    <string name="str_set_sourcepreview">Source Preview</string>
+
+    <string name="str_set_colorrange_0to255">0~255</string>
+    <string name="str_set_moviemode">Movie Mode</string>
+
+    <string name="str_set_mhlswitch">MHL Auto Switch</string>
+    <string name="str_set_bluescreenswitch">Blue Screen</string>
+    <string name="str_set_standyon">System Standby</string>
+    <string name="str_set_hbbtv_switch">HBBTV</string>
+
+    <string name="str_set_powersetting">Power Setting</string>
+    <string name="str_set_hdmicec_label">HDMI_CEC</string>
+    <string name="str_set_hdmicec_devicelist">Device List</string>
+    <string name="str_set_hdmicec_off">Off</string>
+    <string name="str_set_hdmicec_onoff">HDMI CEC On/Off</string>
+    <string name="str_set_cc_setting">CC Setting</string>
+    <string name="str_set_autosourceswit">Source auto switch</string>
+
+    <string name="str_misc_restoretodefault">Restore To Default</string>
+    <string name="str_misc_alert_dialog_message_restore_to_default">Are you sure to restore to default?</string>
+
+
+    <!-- PVR -->
+    <string name="str_pvr_file_system_select_disk">Select Disk</string>
+    <string name="no_external_storage">No external storage available!</string>
+    <string name="str_pvr_insert_usb">Please Insert A USB Disk First!</string>
+    <string name="str_pvr_format_usb">Do you Want to Format the Selected Disk?</string>
+    <string name="str_pvr_format_usb_progressing">Format USB Disk Progressing...\nPlease Do Not Unplug the
+        USB Disk!</string>
+    <string name="str_pvr_usb_speed_test_progressing">Speed Test Progressing...\nPlease Do Not Unplug the
+        USB Disk!</string>
+
+    <!-- Language settings -->
+    <string name="str_language_title">Language</string>
+    <string name="str_language_audio_language1">Audio Primary Language</string>
+    <string name="str_language_audio_language2">Audio Second Language</string>
+    <string name="str_language_subtitle_switch">Subtitle</string>
+    <string name="str_language_subtitle_language1">Subtitle Primary Language</string>
+    <string name="str_language_subtitle_language2">Subtitle Secondary Language</string>
+    <string name="str_language_czech">Czech</string>
+    <string name="str_language_danish">Danish</string>
+    <string name="str_language_german">German</string>
+    <string name="str_language_english">English</string>
+    <string name="str_language_spanish">Spanish</string>
+    <string name="str_language_greek">Greek</string>
+    <string name="str_language_french">French</string>
+    <string name="str_language_croatian">Croatian</string>
+    <string name="str_language_italian">Italian</string>
+    <string name="str_language_hungarian">Hungarian</string>
+    <string name="str_language_dutch">Dutch</string>
+    <string name="str_language_norwegian">Norwegian</string>
+    <string name="str_language_polish">Polish</string>
+    <string name="str_language_portuguese">Portuguese</string>
+    <string name="str_language_russian">Russian</string>
+    <string name="str_language_romanian">Romanian</string>
+    <string name="str_language_slovenian">Slovenian</string>
+    <string name="str_language_serbian">Serbian</string>
+    <string name="str_language_finnish">Finnish</string>
+    <string name="str_language_swedish">Swedish</string>
+    <string name="str_language_bulgarian">Bulgarian</string>
+    <string name="str_language_slovak">Slovak</string>
+    <string name="str_language_chinese">Chinese</string>
+    <string name="str_language_gaelic">Gaelic</string>
+    <string name="str_language_welsh">Welsh</string>
+    <string name="str_language_irish">Irish</string>
+    <string name="str_language_arabic">Arabic</string>
+    <string name="str_language_latvian">Latvian</string>
+    <string name="str_language_hebrew">Hebrew</string>
+    <string name="str_language_turkish">Turkish</string>
+    <string name="str_language_estonian">Estonian</string>
+    <string name="str_language_gallegan">Gallegan</string>
+    <string name="str_language_basque">Basque</string>
+    <string name="str_language_catalan">Catalan</string>
+    <string name="str_language_icelandic">Icelandic</string>
+    <string name="str_language_letzeburgesch">Letzeburgesch</string>
+    <string name="str_language_lithuanian">Lithuanian</string>
+    <string name="str_language_ukrainian">Ukrainian</string>
+    <string name="str_language_byelorussian">Byelorussian</string>
+    <string name="str_language_maori">Maori</string>
+    <string name="str_language_mandarin">Mandarin</string>
+    <string name="str_language_cantonese">Cantonese</string>
+    <string name="str_language_korean">Korean</string>
+    <string name="str_language_japanese">Japanese</string>
+    <string name="str_language_hindi">Hindi</string>
+    <string name="str_language_thai">Thai</string>
+    <string name="str_language_vietnamese">Vietnamese</string>
+    <string name="str_language_malay">Bahasa Melayu</string>
+    <string name="str_language_qab">Second Audio</string>
+    <string name="str_language_qac">Third Audio</string>
+    <string name="str_language_multiple">Multiple</string>
+
+    <!-- PVR settings -->
+    <string name="str_pvr_title">PVR</string>
+    <string name="str_pvr_select_disk">Select Disk</string>
+    <string name="str_pvr_time_shift_size">Time Shift Size</string>
+    <string name="str_pvr_format_start">Format Start</string>
+    <string name="str_pvr_speed_check">Speed Check</string>
+    <string name="str_pvr_always_timeshift">Always Time Shift</string>
+    <string name="str_pvr_file_system_format_context">Success</string>
+    <string name="str_pvr_speed_check_result">speed:</string>
+
+    <!-- HDMI settings -->
+    <string name="str_hdmi_title">HDMI</string>
+    <string name="str_hdmi_cec">HDMI_CEC</string>
+    <string name="str_hdmi_arc">HDMI_ARC</string>
+    <string name="str_hdmi_standby_on">Standby On</string>
+    <string name="str_hdmi_device_menu">Device Menu</string>
+    <string name="str_hdmi_device_list">Device List</string>
+    <string name="str_hdmi_mhl_auto_switch">MHL Auto Switch</string>
+    <string name="str_hdmi_edid_version">HDMI EDID Version</string>
+    <string name="str_hdmi_edid_version_change">Changing HDMI EDID version</string>
+    <string name="str_hdmi_edid_version_wait">Please wait a moment...</string>
+    <string name="str_hdmi_colorrange">Color Range</string>
+
+    <!-- Power settings -->
+    <string name="str_power_title">Power</string>
+    <string name="str_power_powermusic">Power Music</string>
+    <string name="str_power_powerlogo">Power Logo</string>
+    <string name="str_power_powervolume">Power Volume</string>
+
+    <!-- Time  settings -->
+    <string name="str_time_title">Time</string>
+    <string name="str_time_set_boot_time">Boot Time</string>
+    <string name="str_time_input_source">Source</string>
+    <string name="str_time_sleep_timer">Sleep Timer</string>
+
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">CIMMI</string>
+    <string name="str_cimmi_hint_ci_inserted">CI INSERTED</string>
+    <string name="str_cimmi_hint_ci_removed">CI REMOVED</string>
+    <string name="str_cimmi_hint_ci_auto_test">CI AUTOTEST</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">INPUT PASSWORD</string>
+
+    <!-- For Toast style -->
+    <string name="str_3d_toast">MWE mode off to make 3D mode validate</string>
+    <string name="str_demo_toast">3D Mode off to make MWE mode validate</string>
+
+    <!-- for program edit -->
+    <string name="str_program_edit_dialog_ok">ok</string>
+    <string name="str_program_edit_dialog_cancel">cancel</string>
+    <string name="str_program_edit_dialog_input">please input</string>
+
+    <!-- For sound format info-->
+    <string name="str_sound_format_mono">MONO</string>
+    <string name="str_sound_format_dual_a">DUAL A</string>
+    <string name="str_sound_format_dual_ab">DUAL AB</string>
+    <string name="str_sound_format_dual_b">DUAL B</string>
+    <string name="str_sound_format_forced_mono">MONO</string>
+    <string name="str_sound_format_g_stereo">STEREO</string>
+    <string name="str_sound_format_hidev_mono">MONO</string>
+    <string name="str_sound_format_unknown">UNKNOWN</string>
+    <string name="str_sound_format_k_stereo">STEREO</string>
+    <string name="str_sound_format_left_left">LEFT LEFT</string>
+    <string name="str_sound_format_left_right">LEFT RIGHT</string>
+    <string name="str_sound_format_mono_sap">MONO SAP</string>
+    <string name="str_sound_format_nicam_dual_a">NICAM DUAL A</string>
+    <string name="str_sound_format_nicam_dual_ab">NICAM DUAL AB</string>
+    <string name="str_sound_format_nicam_dual_b">NICAM DUAL B</string>
+    <string name="str_sound_format_nicam_mono">NICAM MONO</string>
+    <string name="str_sound_format_nicam_stereo">NICAM STEREO</string>
+    <string name="str_sound_format_right_right">RIGHT RIGHT</string>
+    <string name="str_sound_format_stereo_sap">STEREO SAP</string>
+    <string name="str_sound_format_stereo">STEREO</string>
+
+    <!-- Closed Caption Digital -->
+    <string name="str_setting_cc_dig_mode">Mode</string>
+    <string name="str_setting_cc_dig_font_style">Font Style</string>
+    <string name="str_setting_cc_dig_font_size">Font Size</string>
+    <string name="str_setting_cc_dig_font_edge_style">Font Edge Style</string>
+    <string name="str_setting_cc_dig_font_edge_color">Font Edge Color</string>
+    <string name="str_setting_cc_dig_fg_color">FG color</string>
+    <string name="str_setting_cc_dig_bg_color">BG Color</string>
+    <string name="str_setting_cc_dig_fg_opacity">FG Opacity</string>
+    <string name="str_setting_cc_dig_bg_opacity">BG Opacity</string>
+    <string name="str_setting_cc_italic_attr">Italic</string>
+    <string name="str_setting_cc_underline_attr">Underline</string>
+
+    <!-- InputsActivity -->
+    <string name="system_inputs">Inputs Setting</string>
+
+    <!-- For CA String define -->
+    <string name="str_cha_cainformation">CA Information</string>
+    <string name="str_ca_title">CA Information</string>
+    <string name="str_ca_card_info">CA Information</string>
+    <string name="str_ca_card_management">CA Management</string>
+    <string name="str_ca_card_paired">Card Paired</string>
+    <string name="str_ca_card_feed">Card Feed</string>
+    <string name="str_ca_info_title">CA Card Information</string>
+    <string name="str_ca_info_entitle">CA Entitle Information</string>
+    <string name="str_ca_info_detitle">CA Detitle Information</string>
+    <string name="str_ca_info_purse_info">CA Slot Information</string>
+    <string name="str_ca_card_version">CAS Version Information</string>
+    <string name="str_ca_mg_title">CA Card Management</string>
+    <string name="str_ca_mg_modify_pin">Modify PIN Of CA Card</string>
+    <string name="str_ca_mg_work_time">Modify Work Time Of CA Card</string>
+    <string name="str_ca_mg_watch_level">Modify Watch Level Of CA Card</string>
+    <string name="str_ca_info_pin_title">Modify PIN Of CA Card</string>
+    <string name="str_ca_mg_old_pin">Please input the old PIN:</string>
+    <string name="str_ca_mg_new_pin">Please input the new PIN:</string>
+    <string name="str_ca_mg_new_pin2">Please confirm the new PIN:</string>
+    <string name="str_ca_mg_submit">Submit</string>
+    <string name="str_set_work_time_title">CA work time setting</string>
+    <string name="str_ca_start_work_time">Please set start time:</string>
+    <string name="str_ca_end_work_time">Please set end time:</string>
+    <string name="str_ca_work_time_pin">Please input PIN code:</string>
+    <string name="str_work_time_hour_text">Hour</string>
+    <string name="str_work_time_minute_text">Minute</string>
+    <string name="str_watch_level_title">Watch Level Setting</string>
+    <string name="str_watch_level_text">Watch Level:</string>
+    <string name="str_watch_level_init">0</string>
+    <string name="str_ca_operator_title">Operator List</string>
+    <string name="str_ca_op_id">ID</string>
+    <string name="str_ca_op_operator_id">Operator ID</string>
+    <string name="str_ca_version_title">CA Version Information</string>
+    <string name="str_ca_version_id">CDCAS Version ID:</string>
+    <string name="str_ca_version_stb_num">STB Number:</string>
+    <string name="str_ca_card_id">Card ID:</string>
+    <string name="str_ca_entitle_title">CA Entitle Information</string>
+    <string name="str_ca_entitle_id">Product ID</string>
+    <string name="str_ca_entitle_video_id">Video Function</string>
+    <string name="str_ca_entitle_date">Expiration Date</string>
+    <string name="str_ca_entitle_video_flag_yes">Yes</string>
+    <string name="str_ca_entitle_video_flag_no">No</string>
+    <string name="str_ca_detitle_title">CA Detitle Information</string>
+    <string name="str_ca_detitle_list">CA Detitle Code List</string>
+    <string name="str_ca_detitle_state">CA Detitle State</string>
+    <string name="str_ca_detitle_state_yes">Yes</string>
+    <string name="str_ca_detitle_state_no">No</string>
+    <string name="str_ca_purse_title">CA Slot Information</string>
+    <string name="str_ca_purse_id">Slot ID</string>
+    <string name="str_ca_purse_points">Spend points</string>
+    <string name="str_ca_purse_credit">Credit line</string>
+
+    <!-- For CA Error Type define -->
+    <string name="st_ca_rc_ok">OK</string>
+    <string name="st_ca_rc_unknown">Unkonwn error</string>
+    <string name="st_ca_rc_pointer_invalid">Invalid pointer</string>
+    <string name="st_ca_rc_card_invalid">Invalid card</string>
+    <string name="st_ca_rc_pin_invalid">Invalid PIN</string>
+    <string name="st_ca_rc_dataspace_small">Insufficient data space</string>
+    <string name="st_ca_rc_card_pairother">CI card has already pair to other Box</string>
+    <string name="st_ca_rc_data_not_find">Data not found</string>
+    <string name="st_ca_rc_prog_status_invalid">Program status invalid</string>
+    <string name="st_ca_rc_card_no_room">No space to store program</string>
+    <string name="st_ca_rc_worktime_invalid">Worktime invalid</string>
+    <string name="st_ca_rc_ippv_canntdel">IPPV can not delete</string>
+    <string name="st_ca_rc_card_nopair">CI card not paired</string>
+    <string name="st_ca_rc_watchrating_invalid">Invalid watch rating</string>
+    <string name="st_ca_rc_card_notsupport">Function not support</string>
+    <string name="st_ca_rc_data_error">Data error</string>
+    <string name="st_ca_rc_feedtime_not_arrive">Feed time not arrive</string>
+    <string name="st_ca_rc_card_typeerror">CI card type error</string>
+    <string name="st_ca_rc_cas_failed">CAS command failed</string>
+    <string name="st_ca_rc_oper_failed">Operator command failed</string>
+    <string name="st_ca_rc_pin_len">Pin code less than 6 digits</string>
+    <string name="st_ca_rc_diff_pin">Pin code do not accord</string>
+
+    <!-- For CA notify Type define -->
+    <string name="st_ca_message_cancel_type">Cancel the current display</string>
+    <string name="st_ca_message_badcard_type">Unrecognized Card</string>
+    <string name="st_ca_message_expicard_type">Smart card expired , replace the new card</string>
+    <string name="st_ca_message_insertcard_type">Scrambled program , insert the smart card</string>
+    <string name="st_ca_message_nooper_type">Card does not exist in the program operators</string>
+    <string name="st_ca_message_blackout_type">Conditions ban</string>
+    <string name="st_ca_message_outworktime_type">The current period is set to not watch</string>
+    <string name="st_ca_message_watchlevel_type">Watch the program level higher than the set level</string>
+    <string name="st_ca_message_pairing_type">Smart card and does not correspond to the present set-top box</string>
+    <string name="st_ca_message_noentitle_type">Not authorized</string>
+    <string name="st_ca_message_decryptfail_type">Program decryption failed</string>
+    <string name="st_ca_message_nomoney_type">Insufficient funds in the card</string>
+    <string name="st_ca_message_errregion_type">Incorrect area</string>
+    <string name="st_ca_message_needfeed_type">Main card and child card requires a corresponding , insert the main card</string>
+    <string name="st_ca_message_errcard_type">Smart card check fails , please contact your carrier</string>
+    <string name="st_ca_message_update_type">Smart card upgrade , do not power off or pull the card</string>
+    <string name="st_ca_message_lowcardver_type">Please upgrade smartcard</string>
+    <string name="st_ca_message_viewlock_type">Please do not often switch channels</string>
+    <string name="st_ca_message_maxrestart_type">Smart Card dormant , please reboot after 5 minutes</string>
+    <string name="st_ca_message_freeze_type">Smart cards have been frozen, please contact your carrier</string>
+    <string name="st_ca_message_callback_type">Smart card has been suspended , please return to the operator viewing records</string>
+    <string name="st_ca_message_curtain_type">Curtains program , can not be previewed stage</string>
+    <string name="st_ca_message_cardteststart_type">Upgrade test card test...</string>
+    <string name="st_ca_message_cardtestfaild_type">Upgrade test card test fails, check the machine card communication module</string>
+    <string name="st_ca_message_cardtestsucc_type">Upgrade test card test is successful</string>
+    <string name="st_ca_message_nocaliboper_type">Portable library card does not exist in custom operators</string>
+    <string name="st_ca_message_stblocked_type">Please restart the set-top box</string>
+    <string name="st_ca_message_stbfreeze_type">Set-top box is frozen</string>
+
+    <!-- For CA mode -->
+    <string name="email_theme">THEME</string>
+    <string name="email_time">TIME</string>
+    <string name="email_level">LEVEL</string>
+    <string name="email_state">STATE</string>
+    <string name="email_aid">[Red Key] DELETE [Green Key] DELETE ALL</string>
+    <string name="email_del">[Red Key] DELETE</string>
+    <string name="email_free_space">FREE SPACE:</string>
+    <string name="email_free_letter">LETTER</string>
+    <string name="email_important">IMPORTANT</string>
+    <string name="email_ordinary">ORDINARY</string>
+    <string name="email_read">READ</string>
+    <string name="email_unread">UNREAD</string>
+    <string name="email">EMAIL</string>
+    <string name="email_notify">NOTIFY</string>
+    <string name="really_remove_this_email">really remove this email?</string>
+    <string name="really_remove_all_email">really remove all email?</string>
+    <string name="ippv_freeviewed_segment">IPPV FREEVIEWED SEGMENT</string>
+    <string name="ippv_payviewed_segment">IPPV PAYVIEWED SEGMENT</string>
+    <string name="ippt_payviewed_segment">IPPT PAYVIEWED SEGMENT</string>
+    <string name="ippv_tvsid">TVS ID：</string>
+    <string name="ippv_payviewed_productid">PRODUCT ID：</string>
+    <string name="ippv_payviewed_slotid">SLOT ID：</string>
+    <string name="ippv_product_state">PRODUCT STATE：</string>
+    <string name="ippv_payviewed_expireddate">EXPIRED DATE：</string>
+    <string name="ippt_interval_min">INTERVAL MIN：</string>
+    <string name="ippv_payviewed_cantape">Price Cantape：</string>
+    <string name="ippv_payviewed_price">PRICE：</string>
+    <string name="ippv_payviewed_cannottape">Price Cannottape：</string>
+    <string name="ippv_pin">PIN：</string>
+    <string name="ippv_pin_ok">Success</string>
+    <string name="ippv_pointer_invalid">pointer invalid</string>
+    <string name="ippv_card_invalid">card invalid</string>
+    <string name="ippv_card_no_room">card no room</string>
+    <string name="ippv_prog_status_invalid">program status invalid</string>
+    <string name="ippv_pin_invalid">pin invalid</string>
+    <string name="ippv_data_not_find">data not find</string>
+    <string name="ippv_info_page">CURRENT PAGE/IPPV SUM：</string>
+    <string name="ippv_product_state_booking">BOOKING</string>
+    <string name="ippv_product_state_viewed">VIEWED</string>
+    <string name="ippv_can_tape">YES</string>
+    <string name="ippv_can_not_tape">NO</string>
+    <string name="str_ca_mg_child_or_parent_card">CARD：</string>
+    <string name="str_ca_mg_child_or_parent_card1">CARD</string>
+    <string name="str_ca_mg_child_card">child card</string>
+    <string name="str_ca_mg_parent_card">parent card</string>
+    <string name="str_ca_mg_parent_cardnum">PARENT CARDNUM：</string>
+    <string name="str_ca_mg_child_cardnum">CHILD_CARDNUM：</string>
+    <string name="str_ca_mg_delaytime">DELAYTIME：</string>
+    <string name="str_ca_mg_delaytime1">DELAYTIME</string>
+    <string name="str_ca_mg_lastfeedtime">LAST FEED TIME：</string>
+    <string name="str_ca_mg_lastfeedtime1">LAST FEED TIME</string>
+    <string name="str_ca_mg_ippv_program">IPPV PROGRAM</string>
+    <string name="str_ca_mg_card_info">CARD INFO</string>
+    <string name="really_remove_this_info">really remove this info?</string>
+    <string name="really_remove_all_info">really remove all info?</string>
+    <string name="is_update">Do you want to upgrade?</string>
+    <string name="update_loading">LOADING...</string>
+    <string name="installing">LOADING....</string>
+    <string name="update_complete_is_reboot">reboot the system ?</string>
+    <string name="update_failed">update failed</string>
+    <string name="please_insert_parent_card">please insert parent card</string>
+    <string name="please_insert_child_card">please insert child card</string>
+    <string name="read_feeddata_from_parent_failed">Read data failed</string>
+    <string name="feeddata_successed">SUCCESS</string>
+    <string name="feeddata_failed">FAIL</string>
+    <string name="delete_successed">DELETE SUCCESSED</string>
+    <string name="delete_failed">DELETE FAILED</string>
+    <string name="cdca_rc_ok">Current machine card corresponding</string>
+    <string name="cdca_rc_card_pairother">card pair other</string>
+    <string name="cdca_rc_card_nopair">card nopair</string>
+    <string name="cdca_rc_invalid">card invalid</string>
+    <string name="need_please_insert_child_card">please insert child card</string>
+    <string name="ippv_cdca_rc_ok">ok</string>
+    <string name="ippv_cdca_rc_data_not_find">data not find</string>
+    <string name="cdca_rc_pointer_invalid">pointer invalid</string>
+    <string name="clean_J2T_value">Clean the input time value</string>
+    <string name="str_stop_record_dialog_title">STOP RECORDING</string>
+    <string name="str_stop_record_dialog_message">System will stop record if user want to channel change</string>
+    <string name="str_stop_record_playback_dialog_message">System will stop record and playback if user want to channel change</string>
+    <string name="str_stop_record_dialog_confirm">Confirm</string>
+    <string name="str_stop_record_dialog_cancel">Cancel</string>
+    <string name="str_stop_record_dialog_stop">Stop</string>
+    <string name="str_stop_playback_dialog_title">STOP PLAYBACKING</string>
+    <string name="str_stop_playback_dialog_message">System will stop playback if user want to channel change</string>
+    <string name="str_disk_too_slow">Disk Speed is too low</string>
+    <string name="enter_old_pwd">Please enter old password</string>
+    <string name="enter_check_pwd">Please enter password</string>
+    <string name="enter_new_pwd">Please enter new password</string>
+    <string name="confirm_new_pwd">Please confirm new password</string>
+    <string name="block_program_title">Block Program</string>
+    <string name="str_mainmenu_menu">Menu</string>
+    <string name="str_root_alert_dialog_confirm">OK</string>
+    <string name="str_root_alert_dialog_cancel">Cancel</string>
+    <string name="str_ci_operator_list">CI Operator List</string>
+    <string name="str_exit_ci_operator_list">Exit CI Operator</string>
+
+    <!-- Item and title of "Rating Systems" option. In this option, after choosing a rating system,
+         a user selects the actual rating to be restricted. [CHAR LIMIT=30] -->
+    <string name="option_ratings">Ratings</string>
+    <!-- Title of the menu where the user can select sub-ratings settings. Sub-ratings can be added
+         to the basic rating to let parents know additional information about the TV program such as
+         drug, violence, nudity, sex and coarse language. [CHAR LIMIT=30] -->
+    <string name="option_subrating_title">%1$s and sub-ratings</string>
+    <!-- Header of the divider in the sub-ratings menu. Sub-ratings can be added to the basic rating
+         to let parents know additional information about the TV program such as drug, violence,
+         nudity, sex and coarse language. [CHAR LIMIT=30] -->
+    <string name="option_subrating_header">Sub-ratings</string>
+    <string name="option_reset_rrt5">Reset RRT5</string>
+    <string name="option_reset_rrt5_confirm">Are you sure to reset RRT5?</string>
+    <string name="other_countries">Other countries</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="weather_condition">
+        <item>龍捲風</item>
+        <item>熱帶風暴</item>
+        <item>暴風</item>
+        <item>大雷雨</item>
+        <item>雷陣雨</item>
+        <item>雨夾雪</item>
+        <item>雨夾雹</item>
+        <item>雪夾雹</item>
+        <item>凍霧雨</item>
+        <item>細雨</item>
+        <item>凍雨</item>
+        <item>陣雨</item>
+        <item>陣雨</item>
+        <item>陣雪</item>
+        <item>小陣雪</item>
+        <item>高吹雪</item>
+        <item>雪</item>
+        <item>冰雹</item>
+        <item>雨淞</item>
+        <item>粉塵</item>
+        <item>霧</item>
+        <item>薄霧</item>
+        <item>煙霧</item>
+        <item>大風</item>
+        <item>風</item>
+        <item>冷</item>
+        <item>陰</item>
+        <item>多雲</item>
+        <item>多雲</item>
+        <item>局部多雲</item>
+        <item>局部多雲</item>
+        <item>晴</item>
+        <item>晴</item>
+        <item>轉晴</item>
+        <item>轉晴</item>
+        <item>雨夾冰雹</item>
+        <item>熱</item>
+        <item>局部雷雨</item>
+        <item>偶有雷雨</item>
+        <item>偶有雷雨</item>
+        <item>偶有陣雨</item>
+        <item>大雪</item>
+        <item>零星陣雪</item>
+        <item>大雪</item>
+        <item>局部多雲</item>
+        <item>雷陣雨</item>
+        <item>陣雪</item>
+        <item>局部雷陣雨</item>
+    </string-array>
+         
+    <array name="appnames">
+       <item>Dropbox</item>
+<!--         <item>应用商店</item> -->
+        <item>应用列表</item>
+        <item>应用管理</item>         
+        <item>设置</item>
+        <item>浏览器</item> 
+        <item>Skype</item>
+        <item>YouTube</item>
+    </array>
+    
+    <string-array name="county">
+        <item>12577993#江西省</item>
+        <item>12577995#吉林省</item>
+        <item>12577996#青海省</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+        
+</resources>

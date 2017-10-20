@@ -1,0 +1,97 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.toptech.launcherkorea2"
+    android:versionCode="1"
+   android:sharedUserId="android.uid.system"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="17" />
+<!-- 
+    android:sharedUserId="android.uid.system" 
+    -->
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <application
+        android:name="com.toptech.launcherkorea2.LauncherApplication"
+        android:icon="@drawable/iconlogo"
+        android:label="@string/app_name" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name=".Launcher"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.MONKEY" />
+
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.toptech.launcherkorea2.dock.ApplicationActivity"
+            android:label="@string/applabel"
+             android:theme="@style/Theme">
+        </activity>
+
+        <service android:name="com.toptech.launcherkorea2.logic.MainService" >
+        </service>
+
+        <receiver android:name="com.toptech.launcherkorea2.weather.WeatherWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.biaoqi.network.connect" />
+                <action android:name="com.biaoqi.network.disconnect" />
+                <action android:name="com.android.settings.city_change" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.toptech.launcherkorea2.RemoveReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+         <activity android:name="Wallpaper"
+                android:label="Wallpaper"
+                android:icon="@drawable/iconlogo">
+            <intent-filter>
+                <action android:name="com.toptech.launcherkorea2.SETWALLPAPERSET" />
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="Test for my app"
+        android:targetPackage="com.toptech.launcherkorea2" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.mstar.permission.RW_TV_DATA" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.mstar.android.permissionn.ACCESS_TV_DATA" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

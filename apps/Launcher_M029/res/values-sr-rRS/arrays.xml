@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="weather_condition">
+	<item>Торнадо</item>
+	<item>Тропска олуја</item>
+	<item>Ураган</item>
+	<item>Озбиљне грмљавине</item>
+	<item>Олуја са грмљавином</item>
+	<item>Микед раин анд снов</item>
+	<item>Микед раин анд слеет</item>
+	<item>Мешан снијег и снијег</item>
+	<item>Замрзавање ромињати</item>
+	<item>Сипити</item>
+	<item>Ледена киша</item>
+	<item>Тушеви</item>
+	<item>Тушеви</item>
+	<item>Снијег</item>
+	<item>Слаб снег</item>
+	<item>Снег снега</item>
+	<item>Снег</item>
+	<item>Хаил</item>
+	<item>Слеет</item>
+	<item>Прашина</item>
+	<item>Магловито</item>
+	<item>Хазе</item>
+	<item>Смоки</item>
+	<item>Блустери</item>
+	<item>Ветровито</item>
+	<item>Хладно</item>
+	<item>Облачно</item>
+	<item>Претежно облачно</item>
+	<item>Претежно облачно</item>
+	<item>Делимично облачно</item>
+	<item>Делимично облачно</item>
+	<item>Јасно</item>
+	<item>Сунчан</item>
+	<item>Сајам</item>
+	<item>Сајам</item>
+	<item>Мјешовита киша и град</item>
+	<item>Вруће</item>
+	<item>Изоловане грмљавине</item>
+	<item>Претежно облачно</item>
+	<item>Претежно облачно</item>
+	<item>Разбацани тушеви</item>
+	<item>Мећава</item>
+	<item>Слаб снег</item>
+	<item>Мећава</item>
+	<item>Делимично облачно</item>
+	<item>Субјективни осећај:</item>
+	<item>Снов сховерс</item>
+	<item>Исолатед сховерс</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>Дропбок</item>
+		<item>Продавница апликација</item>
+				  
+		<item>Библиотека апликација</item>
+		<item>Апп Манагер</item>
+		<item>Подешавања</item>
+		<item>Прегледач</item>
+		<item>Скипе</item>
+		<item>ИоуТубе</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910 # Сеул</item>
+		<item>2345969 # Гиеонгги-до</item>
+		<item>28816906 # Инцхеон</item>
+		<item>2345966 # Гангвон-до</item>
+		<item>2345967 # Гиеонгсангнам-до</item>
+		<item>2345970 # Гиеонгсангбук-до</item>
+		<item>28816908 # Гвангју</item>
+		<item>28816909 # Даегу</item>
+		<item>28816902 # Даејеон</item>
+		<item>28816913 # Бусан</item>
+		<item>28828129 # Сејонг</item>
+		<item>28816901 # Улсан</item>
+		<item>2345972 # Јеолланам-до</item>
+		<item>2345964 # Јеоллабук-до</item>
+		<item>28834807 # Јејудо</item>
+		<item>2345973 # Цхунгцхеонгнам-до</item>
+		<item>2345965 # Цхунгцхеонгбук-до</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>Јан</item>
+		<item>Феб.</item>
+		<item>Март</item>
+		<item>Април</item>
+		<item>Може</item>
+		<item>Јун</item>
+		<item>Јули</item>
+		<item>Авг</item>
+		<item>Сеп</item>
+		<item>Окт</item>
+		<item>Нема в</item>
+		<item>Дец</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>Сунце</item>
+		<item>Пон</item>
+		<item>Уто</item>
+		<item>Сре</item>
+		<item>Чет</item>
+		<item>Пет</item>
+		<item>Сат</item>
+    </string-array>
+
+</resources>

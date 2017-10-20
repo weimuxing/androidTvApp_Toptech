@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filename_filter">
+
+        <!--
+        1.MP3、WMA、AAC、OGG、PCM、M4A、AC3、WAV、RM、CD、AMR、MP2、APE、DTS、DD+
+
+        2.Sony ATRAC3、Dobly HD、FLAC、MPA//1.MPEG1/2 Layer1/2  2.LPCM/ADPCM;MP3;Dolby(AC-3)
+
+        3.DD+
+
+        4.AAC;HE-AAC;WMA7/8/9
+
+        5.DTS;Dolby HD(True HD)//.mp3, .mp2, .asf, .wav, .wma, .ra
+
+
+        -->
+        <item>.mp3</item>
+        <item>.wma</item>
+        <item>.aac</item>
+        <item>.ogg</item>
+        <item>.pcm</item>
+        <item>.m4a</item>
+        <item>.ac3</item>
+        <item>.ec3</item>
+        <item>.dtshd</item>
+        <item>.wav</item>
+        <item>.rm</item>
+        <item>.ra</item>
+        <item>.cd</item>
+        <item>.amr</item>
+        <item>.mp2</item>
+        <item>.dts</item>
+        <item>.flac</item>
+        <item>.midi</item>
+        <item>.snd</item>
+        <item>.vqf</item>
+        <item>.aiff</item>
+        <item>.cda</item>
+        <!--
+        1.MPEG2、MPEG4、RM、RMVB、MOV、WMV9、3GP、MKV、AVI、ASF、TS、TP、MPEG-PS、VOB、M2TS、M2V、OGG、FLV
+
+        2.DIVX6.x、MSVC/CRAM、MP42 GMC、IV32、RLE、cvid、RV20//MPEG1/2/4、H.264、VC1、RM/RMVB、Xvid、VP6、VP8、
+
+          Flash10.1//VP6/VP8/MVC/VC1/Divx3/4/5/6 /Xvid HD /FLASH7/8/9(.flv) /FLASH7/8/9(.Swf) AVS HD MPEG-2 MPEG-4 H.264
+
+          RM/RMVB//.avi、.asf、.wmv、.m2t、.ts、.mpg、.m2p、.mp4、.flv、.swf、.vob、.mkv、.divx、.xvid、.mov、.rmvb、.rv、.3gp
+
+
+        -->
+        <item>.avi</item>
+        <item>.asf</item>
+        <item>.wmv</item>
+        <item>.m2t</item>
+        <item>.mts</item>
+        <item>.ts</item>
+        <item>.mpg</item>
+        <item>.m2p</item>
+        <item>.mp4</item>
+        <item>.flv</item>
+        <item>.swf</item>
+        <item>.vob</item>
+        <item>.mkv</item>
+        <item>.divx</item>
+        <item>.xvid</item>
+        <item>.mov</item>
+        <item>.rmvb</item>
+        <item>.rv</item>
+        <item>.3gp</item>
+        <item>.dat</item>
+        <item>.pmp</item>
+        <item>.tp</item>
+        <!--
+        1.JPG、JPEG、PNG、BMP、GIF、TIFF
+
+        2.pcx, tga, exif, fpx, svg, psd, cdr, pcd, dxf, ufo, eps, ai,
+
+          raw//yes(<=17M,<=7680*4320//JPG/BMP/PNG/GIF/TIFF/DNG（hardware jpeg）//.jpg, .png, .bmp, .gif
+
+
+        -->
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.png</item>
+        <item>.bmp</item>
+        <item>.gif</item>
+        <item>.tiff</item>
+        <!-- <item>.pcx</item> -->
+        <item>.tga</item>
+        <item>.exif</item>
+        <item>.fpx</item>
+        <item>.svg</item>
+        <item>.psd</item>
+        <item>.cdr</item>
+        <item>.pcd</item>
+        <item>.dxf</item>
+        <item>.ufo</item>
+        <item>.eps</item>
+        <item>.raw</item>
+        <item>.mpo</item>
+        <!-- other 1. .iso -->
+        <item>.iso</item>
+        <item>.ssif</item>
+    </string-array>
+    <string-array name="audio_filter">
+        <item>.mp3</item>
+        <item>.wma</item>
+        <item>.aac</item>
+        <item>.ogg</item>
+        <item>.pcm</item>
+        <item>.m4a</item>
+        <item>.ac3</item>
+        <item>.ec3</item>
+        <item>.dtshd</item>
+        <item>.ra</item>
+        <item>.wav</item>
+        <item>.cd</item>
+        <item>.amr</item>
+        <item>.mp2</item>
+        <item>.ape</item>
+        <item>.dts</item>
+        <item>.flac</item>
+        <item>.midi</item>
+        <item>.mid</item>
+    </string-array>
+    <string-array name="video_filter">
+        <item>.avi</item>
+        <item>.asf</item>
+        <item>.wmv</item>
+        <item>.m2t</item>
+        <item>.mts</item>
+        <item>.ts</item>
+        <item>.mpg</item>
+        <item>.m2p</item>
+        <item>.mp4</item>
+        <item>.flv</item>
+        <item>.swf</item>
+        <item>.vob</item>
+        <item>.mkv</item>
+        <item>.divx</item>
+        <item>.xvid</item>
+        <item>.mov</item>
+        <item>.rmvb</item>
+        <item>.rv</item>
+        <item>.3gp</item>
+        <item>.3g2</item>
+        <item>.dat</item>
+        <item>.pmp</item>
+        <item>.tp</item>
+        <item>.trp</item>
+        <item>.rm</item>
+        <item>.webm</item>
+        <item>.m2ts</item>
+        <item>.ssif</item>
+        <item>.mpeg</item>
+        <item>.mpe</item>
+        <item>.m3u8</item>
+        <item>.iso</item>
+        <item>.bdmv</item>
+        <item>.m4v</item>
+        <item>.m2v</item>
+        <item>.mka</item>
+    </string-array>
+    <string-array name="photo_filter">
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.png</item>
+        <item>.bmp</item>
+        <item>.gif</item>
+        <item>.tiff</item>
+        <!--  <item>.tif</item> -->
+        <!--   <item>.pcx</item> -->
+        <item>.tga</item>
+        <item>.exif</item>
+        <item>.fpx</item>
+        <item>.svg</item>
+        <item>.psd</item>
+        <item>.cdr</item>
+        <item>.pcd</item>
+        <item>.dxf</item>
+        <item>.ufo</item>
+        <item>.eps</item>
+        <item>.raw</item>
+        <item>.mpo</item>
+        <!-- <item>tif</item>> -->
+    </string-array>
+    <string-array name="playlist_filter">
+        <item>.mplt</item>
+        <item>.mstarplaylist</item>
+    </string-array>
+    <string-array name="install_filter">
+        <item>.apk</item>
+    </string-array>
+    <array name="package_filter">
+        <item>.jar</item>
+        <item>.zip</item>
+        <item>.rar</item>
+        <item>.gz</item>
+    </array>
+    <array name="text_filter">
+        <item>.txt</item>
+        <item>.htm</item>
+        <item>.html</item>
+        <item>.php</item>
+        <item>.css</item>
+        <item>.xml</item>
+        <item>.js</item>
+    </array>
+
+    <string-array name="video_rotate_degrees">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+
+</resources>

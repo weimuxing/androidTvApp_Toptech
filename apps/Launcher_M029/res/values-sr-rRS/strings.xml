@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Покретач</string>
+
+	<string name="application_num">Број инсталираних апликација:</string>
+
+	<string name="temp_unit_c">℃</string>
+	<string name="temp_unit_f">℉</string>
+
+	<string name="loading">Учитавање ...</string>
+	<string name="instruction_loading">Молим те, учитај .....</string>
+
+	<string name="weather_location">Изаберите временски град</string>
+	<string name="applabel">Апликација</string>
+
+	<string name="errornetwork">Мрежни пропуст!</string>
+	<string name="load_error">Неуспело преношење података!</string>
+
+
+	<string name="day_of_candar">Тх</string>
+
+	<string name="add_app_title">Изаберите свој омиљени АППС</string>
+	<string name="tips">МОЈЕ АПЛИКАЦИЈЕ</string>
+	<string name="savemsg">      Сачувај измене?</string>
+	<string name="delmsg">Да ли желите да делите пречицу?</string>
+	<string name="min_apk_num">Потребно је најмање један АПК!</string>
+	<string name="ok">да</string>
+	<string name="cancle">Не</string>
+	<string name="all_check_title">Сви су проверени</string>
+	<string name="rev_check_title">Повратна провера</string>
+	<string name="month">М</string>
+	<string name="pick_wallpaper">Изаберите позадину</string>
+	<string name="chooser_wallpaper">Изаберите позадину</string>
+	<string name="activity_not_found">Активност није пронађена</string>
+	<string name="url_select">Изабери УРЛ</string>
+	<string name="wallpaper_instructions">Упутства за позадину</string>
+	<string name="wallpaper">Валлпапер</string>
+	<string name="wallpaper_set">Валлпапер успешно постављен!</string>
+
+
+	<string name="contentdes">Имг</string>
+	<string name="city001">СхенЗхен</string>
+	<string name="gallery_info">Убаците усб фласх диск или не можете идентификовати слике</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bbg_image_left"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:screenOrientation="portrait" >
+
+    <RelativeLayout
+        android:id="@+id/bbg_rootLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal" >
+
+        <!--
+             	<com.jrm.localmm.ui.photo.ImageViewTouch
+				android:id="@+id/image"
+				android:focusableInTouchMode="true"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" >
+			</com.jrm.localmm.ui.photo.ImageViewTouch>
+        -->
+
+        <com.jrm.localmm.ui.photo.ScrollableViewGroup
+            android:id="@+id/ViewFlipper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/PlayControlPanel"
+            android:layout_below="@+id/ViewIndication"
+            android:layout_toRightOf="@+id/CoverView0123" >
+
+            <include
+                android:id="@+id/imageView"
+                layout="@layout/imageviewtouch" />
+
+            <include
+                android:id="@+id/surfaceView"
+                layout="@layout/imagesurfaceview" />
+
+            <include
+                android:id="@+id/surfaceView4k2k"
+                layout="@layout/surfaceview4k2k" />
+            
+            <include
+                android:id="@+id/gifViewLayout"
+                layout="@layout/gifview" />
+        </com.jrm.localmm.ui.photo.ScrollableViewGroup>
+    </RelativeLayout>
+    <ImageView android:id="@+id/im_photo_player_pause"
+         android:layout_gravity="top|left"
+         android:layout_height="50dip"
+         android:layout_width="50dip"
+         android:visibility="invisible"
+         android:background="@drawable/player_icon_pause_focus"
+         />
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/photo_player_control" />
+    </LinearLayout>
+
+</FrameLayout>

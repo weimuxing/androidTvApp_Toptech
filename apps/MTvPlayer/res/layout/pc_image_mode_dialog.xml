@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+   style="@style/pic_mode_sty_menu"      >
+
+      <TextView android:text="@string/str_pic_pcimagemode" style="@style/title_style"  ></TextView> 
+
+    	 <!-- For Clock -->
+
+		 <LinearLayout android:id="@+id/linearlayout_pic_clock" style="@style/pic_mode_sty_seekbar_btn">
+
+				<TextView style="@style/pic_mode_sty_seekbar_name"  android:text="@string/str_pic_clock"/>
+
+				<TextView  style="@style/pic_mode_sty_seekbar_indicator" />	
+
+				<SeekBar style="@style/pic_mode_sty_bar"
+				    android:visibility="visible" />
+
+		</LinearLayout>
+
+		<!-- For Phase -->
+
+		 <LinearLayout android:id="@+id/linearlayout_pic_phase" style="@style/pic_mode_sty_seekbar_btn">
+
+				<TextView style="@style/pic_mode_sty_seekbar_name"  android:text="@string/str_pic_phase"/>
+
+				<TextView  style="@style/pic_mode_sty_seekbar_indicator" />	
+
+				<SeekBar style="@style/pic_mode_sty_bar" /> 	   											
+
+		</LinearLayout>
+
+		<!-- For  Horizontal position-->
+
+		 <LinearLayout android:id="@+id/linearlayout_pic_horizontalpos" style="@style/pic_mode_sty_seekbar_btn">
+
+				<TextView style="@style/pic_mode_sty_seekbar_name" android:text="@string/str_pic_horizontal_pos" />
+
+				<TextView  style="@style/pic_mode_sty_seekbar_indicator" />	
+
+				<SeekBar style="@style/pic_mode_sty_bar" /> 	   											
+
+		</LinearLayout>
+
+		<!-- For  Vertical position-->
+
+		 <LinearLayout android:id="@+id/linearlayout_pic_verticalpos" style="@style/pic_mode_sty_seekbar_btn">
+
+				<TextView style="@style/pic_mode_sty_seekbar_name"  android:text="@string/str_pic_vertical_pos"/>
+
+				<TextView  style="@style/pic_mode_sty_seekbar_indicator" />	
+
+				<SeekBar style="@style/pic_mode_sty_bar" /> 	   											
+
+		</LinearLayout>
+
+		
+
+		<!-- PC Image Mode Back-->
+
+		<LinearLayout android:id="@+id/linearlayout_pic_pcimagemodeback" style="@style/button_style">			
+
+		 		<TextView android:text="@string/str_pic_autotune" style="@style/button_textview_style"/>											
+
+		</LinearLayout>
+
+</LinearLayout>
+

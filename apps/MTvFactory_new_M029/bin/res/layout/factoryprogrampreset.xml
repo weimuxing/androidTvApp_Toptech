@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dip"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_factory_otheroption_factoryprogrampresetfunction"
+            android:textColor="#ffffff"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- For Factory Program ATV/DTV Preset -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_factoryprogrampreset"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@+id/linearlayout_factory_otheroption_restoredbfromusb"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_factoryprogrampreset"
+                    android:layout_width="160dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_factoryprogrampreset"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_factoryprogrampreset_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_factoryprogrampreset_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Factory Program ATV/DTV Preset -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_factoryprogrampreset_atv_dtv"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/button_atv_preset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dip"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="@string/str_factory_otheroption_factoryprogrampreset_atv"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <Button
+                    android:id="@+id/button_dtv_preset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dip"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="@string/str_factory_otheroption_factoryprogrampreset_dtv"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+
+            <!-- For Factory Program Reset -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_factoryprogramreset"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_factoryprogramreset"
+                    android:layout_width="160dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_factoryprogramreset"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_factoryprogramreset_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_factoryprogrampreset_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Backup DB to USB -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_backupdbtousb"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_backupdbtousb"
+                    android:layout_width="160dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_backupdbtousb"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_backupdbtousb_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_factoryprogrampreset_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- For Restore DB from USB -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_otheroption_restoredbfromusb"
+                android:layout_width="fill_parent"
+                android:layout_height="33dip"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusDown="@+id/linearlayout_factory_otheroption_factoryprogrampreset"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_restoredbfromusb"
+                    android:layout_width="160dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_restoredbfromusb"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+
+                <TextView
+                    android:id="@+id/textview_factory_otheroption_restoredbfromusb_val"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_factory_otheroption_factoryprogrampreset_state"
+                    android:textColor="#ffffff"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            <!-- end -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

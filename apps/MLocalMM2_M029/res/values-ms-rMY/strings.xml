@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <string name="app_name">UI-LocalMM</string>
+
+    <string name="back">kembali</string>
+
+    <string name="folder">folder</string>
+
+    <string name="rootDirectory">/mnt/usb</string>
+
+    <string name="sambarootDirectory">/mnt/samba</string>
+
+    <string name="unsupport_format">Format ini tidak boleh memainkan</string>
+
+    <string name="exit_ok">ok</string>
+
+    <string name="exit_cancel">membatalkan</string>
+
+    <string name="current_time">masa semasa :</string>
+
+    <string name="total_duration">jumlah masa:</string>
+
+    <string name="choice">pilihan</string>
+
+    <string name="confirm">mengesahkan</string>
+
+    <string name="exit_title">keluar</string>
+
+    <string name="exit_confirm">mengesahkan memadam?</string>
+
+    <string name="the_first_file">Fail yang pertama!</string>
+
+    <string name="the_last_file">Fail yang terakhir!</string>
+
+    <string name="net_disconnect">Bersih adalah mencabut, sila semak!</string>
+
+    <string name="display_pip">memaparkan PIP</string>
+
+    <string name="hide_pip">menyembunyikan PIP</string>
+
+    <string name="pre_channel">Channel sebelumnya</string>
+
+    <string name="next_channel">Channel seterusnya</string>
+
+
+
+    <!-- ####################文件浏览模块资源定义区#################### -->
+
+    <string name="picture">gambar</string>
+
+    <string name="song">lagu</string>
+
+    <string name="video">video</string>
+
+    <string name="samba">Samba</string>
+
+    <string name="dlna">DLNA</string>
+
+    <string name="other">lain</string>
+
+    <string name="all">semua</string>
+
+    <string name="page_up">halaman sehingga</string>
+
+    <string name="page_down">muka surat bawah</string>
+
+    <string name="slash">/</string>
+
+
+
+    <!-- 加载进度提示信息定义区 -->
+
+    <string name="loading_top">Loading Page Top, Sila Tunggu</string>
+
+    <string name="loading_usb_device">Memuatkan peranti USB</string>
+
+    <string name="loading_local_resource">Memuatkan Sumber Tempatan, Sila Tunggu</string>
+
+    <string name="loading_dlna_device">Memuatkan Peranti DLNA, Sila Tunggu</string>
+
+    <string name="loading_dlna_resource">Memuatkan Sumber DLNA, Sila Tunggu</string>
+
+    <string name="miss_dlna_device">Memuatkan Sumber DLNA Gagal</string>
+
+    <string name="loading_samba_device">Loading Device Samba, Sila Tunggu</string>
+
+    <string name="loading_samba_resource">Memuat Samba Sumber, Sila Tunggu</string>
+
+    <string name="miss_samba_device">Beban Samba Sumber Gagal</string>
+
+    <string name="is_scanning_disc">Ia akan mengimbas cakera!</string>
+
+    <string name="login_wrong_password">Kata Laluan yang salah</string>
+
+    <string name="login_failed">Gagal Untuk Masuk Samba</string>
+
+    <string name="login_other_failed">Masuk Samba Pengecualian</string>
+
+    <string name="login_title">Masuk</string>
+
+    <string name="network_connect_failed">Sambungkan Untuk Alat Gagal, tidak Bolehkah Kongsi Sumber Rangkaian</string>
+
+    <string name="network_unconnected">Rangkaian tidak berkaitan, Sila Semak dan cuba lagi
+
+	</string>
+
+    <string name="login_samba">Masuk Samba, Sila Tunggu</string>
+
+    <string name="logging_out_samba">Logouting Samba, Sila Tunggu</string>
+
+    <string name="login_success">Login yang berjaya Samba</string>
+
+    <string name="mount_failed">Gunung Samba Gagal</string>
+
+
+
+    <string-array name="data_source">
+
+        <item>cakera peranti tempatan</item>
+
+        <item>rangkaian Samba peranti</item>
+
+        <!--<item>rangkaian DLNA peranti</item>-->
+    </string-array>
+
+
+
+    <!-- ####################媒体播放器资源定义区#################### -->
+
+    <!-- 图片播放模块资源定义区 -->
+
+    <string name="file_name">Nama fail:</string>
+
+    <string name="photo_info">info foto</string>
+
+    <string name="file_create_time">Cipta Masa:</string>
+
+    <string name="file_size">saiz fail:</string>
+
+    <string name="file_format">format fail:</string>
+
+    <string name="display_img_name">nama gambar paparan</string>
+
+    <string name="disk_eject">cakera lenting</string>
+
+    <string name="photo_3D_toast">tidak beroperasi dalam mod 3D</string>
+
+    <string name="photo_set_wallpaper">foto kertas dinding</string>
+
+    <string name="first_photo">foto 1!</string>
+
+    <string name="last_photo">foto terakhir!</string>
+
+    <string name="can_not_decode">Foto adalah terlalu besar untuk dianalisis!</string>
+
+    <string name="current_pic">Gambar semasa adalah:</string>
+
+    <string name="is_setting_wallpaper">Ia menetapkan wallpaper, sila tunggu ...</string>
+
+    <string name="picture_can_not_decode">Gambar ini tidak boleh nyahkod!</string>
+
+    <string name="picture_decoding">gambar adalah menyahkod ...</string>
+
+
+
+    <!-- 音乐播放模块资源定义区 -->
+
+    <string name="music_info">info muzik</string>
+
+    <string name="file_duration">tempoh fail:</string>
+
+    <string name="music_default_time">00:00</string>
+
+    <string name="Artist_name">nama artis:</string>
+
+    <string name="file_path">path file:</string>
+
+    <string name="none_lyrics_find">Tidak mencari lyrics!</string>
+
+    <string name="unknown">tidak diketahui</string>
+
+    <string name="singer">penyanyi:</string>
+
+    <string name="current_song">Lagu semasa:</string>
+
+    <string name="exit_music_play">Menentukan muzik dimainkan?</string>
+
+    <string name="alert">Isyarat</string>
+
+
+
+    <!-- 视频播放模块资源定义区 -->
+
+    <string name="no_video_track">Tiada video trek</string>
+
+    <string name="audio_codec">codec audio</string>
+
+    <string name="video_codec">codec video</string>
+
+    <string name="duration">duration:</string>
+
+    <string name="default_time">--:--:--</string>
+
+	<string name="video_default_time">00:00:00</string>
+
+	<string name="choose_time_0">0</string>
+
+	<string name="choose_time_colon">:</string>
+
+    <string name="programe_info">pinfo program</string>
+
+    <string name="show_info">menunjukkan maklumat </string>
+
+    <string name="buffering">buffer...</string>
+
+    <string name="playing">bermain</string>
+
+    <string name="video_subtitle">video sarikata</string>
+
+    <string name="video_track">trek video</string>
+
+    <string name="video_channel">saluran video</string>
+
+    <string name="video_media_full_resize">video saiz semula penuh</string>
+
+    <string name="video_media_default">Saiz video lalai</string>
+
+    <string name="video_media_full">video full size</string>
+
+    <string name="video_media_error_unknown">video media kesilapan yang tidak diketahui</string>
+
+    <string name="video_media_error_malformed">video media kesilapan cacat</string>
+
+    <string name="video_media_error_io">video media kesilapan io</string>
+
+    <string name="video_media_error_unsupported">video media kesilapan yang tidak disokong</string>
+
+    <string name="video_media_error_format_unsupport">video media ralat format yang tidak disokong</string>
+
+    <string name="video_media_error_not_connected">video kesilapan media tidak disambung</string>
+
+    <string name="video_media_error_audio_unsupport">video media audio kesilapan yang tidak disokong</string>
+
+    <string name="video_media_error_video_unsupport">video media ralat video tidak disokong</string>
+
+    <string name="video_media_error_no_license">video kesilapan media tiada lesen</string>
+
+    <string name="video_media_error_license_expired">video media kesilapan lesen Expired</string>
+
+    <string name="video_media_other_error_unknown">ralat tidak diketahui yang lain</string>
+
+    <string name="video_media_error_not_valid">video kesilapan media tidak sah</string>
+
+    <string name="video_media_error_server_died">media pelayan meninggal dunia</string>
+
+    <string name="video_media_infor_no_index">video indeks tidak, ia tidak seeked</string>
+
+    <string name="video_media_infor_no_index_ab">video indeks tidak, ia tidak menetapkan AB</string>
+
+    <string name="subtitle_type">jenis sarikata</string>
+
+    <string name="subtitle_out_path">sarikata keluar jalan</string>
+
+    <string name="subtitle_in_no">sarikata dalam Bil</string>
+
+    <string name="subtitle_language">sarikata bahasa</string>
+
+    <string name="subtitle_color">sari warna</string>
+
+    <string name="subtitle_font">subtitle font</string>
+
+    <string name="subtitle_font_size">subtitle font size</string>
+
+    <string name="subtitle_frame">sarikata bingkai</string>
+
+    <string name="subtitle_area">kawasan sarikata</string>
+
+    <string name="subtitle_adjust">sarikata Laraskan</string>
+
+    <string name="subtitleList">Senarai sarikata</string>
+
+    <string name="playList">Playlist</string>
+
+    <string name="subtitle_setting">Penetapan sarikata</string>
+
+    <string name="a_b_section_repeat">A-B berulang seksyen</string>
+
+    <string name="section_replay">ulangan seksyen</string>
+
+    <string name="set_begin_a">Tetapkan titik permulaan A</string>
+
+    <string name="set_begin_b">Tetapkan titik permulaan B</string>
+
+    <string name="audio_track_count">menjejaki mengira</string>
+
+    <string name="audio_track_number">mengesan nombor</string>
+
+    <string name="audio_track_duration">mengesan tempoh</string>
+
+    <string name="audio_track_language">menjejaki bahasa</string>
+
+    <string name="audio_track_setting">menjejaki tetapan</string>
+
+    <string name="point_a">kedudukan Titik A</string>
+
+    <string name="point_b">Kedudukan titik B</string>
+
+    <string name="one_times_speed">1 kali kelajuan</string>
+
+    <string name="x_times_speed">kali kelajuan</string>
+
+    <string name="playing_settings">bermain tetapan</string>
+
+    <string name="open_ab_repeat">buka A-B berulang</string>
+
+    <string name="set_point_a_first">menetapkan titik pertama</string>
+
+
+
+    <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+
+    <string name="subtitle_0_value_1">menunjukkan sarikata luar</string>
+
+    <string name="subtitle_0_value_2">menunjukkan sarikata dalam</string>
+
+    <string name="subtitle_1_value_1">memilih jalan</string>
+
+    <string name="subtitle_1_value_2">tiada sarikata luar</string>
+
+    <string name="subtitle_2_value_1">tiada</string>
+
+    <string name="subtitle_2_value_2">sarikata </string>
+
+    <string name="subtitle_3_value_1">tidak diketahui</string>
+
+    <string name="subtitle_3_value_2">tiada</string>
+
+    <string name="subtitle_4_value_1">songti</string>
+
+    <string name="subtitle_4_value_2">xingxu</string>
+
+    <string name="subtitle_4_value_3">kaiti</string>
+
+    <string name="subtitle_5_value_1">besar</string>
+
+    <string name="subtitle_5_value_2">pertengahan</string>
+
+    <string name="subtitle_5_value_3">kecil</string>
+
+    <string name="subtitle_6_value_1">putih</string>
+
+    <string name="subtitle_6_value_2">hitam</string>
+
+    <string name="subtitle_6_value_3">biru</string>
+
+    <string name="subtitle_7_value_1">tiada</string>
+
+    <string name="subtitle_7_value_2">ya</string>
+
+    <string name="subtitle_8_value_1">bawah</string>
+
+    <string name="subtitle_8_value_2">atas</string>
+
+    <string name="subtitle_9_value">0 ms</string>
+
+
+
+    <string-array name="subtitle_setting_opt">
+
+        <item>menunjukkan sarikata luar</item>
+
+        <item>memilih jalan</item>
+
+        <item>tiada</item>
+
+        <item>tidak diketahui</item>
+
+        <item>songti</item>
+
+        <item>pertengahan</item>
+
+        <item>putih</item>
+
+        <item>tiada</item>
+
+        <item>bawah</item>
+
+        <item>0 ms</item>
+
+    </string-array>
+
+
+
+    <string name="subtitle_change_msg">sarikata luar, sila ubah ke dalam!</string>
+
+    <string name="subtitle_change_path">sarikata dalam, sila bertukar ke luar!</string>
+
+    <string name="choose_time_failed">tidak boleh lokasi!!</string>
+
+    <string name="choose_time_invalid">masa tidak sah, sila cuba lagi!</string>
+
+
+
+    <string-array name="play_setting_opt">
+
+        <item>membuka</item>
+
+        <item></item>
+
+    </string-array>
+
+
+
+    <string name="play_setting_0_value_1">membuka</string>
+
+    <string name="play_setting_0_value_2">menutup</string>
+
+    <string name="video_size_unknown">tidak diketahui</string>
+
+
+
+    <string-array name="audio_track_setting_opt">
+
+        <item>trek audio1</item>
+
+        <item>1</item>
+
+        <item>00:00:00</item>
+
+        <item>tidak diketahui</item>
+
+    </string-array>
+
+
+
+    <string name="audio_track_setting_0_value_1">trek audio</string>
+
+	<!-- add by fangcuihong,20160718 -->
+    <string name="toast_scale">skala: %.1f</string>
+    <string name="toast_rotate">Putar: %.1f</string>
+
+    <!-- end -->
+
+</resources>

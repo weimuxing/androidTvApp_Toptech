@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pq_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="33dip"
+    android:background="@drawable/button_state"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp" >
+    <TextView
+        android:id="@+id/pq_item_display_text"
+        android:layout_width="133dip"
+        android:layout_height="fill_parent"
+        android:gravity="left|center_vertical"
+        android:text="@string/str_textview_factory_pq_pqselect_ihc"
+        android:textColor="#ffffff"
+        android:focusable="false"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/pq_item_value_text"
+        android:layout_width="133dip"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/str_textview_factory_pq_pqselect_ihcval"
+        android:textColor="#ffffff"
+        android:focusable="false"
+        android:textSize="13sp" />
+</LinearLayout>

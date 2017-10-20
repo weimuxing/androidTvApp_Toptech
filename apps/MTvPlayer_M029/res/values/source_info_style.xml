@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+
+<style name ="source_info_bg_style">
+
+
+<item name="android:layout_width">@dimen/y293</item>
+
+
+<item name="android:layout_height">@dimen/x71</item>
+
+
+<item name="android:layout_marginLeft">@dimen/y133</item>
+
+
+<item name="android:layout_marginTop">@dimen/x27</item>
+
+
+</style>
+
+
+<style name ="source_info_idle_img_press_ststus_bg_l_style">
+
+
+<item name="android:layout_width">@dimen/y13</item>
+
+
+<item name="android:layout_height">@dimen/x71</item>
+
+
+<item name="android:background">@drawable/idle_img_press_ststus_bg_l</item>
+
+
+</style>
+
+
+<style name ="source_info_idle_img_press_ststus_bg_m_style">
+
+
+<item name="android:layout_width">@dimen/y267</item>
+
+
+<item name="android:layout_height">@dimen/x71</item>
+
+
+<item name="android:background">@drawable/idle_img_press_ststus_bg_m</item>
+
+
+</style>
+
+
+<style name ="source_info_idle_img_press_ststus_bg_r_style">
+
+
+<item name="android:layout_width">@dimen/y13</item>
+
+
+<item name="android:layout_height">@dimen/x71</item>
+
+
+<item name="android:background">@drawable/idle_img_press_ststus_bg_r</item>
+
+
+</style>
+
+
+
+
+
+
+
+
+<style name ="source_info_sound_logo_style">
+
+
+<item name="android:layout_width">@dimen/y60</item>
+
+
+<item name="android:layout_height">@dimen/x60</item>
+
+
+<item name="android:layout_marginTop">@dimen/x5</item>
+
+
+</style>
+
+
+
+
+
+
+
+
+<style name ="source_info_idle_img_press_ststus_separator_style">
+
+
+<item name="android:layout_width">@dimen/y4</item>
+
+
+<item name="android:layout_height">@dimen/x60</item>
+
+
+<item name="android:layout_marginTop">@dimen/x5</item>
+
+
+<item name="android:layout_marginLeft">@dimen/y11</item>
+
+
+<item name="android:src">@drawable/idle_img_press_ststus_separator</item>
+
+
+</style>
+
+
+<style name ="source_info_text_view_layout_style">
+
+
+<item name="android:layout_width">@dimen/y183</item>
+
+
+<item name="android:layout_height">@dimen/x68</item>
+
+
+<item name="android:layout_marginTop">@dimen/x3</item>
+
+
+<item name="android:layout_marginLeft">@dimen/y9</item>
+
+
+<item name="android:orientation">vertical</item>
+
+
+</style>
+
+
+<style name ="source_info_text_view_style">
+
+
+<item name="android:layout_width">@dimen/y141</item>
+
+
+<item name="android:gravity">left</item>
+
+
+<item name="android:textSize">@dimen/x24</item>
+
+
+<item name="android:textColor">#ffffff</item>
+
+
+<item name="android:layout_height">@dimen/x27</item>
+
+
+</style>
+
+
+<style name ="source_info_text_view_indicator_normal_style">
+
+
+<item name="android:layout_width">@dimen/y183</item>
+
+
+<item name="android:gravity">center|left</item>
+
+<item name="android:textColor">#ffffff</item>
+
+
+<item name="android:layout_height">@dimen/x36</item>
+
+
+</style>	
+
+
+	<style name ="source_info_text_view_indicator_style">
+
+
+		<item name="android:layout_width">@dimen/y187</item>
+
+
+		<item name="android:gravity">center_vertical</item>
+
+
+		<item name="android:textSize">@dimen/x17</item>
+
+
+		<item name="android:textColor">#ffffff</item>
+
+
+		<item name="android:layout_height">@dimen/x33</item>
+
+
+	</style>
+
+
+</resources>
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="more_setting_listview_icon">
+        <item>setting_icon_personalized</item>
+        <item>setting_icon_image</item>
+        <item>setting_icon_voice</item>
+        <item>setting_icon_channel</item>
+        <item>setting_icon_network</item>
+        <item>setting_icon_system</item>
+    </array>
+     <string-array name="more_setting_listview_icon_focus">
+        <item>setting_icon_personalized_focus</item>
+        <item>setting_icon_image_focus</item>
+        <item>setting_icon_voice_focus</item>
+        <item>setting_icon_channel_focus</item>
+        <item>setting_icon_network_focus</item>
+        <item>setting_icon_system_focus</item>
+    </string-array>
+    
+        <!-- setting listview  -->
+    <string-array name="more_setting_listview_text">
+        <item>數字電視</item>
+        <item>模擬電視</item>
+        <item>視頻1</item>
+        <item>視頻2</item>
+        <item>電腦</item>
+        <item>髙淸1</item>
+        <item>髙淸2</item>
+        <item>多媒體</item>
+    </string-array> 
+	
+	<string-array name="more_setting_listview_text_v50">
+        <item>數字電視</item>
+        <item>模擬電視</item>
+        <item>視頻1</item>
+        <item>視頻2</item>
+        <item>電腦</item>
+        <item>髙淸</item>
+        <item>多媒體</item>
+    </string-array> 
+	
+</resources>

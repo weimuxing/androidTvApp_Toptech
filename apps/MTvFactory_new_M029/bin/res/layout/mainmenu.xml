@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/factory_view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:persistentDrawingCache="animation" >
+
+        <include layout="@layout/factorymenu" /> <!-- 0 -->
+
+        <include layout="@layout/picturemenu" /> <!-- 1 -->
+
+        <include layout="@layout/soundmenu" /> <!-- 2 -->
+
+        <include layout="@layout/panelinfo" /> <!-- 3 -->
+
+        <include layout="@layout/usermenu" /> <!-- 4 -->
+
+        <include layout="@layout/upgrademenu" /> <!-- 5 -->
+
+        <include layout="@layout/otheroptionmenu" /> <!-- 6 -->
+
+        <include layout="@layout/picturemodeadjust" /> <!-- 7 -->
+
+        <include layout="@layout/nonlinearadjust" /> <!-- 8 -->
+
+        <include layout="@layout/adcadjust" /> <!-- 9 -->
+
+        <include layout="@layout/wbadjust" /> <!-- 10 -->
+
+        <include layout="@layout/overscanadjust" /> <!-- 11 -->
+
+        <include layout="@layout/nonstandardadjust" /> <!-- 12 -->
+
+        <include layout="@layout/sscadjust" /> <!-- 13 -->
+
+        <include layout="@layout/peqadjust" /> <!-- 14 -->
+        
+        <include layout="@layout/soundnonlinearadjust" /> <!-- 15 -->
+
+        <include layout="@layout/soundmode" /> <!-- 16 -->
+        
+        <include layout="@layout/factorysound" /> <!-- 17 -->
+
+        <include layout="@layout/ursainfo" /> <!-- 18 -->
+
+        <include layout="@layout/ipenablemapping" /> <!-- 19 -->
+        
+        <include layout="@layout/ciadjust"/> <!-- 20 -->
+        
+        <include layout="@layout/testpattern"/> <!-- 21 -->
+	
+	<include layout="@layout/pq" /> <!-- 22 -->
+    </ViewFlipper>
+
+</LinearLayout>

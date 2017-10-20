@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pic_mode_sty_seekbar_btn">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">33dip</item>
+        <item name="android:background">@drawable/button_state</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    
+    <style name="pic_mode_sty_seekbar_name">
+        <item name="android:layout_width">100dip</item>
+        <item name="android:layout_height">33dip</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="pic_mode_sty_seekbar_indicator">
+        <item name="android:layout_width">33dip</item>
+        <item name="android:layout_height">33dip</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    
+    <style name="pic_mode_sty_bar">
+        <item name="android:layout_width">133dip</item>
+        <item name="android:layout_height">13dip</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:max">100</item>
+        <item name="android:progress">0</item>
+        <item name="android:thumb">@drawable/picture_mode_img_bar</item>
+        <item name="android:thumbOffset">0dip</item>
+    </style>
+</resources>

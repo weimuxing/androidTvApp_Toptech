@@ -1,0 +1,2665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2014 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources>
+
+    <!-- For Picture -->
+    <string name="str_auto_adjust">Tự động điều chỉnh</string>
+    <string name="app_name">Tivi</string>
+    <string name="str_pic_picture_adjustment">Điều chỉnh hình ảnh </string>
+    <string name="str_pic_picture">Hình ảnh</string>
+    <string name="str_pic_picturemode">Chế độ hình ảnh</string>
+    <string name="edit_program_toast">Tên kênh không thể để trống!</string>
+    <string name="str_delete_program_title">Bạn có chắc chắn xóa?</string>
+    <string name="str_warning_isrecording">PLS Stop Record Before PowerOff</string>
+    <string name="str_stop_record_to_power_dialog_message">Hệ thống sẽ ngừng ghi Power Off!</string>
+    <string name="str_stop_timeshift_to_power_dialog_message">Hệ thống sẽ ngừng timeshift để tắt nguồn!</string>
+    <string name="str_stop_record_to_home_dialog_message">Hệ thống sẽ ngừng ghi Home!</string>
+    <string name="str_stop_playback_to_home_dialog_message">Hệ thống sẽ ngừng phát lại đến nhà!</string>
+    <string name="str_stop_timeshift_to_home_dialog_message">Hệ thống sẽ ngừng timeshift đến Trang chủ!</string>
+    <string name="str_100">-</string>
+    <string name="str_10">-</string>
+    <string name="str_1">-</string>
+    <string name="str_root_popup_off_after">Giây trước khi tắt máy</string>
+    <string name="str_schedule_select_null_msg">Không có sự kiện được chọn </string>
+
+    <string-array name="str_arr_pic_picturemode_vals">
+        <item>Sống động</item>
+        <item>Chuẩn</item>
+        <item>Dịu nhẹ</item>
+        <item>người sử dụng</item>
+        <item>game</item>
+        <item>auto</item>
+        <item>pc</item>
+        <item>vivid</item>
+        <item>natural</item>
+        <item>sports</item>
+    </string-array>
+
+    <string name="str_pic_contrast">Tương phản</string>
+    <string name="str_pic_brightness">Độ sáng</string>
+    <string name="str_pic_color">Màu</string>
+    <string name="str_pic_sharpness">Độ nét</string>
+    <string name="str_pic_hue">Sắc Thái</string>
+    <string name="str_pic_saturation">Màu sắc</string>
+    <string name="str_pic_backlight">Đèn nền</string>
+    <string name="str_pic_colortemperature">Nhiệt độ màu</string>
+
+    <string-array name="str_arr_pic_colortemperature_vals">
+        <item>lạnh</item>
+        <item>Tự nhiên</item>
+        <item>Ấm</item>
+        <item>User</item>
+    </string-array>
+
+    <string name="str_pic_colortemperature_red">Đỏ</string>
+    <string name="str_pic_colortemperature_green">Xanh</string>
+    <string name="str_pic_colortemperature_blue">Màu xanh</string>
+
+    <string name="str_pic_zoommode">Chế độ zoom</string>
+    <string name="str_pic_size">Picture Size</string>
+
+    <string-array name="str_arr_pic_zoommode_vals">
+        <item>Mặc định</item>
+        <item>16:9</item>
+        <item>4:3</item>
+        <item>Tự Động</item>
+        <item>Panorama Mod</item>
+        <item>Chỉ cần Scan</item>
+        <item>Zoom1</item>
+        <item>Zoom2</item>
+        <item>14:9</item>
+        <item>P2P</item>
+        <item>Subtitle</item>
+        <item>Movie</item>
+        <item>Personal</item>
+        <item>4x3_PanScan</item>
+        <item>4x3_LetterBox</item>
+        <item>16x9_PillarBox</item>
+        <item>16x9_PanScan</item>
+        <item>4x3_Combind</item>
+        <item>16x9_Combind</item>
+        <item>Zoom_2x</item>
+        <item>Zoom_3x</item>
+        <item>Zoom_4x</item>
+       
+    </string-array>
+
+    <string name="str_pic_imgnoisereduction">Hình ảnh sống động</string>
+    <string name="str_pic_mpegnoisereduction">Giảm nhiễu MPEG</string>
+
+    <string-array name="str_arr_pic_imgnoisereduction_vals">
+        <item>Tắt</item>
+        <item>yếu</item>
+        <item>Trung bình</item>
+        <item>Mạnh</item>
+        <item>Tự Động</item>
+    </string-array>
+    <string-array name="str_arr_pic_mpegnoisereduction_vals">
+        <item>Tắt</item>
+        <item>yếu</item>
+        <item>Trung bình</item>
+        <item>Mạnh</item>
+    </string-array>
+    <string-array name="str_arr_sleep_mode_vals">
+        <item>tắt</item>
+        <item>10 phút</item>
+        <item>20 phút</item>
+        <item>30 phút</item>
+        <item>60 phút</item>
+        <item>90 phút</item>
+        <item>120 phút</item>
+        <item>180 phút</item>
+        <item>240 phút</item>
+    </string-array>
+    <string-array name="str_arr_pvr_mode_vals">
+        <item>tắt</item>
+        <item>mở</item>
+    </string-array>
+
+    <string name="str_pic_pcimagemode">PC Chế độ hình ảnh</string>
+    <string name="str_pic_autotune">Tự động điều chỉnh</string>
+    <string name="str_set_hdmicec_arc">HDMI_ARC</string>
+    <string name="str_pic_pcimagemode_waiting">Hình ảnh máy tính đang điều chỉnh, hãy thử lại sau ...</string>
+    <string name="str_pic_pcimagemode_success">Điều chỉnh  hình ảnh máy tính  thành công</string>
+    <string name="str_pic_pcimagemode_failed">Điều chỉnh  hình ảnh máy tính  thất bại</string>
+
+    <!-- for pc image mode -->
+
+    <string name="str_pic_clock">Đồng hồ</string>
+    <string name="str_pic_phase">Giai đoạn</string>
+    <string name="str_pic_horizontal_pos">Vị trí Ngang</string>
+    <string name="str_pic_vertical_pos">Vị trí thẳng đứng</string>
+
+    <!-- sound menu -->
+
+    <string name="str_sound_sound_adjustment">Chế độ âm thanh</string>
+    <string name="str_sound_soundmode">Chế độ âm thanh</string>
+
+    <string-array name="str_arr_sound_soundmode_vals">
+        <item>Tiêu chuẩn</item>
+        <item>Âm nhạc</item>
+        <item>Phim</item>
+        <item>Thể thao</item>
+        <item>Người sử dụng</item>
+    </string-array>
+
+    <string name="str_sound_bass">Âm trầm</string>
+    <string name="str_sound_treble">Âm bổng</string>
+    <string name="str_sound_equalizer">Equalizer</string>
+    <string name="str_sound_equalizer120hz">120Hz</string>
+    <string name="str_sound_equalizer500hz">500Hz</string>
+    <string name="str_sound_equalizer1.5khz">1.5KHz</string>
+    <string name="str_sound_equalizer5khz">5KHz</string>
+    <string name="str_sound_equalizer10khz">10KHz</string>
+    <string name="str_sound_balance">Cân Bằng</string>
+    <string name="str_sound_avc">AVC</string>
+    <string name="str_sound_ad">AD</string>
+    <string name="str_sound_ad_volume">AD Volume</string>
+    <string name="str_sound_autohoh">Auto HOH</string>
+    <string name="str_sound_truehdbypass">Dolby TrueHD/DTS-HD</string>
+    <string name="str_sound_srs">SRS</string>
+
+    <string-array name="str_arr_sound_avc_vals">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_sound_surround">Tổng quát</string>
+
+    <string-array name="str_arr_sound_surround_vals">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_sound_spdifoutput">SPDIF đầu ra</string>
+
+    <string-array name="str_arr_sound_spdifoutput_vals">
+        <item>PCM</item>
+        <item>Tắt</item>
+        <item>RAW</item>
+    </string-array>
+
+    <string name="str_sound_music_mode">Chế độ Âm nhạc</string>
+    <string name="str_sound_separatehear">Một mình</string>
+
+    <string-array name="str_arr_sound_separatehear_vals">
+      <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <!-- For 3d -->
+
+    <string name="str_3d_3d">3D</string>
+
+    <string name="str_3d_self_adaptive_detecttriple">SelfAdaptive Detect</string>
+    <string-array name="str_arr_3d_self_adaptive_detecttriple_vals">
+        <item>Off</item>
+        <item>Ngay Bây Giờ</item>
+        <item>Khi Source Change</item>
+        <item>Thời Gian Thực</item>
+    </string-array>
+
+    <string name="str_3dto2d_self_adaptive_detecttriple">3D-2D Self Detect</string>
+    <string-array name="str_arr_3dto2d_self_adaptive_detecttriple_vals">
+        <item>Off</item>
+        <item>Right Now</item>
+    </string-array>
+    <string name="str_3d_self_adaptive_detectlevel">SelfAdaptive Cấp</string>
+
+    <string-array name="str_arr_3d_self_adaptive_detectlevel_vals">
+        <item>Thấp</item>
+        <item>Trung bình</item>
+        <item>Cao</item>
+    </string-array>
+
+    <string name="str_3d_conversion">Chuyển đổi 3D</string>
+
+    <string-array name="str_arr_3d_3dconversion_vals">
+        <item>Không ai</item>
+        <item>SBS</item>
+        <item>TB</item>
+        <item>FP</item>
+        <item>LA</item>
+        <item>2D-3D</item>
+        <item>Tự Động</item>
+        <item>CB</item>
+        <item>PA</item>
+        <item>FA</item>
+    </string-array>
+
+    <string name="str_3d_3dto2d">3D đến 2D</string>
+
+    <string-array name="str_arr_3d_3dto2d_vals">
+        <item>Không ai</item>
+        <item>SBS</item>
+        <item>TB</item>
+        <item>FP</item>
+        <item>LA</item>
+        <item>FA</item>
+        <item>Auto</item>
+        <item>CB</item>
+        <item>PA</item>
+    </string-array>
+
+    <string name="str_3d_3ddepth">Độ sâu 3D</string>
+
+    <string-array name="str_arr_3d_3ddepth_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string name="str_3d_3doffset">3D offset</string>
+
+    <string-array name="str_arr_3d_3doffset_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string name="str_3d_autostart">Tự Động khởi động</string>
+
+    <string-array name="str_arr_3d_autostart_vals">
+        <item>OFF</item>
+        <item>2D</item>
+        <item>3D</item>
+    </string-array>
+
+    <string name="str_3d_3doutputaspect">3D Aspect Output</string>
+
+    <string-array name="str_arr_3d_3doutputaspect_vals">
+        <item>Đầy</item>
+        <item>4:3</item>
+    </string-array>
+
+    <string name="str_3d_lrswitch">LR Xem ở dạng</string>
+
+    <string-array name="str_arr_3d_lrswitch_vals">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <!-- for Channel -->
+    <string name="str_cha_antannatype">Antenna Loại</string>
+
+    <string name="str_cha_antannatype_none">Không ai</string>
+    <string name="str_cha_antannatype_air">Không khí</string>
+    <string name="str_cha_antannatype_cable">Cable</string>
+
+    <!-- FIXME: Remove element if useless -->
+    <string-array name="str_arr_cha_antannatype">
+        <item>DTMB</item>
+        <item>DVB-C</item>
+        <item>DVB-T</item>
+        <item>MAX</item>
+    </string-array>
+
+    <!-- FIXME: Remove element if useless -->
+    <string-array name="str_arr_cha_atsc_antannatype">
+        <item>Không ai</item>
+        <item>Không khí</item>
+        <item>Cable</item>
+    </string-array>
+
+    <string name="str_prompt_setup_wizard_title">Vui lòng chọn  loại Anten và  bắt đầu dò đài</string>
+    <string name="str_prompt_setup_wizard_next">Kế tiếp</string>
+    <string name="str_prompt_setup_wizard_skip">Nhảy</string>
+    <string name="str_prompt_setup_location_title">Vui lòng chọn địa điểm</string>
+
+    <string name="str_cha_changing_antenna_type">Thay đổi  Loại Anten</string>
+    <string name="str_ci_async_cmd_switch_route">CI gọi tuyến đường tắc ...</string>
+    <string name="str_cha_please_wait">Vui lòng đợi một phút</string>
+
+    <string name="str_cha_tv_route_none">Không</string>
+    <string name="str_cha_tv_route_dvbt">Không khí</string>
+    <string name="str_cha_tv_route_dvbc">Cable</string>
+    <string name="str_cha_tv_route_dvbs">Truyền hình vệ tinh</string>
+    <string name="str_cha_tv_route_dvbt2">Không khí</string>
+    <string name="str_cha_tv_route_dvbs2">Truyền hình vệ tinh</string>
+    <string name="str_cha_tv_route_dtmb">DTMB</string>
+    <string name="str_cha_tv_route_unknown">Không biết</string>
+
+    <string name="str_cha_channel">Kênh</string>
+    <string name="str_cha_autotuning">Tự động dò đài</string>
+    <string name="str_source">Source</string>
+    <string name="str_cha_dtvmanualtuning">DTV chỉnh bằng tay</string>
+    <string name="str_cha_atvmanualtuning">ATV chỉnh bằng tay</string>
+	
+	<string name="str_cha_manualtuning">chỉnh bằng tay</string>
+    <string name="str_cha_bandwidth_switch">Chuyển Bandwidth</string>
+    <string name="str_cha_bandwidth_uhf_7mhz">7MHz over UHF</string>
+    <string name="str_cha_programedit">Chương trình Chỉnh sửa</string>
+    <string name="str_cha_signalinfo">Thông tin tín hiệu</string>
+    <string name="str_cha_ciinformation">CI Thông tin</string>
+    <string name="str_cha_software_update_oad">Cập nhật phần mềm (OAD)</string>
+    <string name="str_cha_time_to_search_for_ssu">Thời gian để tìm kiếm cho SSU</string>
+    <string name="str_cha_time_to_search_for_ssu_default">4:00</string>
+    <string name="str_cha_oadscan">OAD chụp</string>
+    <string name="str_cha_oad_view_prompt">Xem  để cập nhật nhanh</string>
+    <string name="str_mainmenu_menu">Thực đơn</string>
+    <string name="str_cha_autotuning_tuningtype">Kiểu tìm</string>
+    <string name="str_cha_autotuning_tuningtype_atv">ATV</string>
+    <string name="str_cha_autotuning_country_australia">Úc</string>
+    <string name="str_cha_autotuning_country_austria">Áo</string>
+    <string name="str_cha_autotuning_country_beligum">Beligum</string>
+    <string name="str_cha_autotuning_country_bulgaral">Bulgaral</string>
+    <string name="str_cha_autotuning_country_croatia">Croatia</string>
+    <string name="str_cha_autotuning_country_czech">Séc</string>
+    <string name="str_cha_autotuning_country_denmark">Đan Mạch</string>
+    <string name="str_cha_autotuning_country_finland">Phần Lan</string>
+    <string name="str_cha_autotuning_country_france">Pháp</string>
+    <string name="str_menu_parentalcontrol">khóa</string>
+    <string name="str_lock_system">Hệ thống khóa</string>
+    <string name="str_lock">Khóa</string>
+    <string name="str_set_pwd">Đặt Mật Khẩu</string>
+    <string name="str_block_program">Chương trình khối</string>
+    <string name="str_parental_contentlock">Content Lock</string>
+    <string name="str_parental_guidance">Hướng Dẫn Của Cha Mẹ</string>
+    <string name="str_cha_airdtv_title">Air DTV</string>
+    <string name="str_cha_airtv_title">Không khí</string>
+    <string name="str_cha_cabletv_title">Cable</string>
+    <string name="str_ci_cam_pincode">CI CAM  Mã pin</string>
+    <string name="str_ci_set_cam_pincode_done">Đặt Mã Pin hoàn thành </string>
+
+    
+    
+    <string-array name="str_arr_autotuning_country">
+        <item>Úc</item>
+        <item>Áo</item>
+        <item>Bỉ</item>
+        <item>Bulgaria</item>
+        <item>Croatia</item>
+        <item>Séc</item>
+        <item>Đan Mạch</item>
+        <item>Phần Lan</item>
+        <item>Pháp</item>
+        <item>Đức</item>
+        <item>Hy Lạp</item>
+        <item>Hungary</item>
+        <item>Ý</item>
+        <item>Luxembourg</item>
+        <item>Hà Lan</item>
+        <item>Na Uy</item>
+        <item>Ba Lan</item>
+        <item>Bồ Đào Nha</item>
+        <item>Nước Rumani</item>
+        <item>Nga</item>
+        <item>Serbia</item>
+        <item>Slovenia</item>
+        <item>Tây Ban Nha</item>
+        <item>Thụy Điển</item>
+        <item>Thụy Sĩ</item>
+        <item>Anh</item>
+        <item>New Zealand</item>
+        <item>Arab</item>
+        <item>Estonia</item>
+        <item>Hebrew</item>
+        <item>Latvia</item>
+        <item>Slovakia</item>
+        <item>Gà tây</item>
+        <item>Ireland</item>
+        <item>Nhật</item>
+        <item>Philippines</item>
+        <item>Việt Nam</item>
+        <item>Maldives</item>
+        <item>Uruguay</item>
+        <item>Peru</item>
+        <item>Argentina</item>
+        <item>Chile</item>
+        <item>Venezuela</item>
+        <item>Ecuador</item>
+        <item>Costarica</item>
+        <item>Paraguay</item>
+        <item>Bolivia</item>
+        <item>Belize</item>
+        <item>Nicaragua</item>
+        <item>Guatemala</item>
+        <item>đồ sứ</item>
+        <item>Colombia</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Mexico</item>
+        <item>Hoa Kỳ</item>
+        <item>Nam Triều Tiên</item>
+        <item>Fiji</item>
+        <item>Uzbek</item>
+        <item>Tajikistan</item>
+        <item>Ethiopia</item>
+        <item>Azerbaijan</item>
+        <item>Nam Phi</item>
+        <item>Algeria</item>
+        <item>Ai Cập</item>
+        <item>Saudi Arabia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Namibia</item>
+        <item>Jordan</item>
+        <item>Kuwait</item>
+        <item>Indonesia</item>
+        <item>Israel</item>
+        <item>Qatar</item>
+        <item>Nigeria</item>
+        <item>Zimbabwe</item>
+        <item>nước Lithuania</item>
+        <item>Morocco</item>
+        <item>Tunis</item>
+        <item>Ấn Độ</item>
+        
+        <item>Thái Lan</item>
+        <item>Hồng Kông</item>
+        <item>Đài Loan</item>
+        <item>Malaysia</item>
+        <item>Singapore</item>
+        <item>Khác</item>
+    </string-array>
+
+    <string-array name="str_arr_signalinfo_qam_cab">
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+
+    <string-array name="str_arr_signalinfo_qam_dvbt">
+        <item>QPSK</item>
+        <item>16QAM</item>
+        <item>64QAM</item>
+        <item>256QAM</item>
+    </string-array>
+
+    <string name="str_cha_channeltuning">Chỉnh Kênh</string>
+    <string name="str_cha_tv">TV :</string>
+    <string name="str_cha_tv_0">0</string>
+    <string name="str_cha_dtv">DTV :</string>
+    <!-- For CA String define -->
+    <string name="str_cha_cainformation">Thông tin CA</string>
+    <string name="str_ca_title">Thông tin CA</string>
+    <string name="str_ca_card_info">Thông tin CA</string>
+    <string name="str_ca_card_management">Quản lý CA</string>
+    <string name="str_ca_card_paired">Thẻ ghép</string>
+    <string name="str_ca_card_feed">Thẻ thức ăn</string>
+    <string name="str_ca_info_title">CA Thẻ thông tin</string>
+    <string name="str_ca_info_entitle">CA cho phép thông tin</string>
+    <string name="str_ca_info_detitle">CA Detitle Thông tin</string>
+    <string name="str_ca_info_purse_info">CA Khe Thông tin</string>
+    <string name="str_ca_card_version">CAS Phiên bản Thông tin</string>
+    <string name="str_ca_mg_title">Quản lý thẻ CA</string>
+    <string name="str_ca_mg_modify_pin">Sửa đổi mã PIN của thẻ CA</string>
+    <string name="str_ca_mg_work_time">Sửa Thời gian làm việc của thẻ CA</string>
+    <string name="str_ca_mg_watch_level">Sửa Xem Cấp thẻ CA</string>
+    <string name="str_ca_info_pin_title">Sửa đổi mã PIN của thẻ CA</string>
+    <string name="str_ca_mg_old_pin">Vui lòng nhập mã PIN cũ:</string>
+    <string name="str_ca_mg_new_pin">Vui lòng nhập mã PIN mới:</string>
+    <string name="str_ca_mg_new_pin2">Vui lòng xác nhận mã PIN mới:</string>
+    <string name="str_ca_mg_submit">Đệ trình</string>
+    <string name="str_set_work_time_title">CA work time setting</string>
+    <string name="str_ca_start_work_time">Hãy thiết lập thời gian bắt đầu:</string>
+    <string name="str_ca_end_work_time">Hãy đặt thời gian kết thúc:</string>
+    <string name="str_ca_work_time_pin">Xin mã PIN đầu vào:</string>
+    <string name="str_work_time_hour_text">Giờ</string>
+    <string name="str_work_time_minute_text">Phút</string>
+    <string name="str_watch_level_title">Thiết lập đồng hồ Cấp</string>
+    <string name="str_watch_level_text">Xem cấp:</string>
+    <string name="str_watch_level_init">0</string>
+    <string name="str_ca_operator_title">Danh sách điều hành</string>
+    <string name="str_ca_op_id">ID</string>
+    <string name="str_ca_op_operator_id">Operator ID</string>
+    <string name="str_ca_version_title">CA Phiên bản Thông tin</string>
+    <string name="str_ca_version_id">CDCAS Version ID:</string>
+    <string name="str_ca_version_stb_num">Số STB:</string>
+    <string name="str_ca_card_id">Card ID:</string>
+    <string name="str_ca_entitle_title">CA cho phép thông tin</string>
+    <string name="str_ca_entitle_id">ID sản phẩm</string>
+    <string name="str_ca_entitle_video_id">video Chức năng</string>
+    <string name="str_ca_entitle_date">ngày Hết Hạn</string>
+    <string name="str_ca_entitle_video_flag_yes">Yes</string>
+    <string name="str_ca_entitle_video_flag_no">No</string>
+    <string name="str_ca_detitle_title">CA Detitle Information</string>
+    <string name="str_ca_detitle_list">CA Detitle Mã Danh sách</string>
+    <string name="str_ca_detitle_state">CA Detitle Nhà nước</string>
+    <string name="str_ca_detitle_state_yes">Yes</string>
+    <string name="str_ca_detitle_state_no">No</string>
+    <string name="str_ca_purse_title">CA Khe Thông tin</string>
+    <string name="str_ca_purse_id">Slot ID</string>
+    <string name="str_ca_purse_points">chi tiêu điểm</string>
+    <string name="str_ca_purse_credit">Hạn mức tín dụng</string>
+
+    <!-- For CA Error Type define -->
+    <string name="st_ca_rc_ok">成功</string>
+    <string name="st_ca_rc_unknown">未知错误</string>
+    <string name="st_ca_rc_pointer_invalid">指针无效</string>
+    <string name="st_ca_rc_card_invalid">智能卡无效</string>
+    <string name="st_ca_rc_pin_invalid">PIN码无效</string>
+    <string name="st_ca_rc_dataspace_small">所给的空间不足</string>
+    <string name="st_ca_rc_card_pairother">智能卡已经对应别的机顶盒</string>
+    <string name="st_ca_rc_data_not_find">没有找到所要的数据</string>
+    <string name="st_ca_rc_prog_status_invalid">要购买的节目状态无效</string>
+    <string name="st_ca_rc_card_no_room">智能卡没有空间存放购买的节目</string>
+    <string name="st_ca_rc_worktime_invalid">设定的工作时段无效</string>
+    <string name="st_ca_rc_ippv_canntdel">IPPV节目不能被删除</string>
+    <string name="st_ca_rc_card_nopair">智能卡没有对应任何的机顶盒</string>
+    <string name="st_ca_rc_watchrating_invalid">设定的观看级别无效</string>
+    <string name="st_ca_rc_card_notsupport">当前智能卡不支持此功能</string>
+    <string name="st_ca_rc_data_error">数据错误，智能卡拒绝</string>
+    <string name="st_ca_rc_feedtime_not_arrive">喂养时间未到，子卡不能被喂养</string>
+    <string name="st_ca_rc_card_typeerror">子母卡喂养失败，插入智能卡类型错误</string>
+    <string name="st_ca_rc_cas_failed">发卡cas指令执行失败</string>
+    <string name="st_ca_rc_oper_failed">发卡运营商指令执行失败</string>
+    <string name="st_ca_rc_pin_len">Pin code less than 6 digits</string>
+    <string name="st_ca_rc_diff_pin">Pin code do not accord</string>
+
+    <!-- For CA notify Type define -->
+    <string name="st_ca_message_cancel_type">取消当前的显示</string>
+    <string name="st_ca_message_badcard_type">无法识别卡</string>
+    <string name="st_ca_message_expicard_type">智能卡过期，请更换新卡</string>
+    <string name="st_ca_message_insertcard_type">加扰节目，请插入智能卡</string>
+    <string name="st_ca_message_nooper_type">卡中不存在节目运营商</string>
+    <string name="st_ca_message_blackout_type">条件禁播</string>
+    <string name="st_ca_message_outworktime_type">当前时段被设定为不能观看</string>
+    <string name="st_ca_message_watchlevel_type">节目级别高于设定的观看级别</string>
+    <string name="st_ca_message_pairing_type">智能卡与本机顶盒不对应</string>
+    <string name="st_ca_message_noentitle_type">没有授权</string>
+    <string name="st_ca_message_decryptfail_type">节目解密失败</string>
+    <string name="st_ca_message_nomoney_type">卡内金额不足</string>
+    <string name="st_ca_message_errregion_type">区域不正确</string>
+    <string name="st_ca_message_needfeed_type">子卡需要和母卡对应，请插入母卡</string>
+    <string name="st_ca_message_errcard_type">智能卡校验失败，请联系运营商</string>
+    <string name="st_ca_message_update_type">智能卡升级中，请不要拔卡或者关机</string>
+    <string name="st_ca_message_lowcardver_type">请升级智能卡</string>
+    <string name="st_ca_message_viewlock_type">请勿频繁切换频道</string>
+    <string name="st_ca_message_maxrestart_type">智能卡暂时休眠，请5分钟后重新开机</string>
+    <string name="st_ca_message_freeze_type">智能卡已冻结，请联系运营商</string>
+    <string name="st_ca_message_callback_type">智能卡已暂停，请回传收视记录给运营商</string>
+    <string name="st_ca_message_curtain_type">窗帘节目，不可预览阶段</string>
+    <string name="st_ca_message_cardteststart_type">升级测试卡测试中...</string>
+    <string name="st_ca_message_cardtestfaild_type">升级测试卡测试失败，请检查机卡通讯模块</string>
+    <string name="st_ca_message_cardtestsucc_type">升级测试卡测试成功</string>
+    <string name="st_ca_message_nocaliboper_type">卡中不存在移植库定制运营商</string>
+    <string name="st_ca_message_stblocked_type">请重启机顶盒</string>
+    <string name="st_ca_message_stbfreeze_type">机顶盒被冻结</string>
+
+    <!-- for dtv auto tune option -->
+    <string-array name="strs_cha_dtvautotuning_dvbc_tuning_mode">
+        <item>Quét Toàn Bộ</item>
+        <item>Quét Nhanh</item>
+    </string-array>
+
+    <string-array name="strs_cha_dtvautotuning_demodulation_tbl">
+        <item>16 QAM</item>
+        <item>32 QAM</item>
+        <item>64 QAM</item>
+        <item>128 QAM</item>
+        <item>256 QAM</item>
+    </string-array>
+
+    <string name="str_cha_dtvautotuning_startscan">Bắt đầu quét</string>
+    <string name="str_cha_dtvautotuning_frequency">Tần số</string>
+    <string name="str_cha_dtvautotuning_modulation">Modulation</string>
+    <string name="str_cha_dtvautotuning_symbol">Ký hiệu</string>
+    <string name="str_cha_dtvautotuning_networkid">Mạng ID</string>
+    <string name="str_cha_dtvautotuning_networkid_invalid">Mạng ID không hợp lệ</string>
+    <string name="str_cha_dtvautotuning_ok">Được</string>
+    <string name="str_cha_dtvautotuning_auto">Tự Động</string>
+    <string name="str_cha_dtvautotuning_signalstrength">Cường Độ Tín Hiệu</string>
+    <string name="str_cha_dtvautotuning_signalquality">Chất lượng tín hiệu</string>
+    <string name="str_cha_dvbsdtvtuning_scanmode">Chế độ quét</string>
+    <string name="str_cha_dvbsdtvtuning_servicetype">Loại dịch vụ</string>
+    <string name="str_cha_dvbsdtvtuning_networksearch">Mạng Tìm kiếm</string>
+    <string name="str_cha_dvbsdtvtuning_transponder">Transponder</string>
+    <string name="str_cha_dvbsdtvtuning_satellite">Truyền hình vệ tinh</string>
+    <string name="str_cha_dvbsdtvtuning_searchtype">Tìm kiếm vị trí</string>
+    <string name="str_cha_radio">RADIO :</string>
+    <string name="str_cha_data">DATA :</string>
+    <string name="str_cha_program">Các chương trình</string>
+    <string name="str_cha_info_atv">ATV</string>
+    <string name="str_cha_info_dtv">DTV</string>
+    <string name="str_cha_tuningprogress_percent_0">0%</string>
+    <string name="str_cha_tuningprogress_uhf">UHF</string>
+    <string name="str_cha_tuningprogress_vhf">VHF</string>
+    <string name="str_cha_tuningprogress_ch">CH</string>
+    <string name="str_cha_tuningprogress_freq">Freq</string>
+    <string name="str_cha_tuningprogress_dtv">DTV</string>
+    <string name="str_cha_exittuning_info">Bạn có chắc chắn để thoát ATV / DTV điều chỉnh?</string>
+    <string name="str_cha_exitDTVtuning_info">Bạn có chắc chắn để thoát DTV điều chỉnh?</string>
+    <string name="str_cha_exitATVtuning_info">Bạn có chắc chắn để thoát ATV điều chỉnh?</string>
+    <string name="str_cha_exitAIRtuning_info">Bạn có chắc chắn để thoát ATV-AIR điều chỉnh?</string>
+    <string name="str_cha_exitCABLEtuning_info">Bạn có chắc chắn để thoát ATV-CABLE điều chỉnh?</string>
+    <string name="str_cha_exittuning_yes">YES</string>
+    <string name="str_cha_exittuning_no">NO</string>
+    <string name="str_cha_dtvmanualtuning_channelno">Kênh</string>
+    <string name="str_cha_dtvmanualtuning_ch">CH</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_mHz">MHz</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="str_cha_dtvmanualtuning_frequency">Tần số</string>
+    <string name="str_cha_dtvmanualtuning_modulation">Modulation</string>
+    <string name="str_cha_dtvmanualtuning_symbol">Ký hiệu tốc độ</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">Đi đến Tìm kiếm </string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">Cường Độ Tín Hiệu</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">Chất lượng tín hiệu</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">DTV:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">RADIO:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">DATA:</string>
+    <string name="str_cha_atvmanualtuning_channelno">Kênh</string>
+    <string name="str_cha_atvmanualtuning_store_channelno">Store To:</string>
+    <string name="str_cha_atvmanualtuning_ch">CH</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">Hệ thống màu</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">Tự động</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">Hệ Thống Âm Thanh</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">Tự động</string>
+    <string name="str_cha_atvmanualtuning_starttuning">Tìm kiếm</string>
+    <string name="str_cha_atvmanualtuning_fine_tune">Fine Tune</string>
+    <string name="str_cha_atvmanualtuning_frequency">Tần số:</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">MHz</string>
+    <string name="str_cha_dtvmanualtuning_galaxy">Phim ảnh</string>
+    <string name="str_cha_dtvmanualtuning_polarization">Sự phân cực</string>
+    <string name="str_cha_dtvmanualtuning_network">Mạng</string>
+    <string name="str_cha_dtvmanualtuning_scan_mode">Chế độ quét</string>
+    <string name="str_cha_dtvmanualtuning_service_type">Loại dịch vụ</string>
+    <string name="str_cha_transport_stream">Luồng giao thông</string>
+    <string name="str_cha_service">Dịch vụ</string>
+    <string name="str_cha_save">Lưu</string>
+    <string name="str_cha_software_version">Phiên bản phần mềm</string>
+    <string name="str_demo_demo">Demo</string>
+    <string name="str_demo_mwe">MWE</string>
+    <string name="str_demo_dbc">DBC</string>
+    <string name="str_demo_off">Off</string>
+    <string name="str_demo_dlc">DLC</string>
+    <string name="str_demo_dcc">DCC</string>
+    <string name="str_demo_nr">NR Ảnh</string>
+    <string name="str_demo_uclear">trong sáng</string>
+    
+    <string name="str_program_saved">Chương trình đã được lưu!</string>
+
+    <string-array name="str_arr_dtvmanualtuning_polarization_vals">
+        <item>Vị trí thẳng đứng</item>
+        <item>Vị trí Ngang</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_network_vals">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_scan_mode_vals">
+        <item>Free</item>
+        <item>Free+Scramble</item>
+        <item>Scramble</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_service_type_vals">
+        <item>DTV</item>
+        <item>DTV+Radio</item>
+        <item>Radio</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_lnbtype_vals">
+        <item>C</item>
+        <item>Ku</item>
+    </string-array>
+    <string-array name="str_arr_mwe_text">
+        <item>Tắt</item>
+        <item>Opti</item>
+        <item>enhence</item>
+        <item>bên</item>
+        <item>DYM.</item>
+        <item>phần trăm</item>
+        <item>squ.</item>
+    </string-array>
+    <string-array name="str_arr_demo_onoff">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <!-- for audio language list -->
+    <string name="str_audio_language_title">Ngôn ngữ âm thanh</string>
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">CIMMI</string>
+    <string name="str_cimmi_hint_ci_inserted">CI chèn</string>
+    <string name="str_cimmi_hint_ci_removed">CI chuyển</string>
+    <string name="str_cimmi_hint_ci_auto_test">CI Tự động kiểm tra</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">Cổng password</string>
+    <!-- for current action -->
+    <string name="str_current_action">Tải</string>
+    <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">Hệ thống tập tin PVR</string>
+    <string name="str_pvr_file_system_select_disk">Chọn đĩa</string>
+    <string name="str_pvr_file_system_time_shift_size">Thay đổi loại thời gian</string>
+    <string name="str_pvr_file_system_format_start">Bắt đầu định dạng</string>
+    <string name="str_pvr_file_system_format_context">Sự thành công</string>
+    <string name="str_pvr_file_system_speed_check">Kiểm tra tốc độ</string>
+    <string name="str_pvr_file_system_speed_context">hoàn toàn</string>
+    <string name="str_pvr_file_system_always_timeshift">Luôn thay đổi thời gian</string>
+    <string name="str_pvr_file_system_always_context">Trên</string>
+    <!-- for pvr full page browser -->
+    <string name="str_pvr_lcn_textview">LCN</string>
+    <string name="str_pvr_channel_textview">kênh</string>
+    <string name="srt_pvr_program_service_textview">Dịch vụ chương trình </string>
+    <string name="str_pvr_program_service_tips_red">Xóa bỏ</string>
+    <string name="str_pvr_program_service_tips_green">Lên</string>
+    <string name="str_pvr_program_service_tips_descend">Xuống</string>
+    <string name="str_pvr_program_service_tips_blue">Loại</string>
+    <string name="str_pvr_program_service_tips_yellow">ĐƯỢC</string>
+    <string name="str_pvr_lcn_title">Tiêu đề</string>
+    <string name="str_pvr_lcn_record_data">Ghi dữ liệu</string>
+    <string name="str_pvr_lcn_data">2011-11-25</string>
+
+    <!-- For epg schedule list -->
+    <string name="str_epg_program_schedule_list_modify">Sửa đổi</string>
+    <string name="str_epg_program_schedule_list_delete">Xóa bỏ</string>
+
+    <!-- For sound format info-->
+    <string name="str_sound_format_mono">MONO</string>
+    <string name="str_sound_format_dual_a">DUAL A</string>
+    <string name="str_sound_format_dual_ab">DUAL AB</string>
+    <string name="str_sound_format_dual_b">DUAL B</string>
+    <string name="str_sound_format_forced_mono">MONO</string>
+    <string name="str_sound_format_g_stereo">STEREO</string>
+    <string name="str_sound_format_hidev_mono">MONO</string>
+    <string name="str_sound_format_unknown">không biết</string>
+    <string name="str_sound_format_k_stereo">STEREO</string>
+    <string name="str_sound_format_left_left">LEFT LEFT</string>
+    <string name="str_sound_format_left_right">tRÁI PHẢI</string>
+    <string name="str_sound_format_mono_sap">MONO SAP</string>
+    <string name="str_sound_format_nicam_dual_a">NICAM DUAL A</string>
+    <string name="str_sound_format_nicam_dual_ab">NICAM DUAL AB</string>
+    <string name="str_sound_format_nicam_dual_b">NICAM DUAL B</string>
+    <string name="str_sound_format_nicam_mono">NICAM MONO</string>
+    <string name="str_sound_format_nicam_stereo">NICAM STEREO</string>
+    <string name="str_sound_format_right_right">RIGHT RIGHT</string>
+    <string name="str_sound_format_stereo_sap">STEREO SAP</string>
+    <string name="str_sound_format_stereo">STEREO</string>
+
+    <!-- For audio language-->
+    <string name="str_audio_language">Ngôn ngữ âm thanh</string>
+
+    <!-- For check password-->
+    <string name="str_check_password_pass">Mật khẩu </string>
+    <string name="str_check_password_wrong">Sai Mật Khẩu</string>
+    <string name="str_check_password_invalid">Hành động không hợp lệ</string>
+    <string name="str_check_password_incorrect">Mật Khẩu Không Đúng!</string>
+    <string name="str_check_password_input_number">Vui lòng nhập số đầu vào, chỉ số có giá trị</string>
+
+    <string name="str_pvr_listview_item">Xem văn bản</string>
+    <string name="str_pvr_playback_error_reason">không thể phát lại đúng, Lý do là: \n</string>
+    <string name="str_pvr_usb_removed">USB di chuyển</string>
+    <string name="str_pvr_insert_usb">Hãy Chèn một USB</string>
+    <string name="str_pvr_format_usb">Bạn có muốn để định dạng đĩa được chọn?</string>
+    <string name="str_pvr_format_usb_progressing">"Format USB Disk Tiến ... \ n
+        Hãy Không Tháo!</string>
+    <string name="str_pvr_usb_speed_test_progressing">Speed ​​Test Tiến ... \ n
+        Hãy Không Rút đĩa USB!</string>
+    <string name="str_pvr_program_saving">Chương trình lưu, vui lòng đợi!</string>
+    <string name="str_pvr_exit_confirm">Chương trình ghi chép ... Bạn có thực sự muốn thoát?</string>
+    <string name="str_pvr_is_recording">Ghi chép</string>
+    <string name="str_pvr_is_TimeShift">TimeShift</string>
+    <string name="str_editText1">00</string>
+    <string name="str_pvr_unsurpt_flsystem">Không được hỗ trợ hệ thống tập tin, hãy làm thay đổi đầu tiên!</string>
+    <string name="str_pvr_is_standby">Chế độ chờ</string>
+    <string name="str_pvr_tip">Bạn sẽ dừng ghi PVR, hoặc đi sang chế độ chờ ghi không?</string>
+    <string name="str_pvr_tip2">Bạn sẽ dừng ghi PVR?</string>
+    <string name="str_pvr_abloop_too_short">TThời AB Loop là quá ngắn, thời gian ngắn nhất là 2 giây</string>
+    <string name="str_pvr_record_fail">kỷ lục thất bại</string>
+    <string name="str_pvr_alwaystimeshift_record_fail">Luôn ghi lại sự thay đổi thời gian thất bại</string>
+    <string name="str_pvr_no_usb">Không USB phát hiện</string>
+    <string name="str_pvr_disk_read_only">Đĩa chỉ đọc</string>
+    <string name="str_pvr_out_of_space">Hết sức chứa trên đĩa</string>
+    <string name="str_pvr_data_only">Hết sức chứa trên đĩa</string>
+    <string name="str_pvr_scrambled_program">Chương trình Scrambled</string>
+    <string name="str_pvr_ch_blocked">CH bị chặn</string>
+    <string name="str_pvr_rating_blocked">Đánh giá Blocked</string>
+    <string name="str_pvr_retention_expired">Giới hạn duy trì hết hạn</string>
+    <string name="str_pvr_vod_not_allow">Nội dung VOD không cho phép ghi lại</string>
+    <string name="str_pvr_ciplus_copy_protection">CI + URI Bảo vệ</string>
+    <string name="str_pvr_ciplus_unsupport">CI+ Unsupport</string>
+    <string name="str_pvr_ginga_running">Ginga chạy</string>
+    <string name="str_pvr_bad_video_audio">audio link xấu</string>
+    <string name="str_pvr_max_recording_reached">Max count ghi âm đạt</string>
+    <string name="str_pvr_mehg5_data_only">Dữ liệu MEHG5 chỉ có chương trình</string>
+    <string name="str_pvr_success">Sự thành công</string>
+    <string name="str_pvr_error">Lỗi</string>
+    <string name="str_pvr_overwrite_before">Timeshift sẽ ghi đè lên</string>
+    <string name="str_pvr_still_check_disk">Processing, please wait...</string>
+
+    <!--
+     * PVR Error Code Do not change these values without updating their counterparts
+     * in device/mstar/common/libraries/tvapi/java/com/mstar/android/tvapi/common/vo/EnumPvrStatus.java
+     * in device/mstar/common/libraries/tv2/java/com/mstar/android/tv2/TvPvrManager.java
+     * Pvr Status, the return status of Playback/Record
+    -->
+    <string-array name="str_arr_pvr_error_code">
+        <item>@string/str_pvr_success</item>
+        <item>@string/str_pvr_no_usb</item>
+        <item>@string/str_pvr_unsurpt_flsystem</item>
+        <item>@string/str_pvr_disk_read_only</item>
+        <item>@string/str_pvr_out_of_space</item>
+        <item>@string/str_pvr_success</item>
+        <item>@string/str_pvr_ciplus_copy_protection</item>
+        <item>@string/str_pvr_scrambled_program</item>
+        <item>@string/str_pvr_ciplus_unsupport</item>
+        <item>@string/str_pvr_data_only</item>
+        <item>@string/str_no_sinal</item>
+        <item>@string/str_pvr_out_of_space</item>
+        <item>@string/str_pvr_ginga_running</item>
+        <item>@string/str_pvr_bad_video_audio</item>
+        <item>@string/str_pvr_retention_expired</item>
+        <item>@string/str_pvr_ch_blocked</item>
+        <item>@string/str_pvr_rating_blocked</item>
+        <item>@string/str_pvr_max_recording_reached</item>
+        <item>@string/str_pvr_mehg5_data_only</item>
+        <item>@string/str_pvr_vod_not_allow</item>
+        <item>@string/str_pvr_error</item>
+        <item>@string/str_pvr_still_check_disk</item>
+    </string-array>
+
+    <!-- for pvr menu -->
+    <string name="str_player_recorder">GHI</string>
+    <string name="str_player_play">bắt đầu </string>
+    <string name="str_player_stop">Dừng lại</string>
+    <string name="str_player_pause">Tạm dừng</string>
+    <string name="str_player_stepin">Bước đi</string>
+    <string name="str_player_rev">Rev</string>
+    <string name="str_player_ff">FF</string>
+    <string name="str_player_slow">SlowMotion</string>
+    <string name="str_player_time">TimePlay</string>
+    <string name="str_player_forward">Phía trước</string>
+    <string name="str_player_backward">Backward</string>
+    <string name="str_player_capture">Bắt</string>
+    <string name="str_pvr_file_system_menu">Thực đơn</string>
+    <string name="str_pvr_file_system_ok">OK</string>
+    <string name="str_list_menu_hint_b_skip">Nhảy</string>
+    <string name="str_list_menu_hint_g_fivorite">Yêu thích</string>
+    <string name="str_list_menu_hint_g_edit">Chỉnh sửa</string>
+    <string name="str_list_menu_hint_r_delete">Xóa bỏ</string>
+    <string name="str_list_menu_hint_y_move">Chuyển động</string>
+
+    <!-- for ci+ op -->
+    <string name="str_ciplus_op_confirmation_title">Xác nhận CI + OP Refresh</string>
+    <string name="str_ciplus_op_refresh">Bạn có cho phép truyền hình để làm điều hành hồ sơ làm mới?</string>
+    <string name="str_op_menu_title">Profiles điều hành đơn</string>
+    <string name="str_op_channel_list_title">OP Danh sách kênh</string>
+    <string name="str_op_menu">OP đơn</string>
+    <string name="str_op_forbid_channel_tuning_content">Cấm để làm kênh điều chỉnh theo chế độ OP. \ NHãy chế độ exit OP lúc đầu.</string>
+    <string name="str_enter_op">Nhập OP</string>
+    <string name="str_exit_op">Thoát OP</string>
+    <string name="str_delete_profile">Xóa hồ sơ</string>
+    <string name="str_delete_op_msg">Bạn có chắc chắn muốn xóa hồ sơ cá nhân điều hành [</string>
+    <string name="str_delete_op_confirm">Xác nhận để xóa OP</string>
+    <string name="str_forbid_channel_tuning">Cấm Kênh chỉnh</string>
+    <string name="str_cam_upgrade_alarm">CAM đang được nâng cấp. \ NHãy thử sau ...</string>
+    <string name="str_op_tuning_alarm">OP đang được điều chỉnh. \ NHãy thử sau ...</string>
+
+    <!-- for reminder -->
+    <string name="str_reminder_mode">Chế độ</string>
+    <string name="str_reminder_date">Ngày</string>
+    <string name="str_reminder_month">Tháng</string>
+    <string name="str_reminder_hour">Giờ</string>
+    <string name="str_reminder_minute">Phút</string>
+    <string name="str_reminder_channel">Kênh</string>
+    <string name="str_reminder_auto">Xe hơi</string>
+    <string name="str_reminder_once">Xe hơi</string>
+    <string name="str_reminder_daily">Hằng ngày</string>
+    <string name="str_reminder_weekly">Hàng tuần</string>
+    <string name="str_reminder_title">Cài đặt nhắc nhở</string>
+    <string name="str_reminder_record_event">Record this event</string>
+
+    <!-- for source info atv -->
+    <string name="str_atv_source_imageformat">Video Standard"</string>
+    <string name="str_atv_source_soundformat">Chế độ âm thanh</string>
+    <string name="str_atv_source_audioformat">Âm thanh chuẩn</string>
+
+    <!-- for source info dtv -->
+    <string name="str_dtv_source_info_program_period">Chương trình Thời gian</string>
+    <string name="str_dtv_source_info_program_name">Tên chương trình</string>
+    <string name="str_dtv_source_info_program_type">Loại chương trình</string>
+    <string name="str_dtv_source_info_program_format">Format chương trình</string>
+    <string name="str_dtv_source_info_audio_format">Định dạng âm thanh</string>
+    <string name="str_dtv_source_info_mheg5">MHEG5</string>
+    <string name="str_dtv_source_info_Subtitle">Subtitle</string>
+    <string name="str_dtv_source_info_language">Ngôn ngữ âm thanh</string>
+    <string name="str_dtv_source_info_teletext">Teletext</string>
+    <string name="str_dtv_source_info_no_teletext">Xin lỗi, Không Teletext có sẵn</string>
+    <string name="str_dtv_source_info_no_subtitle">Xin lỗi, Không có phụ đề có sẵn</string>
+    <string name="str_dtv_source_info_description">Miêu tả</string>
+    <string name="str_dtv_source_info_resolution">Nghị quyết</string>
+    <string name="str_dtv_source_info_ginga">Ginga</string>
+    <string name="str_dtv_source_info_cc_exist">CC:Yes</string>
+    <string name="str_dtv_source_info_cc_noexist">CC: Không</string>
+    <string name="str_source_info_lock">Lock:</string>
+
+    <!-- for time -->
+    <string name="str_time_confirm_tip">Xin vui lòng bấm phím màu đỏ để xác nhận cấu hình! </string>
+    <string name="str_time_time">Thời gian</string>
+    <string name="str_time_date">Ngày</string>
+    <string name="str_time_currenttime">Thời Điểm Hiện Tại</string>
+    <string name="str_time_offtime">Tắt Time</string>
+    <string name="str_time_schedule">Thời gian dự kiến</string>
+    <string name="str_time_sleep">Giờ Ngủ</string>
+    <string name="str_time_autotime">Tự động điều chỉnh</string>
+    <string name="str_time_schedule_ontime">mở giờ</string>
+    <string name="str_time_set_time_on_title">Thời gian khởi động</string>
+    <string name="str_time_set_time_off_title">Thời gian không giám sát</string>
+    <string name="str_time_set_time_on">Thiết lập thời gian khởi động</string>
+    <string name="str_time_set_time_off">Thiết Time Unattended</string>
+    <string name="str_time_schedule_hour">Hour</string>
+    <string name="str_time_schedule_minute">Minute</string>
+    <string name="str_time_schedule_source">Source</string>
+    <string name="str_time_schedule_channel">Channel</string>
+    <string name="str_time_schedule_volume">Volume</string>
+    <string name="str_time_hour">Giờ</string>
+    <string name="str_time_minute">Phút</string>
+    <string name="str_time_second">Nguồn</string>
+    <string name="str_time_change_timezone">Timezone automatic updated</string>
+
+    <string-array name="str_arr_time_switch">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="str_arr_time_autotimetype">
+        <item>Off</item>
+        <item>DTV</item>
+        <item>Net</item>
+        <item>Tự động</item>
+    </string-array>
+    <string-array name="str_arr_time_source">
+        <item>Nhớ lại</item>
+        <item>Trang chủ</item>
+        <item>Phim ảnh</item>
+        <item>DLNA</item>
+    </string-array>
+
+    <string-array name="str_arr_subtitle_switch">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_set_setting">cài đặt</string>
+    <string name="str_set_language">Ngôn ngữ</string>
+    <string name="str_set_audio_language1">Ngôn ngữ âm thanh</string>
+    <string name="str_set_audio_language2">Âm thanh Ngôn ngữ thứ 2</string>
+    <string name="str_set_subtitle_switch">phụ đề</string>
+    <string name="str_set_subtitle_language1">ngôn ngữ phụ đề</string>
+    <string name="str_set_subtitle_language2">ngôn ngữ phụ đề thứ 2</string>
+    <string name="str_set_language_czech">Séc</string>
+    <string name="str_set_language_danish">Đan Mạch</string>
+    <string name="str_set_language_german">Người Đức</string>
+    <string name="str_set_language_english">Anh</string>
+    <string name="str_set_language_spanish">Tây Ban Nha</string>
+    <string name="str_set_language_greek">Hy Lạp</string>
+    <string name="str_set_language_french">Người Pháp</string>
+    <string name="str_set_language_croatian">Croatia</string>
+    <string name="str_set_language_italian">Ý</string>
+    <string name="str_set_language_hungarian">Hungary</string>
+    <string name="str_set_language_dutch">Hà Lan</string>
+    <string name="str_set_language_norwegian">Na Uy</string>
+    <string name="str_set_language_polish">Palan</string>
+    <string name="str_set_language_portuguese">Bồ Đào Nha</string>
+    <string name="str_set_language_russian">Người Nga</string>
+    <string name="str_set_language_romanian">Rumani</string>
+    <string name="str_set_language_slovenian">Slovenia</string>
+    <string name="str_set_language_serbian">Serbia</string>
+    <string name="str_set_language_finnish">Phần Lan</string>
+    <string name="str_set_language_swedish">Thụy Điển</string>
+    <string name="str_set_language_bulgarian">Bulgarian</string>
+    <string name="str_set_language_slovak">Slovak</string>
+    <string name="str_set_language_chinese">Trung Quốc</string>
+    <string name="str_set_language_gaelic">Gaelic</string>
+    <string name="str_set_language_welsh">Welsh</string>
+    <string name="str_set_language_irish">Ireland</string>
+    <string name="str_set_language_arabic">Tiếng Ả Rập</string>
+    <string name="str_set_language_latvian">Latvia</string>
+    <string name="str_set_language_hebrew">Hebrew</string>
+    <string name="str_set_language_turkish">Thổ Nhĩ Kỳ</string>
+    <string name="str_set_language_estonian">Estonia</string>
+    <string name="str_set_language_gallegan">Gallegan</string>
+    <string name="str_set_language_basque">Basque</string>
+    <string name="str_set_language_catalan">Catalan</string>
+    <string name="str_set_language_icelandic">Iceland</string>
+    <string name="str_set_language_letzeburgesch">Letzeburgesch</string>
+    <string name="str_set_language_lithuanian">Người Lithuania</string>
+    <string name="str_set_language_ukrainian">Ukraina</string>
+    <string name="str_set_language_byelorussian">Belorussia</string>
+    <string name="str_set_language_maori">Maori</string>
+    <string name="str_set_language_mandarin">Quan thoại</string>
+    <string name="str_set_language_cantonese">Quảng Đông</string>
+    <string name="str_set_language_korean">Hàn Quốc</string>
+    <string name="str_set_language_japanese">Nhật Bản</string>
+    <string name="str_set_language_hindi">Tiếng Hin-ddi</string>
+    <string name="str_set_language_thai">Thai</string>
+    <string name="str_set_language_vietnamese">Vietnamese</string>
+    <string name="str_set_language_malay">Bahasa Melayu</string>
+    <string name="str_set_language_qab">Second Audio</string>
+    <string name="str_set_language_qac">Third Audio</string>
+    <string name="str_set_language_multiple">Multiple</string>
+
+    <string-array name="str_arr_set_audio_language">
+        <item>@string/str_set_language_czech</item>
+        <item>@string/str_set_language_danish</item>
+        <item>@string/str_set_language_german</item>
+        <item>@string/str_set_language_english</item>
+        <item>@string/str_set_language_spanish</item>
+        <item>@string/str_set_language_greek</item>
+        <item>@string/str_set_language_french</item>
+        <item>@string/str_set_language_croatian</item>
+        <item>@string/str_set_language_italian</item>
+        <item>@string/str_set_language_hungarian</item>
+        <item>@string/str_set_language_dutch</item>
+        <item>@string/str_set_language_norwegian</item>
+        <item>@string/str_set_language_polish</item>
+        <item>@string/str_set_language_portuguese</item>
+        <item>@string/str_set_language_russian</item>
+        <item>@string/str_set_language_romanian</item>
+        <item>@string/str_set_language_slovenian</item>
+        <item>@string/str_set_language_serbian</item>
+        <item>@string/str_set_language_finnish</item>
+        <item>@string/str_set_language_swedish</item>
+        <item>@string/str_set_language_bulgarian</item>
+        <item>@string/str_set_language_slovak</item>
+        <item>@string/str_set_language_chinese</item>
+        <item>@string/str_set_language_gaelic</item>
+        <item>@string/str_set_language_welsh</item>
+        <item>@string/str_set_language_irish</item>
+        <item>@string/str_set_language_arabic</item>
+        <item>@string/str_set_language_latvian</item>
+        <item>@string/str_set_language_hebrew</item>
+        <item>@string/str_set_language_turkish</item>
+        <item>@string/str_set_language_estonian</item>
+        <item>@string/str_set_language_gallegan</item>
+        <item>@string/str_set_language_basque</item>
+        <item>@string/str_set_language_catalan</item>
+        <item>@string/str_set_language_icelandic</item>
+        <item>@string/str_set_language_letzeburgesch</item>
+        <item>@string/str_set_language_lithuanian</item>
+        <item>@string/str_set_language_ukrainian</item>
+        <item>@string/str_set_language_byelorussian</item>
+        <item>@string/str_set_language_maori</item>
+        <item>@string/str_set_language_cantonese</item>
+        <item>@string/str_set_language_korean</item>
+        <item>@string/str_set_language_japanese</item>
+        <item>@string/str_set_language_hindi</item>
+        <item>@string/str_set_language_thai</item>
+        <item>@string/str_set_language_vietnamese</item>
+        <item>@string/str_set_language_malay</item>
+        <item>@string/str_set_language_qab</item>
+        <item>@string/str_set_language_qac</item>
+    </string-array>
+
+    <string-array name="str_arr_set_subtitle_language">
+        <item>@string/str_set_language_czech</item>
+        <item>@string/str_set_language_danish</item>
+        <item>@string/str_set_language_german</item>
+        <item>@string/str_set_language_english</item>
+        <item>@string/str_set_language_spanish</item>
+        <item>@string/str_set_language_greek</item>
+        <item>@string/str_set_language_french</item>
+        <item>@string/str_set_language_croatian</item>
+        <item>@string/str_set_language_italian</item>
+        <item>@string/str_set_language_hungarian</item>
+        <item>@string/str_set_language_dutch</item>
+        <item>@string/str_set_language_norwegian</item>
+        <item>@string/str_set_language_polish</item>
+        <item>@string/str_set_language_portuguese</item>
+        <item>@string/str_set_language_russian</item>
+        <item>@string/str_set_language_romanian</item>
+        <item>@string/str_set_language_slovenian</item>
+        <item>@string/str_set_language_serbian</item>
+        <item>@string/str_set_language_finnish</item>
+        <item>@string/str_set_language_swedish</item>
+        <item>@string/str_set_language_bulgarian</item>
+        <item>@string/str_set_language_slovak</item>
+        <item>@string/str_set_language_chinese</item>
+        <item>@string/str_set_language_gaelic</item>
+        <item>@string/str_set_language_welsh</item>
+        <item>@string/str_set_language_irish</item>
+        <item>@string/str_set_language_arabic</item>
+        <item>@string/str_set_language_latvian</item>
+        <item>@string/str_set_language_hebrew</item>
+        <item>@string/str_set_language_turkish</item>
+        <item>@string/str_set_language_estonian</item>
+        <item>@string/str_set_language_gallegan</item>
+        <item>@string/str_set_language_basque</item>
+        <item>@string/str_set_language_catalan</item>
+        <item>@string/str_set_language_icelandic</item>
+        <item>@string/str_set_language_letzeburgesch</item>
+        <item>@string/str_set_language_lithuanian</item>
+        <item>@string/str_set_language_ukrainian</item>
+        <item>@string/str_set_language_byelorussian</item>
+        <item>@string/str_set_language_maori</item>
+        <item>@string/str_set_language_cantonese</item>
+        <item>@string/str_set_language_korean</item>
+        <item>@string/str_set_language_japanese</item>
+        <item>@string/str_set_language_hindi</item>
+        <item>@string/str_set_language_thai</item>
+        <item>@string/str_set_language_vietnamese</item>
+        <item>@string/str_set_language_malay</item>
+        <item>@string/str_set_language_multiple</item>
+    </string-array>
+
+    <string-array name="str_arr_set_menutimetype">
+        <item>5 Giây</item>
+        <item>10 Giây</item>
+        <item>15 Giây</item>
+        <item>20 Giây</item>
+        <item>30 Giây</item>
+        <item>Luôn</item>
+    </string-array>
+
+    <string name="str_set_menutime">Menu Thời gian</string>
+    <string name="str_set_menutime_5sec">5 Giây</string>
+
+    <string-array name="str_arr_set_switchmodetype">
+        <item>Màn hình đen</item>
+        <item>Mirroring</item>
+    </string-array>
+
+    <string name="str_set_switchmode">Switch Mode</string>
+    <string name="str_set_switchmode_blackscreen">Màn hình đen</string>
+    <string name="str_set_autosourceident">Nguồn Xác định</string>
+    <string name="str_set_sourcepreview">Nguồn Preview</string>
+
+    <string-array name="str_arr_set_sourceidenttype">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="str_arr_set_sourcepreviewtype">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="str_arr_set_hdmiarctype">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_set_autosourceswit">Chuyển đổi tự động nguồn</string>
+
+    <string-array name="str_arr_set_sourceswittype">
+       <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_set_off">Đóng</string>
+    <string name="str_set_on">Mở</string>
+    <string name="str_set_colorrange">Nhiều màu sắc</string>
+    <string name="str_set_colorrange_0to255">0~255</string>
+    <string name="str_set_moviemode">Chế độ quay phim</string>
+
+    <string-array name="str_arr_set_moviemodetype">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_set_mhlswitch">Tự động chuyển MHL</string>
+
+    <string-array name="str_arr_set_mhlautoswitch_onoff">
+       <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_set_bluescreenswitch">Màn Hinh Xanh</string>
+
+    <string-array name="str_arr_set_bluescreenswitchtype">
+        <item>Mở</item>
+       <item>Tắt</item>
+    </string-array>
+    <string-array name="str_arr_set_colorrangetype">
+        <item>0~255</item>
+        <item>16~235</item>
+        <item>tự động</item>
+    </string-array>
+
+    <string name="str_set_hdmicec">HDMI_CEC</string>
+
+    <string-array name="str_arr_set_hdmicectype">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_set_standyon">Hệ thống chờ</string>
+
+    <string-array name="str_arr_set_standyontype">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_set_powersetting">Thiết lập nguồn điện</string>
+    <string name="str_set_restoretodefault">Khôi phục Để mặc định</string>
+    <string name="str_set_hdmicec_label">HDMI_CEC</string>
+    <string name="str_set_hdmicec_devicelist">Danh sách thiết bị</string>
+    <string name="str_set_hdmicec_off">Tắt</string>
+    <string name="str_set_hdmicec_onoff">HDMI CEC On/Off</string>
+    <string name="str_set_cc_setting">CC Setting</string>
+    <string name="str_set_boot2launcher">Boot to Launcher</string>
+    <string name="str_set_bootsource">Power on Source</string>
+
+    <string-array name="str_arr_set_hdmicec_onoff">
+       <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="str_arr_set_powersetting_onoff">
+        <item>Mở</item>
+       <item>Tắt</item>
+    </string-array>
+
+    <string name="str_updating_edid">Updating AMP information...</string>
+    <string name="str_set_hdmicec_autostandby">Chế độ chờ tự động</string>
+    <string name="str_set_powersetting_powermusic">Nguồn âm nhạc</string>
+    <string name="str_set_powersetting_powerlogo">Nguồn Logo</string>
+    <string name="str_set_powersetting_powervolume">Nguồn âm lượng</string>
+
+    <!-- Loading -->
+
+    <string name="loading">Nguồn âm lượng</string>
+
+    <!-- for hot key -->
+
+    <string name="volume">Âm Lượng</string>
+    <string name="picture">Chế độ hình ảnh</string>
+    <string name="sound">Chế độ âm thanh</string>
+    <string name="zoom">Chế độ zoom</string>
+    <string name="str_root_alert_dialog_title">Đầu</string>
+    <string name="str_root_alert_dialog_message">Chắc chắn bạn muốn thoát khỏi hệ thống tivi?</string>
+    <string name="go_to_tuning_dialog_message">Go to TV Tuning?</string>
+    <string name="str_root_alert_dialog_confirm">ĐƯỢC</string>
+    <string name="str_root_alert_dialog_cancel">Hủy bỏ</string>
+    <string name="str_root_alert_dialog_message_restore_to_default">Bạn có chắc chắn để khôi phục lại để mặc định?</string>
+
+    <!-- Factory Menu -->
+
+    <string name="str_factory_adc">ADC Điều chỉnh</string>
+    <string name="str_factory_whitebalance">Cân Bằng Trắng</string>
+    <string name="str_factory_picturemode">Chế độ hình ảnh</string>
+    <string name="str_factory_non_standard">Tùy chọn phi tiêu chuẩn</string>
+    <string name="str_factory_non_linear">Non_linear</string>
+    <string name="str_factory_overscan">OverScan</string>
+    <string name="str_factory_ssc">SSC Điều chỉnh</string>
+    <string name="str_factory_peq">PEQ</string>
+    <string name="str_factory_otheroption">Tùy chọn khác</string>
+    <string name="str_factory_adc_source">Nguồn</string>
+    <string name="str_factory_adc_rgain">R Gain</string>
+    <string name="str_factory_adc_ggain">G Gain</string>
+    <string name="str_factory_adc_bgain">B Gain</string>
+    <string name="str_factory_adc_roffset">R Offset</string>
+    <string name="str_factory_adc_goffset">G Offset</string>
+    <string name="str_factory_adc_boffset">B Offset</string>
+    <string name="str_factory_adc_autoadjust">Tự động điều chỉnh</string>
+    <string name="str_factory_wbadjust_source">Nguồn</string>
+    <string name="str_factory_wbadjust_rgain">R Gain</string>
+    <string name="str_factory_wbadjust_ggain">G Gain</string>
+    <string name="str_factory_wbadjust_bgain">B Gain</string>
+    <string name="str_factory_wbadjust_roffset">R Offset</string>
+    <string name="str_factory_wbadjust_goffset">G Offset</string>
+    <string name="str_factory_wbadjust_boffset">B Offset</string>
+    <string name="str_factory_wbadjust_autoadjust">Tự động điều chỉnh</string>
+    <string name="str_factory_wbadjust_colortemp">Nhiệt độ màu</string>
+    <string name="str_factory_picmode_picmode">Chế độ hình ảnh</string>
+    <string name="str_factory_picmode_brightness">Độ sáng</string>
+    <string name="str_factory_picmode_contrast">Tương phản</string>
+    <string name="str_factory_picmode_saturation">màu sắc</string>
+    <string name="str_factory_picmode_hue">Sắc thái</string>
+    <string name="str_factory_picmode_sharpness">Độ sắc nét</string>
+    <string name="str_factory_nonlinear_curvetype">Loại đường cong</string>
+    <string name="str_factory_nonlinear_osd0">OSD_0</string>
+    <string name="str_factory_nonlinear_osd25">OSD_25</string>
+    <string name="str_factory_nonlinear_osd50">OSD_50</string>
+    <string name="str_factory_nonlinear_osd75">OSD_75</string>
+    <string name="str_factory_nonlinear_osd100">OSD_100</string>
+    <string name="str_factory_overscan_source">Nguồn</string>
+    <string name="str_factory_overscan_hsize">H Kích</string>
+    <string name="str_factory_overscan_hposition">H Chức vụ</string>
+    <string name="str_factory_overscan_vsize">V Kích</string>
+    <string name="str_factory_overscan_vposition">V Chức vụ</string>
+    <string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+    <string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+    <string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+    <string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+    <string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+    <string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+    <string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+    <string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+    <string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+    <string name="str_factory_nonstandard_delay">Chậm trễ</string>
+    <string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+    <string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+    <string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+    <string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+    <string name="str_factory_nonstandard_afecd4">AEFC_D4</string>
+    <string name="str_factory_nonstandard_aefcd5">AEFC_D5[2]</string>
+    <string name="str_factory_nonstandard_aefcd8">AEFC_D8[3:0]</string>
+    <string name="str_factory_nonstandard_aefcd9">AEFC_D9[0]</string>
+    <string name="str_factory_nonstandard_aefcd7high">AEFC_D7_HIGH_BOUN</string>
+    <string name="str_factory_nonstandard_aefcd7">AEFC_D7_LOW_BOUN</string>
+    <string name="str_factory_nonstandard_aefca0">AEFC_A0</string>
+    <string name="str_factory_nonstandard_aefca1">AEFC_A1</string>
+    <string name="str_factory_nonstandard_aefc66">AEFC_66[7:6]</string>
+    <string name="str_factory_nonstandard_aefc6e">AEFC_6E[7:4]</string>
+    <string name="str_factory_nonstandard_aefc6elow">AEFC_6E[3:0]</string>
+    <string name="str_factory_nonstandard_aefc43">AEFC_43</string>
+    <string name="str_factory_nonstandard_aefc44">AEFC_44</string>
+    <string name="str_factory_nonstandard_aefccb">AEFC_CB</string>
+    <string name="str_factory_nonstandard_vddsp">AUDIO_NR_TH</string>
+    <string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+    <string name="str_factory_nonstandard_audionr">AUDIO_NR_TH</string>
+    <string name="str_factory_nonstandard_audiosif">Âm thanh Sif Threshold</string>
+    <string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+    <string name="str_factory_ssc_miuenable">MIU Enable</string>
+    <string name="str_factory_ssc_miumodulation">MIU Modulation</string>
+    <string name="str_factory_ssc_miupercentage">MIU Tỷ lệ phần trăm(%)</string>
+    <string name="str_factory_ssc_lvdsenable">LVDS Bật</string>
+    <string name="str_factory_ssc_lvdsmodulation">LVDS Modulation</string>
+    <string name="str_factory_ssc_lvdspercentage">LVDS Tỷ lệ phần trăm(%)</string>
+    <string name="str_factory_peq_fo1coarse">FO1 Thô</string>
+    <string name="str_factory_peq_fo1fine">FO1 Fine</string>
+    <string name="str_factory_peq_fo2coarse">FO2 Thô</string>
+    <string name="str_factory_peq_fo2fine">FO2 Fine</string>
+    <string name="str_factory_peq_fo3coarse">FO3 Thô</string>
+    <string name="str_factory_peq_fo3fine">FO3 Fine</string>
+    <string name="str_factory_peq_gain1">Gain1</string>
+    <string name="str_factory_peq_gain2">Gain2</string>
+    <string name="str_factory_peq_gain3">Gain3</string>
+    <string name="str_factory_peq_q1">Q1</string>
+    <string name="str_factory_peq_q2">Q2</string>
+    <string name="str_factory_peq_q3">Q3</string>
+    <string name="str_factory_otheroption_version">Version</string>
+    <string name="str_factory_otheroption_board">Board</string>
+    <string name="str_factory_otheroption_panel">Bảng điều chỉnh</string>
+    <string name="str_factory_otheroption_dateandtimes">Ngày Giờ</string>
+    <string name="str_factory_otheroption_watchdog">Watch Dog</string>
+    <string name="str_factory_otheroption_testpattern">Kiểm tra mẫu</string>
+    <string name="str_factory_otheroption_restoretodefault">Khôi phục Để mặc định</string>
+    <string name="str_factory_otheroption_poweronmode">Chế độ Power On</string>
+    <string name="str_factory_otheroption_uartenable">UART Bật</string>
+    <string name="str_factory_otheroption_dtvavdelay">DTV AV Delay(Non_standard)</string>
+    <string name="str_factory_otheroption_initialfunction">Initial Kênh</string>
+    <string name="str_factory_otheroption_panelswing">Bảng điều chỉnh Swing</string>
+    <string name="str_factory_otheroption_audioprescale">Âm thanh Prescale</string>
+
+    <!-- for program edit -->
+
+    <string name="str_program_edit_dialog_ok">được</string>
+    <string name="str_program_edit_dialog_cancel">hủy bỏ</string>
+    <string name="str_program_edit_dialog_input">vui lòng nhập</string>
+    <string name="str_no_sinal">Không Tín Hiệu</string>
+    <string name="str_channelList_favorite">Danh sách yêu thích</string>
+    <string name="str_channelList_program">Danh sách kênh</string>
+    <string name="program_guide_time">Hướng dẫn chương trình: Thời gian</string>
+
+    <string name="str_channelList_search">Find</string>
+    <string name="str_channelList_sort">Sort</string>
+    <string-array name="str_sort_type">
+        <item>Default</item>
+        <item>Satellite</item>
+        <item>Channel name</item>
+        <item>Scrambled</item>
+        <item>LCN</item>
+        <item>Frequency</item>
+    </string-array>
+    <!-- For Record Style -->
+    <string name="str_textview_record_title">Ghi đĩa cài đặt</string>
+    <string name="str_textview_record_chaneel_name">Tên kênh</string>
+    <string name="str_textview_record_sbutitle">phụ đề</string>
+    <string name="str_textview_record_context">giá trị</string>
+    <string name="str_textview_record_mode">Chế độ</string>
+    <string name="str_textview_record_start_time">Thời Gian Bắt Đầu</string>
+    <string name="str_textview_record_end_time">Thời Gian Kết Thúc</string>
+    <string name="str_record_date">Ngày</string>
+    <string name="str_record_month">Tháng</string>
+    <string name="str_record_hour">Giờ</string>
+    <string name="str_record_minute">Phút</string>
+
+    <!-- For schedule list style -->
+    <string name="str_textview_schedule_list_title">Lịch Danh sách</string>
+    <string name="str_textview_schedule_list_time">Thời gian</string>
+    <string name="str_textview_schedule_list_date">Ngày</string>
+    <string name="str_schedule_list_channel_name">Tên kênh</string>
+    <string name="str_schedule_list_programmer_title">Lập trình Tiêu đề</string>
+
+    <!-- For schedule list style -->
+    <string name="str_screenshot_tip_title">Screenshot Tip</string>
+    <string name="str_screenshot_tip_msg">Capture màn hình hiện tại cho các hình ảnh khởi động?</string>
+    <string name="str_screenshot_opt_success">Ảnh chụp màn hình Done!</string>
+    <string name="str_screenshot_opt_failed">Ảnh chụp màn hình Fail!</string>
+
+    <!-- For epg -->
+    <string name="str_epg_title_time">Hướng dẫn chương trình: Thời gian</string>
+    <string name="str_epg_title_channel">Hướng dẫn chương trình: Channel</string>
+    <string name="str_epg_tips_b_reminder">Nhắc lại</string>
+    <string name="str_epg_tips_r_record">Ghi</string>
+    <string name="str_epg_tips_y_schedule">Lịch trình</string>
+    <string name="str_epg_tips_g_info">INFO</string>
+    <string name="str_epg_event_extend_no_info">Không Có Thông Tin</string>
+    <string name="str_epg_event_age">Age : </string>
+    <string name="str_epg_event_content">Content : </string>
+    <string name="str_epg_event_genre">Genre : </string>
+    <string name="str_epg_event_name">Biến cố</string>
+    <string name="str_epg_event_rating">Đánh giá</string>
+    <string name="str_epg_event_simulcast_hd">Simulcast</string>
+    <string name="str_epg_event_broadcastlater_hd">Broadcast</string>
+    <string name="str_epg_event_unresolved">Không được giải quyết.</string>
+    <string name="str_epg_timer_conflict">Conflict</string>
+    <string name="str_epg_timer_prompt_delete_conflict_schedule">Delete all Conflict Schedule?</string>
+    <string name="str_epg_timer_delete_conflict_confirm">OK</string>
+    <string name="str_epg_timer_delete_conflict_cancel">Cancel</string>
+    <string-array name="str_arr_epg_time_check_display_info">
+        <item>None</item>
+        <item>Sự thành công</item>
+        <item>Quá khứ</item>
+        <item>Phủ</item>
+        <item>EndTime trước khi bắt đầu</item>
+        <item>EndTime vượt thời gian</item>
+        <item>Đầy</item>
+        <item>Xung đột nhắc nhở mới</item>
+        <item>Xung đột nhắc nhở DB</item>
+    </string-array>
+    <string-array name="str_arr_video_type">
+        <item></item>
+        <item>MPEG</item>
+        <item>H.264</item>
+        <item>AVS</item>
+        <item>VC1</item>
+        <item>HEVC</item>
+    </string-array>
+
+    <!-- For epg Genre-->
+    <string name="str_genre_movie">Movie</string>
+    <string name="str_genre_movie_drama">Movie/Drama</string>
+    <string name="str_genre_movie_drama_general">Movie/Drama(general)</string>
+    <string name="str_genre_news">News</string>
+    <string name="str_genre_news_factual">News and Factual</string>
+    <string name="str_genre_news_current_default">Current Affairs</string>
+    <string name="str_genre_news_current_general">News/Current Affairs(general)</string>
+    <string name="str_genre_news_current">News/Current Affairs</string>
+    <string name="str_genre_entertainment">Entertainment</string>
+    <string name="str_genre_show_general">Show/Game Show(general)</string>
+    <string name="str_genre_show">Show/Game Show</string>
+    <string name="str_genre_sports_general">Sports(general)</string>
+    <string name="str_genre_sport">Sport</string>
+    <string name="str_genre_chidren">Children\'s</string>
+    <string name="str_genre_youth">Children\'s/Youths programmes</string>
+    <string name="str_genre_music_default">Music</string>
+    <string name="str_genre_music_general">Music/Ballet/Dance(general)</string>
+    <string name="str_genre_music">Music/Ballet/Dance</string>
+    <string name="str_genre_art_general">Arts/Culture(without music, general)</string>
+    <string name="str_genre_art">Art/Culture(without music)</string>
+    <string name="str_genre_social_general">Social/Political Issues/Economics(general)</string>
+    <string name="str_genre_social">Social/Political Issues/Economics</string>
+    <string name="str_genre_education_default">Education/Information</string>
+    <string name="str_genre_education_uk">Education</string>
+    <string name="str_genre_education_others_general">Education/Science/Factual Topics(general)</string>
+    <string name="str_genre_education_others">Education/Science/Factual Topics</string>
+    <string name="str_genre_infotainment">Infotainment</string>
+    <string name="str_genre_life_uk">Lifestyle</string>
+    <string name="str_genre_life">Leisure Hobbis</string>
+    <string name="str_genre_not_support">Not Supported</string>
+    <string name="str_genre_original_language">Original Language</string>
+    <string name="str_genre_special">Special</string>
+    <string name="str_genre_special_characteristics">Special Characteristics</string>
+    <string name="str_genre_reserved">Reserved For Future Use</string>
+    <string name="str_genre_drama">Drama</string>
+    <string name="str_genre_user_defined">User Defined</string>
+    <string name="str_genre_undefined">Undefined</string>
+    <string name="str_genre_unclassified">Unclassified</string>
+    <string name="str_genre_comedy">Comedy</string>
+    <string name="str_genre_documentary">Documentary</string>
+
+    <string-array name="str_arr_epg_genre_uk">
+        <item>@string/str_genre_unclassified</item>
+        <item>@string/str_genre_movie</item>
+        <item>@string/str_genre_news_factual</item>
+        <item>@string/str_genre_entertainment</item>
+        <item>@string/str_genre_sport</item>
+        <item>@string/str_genre_chidren</item>
+        <item>@string/str_genre_entertainment</item>
+        <item>@string/str_genre_news_factual</item>
+        <item>@string/str_genre_news_factual</item>
+        <item>@string/str_genre_education_uk</item>
+        <item>@string/str_genre_life_uk</item>
+        <item>@string/str_genre_not_support</item>
+        <item>@string/str_genre_not_support</item>
+        <item>@string/str_genre_not_support</item>
+        <item>@string/str_genre_not_support</item>
+        <item>@string/str_genre_drama</item>
+    </string-array>
+
+    <string-array name="str_arr_epg_genre_nz">
+        <item>@string/str_genre_undefined</item>
+        <item>@string/str_genre_movie_drama_general</item>
+        <item>@string/str_genre_news_current_general</item>
+        <item>@string/str_genre_show_general</item>
+        <item>@string/str_genre_sports_general</item>
+        <item>@string/str_genre_youth</item>
+        <item>@string/str_genre_music_general</item>
+        <item>@string/str_genre_art_general</item>
+        <item>@string/str_genre_social_general</item>
+        <item>@string/str_genre_education_others_general</item>
+        <item>@string/str_genre_life</item>
+        <item>@string/str_genre_original_language</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_user_defined</item>
+    </string-array>
+
+    <string-array name="str_arr_epg_genre_au">
+        <item></item>
+        <item>@string/str_genre_movie</item>
+        <item>@string/str_genre_news</item>
+        <item>@string/str_genre_entertainment</item>
+        <item>@string/str_genre_sport</item>
+        <item>@string/str_genre_chidren</item>
+        <item>@string/str_genre_music_default</item>
+        <item>@string/str_genre_art</item>
+        <item>@string/str_genre_news_current_default</item>
+        <item>@string/str_genre_education_default</item>
+        <item>@string/str_genre_infotainment</item>
+        <item>@string/str_genre_special</item>
+        <item>@string/str_genre_comedy</item>
+        <item>@string/str_genre_drama</item>
+        <item>@string/str_genre_documentary</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="str_arr_epg_genre_default">
+        <item>@string/str_genre_unclassified</item>
+        <item>@string/str_genre_movie_drama</item>
+        <item>@string/str_genre_news_current</item>
+        <item>@string/str_genre_show</item>
+        <item>@string/str_genre_sport</item>
+        <item>@string/str_genre_youth</item>
+        <item>@string/str_genre_music</item>
+        <item>@string/str_genre_art</item>
+        <item>@string/str_genre_social</item>
+        <item>@string/str_genre_education_others</item>
+        <item>@string/str_genre_life</item>
+        <item>@string/str_genre_special_characteristics</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_reserved</item>
+        <item>@string/str_genre_user_defined</item>
+    </string-array>
+    <!-- For schedule list style -->
+    <string name="str_left_time">Thời gian còn lại:</string>
+    <string name="str_left_time_choosen_yes">Vâng</string>
+    <string name="str_left_time_choosen_no">Không</string>
+
+    <!-- For screen mode hint msg -->
+    <string name="str_invalid_service">DỊCH VỤ HỢP LỆ</string>
+    <string name="str_no_ci_module">NO CI MODULE</string>
+    <string name="str_ci_plus_authentication">CI + XÁC THỰC</string>
+    <string name="str_scrambled_program">CHƯƠNG TRÌNH scrambled</string>
+    <string name="str_program_block">CHƯƠNG TRÌNH BLOCK</string>
+    <string name="str_parental_block">BLOCK PHỤ HUYNH</string>
+    <string name="str_rating_blocked">XẾP HẠNG BLOCKED</string>
+    <string name="str_channel_block">Kênh Bị Khóa</string>
+    <string name="str_input_block">INPUT BLOCK</string>
+    <string name="str_audio_only">AUDIO CHỈ</string>
+    <string name="str_data_only">DỮ LIỆU CHỈ</string>
+    <string name="str_common_video">Video CHUNG</string>
+    <string name="str_unsupported">Không được hỗ trợ</string>
+    <string name="str_no_channel_banner">NO CHANNEL</string>
+    <string name="str_invalid_pmt">INVALID PMT</string>
+    <string name="str_no_signal">KHÔNG TÍN HIỆU</string>
+    <string name="str_no_signal_record">NO SIGNAL REC STOP</string>
+    <string name="str_no_signal_timeshift">NO SIGNAL TIMESHIFT STOP</string>
+
+    <!-- For auto update scan -->
+    <string name="str_auto_update_scan">Cập nhật tự động quét</string>
+
+    <!-- For channel control -->
+    <string name="str_channelcontrol_scan">QUÉT</string>
+    <string name="str_channelcontrol_channels">KÊNH:</string>
+    <string name="str_channelcontrol_notfound">Kênh không tìm thấy</string>
+    <string name="str_channelcontrol_done">DONE</string>
+
+    <!-- For Toast style -->
+    <string name="str_3d_toast">MWe chế độ tắt để thực hiện chế độ 3D validate</string>
+    <string name="str_demo_toast">Chế độ 3D tắt để thực hiện chế độ MWe validate</string>
+    <string name="str_cha_cities_choosen">lựa chọn thành phố</string>
+    <string name="str_invalid_3d_format">Invalid 3D Format</string>
+
+    <string-array name="cities_option_array">
+        <item>Khác</item>
+        <item>Beijing</item>
+        <item>Anhui</item>
+        <item>Hefei</item>
+        <item>Anqin</item>
+        <item>Bengbu</item>
+        <item>Xiamen</item>
+        <item>Quanzhou</item>
+        <item>Luoyang</item>
+        <item>Zhangzhou</item>
+        <item>Guangzhou</item>
+        <item>Guangdong</item>
+        <item>Dongguan</item>
+        <item>Guiyang</item>
+        <item>Haikou</item>
+        <item>Shijiazhuang</item>
+        <item>Qinhuangdao</item>
+        <item>Tangshan</item>
+        <item>Haerbin</item>
+        <item>Zhengzhou</item>
+        <item>Luoyang</item>
+        <item>Nanyang</item>
+        <item>Hubei</item>
+        <item>Wuhan</item>
+        <item>Huanggang</item>
+        <item>Jingzhou</item>
+        <item>Yichang</item>
+        <item>ChangshaGuangda</item>
+        <item>ChangshaGuoan</item>
+        <item>Nantong</item>
+        <item>Nanchang</item>
+        <item>Jilin</item>
+        <item>Dalian</item>
+        <item>Huhehaote</item>
+        <item>Xian</item>
+        <item>Chengdu</item>
+        <item>Wulumuqi</item>
+        <item>Jinhua</item>
+        <item>Ningbo</item>
+        <item>Shaoxing</item>
+    </string-array>
+
+    <!-- For CA mode -->
+    <string name="email_theme">THEME</string>
+    <string name="email_time">THỜI GIAN</string>
+    <string name="email_level">CẤP</string>
+    <string name="email_state">NHÀ NƯỚC</string>
+    <string name="email_aid">[Nút đỏ] Xóa [Nút Xanh] Xóa tất cả</string>
+    <string name="email_del">[Nút đỏ] Xóa</string>
+    <string name="email_free_space">KHÔNG GIAN TRÔNG:</string>
+    <string name="email_free_letter">THƯ</string>
+    <string name="email_important">QUAN TRỌNG</string>
+    <string name="email_ordinary">THƯỜNG</string>
+    <string name="email_read">READ</string>
+    <string name="email_unread">UNREAD</string>
+    <string name="email">EMAIL</string>
+    <string name="email_notify">THÔNG BÁO</string>
+    <string name="really_remove_this_email">thực sự loại bỏ email này?</string>
+    <string name="really_remove_all_email">thực sự loại bỏ tất cả các email?</string>
+    <string name="ippv_freeviewed_segment">IPPV FREEVIEWED PHẬN</string>
+    <string name="ippv_payviewed_segment">IPPV PAYVIEWED PHẬN</string>
+    <string name="ippt_payviewed_segment">IPPT PAYVIEWED PHẬN</string>
+    <string name="ippv_tvsid">TVS ID：</string>
+    <string name="ippv_payviewed_productid">ID sản phẩm:：</string>
+    <string name="ippv_payviewed_slotid">SLOT ID：</string>
+    <string name="ippv_product_state">NHÀ SẢN PHẨM:</string>
+    <string name="ippv_payviewed_expireddate">NGÀY HẾT HẠN:</string>
+    <string name="ippt_interval_min">MIN INTERVAL:</string>
+    <string name="ippv_payviewed_cantape">Giá Cantape:</string>
+    <string name="ippv_payviewed_price">GIÁ：</string>
+    <string name="ippv_payviewed_cannottape">Giá Cannottape:</string>
+    <string name="ippv_pin">PIN：</string>
+    <string name="ippv_pin_ok">Sự thành công</string>
+    <string name="ippv_pointer_invalid">con trỏ không hợp lệ</string>
+    <string name="ippv_card_invalid">không hợp lệ thẻ</string>
+    <string name="ippv_card_no_room">Thẻ không phòng</string>
+    <string name="ippv_prog_status_invalid">tình trạng chương trình không hợp lệ</string>
+    <string name="ippv_pin_invalid">pin không hợp lệ</string>
+    <string name="ippv_data_not_find">dữ liệu không tìm thấy</string>
+    <string name="ippv_info_page">HIỆN TẠI TRANG / IPPV SUM:</string>
+    <string name="ippv_product_state_booking">ĐẶT PHÒNG</string>
+    <string name="ippv_product_state_viewed">XEM</string>
+    <string name="ippv_can_tape">YES</string>
+    <string name="ippv_can_not_tape">NO</string>
+    <string name="str_ca_mg_child_or_parent_card">CARD：</string>
+    <string name="str_ca_mg_child_or_parent_card1">CARD</string>
+    <string name="str_ca_mg_child_card">thẻ con</string>
+    <string name="str_ca_mg_parent_card">thẻ mẹ</string>
+    <string name="str_ca_mg_parent_cardnum">CARDNUM PHỤ HUYNH:</string>
+    <string name="str_ca_mg_child_cardnum">CHILD_CARDNUM:</string>
+    <string name="str_ca_mg_delaytime">THỜI GIAN TRÌ HOÃN：</string>
+    <string name="str_ca_mg_delaytime1">THỜI GIAN TRÌ HOÃN</string>
+    <string name="str_ca_mg_lastfeedtime">LAST FEED TIME：</string>
+    <string name="str_ca_mg_lastfeedtime1">LAST FEED TIME</string>
+    <string name="str_ca_mg_ippv_program">IPPV CHƯƠNG TRÌNH</string>
+    <string name="str_ca_mg_card_info">CARD INFO</string>
+    <string name="really_remove_this_info">thực sự loại bỏ thông tin này?</string>
+    <string name="really_remove_all_info">thực sự loại bỏ tất cả thông tin?</string>
+    <string name="is_update">Bạn có muốn nâng cấp?</string>
+    <string name="update_loading">LOADING...</string>
+    <string name="installing">LOADING....</string>
+    <string name="update_complete_is_reboot">khởi động lại hệ thống?</string>
+    <string name="update_failed">cập nhật thất bại</string>
+    <string name="please_insert_parent_card">xin vui lòng chèn thẻ mẹ</string>
+    <string name="please_insert_child_card">xin vui lòng chèn thẻ con</string>
+    <string name="read_feeddata_from_parent_failed">Đọc dữ liệu thất bại</string>
+    <string name="feeddata_successed">THÀNH CÔNG</string>
+    <string name="feeddata_failed">FAIL</string>
+    <string name="delete_successed">DELETE successed</string>
+    <string name="delete_failed">DELETE FAILED</string>
+    <string name="cdca_rc_ok">Máy thẻ hiện hành tương ứng</string>
+    <string name="cdca_rc_card_pairother">cặp thẻ khác</string>
+    <string name="cdca_rc_card_nopair">nopair thẻ</string>
+    <string name="cdca_rc_invalid">không hợp lệ thẻ</string>
+    <string name="need_please_insert_child_card">xin vui lòng chèn thẻ con</string>
+    <string name="ippv_cdca_rc_ok">được</string>
+    <string name="ippv_cdca_rc_data_not_find">dữ liệu không tìm thấy</string>
+    <string name="cdca_rc_pointer_invalid">con trỏ không hợp lệ</string>
+    <string name="clean_J2T_value">Làm sạch các giá trị đầu vào thời gian</string>
+    <string name="str_stop_record_dialog_title">DỪNG GHI</string>
+    <string name="str_stop_record_dialog_message">Hệ thống sẽ dừng lại hồ sơ nếu người dùng muốn thay đổi kênh</string>
+    <string name="str_stop_record_playback_dialog_message">Hệ thống sẽ dừng ghi âm và phát lại nếu người dùng muốn thay đổi kênh</string>
+    <string name="str_stop_record_dialog_confirm">Xác nhận</string>
+    <string name="str_stop_record_dialog_cancel">Hủy bỏ</string>
+    <string name="str_stop_record_dialog_stop">Dừng lại</string>
+    <string name="str_stop_playback_dialog_title">DỪNG PLAYBACKING</string>
+    <string name="str_stop_playback_dialog_message">Hệ thống sẽ ngừng phát lại nếu người dùng muốn thay đổi kênh</string>
+    <string name="str_disk_too_slow">Speed ​​Disk là quá thấp</string>
+    <string name="enter_old_pwd">Vui lòng nhập mật khẩu cũ</string>
+    <string name="enter_check_pwd">Vui lòng nhập mật khẩu</string>
+    <string name="enter_new_pwd">Vui lòng nhập mật khẩu mới</string>
+    <string name="confirm_new_pwd">Vui lòng xác nhận mật khẩu mới</string>
+    <string name="block_program_title">Chương trình khối</string>
+
+    <string-array name="guidance_list">
+        <item>Tắt</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="guidance_list_singapore_string">
+        <item>OFF</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>PG13</item>
+        <item>NC16</item>
+        <item>M18</item>
+        <item>R21</item>
+    </string-array>
+
+    <string-array name="guidance_list_australian_string">
+        <item>OFF</item>
+        <item>Block All</item>
+        <item>P</item>
+        <item>C</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>M</item>
+        <item>MA15+</item>
+        <item>AV15+</item>
+        <item>R</item>
+    </string-array>
+
+    <string-array name="contentlock_list">
+        <item>None</item>
+        <item>Drugs</item>
+        <item>Violence</item>
+        <item>Violence and Drugs</item>
+        <item>Sex</item>
+        <item>Sex and Drugs</item>
+        <item>Violence and Sex</item>
+        <item>Violence, Sex and Drugs</item>
+    </string-array>
+    <string name="str_dtv_source_info_age">Tuổi</string>
+
+    <!-- FOR  Option -->
+    <string name="str_menu_option">OPTION</string>
+    <string name="str_option_caption">Phụ đề</string>
+    <string name="str_option_caption_off">Tắt</string>
+    <string name="str_option_ginga_on_off">Ginga</string>
+    <string name="str_option_ginga_on">TRên</string>
+    <string name="str_option_ginga_off">Tắt</string>
+    <string name="str_option_ginga_list">Ginga Application</string>
+    <string name="str_option_store_cookies">Cửa hàng Cookies</string>
+    <string name="str_option_store_cookies_off">Tắt</string>
+    <string name="str_option_store_cookies_on">TRên</string>
+
+    <string-array name="str_arr_option_caption">
+        <item>Tắt</item>
+        <item>Mở</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="str_arr_option_closed_caption">
+        <item>Tắt</item>
+        <item>Mở</item>
+        <item>ON When Muted</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="str_arr_option_store_cookies">
+        <item>@string/str_option_store_cookies_off</item>
+        <item>@string/str_option_store_cookies_on</item>
+    </string-array>
+
+    <!-- for box only -->
+    <string name="wait_for_tuning_hint">"Xin vui lòng chờ tunning ..."</string>
+    <string name="str_pic_xvycc">xvYCC</string>
+
+    <string-array name="str_arr_xvycc_vals">
+        <item>Mở</item>
+
+
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_vchip_vchip">Cài đặt V-chip</string>
+    <string name="str_vchip_button_lock">Nút Lock</string>
+
+    <string-array name="str_arr_vchip_button_lock_vals">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_vchip_block_unrated_tv">Khối Unrated TV</string>
+
+    <string-array name="str_arr_vchip_block_unrated_tv_vals">
+       <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <string name="str_vchip_usa_parental_control">USA Parental Control</string>
+    <string name="str_vchip_rrt5_setting">RRT5 Setting</string>
+    <string name="str_vchip_reset_rrt5l">Đặt lại RRT5</string>
+    <string name="str_vchip_change_password">Đổi Mật Khẩu</string>
+    <string name="str_vchip_check_password">Kiểm tra Password</string>
+    <string name="str_vchip_enter_check_pwd">Vui lòng nhập mật khẩu</string>
+    <string name="str_vchip_enter_old_pwd">Mật khẩu cũ</string>
+    <string name="str_vchip_enter_new_pwd">mật khẩu mới</string>
+    <string name="str_vchip_confirm_new_pwd">Xác nhận mật khẩu</string>
+    <string name="changepassword_title">Đổi Mật Khẩu</string>
+    <string name="old_password">Mật Khẩu Cũ</string>
+    <string name="new_password">Mật Khẩu Mới</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="oldpasswordtip">Nhập mật khẩu cũ.</string>
+    <string name="newpasswordtip">Nhập mật khẩu mới.</string>
+    <string name="confirmpasswordtip">Nhập xác nhận mật khẩu.</string>
+    <string name="sure">chắc chắn</string>
+    <string name="cancel">hủy bỏ</string>
+    <string name="clean">sạch</string>
+    <string name="passwordsettip">Vui lòng nhập mật khẩu.</string>
+    <string name="enterpassword">Nhập Mật Khẩu</string>
+    <string name="password">mật khẩu:</string>
+    <string name="password_tip_old">Vui lòng nhập mật khẩu cũ.</string>
+    <string name="password_tip_new">Vui lòng nhập mật khẩu mới.</string>
+    <string name="password_tip_condirm">Vui lòng xác nhận mật khẩu mới.</string>
+    <string name="errortip">Các mật khẩu là incorrect.Please nhập mật khẩu một lần nữa.</string>
+
+    <!-- for USA Parental Control -->
+    <string name="usa_movie_ratings">Movie Ratings</string>
+    <string name="usa_movie_ratings_none">None</string>
+    <string name="usa_movie_ratings_g">G</string>
+    <string name="usa_movie_ratings_pg">PG</string>
+    <string name="usa_movie_ratings_pg_13">PG-13</string>
+    <string name="usa_movie_ratings_r">R</string>
+    <string name="usa_movie_ratings_nc_17">NC-17</string>
+    <string name="usa_movie_ratings_x">X</string>
+    <string name="usa_movie_ratings_nr">NR</string>
+    <string name="usa_tv_ratings">TV Ratings</string>
+    <string name="usa_tv_ratings_none">None</string>
+    <string name="usa_tv_ratings_tv_y">TV-Y</string>
+    <string name="usa_tv_ratings_tv_y7">TV-Y7</string>
+    <string name="usa_tv_ratings_tv_g">TV-G</string>
+    <string name="usa_tv_ratings_tv_pg">TV-PG</string>
+    <string name="usa_tv_ratings_tv_14">TV-14</string>
+    <string name="usa_tv_ratings_tv_ma">TV-MA</string>
+    <string name="usa_tv_ratings_tv_title_all">ALL</string>
+    <string name="usa_tv_ratings_tv_title_fv">FV</string>
+    <string name="usa_tv_ratings_tv_title_l">L</string>
+    <string name="usa_tv_ratings_tv_title_s">S</string>
+    <string name="usa_tv_ratings_tv_title_v">V</string>
+    <string name="usa_tv_ratings_tv_title_d">D</string>
+    <string name="contentdescription">vô giá trị</string>
+
+    <string name="old_password_not_filled_completely">Mật khẩu cũ không được điền hoàn toàn. Vui lòng nhập lại.</string>
+    <string name="new_password_not_filled_completely">Mật khẩu mới không đầy hoàn toàn. Vui lòng nhập lại.</string>
+    <string name="originalpassworderr">Các mật khẩu ban đầu là không chính xác. Vui lòng nhập lại.</string>
+    <string name="newconfirmpassworderr">TCác mật khẩu và mật khẩu mới để xác nhận không match.Please nhập lại.</string>
+    <string name="resetsuccess">Đặt lại mật khẩu thành công.</string>
+    <string name="resetrrt5_title">Đặt lại RRT5</string>
+    <string name="resetrrt5_tips">Bạn có chắc không?</string>
+
+    <!-- for Canadian Parental Control -->
+    <string name="str_vchip_canadian_parental_control">Parental Control Canada</string>
+
+    <string-array name="setting_canadian_parental_locks_titles">
+        <item>Canada English</item>
+        <item>Pháp Canada</item>
+    </string-array>
+    <string-array name="canadian_english_titles">
+        <item>E</item>
+        <item>C</item>
+        <item>C8+</item>
+        <item>G</item>
+        <item>PG</item>
+        <item>14+</item>
+        <item>18+</item>
+    </string-array>
+    <string-array name="canadian_french_titles">
+        <item>E</item>
+        <item>G</item>
+        <item>8 ans+</item>
+        <item>13 ans+</item>
+        <item>16 ans+</item>
+        <item>18 ans+</item>
+    </string-array>
+    <string-array name="setting_canadian_parental_locks_values">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="rrt5_value">
+        <item>Mở khóa</item>
+        <item>Khóa</item>
+    </string-array>
+    <string-array name="vchip_setting_titles">
+        <item>Nút khóa</item>
+        <item>Khối Unrated TV</item>
+        <item>USA Khóa Parental</item>
+        <item>Khóa Parental Canada</item>
+        <item>RRT5 cài đặt </item>
+        <item>Đặt lại RRT5</item>
+        <item>Đổi Mật Khẩu</item>
+    </string-array>
+
+    <!-- Closed Caption -->
+    <string name="str_setting_cc_title">Cài đặt CC</string>
+    <string name="str_setting_cc_mode">Chế độ CC</string>
+    <string name="str_setting_cc_basic_selection">Lựa chọn cơ bản</string>
+    <string name="str_setting_cc_advanced_selection">Lựa chọn nâng cao</string>
+    <string name="str_setting_cc_advanced_setting">Cài Đặt Nâng Cao</string>
+
+    <string-array name="setting_closed_caption">
+        <item>Chế độ CC</item>
+        <item>Lựa chọn cơ bản</item>
+        <item>Lựa chọn nâng cao</item>
+        <item>Cài Đặt Nâng Cao</item>
+    </string-array>
+    <string-array name="str_arr_setting_cc_mode_vals">
+        <item>Mở</item>
+        <item>Tắt</item>
+        <item>Tắt tiếng</item>
+    </string-array>
+    <string-array name="str_arr_setting_cc_basic_selection_vals">
+        <item>Tắt</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>Text1</item>
+        <item>Text2</item>
+        <item>Text3</item>
+        <item>Text4</item>
+    </string-array>
+    <string-array name="str_arr_setting_cc_advanced_selection_vals">
+        <item>Tắt</item>
+        <item>dịch vụ1</item>
+        <item>dịch vụ2</item>
+        <item>dịch vụ3</item>
+        <item>dịch vụ4</item>
+        <item>dịch vụ5</item>
+        <item>dịch vụ6</item>
+    </string-array>
+
+    <string name="audio_type_mpeg">MPEG</string>
+    <string name="audio_type_dolby_d">Dolby D</string>
+    <string name="audio_type_aac">AAC</string>
+    <string name="audio_type_ac3p">AC3P</string>
+    <string name="audio_type_dra1">DRA1</string>
+
+    <string-array name="str_arr_setting_audio_type_iso_text">
+        <item></item>
+        <item>C.E</item>
+        <item>H.I.</item>
+        <item>V.I.</item>
+    </string-array>
+
+    <!-- for Audio Info AAC Profile And Level -->
+    <string name="aac_level1">AAC L1</string>
+    <string name="aac_level2">AAC L2</string>
+    <string name="aac_level4">AAC L4</string>
+    <string name="aac_level5">AAC L5</string>
+    <string name="he_aac_level2">HE-AAC L2</string>
+    <string name="he_aac_level3">HE-AAC L3</string>
+    <string name="he_aac_level4">HE-AAC L4</string>
+    <string name="he_aac_level5">HE-AAC L5</string>
+    <!-- Closed Caption Digital -->
+    <string name="str_setting_cc_dig_title">Cài đặt ADV CC</string>
+    <string name="str_setting_cc_dig_mode">Chế độ</string>
+    <string name="str_setting_cc_dig_font_style">Loại Phông chữ</string>
+    <string name="str_setting_cc_dig_font_size">Cỡ Chữ</string>
+    <string name="str_setting_cc_dig_font_edge_style">Góc Phông chữ</string>
+    <string name="str_setting_cc_dig_font_edge_color">Màu Phông chữ</string>
+    <string name="str_setting_cc_dig_fg_color">Màu FG</string>
+    <string name="str_setting_cc_dig_bg_color">BG Color</string>
+    <string name="str_setting_cc_dig_fg_opacity">FG Opacity</string>
+    <string name="str_setting_cc_dig_bg_opacity">BG Opacity</string>
+    <string name="str_setting_cc_italic_attr">Nghiêng</string>
+    <string name="str_setting_cc_underline_attr">Gạch dưới</string>
+
+    <string-array name="setting_digital_cc_mode">
+        <item>Khách hàng</item>
+        <item>Lỗi</item>
+    </string-array>
+    <string-array name="setting_digital_cc_font_size">
+        <item>Bình thường</item>
+        <item>Nhỏ</item>
+        <item>Lớn</item>
+        <item>Lỗi</item>
+    </string-array>
+    <string-array name="setting_digital_cc_font_style">
+        <item>Lỗi</item>
+        <item>Style1</item>
+        <item>Style2</item>
+        <item>Style3</item>
+        <item>Style4</item>
+        <item>Style5</item>
+        <item>Style6</item>
+        <item>Style7</item>
+    </string-array>
+    <string-array name="setting_digital_cc_font_edge_style">
+        <item>Không ai</item>
+        <item>Lớn lên</item>
+        <item>Chán nản</item>
+        <item>Đồng dạng</item>
+        <item>Bóng trái</item>
+        <item>Bóng phải</item>
+        <item>Lỗi</item>
+    </string-array>
+    <string-array name="setting_digital_cc_caption_color">
+        <item>Đen</item>
+        <item>Đỏ</item>
+        <item>Xanh</item>
+        <item>Vàng</item>
+        <item>Màu xanh</item>
+        <item>Màu đỏ sậm</item>
+        <item>Cyan</item>
+        <item>Trắng</item>
+        <item>Lỗi</item>
+    </string-array>
+    <string-array name="setting_digital_cc_caption_opacity">
+        <item>Chắc</item>
+        <item>Flashing</item>
+        <item>Trong suốt</item>
+        <item>Minh bạch</item>
+        <item>Lỗi</item>
+    </string-array>
+    <string-array name="setting_digital_cc_italic_attr">
+         <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="setting_digital_cc_underline_attr">
+         <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <!-- For OAD string define -->
+    <string name="str_oad_msg_software_not_available">OAD là không có sẵn!</string>
+    <string name="str_oad_msg_download_found">Phần mềm mới được phát hiện</string>
+    <string name="str_oad_msg_dowload_prompt">Tải về nó bây giờ?</string>
+    <string name="str_oad_msg_dowload_prompt_nz">Một phần mềm nâng cấp hãy chọn YES để nâng cấp ngay -. Điều này sẽ mất một vài phút - hoặc để ở chế độ chờ (nút trên remote tắt) whenfinished xem để nâng cấp sau này Cảm ơn bạn.</string>
+    <string name="str_oad_msg_downloading"> ĐangTải</string>
+    <string name="str_oad_msg_downloading_nz">Một phần mềm nâng cấp cần thiết hiện đang được tải. Điều này sẽ chỉ mất một vài phút. Vui lòng không điều chỉnh máy thu của bạn hoặc tắt công tất trong thời gian này. Cảm ơn bạn.</string>
+    <string name="str_oad_msg_scan_confirm">Bạn có muốn bắt đầu tìm kiếm các phần mềm mới?</string>
+    <string name="str_oad_downloadprogress_percent_0">0%</string>
+    <string name="str_oad_yes">Vâng</string>
+    <string name="str_oad_no">Không</string>
+    <string name="str_oad_exit">Thoát</string>
+
+    <string-array name="str_arr_software_update_oad_value">
+         <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="str_arr_oad_view_prompt_value">
+         <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+
+    <!-- For NIT update string define -->
+    <string name="str_nit_msg_frequency_change_confirm">Frequency change! Re-scan is required.\nPress OK to scan channel. This may take some time to finish action.\nPress Exit to ignore required.</string>
+    <string name="str_nit_msg_multiplexer_add_confirm">New multiplex might be available! Re-scan is required.\nPress OK to scan channel. This may take some time to finish action.\nPress Exit to ignore required.</string>
+    <string name="str_nit_msg_multiplexer_remove_confirm">Multiplex removed might be available! Re-scan is required.\nPress OK to scan channel. This may take some time to finish action.\nPress Exit to ignore required.</string>
+    <string name="str_nit_ok">OK</string>
+    <string name="str_nit_exit">Exit</string>
+    <!-- For DVBS LNB Setting -->
+    <string name="str_lnbsetting_title">Cài đặt LNB</string>
+    <string name="str_lnbsetting_satellite">Truyền hình vệ tinh</string>
+    <string name="str_lnbsetting_transponder">Transponder</string>
+    <string name="str_lnbsetting_transponder_freq">(MHz)</string>
+    <string name="str_lnbsetting_transponder_symbol">(kS/s)</string>
+    <string name="str_lnbsetting_lnbpower">LNB khởi động</string>
+    <string name="str_lnbsetting_compensation">Bồi thường dài cáp</string>
+    <string name="str_lnbsetting_frequencies">LNB thấp / Tần số cao</string>
+    <string name="str_lnbsetting_frequencies_title">Loại LNB</string>
+    <string name="str_lnbsetting_frequencies_low">Thấp</string>
+    <string name="str_lnbsetting_frequencies_high">Cao</string>
+    <string name="str_lnbsetting_frequencies_set">Changing Setting</string>
+    <string name="str_lnbsetting_22knz_tone">22kHz Tone</string>
+    <string name="str_lnbsetting_toneburst">Toneburst</string>
+    <string name="str_lnbsetting_diseqc_1_0">DiSEqC 1.0</string>
+    <string name="str_lnbsetting_diseqc_1_1">DiSEqC 1.1</string>
+    <string name="str_lnbsetting_diseqc_1_2">DiSEqC 1.2</string>
+    <string name="str_lnbsetting_diseqc_1_3">DiSEqC 1.3</string>
+    <string name="str_lnboptting_diseqc_change">Changing DiSEqC</string>
+    <string name="str_lnbsetting_motor_none">Không ai</string>
+    <string name="str_lnbsetting_motor">Động cơ</string>
+    <string name="str_lnbsetting_signalquality">Chất lượng</string>
+    <string name="str_lnbsetting_strength">Sức mạnh</string>
+    <string name="str_lnbsetting_singlecable">Cáp Đơn</string>
+    <string name="str_lnbsetting_singlecable_none">Không</string>
+    <string name="str_lnbsetting_singlecable_slot">Khe</string>
+    <string name="str_lnbsetting_singlecable_freq">Tần số</string>
+    <string name="str_lnbsetting_singlecable_pin">Ghim</string>
+    <string name="str_lnbsetting_singlecable_lnb">LNB</string>
+    <string name="str_lnbsetting_singlecable_verify">Xác nhận</string>
+    <string name="str_lnboption_menu_hint_add">Thêm vào</string>
+    <string name="str_lnboption_menu_hint_delete">Xóa bỏ</string>
+    <string name="str_lnboption_menu_hint_edit">Chỉnh sửa</string>
+    <string name="str_lnboption_menu_hint_position">Vị trí</string>
+    <string name="str_lnboption_menu_hint_limit">Giới hạn</string>
+    <string name="str_lnboption_menu_hint_location">Vị trí</string>
+    <string name="str_lnboption_editor_number">Không.</string>
+    <string name="str_lnboption_editor_longitude_direction">Hướng Kinh độ</string>
+    <string name="str_lnboption_editor_longitude_angle">Kinh độ góc</string>
+    <string name="str_lnboption_editor_frequency">Tần số</string>
+    <string name="str_lnboption_editor_symbolrate">Ký hiệu tốc độ</string>
+    <string name="str_lnboption_editor_band">Ban Nhạc</string>
+    <string name="str_lnboption_editor_polarization">Sự phân cực</string>
+    <string name="str_lnboption_editor_rename">Đổi tên</string>
+    <string name="str_lnboption_editor_name">Tên</string>
+    <string name="str_lnboption_editor_del_dialog_title">Đầu</string>
+    <string name="str_lnboption_editor_del_dialog_msg">Xóa mục đã chọn?</string>
+    <string name="str_lnboption_editor_del_dialog_yes">Vâng</string>
+    <string name="str_lnboption_editor_del_dialog_no">Không</string>
+    <string name="str_lnb_motor_editor_title">Cài đặt động cơ</string>
+    <string name="str_lnb_motor_editor_move_auto">Tự động Di chuyển </string>
+    <string name="str_lnb_motor_editor_move_continue"> Tiếp tục Di chuyển</string>
+    <string name="str_lnb_motor_editor_move_step">Chuyển Bước (1)</string>
+    <string name="str_lnb_motor_editor_store_position">Vị trí cửa hàng</string>
+    <string name="str_lnb_motor_editor_goto_position">Tới Vị trí</string>
+    <string name="str_lnb_motor_editor_set_west_limit">Đặt giới hạn Tây</string>
+    <string name="str_lnb_motor_editor_set_east_limit">Đặt giới hạn Đông</string>
+    <string name="str_lnb_motor_editor_goto_reference">Tới tham khảo</string>
+    <string name="str_lnb_motor_editor_goto_x">Tới X</string>
+    <string name="str_lnb_motor_editor_disable_limit">Vô hiệu hoá Limit</string>
+    <string name="str_lnb_motor_editor_location">Địa điểm:</string>
+    <string name="str_lnb_motor_editor_longitude_direction">Hướng Kinh độ</string>
+    <string name="str_lnb_motor_editor_longitude_angle">Kinh độ góc</string>
+    <string name="str_lnb_motor_editor_latitude_direction">Hướng Latitude</string>
+    <string name="str_lnb_motor_editor_latitude_angle">Góc Latitude</string>
+    <string name="str_lnb_motor_editor_ok">Được</string>
+    <string name="str_lnb_motor_editor_stop">Dừng lại</string>
+    <string name="str_lnb_motor_editor_east">Đông</string>
+    <string name="str_lnb_motor_editor_west">Tây</string>
+
+    <string-array name="str_arr_lnbpower_option">
+        <item>Tắt</item>
+        <item>13/18V</item>
+        <item>13V</item>
+        <item>18V</item>
+        <item>14/19V</item>
+        <item>14V</item>
+        <item>19V</item>
+    </string-array>
+    <string-array name="str_arr_compensation_option">
+        <item>Tắt</item>
+        <item>Mở</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_option">
+        <item>UNIVERSAL</item>
+        <item>MDU_1</item>
+        <item>MDU_2</item>
+        <item>MDU_3</item>
+        <item>MDU_4</item>
+        <item>5150_MHZ</item>
+        <item>5750_MHZ</item>
+        <item>5150_5750_MHZ</item>
+        <item>9750_MHZ</item>
+        <item>10600_MHZ</item>
+        <item>10750_MHZ</item>
+        <item>11250_MHZ</item>
+        <item>11300_MHZ</item>
+        <item>11475_MHZ</item>
+        <item>9750_10700_MHZ</item>
+        <item>9750_10750_MHZ</item>
+        <item>10000_10450_MHZ</item>
+        <item>USER_MODE</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_low">
+        <item>9750</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>5150</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+        <item>9750</item>
+        <item>9750</item>
+        <item>10000</item>
+        <item>9750</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_high">
+        <item>10600</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+        <item>10700</item>
+        <item>10750</item>
+        <item>10450</item>
+        <item>10600</item>
+    </string-array>
+    <string-array name="str_arr_22knz_tone_option">
+        <item>Tự động</item>
+        <item>Mở</item>
+        <item>Tắt</item>
+    </string-array>
+    <string-array name="str_arr_toneburst_option">
+        <item>Không ai</item>
+        <item>Burst A</item>
+        <item>Burst B</item>
+    </string-array>
+    <string-array name="str_arr_diseqc_1_0_option">
+        <item>Không ai</item>
+        <item>LNB 1</item>
+        <item>LNB 2</item>
+        <item>LNB 3</item>
+        <item>LNB 4</item>
+    </string-array>
+    <string-array name="str_arr_diseqc_1_1_option">
+        <item>Không ai</item>
+        <item>LNB 1</item>
+        <item>LNB 2</item>
+        <item>LNB 3</item>
+        <item>LNB 4</item>
+        <item>LNB 5</item>
+        <item>LNB 6</item>
+        <item>LNB 7</item>
+        <item>LNB 8</item>
+        <item>LNB 9</item>
+        <item>LNB 10</item>
+        <item>LNB 11</item>
+        <item>LNB 12</item>
+        <item>LNB 13</item>
+        <item>LNB 14</item>
+        <item>LNB 15</item>
+        <item>LNB 16</item>
+    </string-array>
+    <string-array name="str_arr_motor_diseqc_version">
+        <item>Không ai</item>
+        <item>DiSEqC 1.2</item>
+        <item>DiSEqC 1.3</item>
+    </string-array>
+    <string-array name="str_arr_single_cable_slot_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="str_arr_single_cable_lnb_option">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="str_arr_longitude_direction_option">
+        <item>Đông</item>
+        <item>Tây</item>
+    </string-array>
+    <string-array name="str_arr_latitude_direction_option">
+        <item>Bắc</item>
+        <item>Nam</item>
+    </string-array>
+    <string-array name="str_arr_satellite_band_option">
+        <item>C</item>
+        <item>Ku</item>
+    </string-array>
+    <string-array name="str_arr_transponder_polarization_option">
+        <item>V</item>
+        <item>H</item>
+    </string-array>
+<!--li 20141011 add for bottom info of main menu -->
+	<string name="bt_info_left">Trái</string>
+	<string name="bt_info_switch">Công tắc</string>
+	<string name="bt_info_adjust">Điều chỉnh</string>
+	<string name="bt_info_right">Đúng</string>
+	<string name="bt_info_up">Trên</string>
+	<string name="bt_info_down">Xuống</string>
+	<string name="bt_info_ok">Được</string>
+	<string name="bt_info_back">Trở lại</string>
+	<string name="bt_info_exit">Thoát</string>
+    <!-- For bandwidth switch -->
+    <string-array name="str_arr_bandwidth_option">
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <!-- For UHF 7 MHz Option -->
+    <string-array name="str_arr_uhf_7mhz_option">
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <!-- For target region -->
+    <string name="str_target_region_country">Đất Nước</string>
+    <string name="str_target_region_primary">Khu vực chính</string>
+    <string name="str_target_region_secondary">Khu vực thứ cấp</string>
+    <string name="str_target_region_tertiary">Khu vực đại học</string>
+    <string name="sound_screen_save">Entering Screen Save mode,press anykey to wake up screen</string> <!-- For scan type -->
+
+    <!-- For scan type -->
+    <string-array name="str_arr_tuning_type">
+        <item>ATV</item>
+        <item>DTV</item>
+        <item>ATV+DTV</item>
+    </string-array>
+    <string-array name="str_arr_dvbc_tuning_type">
+        <item>ATV</item>
+        <item>CADTV</item>
+        <item>ATV+CADTV</item>
+    </string-array>
+
+    <!-- For dvbc operator -->
+    <string-array name="str_arr_dvbc_operator">
+        <item>khác</item>
+        <item>Cdsmatv</item>
+        <item>Cdcable</item>
+        <item>Comhem</item>
+        <item>Upc</item>
+        <item>Yousee</item>
+        <item>Cableready</item>
+        <item>Ziggo</item>
+        <item>Stofa</item>
+    </string-array>
+	<string name="str_mhz">MHz</string>
+	<string name="exittip">Xin vui lòng bấm MENU chính / EXIT để thoát</string>
+    <string name="str_sound_format_desconocido">Desconocido</string>
+    <string name="str_cha_tv_route_desconocido">Desconocido</string>
+    <string name="st_ca_rc_desconocido">unknown error</string>
+    <string name="sky_picture">Picture</string>
+    <string name="sky_sound">Sound</string>
+    <string name="sky_chanel">Channel</string>
+    <string name="sky_setting">Settings</string>
+    <string name="sky_time">Time</string>
+    <string name="sky_lock">Parental</string>
+    <!-- For HDMI EDID Version -->
+    <string name="str_hdmi_edid_version">HDMI EDID Version</string>
+    <string name="str_hdmi_edid_version_change">Changing HDMI EDID version</string>
+    <string name="str_hdmi_edid_version_wait">Please wait a moment...</string>
+
+    <string-array name="str_arr_hdmi_edid_version">
+        <item>Default</item>
+        <item>EDID 1.4</item>
+        <item>EDID 2.0</item>
+    </string-array>
+
+    <string name="str_tv_unknown">Unknown</string>
+
+    <string name="str_set_hbbtv_switch">HBBTV</string>
+    <string-array name="str_arr_hbbtv_switch">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <string name="str_preferred_channel_list">Preferred Channel List</string>
+    <!-- For all input sources -->
+    <string-array name="str_arr_input_sources">
+        <item>VGA</item>
+        <item>ATV</item>
+        <item>CVBS</item>
+        <item>CVBS2</item>
+        <item>CVBS3</item>
+        <item>CVBS4</item>
+        <item>CVBS5</item>
+        <item>CVBS6</item>
+        <item>CVBS7</item>
+        <item>CVBS8</item>
+        <item>CVBS_MAX</item>
+        <item>SVIDEO</item>
+        <item>SVIDEO2</item>
+        <item>SVIDEO3</item>
+        <item>SVIDEO4</item>
+        <item>SVIDEO_MAX</item>
+        <item>YPBPR</item>
+        <item>YPBPR2</item>
+        <item>YPBPR3</item>
+        <item>YPBPR_MAX</item>
+        <item>SCART</item>
+        <item>SCART2</item>
+        <item>SCART_MAX</item>
+        <item>HDMI</item>
+        <item>HDMI2</item>
+        <item>HDMI3</item>
+        <item>HDMI4</item>
+        <item>HDMI_MAX</item>
+        <item>DTV</item>
+        <item>DVI</item>
+        <item>DVI2</item>
+        <item>DVI3</item>
+        <item>DVI4</item>
+        <item>DVI_MAX</item>
+        <item>STORAGE</item>
+        <item>KTV</item>
+        <item>JPEG</item>
+        <item>DTV2</item>
+        <item>STORAGE2</item>
+        <item>DIV3</item>
+        <item>SCALER_OP</item>
+        <item>RUV</item>
+        <item>VGA2</item>
+        <item>VGA3</item>
+        <item>NUM</item>
+        <item>NONE</item>
+    </string-array>
+    <string name="str_input_source_lock_title">Input Source Lock</string>
+    <string name="str_input_source_lock_prompt">Lock/Unlock</string>
+    <string name="str_input_source_reset_prompt">Reset All</string>
+    <string-array name="arr_atv_antenna_type">
+        <item>Cable</item>
+        <item>Air</item>
+    </string-array>
+
+    <string name="str_cha_ntsc_antannatype">ATV Antenna Type</string>
+
+    <string-array name="arr_cvbs_type">
+        <item>PAL</item>
+        <!-- <item>NTSC_M</item> -->
+        <item>NTSC</item>
+        <item>SECAM</item>
+        <!-- <item>NTSC_443</item> -->
+        <item>NTSC</item>
+        <!-- <item>PAL_M</item> -->
+        <item>PAL</item>
+        <!-- <item>PAL_N</item> -->
+        <item>PAL</item>
+        <!-- <item>PAL_60</item> -->
+        <item>PAL</item>
+    </string-array>
+	
+	<string name="tuning_no_powoff">Automatic search... please do not shut down!</string>
+	<string name="str_bluetooth">Bluetooth</string>
+
+	<!-- for pvr activity -->
+	<string name="str_pvr_recording_poweroff_title">Info</string>
+	<string name="str_pvr_recording_poweroff_message">Recording now, are you sure stop and power off?</string>
+	<string name="str_pvr_recording_poweroff_positive_text">Yes</string>
+	<string name="str_pvr_recording_poweroff_nagative_text">No</string>
+	
+    <string name="source_info_DTV">DTV</string>
+    <string name="source_info_ATV">ATV</string>
+    <string name="source_info_AV1">AV</string>
+    <string name="source_info_AV2">AV2</string>
+    <string name="source_info_VGA">VGA</string>
+    <string name="source_info_HDMI1">HDMI1</string>
+    <string name="source_info_HDMI2">HDMI2</string>
+    
+    <string name="str_channeltuning_stop">Wait for a moment please!</string>
+</resources>

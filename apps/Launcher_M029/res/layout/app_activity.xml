@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/appbackground">
+    <!--  
+    <TextView
+        android:id="@+id/app_text"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:focusable="false" />
+    -->
+    
+    <GridView 
+	    android:gravity="center" 
+	    android:id="@+id/app_grid"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:horizontalSpacing="0dip" 
+		android:verticalSpacing="30.0dip"
+		android:stretchMode="columnWidth" 
+		android:columnWidth="210.0dip"
+		android:listSelector="@drawable/iconfocus" 
+		android:numColumns="8"/>
+
+</RelativeLayout>

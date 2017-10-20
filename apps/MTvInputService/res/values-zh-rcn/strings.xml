@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2015 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources>
+
+    <!-- for Channel -->
+    <string name="str_cha_antannatype">Antenna Type</string>
+    <string name="str_cha_antannatype_none">None</string>
+    <string name="str_cha_antannatype_air">天线类型</string>
+    <string name="str_cha_antannatype_cable">有线</string>
+
+    <string name="str_prompt_setup_wizard_title">Please Select Antenna Type and Start AutoScan</string>
+    <string name="str_prompt_setup_wizard_next">Next</string>
+    <string name="str_prompt_setup_wizard_skip">Skip</string>
+    <string name="str_prompt_setup_location_title">Please select location</string>
+    <string name="str_cha_changing_antenna_type">Changing Antenna Type</string>
+    <string name="str_ci_async_cmd_switch_route">CI invoke route switch ...</string>
+    <string name="str_cha_please_wait">Wait a Moment Please</string>
+    <string name="str_cha_tv_route_none">NONE</string>
+    <string name="str_cha_tv_route_dvbt">Air</string>
+    <string name="str_cha_tv_route_dvbc">Cable</string>
+    <string name="str_cha_tv_route_dvbs">Satellite</string>
+    <string name="str_cha_tv_route_dvbt2">Air</string>
+    <string name="str_cha_tv_route_dvbs2">Satellite</string>
+    <string name="str_cha_tv_route_dtmb">DTMB</string>
+    <string name="str_cha_tv_route_unknown">Unknown</string>
+    <string name="str_cha_channel">频道</string>
+    <string name="str_cha_autotuning">自动搜台</string>
+    <string name="str_cha_dtvmanualtuning"> DTV手动搜台</string>
+    <string name="str_cha_atvmanualtuning">ATV手动搜台</string>
+    <string name="str_cha_bandwidth_switch">带宽切换</string>
+    <string name="str_cha_bandwidth_uhf_7mhz">7MHz over UHF</string>
+    <string name="str_mainmenu_menu">菜单</string>
+    <string name="str_cha_autotuning_tuningtype">自动搜台类型</string>
+    <string name="str_cha_autotuning_tuningtype_atv">模拟电视</string>
+    <string name="str_cha_autotuning_country_australia">澳大利亚</string>
+    <string name="str_cha_autotuning_country_austria">奥地利</string>
+    <string name="str_cha_autotuning_country_beligum">比利时</string>
+    <string name="str_cha_autotuning_country_bulgaral">保加利亚</string>
+    <string name="str_cha_autotuning_country_croatia">克罗地亚</string>
+    <string name="str_cha_autotuning_country_czech">捷克</string>
+    <string name="str_cha_autotuning_country_denmark">丹麦</string>
+    <string name="str_cha_autotuning_country_finland">芬兰</string>
+    <string name="str_cha_autotuning_country_france">法国</string>
+    <string name="str_cha_airdtv_title">Air DTV</string>
+    <string name="str_cha_airtv_title">Air</string>
+    <string name="str_cha_cabletv_title">Cable</string>
+    <string name="str_cimmi_hint_ci_inserted">CI卡插入</string>
+    <string name="str_cimmi_hint_ci_removed">CI卡移除</string>
+
+    <string-array name="str_arr_autotuning_country">
+        <item>澳大利亚</item>
+        <item>奥地利</item>
+        <item>比利时</item>
+        <item>保加利亚</item>
+        <item>克罗地亚</item>
+        <item>捷克</item>
+        <item>丹麦</item>
+        <item>芬兰</item>
+        <item>法国</item>
+        <item>德国</item>
+        <item>希腊</item>
+        <item>匈牙利 </item>
+        <item>意大利</item>
+        <item>卢森堡</item>
+        <item>荷兰</item>
+        <item>挪威</item>
+        <item>波兰</item>
+        <item>葡萄牙</item>
+        <item>罗马尼亚</item>
+        <item>俄国</item>
+        <item>塞尔维亚</item>
+        <item>斯洛文尼亚</item>
+        <item>西班牙</item>
+        <item>瑞典</item>
+        <item>瑞士</item>
+        <item>英国</item>
+        <item>新西兰</item>
+        <item>阿拉伯</item>
+        <item>爱沙尼亚</item>
+        <item>希伯来</item>
+        <item>拉脱维亚</item>
+        <item>斯洛伐克</item>
+        <item>土耳其</item>
+        <item>爱尔兰</item>
+        <item>日本</item>
+        <item>菲律宾</item>
+        <item>泰国</item>
+        <item>马尔代夫</item>
+        <item>乌拉圭</item>
+        <item>秘魯</item>
+        <item>阿根廷</item>
+        <item>智利</item>
+        <item>委内瑞拉</item>
+        <item>厄瓜多尔</item>
+        <item>哥斯达黎加</item>
+        <item>巴拉圭</item>
+        <item>玻利维亚</item>
+        <item>伯利兹</item>
+        <item>尼加拉瓜</item>
+        <item>危地马拉</item>
+        <item>中国</item>
+        <item>台湾</item>
+        <item>巴西</item>
+        <item>加拿大</item>
+        <item>墨西哥</item>
+        <item>美国</item>
+        <item>韩国</item>
+        <item>斐济</item>
+        <item>乌兹别克</item>
+        <item>塔吉克斯坦</item>
+        <item>埃塞俄比亚</item>
+        <item>阿塞拜疆</item>
+        <item>南非</item>
+        <item>阿尔及利亚</item>
+        <item>埃及</item>
+        <item>沙特阿拉伯</item>
+        <item>伊朗</item>
+        <item>伊拉克</item>
+        <item>纳米比亚</item>
+        <item>乔丹</item>
+        <item>科威特</item>
+        <item>印尼</item>
+        <item>以色列</item>
+        <item>卡塔尔</item>
+        <item>尼日利亚</item>
+        <item>津巴布韦</item>
+        <item>立陶宛</item>
+        <item>摩洛哥</item>
+        <item>突尼斯</item>
+        <item>印度</item>
+        <item>越南</item>
+        <item>香港</item>
+        <item>哥倫比亞</item>
+        <item>馬來西亞</item>
+        <item>新加坡</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="str_arr_signalinfo_qam_cab">
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+
+    <string-array name="str_arr_signalinfo_qam_dvbt">
+        <item>QPSK</item>
+        <item>16QAM</item>
+        <item>64QAM</item>
+        <item>256QAM</item>
+    </string-array>
+
+    <string name="str_cha_channeltuning">频道调谐</string>
+    <string name="str_cha_tv">模拟电视：</string>
+    <string name="str_cha_tv_0">0</string>
+    <string name="str_cha_dtv">数字电视：</string>
+
+    <!-- for dtv auto tune option -->
+    <string-array name="strs_cha_dtvautotuning_dvbc_tuning_mode">
+        <item>全频点搜台</item>
+        <item>快速搜台</item>
+    </string-array>
+    <string-array name="strs_cha_dtvautotuning_demodulation_tbl">
+        <item>16 QAM</item>
+        <item>32 QAM</item>
+        <item>64 QAM</item>
+        <item>128 QAM</item>
+        <item>256 QAM</item>
+    </string-array>
+
+    <string name="str_cha_dtvautotuning_startscan">Start Scan</string>
+    <string name="str_cha_dtvautotuning_frequency">频率</string>
+    <string name="str_cha_dtvautotuning_modulation">调制</string>
+    <string name="str_cha_dtvautotuning_symbol">符号率</string>
+    <string name="str_cha_dtvautotuning_networkid">网路ID</string>
+    <string name="str_cha_dtvautotuning_networkid_invalid">NetworkID Invalid</string>
+    <string name="str_cha_dtvautotuning_ok">ok</string>
+    <string name="str_cha_dtvautotuning_auto">Auto</string>
+    <string name="str_cha_dtvautotuning_signalstrength">信号强度</string>
+    <string name="str_cha_dtvautotuning_signalquality">信号质量</string>
+    <string name="str_cha_dvbsdtvtuning_scanmode">Scan Mode</string>
+    <string name="str_cha_dvbsdtvtuning_servicetype">Service Type</string>
+    <string name="str_cha_dvbsdtvtuning_networksearch">Network Search</string>
+    <string name="str_cha_dvbsdtvtuning_transponder">Transponder</string>
+    <string name="str_cha_dvbsdtvtuning_satellite">Satellite</string>
+    <string name="str_cha_dvbsdtvtuning_searchtype">Search Option</string>
+    <string name="str_cha_radio">广播：</string>
+    <string name="str_cha_data">数据：</string>
+    <string name="str_cha_program">频道 </string>
+    <string name="str_cha_tuningprogress_percent_0">0%</string>
+    <string name="str_cha_tuningprogress_uhf">UHF</string>
+    <string name="str_cha_tuningprogress_vhf">VHF</string>
+    <string name="str_cha_tuningprogress_ch">频道</string>
+    <string name="str_cha_tuningprogress_freq">Freq</string>
+    <string name="str_cha_tuningprogress_dtv">数字电视</string>
+    <string name="str_cha_exittuning_info">你确定要退出ATV/DTV搜台？ </string>
+    <string name="str_cha_exittuning_yes">是</string>
+    <string name="str_cha_exittuning_no">否</string>
+    <string name="str_cha_dtvmanualtuning_channelno">频道号</string>
+    <string name="str_cha_dtvmanualtuning_ch">频道</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="str_cha_dtvmanualtuning_frequency">频率</string>
+    <string name="str_cha_dtvmanualtuning_modulation">调制</string>
+    <string name="str_cha_dtvmanualtuning_symbol">符号率</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">搜索</string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">信号强度</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">信号质量</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">数字电视：</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">电台：</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">数据：</string>
+    <string name="str_cha_atvmanualtuning_channelno">频道号</string>
+    <string name="str_cha_atvmanualtuning_store_channelno">储存至：</string>
+    <string name="str_cha_atvmanualtuning_ch">CH</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">彩色制式</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">自动</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">声音制式</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">自动</string>
+    <string name="str_cha_atvmanualtuning_starttuning">搜索</string>
+    <string name="str_cha_atvmanualtuning_fine_tune">微调</string>
+    <string name="str_cha_atvmanualtuning_frequency">频率：</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">MHZ</string>
+    <string name="str_cha_dtvmanualtuning_galaxy">GALAXY</string>
+    <string name="str_cha_dtvmanualtuning_polarization">Polarization</string>
+    <string name="str_cha_dtvmanualtuning_network">Network</string>
+    <string name="str_cha_dtvmanualtuning_scan_mode">Scan Mode</string>
+    <string name="str_cha_dtvmanualtuning_service_type">Service type</string>
+    <string name="str_cha_save">Save</string>
+
+    <string-array name="str_arr_dtvmanualtuning_polarization_vals">
+        <item>Vertical Position</item>
+        <item>Horizontal Position</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_network_vals">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_scan_mode_vals">
+        <item>Free</item>
+        <item>Free+Scramble</item>
+        <item>Scramble</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_service_type_vals">
+        <item>DTV</item>
+        <item>DTV+Radio</item>
+        <item>Radio</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_lnbtype_vals">
+        <item>C</item>
+        <item>Ku</item>
+    </string-array>
+
+    <!-- For screen mode hint msg -->
+    <string name="str_invalid_service">无效服务</string>
+    <string name="str_no_ci_module">未插CI卡</string>
+    <string name="str_ci_plus_authentication">CI+ 认证</string>
+    <string name="str_scrambled_program">加密节目</string>
+    <string name="str_program_block">锁定节目</string>
+    <string name="str_parental_block">父母锁定</string>
+    <string name="str_rating_blocked">等级锁定</string>
+    <string name="str_input_block">INPUT BLOCK</string>
+    <string name="str_audio_only">音频节目</string>
+    <string name="str_data_only">数据节目</string>
+    <string name="str_common_video"></string>
+    <string name="str_unsupported">不支持</string>
+    <string name="str_invalid_pmt">无效 PMT</string>
+    <string name="str_no_signal">无信号</string>
+
+    <!-- For Toast style -->
+    <string name="str_cha_cities_choosen">城市选择</string>
+
+    <string-array name="cities_option_array">
+        <item>其它</item>
+        <item>北京</item>
+        <item>安徽</item>
+        <item>合肥</item>
+        <item>安庆</item>
+        <item>蚌埠</item>
+        <item>厦门</item>
+        <item>泉州</item>
+        <item>洛阳</item>
+        <item>漳州</item>
+        <item>广州</item>
+        <item>广东</item>
+        <item>东莞</item>
+        <item>贵阳</item>
+        <item>海口</item>
+        <item>石家庄</item>
+        <item>秦皇岛</item>
+        <item>唐山</item>
+        <item>哈尔滨</item>
+        <item>郑州</item>
+        <item>洛阳</item>
+        <item>南阳</item>
+        <item>湖北</item>
+        <item>武汉</item>
+        <item>黄冈</item>
+        <item>荆州</item>
+        <item>宜昌</item>
+        <item>长沙广达</item>
+        <item>长沙国安</item>
+        <item>南通</item>
+        <item>南昌</item>
+        <item>吉林</item>
+        <item>大连</item>
+        <item>呼和浩特</item>
+        <item>西安</item>
+        <item>成都</item>
+        <item>乌鲁木齐</item>
+        <item>金华</item>
+        <item>宁波</item>
+        <item>绍兴</item>
+    </string-array>
+
+    <!-- for box only -->
+    <string name="wait_for_tuning_hint">"正在搜台, 请稍等..."</string>
+
+    <!-- For DVBS LNB Setting -->
+    <string name="str_lnbsetting_title">LNB Setting</string>
+    <string name="str_lnbsetting_satellite">Satellite</string>
+    <string name="str_lnbsetting_transponder">Transponder</string>
+    <string name="str_lnbsetting_transponder_freq">(MHz)</string>
+    <string name="str_lnbsetting_transponder_symbol">(kS/s)</string>
+    <string name="str_lnbsetting_lnbpower">LNB Power</string>
+    <string name="str_lnbsetting_compensation">Long Cable Compensation</string>
+    <string name="str_lnbsetting_frequencies">LNB Low/High Frequencies</string>
+    <string name="str_lnbsetting_frequencies_title">LNB Type</string>
+    <string name="str_lnbsetting_frequencies_low">Low</string>
+    <string name="str_lnbsetting_frequencies_high">High</string>
+    <string name="str_lnbsetting_frequencies_set">Changing Setting</string>
+    <string name="str_lnbsetting_22knz_tone">22kHz Tone</string>
+    <string name="str_lnbsetting_toneburst">Toneburst</string>
+    <string name="str_lnbsetting_diseqc_1_0">DiSEqC 1.0</string>
+    <string name="str_lnbsetting_diseqc_1_1">DiSEqC 1.1</string>
+    <string name="str_lnbsetting_diseqc_1_2">DiSEqC 1.2</string>
+    <string name="str_lnbsetting_diseqc_1_3">DiSEqC 1.3</string>
+    <string name="str_lnboptting_diseqc_change">Changing DiSEqC</string>
+    <string name="str_lnbsetting_motor_none">None</string>
+    <string name="str_lnbsetting_motor">Motor</string>
+    <string name="str_lnbsetting_signalquality">Quality</string>
+    <string name="str_lnbsetting_strength">Strength</string>
+    <string name="str_lnbsetting_singlecable">Single Cable</string>
+    <string name="str_lnbsetting_singlecable_none">None</string>
+    <string name="str_lnbsetting_singlecable_slot">Slot</string>
+    <string name="str_lnbsetting_singlecable_freq">Frequencies</string>
+    <string name="str_lnbsetting_singlecable_pin">Pin</string>
+    <string name="str_lnbsetting_singlecable_lnb">LNB</string>
+    <string name="str_lnbsetting_singlecable_verify">Verify</string>
+    <string name="str_lnboption_menu_hint_add">Add</string>
+    <string name="str_lnboption_menu_hint_delete">Delete</string>
+    <string name="str_lnboption_menu_hint_edit">Edit</string>
+    <string name="str_lnboption_menu_hint_position">Position</string>
+    <string name="str_lnboption_menu_hint_limit">Limit</string>
+    <string name="str_lnboption_menu_hint_location">Location</string>
+    <string name="str_lnboption_editor_number">No.</string>
+    <string name="str_lnboption_editor_longitude_direction">Longitude Direction</string>
+    <string name="str_lnboption_editor_longitude_angle">Longitude Angle</string>
+    <string name="str_lnboption_editor_frequency">Frequency</string>
+    <string name="str_lnboption_editor_symbolrate">Symbol Rate</string>
+    <string name="str_lnboption_editor_band">Band</string>
+    <string name="str_lnboption_editor_polarization">Polarization</string>
+    <string name="str_lnboption_editor_rename">Rename</string>
+    <string name="str_lnboption_editor_name">Name</string>
+    <string name="str_lnboption_editor_del_dialog_title">Tip</string>
+    <string name="str_lnboption_editor_del_dialog_msg">Delete selected item ?</string>
+    <string name="str_lnboption_editor_del_dialog_yes">Yes</string>
+    <string name="str_lnboption_editor_del_dialog_no">No</string>
+    <string name="str_lnb_motor_editor_title">Motor Setting</string>
+    <string name="str_lnb_motor_editor_move_auto">Move Auto</string>
+    <string name="str_lnb_motor_editor_move_continue">Move Continue</string>
+    <string name="str_lnb_motor_editor_move_step">Move Step(1)</string>
+    <string name="str_lnb_motor_editor_store_position">Store Position</string>
+    <string name="str_lnb_motor_editor_goto_position">Go to Position</string>
+    <string name="str_lnb_motor_editor_set_west_limit">Set West Limit</string>
+    <string name="str_lnb_motor_editor_set_east_limit">Set East Limit</string>
+    <string name="str_lnb_motor_editor_goto_reference">Go to Reference</string>
+    <string name="str_lnb_motor_editor_goto_x">Go to X</string>
+    <string name="str_lnb_motor_editor_disable_limit">Disable Limit</string>
+    <string name="str_lnb_motor_editor_location">Location :</string>
+    <string name="str_lnb_motor_editor_longitude_direction">Longitude Direction</string>
+    <string name="str_lnb_motor_editor_longitude_angle">Longitude Angle</string>
+    <string name="str_lnb_motor_editor_latitude_direction">Latitude Direction</string>
+    <string name="str_lnb_motor_editor_latitude_angle">Latitude Angle</string>
+    <string name="str_lnb_motor_editor_ok">Ok</string>
+    <string name="str_lnb_motor_editor_stop">Stop</string>
+    <string name="str_lnb_motor_editor_east">East</string>
+    <string name="str_lnb_motor_editor_west">West</string>
+
+    <string-array name="str_arr_lnbpower_option">
+        <item>Off</item>
+        <item>13/18V</item>
+        <item>13V</item>
+        <item>18V</item>
+        <item>14/19V</item>
+        <item>14V</item>
+        <item>19V</item>
+    </string-array>
+    <string-array name="str_arr_compensation_option">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_option">
+        <item>UNIVERSAL</item>
+        <item>MDU_1</item>
+        <item>MDU_2</item>
+        <item>MDU_3</item>
+        <item>MDU_4</item>
+        <item>5150_MHZ</item>
+        <item>5750_MHZ</item>
+        <item>5150_5750_MHZ</item>
+        <item>9750_MHZ</item>
+        <item>10600_MHZ</item>
+        <item>10750_MHZ</item>
+        <item>11250_MHZ</item>
+        <item>11300_MHZ</item>
+        <item>11475_MHZ</item>
+        <item>9750_10700_MHZ</item>
+        <item>9750_10750_MHZ</item>
+        <item>10000_10450_MHZ</item>
+        <item>USER_MODE</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_low">
+        <item>9750</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>5150</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+        <item>9750</item>
+        <item>9750</item>
+        <item>10000</item>
+        <item>9750</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_high">
+        <item>10600</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+        <item>10700</item>
+        <item>10750</item>
+        <item>10450</item>
+        <item>10600</item>
+    </string-array>
+    <string-array name="str_arr_22knz_tone_option">
+        <item>Auto</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="str_arr_toneburst_option">
+        <item>None</item>
+        <item>Burst A</item>
+        <item>Burst B</item>
+    </string-array>
+    <string-array name="str_arr_diseqc_1_0_option">
+        <item>None</item>
+        <item>LNB 1</item>
+        <item>LNB 2</item>
+        <item>LNB 3</item>
+        <item>LNB 4</item>
+    </string-array>
+    <string-array name="str_arr_diseqc_1_1_option">
+        <item>None</item>
+        <item>LNB 1</item>
+        <item>LNB 2</item>
+        <item>LNB 3</item>
+        <item>LNB 4</item>
+        <item>LNB 5</item>
+        <item>LNB 6</item>
+        <item>LNB 7</item>
+        <item>LNB 8</item>
+        <item>LNB 9</item>
+        <item>LNB 10</item>
+        <item>LNB 11</item>
+        <item>LNB 12</item>
+        <item>LNB 13</item>
+        <item>LNB 14</item>
+        <item>LNB 15</item>
+        <item>LNB 16</item>
+    </string-array>
+    <string-array name="str_arr_motor_diseqc_version">
+        <item>None</item>
+        <item>DiSEqC 1.2</item>
+        <item>DiSEqC 1.3</item>
+    </string-array>
+    <string-array name="str_arr_single_cable_slot_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="str_arr_single_cable_lnb_option">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="str_arr_longitude_direction_option">
+        <item>East</item>
+        <item>West</item>
+    </string-array>
+    <string-array name="str_arr_latitude_direction_option">
+        <item>North</item>
+        <item>South</item>
+    </string-array>
+    <string-array name="str_arr_satellite_band_option">
+        <item>C</item>
+        <item>Ku</item>
+    </string-array>
+    <string-array name="str_arr_transponder_polarization_option">
+        <item>V</item>
+        <item>H</item>
+    </string-array>
+
+    <!-- For bandwidth switch -->
+    <string-array name="str_arr_bandwidth_option">
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <!-- For UHF 7 MHz Option -->
+    <string-array name="str_arr_uhf_7mhz_option">
+        <item>关</item>
+        <item>开</item>
+    </string-array>
+
+    <!-- For target region -->
+    <string name="str_target_region_country">国家</string>
+    <string name="str_target_region_primary">第一地区</string>
+    <string name="str_target_region_secondary">第二地区</string>
+    <string name="str_target_region_tertiary">第三地区</string>
+
+    <string name="str_preferred_channel_list">Preferred Channel List</string>
+
+    <!-- For scan type -->
+    <string-array name="str_arr_tuning_type">
+        <item>ATV</item>
+        <item>DTV</item>
+        <item>ATV+DTV</item>
+    </string-array>
+    <string-array name="str_arr_dvbc_tuning_type">
+        <item>ATV</item>
+        <item>CADTV</item>
+        <item>ATV+CADTV</item>
+    </string-array>
+
+    <!-- For dvbc operator -->
+    <string-array name="str_arr_dvbc_operator">
+        <item>Others</item>
+        <item>Cdsmatv</item>
+        <item>Cdcable</item>
+        <item>Comhem</item>
+        <item>Upc</item>
+        <item>Yousee</item>
+        <item>Cableready</item>
+        <item>Ziggo</item>
+        <item>Stofa</item>
+    </string-array>
+</resources>

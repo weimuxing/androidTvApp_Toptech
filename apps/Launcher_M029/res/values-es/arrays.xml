@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="weather_condition">
+		<item>Tornado</item>
+		<item>Tormenta tropical</item>
+		<item>Huracán</item>
+		<item>Tormentas eléctricas severas</item>
+		<item>Tormentas eléctricas</item>
+		<item>Mezcla de lluvia y nieve</item>
+		<item>Lluvia y aguanieve</item>
+		<item>Mezcla de nieve y aguanieve</item>
+		<item>Llovizna helada</item>
+		<item>Llovizna</item>
+		<item>Lluvia helada</item>
+		<item>Duchas</item>
+		<item>Duchas</item>
+		<item>Copos de nieve</item>
+		<item>Duchas de nieve liviana</item>
+		<item>La nieve que sopla</item>
+		<item>Nieve</item>
+		<item>Granizo</item>
+		<item>Aguanieve</item>
+		<item>Polvo</item>
+		<item>Brumoso</item>
+		<item>Calina</item>
+		<item>Ahumado</item>
+		<item>Tempestuoso</item>
+		<item>Ventoso</item>
+		<item>Frío</item>
+		<item>Nublado</item>
+		<item>Mayormente nublado</item>
+		<item>Mayormente nublado</item>
+		<item>Parcialmente nublado</item>
+		<item>Parcialmente nublado</item>
+		<item>Claro</item>
+		<item>Soleado</item>
+		<item>Justa</item>
+		<item>Justa</item>
+		<item>Mezcla de lluvia y granizo</item>
+		<item>Caliente</item>
+		<item>Tormentas aisladas</item>
+		<item>Tormentas eléctricas dispersas</item>
+		<item>Tormentas eléctricas dispersas</item>
+		<item>Chubascos dispersos</item>
+		<item>Fuertes nevadas</item>
+		<item>Chubascos de nieve dispersos</item>
+		<item>Fuertes nevadas</item>
+		<item>Parcialmente nublado</item>
+		<item>Tormentas eléctricas</item>
+		<item>Duchas de nieve</item>
+		<item>Tormentas eléctricas aisladas</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>Dropbox</item>
+		<item>Tienda de aplicaciones</item>
+				  
+		<item>Biblioteca de aplicaciones</item>
+		<item>Control de aplicaciones</item>
+		<item>Ajustes</item>
+		<item>Navegador</item>
+		<item>Skype</item>
+		<item>Youtube</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910 # Seúl</item>
+		<item>2345969 # Gyeonggi-do</item>
+		<item>28816906 # Incheon</item>
+		<item>2345966 # Gangwon-do</item>
+		<item>2345967 # Gyeongsangnam-do</item>
+		<item>2345970 # Gyeongsangbuk-do</item>
+		<item>28816908 # Gwangju</item>
+		<item>28816909 # Daegu</item>
+		<item>28816902 # Daejeon</item>
+		<item>28816913 # Busan</item>
+		<item>28828129 # Sejong</item>
+		<item>28816901 # Ulsan</item>
+		<item>2345972 # Jeollanam-do</item>
+		<item>2345964 # Jeollabuk-do</item>
+		<item>28834807 # Jejudo</item>
+		<item>2345973 # Chungcheongnam-do</item>
+		<item>2345965 # Chungcheongbuk-do</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>Ene</item>
+		<item>Feb</item>
+		<item>marzo</item>
+		<item>abril</item>
+		<item>Mayo</item>
+		<item>junio</item>
+		<item>julio</item>
+		<item>Ago</item>
+		<item>Sep</item>
+		<item>Oct</item>
+		<item>Nov</item>
+		<item>Dic</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>Sol</item>
+		<item>Lun</item>
+		<item>Mar</item>
+		<item>Mie</item>
+		<item>Jue</item>
+		<item>Vie</item>
+		<item>Sab</item>
+    </string-array>
+
+    
+</resources>

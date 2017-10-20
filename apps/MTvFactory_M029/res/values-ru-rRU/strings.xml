@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Заводское меню</string>
+
+
+
+	<string name="str_factory_adc">Регулировка АЦП</string>
+	<string name="str_factory_adc_source">Источник</string>
+	<string name="str_factory_adc_rgain">R Gain</string>
+	<string name="str_factory_adc_ggain">G Gain</string>
+	<string name="str_factory_adc_bgain">B Gain</string>
+	<string name="str_factory_adc_roffset">R Смещение</string>
+	<string name="str_factory_adc_goffset">Смещение</string>
+	<string name="str_factory_adc_boffset">B Смещение</string>
+	<string name="str_factory_adc_phase">фаза</string>
+	<string name="str_factory_adc_autoadjust">Автонастройка</string>
+	<string name="str_factory_adc_autoadjust_val">Пожалуйста, подождите!</string>
+	<string name="str_factory_adc_autoadjust_ok">успех</string>
+	<string name="str_factory_adc_autoadjust_failed">не смогли</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">Ошибка выбора режима синхронизации</string>
+	<string name="str_text_adc_adjust">Регулировка АЦП</string>
+	<string name="str_textview_factory_adc_source_val">VGA</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">Вы уверены, что обновите?</string>
+	<string name="str_textview_factory_dialogmenu_confirm">подтвердить</string>
+	<string name="str_textview_factory_dialogmenu_cancel">Отмена</string>
+	<string name="str_design_menu">Меню дизайна</string>
+	<string name="str_factory_menu">Заводское меню</string>
+
+
+
+	<string name="str_factory_whitebalance">Баланс белого</string>
+	<string name="str_factory_wbadjust_source">Источник</string>
+	<string name="str_factory_wbadjust_rgain">R Gain</string>
+	<string name="str_factory_wbadjust_ggain">G Gain</string>
+	<string name="str_factory_wbadjust_bgain">B Gain</string>
+	<string name="str_factory_wbadjust_roffset">R Смещение</string>
+	<string name="str_factory_wbadjust_goffset">Смещение</string>
+	<string name="str_factory_wbadjust_boffset">B Смещение</string>
+	<string name="str_factory_wbadjust_autoadjust">Автокорректировка</string>
+	<string name="str_factory_wbadjust_colortemp">Цветовая температура</string>
+	<string name="str_wb_adjust_text">Регулировка W / B</string>
+	<string name="str_textview_factory_wbadjust_source_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">Режим изображения</string>
+	<string name="str_factory_picmode_picmode">Режим изображения</string>
+	<string name="str_factory_picmode_brightness">яркость</string>
+	<string name="str_factory_picmode_contrast">контрастировать</string>
+	<string name="str_factory_picmode_saturation">насыщение</string>
+	<string name="str_factory_picmode_hue">оттенок</string>
+	<string name="str_factory_picmode_sharpness">Острота</string>
+	<string name="str_factory_picmode_backlight">подсветка</string>
+	<string name="str_picture_mode_text">Режим изображения</string>
+	<string name="str_textview_factory_picmode_picmode_val">VGA</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">Нестандартные параметры</string>
+	<string name="str_factory_nonstandard_vif">VIF (нажмите меня)</string>
+	<string name="str_factory_nonstandard_vd">VD (нажмите меня)</string>
+	<string name="str_factory_nonstandard_audio">АУДИО (нажмите меня)</string>
+	<string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+	<string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+	<string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+	<string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+	<string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+	<string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">China_DES_BOX_Delay</string>
+	<string name="str_factory_nonstandard_delay">задержка</string>
+	<string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+	<string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+	<string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+	<string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+	<string name="str_factory_nonstandard_aefcd5">AFEC_D5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">AFEC_D8 [3: 0]</string>
+	<string name="str_factory_nonstandard_aefcd9">AFEC_D9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+	<string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+	<string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+	<string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+	<string name="str_factory_nonstandard_aefc66">AFEC_66 [7: 6]</string>
+	<string name="str_factory_nonstandard_aefc6e">AFEC_6E [7: 4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">AFEC_6E [3: 0]</string>
+	<string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+	<string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+	<string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+	<string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+	<string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+	<string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+	<string name="str_factory_nonstandard_audiosif">Звуковой сигнал Sif Threshold</string>
+	<string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+	<string name="str_Non_Standard_Adjust_text">Нестандартная настройка</string>
+	<string name="str_textview_factory_nonstandard_default_val">128</string>
+
+
+	<string name="str_factory_non_linear">Non_linear</string>
+	<string name="str_factory_nonlinear_curvetype">Тип кривой</string>
+	<string name="str_factory_nonlinear_osd0">OSD_0</string>
+	<string name="str_factory_nonlinear_osd25">OSD_25</string>
+	<string name="str_factory_nonlinear_osd50">OSD_50</string>
+	<string name="str_factory_nonlinear_osd75">OSD_75</string>
+	<string name="str_factory_nonlinear_osd100">OSD_100</string>
+	<string name="str_Non_Linear_Adjust_text">Нелинейная регулировка</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">VGA</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">OverScan</string>
+	<string name="str_factory_overscan_source">Источник</string>
+	<string name="str_factory_overscan_hsize">H Размер</string>
+	<string name="str_factory_overscan_hposition">Позиция H</string>
+	<string name="str_factory_overscan_vsize">Размер V</string>
+	<string name="str_factory_overscan_vposition">Положение V</string>
+	<string name="str_factory_overscan_adjust_text">Настройка OverScan</string>
+	<string name="str_textview_factory_overscan_source_val">ATV</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">Настройка SSC</string>
+	<string name="str_factory_ssc_miuenable">MIU Enable</string>
+	<string name="str_factory_ssc_miumodulation">Модуляция MIU</string>
+	<string name="str_factory_ssc_miupercentage">Процент MIU (%)</string>
+	<string name="str_factory_ssc_lvdsenable">LVDS Enable</string>
+	<string name="str_factory_ssc_lvdsmodulation">Модуляция LVDS</string>
+	<string name="str_factory_ssc_lvdspercentage">Процент LVDS (%)</string>
+	<string name="str_factory_ssc_u_miuenable">Включить MIU_U</string>
+	<string name="str_factory_ssc_u_miumodulation">Модуляция MIU_U</string>
+	<string name="str_factory_ssc_u_miupercentage">Процент MIU_U (%)</string>
+	<string name="str_factory_ssc_u_lvdsenable">LVDS_U Включить</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">Модуляция LVDS_U</string>
+	<string name="str_factory_ssc_u_lvdspercentage">LVDS_U Процент (%)</string>
+	<string name="str_ssc_adjust_text">Настройка SSC</string>
+	<string name="str_textview_factory_ssc_default_val">128</string>
+
+
+
+	<string name="str_factory_peq">PEQ</string>
+	<string name="str_factory_peq_fo1coarse">FO1 грубый</string>
+	<string name="str_factory_peq_fo1fine">FO1 Fine</string>
+	<string name="str_factory_peq_fo2coarse">FO2 Грубая</string>
+	<string name="str_factory_peq_fo2fine">FO2 Fine</string>
+	<string name="str_factory_peq_fo3coarse">FO3 Грубая</string>
+	<string name="str_factory_peq_fo3fine">FO3 Fine</string>
+	<string name="str_factory_peq_fo4coarse">FO4 грубый</string>
+	<string name="str_factory_peq_fo4fine">FO4 Fine</string>
+	<string name="str_factory_peq_fo5coarse">FO5 грубый</string>
+	<string name="str_factory_peq_fo5fine">FO5 Fine</string>
+	<string name="str_factory_peq_gain1">Gain1</string>
+	<string name="str_factory_peq_gain2">Gain2</string>
+	<string name="str_factory_peq_gain3">Gain3</string>
+	<string name="str_factory_peq_gain4">Gain4</string>
+	<string name="str_factory_peq_gain5">Gain5</string>
+	<string name="str_factory_peq_q1">Q1</string>
+	<string name="str_factory_peq_q2">Q2</string>
+	<string name="str_factory_peq_q3">Q3</string>
+	<string name="str_factory_peq_q4">Q4</string>
+	<string name="str_factory_peq_q5">Q5</string>
+	<string name="str_peq_adjust_text">Настройка PEQ</string>
+	<string name="str_textview_factory_peq_default_val">128</string>
+
+
+	<string name="str_factory_ci_setting">Заводская настройка CI</string>
+	<string name="str_factory_ci_credential_mode">Режим полномочий CI +</string>
+	<string name="str_factory_ci_performance_monitor">Монитор производительности</string>
+	<string name="str_factory_ci_resource_manager">Менеджер ресурсов</string>
+	<string name="str_factory_ci_application_infomation">Информация о приложении</string>
+	<string name="str_factory_ci_conditional_access_support">Поддержка условного доступа</string>
+	<string name="str_factory_ci_host_control">Управление хостом</string>
+	<string name="str_factory_ci_date_time">Дата-время</string>
+	<string name="str_factory_ci_man_machine_interface">Интерфейс машинного интерфейса человека</string>
+	<string name="str_factory_ci_low_speed_communication">Низкоскоростная связь</string>
+	<string name="str_factory_ci_content_control">Контроль контента</string>
+	<string name="str_factory_ci_host_language_country">Страна принимающего языка</string>
+	<string name="str_factory_ci_cam_upgrade">Обновление CAM</string>
+	<string name="str_factory_ci_operator_profile">Профиль оператора</string>
+	<string name="str_factory_ci_specific_application_support">Конкретная поддержка приложений</string>
+	<string name="str_factory_ci_app_man_machine_interface">Интерфейс приложения Man Man</string>
+	<string name="str_factory_ci_program_map_table">Таблица карт программ (не используется)</string>
+	<string name="str_factory_ci_host_service_shunning">Отказ от обслуживания хоста</string>
+	<string name="str_factory_ci_canal_ready_authentication">Аутентификация канала</string>
+	<string name="str_factory_ci_default_tx_rx">По умолчанию TX / RX</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">Тест (библиотека CI)</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">Тест (Nand Flash)</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">Mount Config</string>
+
+
+
+	<string name="str_factory_pqtableupdate">Обновление таблицы PQ</string>
+
+
+	<string name="str_factory_ursa_info">Информация о Ursa</string>
+	<string name="str_factory_ursa_version">Версия</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">Список изменений</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">Информация о панели</string>
+	<string name="str_textview_factory_panelinfo_text_timode">Режим Ti</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">Бит-режим</string>
+	<string name="str_textview_factory_panelinfo_text_swap">Режим обмена</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">Двойной режим</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">Зеркальный режим</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">VolumeCurve</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω8W</string>
+
+
+
+	<string name="str_set_mute_color">Отключить цвет</string>
+
+
+	<string name="str_factory_otheroption">Другие варианты</string>
+	<string name="str_factory_otheroption_version">Версия</string>
+	<string name="str_factory_otheroption_name">имя</string>
+	<string name="str_factory_otheroption_build">строить</string>
+	<string name="str_factory_otheroption_changelist">Список изменений</string>
+	<string name="str_factory_otheroption_board">доска</string>
+	<string name="str_factory_otheroption_panel">панель</string>
+	<string name="str_factory_otheroption_date">Дата</string>
+	<string name="str_factory_otheroption_time">Время</string>
+	<string name="str_factory_otheroption_watchdog">Сторожевая собака</string>
+	<string name="str_factory_otheroption_wake_on_lan">Wake On LAN</string>
+	<string name="str_factory_otheroption_testpattern">Тестовый образец</string>
+	<string name="str_factory_otheroption_upgrademboot">Обновление Mboot</string>
+	<string name="str_factory_otheroption_upgrademain">Обновление основного</string>
+	<string name="str_factory_otheroption_upgrade6m30">Обновление 6M30</string>
+	<string name="str_factory_otheroption_upgradedualursa">Обновление Dual Ursa</string>
+	<string name="str_factory_otheroption_restoretodefault">Восстановить по умолчанию</string>
+	<string name="str_factory_otheroption_poweronmode">Режим включения питания</string>
+	<string name="str_factory_otheroption_uartenable">Uart Enable</string>
+	<string name="str_factory_otheroption_display_logo">Показать логотип</string>
+	<string name="str_factory_otheroption_dtvavdelay">DTV AV Delay (нестандартный)</string>
+	<string name="str_factory_otheroption_initialfunction">Начальный канал</string>
+	<string name="str_factory_otheroption_panelswing">Панель Swing</string>
+	<string name="str_factory_otheroption_audioprescale">Audio Prescale</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">Уровень самоадаптивного обнаружения 3D</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">Вы уверены, что обновите?</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">подтвердить</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">Отмена</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">Пожалуйста, подключите USB!</string>
+	<string name="str_factory_otheroption_xvycc">xvycc</string>
+	<string name="str_factory_otheroption_pvrrecordall">Запись RVR</string>
+	<string name="str_other_option_text">Другие варианты настройки</string>
+	<string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+	<string name="str_textview_factory_otheroption_board_val">J2</string>
+	<string name="str_textview_factory_otheroption_panel_val">Full HD</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">На</string>
+	<string name="str_textview_factory_otheroption_text_off">от</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >>»</string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >>»</string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >>»</string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >>»</string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+	<string name="str_textview_factory_otheroption_default_val">0"</string>
+	<string name="str_factory_otheroption_main_pq_version">Основная версия PQ</string>
+	<string name="str_factory_otheroption_sub_pq_version">Версия Sub PQ</string>
+	<string name="str_textview_factory_otheroption_waiting_val">Пожалуйста подождите!</string>
+	<string name="str_factory_otheroption_mstv_tool">Uart debug</string>
+	<string name="str_factory_otheroption_pq_update">Обновление PQ</string>
+	<string name="str_factory_otheroption_pq_update_state">Пожалуйста, нажмите!</string>
+	<string name="str_factory_nonstandard_afeccf_av">AFEC_CF [2] _AV</string>
+	<string name="str_factory_nonstandard_afeccf_atv">AFEC_CF [2] _ATV</string>
+	<string name="str_ursa_test_result_title">Результат:</string>
+	<string name="str_ursa_test_run_auto">Запустить авто</string>
+	<string name="str_ursa_test_title">Тест Ursa</string>
+	<string name="str_ursa_test_run">Бег</string>
+	<string name="str_Info_title">Информация</string>
+	<string name="str_factory_otheroption_sw_version">Версия ПО</string>
+	<string name="str_factory_otheroption_dtv_preset">Предварительная настройка DTV</string>
+	<string name="str_factory_otheroption_dtv_preset_state">Пожалуйста, нажмите!</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">Пожалуйста, подождите...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">Завершить, выключить питание через 1 мин.</string>
+	<string name="enter">Клавиша OK вступает в заводское меню -></string>
+	<string name="tips">L-R Ajust, «ОК» введите следующий, «Выход» / «Меню» вернуться</string>
+	<string name="str_factory_otheroption_str_enable">Включить STR</string>
+	<string name="str_factory_otheroption_audiodelay">Задержка звукового сопровождения</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">IP Enable Mapping</string>
+	<string name="str_ipenablemapping_text">IP Enable Mapping</string>
+
+
+	<string name="str_factory_update">Обновление с USB-накопителя</string>
+	<string name="str_factory_upgrade">Обновление с USB-накопителя</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">Обновить ключ HDCP с USB</string>
+	<string name="str_factory_updateCIkeyfromUSB">Обновление ключа CI Plus с USB</string>
+	<string name="str_factory_upgrade_ci_upgrade">Ci Upgrade</string>
+	<string name="str_factory_upgrade_ci_display">Дисплей Ci</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">Обновление Hdcp</string>
+	<string name="str_factory_upgrade_hdcp_display">Дисплей Hdcp</string>
+	<string name="str_factory_upgrade_mac_upgrade">Mac Upgrade</string>
+	<string name="str_factory_upgrade_mac_display">Mac Display</string>
+	<string name="str_factory_upgrade_sn_upgrade">Обновление SN</string>
+	<string name="str_factory_upgrade_sn_display">SN Display</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">Обновление Hdcp2</string>
+	<string name="str_factory_upgrade_hdcp2_display">Дисплей Hdcp2</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">Демод</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">Информация о DVBT</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">Информация о DVBC</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">获取 Информация DVBT / DVBC 失败</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">Заводская настройка предустановленной функции</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">Заводская настройка программы</string>
+	<string name="str_factory_otheroption_factoryprogramreset">Сброс заводской программы</string>
+	<string name="str_factory_otheroption_backupdbtousb">Резервная БД на USB</string>
+	<string name="str_factory_otheroption_restoredbfromusb">Восстановить DB с USB</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">Пожалуйста, нажмите!</string>
+	<string name="str_textview_factory_otheroption_text_pass">Проходить</string>
+	<string name="str_textview_factory_otheroption_text_fail">Потерпеть неудачу</string>
+	<string name="str_factory_db_path">/ Tvdatabase / База данных /</string>
+	<string name="str_factory_db_file">* CMDB * .bin</string>
+
+	<string name="str_factory_again_mode">Режим старения</string>
+	<string name="str_factory_running_time">ВРЕМЯ ПИТАНИЯ (H / 2)</string>
+
+
+	<string name="str_design_menu_sound">звук</string>
+	<string name="str_factory_prescale">Prescale</string>
+	<string name="str_factory_avc_enable">Avc Enable</string>
+	<string name="str_factory_avc_threthold">Avc Thl</string>
+	<string name="str_factory_drc_enable">Включить Drc</string>
+	<string name="str_factory_drc_threthold">Drc Thl</string>
+	<string name="str_factory_sound_effect">Эффект (ФВЧ)</string>
+	<string name="str_factory_sound_toneffect">тон</string>
+	<string name="str_factory_audio_delay">Задержка звука (динамик)</string>
+	<string name="str_factory_audio_nr">Аудио NR</string>
+	<string name="str_factory_lineout">LineOut (AUOUT1)</string>
+	<string name="str_factory_speaker">Объем (AUOUT0)</string>
+	<string name="str_factory_audio_spdif_delay">Задержка звука (spdif)</string>
+
+	<string name="str_factory_ota_info">Информация OTA</string>
+	<string name="str_factory_ota_info_praname">praName</string>
+	<string name="str_factory_ota_info_cusname">cusName</string>
+	<string name="str_factory_ota_info_proname">proName</string>
+	<string name="str_factory_ota_info_preversion">preVersion</string>
+	<string name="str_factory_onidaview">Возможность прокрутки</string>
+
+	<string name="str_textview_factory_total_run_time">час</string>
+	<string name="str_total_run_time">TotalRunTime</string>
+
+</resources>

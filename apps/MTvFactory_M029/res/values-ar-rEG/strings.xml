@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">قائمة المصنع</string>
+
+
+
+	<string name="str_factory_adc">أدك ضبط</string>
+	<string name="str_factory_adc_source">مصدر</string>
+	<string name="str_factory_adc_rgain">R غين</string>
+	<string name="str_factory_adc_ggain">G غين</string>
+	<string name="str_factory_adc_bgain">B غين</string>
+	<string name="str_factory_adc_roffset">R أوفست</string>
+	<string name="str_factory_adc_goffset">G أوفست</string>
+	<string name="str_factory_adc_boffset">B أوفست</string>
+	<string name="str_factory_adc_phase">مرحلة</string>
+	<string name="str_factory_adc_autoadjust">ضبط تلقائي</string>
+	<string name="str_factory_adc_autoadjust_val">أرجو الإنتظار!</string>
+	<string name="str_factory_adc_autoadjust_ok">نجاح</string>
+	<string name="str_factory_adc_autoadjust_failed">فشل</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">توقيت تحديد خطأ</string>
+	<string name="str_text_adc_adjust">أدك ضبط</string>
+	<string name="str_textview_factory_adc_source_val">VGA</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">هل أنت متأكد ترقية؟</string>
+	<string name="str_textview_factory_dialogmenu_confirm">تؤكد</string>
+	<string name="str_textview_factory_dialogmenu_cancel">إلغاء</string>
+	<string name="str_design_menu">تصميم القائمة</string>
+	<string name="str_factory_menu">قائمة المصنع</string>
+
+
+
+	<string name="str_factory_whitebalance">توازن اللون الأبيض</string>
+	<string name="str_factory_wbadjust_source">مصدر</string>
+	<string name="str_factory_wbadjust_rgain">R غين</string>
+	<string name="str_factory_wbadjust_ggain">G غين</string>
+	<string name="str_factory_wbadjust_bgain">B غين</string>
+	<string name="str_factory_wbadjust_roffset">R أوفست</string>
+	<string name="str_factory_wbadjust_goffset">G أوفست</string>
+	<string name="str_factory_wbadjust_boffset">B أوفست</string>
+	<string name="str_factory_wbadjust_autoadjust">ضبط تلقائي</string>
+	<string name="str_factory_wbadjust_colortemp">درجة حرارة اللون</string>
+	<string name="str_wb_adjust_text">W / B ضبط</string>
+	<string name="str_textview_factory_wbadjust_source_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">وضع الصورة</string>
+	<string name="str_factory_picmode_picmode">وضع الصورة</string>
+	<string name="str_factory_picmode_brightness">سطوع</string>
+	<string name="str_factory_picmode_contrast">تناقض</string>
+	<string name="str_factory_picmode_saturation">التشبع</string>
+	<string name="str_factory_picmode_hue">مسحة</string>
+	<string name="str_factory_picmode_sharpness">حدة</string>
+	<string name="str_factory_picmode_backlight">الخلفية</string>
+	<string name="str_picture_mode_text">وضع الصورة</string>
+	<string name="str_textview_factory_picmode_picmode_val">VGA</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">خيارات غير قياسية</string>
+	<string name="str_factory_nonstandard_vif">فيف (انقر علي)</string>
+	<string name="str_factory_nonstandard_vd">فد (انقر علي)</string>
+	<string name="str_factory_nonstandard_audio">أوديو (انقر علي)</string>
+	<string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+	<string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+	<string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+	<string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+	<string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+	<string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">China_DES_BOX_Delay</string>
+	<string name="str_factory_nonstandard_delay">تأخير</string>
+	<string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+	<string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+	<string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+	<string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+	<string name="str_factory_nonstandard_aefcd5">AFEC_D5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">AFEC_D8 [3: 0]</string>
+	<string name="str_factory_nonstandard_aefcd9">AFEC_D9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+	<string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+	<string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+	<string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+	<string name="str_factory_nonstandard_aefc66">AFEC_66 [7: 6]</string>
+	<string name="str_factory_nonstandard_aefc6e">AFEC_6E [7: 4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">AFEC_6E [3: 0]</string>
+	<string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+	<string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+	<string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+	<string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+	<string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+	<string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+	<string name="str_factory_nonstandard_audiosif">الصوت سيف عتبة</string>
+	<string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+	<string name="str_Non_Standard_Adjust_text">ضبط غير قياسي</string>
+	<string name="str_textview_factory_nonstandard_default_val">128</string>
+
+
+	<string name="str_factory_non_linear">Non_linear</string>
+	<string name="str_factory_nonlinear_curvetype">نوع منحنى</string>
+	<string name="str_factory_nonlinear_osd0">OSD_0</string>
+	<string name="str_factory_nonlinear_osd25">OSD_25</string>
+	<string name="str_factory_nonlinear_osd50">OSD_50</string>
+	<string name="str_factory_nonlinear_osd75">OSD_75</string>
+	<string name="str_factory_nonlinear_osd100">OSD_100</string>
+	<string name="str_Non_Linear_Adjust_text">ضبط غير خطي</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">VGA</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">OVERSCAN</string>
+	<string name="str_factory_overscan_source">مصدر</string>
+	<string name="str_factory_overscan_hsize">H الحجم</string>
+	<string name="str_factory_overscan_hposition">H الموضع</string>
+	<string name="str_factory_overscan_vsize">V الحجم</string>
+	<string name="str_factory_overscan_vposition">V</string>
+	<string name="str_factory_overscan_adjust_text">ضبط أوفيركان</string>
+	<string name="str_textview_factory_overscan_source_val">ATV</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">ضبط سك</string>
+	<string name="str_factory_ssc_miuenable">تمكين ميا</string>
+	<string name="str_factory_ssc_miumodulation">مياو التحوير</string>
+	<string name="str_factory_ssc_miupercentage">ميو النسبة المئوية (٪)</string>
+	<string name="str_factory_ssc_lvdsenable">لفس تمكين</string>
+	<string name="str_factory_ssc_lvdsmodulation">لفدس التحوير</string>
+	<string name="str_factory_ssc_lvdspercentage">لفس النسبة المئوية (٪)</string>
+	<string name="str_factory_ssc_u_miuenable">MIU_U تمكين</string>
+	<string name="str_factory_ssc_u_miumodulation">MIU_U التحوير</string>
+	<string name="str_factory_ssc_u_miupercentage">MIU_U النسبة المئوية (٪)</string>
+	<string name="str_factory_ssc_u_lvdsenable">LVDS_U تمكين</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">LVDS_U التحوير</string>
+	<string name="str_factory_ssc_u_lvdspercentage">LVDS_U النسبة المئوية (٪)</string>
+	<string name="str_ssc_adjust_text">ضبط سك</string>
+	<string name="str_textview_factory_ssc_default_val">128</string>
+
+
+
+	<string name="str_factory_peq">PEQ</string>
+	<string name="str_factory_peq_fo1coarse">FO1 الخشنة</string>
+	<string name="str_factory_peq_fo1fine">FO1 غرامة</string>
+	<string name="str_factory_peq_fo2coarse">FO2 الخشنة</string>
+	<string name="str_factory_peq_fo2fine">FO2 غرامة</string>
+	<string name="str_factory_peq_fo3coarse">FO3 الخشنة</string>
+	<string name="str_factory_peq_fo3fine">FO3 غرامة</string>
+	<string name="str_factory_peq_fo4coarse">FO4 الخشنة</string>
+	<string name="str_factory_peq_fo4fine">FO4 غرامة</string>
+	<string name="str_factory_peq_fo5coarse">FO5 الخشنة</string>
+	<string name="str_factory_peq_fo5fine">FO5 غرامة</string>
+	<string name="str_factory_peq_gain1">Gain1</string>
+	<string name="str_factory_peq_gain2">Gain2</string>
+	<string name="str_factory_peq_gain3">Gain3</string>
+	<string name="str_factory_peq_gain4">Gain4</string>
+	<string name="str_factory_peq_gain5">Gain5</string>
+	<string name="str_factory_peq_q1">Q1</string>
+	<string name="str_factory_peq_q2">Q2</string>
+	<string name="str_factory_peq_q3">Q3</string>
+	<string name="str_factory_peq_q4">Q4</string>
+	<string name="str_factory_peq_q5">Q5</string>
+	<string name="str_peq_adjust_text">بيق ضبط</string>
+	<string name="str_textview_factory_peq_default_val">128</string>
+
+
+	<string name="str_factory_ci_setting">سي إعداد المصنع</string>
+	<string name="str_factory_ci_credential_mode">سي + وضع الاعتماد</string>
+	<string name="str_factory_ci_performance_monitor">مراقبة الأداء</string>
+	<string name="str_factory_ci_resource_manager">مدير موارد</string>
+	<string name="str_factory_ci_application_infomation">معلومات التطبيق</string>
+	<string name="str_factory_ci_conditional_access_support">دعم الوصول المشروط</string>
+	<string name="str_factory_ci_host_control">التحكم المضيف</string>
+	<string name="str_factory_ci_date_time">التاريخ الوقت</string>
+	<string name="str_factory_ci_man_machine_interface">رجل واجهة الجهاز</string>
+	<string name="str_factory_ci_low_speed_communication">انخفاض سرعة الاتصالات</string>
+	<string name="str_factory_ci_content_control">التحكم في المحتوى</string>
+	<string name="str_factory_ci_host_language_country">البلد المضيف اللغة</string>
+	<string name="str_factory_ci_cam_upgrade">ترقية كام</string>
+	<string name="str_factory_ci_operator_profile">الملف الشخصي للمشغل</string>
+	<string name="str_factory_ci_specific_application_support">دعم تطبيق معين</string>
+	<string name="str_factory_ci_app_man_machine_interface">تطبيق رجل آلة واجهة</string>
+	<string name="str_factory_ci_program_map_table">جدول خريطة البرنامج (لا يستخدم)</string>
+	<string name="str_factory_ci_host_service_shunning">خدمة المضيف الهروب</string>
+	<string name="str_factory_ci_canal_ready_authentication">مصادقة جاهزة للقناة</string>
+	<string name="str_factory_ci_default_tx_rx">الافتراضي تكس / ر</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">اختبار (مكتبة سي)</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">اختبار (فلاش ناند)</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">جبل التكوين</string>
+
+
+
+	<string name="str_factory_pqtableupdate">يا تحديث الجدول</string>
+
+
+	<string name="str_factory_ursa_info">معلومات أورسا</string>
+	<string name="str_factory_ursa_version">الإصدار</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">قائمة التغيير</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">معلومات الفريق</string>
+	<string name="str_textview_factory_panelinfo_text_timode">تي الوضع</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">وضع بت</string>
+	<string name="str_textview_factory_panelinfo_text_swap">وضع المبادلة</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">نمط مزدوج</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">وضع المرآة</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">VolumeCurve</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω8W</string>
+
+
+
+	<string name="str_set_mute_color">كتم اللون</string>
+
+
+	<string name="str_factory_otheroption">خيارات أخرى</string>
+	<string name="str_factory_otheroption_version">الإصدار</string>
+	<string name="str_factory_otheroption_name">اسم</string>
+	<string name="str_factory_otheroption_build">بناء</string>
+	<string name="str_factory_otheroption_changelist">قائمة التغيير</string>
+	<string name="str_factory_otheroption_board">مجلس</string>
+	<string name="str_factory_otheroption_panel">فريق</string>
+	<string name="str_factory_otheroption_date">تاريخ</string>
+	<string name="str_factory_otheroption_time">زمن</string>
+	<string name="str_factory_otheroption_watchdog">مشاهدة الكلب</string>
+	<string name="str_factory_otheroption_wake_on_lan">استيقظوا على الشبكة المحلية</string>
+	<string name="str_factory_otheroption_testpattern">نمط الاختبار</string>
+	<string name="str_factory_otheroption_upgrademboot">ترقية مبوت</string>
+	<string name="str_factory_otheroption_upgrademain">ترقية الرئيسية</string>
+	<string name="str_factory_otheroption_upgrade6m30">ترقية 6M30</string>
+	<string name="str_factory_otheroption_upgradedualursa">ترقية المزدوج أورسا</string>
+	<string name="str_factory_otheroption_restoretodefault">استعادة الى الافتراضي</string>
+	<string name="str_factory_otheroption_poweronmode">وضع التشغيل</string>
+	<string name="str_factory_otheroption_uartenable">تمكين وارت</string>
+	<string name="str_factory_otheroption_display_logo">عرض الشعار</string>
+	<string name="str_factory_otheroption_dtvavdelay">دتف أف ديلاي (غير قياسي)</string>
+	<string name="str_factory_otheroption_initialfunction">القناة الأولية</string>
+	<string name="str_factory_otheroption_panelswing">سوينغ لوحة</string>
+	<string name="str_factory_otheroption_audioprescale">الصوت بريسكيل</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">3D الكشف عن التكيف الذاتي المستوى</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">هل أنت متأكد ترقية؟</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">تؤكد</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">إلغاء</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">يرجى سد أوسب!</string>
+	<string name="str_factory_otheroption_xvycc">xvycc</string>
+	<string name="str_factory_otheroption_pvrrecordall">رفر تسجيل الكل</string>
+	<string name="str_other_option_text">ضبط خيار آخر</string>
+	<string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+	<string name="str_textview_factory_otheroption_board_val">J2</string>
+	<string name="str_textview_factory_otheroption_panel_val">دقة عالية</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">على</string>
+	<string name="str_textview_factory_otheroption_text_off">إيقاف</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+	<string name="str_textview_factory_otheroption_default_val">0 "</string>
+	<string name="str_factory_otheroption_main_pq_version">الرئيسية يا النسخة</string>
+	<string name="str_factory_otheroption_sub_pq_version">سوبق يا فيرسيون</string>
+	<string name="str_textview_factory_otheroption_waiting_val">الرجاء الانتظار!</string>
+	<string name="str_factory_otheroption_mstv_tool">تصحيح وارت</string>
+	<string name="str_factory_otheroption_pq_update">يا تحديث</string>
+	<string name="str_factory_otheroption_pq_update_state">من فضلك اضغط!</string>
+	<string name="str_factory_nonstandard_afeccf_av">AFEC_CF [2] _AV</string>
+	<string name="str_factory_nonstandard_afeccf_atv">AFEC_CF [2] _ATV</string>
+	<string name="str_ursa_test_result_title">نتيجة :</string>
+	<string name="str_ursa_test_run_auto">تشغيل السيارات</string>
+	<string name="str_ursa_test_title">اختبار الأم</string>
+	<string name="str_ursa_test_run">يركض</string>
+	<string name="str_Info_title">معلومات</string>
+	<string name="str_factory_otheroption_sw_version">سو النسخة</string>
+	<string name="str_factory_otheroption_dtv_preset">دتف مسبقا</string>
+	<string name="str_factory_otheroption_dtv_preset_state">من فضلك اضغط!</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">أرجو الإنتظار...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">الانتهاء، أس قبالة بعد 1 دقيقة.</string>
+	<string name="enter">موافق مفتاح دخول قائمة المصنع -></string>
+	<string name="tips">L-R أجوست، "موافق" أدخل المقبل، "خروج" / "القائمة" العودة</string>
+	<string name="str_factory_otheroption_str_enable">تمكين ستر</string>
+	<string name="str_factory_otheroption_audiodelay">مكبر الصوت تأخير</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">إب تمكين التعيين</string>
+	<string name="str_ipenablemapping_text">إب تمكين التعيين</string>
+
+
+	<string name="str_factory_update">الترقية من أوسب</string>
+	<string name="str_factory_upgrade">الترقية من أوسب</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">تحديث مفتاح هكب من أوسب</string>
+	<string name="str_factory_updateCIkeyfromUSB">تحديث مفتاح سي زائد من أوسب</string>
+	<string name="str_factory_upgrade_ci_upgrade">ترقية سي</string>
+	<string name="str_factory_upgrade_ci_display">سي العرض</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">ترقية هكب</string>
+	<string name="str_factory_upgrade_hdcp_display">عرض هكب</string>
+	<string name="str_factory_upgrade_mac_upgrade">ترقية ماك</string>
+	<string name="str_factory_upgrade_mac_display">عرض ماك</string>
+	<string name="str_factory_upgrade_sn_upgrade">سن ترقية</string>
+	<string name="str_factory_upgrade_sn_display">سن العرض</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">Hdcp2 ترقية</string>
+	<string name="str_factory_upgrade_hdcp2_display">عرض Hdcp2</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">معلومات الطلب</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">دفت المعلومات</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">معلومات دفك</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">获取 دفت / دفك معلومات 失败</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">برنامج المصنع وظيفة مسبقا</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">برنامج المصنع مسبقا</string>
+	<string name="str_factory_otheroption_factoryprogramreset">إعادة تعيين برنامج المصنع</string>
+	<string name="str_factory_otheroption_backupdbtousb">النسخ الاحتياطي دب إلى أوسب</string>
+	<string name="str_factory_otheroption_restoredbfromusb">استعادة دب من أوسب</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">من فضلك اضغط!</string>
+	<string name="str_textview_factory_otheroption_text_pass">البشري</string>
+	<string name="str_textview_factory_otheroption_text_fail">فشل</string>
+	<string name="str_factory_db_path">/ tvdatabase / قاعدة /</string>
+	<string name="str_factory_db_file">* قاعدة بيانات إدارة التهيئة *. بن</string>
+
+	<string name="str_factory_again_mode">وضع الشيخوخة</string>
+	<string name="str_factory_running_time">باور تايم (H / 2)</string>
+
+
+	<string name="str_design_menu_sound">صوت</string>
+	<string name="str_factory_prescale">Prescale</string>
+	<string name="str_factory_avc_enable">تمكين أفك</string>
+	<string name="str_factory_avc_threthold">أفك ثل</string>
+	<string name="str_factory_drc_enable">درك تمكين</string>
+	<string name="str_factory_drc_threthold">درك ثل</string>
+	<string name="str_factory_sound_effect">تأثير (HPF)</string>
+	<string name="str_factory_sound_toneffect">نغمة</string>
+	<string name="str_factory_audio_delay">تأخير الصوت (مكبر الصوت)</string>
+	<string name="str_factory_audio_nr">الصوت نر</string>
+	<string name="str_factory_lineout">LineOut (AUOUT1)</string>
+	<string name="str_factory_speaker">حجم (AUOUT0)</string>
+	<string name="str_factory_audio_spdif_delay">تأخير الصوت (سبديف)</string>
+
+	<string name="str_factory_ota_info">معلومات أوتا</string>
+	<string name="str_factory_ota_info_praname">praName</string>
+	<string name="str_factory_ota_info_cusname">cusName</string>
+	<string name="str_factory_ota_info_proname">proName</string>
+	<string name="str_factory_ota_info_preversion">preVersion</string>
+	<string name="str_factory_onidaview">خيار التمرير متوافر</string>
+
+	<string name="str_textview_factory_total_run_time">ح</string>
+	<string name="str_total_run_time">TotalRunTime</string>
+
+</resources>

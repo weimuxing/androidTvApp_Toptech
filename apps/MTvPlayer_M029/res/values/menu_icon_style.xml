@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- combo button -->
+    <style name="menu_icon_sty_3d">
+        <item name="android:layout_width">55dip</item>
+        <item name="android:layout_height">55dip</item>     
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginTop">5dip</item>       
+    </style>
+    
+    <style name="menu_icon_sty">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>     
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">8dp</item>       
+    </style>
+    <style name="menu_icon_sty_text">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">60dp</item>     
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">8dp</item>  
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>       
+    </style>
+    <style name="main_menu_icon_sty">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">72dp</item>     
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>  
+        <item name="android:descendantFocusability">blocksDescendants</item>
+        <item name="android:background">@drawable/main_icon_bg</item>  
+        <item name="android:orientation">horizontal</item>      
+    </style>
+</resources>

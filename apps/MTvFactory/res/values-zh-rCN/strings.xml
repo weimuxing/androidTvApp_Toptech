@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2014 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources>
+
+    <!-- For factory channel preset -->
+    <string name="str_factory_otheroption_factoryprogrampresetfunction">工厂频道预置功能</string>
+    <string name="str_factory_otheroption_factoryprogrampreset_atv">ATV频道预置</string>
+    <string name="str_factory_otheroption_factoryprogrampreset_dtv">DTV频道预置</string>
+    <string name="str_factory_otheroption_factoryprogrampreset">一键预置工厂频道</string>
+    <string name="str_factory_otheroption_factoryprogramreset">一键复位频道</string>
+    <string name="str_factory_otheroption_backupdbtousb">备份DB到USB</string>
+    <string name="str_factory_otheroption_restoredbfromusb">从USB复位DB</string>
+    <string name="str_factory_otheroption_factoryprogrampreset_state">请点击！</string>
+    <string name="str_textview_factory_otheroption_text_pass">成功</string>
+    <string name="str_textview_factory_otheroption_text_fail">失败</string>
+    <string name="str_factory_excute_shell">Execute Shell</string>
+    <string name="str_factoryprogrampreset_no_support_dtv_route">系统不支持DTV!</string>
+    <string name="str_factoryprogrampreset_waiting">请稍等...</string>
+    <string name="str_factoryprogrampreset_being_preseted_atv">正在预置ATV节目...</string>
+    <string name="str_factoryprogrampreset_being_preseted_dtv">正在预置DTV节目...</string>
+    <string name="str_factoryprogrampreset_choose_type">请选择类型</string>
+    <string name="str_factoryprogrampreset_done">完成</string>
+    <string name="str_factoryprogrampreset_cancel">关闭</string>
+    <!-- For dtv route type -->
+    <string-array name="str_arr_dtv_route_type">
+    <item>NONE</item>
+    <item>DVBT</item>
+    <item>DVBC</item>
+    <item>DVBS</item>
+    <item>ATSC</item>
+    <item>ISDB</item>
+    <item>DVBT2</item>
+    <item>DVBS2</item>
+    <item>DTMB</item>
+    </string-array>
+    <!-- Test Pattern -->
+    <string name="str_factory_mvop_test_pattern">MVOP模式</string>
+    <string name="str_factory_adc_test_pattern">ADC模式</string>
+    <string name="str_factory_ip_mux_test_pattern">IP MUX模式</string>
+    <string name="str_factory_xc_ip_test_pattern">XC IP模式</string>
+    <string name="str_factory_xc_op_test_pattern">XC OP模式</string>
+    <string name="str_factory_xc_vop_test_pattern">XC VOP模式</string>
+    <string name="str_factory_xc_vop2_test_pattern">XC VOP2模式</string>
+    <string name="str_factory_xc_mod_test_pattern">XC MOD模式</string>
+    <string name="str_factory_xc_white_balance_test_pattern">XC WHITE BALANCE模式</string>
+
+    <!-- Other Option -->
+    <string name="str_factory_testpattern">测试图案</string>
+
+    <!-- MVOP test pattern -->
+    <string-array name="str_arr_mvop_pattern_type">
+        <item>XC_MVOP_PATTERN_NORMAL</item>
+        <item>XC_MVOP_PATTERN_COLORBAR</item>
+        <item>XC_MVOP_PATTERN_FRAMECOLOR</item>
+        <item>XC_MVOP_PATTERN_YCBCR</item>
+        <item>XC_MVOP_PATTERN_Y</item>
+        <item>XC_MVOP_PATTERN_CB</item>
+        <item>XC_MVOP_PATTERN_CR</item>
+        <item>XC_MVOP_PATTERN_DEFAULT</item>
+    </string-array>
+
+    <string name="str_mvop_tip_info">配置 mvop测试图案参数</string>
+
+    <!-- ADC test pattern -->
+    <string name="str_adc_help_info">ADC测试图案 \n
+        ADC_EnableADCType (图案使能类型): \n
+        ADC_EnableADCType = 0x1; //RADC 使能 \n
+        ADC_EnableADCType = 0x2; //GADC 使能 \n
+        ADC_EnableADCType = 0x4; //BADC 使能 \n
+        ADC_EnableADCType = 0x8; //YADC 使能</string>
+    <string name="str_adc_EnableADCType">ADC使能类型</string>
+    <string name="str_adc_Ramp">Ramp</string>
+    <string name="str_adc_EnableADCType_range">范围: 0 ~ 255</string>
+    <string name="str_adc_Ramp_range">范围: 0 ~ 1023</string>
+    <string name="str_adc_tip_info">配置 adc测试图案参数</string>
+
+    <!-- IP MUX test pattern -->
+    <string name="str_xc_ip_help_info">IP测试图案 \n
+        XC_IP enable (图案使能类型): \n
+        XC_IP enable  = 0x1; //水平测试图案 \n
+        XC_IP enable  = 0x2; //垂直测试图案 \n
+        XC_IP enable  = 0x4; //移动测试图案 \n
+        XC_IP enable  = 0x8; //斜视测试图案</string>
+    <string name="str_ip_mux_enable">IP_MUX使能 </string>
+    <string name="str_ip_mux_r_cr_data">R_CR数值</string>
+    <string name="str_ip_mux_g_y_data">G_Y数值</string>
+    <string name="str_ip_mux_b_cb_data">B_CB数值</string>
+    <string name="str_ip_mux_enable_range">范围: 0 ~ 1</string>
+    <string name="str_ip_mux_r_cr_data_range">范围: 0 ~ 1023</string>
+    <string name="str_ip_mux_g_y_data_range">范围: 0 ~ 1023</string>
+    <string name="str_ip_mux_b_cb_data_range">范围: 0 ~ 1023</string>
+    <string name="str_ip_mux_tip_info">配置 ip mux测试图案参数</string>
+
+    <!-- XC IP test pattern -->
+    <string name="str_xc_ip_enable">XC_IP使能</string>
+    <string name="str_xc_ip_pattern_type">XC_IP图案类型</string>
+    <string name="str_xc_ip_window">Window</string>
+    <string name="str_xc_ip_enable_range">范围: 0 ~ 255</string>
+    <string name="str_xc_ip_pattern_type_range">范围: 0 ~ 65535</string>
+    <string name="str_xc_ip_window_range">范围: 0 ~ 3</string>
+    <string name="str_xc_ip_tip_info">配置 xc ip测试图案参数</string>
+    <!-- For XC OP test pattern -->
+    <string name="str_xc_op_bMiuLineBuff">bMiuLineBuff</string>
+    <string name="str_xc_op_bLineBuffHVSP">bLineBuffHVS</string>
+    <string name="str_xc_op_bMiuLineBuff_range">范围: 0 ~ 1</string>
+    <string name="str_xc_op_bLineBuffHVSP_range">范围: 0 ~ 1</string>
+    <string name="str_xc_op_tip_info">配置 xc op测试图案参数</string>
+    <!-- For XC VOP test pattern -->
+    <string name="str_xc_vop_enable">XC_VOP使能</string>
+    <string name="str_xc_vop_enable_range">范围: 0 ~ 1</string>
+    <string name="str_xc_vop_tip_info">配置 xc vop测试图案参数</string>
+    <!-- For XC VOP2 test pattern -->
+    <string name="str_xc_vop2_enable">XC_VOP2使能</string>
+    <string name="str_xc_vop2_r_data">R数值</string>
+    <string name="str_xc_vop2_g_data">G数值</string>
+    <string name="str_xc_vop2_b_data">B数值</string>
+    <string name="str_xc_vop2_enable_range">范围: 0 ~ 1</string>
+    <string name="str_xc_vop2_r_data_range">范围: 0 ~ 1023</string>
+    <string name="str_xc_vop2_g_data_range">范围: 0 ~ 1023</string>
+    <string name="str_xc_vop2_b_data_range">范围: 0 ~ 1023</string>
+    <string name="str_xc_vop2_tip_info">配置 xc vop2测试图案参数</string>
+    <!-- For XC MOD test pattern -->
+    <string name="str_xc_mod_enable">XC_MOD数值</string>
+    <string name="str_xc_mod_r_data">R数值</string>
+    <string name="str_xc_mod_g_data">G数值</string>
+    <string name="str_xc_mod_b_data">B数值</string>
+    <string name="str_xc_mod_enable_range">范围: 0 ~ 1</string>
+    <string name="str_xc_mod_r_data_range">范围: 0 ~ 1023</string>
+    <string name="str_xc_mod_g_data_range">范围: 0 ~ 1023</string>
+    <string name="str_xc_mod_b_data_range">范围: 0 ~ 1023</string>
+    <string name="str_xc_mod_tip_info">配置 xc mod测试图案参数</string>
+    <!-- For XC WHITE BALANCE test pattern -->
+    <string name="str_xc_white_balance_enable">XC_WHITE_BALANCE使能</string>
+    <string name="str_xc_white_balance_radio">White Balance Radio</string>
+    <string name="str_xc_white_balance_enable_range">范围: 0 ~ 1</string>
+    <string name="str_xc_white_balance_radio_range">范围: 0 ~ 100</string>
+    <string name="str_xc_white_balance_tip_info">配置 xc white balance 测试图案参数</string>
+    <string name="str_ok">确定</string>
+    <string name="str_cancle">取消</string>
+    <string name="str_warning">警告</string>
+    <string name="str_invalid_config">无效配置!</string>
+    <string name="str_no_empty">配置不能为空!</string>
+
+    <!-- For MFC level -->
+    <string-array name="str_arr_mfc">
+        <item>关</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>强</item>
+        <item>Bypass</item>
+    </string-array>
+
+</resources>

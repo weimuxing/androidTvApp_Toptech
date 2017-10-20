@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">Launcher</string>
+    
+    <string name="application_num">The numbers of installed applications: </string>
+    
+     <string name="temp_unit_c">℃</string>   
+     <string name="temp_unit_f">℉</string>
+     
+     <string name="loading">Loading...</string>
+     <string name="instruction_loading">Please wiat，loading.....</string>
+     
+     <string name="weather_location">Select weather city</string>
+     <string name="applabel">Application</string>
+     
+     <string name="errornetwork">Network failure!</string>
+     <string name="load_error">Load data failure!</string>
+     
+     <!-- datetime -->
+     <string name="day_of_candar">Th</string>
+
+     <string name="add_app_title">Select Your Favorite APPS</string>
+     <string name="tips">MY APPS</string>
+     <string name="savemsg">     Save Changes?</string>
+     <string name="delmsg">Do you want to del the shortcut?</string>
+     <string name="min_apk_num">At least one APK Required!</string>
+     <string name="ok">Yes</string> 
+     <string name="cancle">No</string>
+     <string name="all_check_title">All Checked</string>
+     <string name="rev_check_title">Reverse check</string>
+     <string name="month">m</string>
+     <string name="pick_wallpaper">Pick wallpaper</string>
+     <string name="chooser_wallpaper">Choose wallpaper</string>
+     <string name="activity_not_found">Activity not found</string>
+     <string name="url_select">Url select</string>
+     <string name="wallpaper_instructions">Wallpaper instructions</string>
+     <string name="wallpaper">Wallpaper</string>
+      <string name="wallpaper_set">Wallpaper successfully set!</string>
+    
+     <!-- lyp add -->
+     <string name="contentdes">img</string>
+     <string name="city001">ShenZhen</string>
+</resources>

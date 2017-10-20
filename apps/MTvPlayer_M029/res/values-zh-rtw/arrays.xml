@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!-- setting listview  -->
+    <string-array name="more_setting_listview_text">
+        <item>圖像</item>
+        <item>聲音</item>
+        <item>頻道</item>
+        <item>設置</item>
+        <item>時間</item>
+        <item>童鎖</item>
+    </string-array> 
+    
+    <string-array name="more_setting_listview_nochannel_text">
+        <item>圖像</item>
+        <item>聲音</item>
+        <item>設置</item>
+        <item>時間</item>
+        <item>童鎖</item>
+    </string-array> 
+    <string-array name="more_setting_listview_nochannelnolock_text">
+        <item>圖像</item>
+        <item>聲音</item>
+        <item>設置</item>
+        <item>時間</item>
+    </string-array> 
+</resources>

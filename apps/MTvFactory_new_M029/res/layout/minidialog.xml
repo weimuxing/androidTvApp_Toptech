@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+   android:paddingBottom="50dp">
+
+    <RelativeLayout
+        android:id="@+id/dialog_rl"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+       android:gravity="center_vertical"
+        android:background="@drawable/button_style" >
+        <ImageView
+            android:id="@+id/id_combine_arrow_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/common_img_arrow_l"/>
+
+       <TextView
+            android:id="@+id/dialog_title"
+            android:layout_height="50dp"
+            android:layout_width="150dp"
+            android:textColor="@android:color/white"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/id_combine_arrow_left" />
+        <TextView
+            android:id="@+id/dialog_value"
+            android:layout_height="50dp"
+            android:layout_width="130dp"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:gravity="center"
+           android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toRightOf="@id/dialog_title" />
+        
+         <ImageView
+            android:id="@+id/id_combine_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="10dp"
+            android:layout_alignTop="@id/id_combine_arrow_left"
+            android:background="@drawable/common_img_arrow_r"/>
+    </RelativeLayout>
+
+</RelativeLayout>

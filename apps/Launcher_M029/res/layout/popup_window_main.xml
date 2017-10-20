@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="@drawable/tableheadhalf">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:padding="5dip"
+            android:text="@string/add_app_title" 
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/close_popuwin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/selector_close" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/app_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="350dip"
+        android:layout_gravity="center"
+        android:horizontalSpacing="0dip"
+        android:numColumns="3"
+        android:paddingTop="10dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dip" />
+
+</LinearLayout>

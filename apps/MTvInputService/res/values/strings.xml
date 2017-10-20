@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2015 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources>
+
+    <!-- for Channel -->
+    <string name="str_cha_antannatype">Antenna Type</string>
+    <string name="str_cha_antannatype_none">None</string>
+    <string name="str_cha_antannatype_air">Air</string>
+    <string name="str_cha_antannatype_cable">Cable</string>
+
+    <string name="str_prompt_setup_wizard_title">Please Select Antenna Type and Start AutoScan</string>
+    <string name="str_prompt_setup_wizard_next">Next</string>
+    <string name="str_prompt_setup_wizard_skip">Skip</string>
+    <string name="str_prompt_setup_location_title">Please select location</string>
+    <string name="str_cha_changing_antenna_type">Changing Antenna Type</string>
+    <string name="str_ci_async_cmd_switch_route">CI invoke route switch ...</string>
+    <string name="str_cha_please_wait">Wait a Moment Please</string>
+    <string name="str_cha_tv_route_none">NONE</string>
+    <string name="str_cha_tv_route_dvbt">Air</string>
+    <string name="str_cha_tv_route_dvbc">Cable</string>
+    <string name="str_cha_tv_route_dvbs">Satellite</string>
+    <string name="str_cha_tv_route_dvbt2">Air</string>
+    <string name="str_cha_tv_route_dvbs2">Satellite</string>
+    <string name="str_cha_tv_route_dtmb">DTMB</string>
+    <string name="str_cha_tv_route_unknown">Unknown</string>
+    <string name="str_cha_channel">Channel</string>
+    <string name="str_cha_autotuning">Auto Tuning</string>
+    <string name="str_cha_dtvmanualtuning">DTV Manual Tuning</string>
+    <string name="str_cha_atvmanualtuning">ATV Manual Tuning</string>
+    <string name="str_cha_bandwidth_switch">Bandwidth Switch</string>
+    <string name="str_cha_bandwidth_uhf_7mhz">7MHz over UHF</string>
+    <string name="str_mainmenu_menu">Menu</string>
+    <string name="str_cha_autotuning_tuningtype">Search Type</string>
+    <string name="str_cha_autotuning_tuningtype_atv">ATV</string>
+    <string name="str_cha_autotuning_country_australia">Australia</string>
+    <string name="str_cha_autotuning_country_austria">Austria</string>
+    <string name="str_cha_autotuning_country_beligum">Beligum</string>
+    <string name="str_cha_autotuning_country_bulgaral">Bulgaral</string>
+    <string name="str_cha_autotuning_country_croatia">Croatia</string>
+    <string name="str_cha_autotuning_country_czech">Czech</string>
+    <string name="str_cha_autotuning_country_denmark">Denmark</string>
+    <string name="str_cha_autotuning_country_finland">Finland</string>
+    <string name="str_cha_autotuning_country_france">France</string>
+    <string name="str_cha_airdtv_title">Air DTV</string>
+    <string name="str_cha_airtv_title">Air</string>
+    <string name="str_cha_cabletv_title">Cable</string>
+    <string name="str_cimmi_hint_ci_inserted">CI Card Inserted</string>
+    <string name="str_cimmi_hint_ci_removed">CI Card Removed</string>
+
+    <string name="closed_captions">Closed Captions</string>
+
+    <string-array name="str_arr_autotuning_country">
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Bulgaria</item>
+        <item>Croatia</item>
+        <item>Czech</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>Italy</item>
+        <item>Luxembourg</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Rumania</item>
+        <item>Russia</item>
+        <item>Serbia</item>
+        <item>Slovenia</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>UK</item>
+        <item>New Zealand</item>
+        <item>Arab</item>
+        <item>Estonia</item>
+        <item>Hebrew</item>
+        <item>Latvia</item>
+        <item>Slovakia</item>
+        <item>Turkey</item>
+        <item>Ireland</item>
+        <item>Japan</item>
+        <item>Philippines</item>
+        <item>Thailand</item>
+        <item>Maldives</item>
+        <item>Uruguay</item>
+        <item>Peru</item>
+        <item>Argentina</item>
+        <item>Chile</item>
+        <item>Venezuela</item>
+        <item>Ecuador</item>
+        <item>Costarica</item>
+        <item>Paraguay</item>
+        <item>Bolivia</item>
+        <item>Belize</item>
+        <item>Nicaragua</item>
+        <item>Guatemala</item>
+        <item>China</item>
+        <item>Taiwan</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Mexico</item>
+        <item>United States</item>
+        <item>South Korea</item>
+        <item>Fiji</item>
+        <item>Uzbek</item>
+        <item>Tajikistan</item>
+        <item>Ethiopia</item>
+        <item>Azerbaijan</item>
+        <item>South Africa</item>
+        <item>Algeria</item>
+        <item>Egypt</item>
+        <item>Saudi Arabia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Namibia</item>
+        <item>Jordan</item>
+        <item>Kuwait</item>
+        <item>Indonesia</item>
+        <item>Israel</item>
+        <item>Qatar</item>
+        <item>Nigeria</item>
+        <item>Zimbabwe</item>
+        <item>Lithuania</item>
+        <item>Morocco</item>
+        <item>Tunis</item>
+        <item>India</item>
+        <item>VieTnam</item>
+        <item>Hongkong</item>
+        <item>Colombia</item>
+        <item>Malaysia</item>
+        <item>Singapore</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="str_arr_signalinfo_qam_cab">
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+    <string-array name="str_arr_signalinfo_qam_dvbt">
+        <item>QPSK</item>
+        <item>16QAM</item>
+        <item>64QAM</item>
+        <item>256QAM</item>
+    </string-array>
+
+    <string name="str_cha_channeltuning">Channel Tuning</string>
+    <string name="str_cha_tv">TV :</string>
+    <string name="str_cha_tv_0">0</string>
+    <string name="str_cha_dtv">DTV :</string>
+
+    <!-- for dtv auto tune option -->
+    <string-array name="strs_cha_dtvautotuning_dvbc_tuning_mode">
+        <item>Full Scan</item>
+        <item>Quick Scan</item>
+    </string-array>
+    <string-array name="strs_cha_dtvautotuning_demodulation_tbl">
+        <item>16 QAM</item>
+        <item>32 QAM</item>
+        <item>64 QAM</item>
+        <item>128 QAM</item>
+        <item>256 QAM</item>
+    </string-array>
+
+    <string name="str_cha_dtvautotuning_startscan">Start Scan</string>
+    <string name="str_cha_dtvautotuning_frequency">Frequency</string>
+    <string name="str_cha_dtvautotuning_modulation">Modulation</string>
+    <string name="str_cha_dtvautotuning_symbol">Symbol</string>
+    <string name="str_cha_dtvautotuning_networkid">Network ID</string>
+    <string name="str_cha_dtvautotuning_networkid_invalid">NetworkID Invalid</string>
+    <string name="str_cha_dtvautotuning_ok">ok</string>
+    <string name="str_cha_dtvautotuning_auto">Auto</string>
+    <string name="str_cha_dtvautotuning_signalstrength">Signal Strength</string>
+    <string name="str_cha_dtvautotuning_signalquality">Signal Quality</string>
+    <string name="str_cha_dvbsdtvtuning_scanmode">Scan Mode</string>
+    <string name="str_cha_dvbsdtvtuning_servicetype">Service Type</string>
+    <string name="str_cha_dvbsdtvtuning_networksearch">Network Search</string>
+    <string name="str_cha_dvbsdtvtuning_transponder">Transponder</string>
+    <string name="str_cha_dvbsdtvtuning_satellite">Satellite</string>
+    <string name="str_cha_dvbsdtvtuning_searchtype">Search Option</string>
+    <string name="str_cha_radio">RADIO :</string>
+    <string name="str_cha_data">DATA :</string>
+    <string name="str_cha_program">Programmes</string>
+    <string name="str_cha_tuningprogress_percent_0">0%</string>
+    <string name="str_cha_tuningprogress_uhf">UHF</string>
+    <string name="str_cha_tuningprogress_vhf">VHF</string>
+    <string name="str_cha_tuningprogress_ch">CH</string>
+    <string name="str_cha_tuningprogress_freq">Freq</string>
+    <string name="str_cha_tuningprogress_dtv">DTV</string>
+    <string name="str_cha_exittuning_info">Are you sure to exit ATV/DTV tuning?</string>
+    <string name="str_cha_exittuning_yes">YES</string>
+    <string name="str_cha_exittuning_no">NO</string>
+    <string name="str_cha_dtvmanualtuning_channelno">Channel</string>
+    <string name="str_cha_dtvmanualtuning_ch">CH</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="str_cha_dtvmanualtuning_frequency">Frequency</string>
+    <string name="str_cha_dtvmanualtuning_modulation">Modulation</string>
+    <string name="str_cha_dtvmanualtuning_symbol">Symbol Rate</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">Search</string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">Signal Strength</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">Signal Quality</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">DTV:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">RADIO:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">DATA:</string>
+    <string name="str_cha_atvmanualtuning_channelno">Channel</string>
+    <string name="str_cha_atvmanualtuning_store_channelno">Store To:</string>
+    <string name="str_cha_atvmanualtuning_ch">CH</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">Color System</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">Auto</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">Sound System</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">Auto</string>
+    <string name="str_cha_atvmanualtuning_starttuning">Search</string>
+    <string name="str_cha_atvmanualtuning_fine_tune">Fine Tune</string>
+    <string name="str_cha_atvmanualtuning_frequency">Frequency :</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">MHZ</string>
+    <string name="str_cha_dtvmanualtuning_galaxy">GALAXY</string>
+    <string name="str_cha_dtvmanualtuning_polarization">Polarization</string>
+    <string name="str_cha_dtvmanualtuning_network">Network</string>
+    <string name="str_cha_dtvmanualtuning_scan_mode">Scan Mode</string>
+    <string name="str_cha_dtvmanualtuning_service_type">Service type</string>
+    <string name="str_cha_save">Save</string>
+
+    <string-array name="str_arr_dtvmanualtuning_polarization_vals">
+        <item>Vertical Position</item>
+        <item>Horizontal Position</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_network_vals">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_scan_mode_vals">
+        <item>Free</item>
+        <item>Free+Scramble</item>
+        <item>Scramble</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_service_type_vals">
+        <item>DTV</item>
+        <item>DTV+Radio</item>
+        <item>Radio</item>
+    </string-array>
+    <string-array name="str_arr_dtvmanualtuning_lnbtype_vals">
+        <item>C</item>
+        <item>Ku</item>
+    </string-array>
+
+    <!-- for ci+ op -->
+    <string name="str_op_forbid_channel_tuning_content">Forbid to do channel tune under OP mode.\nPlease exit OP mode at first.</string>
+
+    <!-- For epg -->
+    <string name="str_epg_event_extend_no_info">No Information</string>
+
+    <!-- For screen mode hint msg -->
+    <string name="str_invalid_service">INVALID SERVICE</string>
+    <string name="str_no_ci_module">NO CI MODULE</string>
+    <string name="str_ci_plus_authentication">CI+ AUTHENTICATION</string>
+    <string name="str_scrambled_program">SCRAMBLED PROGRAM</string>
+    <string name="str_program_block">PROGRAM BLOCK</string>
+    <string name="str_parental_block">PARENTAL BLOCK</string>
+    <string name="str_rating_blocked">RATING BLOCKED</string>
+    <string name="str_channel_block">CHANNEL BLOCK</string>
+    <string name="str_input_block">INPUT BLOCK</string>
+    <string name="str_audio_only">AUDIO ONLY</string>
+    <string name="str_data_only">DATA ONLY</string>
+    <string name="str_common_video">COMMON VIDEO</string>
+    <string name="str_unsupported">UNSUPPORTED</string>
+    <string name="str_no_channel_banner">NO CHANNEL</string>
+    <string name="str_invalid_pmt">INVALID PMT</string>
+    <string name="str_no_signal">NO SIGNAL</string>
+    <string name="str_auto_adjust">Auto Adjust</string>
+
+    <!-- For Toast style -->
+    <string name="str_cha_cities_choosen">city option</string>
+
+    <string-array name="cities_option_array">
+        <item>Others</item>
+        <item>Beijing</item>
+        <item>Anhui</item>
+        <item>Hefei</item>
+        <item>Anqin</item>
+        <item>Bengbu</item>
+        <item>Xiamen</item>
+        <item>Quanzhou</item>
+        <item>Luoyang</item>
+        <item>Zhangzhou</item>
+        <item>Guangzhou</item>
+        <item>Guangdong</item>
+        <item>Dongguan</item>
+        <item>Guiyang</item>
+        <item>Haikou</item>
+        <item>Shijiazhuang</item>
+        <item>Qinhuangdao</item>
+        <item>Tangshan</item>
+        <item>Haerbin</item>
+        <item>Zhengzhou</item>
+        <item>Luoyang</item>
+        <item>Nanyang</item>
+        <item>Hubei</item>
+        <item>Wuhan</item>
+        <item>Huanggang</item>
+        <item>Jingzhou</item>
+        <item>Yichang</item>
+        <item>ChangshaGuangda</item>
+        <item>ChangshaGuoan</item>
+        <item>Nantong</item>
+        <item>Nanchang</item>
+        <item>Jilin</item>
+        <item>Dalian</item>
+        <item>Huhehaote</item>
+        <item>Xian</item>
+        <item>Chengdu</item>
+        <item>Wulumuqi</item>
+        <item>Jinhua</item>
+        <item>Ningbo</item>
+        <item>Shaoxing</item>
+    </string-array>
+
+    <!-- for box only -->
+    <string name="wait_for_tuning_hint">"Please wait for tunning..."</string>
+
+    <!-- For DVBS LNB Setting -->
+    <string name="str_lnbsetting_title">LNB Setting</string>
+    <string name="str_lnbsetting_satellite">Satellite</string>
+    <string name="str_lnbsetting_transponder">Transponder</string>
+    <string name="str_lnbsetting_transponder_freq">(MHz)</string>
+    <string name="str_lnbsetting_transponder_symbol">(kS/s)</string>
+    <string name="str_lnbsetting_lnbpower">LNB Power</string>
+    <string name="str_lnbsetting_compensation">Long Cable Compensation</string>
+    <string name="str_lnbsetting_frequencies">LNB Low/High Frequencies</string>
+    <string name="str_lnbsetting_frequencies_title">LNB Type</string>
+    <string name="str_lnbsetting_frequencies_low">Low</string>
+    <string name="str_lnbsetting_frequencies_high">High</string>
+    <string name="str_lnbsetting_frequencies_set">Changing Setting</string>
+    <string name="str_lnbsetting_22knz_tone">22kHz Tone</string>
+    <string name="str_lnbsetting_toneburst">Toneburst</string>
+    <string name="str_lnbsetting_diseqc_1_0">DiSEqC 1.0</string>
+    <string name="str_lnbsetting_diseqc_1_1">DiSEqC 1.1</string>
+    <string name="str_lnbsetting_diseqc_1_2">DiSEqC 1.2</string>
+    <string name="str_lnbsetting_diseqc_1_3">DiSEqC 1.3</string>
+    <string name="str_lnboptting_diseqc_change">Changing DiSEqC</string>
+    <string name="str_lnbsetting_motor_none">None</string>
+    <string name="str_lnbsetting_motor">Motor</string>
+    <string name="str_lnbsetting_signalquality">Quality</string>
+    <string name="str_lnbsetting_strength">Strength</string>
+    <string name="str_lnbsetting_singlecable">Single Cable</string>
+    <string name="str_lnbsetting_singlecable_none">None</string>
+    <string name="str_lnbsetting_singlecable_slot">Slot</string>
+    <string name="str_lnbsetting_singlecable_freq">Frequencies</string>
+    <string name="str_lnbsetting_singlecable_pin">Pin</string>
+    <string name="str_lnbsetting_singlecable_lnb">LNB</string>
+    <string name="str_lnbsetting_singlecable_verify">Verify</string>
+    <string name="str_lnboption_menu_hint_add">Add</string>
+    <string name="str_lnboption_menu_hint_delete">Delete</string>
+    <string name="str_lnboption_menu_hint_edit">Edit</string>
+    <string name="str_lnboption_menu_hint_position">Position</string>
+    <string name="str_lnboption_menu_hint_limit">Limit</string>
+    <string name="str_lnboption_menu_hint_location">Location</string>
+    <string name="str_lnboption_editor_number">No.</string>
+    <string name="str_lnboption_editor_longitude_direction">Longitude Direction</string>
+    <string name="str_lnboption_editor_longitude_angle">Longitude Angle</string>
+    <string name="str_lnboption_editor_frequency">Frequency</string>
+    <string name="str_lnboption_editor_symbolrate">Symbol Rate</string>
+    <string name="str_lnboption_editor_band">Band</string>
+    <string name="str_lnboption_editor_polarization">Polarization</string>
+    <string name="str_lnboption_editor_rename">Rename</string>
+    <string name="str_lnboption_editor_name">Name</string>
+    <string name="str_lnboption_editor_del_dialog_title">Tip</string>
+    <string name="str_lnboption_editor_del_dialog_msg">Delete selected item ?</string>
+    <string name="str_lnboption_editor_del_dialog_yes">Yes</string>
+    <string name="str_lnboption_editor_del_dialog_no">No</string>
+    <string name="str_lnb_motor_editor_title">Motor Setting</string>
+    <string name="str_lnb_motor_editor_move_auto">Move Auto</string>
+    <string name="str_lnb_motor_editor_move_continue">Move Continue</string>
+    <string name="str_lnb_motor_editor_move_step">Move Step(1)</string>
+    <string name="str_lnb_motor_editor_store_position">Store Position</string>
+    <string name="str_lnb_motor_editor_goto_position">Go to Position</string>
+    <string name="str_lnb_motor_editor_set_west_limit">Set West Limit</string>
+    <string name="str_lnb_motor_editor_set_east_limit">Set East Limit</string>
+    <string name="str_lnb_motor_editor_goto_reference">Go to Reference</string>
+    <string name="str_lnb_motor_editor_goto_x">Go to X</string>
+    <string name="str_lnb_motor_editor_disable_limit">Disable Limit</string>
+    <string name="str_lnb_motor_editor_location">Location :</string>
+    <string name="str_lnb_motor_editor_longitude_direction">Longitude Direction</string>
+    <string name="str_lnb_motor_editor_longitude_angle">Longitude Angle</string>
+    <string name="str_lnb_motor_editor_latitude_direction">Latitude Direction</string>
+    <string name="str_lnb_motor_editor_latitude_angle">Latitude Angle</string>
+    <string name="str_lnb_motor_editor_ok">Ok</string>
+    <string name="str_lnb_motor_editor_stop">Stop</string>
+    <string name="str_lnb_motor_editor_east">East</string>
+    <string name="str_lnb_motor_editor_west">West</string>
+
+    <string-array name="str_arr_lnbpower_option">
+        <item>Off</item>
+        <item>13/18V</item>
+        <item>13V</item>
+        <item>18V</item>
+        <item>14/19V</item>
+        <item>14V</item>
+        <item>19V</item>
+    </string-array>
+    <string-array name="str_arr_compensation_option">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_option">
+        <item>UNIVERSAL</item>
+        <item>MDU_1</item>
+        <item>MDU_2</item>
+        <item>MDU_3</item>
+        <item>MDU_4</item>
+        <item>5150_MHZ</item>
+        <item>5750_MHZ</item>
+        <item>5150_5750_MHZ</item>
+        <item>9750_MHZ</item>
+        <item>10600_MHZ</item>
+        <item>10750_MHZ</item>
+        <item>11250_MHZ</item>
+        <item>11300_MHZ</item>
+        <item>11475_MHZ</item>
+        <item>9750_10700_MHZ</item>
+        <item>9750_10750_MHZ</item>
+        <item>10000_10450_MHZ</item>
+        <item>USER_MODE</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_low">
+        <item>9750</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>5150</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+        <item>9750</item>
+        <item>9750</item>
+        <item>10000</item>
+        <item>9750</item>
+    </string-array>
+    <string-array name="str_arr_lnb_frequencies_high">
+        <item>10600</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+        <item>10700</item>
+        <item>10750</item>
+        <item>10450</item>
+        <item>10600</item>
+    </string-array>
+    <string-array name="str_arr_22knz_tone_option">
+        <item>Auto</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="str_arr_toneburst_option">
+        <item>None</item>
+        <item>Burst A</item>
+        <item>Burst B</item>
+    </string-array>
+    <string-array name="str_arr_diseqc_1_0_option">
+        <item>None</item>
+        <item>LNB 1</item>
+        <item>LNB 2</item>
+        <item>LNB 3</item>
+        <item>LNB 4</item>
+    </string-array>
+    <string-array name="str_arr_diseqc_1_1_option">
+        <item>None</item>
+        <item>LNB 1</item>
+        <item>LNB 2</item>
+        <item>LNB 3</item>
+        <item>LNB 4</item>
+        <item>LNB 5</item>
+        <item>LNB 6</item>
+        <item>LNB 7</item>
+        <item>LNB 8</item>
+        <item>LNB 9</item>
+        <item>LNB 10</item>
+        <item>LNB 11</item>
+        <item>LNB 12</item>
+        <item>LNB 13</item>
+        <item>LNB 14</item>
+        <item>LNB 15</item>
+        <item>LNB 16</item>
+    </string-array>
+    <string-array name="str_arr_motor_diseqc_version">
+        <item>None</item>
+        <item>DiSEqC 1.2</item>
+        <item>DiSEqC 1.3</item>
+    </string-array>
+    <string-array name="str_arr_single_cable_slot_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="str_arr_single_cable_lnb_option">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="str_arr_longitude_direction_option">
+        <item>East</item>
+        <item>West</item>
+    </string-array>
+    <string-array name="str_arr_latitude_direction_option">
+        <item>North</item>
+        <item>South</item>
+    </string-array>
+    <string-array name="str_arr_satellite_band_option">
+        <item>C</item>
+        <item>Ku</item>
+    </string-array>
+    <string-array name="str_arr_transponder_polarization_option">
+        <item>V</item>
+        <item>H</item>
+    </string-array>
+
+    <!-- For bandwidth switch -->
+    <string-array name="str_arr_bandwidth_option">
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <!-- For UHF 7 MHz Option -->
+    <string-array name="str_arr_uhf_7mhz_option">
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+
+    <!-- For target region -->
+    <string name="str_target_region_country">Country</string>
+    <string name="str_target_region_primary">Primary region</string>
+    <string name="str_target_region_secondary">Secondary region</string>
+    <string name="str_target_region_tertiary">Tertiary region</string>
+
+    <string name="str_preferred_channel_list">Preferred Channel List</string>
+
+    <!-- For scan type -->
+    <string-array name="str_arr_tuning_type">
+        <item>ATV</item>
+        <item>DTV</item>
+        <item>ATV+DTV</item>
+    </string-array>
+    <string-array name="str_arr_dvbc_tuning_type">
+        <item>ATV</item>
+        <item>CADTV</item>
+        <item>ATV+CADTV</item>
+    </string-array>
+
+    <!-- For dvbc operator -->
+    <string-array name="str_arr_dvbc_operator">
+        <item>Others</item>
+        <item>Cdsmatv</item>
+        <item>Cdcable</item>
+        <item>Comhem</item>
+        <item>Upc</item>
+        <item>Yousee</item>
+        <item>Cableready</item>
+        <item>Ziggo</item>
+        <item>Stofa</item>
+    </string-array>
+
+    <!-- Category ATV video standard -->
+    <string name="str_atv_video_standard_pal">PAL</string>
+    <string name="str_atv_video_standard_ntsc">NTSC</string>
+    <string name="str_atv_video_standard_secam">SECAM</string>
+
+    <!-- Category DTV audio format -->
+    <string name="audio_type_mpeg">MPEG</string>
+    <string name="audio_type_dolby_d">Dolby D</string>
+    <string name="audio_type_aac">AAC</string>
+    <string name="audio_type_ac3p">AC3P</string>
+    <string name="audio_type_dra1">DRA1</string>
+
+    <string-array name="str_arr_setting_audio_type_iso_text">
+        <item></item>
+        <item>C.E</item>
+        <item>H.I.</item>
+        <item>V.I.</item>
+    </string-array>
+
+    <!-- for Audio Info AAC Profile And Level -->
+    <string name="aac_level1">AAC L1</string>
+    <string name="aac_level2">AAC L2</string>
+    <string name="aac_level4">AAC L4</string>
+    <string name="aac_level5">AAC L5</string>
+    <string name="he_aac_level2">HE-AAC L2</string>
+    <string name="he_aac_level3">HE-AAC L3</string>
+    <string name="he_aac_level4">HE-AAC L4</string>
+    <string name="he_aac_level5">HE-AAC L5</string>
+
+    <!-- Category ATV sound format -->
+    <string-array name="str_arr_atv_sound_format">
+        <item>UNKNOWN</item>
+        <item>MONO</item>
+        <item>MONO</item>
+        <item>STEREO</item>
+        <item>STEREO</item>
+        <item>MONO SAP</item>
+        <item>STEREO SAP</item>
+        <item>DUAL A</item>
+        <item>DUAL B</item>
+        <item>DUAL AB</item>
+        <item>NICAM MONO</item>
+        <item>NICAM STEREO</item>
+        <item>NICAM DUAL A</item>
+        <item>NICAM DUAL B</item>
+        <item>NICAM DUAL AB</item>
+        <item>MONO</item>
+        <item>LEFT LEFT</item>
+        <item>RIGHT RIGHT</item>
+        <item>LEFT RIGHT</item>
+    </string-array>
+
+    <!-- Category DVB genre Movie/Drama -->
+    <string-array name="str_arr_genre_movie_dvb">
+        <item>movie/drama</item>
+        <item>detective/thriller</item>
+        <item>adventure/western/war</item>
+        <item>science fiction/fantasy/horror</item>
+        <item>comedy</item>
+        <item>soap/melodrama/folkloric</item>
+        <item>romance</item>
+        <item>serious/classical/religious/historical movie/drama</item>
+        <item>adult movie/drama</item>
+    </string-array>
+
+    <!-- Category DVB genre News/Current affairs -->
+    <string-array name="str_arr_genre_news_dvb">
+        <item>news/current affairs</item>
+        <item>news/weather report</item>
+        <item>news magazine</item>
+        <item>documentary</item>
+        <item>discussion/interview/debate</item>
+    </string-array>
+
+    <!-- Category DVB genre Show/Game show -->
+    <string-array name="str_arr_genre_show_dvb">
+        <item>show/game show</item>
+        <item>game show/quiz/contes</item>
+        <item>variety show</item>
+        <item>talk show</item>
+    </string-array>
+
+    <!-- Category DVB genre Sports -->
+    <string-array name="str_arr_genre_sports_dvb">
+        <item>sports</item>
+        <item>special events (Olympic Games, World Cup etc.)</item>
+        <item>sports magazines</item>
+        <item>football/soccer</item>
+        <item>tennis/squash</item>
+        <item>team sports (excluding football)</item>
+        <item>athletics</item>
+        <item>motor sport</item>
+        <item>water sport</item>
+        <item>winter sports</item>
+        <item>equestrian</item>
+        <item>martial sports</item>
+    </string-array>
+
+    <!-- Category DVB genre Children's/Youth programmes -->
+    <string-array name="str_arr_genre_children_dvb">
+        <item>children\'s/youth programmes</item>
+        <item>pre-school children\'s programmes</item>
+        <item>entertainment programmes for 6 to14</item>
+        <item>entertainment programmes for 10 to 16</item>
+        <item>informational/educational/school programmes</item>
+        <item>cartoons/puppets</item>
+    </string-array>
+
+    <!-- Category DVB genre Music/Ballet/Dance -->
+    <string-array name="str_arr_genre_music_dvb">
+        <item>music/ballet/dance</item>
+        <item>rock/pop</item>
+        <item>serious music/classical music</item>
+        <item>folk/traditional music</item>
+        <item>jazz</item>
+        <item>musical/opera</item>
+        <item>ballet</item>
+    </string-array>
+
+    <!-- Category DVB genre Arts/Culture -->
+    <string-array name="str_arr_genre_arts_dvb">
+        <item>arts/culture</item>
+        <item>performing arts</item>
+        <item>fine arts</item>
+        <item>religion</item>
+        <item>popular culture/traditional arts</item>
+        <item>literature</item>
+        <item>film/cinema</item>
+        <item>experimental film/video</item>
+        <item>broadcasting/press</item>
+        <item>new media</item>
+        <item>arts/culture magazines</item>
+        <item>fashion</item>
+    </string-array>
+
+    <!-- Category DVB genre Social/Political issues/Economics -->
+    <string-array name="str_arr_genre_social_dvb">
+        <item>social/political issues/economics</item>
+        <item>magazines/reports/documentary</item>
+        <item>economics/social advisory</item>
+        <item>remarkable people</item>
+    </string-array>
+
+    <!-- Category DVB genre Education/Science/Factual topics -->
+    <string-array name="str_arr_genre_education_dvb">
+        <item>education/science/factual topics</item>
+        <item>nature/animals/environment</item>
+        <item>technology/natural sciences</item>
+        <item>medicine/physiology/psychology</item>
+        <item>foreign countries/expeditions</item>
+        <item>social/spiritual sciences</item>
+        <item>further education</item>
+        <item>languages</item>
+    </string-array>
+
+    <!-- Category DVB genre Leisure hobbies -->
+    <string-array name="str_arr_genre_leisure_hobbies_dvb">
+        <item>leisure hobbies</item>
+        <item>tourism/travel</item>
+        <item>handicraft</item>
+        <item>motoring</item>
+        <item>fitness &amp; health</item>
+        <item>cooking</item>
+        <item>advertisement/shopping</item>
+        <item>gardening</item>
+    </string-array>
+
+    <!-- Category DVB genre Special characteristics -->
+    <string-array name="str_arr_genre_special_dvb">
+        <item>original language</item>
+        <item>black &amp; white</item>
+        <item>unpublished</item>
+        <item>live broadcast</item>
+    </string-array>
+
+    <!-- Category ISDB genre News, report -->
+    <string-array name="str_arr_genre_news_report_isdb">
+        <item>Regular, general</item>
+        <item>Weather report</item>
+        <item>Special program, documentary</item>
+        <item>Politics, national assembly</item>
+        <item>Economics, market report</item>
+        <item>Overseas, international report</item>
+        <item>News analysis</item>
+        <item>Discussion, conference</item>
+        <item>Special report</item>
+        <item>Local program</item>
+        <item>Traffic report</item>
+    </string-array>
+
+    <!-- Category ISDB genre Sports -->
+    <string-array name="str_arr_genre_sports_isdb">
+        <item>Sports news</item>
+        <item>Baseball</item>
+        <item>Soccer</item>
+        <item>Golf</item>
+        <item>Other ball games</item>
+        <item>Sumo, combative sports</item>
+        <item>Olympic, international games</item>
+        <item>Marathon, athletic sports, swimming</item>
+        <item>Motor sports</item>
+        <item>Marine sports, winter sports</item>
+        <item>Horse race, public race</item>
+    </string-array>
+
+    <!-- Category ISDB genre Information/tabloid show -->
+    <string-array name="str_arr_genre_information_tabloid_show_isdb">
+        <item>Gossip/tabloid show</item>
+        <item>Fashion</item>
+        <item>Living, home</item>
+        <item>Health, medical treatment</item>
+        <item>Shopping, mail-order business</item>
+        <item>Gourmet, cocking</item>
+        <item>Events</item>
+        <item>Program guide, information</item>
+    </string-array>
+
+    <!-- Category ISDB genre Dramas -->
+    <string-array name="str_arr_genre_dramas_isdb">
+        <item>Japanese dramas</item>
+        <item>Overseas dramas</item>
+        <item>Period dramas</item>
+    </string-array>
+
+    <!-- Category ISDB genre Music -->
+    <string-array name="str_arr_genre_music_isdb">
+        <item>Japanese rock, pop music</item>
+        <item>Overseas rock, pop music</item>
+        <item>Classic, opera</item>
+        <item>Jazz, fusion</item>
+        <item>Popular songs, Japanese popular songs (enka songs)</item>
+        <item>Live concert</item>
+        <item>Ranking, request music</item>
+        <item>Karaoke, amateur singing contests</item>
+        <item>Japanese ballad, Japanese traditional music</item>
+        <item>Children\'s song</item>
+        <item>Folk music, world music</item>
+    </string-array>
+
+    <!-- Category ISDB genre Variety -->
+    <string-array name="str_arr_genre_variety_isdb">
+        <item>Quiz</item>
+        <item>Game</item>
+        <item>Talk variety</item>
+        <item>Comedy program</item>
+        <item>Music variety</item>
+        <item>Tour variety</item>
+        <item>Cocking variety</item>
+    </string-array>
+
+    <!-- Category ISDB genre Movies -->
+    <string-array name="str_arr_genre_movies_isdb">
+        <item>Overseas movies</item>
+        <item>Japanese movies</item>
+        <item>Animation</item>
+    </string-array>
+
+    <!-- Category ISDB genre Animation, special effects -->
+    <string-array name="str_arr_genre_animation_special_effects_isdb">
+        <item>Japanese animation</item>
+        <item>Overseas animation</item>
+        <item>Special effects</item>
+    </string-array>
+
+    <!-- Category ISDB genre Documentary/culture -->
+    <string-array name="str_arr_genre_documentary_culture_isdb">
+        <item>Social, current events</item>
+        <item>History, travel record</item>
+        <item>Nature, animal, environment</item>
+        <item>Space, science, medical science</item>
+        <item>Culture, traditional culture</item>
+        <item>Literature, literary art</item>
+        <item>Sports</item>
+        <item>Total documentary</item>
+        <item>Interviews, discussions</item>
+    </string-array>
+
+    <!-- Category ISDB genre Theatre, public performance -->
+    <string-array name="str_arr_genre_theatre_public_performance_isdb">
+        <item>Modern drama, Western-style drama</item>
+        <item>Musical</item>
+        <item>Dance, ballet</item>
+        <item>Comic story, entertainment</item>
+        <item>Kabuki, classical drama</item>
+    </string-array>
+
+    <!-- Category ISDB genre Hobby/education -->
+    <string-array name="str_arr_genre_hobby_education_isdb">
+        <item>Trip, fishing, outdoor entertainment</item>
+        <item>Gardening, pet, handicrafts</item>
+        <item>Music, art, industrial art</item>
+        <item>Japanese chess (shogi) and "go"</item>
+        <item>Mah-jong, pinball games</item>
+        <item>Cars, motorbikes</item>
+        <item>Computer, TV games</item>
+        <item>Conversation, languages</item>
+        <item>Little children, schoolchildren</item>
+        <item>Junior high school and high school students</item>
+        <item>University students, examinations</item>
+        <item>Lifelong education, qualifications</item>
+        <item>Educational problem</item>
+    </string-array>
+
+    <!-- Category ISDB genre Welfare -->
+    <string-array name="str_arr_genre_welfare_isdb">
+        <item>Old aged persons</item>
+        <item>Handicapped persons</item>
+        <item>Social welfare</item>
+        <item>Volunteers</item>
+        <item>Sign language</item>
+        <item>Text (subtitles)</item>
+        <item>Explanation on sound multiplex broadcast</item>
+    </string-array>
+
+    <!-- for ci+ op -->
+    <string name="str_ciplus_op_confirmation_title">Confirm CI+ OP Refresh</string>
+    <string name="str_ciplus_op_refresh">Do you allow TV to do operator profile refresh?</string>
+    <string name="str_cam_upgrade_alarm">CAM is under upgrading.\nPlease try later...</string>
+    <string name="str_op_tuning_alarm">OP is tuning.\nPlease try later...</string>
+</resources>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Фацтори Мену</string>
+
+
+
+	<string name="str_factory_adc">АдЦ Адјуст</string>
+	<string name="str_factory_adc_source">Извор</string>
+	<string name="str_factory_adc_rgain">Р Гаин</string>
+	<string name="str_factory_adc_ggain">Г Гаин</string>
+	<string name="str_factory_adc_bgain">Б Гаин</string>
+	<string name="str_factory_adc_roffset">Р Оффсет</string>
+	<string name="str_factory_adc_goffset">Г Оффсет</string>
+	<string name="str_factory_adc_boffset">Б Оффсет</string>
+	<string name="str_factory_adc_phase">Фаза</string>
+	<string name="str_factory_adc_autoadjust">Ауто Туне</string>
+	<string name="str_factory_adc_autoadjust_val">Сачекајте!</string>
+	<string name="str_factory_adc_autoadjust_ok">Успех</string>
+	<string name="str_factory_adc_autoadjust_failed">није успео</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">Временски режим избором грешке</string>
+	<string name="str_text_adc_adjust">АдЦ Адјуст</string>
+	<string name="str_textview_factory_adc_source_val">ВГА</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">Да ли сте сигурни надоградња?</string>
+	<string name="str_textview_factory_dialogmenu_confirm">Потврди</string>
+	<string name="str_textview_factory_dialogmenu_cancel">Отказати</string>
+	<string name="str_design_menu">Дизајн мени</string>
+	<string name="str_factory_menu">Фацтори Мену</string>
+
+
+
+	<string name="str_factory_whitebalance">Баланс беле</string>
+	<string name="str_factory_wbadjust_source">Извор</string>
+	<string name="str_factory_wbadjust_rgain">Р Гаин</string>
+	<string name="str_factory_wbadjust_ggain">Г Гаин</string>
+	<string name="str_factory_wbadjust_bgain">Б Гаин</string>
+	<string name="str_factory_wbadjust_roffset">Р Оффсет</string>
+	<string name="str_factory_wbadjust_goffset">Г Оффсет</string>
+	<string name="str_factory_wbadjust_boffset">Б Оффсет</string>
+	<string name="str_factory_wbadjust_autoadjust">Аутоматско прилагођавање</string>
+	<string name="str_factory_wbadjust_colortemp">Температура боје</string>
+	<string name="str_wb_adjust_text">В / Б подесите</string>
+	<string name="str_textview_factory_wbadjust_source_val">ВГА</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">ВГА</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">Режим слике</string>
+	<string name="str_factory_picmode_picmode">Режим слике</string>
+	<string name="str_factory_picmode_brightness">Светлост</string>
+	<string name="str_factory_picmode_contrast">Контраст</string>
+	<string name="str_factory_picmode_saturation">Засићење</string>
+	<string name="str_factory_picmode_hue">Нијанса</string>
+	<string name="str_factory_picmode_sharpness">Оштрина</string>
+	<string name="str_factory_picmode_backlight">Бацклигхт</string>
+	<string name="str_picture_mode_text">Режим слике</string>
+	<string name="str_textview_factory_picmode_picmode_val">ВГА</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">Нестандардне опције</string>
+	<string name="str_factory_nonstandard_vif">ВИФ (кликните на мене)</string>
+	<string name="str_factory_nonstandard_vd">ВД (кликните на мене)</string>
+	<string name="str_factory_nonstandard_audio">АУДИО (кликните на мене)</string>
+	<string name="str_factory_nonstandard_viftop">ВИФ_ТОП</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">ВИФ_ВГА_МАКСИМУМ</string>
+	<string name="str_factory_nonstandard_vifcpkp">ВИФ_ЦР_КП</string>
+	<string name="str_factory_nonstandard_vifcpki">ВИФ_ЦР_КИ</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">ВИФ_АСИА_СИГНАЛ_ОПТИОН</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">ВИФ_ЦР_КП_КИ_АДЈУСТ</string>
+	<string name="str_factory_nonstandard_vifovermodulation">ВИФ_ОВЕР_МОДУЛАТИОН</string>
+	<string name="str_factory_nonstandard_vifclampgain">ВИФ_ЦЛАМПГАИН_ГАИН_ОВ_НЕГАТИВЕ</string>
+	<string name="str_factory_nonstandard_chinadescrambler">ЦХИНА_ДЕСЦРАМБЛЕР_БОКС</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">Цхина_ДЕС_БОКС_Делаи</string>
+	<string name="str_factory_nonstandard_delay">Кашњење</string>
+	<string name="str_factory_nonstandard_vifcrthr">ВИФ_ЦР_ТХР</string>
+	<string name="str_factory_nonstandard_vifversion">ВИФ_ВЕРСИОН</string>
+	<string name="str_factory_nonstandard_vifagcref">ВИФ_АГЦ_РЕФ</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">ГАИН_ДИСТРИБУТИОН_ТХР</string>
+	<string name="str_factory_nonstandard_afecd4">АФЕЦ_Д4</string>
+	<string name="str_factory_nonstandard_aefcd5">АФЕЦ_Д5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">АФЕЦ_Д8 [3: 0]</string>
+	<string name="str_factory_nonstandard_aefcd9">АФЕЦ_Д9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">АФЕЦ_Д7_ХИГХ_БОУН</string>
+	<string name="str_factory_nonstandard_aefcd7">АФЕЦ_Д7_ЛОВ_БОУН</string>
+	<string name="str_factory_nonstandard_aefca0">АФЕЦ_А0</string>
+	<string name="str_factory_nonstandard_aefca1">АФЕЦ_А1</string>
+	<string name="str_factory_nonstandard_aefc66">АФЕЦ_66 [7: 6]</string>
+	<string name="str_factory_nonstandard_aefc6e">АФЕЦ_6Е [7: 4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">АФЕЦ_6Е [3: 0]</string>
+	<string name="str_factory_nonstandard_aefc43">ВД_АУТО_АГЦ</string>
+	<string name="str_factory_nonstandard_aefc44">АФЕЦ_44</string>
+	<string name="str_factory_nonstandard_aefccb">АФЕЦ_ЦБ</string>
+	<string name="str_factory_nonstandard_vddsp">ВД_ДСП_ВЕРСИОН</string>
+	<string name="str_factory_nonstandard_audiohidev">АУДИО_ХИДЕВ_МОДЕ</string>
+	<string name="str_factory_nonstandard_audionr">АУДИО_НР_ТХР</string>
+	<string name="str_factory_nonstandard_audiosif">Аудио Сиф Праг</string>
+	<string name="str_factory_nonstandard_audiodsp">АУДИО_ДСП_ВЕРСИОН</string>
+	<string name="str_Non_Standard_Adjust_text">Не-стандардно прилагођавање</string>
+	<string name="str_textview_factory_nonstandard_default_val">128</string>
+
+
+	<string name="str_factory_non_linear">Нон_линеар</string>
+	<string name="str_factory_nonlinear_curvetype">Тип кривине</string>
+	<string name="str_factory_nonlinear_osd0">ОСД_0</string>
+	<string name="str_factory_nonlinear_osd25">ОСД_25</string>
+	<string name="str_factory_nonlinear_osd50">ОСД_50</string>
+	<string name="str_factory_nonlinear_osd75">ОСД_75</string>
+	<string name="str_factory_nonlinear_osd100">ОСД_100</string>
+	<string name="str_Non_Linear_Adjust_text">Нелинеарно прилагођавање</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">ВГА</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">ОверСцан</string>
+	<string name="str_factory_overscan_source">Извор</string>
+	<string name="str_factory_overscan_hsize">Х Сизе</string>
+	<string name="str_factory_overscan_hposition">Х Поситион</string>
+	<string name="str_factory_overscan_vsize">В Сизе</string>
+	<string name="str_factory_overscan_vposition">В Позиција</string>
+	<string name="str_factory_overscan_adjust_text">ОверСцан Адјуст</string>
+	<string name="str_textview_factory_overscan_source_val">АТВ</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">ССЦ Адјуст</string>
+	<string name="str_factory_ssc_miuenable">МИУ Омогући</string>
+	<string name="str_factory_ssc_miumodulation">МИУ модулација</string>
+	<string name="str_factory_ssc_miupercentage">Проценат МИУ (%)</string>
+	<string name="str_factory_ssc_lvdsenable">ЛВДС Омогући</string>
+	<string name="str_factory_ssc_lvdsmodulation">ЛВДС модулација</string>
+	<string name="str_factory_ssc_lvdspercentage">Проценат ЛВДС (%)</string>
+	<string name="str_factory_ssc_u_miuenable">МИУ_У Омогући</string>
+	<string name="str_factory_ssc_u_miumodulation">МИУ_У модулација</string>
+	<string name="str_factory_ssc_u_miupercentage">МИУ_У Проценат (%)</string>
+	<string name="str_factory_ssc_u_lvdsenable">ЛВДС_У Омогући</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">ЛВДС_У модулација</string>
+	<string name="str_factory_ssc_u_lvdspercentage">ЛВДС_У Проценат (%)</string>
+	<string name="str_ssc_adjust_text">ССЦ Адјуст</string>
+	<string name="str_textview_factory_ssc_default_val">128</string>
+
+
+
+	<string name="str_factory_peq">ПЕК</string>
+	<string name="str_factory_peq_fo1coarse">ФО1 Груби</string>
+	<string name="str_factory_peq_fo1fine">ФО1 Фине</string>
+	<string name="str_factory_peq_fo2coarse">ФО2 Груби</string>
+	<string name="str_factory_peq_fo2fine">ФО2 Фине</string>
+	<string name="str_factory_peq_fo3coarse">ФО3 Груби</string>
+	<string name="str_factory_peq_fo3fine">ФО3 Фине</string>
+	<string name="str_factory_peq_fo4coarse">ФО4 Груби</string>
+	<string name="str_factory_peq_fo4fine">ФО4 Фине</string>
+	<string name="str_factory_peq_fo5coarse">ФО5 Груби</string>
+	<string name="str_factory_peq_fo5fine">ФО5 Фине</string>
+	<string name="str_factory_peq_gain1">Гаин1</string>
+	<string name="str_factory_peq_gain2">Гаин2</string>
+	<string name="str_factory_peq_gain3">Гаин3</string>
+	<string name="str_factory_peq_gain4">Гаин4</string>
+	<string name="str_factory_peq_gain5">Гаин5</string>
+	<string name="str_factory_peq_q1">К1</string>
+	<string name="str_factory_peq_q2">К2</string>
+	<string name="str_factory_peq_q3">П3</string>
+	<string name="str_factory_peq_q4">К4</string>
+	<string name="str_factory_peq_q5">П5</string>
+	<string name="str_peq_adjust_text">ПЕК Адјуст</string>
+	<string name="str_textview_factory_peq_default_val">128</string>
+
+
+	<string name="str_factory_ci_setting">ЦИ Фацтори Сеттинг</string>
+	<string name="str_factory_ci_credential_mode">ЦИ + Цредентиал Моде</string>
+	<string name="str_factory_ci_performance_monitor">Перформанце Монитор</string>
+	<string name="str_factory_ci_resource_manager">Ресурс Манагер</string>
+	<string name="str_factory_ci_application_infomation">Информације о апликацији</string>
+	<string name="str_factory_ci_conditional_access_support">Подршка за условни приступ</string>
+	<string name="str_factory_ci_host_control">Хост Цонтрол</string>
+	<string name="str_factory_ci_date_time">Датум време</string>
+	<string name="str_factory_ci_man_machine_interface">Ман Мацхине Интерфаце</string>
+	<string name="str_factory_ci_low_speed_communication">Комуникација ниске брзине</string>
+	<string name="str_factory_ci_content_control">Контрола садржаја</string>
+	<string name="str_factory_ci_host_language_country">Држава језика домаћина</string>
+	<string name="str_factory_ci_cam_upgrade">ЦАМ Упграде</string>
+	<string name="str_factory_ci_operator_profile">Профил оператора</string>
+	<string name="str_factory_ci_specific_application_support">Специфична апликативна подршка</string>
+	<string name="str_factory_ci_app_man_machine_interface">Апплицатион Ман Мацхине Интерфаце</string>
+	<string name="str_factory_ci_program_map_table">Табела Мапе програма (без употребе)</string>
+	<string name="str_factory_ci_host_service_shunning">Гост услуге избегавају</string>
+	<string name="str_factory_ci_canal_ready_authentication">Цанал Реади Аутхентицатион</string>
+	<string name="str_factory_ci_default_tx_rx">Подразумевано ТКС / РКС</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">Тест (ЦИ Либрари)</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">Тест (Нанд Фласх)</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">Моунт Цонфиг</string>
+
+
+
+	<string name="str_factory_pqtableupdate">ПК Табле Упдате</string>
+
+
+	<string name="str_factory_ursa_info">Урса Инфо</string>
+	<string name="str_factory_ursa_version">Верзија</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">Цхангелист</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">Панел Инфо</string>
+	<string name="str_textview_factory_panelinfo_text_timode">Ти Моде</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">Бит Моде</string>
+	<string name="str_textview_factory_panelinfo_text_swap">Режим замене</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">Дуал Моде</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">Миррор Моде</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">ВолумеЦурве</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω8В</string>
+
+
+
+	<string name="str_set_mute_color">Муте Цолор</string>
+
+
+	<string name="str_factory_otheroption">Друге опције</string>
+	<string name="str_factory_otheroption_version">Верзија</string>
+	<string name="str_factory_otheroption_name">Име</string>
+	<string name="str_factory_otheroption_build">Изградите</string>
+	<string name="str_factory_otheroption_changelist">ЦхангеЛист</string>
+	<string name="str_factory_otheroption_board">Одбор, табла</string>
+	<string name="str_factory_otheroption_panel">Панел</string>
+	<string name="str_factory_otheroption_date">Датум</string>
+	<string name="str_factory_otheroption_time">време</string>
+	<string name="str_factory_otheroption_watchdog">Пас чувар</string>
+	<string name="str_factory_otheroption_wake_on_lan">Пробуди се на Лан</string>
+	<string name="str_factory_otheroption_testpattern">Тест Паттерн</string>
+	<string name="str_factory_otheroption_upgrademboot">Надоградите Мбоот</string>
+	<string name="str_factory_otheroption_upgrademain">Упграде Маин</string>
+	<string name="str_factory_otheroption_upgrade6m30">Надоградите 6М30</string>
+	<string name="str_factory_otheroption_upgradedualursa">Надоградите Дуал Урса</string>
+	<string name="str_factory_otheroption_restoretodefault">Ресторе то Дефаулт</string>
+	<string name="str_factory_otheroption_poweronmode">Повер Он Моде</string>
+	<string name="str_factory_otheroption_uartenable">Уарт Енабле</string>
+	<string name="str_factory_otheroption_display_logo">Дисплаи Лого</string>
+	<string name="str_factory_otheroption_dtvavdelay">ДТВ АВ одгода (Нон_стандард)</string>
+	<string name="str_factory_otheroption_initialfunction">Инитиал Цханнел</string>
+	<string name="str_factory_otheroption_panelswing">Панел Свинг</string>
+	<string name="str_factory_otheroption_audioprescale">Аудио Пресцале</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">3Д Селф-Адаптиве Детецт Левел</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">Да ли сте сигурни надоградња?</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">Потврди</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">Отказати</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">Молимо, прикључите УСБ!</string>
+	<string name="str_factory_otheroption_xvycc">Ксвицц</string>
+	<string name="str_factory_otheroption_pvrrecordall">РВР Рецорд Алл</string>
+	<string name="str_other_option_text">Друга опција прилагођена</string>
+	<string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+	<string name="str_textview_factory_otheroption_board_val">Ј2</string>
+	<string name="str_textview_factory_otheroption_panel_val">Фулл-ХД</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">на</string>
+	<string name="str_textview_factory_otheroption_text_off">Ван</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">ДТВ</string>
+	<string name="str_textview_factory_otheroption_default_val">0 "</string>
+	<string name="str_factory_otheroption_main_pq_version">Главна ПК верзија</string>
+	<string name="str_factory_otheroption_sub_pq_version">Суб ПК верзија</string>
+	<string name="str_textview_factory_otheroption_waiting_val">Плеасе Ваитинг!</string>
+	<string name="str_factory_otheroption_mstv_tool">Уарт дебуг</string>
+	<string name="str_factory_otheroption_pq_update">ПК Упдате</string>
+	<string name="str_factory_otheroption_pq_update_state">Молимо кликните!</string>
+	<string name="str_factory_nonstandard_afeccf_av">АФЕЦ_ЦФ [2] _АВ</string>
+	<string name="str_factory_nonstandard_afeccf_atv">АФЕЦ_ЦФ [2] _АТВ</string>
+	<string name="str_ursa_test_result_title">Резултат:</string>
+	<string name="str_ursa_test_run_auto">Покрени ауто</string>
+	<string name="str_ursa_test_title">Урса тест</string>
+	<string name="str_ursa_test_run">Трцати</string>
+	<string name="str_Info_title">Инфо</string>
+	<string name="str_factory_otheroption_sw_version">СВ верзија</string>
+	<string name="str_factory_otheroption_dtv_preset">ДТВ Пресет</string>
+	<string name="str_factory_otheroption_dtv_preset_state">Молимо кликните!</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">Сачекајте...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">Завршити, искључити АЦ након 1 мин.</string>
+	<string name="enter">ОК тастер уђите у творнички мени -></string>
+	<string name="tips">Л-Р Ајуст, "ОК" унесите следеће, "Екит" / "Мену" ретурн</string>
+	<string name="str_factory_otheroption_str_enable">Омогући СТР</string>
+	<string name="str_factory_otheroption_audiodelay">Звучни сигнал звучника</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">ИП Омогући Мапирање</string>
+	<string name="str_ipenablemapping_text">ИП Омогући Мапирање</string>
+
+
+	<string name="str_factory_update">Надоградите са УСБ-а</string>
+	<string name="str_factory_upgrade">Надоградите са УСБ-а</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">Ажурирајте ХДЦП кључ са УСБ-а</string>
+	<string name="str_factory_updateCIkeyfromUSB">Ажурирајте ЦИ Плус кључ са УСБ-а</string>
+	<string name="str_factory_upgrade_ci_upgrade">Ци Упграде</string>
+	<string name="str_factory_upgrade_ci_display">Ци Дисплаи</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">Хдцп Упграде</string>
+	<string name="str_factory_upgrade_hdcp_display">Хдцп екран</string>
+	<string name="str_factory_upgrade_mac_upgrade">Мац Упграде</string>
+	<string name="str_factory_upgrade_mac_display">Мац екран</string>
+	<string name="str_factory_upgrade_sn_upgrade">СН Упграде</string>
+	<string name="str_factory_upgrade_sn_display">СН Дисплаи</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">Хдцп2 Упграде</string>
+	<string name="str_factory_upgrade_hdcp2_display">Хдцп2 екран</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">Демод инфо</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">ДВБТ инфо</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">ДВБЦ инфо</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">Провјерите ДВБТ / ДВБЦ инфо</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">Фацтори Фацтори Пресет Фунцтион</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">Фацтори Фацтори Пресет</string>
+	<string name="str_factory_otheroption_factoryprogramreset">Фацтори Фацтори Ресет</string>
+	<string name="str_factory_otheroption_backupdbtousb">Бацкуп ДБ на УСБ</string>
+	<string name="str_factory_otheroption_restoredbfromusb">Вратите ДБ са УСБ-а</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">Молимо кликните!</string>
+	<string name="str_textview_factory_otheroption_text_pass">Пасс</string>
+	<string name="str_textview_factory_otheroption_text_fail">Фаил</string>
+	<string name="str_factory_db_path">/ Твдатабасе / Датабасе /</string>
+	<string name="str_factory_db_file">* Цмдб * .бин</string>
+
+	<string name="str_factory_again_mode">Режим старења</string>
+	<string name="str_factory_running_time">ПОВЕР ТИМЕ (Х / 2)</string>
+
+
+	<string name="str_design_menu_sound">Звук</string>
+	<string name="str_factory_prescale">Пресцале</string>
+	<string name="str_factory_avc_enable">Авц Енабле</string>
+	<string name="str_factory_avc_threthold">Авц Тхл</string>
+	<string name="str_factory_drc_enable">Дрц Енабле</string>
+	<string name="str_factory_drc_threthold">Др Тхл</string>
+	<string name="str_factory_sound_effect">Ефекат (ХПФ)</string>
+	<string name="str_factory_sound_toneffect">Тон</string>
+	<string name="str_factory_audio_delay">Аудио Делаи (звучник)</string>
+	<string name="str_factory_audio_nr">Аудио НР</string>
+	<string name="str_factory_lineout">ЛинеОут (АУОУТ1)</string>
+	<string name="str_factory_speaker">Запремина (АУОУТ0)</string>
+	<string name="str_factory_audio_spdif_delay">Аудио Делаи (спдиф)</string>
+
+	<string name="str_factory_ota_info">ОТА Инфо</string>
+	<string name="str_factory_ota_info_praname">ПраНаме</string>
+	<string name="str_factory_ota_info_cusname">ЦусНаме</string>
+	<string name="str_factory_ota_info_proname">ПроНаме</string>
+	<string name="str_factory_ota_info_preversion">ПреВерсион</string>
+	<string name="str_factory_onidaview">Сцроллинг Оптион доступна</string>
+
+	<string name="str_textview_factory_total_run_time">Х</string>
+	<string name="str_total_run_time">ТоталРунТиме</string>
+
+</resources>

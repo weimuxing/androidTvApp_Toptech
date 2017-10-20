@@ -1,0 +1,2672 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	 <!-- For Picture -->
+    <string name="str_auto_adjust">автоматическая регулировка</string>
+    <string name="app_name">Tvsetting</string>
+    <string name="str_pic_picture_adjustment">Настройка изображения</string>
+    <string name="str_pic_picture">изображение</string>
+    <string name="str_pic_picturemode">режим изображения</string>
+    <string name="edit_program_toast">Название программы не может быть пустым!</string>
+    <string name="str_delete_program_title">Подтвердить удаление?</string>
+    <string name="str_warning_isrecording">Выключите горелку, прежде чем в режиме ожидания</string>
+    <string name="str_stop_record_to_power_dialog_message">Система будет закрыта после того, как рекордер выключен!</string>
+    <string name="str_stop_timeshift_to_power_dialog_message">Система будет закрыта после сдвига при закрытии!</string>
+    <string name="str_stop_record_to_home_dialog_message">Система вернется к основному экрану после прекращения горения!</string>
+    <string name="str_stop_playback_to_home_dialog_message">Система вернется к основному экрану после остановки игры!</string>
+    <string name="str_stop_timeshift_to_home_dialog_message">После того как система будет двигаться назад к главному экрану, когда вы останавливаетесь!</string>
+    <string name="str_100">-</string>
+    <string name="str_10">-</string>
+    <string name="str_1">-</string>
+    <string name="str_root_popup_off_after">секунды ожидания</string>
+    <string name="str_schedule_select_null_msg">Событие не выбрано</string>
+
+    <string name="str_pic_contrast">контрастировать</string>
+    <string name="str_pic_brightness">яркость</string>
+    <string name="str_pic_color">насыщение</string>
+    <string name="str_pic_sharpness">сметливость</string>
+    <string name="str_pic_hue">оттенок</string>
+    <string name="str_pic_saturation">насыщение</string>
+    <string name="str_pic_backlight">подсветка</string>
+    <string name="str_pic_colortemperature">Цветовая температура</string>
+
+    <string name="str_pic_colortemperature_red">красный</string>
+    <string name="str_pic_colortemperature_green">зеленый</string>
+    <string name="str_pic_colortemperature_blue">синий</string>
+    <string name="str_pic_zoommode">режим масштабирования</string>
+    <string name="str_pic_size">размер изображения</string>
+
+
+
+    <string name="str_pic_imgnoisereduction">Снижение шума изображения</string>
+    <string name="str_pic_mpegnoisereduction">Снижение шума в формате MPEG</string>
+
+    <string name="str_pic_pcimagemode">Регулировка экрана ПК</string>
+    <string name="str_pic_autotune">автоматическая регулировка</string>
+    <string name="str_set_hdmicec_arc">ARC</string>
+    <string name="str_pic_pcimagemode_waiting">экран компьютера корректируется, пожалуйста, подождите ...</string>
+    <string name="str_pic_pcimagemode_success"> Регулировка изображения успеха!</string>
+    <string name="str_pic_pcimagemode_failed"> Невозможность настройки экрана!</string>
+
+    <!-- for pc image mode -->
+
+    <string name="str_pic_clock">часы</string>
+    <string name="str_pic_phase">фаза</string>
+    <string name="str_pic_horizontal_pos">Горизонтальное положение</string>
+    <string name="str_pic_vertical_pos">Вертикальное положение</string>
+
+    <!-- sound menu -->
+
+    <string name="str_sound_sound_adjustment">звук</string>
+    <string name="str_sound_soundmode">Режим звучания</string>
+
+    <string name="str_sound_bass">бас</string>
+    <string name="str_sound_treble">высокий шаг</string>
+    <string name="str_sound_equalizer">балансир</string>
+    <string name="str_sound_equalizer120hz">120Hz</string>
+    <string name="str_sound_equalizer500hz">500Hz</string>
+    <string name="str_sound_equalizer1.5khz">1,5 кГц</string>
+    <string name="str_sound_equalizer5khz">5KHz</string>
+    <string name="str_sound_equalizer10khz">10KHz</string>
+    <string name="str_sound_balance">Сбалансированный звук</string>
+    <string name="str_sound_avc"> Автоматическая регулировка громкости</string>
+    <string name="str_sound_ad">AD хэндовера</string>
+    <string name="str_sound_ad_volume">AD Volume</string>
+    <string name="str_sound_autohoh">Авто НОН</string>
+    <string name="str_sound_truehdbypass">Новое поколение выход источника</string>
+
+    <string name="str_sound_srs">Объемный звук</string>
+
+
+
+    <string name="str_sound_surround">Объемный звук</string>
+
+
+
+    <string name="str_sound_spdifoutput">выход SPDIF</string>
+
+
+	<string name="str_sound_music_mode">Индивидуально слушать</string>
+    <string name="str_sound_separatehear">Индивидуально слушать</string>
+
+
+
+    <!-- For 3d -->
+
+    <string name="str_3d_3d"> 3D</string>
+
+    <string name="str_3d_self_adaptive_detecttriple">3D самопроверки</string>
+
+
+    <string name="str_3dto2d_self_adaptive_detecttriple">3D-2D самопроверки</string>
+
+
+    <string name="str_3d_self_adaptive_detectlevel">Адаптивная прочность</string>
+
+
+
+    <string name="str_3d_conversion">Преобразование 3D-формат</string>
+
+
+
+    <string name="str_3d_3dto2d">3D превратить 2D</string>
+
+
+
+    <string name="str_3d_3ddepth">3D глубина резкости</string>
+
+
+
+    <string name="str_3d_3doffset">3D Offset</string>
+
+
+
+    <string name="str_3d_autostart">Автоматический запуск</string>
+
+
+
+    <string name="str_3d_3doutputaspect"> Соотношение 3D выходной аспект</string>
+
+
+
+    <string name="str_3d_lrswitch">О обмене</string>
+
+
+
+    <!-- for Channel -->
+    <string name="str_cha_antannatype">Тип антенны</string>
+
+    <string name="str_cha_antannatype_none">Неопределенный</string>
+    <string name="str_cha_antannatype_air">беспроводной</string>
+    <string name="str_cha_antannatype_cable">Проводная</string>
+
+    <string name="str_prompt_setup_wizard_title">Пожалуйста, выберите тип антенны и начать автоматический поиск станций</string>
+    <string name="str_prompt_setup_wizard_next">Следующий шаг</string>
+    <string name="str_prompt_setup_wizard_skip">скакать</string>
+    <string name="str_prompt_setup_location_title">Пожалуйста, выберите регион</string>
+
+    <string name="str_cha_changing_antenna_type">Мы меняем тип антенны</string>
+    <string name="str_ci_async_cmd_switch_route">CI вызвать переключатель маршрута ...</string>
+    <string name="str_cha_please_wait">Пожалуйста, подождите</string>
+
+    <string name="str_cha_tv_route_none">Неопределенный</string>
+    <string name="str_cha_tv_route_dvbt">беспроводной</string>
+    <string name="str_cha_tv_route_dvbc">Проводная</string>
+    <string name="str_cha_tv_route_dvbs">спутниковое</string>
+    <string name="str_cha_tv_route_dvbt2">беспроводной</string>
+    <string name="str_cha_tv_route_dvbs2">спутниковое</string>
+    <string name="str_cha_tv_route_dtmb">DTMB</string>
+    <string name="str_cha_tv_route_unknown">неизвестный</string>
+
+    <string name="str_cha_channel">канал</string>
+    <string name="str_cha_autotuning">Автоматический поиск станций</string>
+    <string name="str_source">источник</string>
+    <string name="str_cha_dtvmanualtuning"> Цифровой ручной поиск</string>
+    <string name="str_cha_atvmanualtuning">Аналог Ручной поиск</string>
+
+	<string name="str_cha_manualtuning">Ручной поиск</string>
+   
+   <string name="str_cha_bandwidth_switch">Пропускная способность коммутации</string>
+    <string name="str_cha_bandwidth_uhf_7mhz">7MHz над УВЧ</string>
+    <string name="str_cha_programedit">Редактор каналов</string>
+    <string name="str_cha_signalinfo">информация о сигналах</string>
+    <string name="str_cha_ciinformation"> информация CI</string>
+    <string name="str_cha_software_update_oad">Обновление программного обеспечения (ДОА)</string>
+    <string name="str_cha_time_to_search_for_ssu">Время поиска для СГУ</string>
+    <string name="str_cha_time_to_search_for_ssu_default">0.166666666666667</string>
+    <string name="str_cha_oadscan">ДОА Scan</string>
+    <string name="str_cha_oad_view_prompt">Просмотреть запрос на обновление</string>
+    <string name="str_mainmenu_menu">меню</string>
+    <string name="str_cha_autotuning_tuningtype">Автоматическая станция тип поиска</string>
+    <string name="str_cha_autotuning_tuningtype_atv">Аналоговое ТВ</string>
+    <string name="str_cha_autotuning_country_australia">Австралия</string>
+    <string name="str_cha_autotuning_country_austria">Австрия</string>
+    <string name="str_cha_autotuning_country_beligum">Бельгия</string>
+    <string name="str_cha_autotuning_country_bulgaral">болгарский</string>
+    <string name="str_cha_autotuning_country_croatia">Хорватия</string>
+    <string name="str_cha_autotuning_country_czech">чешский</string>
+    <string name="str_cha_autotuning_country_denmark">Дания</string>
+    <string name="str_cha_autotuning_country_finland">Финляндия</string>
+    <string name="str_cha_autotuning_country_france">Франция</string>
+    <string name="str_menu_parentalcontrol">Блокировка от детей</string>
+    <string name="str_lock_system">система блокировки</string>
+    <string name="str_lock">Блокировка</string>
+    <string name="str_set_pwd">Изменение пароля</string>
+    <string name="str_block_program">Блокировка программы</string>
+    <string name="str_parental_contentlock">Содержание Блокировка</string>
+    <string name="str_parental_guidance">Уровень устанавливается</string>
+    <string name="str_cha_airdtv_title">Беспроводная цифровая ТВ</string>
+    <string name="str_cha_airtv_title">беспроводной</string>
+    <string name="str_cha_cabletv_title">Проводная</string>
+    <string name="str_ci_cam_pincode">CI CAM PIN-код</string>
+    <string name="str_ci_set_cam_pincode_done">Установить PIN-код Done</string>
+
+    <string name="str_cha_channeltuning">настройка каналов</string>
+    <string name="str_cha_tv">Аналоговое ТВ:</string>
+    <string name="str_cha_tv_0">0</string>
+    <string name="str_cha_dtv">Цифровое телевидение:</string>
+
+    <!-- For CA String define -->
+    <string name="str_cha_cainformation"> информация CA</string>
+    <string name="str_ca_title">информация CA</string>
+    <string name="str_ca_card_info">Информация о смарт-карты</string>
+    <string name="str_ca_card_management">Интеллектуальное управление Card</string>
+    <string name="str_ca_card_paired">пара машина карты</string>
+    <string name="str_ca_card_feed">питание карты фото</string>
+    <string name="str_ca_info_title">Информация о смарт-карты</string>
+    <string name="str_ca_info_entitle">Общее разрешение</string>
+    <string name="str_ca_info_detitle">Anti-авторизация</string>
+    <string name="str_ca_info_purse_info">информация Wallet</string>
+    <string name="str_ca_card_version">Информация о версии CAS</string>
+    <string name="str_ca_mg_title">Интеллектуальное управление Card</string>
+    <string name="str_ca_mg_modify_pin">Изменение PIN-кода</string>
+    <string name="str_ca_mg_work_time">Изменение рабочих часов</string>
+    <string name="str_ca_mg_watch_level">Изменение рейтинга просмотра</string>
+    <string name="str_ca_info_pin_title">Изменение PIN-кода</string>
+    <string name="str_ca_mg_old_pin">Пожалуйста, введите первоначальный PIN-код:</string>
+    <string name="str_ca_mg_new_pin">Пожалуйста, введите новый PIN-код:</string>
+    <string name="str_ca_mg_new_pin2">Убедитесь, что PIN-код:</string>
+    <string name="str_ca_mg_submit">подтвердить</string>
+    <string name="str_set_work_time_title">Изменение рабочих часов</string>
+    <string name="str_ca_start_work_time">Установите время начала:</string>
+    <string name="str_ca_end_work_time">Пожалуйста, установите время окончания:</string>
+    <string name="str_ca_work_time_pin">Пожалуйста, введите свой PIN-код:</string>
+    <string name="str_work_time_hour_text">час</string>
+    <string name="str_work_time_minute_text">минут</string>
+    <string name="str_watch_level_title">Изменение рейтинга просмотра</string>
+    <string name="str_watch_level_text">Смотрите Уровень:</string>
+    <string name="str_watch_level_init">0</string>
+    <string name="str_ca_operator_title">информация об операторе</string>
+    <string name="str_ca_op_id">номер</string>
+    <string name="str_ca_op_operator_id">Идентификатор оператора</string>
+    <string name="str_ca_version_title">Информация о версии CAS</string>
+    <string name="str_ca_version_id">CDCAS номер версии:</string>
+    <string name="str_ca_version_stb_num">Телеприставка уникальный номер:</string>
+    <string name="str_ca_card_id">карта:</string>
+    <string name="str_ca_entitle_title">Общее разрешение</string>
+    <string name="str_ca_entitle_id">ID продукта</string>
+    <string name="str_ca_entitle_video_id">Может видео:</string>
+    <string name="str_ca_entitle_date">Дата истечения срока действия</string>
+    <string name="str_ca_entitle_video_flag_yes">Здесь</string>
+    <string name="str_ca_entitle_video_flag_no">нет</string>
+    <string name="str_ca_detitle_title">Anti-авторизация</string>
+    <string name="str_ca_detitle_list">Anti-авторизация Список кодов подтверждения</string>
+    <string name="str_ca_detitle_state">состояние</string>
+    <string name="str_ca_detitle_state_yes">считывание</string>
+    <string name="str_ca_detitle_state_no">непрочитанный</string>
+    <string name="str_ca_purse_title">информация Wallet</string>
+    <string name="str_ca_purse_id">Кошелек ID</string>
+    <string name="str_ca_purse_points">Потратить баллы</string>
+    <string name="str_ca_purse_credit">кредит</string>
+
+    <!-- For CA Error Type define -->
+    <string name="st_ca_rc_ok">успех</string>
+    <string name="st_ca_rc_unknown">Неизвестная ошибка</string>
+    <string name="st_ca_rc_pointer_invalid">Указатель является недействительным</string>
+    <string name="st_ca_rc_card_invalid">Смарт-карта недействительна</string>
+    <string name="st_ca_rc_pin_invalid">PIN-код недействителен</string>
+    <string name="st_ca_rc_dataspace_small">Учитывая отсутствие пространства</string>
+    <string name="st_ca_rc_card_pairother">Смарт-карты имеют соответствующие другие приставки</string>
+    <string name="st_ca_rc_data_not_find">Там нет никаких данных, которые будут найдены</string>
+    <string name="st_ca_rc_prog_status_invalid">Для того, чтобы приобрести статус программы является недействительным</string>
+    <string name="st_ca_rc_card_no_room">Там нет места для хранения, чтобы купить смарт-карту программу</string>
+    <string name="st_ca_rc_worktime_invalid">Набор рабочих часов недействительны</string>
+    <string name="st_ca_rc_ippv_canntdel">Программа ИВЛ не может быть удален</string>
+    <string name="st_ca_rc_card_nopair">Смарт-карта не соответствует ни одному телеприставки</string>
+    <string name="st_ca_rc_watchrating_invalid">Смотрите уровень, установленный недействительным</string>
+    <string name="st_ca_rc_card_notsupport">В настоящее время смарт-карта не поддерживает эту функцию</string>
+    <string name="st_ca_rc_data_error">Ошибки в данных, смарт-карта отклонена</string>
+    <string name="st_ca_rc_feedtime_not_arrive">Время кормления еще впереди, дочь карта не может быть подана</string>
+    <string name="st_ca_rc_card_typeerror">Изображение отказ подачи карты, вставьте смарт-карту тип ошибки</string>
+    <string name="st_ca_rc_cas_failed">Выполнение выдачи инструкций саз не удалось</string>
+    <string name="st_ca_rc_oper_failed">Выдача инструкций оператору не удалось выполнить</string>
+    <string name="st_ca_rc_pin_len">Меньше чем шесть цифр пин-кода</string>
+    <string name="st_ca_rc_diff_pin">PIN-код не соответствует</string>
+
+    <!-- For CA notify Type define -->
+    <string name="st_ca_message_cancel_type">Отмена текущего дисплея</string>
+    <string name="st_ca_message_badcard_type">Не распознает карту</string>
+    <string name="st_ca_message_expicard_type">Смарт-карты истекает, заменить на новую карту</string>
+    <string name="st_ca_message_insertcard_type">Яичница программа, вставить смарт-карту</string>
+    <string name="st_ca_message_nooper_type">Там нет оператора карты программы</string>
+    <string name="st_ca_message_blackout_type">условия запрета</string>
+    <string name="st_ca_message_outworktime_type">Текущий период устанавливается не смотреть</string>
+    <string name="st_ca_message_watchlevel_type">Смотрите уровень программы выше установленного уровня</string>
+    <string name="st_ca_message_pairing_type">Это приставки и смарт-карты не соответствует</string>
+    <string name="st_ca_message_noentitle_type">не разрешено</string>
+    <string name="st_ca_message_decryptfail_type">Дешифрование не удалось программы</string>
+    <string name="st_ca_message_nomoney_type">Карта меньше суммы</string>
+    <string name="st_ca_message_errregion_type">Неправильная область</string>
+    <string name="st_ca_message_needfeed_type">Мать карта и дочь карта должна соответствовать вставкам матери карт</string>
+    <string name="st_ca_message_errcard_type">Смарт-карта проверка терпит неудачу, пожалуйста, обратитесь к оператору</string>
+    <string name="st_ca_message_update_type">Смарт обновления карты, не вынимайте карту или выключение</string>
+    <string name="st_ca_message_lowcardver_type">Пожалуйста, обновите смарт-карты</string>
+    <string name="st_ca_message_viewlock_type">Пожалуйста, не часто переключать каналы</string>
+    <string name="st_ca_message_maxrestart_type">Смарт-карта бездействующий, перегрузите после 5 минут</string>
+    <string name="st_ca_message_freeze_type">Смарт-карты были заморожены, пожалуйста, обратитесь к оператору</string>
+    <string name="st_ca_message_callback_type">Смарт-карта была приостановлена, пожалуйста, вернуть оператору запись рейтингов</string>
+    <string name="st_ca_message_curtain_type">Шторы программы, не могут быть просмотрены этап</string>
+    <string name="st_ca_message_cardteststart_type">Обновление тест тест-карты ...</string>
+    <string name="st_ca_message_cardtestfaild_type">Обновление тест тестовой карты не удается, проверьте модуль связи машины карты</string>
+    <string name="st_ca_message_cardtestsucc_type">Обновление тест тестовой карты успешно</string>
+    <string name="st_ca_message_nocaliboper_type">Портативная библиотека карта не существует в пользовательских операторов</string>
+    <string name="st_ca_message_stblocked_type">Пожалуйста, перезагрузите приставку</string>
+    <string name="st_ca_message_stbfreeze_type">Телеприставка заморожен</string>
+
+
+    <string name="str_cha_dtvautotuning_startscan">Начать поиск станции</string>
+    <string name="str_cha_dtvautotuning_frequency">частота</string>
+    <string name="str_cha_dtvautotuning_modulation">модуляция</string>
+    <string name="str_cha_dtvautotuning_symbol">скорость передачи символов</string>
+    <string name="str_cha_dtvautotuning_networkid">Идентификатор сети</string>
+    <string name="str_cha_dtvautotuning_networkid_invalid">номер сети является недействительным</string>
+    <string name="str_cha_dtvautotuning_ok">подтвердить</string>
+    <string name="str_cha_dtvautotuning_auto">автоматическая</string>
+    <string name="str_cha_dtvautotuning_signalstrength">Сила сигнала</string>
+    <string name="str_cha_dtvautotuning_signalquality">качество сигнала</string>
+    <string name="str_cha_dvbsdtvtuning_scanmode">режим поиска</string>
+    <string name="str_cha_dvbsdtvtuning_servicetype">Тип обслуживания</string>
+    <string name="str_cha_dvbsdtvtuning_networksearch">Сеть поиск станций</string>
+    <string name="str_cha_dvbsdtvtuning_transponder">транспондер</string>
+    <string name="str_cha_dvbsdtvtuning_satellite">спутниковое</string>
+    <string name="str_cha_dvbsdtvtuning_searchtype">Параметр поиска</string>
+    <string name="str_cha_radio">Трансляция:</string>
+    <string name="str_cha_data">Данные:</string>
+    <string name="str_cha_program">канал</string>
+    <string name="str_cha_tuningprogress_percent_0">0</string>
+    <string name="str_cha_tuningprogress_uhf">UHF</string>
+    <string name="str_cha_tuningprogress_vhf">УКВ</string>
+    <string name="str_cha_tuningprogress_ch">канал</string>
+    <string name="str_cha_tuningprogress_freq">Freq</string>
+    <string name="str_cha_tuningprogress_dtv">Цифровое телевидение</string>
+    <string name="str_cha_exittuning_info">Вы уверены, что выход аналогового ТВ / цифрового ТВ поиск каналов?</string>
+     <string name="str_cha_exitDTVtuning_info">Независимо от того, чтобы выйти из цифрового поиска телевизионного канала?</string>
+    <string name="str_cha_exitATVtuning_info">Независимо от того, чтобы выйти из поиска аналогового телевидения станции?</string>
+    <string name="str_cha_exitAIRtuning_info">Вы уверены, что выход из беспроводного аналогового поиска телевизионной станции?</string>
+    <string name="str_cha_exitCABLEtuning_info">Вы уверены, что выход из аналогового кабельного телевидения поиска станции?</string>
+    <string name="str_cha_exittuning_yes">Здесь</string>
+    <string name="str_cha_exittuning_no">нет</string>
+    <string name="str_cha_dtvmanualtuning_channelno">номер канала</string>
+    <string name="str_cha_dtvmanualtuning_ch">канал</string>
+    <string name="str_cha_dtvmanualtuning_ch_1">1</string>
+    <string name="str_cha_dtvmanualtuning_modulation_64qam">64QAM</string>
+    <string name="str_cha_dtvmanualtuning_frequency">частота</string>
+    <string name="str_cha_dtvmanualtuning_modulation">модуляция</string>
+    <string name="str_cha_dtvmanualtuning_symbol">скорость передачи символов</string>
+    <string name="str_cha_dtvmanualtuning_starttuning">поиск</string>
+    <string name="str_cha_dtvmanualtuning_signalstrength">Сила сигнала</string>
+    <string name="str_cha_dtvmanualtuning_signalquality">качество сигнала</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_dtv">Цифровое телевидение:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_0">0</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_radio">Трансляция:</string>
+    <string name="str_cha_dtvmanualtuning_tuningresult_data">Данные:</string>
+    <string name="str_cha_atvmanualtuning_channelno">номер канала</string>
+    <string name="str_cha_atvmanualtuning_store_channelno">Сохранить в:</string>
+    <string name="str_cha_atvmanualtuning_ch">СН</string>
+    <string name="str_cha_atvmanualtuning_channel_1">1</string>
+    <string name="str_cha_atvmanualtuning_colorsystem">система цвета</string>
+    <string name="str_cha_atvmanualtuning_colorsystem_Auto">автоматическая</string>
+    <string name="str_cha_atvmanualtuning_soundsystem">звуковая система</string>
+    <string name="str_cha_atvmanualtuning_soundsystem_Auto">автоматическая</string>
+    <string name="str_cha_atvmanualtuning_starttuning">поиск</string>
+    <string name="str_cha_atvmanualtuning_fine_tune">Тонкая настройка</string>
+    <string name="str_cha_atvmanualtuning_frequency">Частота:</string>
+    <string name="str_cha_atvmanualtuning_frequency_427">427</string>
+    <string name="str_cha_atvmanualtuning_frequency_mhz">МГц</string>
+    <string name="str_cha_dtvmanualtuning_galaxy">GALAXY</string>
+    <string name="str_cha_dtvmanualtuning_polarization">полярность</string>
+    <string name="str_cha_dtvmanualtuning_network">сеть</string>
+    <string name="str_cha_dtvmanualtuning_scan_mode">режим поиска</string>
+    <string name="str_cha_dtvmanualtuning_service_type">Тип обслуживания</string>
+    <string name="str_cha_transport_stream">Транспортный поток</string>
+    <string name="str_cha_service">обслуживание</string>
+    <string name="str_cha_save">Сохранить</string>
+    <string name="str_cha_software_version">Версия программного обеспечения</string>
+    <string name="str_demo_demo">шоу</string>
+    <string name="str_demo_mwe"> MWE</string>
+    <string name="str_demo_dbc"> DBC</string>
+    <string name="str_demo_off">закрыть</string>
+    <string name="str_demo_dlc"> DLC</string>
+    <string name="str_demo_dcc"> DCC</string>
+    <string name="str_demo_nr">Снижение шума изображения</string>
+    <string name="str_demo_uclear">Ultra High Definition</string>
+
+    <!-- for audio language list -->
+    <string name="str_audio_language_title">Музыка Язык</string>
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">информация CI</string>
+    <string name="str_cimmi_hint_ci_inserted">ДИ-карта вставлена</string>
+    <string name="str_cimmi_hint_ci_removed">Удаление CI карты</string>
+    <string name="str_cimmi_hint_ci_auto_test">CI самопроверки</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">Вводить пароль</string>
+    <!-- for current action -->
+    <string name="str_current_action">нагрузка</string>
+    <!-- for pvr file system -->
+    <string name="str_pvr_file_system_title">Personal Video File System</string>
+    <string name="str_pvr_file_system_select_disk">Выбор диска</string>
+    <string name="str_pvr_file_system_time_shift_size">Отрезок времени вперед</string>
+    <string name="str_pvr_file_system_format_start">формат</string>
+    <string name="str_pvr_file_system_format_context">успех</string>
+    <string name="str_pvr_file_system_speed_check">Тест скорости</string>
+    <string name="str_pvr_file_system_speed_context">полный</string>
+    <string name="str_pvr_file_system_always_timeshift">Всегда сдвиг во время</string>
+    <string name="str_pvr_file_system_always_context">открытый</string>
+    <!-- for pvr full page browser -->
+    <string name="str_pvr_lcn_textview">LCN</string>
+    <string name="str_pvr_channel_textview">канал</string>
+    <string name="srt_pvr_program_service_textview">программа поставок</string>
+    <string name="str_pvr_program_service_tips_red">удалять</string>
+    <string name="str_pvr_program_service_tips_green">восходящая</string>
+    <string name="str_pvr_program_service_tips_descend">нисходящий</string>
+    <string name="str_pvr_program_service_tips_blue">последовательность</string>
+    <string name="str_pvr_program_service_tips_yellow">хорошо</string>
+    <string name="str_pvr_lcn_title">заголовок</string>
+    <string name="str_pvr_lcn_record_data">Запись данных</string>
+    <string name="str_pvr_lcn_data">40872</string>
+
+    <!-- For epg schedule list -->
+    <string name="str_epg_program_schedule_list_modify">модификация</string>
+    <string name="str_epg_program_schedule_list_delete">удалять</string>
+    <!-- For sound format info-->
+    <string name="str_sound_format_mono">MONO</string>
+    <string name="str_sound_format_dual_a">ДвоЙНАЯ</string>
+    <string name="str_sound_format_dual_ab">DUAL AB</string>
+    <string name="str_sound_format_dual_b">DUAL B</string>
+    <string name="str_sound_format_forced_mono">MONO</string>
+    <string name="str_sound_format_g_stereo">STEREO</string>
+    <string name="str_sound_format_hidev_mono">MONO</string>
+    <string name="str_sound_format_unknown">НЕИЗВЕСТНЫЙ</string>
+    <string name="str_sound_format_k_stereo">STEREO</string>
+    <string name="str_sound_format_left_left">ЛЕВЫЙ ЛЕВЫЙ</string>
+    <string name="str_sound_format_left_right">ЛЕВЫЙ ПРАВЫЙ</string>
+    <string name="str_sound_format_mono_sap">MONO SAP</string>
+    <string name="str_sound_format_nicam_dual_a">NICAM ДвоЙНАЯ</string>
+    <string name="str_sound_format_nicam_dual_ab">NICAM DUAL AB</string>
+    <string name="str_sound_format_nicam_dual_b">NICAM DUAL B</string>
+    <string name="str_sound_format_nicam_mono">NICAM MONO</string>
+    <string name="str_sound_format_nicam_stereo">NICAM STEREO</string>
+    <string name="str_sound_format_right_right">RIGHT RIGHT</string>
+    <string name="str_sound_format_stereo_sap">STEREO SAP</string>
+    <string name="str_sound_format_stereo">STEREO</string>
+
+    <!-- For audio language-->
+    <string name="str_audio_language">Язык аудио</string>
+
+    <!-- For check password-->
+    <string name="str_check_password_pass">Пароль правильный</string>
+    <string name="str_check_password_wrong">Неправильный пароль</string>
+    <string name="str_check_password_invalid">Недопустимая операция</string>
+    <string name="str_check_password_incorrect">Неправильный пароль!</string>
+    <string name="str_check_password_input_number">Пожалуйста, введите номер в качестве пароля</string>
+    <string name="str_pvr_listview_item">Отображение текста</string>
+    <string name="str_pvr_playback_error_reason">Может \ «т PlayBack Правильно, причина: \ п</string>
+    <string name="str_pvr_usb_removed">USB СНЯТО</string>
+    <string name="str_pvr_insert_usb">Пожалуйста, вставьте U диск!</string>
+    <string name="str_pvr_format_usb">Для форматирования выбранного предложения U?</string>
+    <string name="str_pvr_format_usb_progressing">Формат USB Disk Бегущие ... \ nПожалуйста Не Отключайте USB диск!</string>
+    <string name="str_pvr_usb_speed_test_progressing">Тест скорости проводится в ... \ п Не вынимайте диск U!</string>
+    <string name="str_pvr_program_saving">Сохранить программу ... Пожалуйста, подождите!</string>
+    <string name="str_pvr_exit_confirm">Жжение ... Вы уверены, что хотите выйти?</string>
+    <string name="str_TimeShift_exit_confirm">Когда сдвиг ... Вы уверены, что хотите выйти?</string>
+    <string name="str_pvr_is_recording">Запись в</string>
+    <string name="str_pvr_is_TimeShift">Когда сдвиг</string>
+    <string name="str_removable_disk">Съемный диск</string>
+    <string name="str_editText1">0</string>
+    <string name="str_pvr_unsurpt_flsystem">Неподдерживаемая файловая система, формат!</string>
+    <string name="str_pvr_is_standby">резервный</string>
+    <string name="str_pvr_tip">Вы собираетесь остановить запись PVR, или перейти в режим ожидания записи?</string>
+    <string name="str_pvr_tip2">Вы собираетесь остановить запись PVR?</string>
+    <string name="str_pvr_abloop_too_short">AB время повтора слишком коротко, минимальное время 2 секунды.</string>
+    <string name="str_pvr_record_fail">Ожог недостаточность</string>
+    <string name="str_pvr_alwaystimeshift_record_fail">Всегда время записи сдвига сбой</string>
+    <string name="str_pvr_no_usb">У диска не обнаружено</string>
+    <string name="str_pvr_disk_read_only">Жесткий диск только для чтения</string>
+    <string name="str_pvr_out_of_space">Недостаточно места на диске</string>
+    <string name="str_pvr_data_only">Вы не можете записать программу данных</string>
+    <string name="str_pvr_scrambled_program">Яичница программа</string>
+    <string name="str_pvr_ch_blocked">Блокировка программы</string>
+    <string name="str_pvr_rating_blocked">Блокировка уровня</string>
+    <string name="str_channel_block">Блокировка программы</string>
+    <string name="str_pvr_retention_expired">Удержание Лимит Expired</string>
+    <string name="str_pvr_vod_not_allow">Содержание VOD не позволяют записывать</string>
+    <string name="str_pvr_ciplus_copy_protection">CI + Защита URI</string>
+    <string name="str_pvr_ciplus_unsupport">Он не поддерживает CI +</string>
+    <string name="str_pvr_ginga_running">Ginga работает</string>
+    <string name="str_pvr_bad_video_audio">Поврежденное аудио и видео</string>
+    <string name="str_pvr_max_recording_reached">Максимальное количество ожога</string>
+    <string name="str_pvr_mehg5_data_only">Программа данных MEHG5</string>
+    <string name="str_pvr_success">успех</string>
+    <string name="str_pvr_error">ошибка</string>
+    <string name="str_pvr_overwrite_before">Когда сдвиг будет охватывать устаревшее содержание</string>
+    <string name="str_pvr_still_check_disk">Обработка, пожалуйста, подождите</string>
+
+
+    <!-- for pvr menu -->
+    <string name="str_player_recorder">запись</string>
+    <string name="str_player_play">Broadcast</string>
+    <string name="str_player_stop">остановить</string>
+    <string name="str_player_pause">пауза</string>
+    <string name="str_player_stepin">Шагая</string>
+    <string name="str_player_rev">Ускоренное воспроизведение</string>
+    <string name="str_player_ff">Quick Play</string>
+    <string name="str_player_slow">Замедленное воспроизведение</string>
+    <string name="str_player_time">Выборы вещания</string>
+    <string name="str_player_forward">вперед</string>
+    <string name="str_player_backward">отбой</string>
+    <string name="str_player_capture">поимка</string>
+    <string name="str_pvr_file_system_menu">меню</string>
+    <string name="str_pvr_file_system_ok">определить</string>
+    <string name="str_list_menu_hint_b_skip">скакать</string>
+    <string name="str_list_menu_hint_g_fivorite">любимец</string>
+    <string name="str_list_menu_hint_g_edit">редактировать</string>
+    <string name="str_list_menu_hint_r_delete">удалять</string>
+    <string name="str_list_menu_hint_y_move">мобильный</string>
+
+    <!-- for ci+ op -->
+    <string name="str_ciplus_op_confirmation_title">Подтверждение CI + OP Обновить</string>
+    <string name="str_ciplus_op_refresh">Вы позволяете телевизор, чтобы сделать профиль оператора обновления?</string>
+    <string name="str_op_menu_title">Оператор Профили Меню</string>
+    <string name="str_op_channel_list_title">Список OP Channel</string>
+    <string name="str_op_menu">OP Меню</string>
+    <string name="str_op_forbid_channel_tuning_content">Запретите сделать настройку канала в режиме OP. \ Nplease выйти из режима OP в первой.</string>
+    <string name="str_enter_op">Введите OP</string>
+    <string name="str_exit_op">Выход OP</string>
+    <string name="str_delete_profile">Удалить профиль</string>
+    <string name="str_delete_op_msg">Вы уверены, что удалить профиль оператора [</string>
+    <string name="str_delete_op_confirm">Подтвердите удаление OP</string>
+    <string name="str_forbid_channel_tuning">Запретите настройки канала</string>
+    <string name="str_cam_upgrade_alarm">CAM под обновлением. \ Nplease попытку позже ...</string>
+    <string name="str_op_tuning_alarm">ОП настройки. \ Nplease попытку позже ...</string>
+
+    <!-- for reminder -->
+    <string name="str_reminder_mode">режим</string>
+    <string name="str_reminder_date">дата</string>
+    <string name="str_reminder_month">месяц</string>
+    <string name="str_reminder_hour">час</string>
+    <string name="str_reminder_minute">минут</string>
+    <string name="str_reminder_channel">шоу</string>
+    <string name="str_reminder_auto">автоматическая</string>
+    <string name="str_reminder_once">один раз</string>
+    <string name="str_reminder_daily">Каждый день</string>
+    <string name="str_reminder_weekly">еженедельно</string>
+    <string name="str_reminder_title">Установить назначение</string>
+    <string name="str_reminder_record_event">Запишите это событие</string>
+
+    <!-- for source info atv -->
+    <string name="str_atv_source_imageformat">система цвета</string>
+    <string name="str_atv_source_soundformat">Режим звучания</string>
+    <string name="str_atv_source_audioformat">звуковая система</string>
+
+    <string name="audio_type_mpeg">MPEG</string>
+    <string name="audio_type_dolby_d">Dolby D</string>
+    <string name="audio_type_aac">AAC</string>
+    <string name="audio_type_ac3p">AC3P</string>
+    <string name="audio_type_dra1">DRA1</string>
+
+
+
+    <!-- for Audio Info AAC Profile And Level -->
+    <string name="aac_level1">AAC L1</string>
+    <string name="aac_level2">AAC L2</string>
+    <string name="aac_level4">AAC L4</string>
+    <string name="aac_level5">AAC L5</string>
+    <string name="he_aac_level2">HE-AAC L2</string>
+    <string name="he_aac_level3">HE-AAC L3</string>
+    <string name="he_aac_level4">HE-AAC L4</string>
+    <string name="he_aac_level5">HE-AAC L5</string>
+
+    <!-- for source info dtv -->
+    <string name="str_dtv_source_info_program_period">сегменты программы</string>
+    <string name="str_dtv_source_info_program_name">В настоящее время название программы</string>
+    <string name="str_dtv_source_info_program_type">Тип программы</string>
+    <string name="str_dtv_source_info_program_format">Формат видео</string>
+    <string name="str_dtv_source_info_audio_format">Аудио форматы</string>
+    <string name="str_dtv_source_info_mheg5">MHEG5</string>
+    <string name="str_dtv_source_info_Subtitle">подзаголовок</string>
+    <string name="str_dtv_source_info_language">Дорожки</string>
+    <string name="str_dtv_source_info_teletext">фото</string>
+    <string name="str_dtv_source_info_no_teletext">К сожалению, нет информации графических</string>
+    <string name="str_dtv_source_info_no_subtitle">К сожалению, нет информации субтитров</string>
+    <string name="str_dtv_source_info_unsupported_teletext">К сожалению, не поддерживается текущим графическим канала</string>
+    <string name="str_dtv_source_info_unsupported_subtitle">К сожалению, не поддерживается текущими субтитрами канала</string>
+    <string name="str_dtv_source_info_description">описание</string>
+    <string name="str_dtv_source_info_resolution">разрешение</string>
+    <string name="str_dtv_source_info_ginga">GINGA</string>
+    <string name="str_dtv_source_info_cc_exist">CC: Да</string>
+    <string name="str_dtv_source_info_cc_noexist">CC: Нет</string>
+    <string name="str_source_info_lock">Блокировка канала:</string>
+
+    <!-- for time -->
+    <string name="str_time_confirm_tip">Нажмите на красную кнопку, чтобы подтвердить это!</string>
+    <string name="str_time_time">время</string>
+    <string name="str_time_date">дата</string>
+    <string name="str_time_currenttime">Текущее время</string>
+    <string name="str_time_offtime">Off время</string>
+    <string name="str_time_schedule">время загрузки</string>
+    <string name="str_time_sleep">Время сна</string>
+    <string name="str_time_autotime">автоматическая регулировка</string>
+    <string name="str_time_schedule_ontime">вовремя</string>
+    <string name="str_time_set_time_on_title">время загрузки</string>
+    <string name="str_time_set_time_off_title">Off время</string>
+    <string name="str_time_set_time_on">Установка времени загрузки</string>
+    <string name="str_time_set_time_off">Отправляясь времени</string>
+    <string name="str_time_schedule_hour">час</string>
+    <string name="str_time_schedule_minute">минут</string>
+    <string name="str_time_schedule_source">источник</string>
+    <string name="str_time_schedule_channel">канал</string>
+    <string name="str_time_schedule_volume">объем</string>
+    <string name="str_time_hour">час</string>
+    <string name="str_time_minute">минут</string>
+    <string name="str_time_second">второй</string>
+    <string name="str_time_change_timezone">Timezone автоматической обновлена</string>
+
+
+    <string name="str_set_setting">устанавливать</string>
+    <string name="str_set_language">язык</string>
+    <string name="str_set_audio_language1">Первый язык</string>
+    <string name="str_set_audio_language2">Второй язык</string>
+    <string name="str_set_subtitle_switch">подзаголовок</string>
+    <string name="str_set_subtitle_language1">Первый язык субтитров</string>
+    <string name="str_set_subtitle_language2">Второй язык субтитров</string>
+    <string name="str_set_language_czech">чешский</string>
+    <string name="str_set_language_danish">датский</string>
+    <string name="str_set_language_german">немецкий</string>
+    <string name="str_set_language_english">английский</string>
+    <string name="str_set_language_spanish">испанский</string>
+    <string name="str_set_language_greek">греческий</string>
+    <string name="str_set_language_french">французский</string>
+    <string name="str_set_language_croatian">хорватский</string>
+    <string name="str_set_language_italian">итальянский язык</string>
+    <string name="str_set_language_hungarian">венгерский</string>
+    <string name="str_set_language_dutch">нидерландский</string>
+    <string name="str_set_language_norwegian">Норвежский язык</string>
+    <string name="str_set_language_polish">полировать</string>
+    <string name="str_set_language_portuguese">португальский</string>
+    <string name="str_set_language_russian">русский</string>
+    <string name="str_set_language_romanian">румынский</string>
+    <string name="str_set_language_slovenian">словенский</string>
+    <string name="str_set_language_serbian">Сербский язык</string>
+    <string name="str_set_language_finnish">финский</string>
+    <string name="str_set_language_swedish">шведский</string>
+    <string name="str_set_language_bulgarian">болгарский</string>
+    <string name="str_set_language_slovak">Словацкий язык</string>
+    <string name="str_set_language_chinese">китайский</string>
+    <string name="str_set_language_gaelic">гаэльский</string>
+    <string name="str_set_language_welsh">валлийский</string>
+    <string name="str_set_language_irish">Ирландский язык</string>
+    <string name="str_set_language_arabic">арабский</string>
+    <string name="str_set_language_latvian">латышский</string>
+    <string name="str_set_language_hebrew">Иврит</string>
+    <string name="str_set_language_turkish">Турецкий язык</string>
+    <string name="str_set_language_estonian">эстонский</string>
+    <string name="str_set_language_gallegan">Галицкая</string>
+    <string name="str_set_language_basque">баскский</string>
+    <string name="str_set_language_catalan">каталонский</string>
+    <string name="str_set_language_icelandic">исландский</string>
+    <string name="str_set_language_letzeburgesch">люксембургский</string>
+    <string name="str_set_language_lithuanian">литовский</string>
+    <string name="str_set_language_ukrainian">украинский</string>
+    <string name="str_set_language_byelorussian">Белорусский</string>
+    <string name="str_set_language_maori">маори</string>
+    
+    <string name="str_set_language_cantonese">В кантонском</string>
+    <string name="str_set_language_korean">корейский</string>
+    <string name="str_set_language_japanese">японский</string>
+    <string name="str_set_language_hindi">хинди</string>
+    <string name="str_set_language_thai">тайский</string>
+    <string name="str_set_language_vietnamese">Вьетнамский язык</string>
+    <string name="str_set_language_malay">малайский</string>
+    <string name="str_set_language_qab">Второй аудио</string>
+    <string name="str_set_language_qac">Третий аудио</string>
+    <string name="str_set_language_multiple">многоязычный</string>
+
+
+
+    <string name="str_set_menutime">время отображения меню</string>
+    <string name="str_set_menutime_5sec">5 секунд</string>
+
+
+
+    <string name="str_set_switchmode">режим переключения</string>
+    <string name="str_set_switchmode_blackscreen">черный</string>
+    <string name="str_set_autosourceident">Источник идентификации</string>
+    <string name="str_set_sourcepreview">Источник Preview</string>
+
+
+
+    <string name="str_set_autosourceswit">Автоматическое Определение источника</string>
+
+
+
+    <string name="str_set_off">закрыть</string>
+    <string name="str_set_on">открытый</string>
+    <string name="str_set_colorrange">Цветовой диапазон</string>
+    <string name="str_set_colorrange_0to255">От 0 до 255</string>
+    <string name="str_set_moviemode">режим кино</string>
+
+
+    <string name="str_set_mhlswitch">Автоматическое переключение MHL</string>
+
+
+    <string name="str_set_bluescreenswitch">Синий экран</string>
+
+
+    <string name="str_set_hdmicec"> ЦИК</string>
+
+
+
+    <string name="str_set_standyon">Режим ожидания системы</string>
+
+    <string name="str_set_powersetting">Настройки питания</string>
+    <string name="str_set_restoretodefault">Восстановить значения по умолчанию</string>
+    <string name="str_set_hdmicec_label">ЦИК</string>
+    <string name="str_set_hdmicec_devicelist">перечень оборудования</string>
+    <string name="str_set_hdmicec_off">закрыть</string>
+    <string name="str_set_hdmicec_onoff"> ЦИК ON / OFF</string>
+    <string name="str_set_cc_setting">набор CC</string>
+    <string name="str_set_boot2launcher">Питание к основному интерфейсу</string>
+    <string name="str_set_bootsource">канал Мощность</string>
+
+
+
+    <string name="str_updating_edid">обновление информации AMP ...</string>
+
+    <string name="str_set_hdmicec_autostandby">Auto Standby</string>
+    <string name="str_set_powersetting_powermusic">Зв.включ</string>
+    <string name="str_set_powersetting_powerlogo">значок питания</string>
+    <string name="str_set_powersetting_powervolume">объем загрузки</string>
+
+    <!-- Loading -->
+
+    <string name="loading">загрузка</string>
+
+    <!-- for hot key -->
+
+    <string name="volume">объем</string>
+    <string name="picture">режим изображения</string>
+    <string name="sound">Режим звучания</string>
+    <string name="zoom">режим масштабирования</string>
+    <string name="str_root_alert_dialog_title">подсказка</string>
+    <string name="str_root_alert_dialog_message">Вы уверены, что хотите выйти из телевизионной системы?</string>
+    <string name="go_to_tuning_dialog_message">Начать поиск станции?</string>
+    <string name="str_root_alert_dialog_confirm">определить</string>
+    <string name="str_root_alert_dialog_cancel">отменен</string>
+    <string name="str_root_alert_dialog_message_restore_to_default">Вы уверены, что хотите сбросить его?</string>
+
+    <!-- Factory Menu -->
+
+    <string name="str_factory_adc"> регулировка АЦП</string>
+    <string name="str_factory_whitebalance">Баланс белого</string>
+    <string name="str_factory_picturemode">вид</string>
+    <string name="str_factory_non_standard">Нестандартные варианты</string>
+    <string name="str_factory_non_linear"> Non_linear</string>
+    <string name="str_factory_overscan">Оверскан</string>
+    <string name="str_factory_ssc"> регулировка SSC</string>
+    <string name="str_factory_peq"> PEQ</string>
+    <string name="str_factory_otheroption">Другие варианты</string>
+    <string name="str_factory_adc_source">источник</string>
+    <string name="str_factory_adc_rgain"> R GAIN</string>
+    <string name="str_factory_adc_ggain">G Gain</string>
+    <string name="str_factory_adc_bgain"> B Gain</string>
+    <string name="str_factory_adc_roffset"> ř смещение</string>
+    <string name="str_factory_adc_goffset"> г компенсации</string>
+    <string name="str_factory_adc_boffset"> смещение B</string>
+    <string name="str_factory_adc_autoadjust">автоматическая регулировка</string>
+    <string name="str_factory_wbadjust_source">источник</string>
+    <string name="str_factory_wbadjust_rgain"> R GAIN</string>
+    <string name="str_factory_wbadjust_ggain">G Gain</string>
+    <string name="str_factory_wbadjust_bgain"> B Gain</string>
+    <string name="str_factory_wbadjust_roffset"> ř смещение</string>
+    <string name="str_factory_wbadjust_goffset"> г компенсации</string>
+    <string name="str_factory_wbadjust_boffset"> смещение B</string>
+    <string name="str_factory_wbadjust_autoadjust">автоматическая регулировка</string>
+    <string name="str_factory_wbadjust_colortemp">Цветовая температура</string>
+    <string name="str_factory_picmode_picmode">вид</string>
+    <string name="str_factory_picmode_brightness">яркость</string>
+    <string name="str_factory_picmode_contrast">контрастировать</string>
+    <string name="str_factory_picmode_saturation">насыщение</string>
+    <string name="str_factory_picmode_hue">оттенок</string>
+    <string name="str_factory_picmode_sharpness">сметливость</string>
+    <string name="str_factory_nonlinear_curvetype">Кривая Тип</string>
+    <string name="str_factory_nonlinear_osd0"> OSD_0</string>
+    <string name="str_factory_nonlinear_osd25"> OSD_25</string>
+    <string name="str_factory_nonlinear_osd50"> OSD_50</string>
+    <string name="str_factory_nonlinear_osd75"> OSD_75</string>
+    <string name="str_factory_nonlinear_osd100"> OSD_100</string>
+    <string name="str_factory_overscan_source">источник</string>
+    <string name="str_factory_overscan_hsize"> ч Размеры</string>
+    <string name="str_factory_overscan_hposition">Горизонтальное положение</string>
+    <string name="str_factory_overscan_vsize"> размер В</string>
+    <string name="str_factory_overscan_vposition">Вертикальное положение</string>
+    <string name="str_factory_nonstandard_viftop"> VIF_TOP</string>
+    <string name="str_factory_nonstandard_vifvgamaximum"> VIF_VGA_MAXIMUM</string>
+    <string name="str_factory_nonstandard_vifcpkp"> VIF_CR_KP</string>
+    <string name="str_factory_nonstandard_vifcpki"> VIF_CR_KI</string>
+    <string name="str_factory_nonstandard_vifasiasignaloption"> VIF_ASIA_SIGNAL_OPTION</string>
+    <string name="str_factory_nonstandard_vifcpkpkiadjust"> VIF_CR_KP_KI_ADJUST</string>
+    <string name="str_factory_nonstandard_vifovermodulation"> VIF_OVER_MODULATION</string>
+    <string name="str_factory_nonstandard_vifclampgain"> VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+    <string name="str_factory_nonstandard_chinadescrambler"> CHINA_DESCRAMBLER_BOX</string>
+    <string name="str_factory_nonstandard_delay">задержанный</string>
+    <string name="str_factory_nonstandard_vifcrthr"> VIF_CR_THR</string>
+    <string name="str_factory_nonstandard_vifversion"> VIF_VERSION</string>
+    <string name="str_factory_nonstandard_vifagcref"> VIF_AGC_REF</string>
+    <string name="str_factory_nonstandard_gaindistributionthr"> GAIN_DISTRIBUTION_THR</string>
+    <string name="str_factory_nonstandard_afecd4"> AEFC_D4</string>
+    <string name="str_factory_nonstandard_aefcd5"> AEFC_D5 [2]</string>
+    <string name="str_factory_nonstandard_aefcd8"> AEFC_D8 [3: 0]</string>
+    <string name="str_factory_nonstandard_aefcd9"> AEFC_D9 [0]</string>
+    <string name="str_factory_nonstandard_aefcd7high"> AEFC_D7_HIGH_BOUN</string>
+    <string name="str_factory_nonstandard_aefcd7"> AEFC_D7_LOW_BOUN</string>
+    <string name="str_factory_nonstandard_aefca0"> AEFC_A0</string>
+    <string name="str_factory_nonstandard_aefca1"> AEFC_A1</string>
+    <string name="str_factory_nonstandard_aefc66"> AEFC_66 [7: 6]</string>
+    <string name="str_factory_nonstandard_aefc6e"> AEFC_6E [7: 4]</string>
+    <string name="str_factory_nonstandard_aefc6elow"> AEFC_6E [3: 0]</string>
+    <string name="str_factory_nonstandard_aefc43"> AEFC_43</string>
+    <string name="str_factory_nonstandard_aefc44"> AEFC_44</string>
+    <string name="str_factory_nonstandard_aefccb"> AEFC_CB</string>
+    <string name="str_factory_nonstandard_vddsp"> AUDIO_NR_TH</string>
+    <string name="str_factory_nonstandard_audiohidev"> AUDIO_HIDEV_MODE</string>
+    <string name="str_factory_nonstandard_audionr"> AUDIO_NR_TH</string>
+    <string name="str_factory_nonstandard_audiosif">Аудио порог SIF</string>
+    <string name="str_factory_nonstandard_audiodsp"> AUDIO_DSP_VERSION</string>
+    <string name="str_factory_ssc_miuenable"> позволили MIU</string>
+    <string name="str_factory_ssc_miumodulation"> MIU модуляция</string>
+    <string name="str_factory_ssc_miupercentage"> МИУ процент (%)</string>
+    <string name="str_factory_ssc_lvdsenable"> включен LVDS</string>
+    <string name="str_factory_ssc_lvdsmodulation"> LVDS модуляция</string>
+    <string name="str_factory_ssc_lvdspercentage"> LVDS процент (%)</string>
+    <string name="str_factory_peq_fo1coarse"> FO1 сырой</string>
+    <string name="str_factory_peq_fo1fine"> Fine FO1</string>
+    <string name="str_factory_peq_fo2coarse"> FO2 сырой</string>
+    <string name="str_factory_peq_fo2fine"> FO2 штраф</string>
+    <string name="str_factory_peq_fo3coarse"> Сырая FO3</string>
+    <string name="str_factory_peq_fo3fine"> Fine FO3</string>
+    <string name="str_factory_peq_gain1"> Получите 1</string>
+    <string name="str_factory_peq_gain2"> Получите 2</string>
+    <string name="str_factory_peq_gain3"> Получите 3</string>
+    <string name="str_factory_peq_q1"> Q1</string>
+    <string name="str_factory_peq_q2"> Q2</string>
+    <string name="str_factory_peq_q3"> Q3</string>
+    <string name="str_factory_otheroption_version">издание</string>
+    <string name="str_factory_otheroption_board">офис</string>
+    <string name="str_factory_otheroption_panel">панель</string>
+    <string name="str_factory_otheroption_dateandtimes">Дата / время</string>
+    <string name="str_factory_otheroption_watchdog">сторожевой пес</string>
+    <string name="str_factory_otheroption_testpattern">Тестовый режим</string>
+    <string name="str_factory_otheroption_restoretodefault">Восстановить значения по умолчанию</string>
+    <string name="str_factory_otheroption_poweronmode">Режим питания</string>
+    <string name="str_factory_otheroption_uartenable"> Включение UART</string>
+    <string name="str_factory_otheroption_dtvavdelay"> ЦТВ Ав Делей (Non_standard)</string>
+    <string name="str_factory_otheroption_initialfunction">Предварительный канал</string>
+    <string name="str_factory_otheroption_panelswing">Группа качается</string>
+    <string name="str_factory_otheroption_audioprescale">Аудио предделитель</string>
+
+    <!-- for program edit -->
+
+    <string name="str_program_edit_dialog_ok">определить</string>
+    <string name="str_program_edit_dialog_cancel">отменен</string>
+    <string name="str_program_edit_dialog_input">Пожалуйста, введите</string>
+    <string name="str_no_sinal">Нет сигнала</string>
+    <string name="str_channelList_favorite">список избранных</string>
+    <string name="str_channelList_program">список программ</string>
+    <string name="program_guide_time">Руководство по программе: Время</string>
+
+    <string name="str_channelList_search">поиск</string>
+    <string name="str_channelList_sort">последовательность</string>
+
+    <!-- For Record Style -->
+    <string name="str_textview_record_title">Настройки прожига</string>
+    <string name="str_textview_record_chaneel_name">название канала</string>
+    <string name="str_textview_record_sbutitle">подзаголовок</string>
+    <string name="str_textview_record_context">численный</string>
+    <string name="str_textview_record_mode">режим</string>
+    <string name="str_textview_record_start_time">Время начала</string>
+    <string name="str_textview_record_end_time">Время окончания</string>
+    <string name="str_textview_record_common_ok">Выбор: OK</string>
+    <string name="str_record_date">номер</string>
+    <string name="str_record_month">месяц</string>
+    <string name="str_record_hour">когда</string>
+    <string name="str_record_minute">водораздел</string>
+
+    <!-- For schedule list style -->
+    <string name="str_textview_schedule_list_title">список программ</string>
+    <string name="str_textview_schedule_list_time">время</string>
+    <string name="str_textview_schedule_list_date">дата</string>
+    <string name="str_schedule_list_channel_name">название канала</string>
+    <string name="str_schedule_list_programmer_title">название программы</string>
+
+    <!-- For schedule list style -->
+    <string name="str_screenshot_tip_title">скриншоты советы</string>
+    <string name="str_screenshot_tip_msg">Является ли перехват текущего экрана в качестве экрана, когда машина?</string>
+    <string name="str_screenshot_opt_success">Скриншот успех!</string>
+    <string name="str_screenshot_opt_failed">Скриншот провал!</string>
+
+    <!-- For epg -->
+    <string name="str_epg_title_time">Электронный гид телепрограмм: Время</string>
+    <string name="str_epg_title_channel">Электронный гид по программам: Программа</string>
+    <string name="str_epg_tips_b_reminder">напоминать</string>
+    <string name="str_epg_tips_r_record">запись</string>
+    <string name="str_epg_tips_y_schedule">организовать</string>
+    <string name="str_epg_tips_g_info">информация</string>
+    <string name="str_epg_event_extend_no_info">Нет информации</string>
+    <string name="str_epg_event_age">Возраст:</string>
+    <string name="str_epg_event_content">Содержание:</string>
+    <string name="str_epg_event_genre">Тип:</string>
+    <string name="str_epg_event_name">событие</string>
+    <string name="str_epg_event_rating">рейтинг</string>
+    <string name="str_epg_event_simulcast_hd">Simulcast</string>
+    <string name="str_epg_event_broadcastlater_hd">Broadcast</string>
+    <string name="str_epg_event_unresolved">Не решен.</string>
+    <string name="str_epg_timer_conflict">конфликт</string>
+    <string name="str_epg_timer_prompt_delete_conflict_schedule">Удалить все расписание конфликтов?</string>
+    <string name="str_epg_timer_delete_conflict_confirm">определить</string>
+    <string name="str_epg_timer_delete_conflict_cancel">отменен</string>
+
+
+    <!-- For epg Genre-->
+    <string name="str_genre_movie">фильм</string>
+    <string name="str_genre_movie_drama">Фильм / Театр</string>
+    <string name="str_genre_movie_drama_general">Кино / театр (интегрированный)</string>
+    <string name="str_genre_news">новости</string>
+    <string name="str_genre_news_factual">Новости и правда</string>
+    <string name="str_genre_news_current_default">текущие события</string>
+    <string name="str_genre_news_current_general">Новости / Текущие события (интегрированный)</string>
+    <string name="str_genre_news_current">Новости / Текущие события</string>
+    <string name="str_genre_entertainment">развлечения</string>
+    <string name="str_genre_show_general">Показать / игровое шоу конкурс (интегрированный)</string>
+    <string name="str_genre_show">Show / игра шоу конкурс</string>
+    <string name="str_genre_sports_general">Спорт (встроенный)</string>
+    <string name="str_genre_sport">спортивный</string>
+    <string name="str_genre_chidren">ребенок</string>
+    <string name="str_genre_youth">По уходу за детьми / детские программы</string>
+    <string name="str_genre_music_default">музыка</string>
+    <string name="str_genre_music_general">Музыка / Балет / Танец (интегрированный)</string>
+    <string name="str_genre_music">Музыка / Балет / Танец</string>
+    <string name="str_genre_art_general">Искусство / Культура (без музыки, интегрированный)</string>
+    <string name="str_genre_art">Искусство / Культура (без музыки)</string>
+    <string name="str_genre_social_general">Социальные / политические / экономические (интегрированный)</string>
+    <string name="str_genre_social">Социальные / политические / экономические</string>
+    <string name="str_genre_education_default">Образование / Информация</string>
+    <string name="str_genre_education_uk">образование</string>
+    <string name="str_genre_education_others_general">Образование / Наука / реальная тема (интегрированный)</string>
+    <string name="str_genre_education_others">Образование / Наука / реальная тема</string>
+    <string name="str_genre_infotainment">Infotainment</string>
+    <string name="str_genre_life_uk">жизнь</string>
+    <string name="str_genre_life">досуг</string>
+    <string name="str_genre_not_support">Не поддерживает</string>
+    <string name="str_genre_original_language">Исходный язык</string>
+    <string name="str_genre_special">специальные</string>
+    <string name="str_genre_special_characteristics">собственности</string>
+    <string name="str_genre_reserved">Зарезервировано для использования в будущем</string>
+    <string name="str_genre_drama">театр</string>
+    <string name="str_genre_user_defined">Определяемые пользователем</string>
+    <string name="str_genre_undefined">Неопределенный</string>
+    <string name="str_genre_unclassified">незакрытый</string>
+    <string name="str_genre_comedy">комедия</string>
+    <string name="str_genre_documentary">документальный</string>
+
+
+
+    <!-- For schedule list style -->
+    <string name="str_left_time">Оставшееся время:</string>
+    <string name="str_left_time_choosen_yes">Здесь</string>
+    <string name="str_left_time_choosen_no">нет</string>
+
+    <!-- For screen mode hint msg -->
+    <string name="str_invalid_service">Недействительные услуги</string>
+    <string name="str_no_ci_module">ДИ-карта не вставлена</string>
+    <string name="str_ci_plus_authentication">CI + сертификация</string>
+    <string name="str_scrambled_program">программа шифрования</string>
+    <string name="str_program_block">Блокировка программы</string>
+    <string name="str_parental_block">Родительский контроль</string>
+    <string name="str_rating_blocked">Блокировка уровня</string>
+    <string name="str_input_block">устройство ввода</string>
+    <string name="str_audio_only">Аудио программы</string>
+    <string name="str_data_only">Данные показывают,</string>
+    <string name="str_common_video"></string>
+    <string name="str_unsupported">Не поддерживает</string>
+    <string name="str_no_channel_banner">Нет станции</string>
+    <string name="str_invalid_pmt">PMT является недействительным</string>
+    <string name="str_no_signal">Нет сигнала</string>
+    <string name="str_no_signal_record">Нет сигнала, чтобы остановить горение</string>
+    <string name="str_no_signal_timeshift">Нет стоп-сигнал сдвига</string>
+    <!-- For auto update scan -->
+    <string name="str_auto_update_scan">Автоматическая программа обновления</string>
+
+    <!-- For channel control -->
+    <string name="str_channelcontrol_scan">СКАНИРОВАНИЕ</string>
+    <string name="str_channelcontrol_channels">КАНАЛЫ:</string>
+	<string name="str_channelcontrol_notfound">Канал не найден</string>
+	<string name="str_channelcontrol_done">DONE</string>
+
+	<!-- For Toast style -->
+	<string name="str_3d_toast">MWE автоматически отключается, чтобы обеспечить эффективное преобразование 3D</string>
+	<string name="str_demo_toast">Функция преобразования 3D автоматически отключается, чтобы обеспечить эффективный MWE</string>
+	<string name="str_cha_cities_choosen">Город Выберите</string>
+	<string name="str_invalid_3d_format">Формат 3D недействительны</string>
+
+
+	<!-- For CA mode -->
+	<string name="email_theme">тема</string>
+	<string name="email_time">время</string>
+	<string name="email_level">уровень</string>
+	<string name="email_state">состояние</string>
+	<string name="email_aid">[Красный ключ] Удалить [кнопка], чтобы удалить все</string>
+	<string name="email_del">[Красный], чтобы удалить</string>
+	<string name="email_free_space">Оставшееся пространство:</string>
+	<string name="email_free_letter">печать</string>
+	<string name="email_important">важно</string>
+	<string name="email_ordinary">обычный</string>
+	<string name="email_read">считывание</string>
+	<string name="email_unread">непрочитанный</string>
+	<string name="email">Электронная почта</string>
+	<string name="email_notify">уведомление</string>
+	<string name="really_remove_this_email">Вы уверены, что хотите удалить это сообщение?</string>
+	<string name="really_remove_all_email">Вы уверены, что хотите удалить все сообщения?</string>
+	<string name="ippv_freeviewed_segment">IPPV свободной фазы предварительного просмотра</string>
+	<string name="ippv_payviewed_segment">IPPV этап заряда</string>
+	<string name="ippt_payviewed_segment">ИИПТ раздел заряда</string>
+	<string name="ippv_tvsid">Оператор ID:</string>
+	<string name="ippv_payviewed_productid">Показать ID:</string>
+	<string name="ippv_payviewed_slotid">Кошелек ID:</string>
+	<string name="ippv_product_state">Статус:</string>
+	<string name="ippv_payviewed_expireddate">Срок годности:</string>
+	<string name="ippt_interval_min">Временной интервал:</string>
+	<string name="ippv_payviewed_cantape">Видеозапись Цена:</string>
+	<string name="ippv_payviewed_price">Цена:</string>
+	<string name="ippv_payviewed_cannottape">Видео не доступно Цена:</string>
+	<string name="ippv_pin">PIN-код:</string>
+	<string name="ippv_pin_ok">успех</string>
+	<string name="ippv_pointer_invalid">Цена указатель является нулевым</string>
+	<string name="ippv_card_invalid">Смарт-карта недействительна</string>
+	<string name="ippv_card_no_room">Смарт-карта не имеет космическую программу хранения</string>
+	<string name="ippv_prog_status_invalid">Для того, чтобы приобрести статус программы является недействительным</string>
+	<string name="ippv_pin_invalid">PIN-код недействителен</string>
+	<string name="ippv_data_not_find">Там нет никаких данных, которые будут найдены</string>
+	<string name="ippv_info_page">Текущая страница / всего ИВЛ:</string>
+	<string name="ippv_product_state_booking">запланированное</string>
+	<string name="ippv_product_state_viewed">Broadcast</string>
+	<string name="ippv_can_tape">может</string>
+	<string name="ippv_can_not_tape">не может</string>
+	<string name="str_ca_mg_child_or_parent_card">Ребенок / мать карты:</string>
+	<string name="str_ca_mg_child_or_parent_card1">Ребенок / мать карты</string>
+	<string name="str_ca_mg_child_card">Дочерняя плата</string>
+	<string name="str_ca_mg_parent_card">Мать карты</string>
+	<string name="str_ca_mg_parent_cardnum">номер матери карты:</string>
+	<string name="str_ca_mg_child_cardnum">Номер карты для детей:</string>
+	<string name="str_ca_mg_delaytime">Кормление периода:</string>
+	<string name="str_ca_mg_delaytime1">Кормление цикл</string>
+	<string name="str_ca_mg_lastfeedtime">Последний раз Питание:</string>
+	<string name="str_ca_mg_lastfeedtime1">Последний раз откорма</string>
+	<string name="str_ca_mg_ippv_program">Информация о программе IPPV</string>
+	<string name="str_ca_mg_card_info">информационная карта фото</string>
+	<string name="really_remove_this_info">Вы уверены, что хотите удалить эту информацию?</string>
+	<string name="really_remove_all_info">Вы уверены, что хотите удалить всю информацию?</string>
+	<string name="is_update">Если вы хотите обновить?</string>
+	<string name="update_loading">Загрузка пакета обновления, пожалуйста, подождите ...</string>
+	<string name="installing">Установка пакета обновления, пожалуйста, подождите ...</string>
+	<string name="update_complete_is_reboot">Пакет обновления был загружен, следует ли перезапустить обновление</string>
+	<string name="update_failed">Не удалось загрузить</string>
+	<string name="please_insert_parent_card">Пожалуйста, вставьте материнскую карту</string>
+	<string name="please_insert_child_card">Пожалуйста, вставьте дочернюю карту</string>
+	<string name="read_feeddata_from_parent_failed">Мать карта отказ считывания данных</string>
+	<string name="feeddata_successed">Кормление Success</string>
+	<string name="feeddata_failed">Кормление недостаточность</string>
+	<string name="delete_successed">Удаляется успешно</string>
+	<string name="delete_failed">Не удалось удалить</string>
+	<string name="cdca_rc_ok">В соответствии с текущей машиной карт</string>
+	<string name="cdca_rc_card_pairother">Смарт-карта, соответствующая другие телеприставки</string>
+	<string name="cdca_rc_card_nopair">Смарт-карта не соответствует ни одному телеприставки</string>
+	<string name="cdca_rc_invalid">Телеприставка или смарт-карта не является недействительной карты</string>
+	<string name="need_please_insert_child_card">Дочь карта должна соответствовать мастер-карты, карта вставляется в гнездо</string>
+	<string name="ippv_cdca_rc_ok">Успешная операция</string>
+	<string name="ippv_cdca_rc_data_not_find">Мы не нашли подходящих операторов</string>
+	<string name="cdca_rc_pointer_invalid">Null указатель</string>
+	<string name="clean_J2T_value">Пустые введите значение времени</string>
+	<string name="str_stop_record_dialog_title">Вы уверены, что хотите выйти из видеосистемы?</string>
+	<string name="str_stop_record_dialog_message">Является ли запись ... Вы уверены, что хотите выйти?</string>
+	<string name="str_stop_record_playback_dialog_message">Переключение системы записи канала остановит запись и воспроизведение</string>
+	<string name="str_stop_record_dialog_confirm">определить</string>
+	<string name="str_stop_record_dialog_cancel">отменен</string>
+	<string name="str_stop_record_dialog_stop">остановить</string>
+	<string name="str_stop_playback_dialog_title">Остановка воспроизведения</string>
+	<string name="str_stop_playback_dialog_message">Переключение системы записи канала остановит воспроизведение</string>
+	<string name="str_disk_too_slow">U диск читать слишком медленно</string>
+	<string name="enter_old_pwd">Введите старый пароль</string>
+	<string name="enter_check_pwd">Пожалуйста, введите ваш пароль</string>
+	<string name="enter_new_pwd">Пожалуйста, введите новый пароль</string>
+	<string name="confirm_new_pwd">Подтвердите новый пароль</string>
+	<string name="block_program_title">Блокировка программы</string>
+
+
+
+	<string name="str_dtv_source_info_age">возраст</string>
+
+	<!-- FOR  Option -->
+	<string name="str_menu_option">ВАРИАНТ</string>
+	<string name="str_option_caption">титр</string>
+	<string name="str_option_caption_off">OFF</string>
+	<string name="str_option_ginga_on_off">Ginga</string>
+	<string name="str_option_ginga_on">ON</string>
+	<string name="str_option_ginga_off">OFF</string>
+	<string name="str_option_ginga_list">Ginga Применение</string>
+	<string name="str_option_store_cookies">магазин Куки</string>
+	<string name="str_option_store_cookies_off">OFF</string>
+	<string name="str_option_store_cookies_on">ON</string>
+
+
+
+	<!-- for box only -->
+	<string name="wait_for_tuning_hint">«Является ли поиск, пожалуйста подождите ...»</string>
+	<string name="str_pic_xvycc">xvYCC</string>
+
+
+
+	<string name="str_vchip_vchip">Настройки V-чип</string>
+	<string name="str_vchip_button_lock">Кнопка блокировки</string>
+
+
+
+	<string name="str_vchip_block_unrated_tv">Блок Unrated TV</string>
+
+	<string name="str_vchip_usa_parental_control">США Родительский контроль</string>
+	<string name="str_vchip_rrt5_setting">RRT5 Настройка</string>
+	<string name="str_vchip_reset_rrt5l">Сброс RRT5</string>
+	<string name="str_vchip_change_password">Изменение пароля</string>
+	<string name="str_vchip_check_password">проверка пароля</string>
+	<string name="str_vchip_enter_check_pwd">Пожалуйста, введите ваш пароль</string>
+	<string name="str_vchip_enter_old_pwd">Старый пароль</string>
+	<string name="str_vchip_enter_new_pwd">Новый пароль</string>
+	<string name="str_vchip_confirm_new_pwd">Подтвердите пароль</string>
+	<string name="changepassword_title">Изменение пароля</string>
+	<string name="old_password">Старый пароль</string>
+	<string name="new_password">Новый пароль</string>
+	<string name="confirm_password">Подтвердите пароль</string>
+	<string name="oldpasswordtip">Введите старый пароль.</string>
+	<string name="newpasswordtip">Введите новый пароль.</string>
+	<string name="confirmpasswordtip">Введите пароль для подтверждения.</string>
+	<string name="sure">подтвердить</string>
+	<string name="cancel">отменен</string>
+	<string name="clean">удаление</string>
+	<string name="passwordsettip">Пожалуйста, введите свой пароль.</string>
+	<string name="enterpassword">Пожалуйста, введите ваш пароль</string>
+	<string name="password">Пароль:</string>
+	<string name="password_tip_old">Введите старый пароль.</string>
+	<string name="password_tip_new">Пожалуйста, введите новый пароль.</string>
+	<string name="password_tip_condirm">Пожалуйста, подтвердите новый пароль.</string>
+	<string name="errortip">Неверный пароль. Пожалуйста, повторно введите свой пароль.</string>
+
+	<!-- for USA Parental Control -->
+	<string name="usa_movie_ratings">фильм Рейтинги</string>
+	<string name="usa_movie_ratings_none">ни</string>
+	<string name="usa_movie_ratings_g">G</string>
+	<string name="usa_movie_ratings_pg">PG</string>
+	<string name="usa_movie_ratings_pg_13">PG-13</string>
+	<string name="usa_movie_ratings_r">R</string>
+	<string name="usa_movie_ratings_nc_17">NC-17</string>
+	<string name="usa_movie_ratings_x">X</string>
+	<string name="usa_movie_ratings_nr">NR</string>
+	<string name="usa_tv_ratings">ТВ Рейтинги</string>
+	<string name="usa_tv_ratings_none">ни</string>
+	<string name="usa_tv_ratings_tv_y">TV-Y</string>
+	<string name="usa_tv_ratings_tv_y7">TV-Y7</string>
+	<string name="usa_tv_ratings_tv_g">TV-G</string>
+	<string name="usa_tv_ratings_tv_pg">TV-PG</string>
+	<string name="usa_tv_ratings_tv_14">ТВ-14</string>
+	<string name="usa_tv_ratings_tv_ma">TV-MA</string>
+	<string name="usa_tv_ratings_tv_title_all">ВСЕ</string>
+	<string name="usa_tv_ratings_tv_title_fv">FV</string>
+	<string name="usa_tv_ratings_tv_title_l">L</string>
+	<string name="usa_tv_ratings_tv_title_s">S</string>
+	<string name="usa_tv_ratings_tv_title_v">В</string>
+	<string name="usa_tv_ratings_tv_title_d">D</string>
+	<string name="contentdescription">нуль</string>
+
+	<string name="old_password_not_filled_completely">Старый пароль Пожалуйста, повторите менее четырех.</string>
+	<string name="new_password_not_filled_completely">Новый пароль Повторно введите меньше четырех.</string>
+	<string name="originalpassworderr">Пожалуйста, повторно ввести старый пароль ошибку.</string>
+	<string name="newconfirmpassworderr">Пароль не совпадает, пожалуйста, введите его заново.</string>
+	<string name="resetsuccess">Пароль был успешно изменен.</string>
+	<string name="resetrrt5_title">Сброс RRT5</string>
+	<string name="resetrrt5_tips">OK?</string>
+
+	 <!-- for Canadian Parental Control -->
+	<string name="str_vchip_canadian_parental_control">Канадский Родительский контроль</string>
+
+	 <!-- Closed Caption -->
+	<string name="str_setting_cc_title">Настройки CC</string>
+	<string name="str_setting_cc_mode">режим CC</string>
+	<string name="str_setting_cc_basic_selection">Основы выбора</string>
+	<string name="str_setting_cc_advanced_selection">Расширенный выбор</string>
+	<string name="str_setting_cc_advanced_setting">Дополнительные настройки</string>
+
+
+	 <!-- Closed Caption Digital -->
+	<string name="str_setting_cc_dig_title">Настройки ADV CC</string>
+	<string name="str_setting_cc_dig_mode">режим</string>
+	<string name="str_setting_cc_dig_font_style">Стиль шрифта</string>
+	<string name="str_setting_cc_dig_font_size">Размер шрифта</string>
+	<string name="str_setting_cc_dig_font_edge_style">Шрифт Стиль края</string>
+	<string name="str_setting_cc_dig_font_edge_color">Шрифт Край Цвет</string>
+	<string name="str_setting_cc_dig_fg_color">FG цвет</string>
+	<string name="str_setting_cc_dig_bg_color">BG Color</string>
+	<string name="str_setting_cc_dig_fg_opacity">FG Непрозрачность</string>
+	<string name="str_setting_cc_dig_bg_opacity">BG Непрозрачность</string>
+	<string name="str_setting_cc_italic_attr">курсивный</string>
+	<string name="str_setting_cc_underline_attr">подчеркивание</string>
+
+
+
+	 <!-- For OAD string define -->
+	<string name="str_oad_msg_software_not_available">ДОА не доступна!</string>
+	<string name="str_oad_msg_download_found">Новое программное обеспечение находится</string>
+	<string name="str_oad_msg_dowload_prompt">Загрузите его сейчас?</string>
+	<string name="str_oad_msg_dowload_prompt_nz">Обновление программного обеспечения доступно Пожалуйста, выберите YES для обновления сейчас -. Это займет несколько минут - или оставить в режиме ожидания (кнопка выключения на пульте дистанционного управления) после завершения просмотра, чтобы обновить позже Спасибо ..</string>
+	<string name="str_oad_msg_downloading">загрузка</string>
+	<string name="str_oad_msg_downloading_nz">Ваш приемник в настоящее время загрузки существенного обновления программного обеспечения. Это займет всего несколько минут. Пожалуйста, НЕ настроить приемник или выключить в это время. Спасибо.</string>
+	<string name="str_oad_msg_scan_confirm">Вы хотите, чтобы начать искать новое программное обеспечение?</string>
+	<string name="str_oad_downloadprogress_percent_0">0</string>
+	<string name="str_oad_yes">да</string>
+	<string name="str_oad_no">нет</string>
+	<string name="str_oad_exit">выход</string>
+
+
+
+	 <!-- For NIT update string define -->
+	<string name="str_nit_msg_frequency_change_confirm">! Не требуется. Изменение частоты Повторное сканирование \ nНажмите OK для сканирования каналов. Это может занять некоторое время, чтобы закончить действие. \ NНажмите Выход, чтобы игнорировать требуется.</string>
+	<string name="str_nit_msg_multiplexer_add_confirm">Новый мультиплекс может быть необходима в продаже! Повторная проверка. \ NНажмите OK для сканирования каналов. Это может занять некоторое время, чтобы закончить действие. \ NНажмите Выход, чтобы игнорировать требуется.</string>
+	<string name="str_nit_msg_multiplexer_remove_confirm">Мультиплекс удален может быть необходима в продаже! Повторная проверка. \ NНажмите OK для сканирования каналов. Это может занять некоторое время, чтобы закончить действие. \ NНажмите Выход, чтобы игнорировать требуется.</string>
+	<string name="str_nit_ok">хорошо</string>
+	<string name="str_nit_exit">выход</string>
+
+	 <!-- For DVBS LNB Setting -->
+	<string name="str_lnbsetting_title">Настройка LNB</string>
+	<string name="str_lnbsetting_satellite">спутниковое</string>
+	<string name="str_lnbsetting_transponder">транспондер</string>
+	<string name="str_lnbsetting_transponder_freq">(МГц)</string>
+	<string name="str_lnbsetting_transponder_symbol">(Кс / с)</string>
+	<string name="str_lnbsetting_lnbpower">Питание LNB</string>
+	<string name="str_lnbsetting_compensation">Компенсация длинного кабеля</string>
+	<string name="str_lnbsetting_frequencies">LNB Низкие / Высокие частоты</string>
+	<string name="str_lnbsetting_frequencies_title">Тип LNB</string>
+	<string name="str_lnbsetting_frequencies_low">низкий</string>
+	<string name="str_lnbsetting_frequencies_high">высокая</string>
+	<string name="str_lnbsetting_frequencies_set">Изменение параметра</string>
+	<string name="str_lnbsetting_22knz_tone">22кГц Tone</string>
+	<string name="str_lnbsetting_toneburst">Toneburst</string>
+	<string name="str_lnbsetting_diseqc_1_0">DiSEqC 1.0</string>
+	<string name="str_lnbsetting_diseqc_1_1">DiSEqC 1.1</string>
+	<string name="str_lnbsetting_diseqc_1_2">DiSEqC 1.2</string>
+	<string name="str_lnbsetting_diseqc_1_3">DiSEqC 1.3</string>
+	<string name="str_lnboptting_diseqc_change">Изменение DiSEqC</string>
+	<string name="str_lnbsetting_motor_none">ни</string>
+	<string name="str_lnbsetting_motor">двигатель</string>
+	<string name="str_lnbsetting_signalquality">качество</string>
+	<string name="str_lnbsetting_strength">прочность</string>
+	<string name="str_lnbsetting_singlecable">Одноместный кабель</string>
+	<string name="str_lnbsetting_singlecable_none">ни</string>
+	<string name="str_lnbsetting_singlecable_slot">слот</string>
+	<string name="str_lnbsetting_singlecable_freq">частоты</string>
+	<string name="str_lnbsetting_singlecable_pin">шпилька</string>
+	<string name="str_lnbsetting_singlecable_lnb">LNB</string>
+	<string name="str_lnbsetting_singlecable_verify">проверить</string>
+	<string name="str_lnboption_menu_hint_add">добавлять</string>
+	<string name="str_lnboption_menu_hint_delete">удалять</string>
+	<string name="str_lnboption_menu_hint_edit">редактировать</string>
+	<string name="str_lnboption_menu_hint_position">положение</string>
+	<string name="str_lnboption_menu_hint_limit">предел</string>
+	<string name="str_lnboption_menu_hint_location">расположение</string>
+	<string name="str_lnboption_editor_number">Нет.</string>
+	<string name="str_lnboption_editor_longitude_direction">Долгота Направление</string>
+	<string name="str_lnboption_editor_longitude_angle">Долгота Угол</string>
+	<string name="str_lnboption_editor_frequency">частота</string>
+	<string name="str_lnboption_editor_symbolrate">Скорость передачи</string>
+	<string name="str_lnboption_editor_band">полоса</string>
+	<string name="str_lnboption_editor_polarization">поляризация</string>
+	<string name="str_lnboption_editor_rename">переименовывать</string>
+	<string name="str_lnboption_editor_name">имя</string>
+	<string name="str_lnboption_editor_del_dialog_title">оконечность</string>
+	<string name="str_lnboption_editor_del_dialog_msg">Удалить выбранный элемент?</string>
+	<string name="str_lnboption_editor_del_dialog_yes">да</string>
+	<string name="str_lnboption_editor_del_dialog_no">нет</string>
+	<string name="str_lnb_motor_editor_title">Мотор настройки</string>
+	<string name="str_lnb_motor_editor_move_auto">Переместить Авто</string>
+	<string name="str_lnb_motor_editor_move_continue">Переместить Продолжить</string>
+	<string name="str_lnb_motor_editor_move_step">Перемещение Шаг (1)</string>
+	<string name="str_lnb_motor_editor_store_position">Сохранить позицию</string>
+	<string name="str_lnb_motor_editor_goto_position">Перейти к Положению</string>
+	<string name="str_lnb_motor_editor_set_west_limit">Установить West Limit</string>
+	<string name="str_lnb_motor_editor_set_east_limit">Установить East Limit</string>
+	<string name="str_lnb_motor_editor_goto_reference">Перейти к Ссылочному</string>
+	<string name="str_lnb_motor_editor_goto_x">Перейти к X</string>
+	<string name="str_lnb_motor_editor_disable_limit">Отключить предел</string>
+	<string name="str_lnb_motor_editor_location">Расположение:</string>
+	<string name="str_lnb_motor_editor_longitude_direction">Долгота Направление</string>
+	<string name="str_lnb_motor_editor_longitude_angle">Долгота Угол</string>
+	<string name="str_lnb_motor_editor_latitude_direction">Широта Direction</string>
+	<string name="str_lnb_motor_editor_latitude_angle">Широта Угол</string>
+	<string name="str_lnb_motor_editor_ok">Ok</string>
+	<string name="str_lnb_motor_editor_stop">остановить</string>
+	<string name="str_lnb_motor_editor_east">восток</string>
+	<string name="str_lnb_motor_editor_west">запад</string>
+
+
+	<string name="bt_info_left">слева</string>
+	<string name="bt_info_switch">Выбор: OK</string>
+	<string name="bt_info_adjust">Навигация:</string>
+	<string name="bt_info_right">право</string>
+	<string name="bt_info_up">на</string>
+	<string name="bt_info_down">ниже</string>
+	<string name="bt_info_ok">определить</string>
+	<string name="bt_info_back">Возвращает:</string>
+	<string name="bt_info_exit">выход</string>
+
+
+	<!-- For target region -->
+	<string name="str_target_region_country">страна</string>
+	<string name="str_target_region_primary">Первая область</string>
+	<string name="str_target_region_secondary">Вторая область</string>
+	<string name="str_target_region_tertiary">Третья область</string>
+	<string name="sound_screen_save">О том, чтобы войти в режим вне экрана, нажмите любую клавишу для отмены</string>
+
+
+	<string name="str_mhz">МГц</string>
+	<string name="exittip">Нажмите кнопку Выход, чтобы выйти из меню или станции поиска</string>
+	<string name="str_sound_format_desconocido">Desconocido</string>
+	<string name="str_cha_tv_route_desconocido">Desconocido</string>
+	<string name="st_ca_rc_desconocido">Недопустимая ошибка</string>
+	<string name="sky_picture">изображение</string>
+	<string name="sky_sound">звук</string>
+	<string name="sky_chanel">канал</string>
+	<string name="sky_setting">устанавливать</string>
+	<string name="sky_time">время</string>
+	<string name="sky_lock">Блокировка от детей</string>
+	<!-- For HDMI EDID Version -->
+	<string name="str_hdmi_edid_version">HDMI EDID версия</string>
+	<string name="str_hdmi_edid_version_change">Переключение HDMI EDID версии</string>
+	<string name="str_hdmi_edid_version_wait">Пожалуйста, подождите ...</string>
+
+
+
+	<string name="str_tv_unknown">неизвестный</string>
+
+	<string name="str_set_hbbtv_switch">HbbTV</string>
+
+
+	<string name="str_preferred_channel_list">Список Preferred канала</string>
+	<!-- For all input sources -->
+
+	<string name="str_input_source_lock_title">блокировка канала</string>
+	<string name="str_input_source_lock_prompt">Блокировка / разблокировка</string>
+	<string name="str_input_source_reset_prompt">Все Reset</string>
+
+	<string name="source_info_DTV">Цифровое телевидение</string>
+	<string name="source_info_ATV">Аналоговое ТВ</string>
+	<string name="source_info_AV1">видео</string>
+	<string name="source_info_AV2">Видео 2</string>
+	<string name="source_info_VGA">компьютер</string>
+	<string name="source_info_HDMI1">HD 1</string>
+	<string name="source_info_HDMI2">HD 2</string>
+		
+	<!-- EWS  -->
+	<string name="str_ews_status_awas">СТАТУС AWAS</string>
+	<string name="str_ews_status_siaga">СТАТУС SIAGA</string>
+	<string name="str_ews_status_waspada">СТАТУС WASPADA:</string>
+
+	<string name="str_ews_code">Bencana:</string>
+	<string name="str_ews_event_date">Tanggal:</string>
+	<string name="str_ews_position">Posisi:</string>
+	<string name="str_ews_characteristic">Karakter:</string>
+	<string name="str_ews_message">Pesan:</string>
+
+	<string name="str_ews_main_menu_location_code">Расположение кода</string>
+
+	<string name="str_ews_location_code">Расположение код:</string>
+	<string name="str_ews_location_code_save">Сохранить</string>
+	<string name="str_ews_location_code_cancel">отменить</string>
+
+
+
+	<string name="str_cha_ntsc_antannatype">Тип антенны</string>
+	<string name="tuning_no_powoff">Является ли поиск, операция не может быть закрыта!</string>
+
+	<!-- for pvr activity -->
+	<string name="str_pvr_recording_poweroff_title">подсказка</string>
+	<string name="str_pvr_timeshif_to_recording_message">Есть, настало время со сдвигом во времени, чтобы назначить встречу, убедитесь, что вы хотите, чтобы остановить и начать сжигание ожог?</string>
+	<string name="str_pvr_recording_poweroff_message">Жжение, убедитесь, что вы хотите записать и перестать ждать?</string>
+	<string name="str_pvr_timeshif_poweroff_message">Когда сдвиг подтверждается и в режиме переключения, когда остановиться?</string>
+	<string name="str_pvr_recording_poweroff_positive_text">Здесь</string>
+	<string name="str_pvr_recording_poweroff_nagative_text">нет</string>
+
+	<string name="str_channeltuning_stop">Пожалуйста, подождите</string>
+
+	<string name="str_power_off_confirm">Вы уверены, что хотите завершить?</string>
+
+
+	<string-array name="str_arr_pic_picturemode_vals">
+	    <item>свет</item>
+	    <item>стандарт</item>
+	    <item>пологий</item>
+	    <item>пользователь</item>
+	    <item>игры</item>
+	    <item>автоматическая</item>
+	    <item>компьютер</item>
+	    <item>яркий</item>
+	    <item>естественно</item>
+	    <item>спортивный</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_colortemperature_vals">
+	    <item>Холодный цвет</item>
+	    <item>стандарт</item>
+	    <item>Теплый цвет</item>
+	    <item>пользователь</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_zoommode_vals">
+	    <item>дефолт</item>
+	    <item>0.672916666666667</item>
+	    <item>0.16875</item>
+	    <item>автоматическая</item>
+	    <item>панорамный</item>
+	    <item>Оригинальный размер</item>
+	    <item>Увеличение 1</item>
+	    <item>Увеличение 2</item>
+	    <item>0.589583333333333</item>
+	    <item>Точка-точка</item>
+	    <item>подзаголовок</item>
+	    <item>телевидение</item>
+	    <item>пользователь</item>
+	    <item>Обзорный (4x3)</item>
+	    <item>Широкоэкранный (4x3)</item>
+	    <item>Вертикальные полосы (16x9)</item>
+	    <item>Scan (16х9)</item>
+	    <item>Слияние (4x3)</item>
+	    <item>Слияние (16x9)</item>
+	    <item>Увеличение 2x</item>
+	    <item>3x зум</item>
+	    <item>4-кратный зум</item>
+	</string-array>
+
+	<string-array name="str_arr_pic_imgnoisereduction_vals">
+	    <item>закрыть</item>
+	    <item>слабый</item>
+	    <item>в</item>
+	    <item>сильный</item>
+	    <item>автоматическая</item>
+	</string-array>
+	<string-array name="str_arr_pic_mpegnoisereduction_vals">
+	    <item>закрыть</item>
+	    <item>слабый</item>
+	    <item>в</item>
+	    <item>сильный</item>
+	</string-array>
+	<string-array name="str_arr_sleep_mode_vals">
+	    <item>закрыть</item>
+	    <item> 10 минут</item>
+	    <item> 20 минут</item>
+	    <item> 30 минут</item>
+	    <item> 60 минут</item>
+	    <item> 90 минут</item>
+	    <item> 120 минут</item>
+	    <item> 180 минут</item>
+	    <item> 240 минут</item>
+	</string-array>
+	<string-array name="str_arr_pvr_mode_vals">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_soundmode_vals">
+	    <item>стандарт</item>
+	    <item>музыка</item>
+	    <item>фильм</item>
+	    <item>спортивный</item>
+	    <item>пользователь</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_avc_vals">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_surround_vals">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_spdifoutput_vals">
+	    <item>PCM</item>
+	    <item>закрыть</item>
+	    <item>RAW</item>
+	</string-array>
+
+	<string-array name="str_arr_sound_separatehear_vals">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_self_adaptive_detecttriple_vals">
+	    <item>близко</item>
+	    <item>в настоящее время</item>
+	    <item>Когда изменяется сканирование</item>
+	    <item>реальное время</item>
+	</string-array>
+
+	<string-array name="str_arr_3dto2d_self_adaptive_detecttriple_vals">
+	    <item>близко</item>
+	    <item>в настоящее время</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_self_adaptive_detectlevel_vals">
+	    <item>слабый</item>
+	    <item>в</item>
+	    <item>сильный</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3dconversion_vals">
+	    <item>близко</item>
+	    <item>о</item>
+	    <item>Вверх и вниз</item>
+	    <item>Двойная высокая четкость</item>
+	    <item>Interwoven линии</item>
+	    <item>2D в 3D</item>
+	    <item>автоматическая</item>
+	    <item>шахматная доска</item>
+	    <item>в шахматном порядке строки</item>
+	    <item>Рамка перемежать</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3dto2d_vals">
+	    <item>близко</item>
+	    <item>о</item>
+	    <item>Вверх и вниз</item>
+	    <item>Двойная высокая четкость</item>
+	    <item>Interwoven линии</item>
+	    <item>Рамка перемежать</item>
+	    <item>автоматическая</item>
+	    <item>шахматная доска</item>
+	    <item>в шахматном порядке строки</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3ddepth_vals">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	    <item>21</item>
+	    <item>22</item>
+	    <item>23</item>
+	    <item>24</item>
+	    <item>25</item>
+	    <item>26</item>
+	    <item>27</item>
+	    <item>28</item>
+	    <item>29</item>
+	    <item>30</item>
+	    <item>31</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3doffset_vals">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	    <item>19</item>
+	    <item>20</item>
+	    <item>21</item>
+	    <item>22</item>
+	    <item>23</item>
+	    <item>24</item>
+	    <item>25</item>
+	    <item>26</item>
+	    <item>27</item>
+	    <item>28</item>
+	    <item>29</item>
+	    <item>30</item>
+	    <item>31</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_autostart_vals">
+	    <item>близко</item>
+	    <item>2D</item>
+	    <item>3D</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_3doutputaspect_vals">
+	    <item>Полный экран</item>
+	    <item>0.16875</item>
+	</string-array>
+
+	<string-array name="str_arr_3d_lrswitch_vals">
+	    <item>близко</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<!-- FIXME: Remove element if useless -->
+	<string-array name="str_arr_cha_antannatype">
+	    <item>DTMB</item>
+	    <item>DVB-C,</item>
+	    <item>DVB-T</item>
+	    <item>MAX</item>
+	</string-array>
+
+	<!-- FIXME: Remove element if useless -->
+	<string-array name="str_arr_cha_atsc_antannatype">
+	    <item>нет</item>
+	    <item>антенна</item>
+	    <item>Проводная</item>
+	</string-array>
+
+	<string-array name="str_arr_autotuning_country">
+	    <item>Австралия</item>
+	    <item>Австрия</item>
+	    <item>Бельгия</item>
+	    <item>болгарский</item>
+	    <item>Хорватия</item>
+	    <item>чешский</item>
+	    <item>Дания</item>
+	    <item>Финляндия</item>
+	    <item>Франция</item>
+	    <item>Германия</item>
+	    <item>Греция</item>
+	    <item>Венгрия</item>
+	    <item>Италия</item>
+	    <item>Люксембург</item>
+	    <item>Нидерланды</item>
+	    <item>Норвегия</item>
+	    <item>Польша</item>
+	    <item>Португалия</item>
+	    <item>Румыния</item>
+	    <item>Россия</item>
+	    <item>Сербия</item>
+	    <item>Словения</item>
+	    <item>Испания</item>
+	    <item>Швеция</item>
+	    <item>Швейцария</item>
+	    <item>Великобритания</item>
+	    <item>Новая Зеландия</item>
+	    <item>араб</item>
+	    <item>Эстония</item>
+	    <item>иврит</item>
+	    <item>Латвия</item>
+	    <item>Словакия</item>
+	    <item>индейка</item>
+	    <item>Ирландия</item>
+	    <item>Япония</item>
+	    <item>Филиппины</item>
+	    <item>Таиланд</item>
+	    <item>Мальдивы</item>
+	    <item>Уругвай</item>
+	    <item>Перу</item>
+	    <item>Аргентина</item>
+	    <item>Чили</item>
+	    <item>Венесуэла</item>
+	    <item>Эквадор</item>
+	    <item>Коста-Рика</item>
+	    <item>Парагвай</item>
+	    <item>Боливия</item>
+	    <item>Белиз</item>
+	    <item>Никарагуа</item>
+	    <item>Гватемала</item>
+	    <item>Китай</item>
+	    <item>Тайвань</item>
+	    <item>Бразилия</item>
+	    <item>Канада</item>
+	    <item>Мексика</item>
+	    <item>США</item>
+	    <item>Корея</item>
+	    <item>Фиджи</item>
+	    <item>Узбекистан</item>
+	    <item>Таджикистан</item>
+	    <item>Эфиопия</item>
+	    <item>Азербайджан</item>
+	    <item>ЮАР</item>
+	    <item>Алжир</item>
+	    <item>Египет</item>
+	    <item>Саудовская Аравия</item>
+	    <item>Иран</item>
+	    <item>Ирак</item>
+	    <item>Намибия</item>
+	    <item>Кувейт</item>
+	    <item>Индонезия</item>
+	    <item>Израиль</item>
+	    <item>Катар</item>
+	    <item>Нигерия</item>
+	    <item>Зимбабве</item>
+	    <item>Литва</item>
+	    <item>Марокко</item>
+	    <item>Тунис</item>
+	    <item>Индия</item>
+	    <item>Вьетнам</item>
+	    <item>Гонконг</item>
+	    <item>Колумбия</item>
+	    <item>Малайзия</item>
+	    <item>Сингапур</item>
+	</string-array>
+	<string-array name="str_arr_signalinfo_qam_cab">
+	    <item>16QAM</item>
+	    <item>32QAM</item>
+	    <item>64QAM</item>
+	    <item>128QAM</item>
+	    <item>256QAM</item>
+	</string-array>
+
+	<string-array name="str_arr_signalinfo_qam_dvbt">
+	    <item>QPSK</item>
+	    <item>16QAM</item>
+	    <item>64QAM</item>
+	    <item>256QAM</item>
+	</string-array>
+	<!-- for dtv auto tune option -->
+	<string-array name="strs_cha_dtvautotuning_dvbc_tuning_mode">
+	    <item>Полная частота поиска станции</item>
+	    <item>Сеть поиск станций</item>
+	</string-array>
+	<string-array name="strs_cha_dtvautotuning_demodulation_tbl">
+	    <item>16 QAM</item>
+	    <item>32 QAM</item>
+	    <item>64 ОК</item>
+	    <item>128 QAM</item>
+	    <item>256 QAM</item>
+	</string-array>
+
+	<string-array name="str_arr_dtvmanualtuning_polarization_vals">
+	    <item>Вертикальное положение</item>
+	    <item>Горизонтальное положение</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_network_vals">
+	    <item>от</item>
+	    <item>на</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_scan_mode_vals">
+	    <item>бесплатно</item>
+	    <item>Free + Scramble</item>
+	    <item>свалка</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_service_type_vals">
+	    <item>Цифровое телевидение</item>
+	#NAME?
+	    <item>радио</item>
+	</string-array>
+	<string-array name="str_arr_dtvmanualtuning_lnbtype_vals">
+	    <item>С</item>
+	    <item>Ku</item>
+	</string-array>
+	<string-array name="str_arr_mwe_text">
+	    <item>закрыть</item>
+	    <item>оптимизация</item>
+	    <item>Верх</item>
+	    <item>Split Screen</item>
+	    <item>динамический</item>
+	    <item>эффект</item>
+	    <item>Box Mobile</item>
+	</string-array>
+	<string-array name="str_arr_demo_onoff">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+
+	<string-array name="str_arr_setting_audio_type_iso_text">
+	    <item></item>
+	    <item>C.E</item>
+	    <item>H.I.</item>
+	    <item>В.И.</item>
+	</string-array>
+
+	<string-array name="str_arr_time_switch">
+	    <item>близко</item>
+	    <item>открытый</item>
+	</string-array>
+	<string-array name="str_arr_time_autotimetype">
+	    <item>близко</item>
+	    <item>Цифровое телевидение</item>
+	    <item>сеть</item>
+	    <item>автоматическая</item>
+	</string-array>
+	<string-array name="str_arr_time_source">
+	    <item>память</item>
+	    <item>дома</item>
+	    <item>мультимедиа</item>
+	    <item>DLNA</item>
+	</string-array>
+
+	<string-array name="str_arr_subtitle_switch">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_set_menutimetype">
+	    <item>5 секунд</item>
+	    <item>10 секунд</item>
+	    <item>15 секунд</item>
+	    <item>20 секунд</item>
+	    <item>30 секунд</item>
+	    <item>всегда</item>
+	</string-array>
+
+	<string-array name="str_arr_set_switchmodetype">
+	    <item>черный</item>
+	    <item>Зеркальное</item>
+	</string-array>
+
+
+	<string-array name="str_arr_set_sourceidenttype">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+	<string-array name="str_arr_set_sourcepreviewtype">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+	<string-array name="str_arr_set_hdmiarctype">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_set_sourceswittype">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+
+	<string-array name="str_arr_set_moviemodetype">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_set_mhlautoswitch_onoff">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_set_bluescreenswitchtype">
+	    <item>открытый</item>
+	    <item>закрыть</item>
+	</string-array>
+	<string-array name="str_arr_set_colorrangetype">
+	    <item>От 0 до 255</item>
+	    <item>От 16 до 235</item>
+	    <item>автоматическая</item>
+	</string-array>
+
+	<string-array name="str_arr_set_hdmicectype">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_set_standyontype">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_set_hdmicec_onoff">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+	<string-array name="str_arr_set_powersetting_onoff">
+	    <item>открытый</item>
+	    <item>закрыть</item>
+	</string-array>
+	<string-array name="str_sort_type">
+	    <item>Предустановленная</item>
+	    <item>спутниковое</item>
+	    <item>имя</item>
+	    <item>шифрование</item>
+	    <item>LCN</item>
+	    <item>частота</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_time_check_display_info">
+	    <item>нет</item>
+	    <item>Сроки Успех</item>
+	    <item>таймаут</item>
+	    <item>крышка привода механизма газораспределения</item>
+	    <item>Время начала больше, чем в конце времени</item>
+	    <item>Конец периода времени был превышен</item>
+	    <item>Список полон</item>
+	    <item>И новое напоминание конфликт</item>
+	    <item>И напомнить конфликт в базе данных</item>
+	</string-array>
+	<string-array name="str_arr_video_type">
+	    <item></item>
+	    <item>MPEG</item>
+	    <item>H.264</item>
+	    <item>AVS</item>
+	    <item>VC1</item>
+	    <item>HEVC</item>
+	</string-array>
+
+	<string-array name="cities_option_array">
+	    <item>другое</item>
+	    <item>Пекин</item>
+	    <item>Аньхой</item>
+	    <item>Хэфэй</item>
+	    <item>Аньцин</item>
+	    <item>Бенгбу</item>
+	    <item>Сямэнь</item>
+	    <item>Цюаньчжоу</item>
+	    <item>Лоян</item>
+	    <item>Zhangzhou</item>
+	    <item>кантон</item>
+	    <item>Гуандун</item>
+	    <item>Дунгуань</item>
+	    <item>Гуйян</item>
+	    <item>морской порт</item>
+	    <item>Шицзячжуан</item>
+	    <item>Циньхуандао</item>
+	    <item>Таншаньский</item>
+	    <item>Харбин</item>
+	    <item>Чжэнчжоу</item>
+	    <item>Лоян</item>
+	    <item>Наньян</item>
+	    <item>Хубэй</item>
+	    <item>Ухань</item>
+	    <item>Huanggang</item>
+	    <item>Jingzhou</item>
+	    <item>Ичан</item>
+	    <item>Чанша Quanta</item>
+	    <item>Чанша Гуоань</item>
+	    <item>Наньтун</item>
+	    <item>Наньчан</item>
+	    <item>Цзилинь</item>
+	    <item>Далянь</item>
+	    <item>Хух-Хото</item>
+	    <item>Сиань</item>
+	    <item>Чэнду</item>
+	    <item>Урумчи</item>
+	    <item>Цзиньхуа</item>
+	    <item>нинбо</item>
+	    <item>Шаосинский</item>
+	</string-array>
+
+	<string-array name="guidance_list_default_string">
+	    <item>близко</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	    <item>9</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	    <item>17</item>
+	    <item>18</item>
+	</string-array>
+
+	<string-array name="guidance_list_singapore_string">
+	    <item>близко</item>
+	    <item>G</item>
+	    <item>PG</item>
+	    <item>PG13</item>
+	    <item>NC16</item>
+	    <item>M18</item>
+	    <item>R21</item>
+	</string-array>
+
+	<string-array name="guidance_list_australian_string">
+	    <item>близко</item>
+	    <item>Блокировать все</item>
+	    <item>P</item>
+	    <item>С</item>
+	    <item>G</item>
+	    <item>PG</item>
+	    <item>M</item>
+	    <item>MA15 +</item>
+	    <item>AV15 +</item>
+	    <item>R</item>
+	</string-array>
+
+	<string-array name="contentlock_list">
+	    <item>ни</item>
+	    <item>наркотики</item>
+	    <item>насилие</item>
+	    <item>Насилие и наркотики</item>
+	    <item>секс</item>
+	    <item>Секс и наркотики</item>
+	    <item>Насилие и секс</item>
+	    <item>Насилие, секс и наркотики</item>
+	</string-array>
+
+	<string-array name="str_arr_option_caption">
+	    <item>OFF</item>
+	    <item>ON</item>
+	    <item>CC1</item>
+	    <item>СС2</item>
+	    <item>КК3</item>
+	    <item>CC4</item>
+	    <item>TEXT1</item>
+	    <item>TEXT2</item>
+	    <item>text3</item>
+	    <item>text4</item>
+	</string-array>
+	<string-array name="str_arr_option_closed_caption">
+	    <item>OFF</item>
+	    <item>ON</item>
+	    <item>ON Когда приглушенных</item>
+	    <item>CC1</item>
+	    <item>СС2</item>
+	    <item>КК3</item>
+	    <item>CC4</item>
+	    <item>TEXT1</item>
+	    <item>TEXT2</item>
+	    <item>text3</item>
+	    <item>text4</item>
+	</string-array>
+
+
+
+	<string-array name="str_arr_xvycc_vals">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_vchip_button_lock_vals">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="str_arr_vchip_block_unrated_tv_vals">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<string-array name="setting_canadian_parental_locks_titles">
+	    <item>Канадский английский</item>
+	    <item>Канадский французский</item>
+	</string-array>
+	<string-array name="canadian_english_titles">
+	    <item>Е</item>
+	    <item>С</item>
+	    <item>С8 +</item>
+	    <item>G</item>
+	    <item>PG</item>
+	    <item>14+</item>
+	    <item>18+</item>
+	</string-array>
+	<string-array name="canadian_french_titles">
+	    <item>Е</item>
+	    <item>G</item>
+	    <item>8 ANS +</item>
+	    <item>13 ANS +</item>
+	    <item>16 ANS +</item>
+	    <item>18 ANS +</item>
+	</string-array>
+	<string-array name="setting_canadian_parental_locks_values">
+	    <item>от</item>
+	    <item>на</item>
+	</string-array>
+	<string-array name="rrt5_value">
+	    <item>отпереть</item>
+	    <item>запирать</item>
+	</string-array>
+	<string-array name="vchip_setting_titles">
+	    <item>Кнопка блокировки</item>
+	    <item>Блок Unrated TV</item>
+	    <item>США Родительский замок</item>
+	    <item>Канадский Родительский замок</item>
+	    <item>RRT5 Настройка</item>
+	    <item>Сброс RRT5</item>
+	    <item>Изменение пароля</item>
+	</string-array>
+
+	<string-array name="setting_closed_caption">
+	    <item>Режим CC</item>
+	    <item>Основы выбора</item>
+	    <item>Расширенный выбор</item>
+	    <item>Дополнительные настройки</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_mode_vals">
+	    <item>на</item>
+	    <item>от</item>
+	    <item>В случае отключения звука</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_basic_selection_vals">
+	    <item>от</item>
+	    <item>CC1</item>
+	    <item>СС2</item>
+	    <item>КК3</item>
+	    <item>CC4</item>
+	    <item>Текст1</item>
+	    <item>Text2</item>
+	    <item>Text3</item>
+	    <item>Text4</item>
+	</string-array>
+	<string-array name="str_arr_setting_cc_advanced_selection_vals">
+	    <item>от</item>
+	    <item>Service1</item>
+	    <item>Service2</item>
+	    <item>service3</item>
+	    <item>Service4</item>
+	    <item>Service5</item>
+	    <item>Service6</item>
+	</string-array>
+
+	<string-array name="setting_digital_cc_mode">
+	    <item>изготовленный на заказ</item>
+	    <item>дефолт</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_size">
+	    <item>нормаль</item>
+	    <item>небольшой</item>
+	    <item>большой</item>
+	    <item>дефолт</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_style">
+	    <item>дефолт</item>
+	    <item>Style1</item>
+	    <item>Стиль2</item>
+	    <item>style3</item>
+	    <item>Style4</item>
+	    <item>Style5</item>
+	    <item>Style6</item>
+	    <item>Style7</item>
+	</string-array>
+	<string-array name="setting_digital_cc_font_edge_style">
+	    <item>ни</item>
+	    <item>поднятый</item>
+	    <item>подавленный</item>
+	    <item>единообразный</item>
+	    <item>левый Shadow</item>
+	    <item>правый Shadow</item>
+	    <item>дефолт</item>
+	</string-array>
+	<string-array name="setting_digital_cc_caption_color">
+	    <item>черный</item>
+	    <item>красный</item>
+	    <item>зеленый</item>
+	    <item>желтый</item>
+	    <item>синий</item>
+	    <item>фуксин</item>
+	    <item>Cyan</item>
+	    <item>белый</item>
+	    <item>дефолт</item>
+	</string-array>
+	<string-array name="setting_digital_cc_caption_opacity">
+	    <item>твердый</item>
+	    <item>мигающий</item>
+	    <item>полупрозрачный</item>
+	    <item>прозрачный</item>
+	    <item>дефолт</item>
+	</string-array>
+	<string-array name="setting_digital_cc_italic_attr">
+	    <item>OFF</item>
+	    <item>ON</item>
+	</string-array>
+	<string-array name="setting_digital_cc_underline_attr">
+	    <item>OFF</item>
+	    <item>ON</item>
+	</string-array>
+
+	<string-array name="str_arr_software_update_oad_value">
+	    <item>OFF</item>
+	    <item>ON</item>
+	</string-array>
+	<string-array name="str_arr_oad_view_prompt_value">
+	    <item>OFF</item>
+	    <item>ON</item>
+	</string-array>
+
+	<string-array name="str_arr_lnbpower_option">
+	    <item>от</item>
+	    <item>13 / 18V</item>
+	    <item>13V</item>
+	    <item>18V</item>
+	    <item>14 / 19V</item>
+	    <item>14V</item>
+	    <item>19V</item>
+	</string-array>
+	<string-array name="str_arr_compensation_option">
+	    <item>от</item>
+	    <item>на</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_option">
+	    <item>УНИВЕРСАЛЬНЫЙ</item>
+	    <item>MDU_1</item>
+	    <item>MDU_2</item>
+	    <item>MDU_3</item>
+	    <item>MDU_4</item>
+	    <item>5150_MHZ</item>
+	    <item>5750_MHZ</item>
+	    <item>5150_5750_MHZ</item>
+	    <item>9750_MHZ</item>
+	    <item>10600_MHZ</item>
+	    <item>10750_MHZ</item>
+	    <item>11250_MHZ</item>
+	    <item>11300_MHZ</item>
+	    <item>11475_MHZ</item>
+	    <item>9750_10700_MHZ</item>
+	    <item>9750_10750_MHZ</item>
+	    <item>10000_10450_MHZ</item>
+	    <item>user_mode</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_low">
+	    <item>9750</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>5150</item>
+	    <item>5750</item>
+	    <item>5150</item>
+	    <item>9750</item>
+	    <item>10600</item>
+	    <item>10750</item>
+	    <item>11250</item>
+	    <item>11300</item>
+	    <item>11475</item>
+	    <item>9750</item>
+	    <item>9750</item>
+	    <item>10000</item>
+	    <item>9750</item>
+	</string-array>
+	<string-array name="str_arr_lnb_frequencies_high">
+	    <item>10600</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>0</item>
+	    <item>5150</item>
+	    <item>5750</item>
+	    <item>5750</item>
+	    <item>9750</item>
+	    <item>10600</item>
+	    <item>10750</item>
+	    <item>11250</item>
+	    <item>11300</item>
+	    <item>11475</item>
+	    <item>10700</item>
+	    <item>10750</item>
+	    <item>10450</item>
+	    <item>10600</item>
+	</string-array>
+	<string-array name="str_arr_22knz_tone_option">
+	    <item>автоматический</item>
+	    <item>на</item>
+	    <item>от</item>
+	</string-array>
+	<string-array name="str_arr_toneburst_option">
+	    <item>ни</item>
+	    <item>лопнет</item>
+	    <item>Выброс B</item>
+	</string-array>
+	<string-array name="str_arr_diseqc_1_0_option">
+	    <item>ни</item>
+	    <item>LNB 1</item>
+	    <item>LNB 2</item>
+	    <item>LNB 3</item>
+	    <item>LNB 4</item>
+	</string-array>
+	<string-array name="str_arr_diseqc_1_1_option">
+	    <item>ни</item>
+	    <item>LNB 1</item>
+	    <item>LNB 2</item>
+	    <item>LNB 3</item>
+	    <item>LNB 4</item>
+	    <item>LNB 5</item>
+	    <item>LNB 6</item>
+	    <item>LNB 7</item>
+	    <item>LNB 8</item>
+	    <item>LNB 9</item>
+	    <item>LNB 10</item>
+	    <item>LNB 11</item>
+	    <item>LNB 12</item>
+	    <item>LNB 13</item>
+	    <item>LNB 14</item>
+	    <item>LNB 15</item>
+	    <item>LNB 16</item>
+	</string-array>
+	<string-array name="str_arr_motor_diseqc_version">
+	    <item>ни</item>
+	    <item>DiSEqC 1.2</item>
+	    <item>DiSEqC 1.3</item>
+	</string-array>
+	<string-array name="str_arr_single_cable_slot_id">
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	    <item>6</item>
+	    <item>7</item>
+	    <item>8</item>
+	</string-array>
+	<string-array name="str_arr_single_cable_lnb_option">
+		    <item>A</item>
+	    <item>В</item>
+	</string-array>
+	<string-array name="str_arr_longitude_direction_option">
+	    <item>восток</item>
+	    <item>запад</item>
+	</string-array>
+	<string-array name="str_arr_latitude_direction_option">
+	    <item>север</item>
+	    <item>юг</item>
+	</string-array>
+	<string-array name="str_arr_satellite_band_option">
+	    <item>С</item>
+	    <item>Ku</item>
+	</string-array>
+	<string-array name="str_arr_transponder_polarization_option">
+	    <item>В</item>
+	    <item>H</item>
+	</string-array>
+
+	<!-- For bandwidth switch -->
+	<string-array name="str_arr_bandwidth_option">
+	    <item>7</item>
+	    <item>8</item>
+	</string-array>
+
+	<!-- For UHF 7 MHz Option -->
+	<string-array name="str_arr_uhf_7mhz_option">
+	    <item>закрыть</item>
+	    <item>открытый</item>
+	</string-array>
+
+	<!-- For scan type -->
+	<string-array name="str_arr_tuning_type">
+	    <item>Аналоговое ТВ</item>
+	    <item>Цифровое телевидение</item>
+	    <item>полный</item>
+	</string-array>
+	<string-array name="str_arr_dvbc_tuning_type">
+	    <item>Аналоговое ТВ</item>
+	    <item>Цифровое телевидение CA</item>
+	    <item>Аналоговое ТВ Цифровое ТВ + CA</item>
+	</string-array>
+
+	<!-- For dvbc operator -->
+	<string-array name="str_arr_dvbc_operator">
+	    <item>другие</item>
+	    <item>Cdsmatv</item>
+	    <item>Cdcable</item>
+	    <item>ComHem</item>
+	    <item>СКП</item>
+	    <item>Yousee</item>
+	    <item>Cableready</item>
+	    <item>Ziggo</item>
+	    <item>Stofa</item>
+	</string-array>
+
+	<string-array name="str_arr_hdmi_edid_version">
+	    <item>дефолт</item>
+	    <item>EDID 1,4</item>
+	    <item>EDID 2,0</item>
+	</string-array>
+	<string-array name="str_arr_hbbtv_switch">
+	    <item>от</item>
+	    <item>на</item>
+	</string-array>
+
+	<string-array name="str_arr_input_sources">
+	    <item>компьютер</item>
+	    <item>Аналоговое ТВ</item>
+	    <item>видео</item>
+	    <item>Видео 2</item>
+	    <item>Видео 3</item>
+	    <item>Видео 4</item>
+	    <item>Видео 5</item>
+	    <item>Видео 6</item>
+	    <item>Видео 7</item>
+	    <item>Видео 8</item>
+	    <item>Видео _MAX</item>
+	    <item>SVIDEO</item>
+	    <item>SVIDEO2</item>
+	    <item>SVIDEO3</item>
+	    <item>SVIDEO4</item>
+	    <item>SVIDEO_MAX</item>
+	    <item>компоненты</item>
+	    <item>Компонент 2</item>
+	    <item>Компонент 3</item>
+	    <item>Компонент _MAX</item>
+	    <item>SCART</item>
+	    <item>SCART2</item>
+	    <item>SCART_MAX</item>
+	    <item>HD</item>
+	    <item>HD 2</item>
+	    <item>HD 3</item>
+	    <item>HD 4</item>
+	    <item>HDMI_MAX</item>
+	    <item>Цифровое телевидение</item>
+	    <item>HD</item>
+	    <item>HD 2</item>
+	    <item>HD 3</item>
+	    <item>HD 4</item>
+	    <item>DVI_MAX</item>
+	    <item>ХРАНЕНИЕ</item>
+	    <item>КТВ</item>
+	    <item>JPEG</item>
+	    <item>Цифровое телевидение 2</item>
+	    <item>Складские помещения2</item>
+	    <item>div3</item>
+	    <item>SCALER_OP</item>
+	    <item>РУВ</item>
+	    <item>Компьютер 2</item>
+	    <item>Компьютер 3</item>
+	    <item>NUM</item>
+	    <item>ОТСУТСТВУЕТ</item>
+	</string-array>
+
+	<string-array name="arr_atv_antenna_type">
+	    <item>Проводная</item>
+	    <item>беспроводной</item>
+	</string-array>
+
+	<string-array name="str_cha_dtvmanualtuning_modulation_vals">
+	    <item>16 QAM</item>
+	    <item>32 QAM</item>
+	    <item>64 ОК</item>
+	    <item>128 QAM</item>
+	    <item>256 QAM</item>
+	    <item>автоматическая</item>
+	</string-array>
+	<string-array name="str_arr_pvr_error_code">
+		<item>@string/str_pvr_success</item>
+		<item>@string/str_pvr_no_usb</item>
+		<item>@string/str_pvr_unsurpt_flsystem</item>
+		<item>@string/str_pvr_disk_read_only</item>
+		<item>@string/str_pvr_out_of_space</item>
+		<item>@string/str_pvr_success</item>
+		<item>@string/str_pvr_ciplus_copy_protection</item>
+		<item>@string/str_pvr_scrambled_program</item>
+		<item>@string/str_pvr_ciplus_unsupport</item>
+		<item>@string/str_pvr_data_only</item>
+		<item>@string/str_no_sinal</item>
+		<item>@string/str_pvr_out_of_space</item>
+		<item>@string/str_pvr_ginga_running</item>
+		<item>@string/str_pvr_bad_video_audio</item>
+		<item>@string/str_pvr_retention_expired</item>
+		<item>@string/str_pvr_ch_blocked</item>
+		<item>@string/str_pvr_rating_blocked</item>
+		<item>@string/str_pvr_max_recording_reached</item>
+		<item>@string/str_pvr_mehg5_data_only</item>
+		<item>@string/str_pvr_vod_not_allow</item>
+		<item>@string/str_pvr_error</item>
+		<item>@string/str_pvr_still_check_disk</item>
+	</string-array>
+
+	<string-array name="str_arr_set_audio_language">
+		<item>@string/str_set_language_czech</item>
+		<item>@string/str_set_language_danish</item>
+		<item>@string/str_set_language_german</item>
+		<item>@string/str_set_language_english</item>
+		<item>@string/str_set_language_spanish</item>
+		<item>@string/str_set_language_greek</item>
+		<item>@string/str_set_language_french</item>
+		<item>@string/str_set_language_croatian</item>
+		<item>@string/str_set_language_italian</item>
+		<item>@string/str_set_language_hungarian</item>
+		<item>@string/str_set_language_dutch</item>
+		<item>@string/str_set_language_norwegian</item>
+		<item>@string/str_set_language_polish</item>
+		<item>@string/str_set_language_portuguese</item>
+		<item>@string/str_set_language_russian</item>
+		<item>@string/str_set_language_romanian</item>
+		<item>@string/str_set_language_slovenian</item>
+		<item>@string/str_set_language_serbian</item>
+		<item>@string/str_set_language_finnish</item>
+		<item>@string/str_set_language_swedish</item>
+		<item>@string/str_set_language_bulgarian</item>
+		<item>@string/str_set_language_slovak</item>
+		<item>@string/str_set_language_chinese</item>
+		<item>@string/str_set_language_gaelic</item>
+		<item>@string/str_set_language_welsh</item>
+		<item>@string/str_set_language_irish</item>
+		<item>@string/str_set_language_arabic</item>
+		<item>@string/str_set_language_latvian</item>
+		<item>@string/str_set_language_hebrew</item>
+		<item>@string/str_set_language_turkish</item>
+		<item>@string/str_set_language_estonian</item>
+		<item>@string/str_set_language_gallegan</item>
+		<item>@string/str_set_language_basque</item>
+		<item>@string/str_set_language_catalan</item>
+		<item>@string/str_set_language_icelandic</item>
+		<item>@string/str_set_language_letzeburgesch</item>
+		<item>@string/str_set_language_lithuanian</item>
+		<item>@string/str_set_language_ukrainian</item>
+		<item>@string/str_set_language_byelorussian</item>
+		<item>@string/str_set_language_maori</item>
+		<item>@string/str_set_language_cantonese</item>
+		<item>@string/str_set_language_korean</item>
+		<item>@string/str_set_language_japanese</item>
+		<item>@string/str_set_language_hindi</item>
+		<item>@string/str_set_language_thai</item>
+		<item>@string/str_set_language_vietnamese</item>
+		<item>@string/str_set_language_malay</item>
+		<item>@string/str_set_language_qab</item>
+		<item>@string/str_set_language_qac</item>
+	</string-array>
+
+	<string-array name="str_arr_set_subtitle_language">
+		<item>@string/str_set_language_czech</item>
+		<item>@string/str_set_language_danish</item>
+		<item>@string/str_set_language_german</item>
+		<item>@string/str_set_language_english</item>
+		<item>@string/str_set_language_spanish</item>
+		<item>@string/str_set_language_greek</item>
+		<item>@string/str_set_language_french</item>
+		<item>@string/str_set_language_croatian</item>
+		<item>@string/str_set_language_italian</item>
+		<item>@string/str_set_language_hungarian</item>
+		<item>@string/str_set_language_dutch</item>
+		<item>@string/str_set_language_norwegian</item>
+		<item>@string/str_set_language_polish</item>
+		<item>@string/str_set_language_portuguese</item>
+		<item>@string/str_set_language_russian</item>
+		<item>@string/str_set_language_romanian</item>
+		<item>@string/str_set_language_slovenian</item>
+		<item>@string/str_set_language_serbian</item>
+		<item>@string/str_set_language_finnish</item>
+		<item>@string/str_set_language_swedish</item>
+		<item>@string/str_set_language_bulgarian</item>
+		<item>@string/str_set_language_slovak</item>
+		<item>@string/str_set_language_chinese</item>
+		<item>@string/str_set_language_gaelic</item>
+		<item>@string/str_set_language_welsh</item>
+		<item>@string/str_set_language_irish</item>
+		<item>@string/str_set_language_arabic</item>
+		<item>@string/str_set_language_latvian</item>
+		<item>@string/str_set_language_hebrew</item>
+		<item>@string/str_set_language_turkish</item>
+		<item>@string/str_set_language_estonian</item>
+		<item>@string/str_set_language_gallegan</item>
+		<item>@string/str_set_language_basque</item>
+		<item>@string/str_set_language_catalan</item>
+		<item>@string/str_set_language_icelandic</item>
+		<item>@string/str_set_language_letzeburgesch</item>
+		<item>@string/str_set_language_lithuanian</item>
+		<item>@string/str_set_language_ukrainian</item>
+		<item>@string/str_set_language_byelorussian</item>
+		<item>@string/str_set_language_maori</item>
+		<item>@string/str_set_language_cantonese</item>
+		<item>@string/str_set_language_korean</item>
+		<item>@string/str_set_language_japanese</item>
+		<item>@string/str_set_language_hindi</item>
+		<item>@string/str_set_language_thai</item>
+		<item>@string/str_set_language_vietnamese</item>
+		<item>@string/str_set_language_malay</item>
+		<item>@string/str_set_language_multiple</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_uk">
+		<item>@string/str_genre_unclassified</item>
+		<item>@string/str_genre_movie</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_chidren</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_news_factual</item>
+		<item>@string/str_genre_education_uk</item>
+		<item>@string/str_genre_life_uk</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_not_support</item>
+		<item>@string/str_genre_drama</item>
+	</string-array>
+	<string-array name="str_arr_epg_genre_nz">
+		<item>@string/str_genre_undefined</item>
+		<item>@string/str_genre_movie_drama_general</item>
+		<item>@string/str_genre_news_current_general</item>
+		<item>@string/str_genre_show_general</item>
+		<item>@string/str_genre_sports_general</item>
+		<item>@string/str_genre_youth</item>
+		<item>@string/str_genre_music_general</item>
+		<item>@string/str_genre_art_general</item>
+		<item>@string/str_genre_social_general</item>
+		<item>@string/str_genre_education_others_general</item>
+		<item>@string/str_genre_life</item>
+		<item>@string/str_genre_original_language</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_user_defined</item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_au">
+		<item></item>
+		<item>@string/str_genre_movie</item>
+		<item>@string/str_genre_news</item>
+		<item>@string/str_genre_entertainment</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_chidren</item>
+		<item>@string/str_genre_music_default</item>
+		<item>@string/str_genre_art</item>
+		<item>@string/str_genre_news_current_default</item>
+		<item>@string/str_genre_education_default</item>
+		<item>@string/str_genre_infotainment</item>
+		<item>@string/str_genre_special</item>
+		<item>@string/str_genre_comedy</item>
+		<item>@string/str_genre_drama</item>
+		<item>@string/str_genre_documentary</item>
+	<item></item>
+	</string-array>
+
+	<string-array name="str_arr_epg_genre_default">
+		<item>@string/str_genre_unclassified</item>
+		<item>@string/str_genre_movie_drama</item>
+		<item>@string/str_genre_news_current</item>
+		<item>@string/str_genre_show</item>
+		<item>@string/str_genre_sport</item>
+		<item>@string/str_genre_youth</item>
+		<item>@string/str_genre_music</item>
+		<item>@string/str_genre_art</item>
+		<item>@string/str_genre_social</item>
+		<item>@string/str_genre_education_others</item>
+		<item>@string/str_genre_life</item>
+		<item>@string/str_genre_special_characteristics</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_reserved</item>
+		<item>@string/str_genre_user_defined</item>
+	</string-array>
+
+
+	<string-array name="str_arr_option_store_cookies">
+		<item>@string/str_option_store_cookies_off</item>
+		<item>@string/str_option_store_cookies_on</item>
+	</string-array>
+</resources>

@@ -1,0 +1,17 @@
+#要忽略的文件
+ .classpath
+ project.properties
+ *.project
+ .settings/
+ *.iml
+ *.jar
+ *.bat
+ .idea/
+ *.prefs
+ gradle/
+ gradlew
+ *.apk
+bin/
+gen/
+build/
+.gradle/

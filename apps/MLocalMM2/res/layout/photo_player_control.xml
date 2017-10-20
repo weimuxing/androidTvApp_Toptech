@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photo_suspension_layout"
+    android:layout_width="800dip"
+    android:layout_height="70dip"
+    android:layout_gravity="bottom|center_horizontal"
+    android:background="@drawable/player_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <com.jrm.localmm.ui.view.MarqueeTextView
+            android:id="@+id/photo_name_display"
+            android:layout_width="180dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:ellipsize="marquee"
+            android:gravity="left"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/display_img_name"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="700dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="11"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/player_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_previous" />
+
+        <ImageView
+            android:id="@+id/photo_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_play" />
+
+        <ImageView
+            android:id="@+id/photo_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_next" />
+
+        <ImageView
+            android:id="@+id/photo_enlarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_amplification" />
+
+        <ImageView
+            android:id="@+id/photo_narrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_narrow" />
+
+        <ImageView
+            android:id="@+id/photo_turn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_left" />
+
+        <ImageView
+            android:id="@+id/photo_turn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_right" />
+
+        <ImageView
+            android:id="@+id/photo_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_infor" />
+
+        <ImageView
+            android:id="@+id/photo_wallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_scene" />
+
+        <ImageView
+            android:id="@+id/photo_3d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/player_icon_3d" />
+        
+        <ImageView
+            android:id="@+id/photo_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@drawable/player_icon_setting" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TextView.textSize -->
+    <!-- input source TextView.textSize -->
+    <dimen name="title_textSize">18sp</dimen>
+    <dimen name="list_item_textSize">16sp</dimen>
+    <dimen name="bottom_textSize">13sp</dimen>
+    <dimen name="CEC_textSize">24sp</dimen>
+
+    <!-- tv counter  TextView.textSize -->
+    <dimen name="popup_ontime_textSize">10dip</dimen>
+    <dimen name="popup_offtime_textSize">15dip</dimen>
+    <dimen name="popup_ready_textSize">10dip</dimen>
+    <dimen name="system_clkchange_textSize">15dip</dimen>
+
+    <!-- layout   style -->
+    <!-- input source main layout style -->
+    <style name="input_source_main_layout_style">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:background">@drawable/colour_bg</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- input source list layout style -->
+    <style name="input_source_list_layout_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_weight">0.67</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- input source CEC layout style -->
+    <style name="input_source_CEC_layout_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_weight">0.67</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>

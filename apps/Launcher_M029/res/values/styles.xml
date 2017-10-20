@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="PopupAnimation" parent="android:Animation">  
+       <item name="android:inAnimation">@anim/ani_in</item>       
+       <item name="android:outAnimation">@anim/ani_out</item>       
+    </style>  
+
+</resources>

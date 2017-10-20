@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/set_bg" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    tools:context=".ui.music.MusicEQSettingDialog">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/music_sound_model"
+            android:textColor="#FFFFFFFF"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/line" >
+        </ImageView>
+
+
+        <ListView
+            android:id="@+id/musicVideoModeList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:divider="@null"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@drawable/button_focused_1"
+            android:scrollbars="none"
+            android:scrollingCache="true" >
+        </ListView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" >
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>

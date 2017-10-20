@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item> <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@drawable/set_bg</item>
+        <item name="android:backgroundDimEnabled">false</item> <!-- 模糊 -->
+    </style>
+    <style name="dialog_edit" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item> <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@drawable/popwindow_diaolog_bg</item>
+        <item name="android:backgroundDimEnabled">false</item> <!-- 模糊 -->
+    </style>
+
+    <style name="choose_time_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item> <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">false</item> <!-- 模糊 -->
+    </style>
+    
+	    <!-- zb20150613 add -->
+    <style name="editor_layout_LinearLayout">
+		<item name="android:layout_gravity">center_vertical|center_horizontal</item>
+		<item name="android:background">@drawable/editor_btn</item>
+		<item name="android:layout_width">300dip</item>
+		<item name="android:layout_height">55dip</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+	
+	<style name="editor_layout_ImageView">
+		<item name="android:layout_width">48dip</item>
+		<item name="android:layout_height">50dip</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_marginLeft">15dip</item>
+	</style>
+	
+	<style name="editor_layout_TextView">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:textSize">25sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:paddingLeft">40dp</item>
+		<item name="android:layout_gravity">center|left</item>
+	</style>	
+	
+	<style name="editor_layout_Line">
+		<item name="android:layout_gravity">center_vertical|center_horizontal</item>
+		<item name="android:layout_width">200dip</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/panel_separator</item>
+	</style>
+	<!-- end zb20150613  -->
+    <style name="video_music_item_lay_sty">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30dip</item>
+        <item name="android:background">@drawable/music_seliter_1</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+     <style name="video_music_item_name_sty">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+ 	<style name="video_music_item_val_sty">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="video_info_name_sty">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingRight">15dip</item>
+    </style>
+</resources>

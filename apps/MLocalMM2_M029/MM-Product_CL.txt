@@ -1,0 +1,236 @@
+﻿2012-11-02
+[ 0292092 ]  Exhalation play article control after slide broadcast images , found that the focus disappear
+
+External subtitles and inner subtitles separate menu
+
+Add Settings button for picture player , setting slide time interval and animation effect switch
+
+
+=========================================================================================
+2012-10-29
+[ 0288058 ] The PNG image parsing exit player will appear exception.
+
+Browse samba resources will be abnormal exit.
+
+=========================================================================================
+
+2012-10-24
+MM Prod_1.0.28
+Only MPO format images can switch 3d
+
+=========================================================================================
+
+2012-10-19
+[0284677] Play 9000 x6000. BMP format images, is analytic process using the mouse to press 2 times right out of play, and play the pictures, analytic process according to one the right mouse button, find pictures will spend screen display
+
+add the audio format:.ec3  .dtshd
+
+=========================================================================================
+2012-8-30
+MM Prod_1.0.24
+[0269372] Set 'b' point in 'a-b playback' when play RMVB file less than 8s, then the player replays from the begin.
+[0269371] Video player got no response after 10 minutes in 'a-b playback' mode when 'a' and 'b' is close.
+[0235123] Monkey Test failed.
+[0267201] Video player went to pause while choosing time to play.
+[0268884] Exit from SAMBA when play larger photo.
+
+==========================================================================================
+2012-8-21
+MM Prod_1.0.23
+[0266325] fix bug, press right key when control bar disappear in photo player, then IR cannot be response except EXIT key.
+[0264913] fix COREDUMP when play video of SAMBA and then remove the network cable.
+[0264238] fix bug about decoding photo of DLNA error. 
+
+==========================================================================================
+2012-8-16
+MM Prod_1.0.22
+[0264456] add source change listener in photo player.
+[0264134] fix ugly music information layout.
+[0264168] fix bug about monkey test.
+[0263939] fix bug about zoom out photo when change 3D status from on to off.
+[0263909] fix bug about 'a-b playback' of video player.
+
+==========================================================================================
+2012-8-10
+MM Prod_1.0.21
+1.add Chinese(Traditional) support.  
+2.[0262396,0262397,0262326]fix monkey test bug.
+3.[0262605,0262245,0262613]fix bug, MM stop running while playing video, then reject usb device.
+4.[0245085]fix bug, MM cannot play .mts video file
+5.[0262346]Donnot have 3D effect while playing picture in 3D mode on A3, but has on j3.
+6.[0262276]MM stop running when play video file 'DIVX1080P.divx' and press FF.
+7.[0262332]fix bug about 'ab-repeat play'.
+8.[0263050]video player cannot back to normal play mode through play button  directly after press FF/FB.
+
+==========================================================================================
+2012-8-7
+MM Prod_1.0.20
+1.samba data browse exception when network state of pc change from on to off and then to on.
+2.stop 'media scanning' when start picture and music player, and start it again when exit from those player.
+
+==========================================================================================
+2012-8-1
+MM Prod_1.0.19
+1.MM stop running when start DLNA.  
+2.[0261056]'MM' stop running while switching source in video player.
+3.[0260614]fix bug, screen keep on pause when press 'mix' button in video player.
+
+==========================================================================================
+2012-7-31
+MM Prod_1.0.18
+1.[0260480]pop dialog of decoding picture when set wallpaper
+2.[0259999]cannot FB when play 'DIVX1080P.divx'
+3.[0259813]3D automatic recognition  failed when play 'Tron Legacy 3D Trailer_LR_AVC(3gpp) 1080p@30fps_AAC.flv'
+4.[0259816]some 3D source cannot be automatic recognition, but Hisense platform can
+5.[0260504,0260575]cannot play video, pop dialog and show 'sorry, UI-LocalMM stop running'
+6.[0258162]picture beyond the limit was still able to play successfully
+
+==========================================================================================
+2012-7-26
+MM Prod_1.0.17
+1.sync libmmplayer to CL#625444
+2.mm-product donot handle 'zoom' event 
+
+==========================================================================================
+2012-7-24
+MM Prod_1.0.16
+1.[0259178]fix bug about decoding picture failed in 2d mode but success in 3d mode
+2.[0259039]fix bug 'screen line' is shown on screen when play Skydiving 480p.wmv
+3.[0259144][0259145]fix bug about the current picture is different when exit from 3d to 2d mode
+4.[0259003]fix bug about 'a-b replay' function is failed when close it first and then open it again.
+5.[0258904]fix bug about ui exception while opening 'Selecting Market Timing Playing' when system language is english
+6.[0258544]fix bug pop no-response dialog of 'com.mstar.tvsetting.hotkey' when play video and move cursor fast on 'source menu'
+
+==========================================================================================
+2012-7-20
+MM Prod_1.0.15
+1.add 3d function
+2.international
+3.[0258360]fix bug about ui block when network unused
+4.[0257890]fix bug about mm player coredump when mount/unmount disk
+5.[0256276]fix bug about 'green strip' is shown on screen when play previous video
+6.[0247831]fix bug about control bar of photo player is not visible when left mouse click
+7.[0256621]fix bug about '3d auto check' fail
+
+==========================================================================================
+2012-7-16
+MM Prod_1.0.14
+1.change source to storage when start mm
+2.fix bug about disk num exception when mount/unmount disk
+3.add shortcut for page up and page down
+4.stop slide when operate control bar
+5.ui block when cancel samba login
+
+==========================================================================================
+2012-7-10
+MM Prod_1.0.13
+1.添加dlna功能
+2.添加samba功能
+3.文件浏览模块代码重构
+
+==========================================================================================
+2012-07-05  Release MM Prod_1.0.12.apk  by neddy
+MM Prod_1.0.12 相对于前一版本重要改进
+1.init subtitleFlag  ---- mantis：0255337
+
+==========================================================================================
+2012-07-05  Release MM Prod_1.0.11.apk  by neddy
+MM Prod_1.0.11 相对于前一版本重要改进
+1.Deal with lyric like “[03:16.52][02:12.92][00:50.74] lyrics”----mantis：0254215
+
+2.The display is incomplete when play [next]-----mantis：0254591
+
+==========================================================================================
+2012-07-02  Release MM Prod_1.0.10.apk  by neddy
+MM Prod_1.0.10 相对于前一版本重要改进
+1.图片播放器内存处理优化   Mantis：0252960
+
+2.视频播放器异常退出时，起线程做mediaplayer的reset和release
+
+3.视频播放器各菜单在播放下一部时的处理   Mantis：0253460
+
+4.进入mm prod,进入U盘盘符，选择一视频文件夹进入，提示正在扫描文件夹时快速按上下方向键，左边分类焦点移动了，该操作会导致移动后，左边显示的是歌曲分类的焦点，但右边内容还是视频   Mantis：0254270
+
+5.0254292: [J3][038B][STR]进入MM Prod文件夹列表，选中文件夹‘.android_secure’点击确认，提示‘MM Prod已停止运行’ 
+
+6.source在 MM,播放視頻, 按[source]鍵切換source 無法成功切換至指定的source, 畫面仍在MM 
+Mantis：0253992/0253980/0254032
+
+7.播放视频时，调出飞盘，然后拔出U盘，提示媒体播放器卡死   mantis：0253991
+
+
+
+==========================================================================================
+2012-06-27  Release MM Prod_1.0.09.apk  by neddy
+MM Prod_1.0.09 相对于前一版本重要改进
+1.图片3D
+
+2.单首音乐随机播放挂掉的问题
+
+==========================================================================================
+2012-06-21  Release MM Prod_1.0.08.apk  by neddy
+MM Prod_1.0.08 相对于前一版本重要改进
+1.幻灯片播放图片时，选择左旋或者右旋，会导致图片显示坐标不在屏幕中间 
+
+2.音频播放，來回按[Previous]/[Next]多次，出现“MM Pord无响应”
+
+3.去掉3D设置菜单
+
+4.视频播放过程中暂停播放，再进行快退操作，视频重新播放后暂停图标和时间进度条显示不对 
+
+==========================================================================================
+2012-06-15  Release MM Prod_1.0.07.apk  by neddy
+MM Prod_1.0.07 相对于前一版本重要改进
+1.视频总时长获取不到时显示“--:--:--”
+
+2.选时播放中显示的总时长不能随视频的改变而更新的问题修复
+
+3.AB复播设置中对视频没有index table的情况作出处理
+
+4.视频播放时对3D模式设置的时间进行修改，避免出现视频播放时闪花屏的现象
+
+5.幻灯片播放jpg图片时会“LMM pord crash”的问题修复
+
+6.音乐播放，循环模式在按next时无作用的问题修复
+
+
+==========================================================================================
+2012-06-12  Release MM Prod_1.0.06.apk  by neddy
+MM Prod_1.0.06 相对于前一版本重要改进
+1.视频播放时呼出播放设置-字幕设置菜单，下方提示文字显示不完整 
+
+2.鼠标点击翻页
+
+3.在music播放状态下拔掉U盘，播放菜单一直不停的刷新顺序显示u盘中所有的音频文件，中间显示未知错误提示信息（测试20次发现一次） 
+
+4.3D模式的设置方式更改
+
+
+
+==========================================================================================
+2012-06-07  Release MM Prod_1.0.05.apk  by neddy
+MM Prod_1.0.05 相对于前一版本重要改进:
+1.播放较大图片过程中，进行多次按键操作，程序报错提示‘MM Prod无响应’
+
+2.视频播放完后，提示‘其它未知错误’ 
+
+3.终端开启后进入设置-3D设置，更改其中参数后，进入lmm prod，播放一3D影片，播放时打开3D开关，发现影片3D效果被设置为了播放器3D设置中的自动效果，而非外部设置中所设置的3D效果
+
+4.播放列表框中的光标未在当前播放项高亮显示
+
+5.进入lmm prod,播放一上下格式或左右格式的3D片源，播放中将3D设置开关打开，此时3D模式为自动，但影片未切换为3D模式显示 
+
+6.在视频列表按home键返回到桌面后再进入MM，选择视频播放，视频变为小窗口播放，无法恢复 
+
+
+==========================================================================================
+2012-06-03  Release MM Prod_1.0.04.apk  by neddy
+MM Prod_1.0.04 相对于前一版本重要改进:
+1.添加传屏功能
+
+2.增加touch事件处理
+
+3.传屏播放图片，提示LMM停止运行（出现2次） bug修复
+
+4.LMM中鼠标移动对应的光标坐标不正确 bug修复
+

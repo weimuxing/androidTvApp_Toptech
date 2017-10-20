@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:gravity="center"
+    android:paddingLeft="5dp"
+    android:paddingTop="50dp" >
+
+    <LinearLayout
+        android:id="@+id/InputSource"
+        style="@style/input_source_main_layout_style" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/str_input_source_title"
+            android:textSize="@dimen/title_textSize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:divider="?android:attr/dividerHorizontal" />
+
+        <ListView
+            android:id="@+id/ListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@drawable/picture_mode_img_focus" />
+
+        <RelativeLayout 
+			android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="3dp">
+            <TextView
+                android:id="@+id/text_nav"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:text="@string/tip11"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dip"
+                android:textSize="@dimen/bottom_textSize" />
+             <ImageView 
+                 android:id="@+id/img_nav"
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_toRightOf="@id/text_nav"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/navigate_img"/>
+            
+            <TextView
+                android:id="@+id/text_ok"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_toRightOf="@id/img_nav"
+                android:gravity="center|right"
+                android:text="@string/tip22"
+                android:textSize="@dimen/bottom_textSize" />
+             <ImageView 
+                android:id="@+id/img_ok"
+                android:layout_toRightOf="@id/text_ok"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/confirm"/>
+
+            <TextView
+                android:id="@+id/text_bac"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+       			android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/img_ok"
+                android:text="@string/tip33"
+                android:gravity="center|right"
+                android:textSize="@dimen/bottom_textSize" />
+            <ImageView 
+                android:id="@+id/img_bac"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+       		    android:layout_marginTop="5dp"
+       		    android:layout_toRightOf="@id/text_bac"
+                android:background="@drawable/back_image"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/InputSourceCEC"
+        style="@style/input_source_CEC_layout_style" >
+
+        <TextView
+            android:id="@+id/cecTitle"
+            android:layout_width="266dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/str_input_source_title"
+            android:textSize="@dimen/CEC_textSize" />
+
+        <ListView
+            android:id="@+id/ListViewCEC"
+            android:layout_width="320dp"
+            android:layout_height="380dp"
+            android:layout_below="@+id/cecTitle"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:listSelector="@drawable/button_state" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Launcher</string>
+	
+	<string name="chooser_wallpaper">"選擇壁紙來源"</string>
+    <string name="wallpaper_instructions">"設置壁紙"</string>
+    <string name="pick_wallpaper">"壁紙"</string>
+    <string name="activity_not_found">您的設備上未安裝應用程式</string>
+    <string name="url_select">請選擇播放位址</string>
+    
+    <string name="loading">正在載入....</string>
+    <string name="instruction_loading">請稍後，正在載入資料.....</string>
+    
+    <string name="weather_location">選擇天氣城市</string>
+    
+    <string name="applabel">應用</string>
+    
+    <string name="errornetwork">網路斷開!</string>
+     <string name="load_error">數據載入失敗!</string>
+    
+    <!-- datetime -->
+    <string name="day_of_candar">號</string>
+     
+    <string name="add_app_title">添加應用</string>
+    <string name="tips">提示</string>
+    <string name="savemsg">確定要保存當前更改嗎？</string>
+    <string name="delmsg">刪除該應用快捷方式?</string>
+    <string name="min_apk_num">至少保留一個應用!</string>
+    <string name="ok">確定</string> 
+    <string name="cancle">取消</string>
+    <string name="month">月</string>
+    <string name="city001">深圳</string>
+    <string name="gallery_info">请插入U盘或无法识别图片</string>
+</resources>

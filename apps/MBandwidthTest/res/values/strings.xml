@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MBandwithTest</string>
+    <string name="chooser_title">Please select background app before start test</string>
+    <string name="start_test">Start Test</string>
+    <string name="start_tv">Start TV</string>
+    <string name="start_mm">Start LocalMM</string>
+    <string name="test1">Launcher</string>
+    <string name="test2">Loading</string>
+    <string name="test3">Scale</string>
+    <string name="finish">Finish</string>
+</resources>

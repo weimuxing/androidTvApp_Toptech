@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <MStar Software>
+    ******************************************************************************
+     MStar Software
+     Copyright (c) 2010 - 2015 MStar Semiconductor, Inc. All rights reserved.
+     All software, firmware and related documentation herein ("MStar Software") are
+     intellectual property of MStar Semiconductor, Inc. ("MStar") and protected by
+     law, including, but not limited to, copyright law and international treaties.
+     Any use, modification, reproduction, retransmission, or republication of all
+     or part of MStar Software is expressly prohibited, unless prior written
+     permission has been granted by MStar.
+
+     By accessing, browsing and/or using MStar Software, you acknowledge that you
+     have read, understood, and agree, to be bound by below terms ("Terms") and to
+     comply with all applicable laws and regulations:
+
+     1. MStar shall retain any and all right, ownership and interest to MStar
+        Software and any modification/derivatives thereof.
+        No right, ownership, or interest to MStar Software and any
+        modification/derivatives thereof is transferred to you under Terms.
+
+     2. You understand that MStar Software might include, incorporate or be
+        supplied together with third party's software and the use of MStar
+        Software may require additional licenses from third parties.
+        Therefore, you hereby agree it is your sole responsibility to separately
+        obtain any and all third party right and license necessary for your use of
+        such third party's software.
+
+     3. MStar Software and any modification/derivatives thereof shall be deemed as
+        MStar's confidential information and you agree to keep MStar's
+        confidential information in strictest confidence and not disclose to any
+        third party.
+
+     4. MStar Software is provided on an "AS IS" basis without warranties of any
+        kind. Any warranties are hereby expressly disclaimed by MStar, including
+        without limitation, any warranties of merchantability, non-infringement of
+        intellectual property rights, fitness for a particular purpose, error free
+        and in conformity with any international standard.  You agree to waive any
+        claim against MStar for any loss, damage, cost or expense that you may
+        incur related to your use of MStar Software.
+        In no event shall MStar be liable for any direct, indirect, incidental or
+        consequential damages, including without limitation, lost of profit or
+        revenues, lost or damage of data, and unauthorized system use.
+        You agree that this Section 4 shall still apply without being affected
+        even if MStar Software has been modified by MStar in accordance with your
+        request or instruction for your use, except otherwise agreed by both
+        parties in writing.
+
+     5. If requested, MStar may from time to time provide technical supports or
+        services in relation with MStar Software to you for your use of
+        MStar Software in conjunction with your or your customer's product
+        ("Services").
+        You understand and agree that, except otherwise agreed by both parties in
+        writing, Services are provided on an "AS IS" basis and the warranty
+        disclaimer set forth in Section 4 above shall apply.
+
+     6. Nothing contained herein shall be construed as by implication, estoppels
+        or otherwise:
+        (a) conferring any license or right to use MStar name, trademark, service
+            mark, symbol or any other identification;
+        (b) obligating MStar or any of its affiliates to furnish any person,
+            including without limitation, you and your customers, any assistance
+            of any kind whatsoever, or any information; or
+        (c) conferring any license or right under any intellectual property right.
+
+     7. These terms shall be governed by and construed in accordance with the laws
+        of Taiwan, R.O.C., excluding its conflict of law rules.
+        Any and all dispute arising out hereof or related hereto shall be finally
+        settled by arbitration referred to the Chinese Arbitration Association,
+        Taipei in accordance with the ROC Arbitration Law and the Arbitration
+        Rules of the Association by three (3) arbitrators appointed in accordance
+        with the said Rules.
+        The place of arbitration shall be in Taipei, Taiwan and the language shall
+        be English.
+        The arbitration award shall be final and binding to both parties.
+
+    ******************************************************************************
+    <MStar Software>
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of application -->
+    <string name="app_name">Live Channels</string>
+
+    <!-- Common string -->
+    <string name="off">關</string>
+    <string name="on">開</string>
+    <string name="cancel">取消</string>
+    <string name="str_ok">確認</string>
+
+    <string name="str_save">儲存</string>
+
+    <!-- Advanced options -->
+    <string name="advanced_option">進階選項</string>
+    <string name="str_menu_picture">圖像</string>
+
+    <!-- Menu Part -->
+    <string name="str_menu_sound">聲音</string>
+    <string name="str_menu_language">語言</string>
+    <string name="str_menu_pvr">個人視頻文件系統</string>
+    <string name="str_menu_hdmi">HDMI</string>
+    <string name="str_menu_power">電源</string>
+    <string name="str_menu_time">時間</string>
+    <string name="str_menu_demo">演示</string>
+    <string name="str_menu_3d">3D</string>
+    <string name="str_menu_misc">其他</string>
+
+    <!-- Picture settings -->
+    <string name="picture_mode">圖像模式</string>
+    <string name="contrast">對比</string>
+    <string name="brightness">亮度</string>
+    <string name="hue">色相</string>
+    <string name="sharpness">銳度</string>
+    <string name="saturation">飽和度</string>
+    <string name="backlight">背光</string>
+    <string name="PC_image_mode">PC畫面調整</string>
+    <string name="clock">時鐘</string>
+    <string name="phase">相位</string>
+    <string name="horizontalposition">水平位置</string>
+    <string name="verticalposition">垂直位置</string>
+    <string name="color_temperature">色溫</string>
+    <string name="colorred">Red</string>
+    <string name="colorgreen">Green</string>
+    <string name="colorblue">Blue</string>
+    <string name="zoom_mode">縮放模式</string>
+    <string name="open_hdr">Open HDR</string>
+    <string name="dolby_hdr">Dolby HDR</string>
+    <string name="image_noise_reduction">圖像降噪</string>
+    <string name="mpeg_noise_reduction">MPEG降噪</string>
+    <string name="standard_mode">標準</string>
+    <string name="soft_mode">柔和</string>
+    <string name="nature">自然</string>
+    <string name="str_default">默認</string>
+    <string name="xvycc">xvYCC</string>
+    <string name="PC_image_mode_auto">自動調整</string>
+
+    <!-- Sound settings -->
+    <string name="sound_mode">聲音模式</string>
+    <string name="low_pitch">低音</string>
+    <string name="high_pitch">高音</string>
+    <string name="equalizer">均衡器</string>
+    <string name="eq_120Hz">120Hz</string>
+    <string name="eq_500Hz">500Hz</string>
+    <string name="eq_1_5KHz">1.5KHz</string>
+    <string name="eq_5KHz">5KHz</string>
+    <string name="eq_10KHz">10KHz</string>
+    <string name="balance">聲音均衡</string>
+    <string name="AVC">AVC</string>
+    <string name="AD">AD Switch</string>
+    <string name="AD_volume">AD 音量</string>
+    <string name="auto_HOH">Auto HOH</string>
+    <string name="HD_bypass">次時代源碼輸出</string>
+    <string name="surround">​​環繞音</string>
+    <string name="SRS">SRS</string>
+    <string name="SPDIF_output">SPDIF輸出</string>
+    <string name="alone">單獨聽</string>
+    <string name="user_mode">User</string>
+    <string name="PCM">PCM</string>
+
+    <!-- Time settings -->
+    <string name="str_time_time">時間</string>
+    <string name="str_time_date">日期</string>
+    <string name="str_time_currenttime">當前時間</string>
+    <string name="str_time_offtime">關機時間</string>
+    <string name="str_time_schedule">開機時間</string>
+    <string name="str_time_sleep">睡眠時間</string>
+    <string name="str_time_autotime">自動調整</string>
+    <string name="str_time_schedule_ontime">在時間</string>
+    <string name="str_time_set_time_on_title">開機時間</string>
+    <string name="str_time_set_time_off_title">關機時間</string>
+    <string name="str_time_set_time_on">設定開機時間</string>
+    <string name="str_time_set_time_off">設定關機時間</string>
+    <string name="str_time_set_time_hour_minute">設定 小時, 分鐘</string>
+    <string name="str_time_schedule_hour">小時</string>
+    <string name="str_time_schedule_minute">分鐘</string>
+    <string name="str_time_schedule_source">源</string>
+    <string name="str_time_schedule_channel">頻道</string>
+    <string name="str_time_schedule_volume">音量</string>
+    <string name="str_time_hour">小時</string>
+    <string name="str_time_minute">分鐘</string>
+    <string name="str_time_second">秒</string>
+    <string name="str_time_change_timezone">Timezone automatic updated</string>
+
+    <!-- Demo settings -->
+    <string name="str_demo_mwe">MWE</string>
+    <string name="str_demo_dbc">DBC</string>
+    <string name="str_demo_dlc">DLC</string>
+    <string name="str_demo_dcc">DCC</string>
+    <string name="str_demo_nr">圖像降噪</string>
+    <string name="str_demo_uclear">超高清</string>
+
+    <!-- For 3D -->
+    <string name="str_3d_self_adaptive_detecttriple">3D 自檢</string>
+    <string name="str_3dto2d_self_adaptive_detecttriple">3D-2D 自檢</string>
+    <string name="str_3d_self_adaptive_detectlevel">自適應強度</string>
+    <string name="str_3d_conversion">3D格式轉換</string>
+    <string name="str_3d_3dto2d">3D轉2D</string>
+    <string name="str_3d_3ddepth">3D景深</string>
+    <string name="str_3d_3doffset">3D 偏移量</string>
+    <string name="str_3d_autostart">自動啟動</string>
+    <string name="str_3d_3doutputaspect">3D輸出寬高比</string>
+    <string name="str_3d_lrswitch">左右交換</string>
+
+    <!-- Misc -->
+    <string name="str_misc_ginga_on_off">Ginga</string>
+    <string name="str_misc_ginga_list">Ginga Application</string>
+    <string name="str_vchip_vchip">V-chip settings</string>
+    <string name="str_vchip_button_lock">Button Lock</string>
+
+    <string name="str_misc_location_code">Location code</string>
+
+    <string name="str_misc_signalinfo">Signal Information</string>
+    <string name="str_misc_software_version">Software Version</string>
+    <string name="str_misc_channel">頻道</string>
+    <string name="str_misc_frequency">頻率</string>
+    <string name="str_misc_network">Network</string>
+    <string name="str_misc_transportstream">Transport stream</string>
+    <string name="str_misc_service">Service</string>
+    <string name="str_misc_signalstrength">信號強度</string>
+    <string name="str_misc_signalquality">信號質量</string>
+    <string name="str_misc_antannatype">Antenna Type</string>
+    <string name="str_misc_modulation">調製</string>
+    <string name="str_misc_symbol">符號率</string>
+    <string name="str_misc_dvbs">Satellite</string>
+
+    <!-- Closed Caption -->
+    <string name="str_misc_cc_title">CC Settings</string>
+    <string name="str_miscg_cc_mode">CC mode</string>
+    <string name="str_misc_cc_basic_selection">Basic Selection</string>
+    <string name="str_misc_cc_advanced_selection">Advanced Selection</string>
+    <string name="str_misc_cc_advanced_setting">Advanced Setting</string>
+    <string name="str_misc_closed_caption">Close Caption</string>
+    <string name="str_misc_store_cookies">Store Cookies</string>
+    <string name="str_set_menutime">菜單顯示時間</string>
+    <string name="str_set_menutime_5sec">5 秒</string>
+
+    <string name="str_set_switchmode">切換模式</string>
+    <string name="str_set_switchmode_blackscreen">黑屏</string>
+    <string name="str_set_autosourceidentify">信號源識別</string>
+    <string name="str_set_sourcepreview">信號源預覽</string>
+
+    <string name="str_set_colorrange_0to255">0~255</string>
+    <string name="str_set_moviemode">電影模式</string>
+
+    <string name="str_set_mhlswitch">MHL自動切換</string>
+    <string name="str_set_bluescreenswitch">藍屏</string>
+    <string name="str_set_standyon">系統待命</string>
+    <string name="str_set_hbbtv_switch">HBBTV</string>
+
+    <string name="str_set_powersetting">電源設置</string>
+    <string name="str_set_hdmicec_label">HDMI_CEC</string>
+    <string name="str_set_hdmicec_devicelist">設備列表</string>
+    <string name="str_set_hdmicec_off">關</string>
+    <string name="str_set_hdmicec_onoff">HDMI CEC 開 /關</string>
+    <string name="str_set_cc_setting">CC Setting</string>
+    <string name="str_set_autosourceswit">Source auto switch</string>
+
+    <string name="str_misc_restoretodefault">還原為默認</string>
+    <string name="str_misc_alert_dialog_message_restore_to_default">Are you sure to restore to default?</string>
+
+
+    <!-- PVR -->
+    <string name="str_pvr_file_system_select_disk">硬碟選擇</string>
+    <string name="no_external_storage">No external storage available!</string>
+    <string name="str_pvr_insert_usb">請插入U盤先！</string>
+    <string name="str_pvr_format_usb">要格式化所選的U盤嗎？</string>
+    <string name="str_pvr_format_usb_progressing">格式化U盤進行中...\n請不要拔掉U盤！</string>
+    <string name="str_pvr_usb_speed_test_progressing">速度測試進行中...\n請不要拔掉U盤！</string>
+
+    <!-- Language settings -->
+    <string name="str_language_title">語言</string>
+    <string name="str_language_audio_language1">第一語言</string>
+    <string name="str_language_audio_language2">第二語言</string>
+    <string name="str_language_subtitle_switch">Subtitle</string>
+    <string name="str_language_subtitle_language1">Subtitle Primary Language</string>
+    <string name="str_language_subtitle_language2">Subtitle Secondary Language</string>
+    <string name="str_language_czech">Czech</string>
+    <string name="str_language_danish">Danish</string>
+    <string name="str_language_german">German</string>
+    <string name="str_language_english">English</string>
+    <string name="str_language_spanish">Spanish</string>
+    <string name="str_language_greek">Greek</string>
+    <string name="str_language_french">French</string>
+    <string name="str_language_croatian">Croatian</string>
+    <string name="str_language_italian">Italian</string>
+    <string name="str_language_hungarian">Hungarian</string>
+    <string name="str_language_dutch">Dutch</string>
+    <string name="str_language_norwegian">Norwegian</string>
+    <string name="str_language_polish">Polish</string>
+    <string name="str_language_portuguese">Portuguese</string>
+    <string name="str_language_russian">Russian</string>
+    <string name="str_language_romanian">Romanian</string>
+    <string name="str_language_slovenian">Slovenian</string>
+    <string name="str_language_serbian">Serbian</string>
+    <string name="str_language_finnish">Finnish</string>
+    <string name="str_language_swedish">Swedish</string>
+    <string name="str_language_bulgarian">Bulgarian</string>
+    <string name="str_language_slovak">Slovak</string>
+    <string name="str_language_chinese">Chinese</string>
+    <string name="str_language_gaelic">Gaelic</string>
+    <string name="str_language_welsh">Welsh</string>
+    <string name="str_language_irish">Irish</string>
+    <string name="str_language_arabic">Arabic</string>
+    <string name="str_language_latvian">Latvian</string>
+    <string name="str_language_hebrew">Hebrew</string>
+    <string name="str_language_turkish">Turkish</string>
+    <string name="str_language_estonian">Estonian</string>
+    <string name="str_language_gallegan">Gallegan</string>
+    <string name="str_language_basque">Basque</string>
+    <string name="str_language_catalan">Catalan</string>
+    <string name="str_language_icelandic">Icelandic</string>
+    <string name="str_language_letzeburgesch">Letzeburgesch</string>
+    <string name="str_language_lithuanian">Lithuanian</string>
+    <string name="str_language_ukrainian">Ukrainian</string>
+    <string name="str_language_byelorussian">Byelorussian</string>
+    <string name="str_language_maori">Maori</string>
+    <string name="str_language_mandarin">Mandarin</string>
+    <string name="str_language_cantonese">Cantonese</string>
+    <string name="str_language_korean">Korean</string>
+    <string name="str_language_japanese">Japanese</string>
+    <string name="str_language_hindi">Hindi</string>
+    <string name="str_language_thai">Thai</string>
+    <string name="str_language_vietnamese">Vietnamese</string>
+    <string name="str_language_malay">Bahasa Melayu</string>
+    <string name="str_language_qab">Second Audio</string>
+    <string name="str_language_qac">Third Audio</string>
+    <string name="str_language_multiple">Multiple</string>
+
+    <!-- PVR settings -->
+    <string name="str_pvr_title">個人視頻文件系統</string>
+    <string name="str_pvr_select_disk">硬碟選擇</string>
+    <string name="str_pvr_time_shift_size">時間跨越長度</string>
+    <string name="str_pvr_format_start">格式化</string>
+    <string name="str_pvr_speed_check">速度測試</string>
+    <string name="str_pvr_always_timeshift">持續時移</string>
+    <string name="str_pvr_file_system_format_context">成功</string>
+    <string name="str_pvr_speed_check_result">速度:</string>
+
+    <!-- HDMI settings -->
+    <string name="str_hdmi_title">HDMI</string>
+    <string name="str_hdmi_cec">HDMI_CEC</string>
+    <string name="str_hdmi_arc">HDMI_ARC</string>
+    <string name="str_hdmi_standby_on">Standby On</string>
+    <string name="str_hdmi_device_menu">裝置選單</string>
+    <string name="str_hdmi_device_list">設備列表</string>
+    <string name="str_hdmi_mhl_auto_switch">MHL自動切換</string>
+    <string name="str_hdmi_edid_version">HDMI EDID 版本</string>
+    <string name="str_hdmi_edid_version_change">正在切換HDMI EDID版本</string>
+    <string name="str_hdmi_edid_version_wait">請稍等...</string>
+    <string name="str_hdmi_colorrange">顏色範圍</string>
+
+    <!-- Power settings -->
+    <string name="str_power_title">電源設置</string>
+    <string name="str_power_powermusic">開機音樂</string>
+    <string name="str_power_powerlogo">開機圖片</string>
+    <string name="str_power_powervolume">開機音量</string>
+
+    <!-- Time  settings -->
+    <string name="str_time_title">時間</string>
+    <string name="str_time_set_boot_time">開機時間</string>
+    <string name="str_time_input_source">源</string>
+    <string name="str_time_sleep_timer">睡眠時間</string>
+
+    <!-- for cimmi -->
+    <string name="str_cimmi_title">CI信息</string>
+    <string name="str_cimmi_hint_ci_inserted">CI卡插入</string>
+    <string name="str_cimmi_hint_ci_removed">CI卡移除</string>
+    <string name="str_cimmi_hint_ci_auto_test">CI自測</string>
+    <string name="str_cimmi_hint_ci_passwd_hint">輸入密碼</string>
+
+    <!-- For Toast style -->
+    <string name="str_3d_toast">MWE mode off to make 3D mode validate</string>
+    <string name="str_demo_toast">3D Mode off to make MWE mode validate</string>
+
+    <!-- for program edit -->
+    <string name="str_program_edit_dialog_ok">確認</string>
+    <string name="str_program_edit_dialog_cancel">取消</string>
+    <string name="str_program_edit_dialog_input">請輸入</string>
+
+    <!-- InputsActivity -->
+    <string name="system_inputs">輸入裝置設定</string>
+</resources>

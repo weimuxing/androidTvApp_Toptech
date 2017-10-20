@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <RelativeLayout
+        android:id="@+id/settings_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/layout_item0"
+            style="@style/layout_item0"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/item0_shadow"
+                style="@style/item0_shadow"
+                android:scaleType="fitXY"
+                android:src="@drawable/shadow_big_left"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/item0"
+                style="@style/item0"
+                android:background="@drawable/green_no_shadow"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/app_youtube" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_item1"
+            style="@style/layout_item1"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/item1_shadow"
+                style="@style/item1_shadow"
+                android:scaleType="fitXY"
+                android:src="@drawable/shadow_big_center"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/item1"
+                style="@style/item1"
+                android:background="@drawable/orange_no_shadow"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/app_youtube2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_item2"
+            style="@style/layout_item2"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/item2_shadow"
+                style="@style/item2_shadow"
+                android:scaleType="fitXY"
+                android:src="@drawable/shadow_big_center"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/item2"
+                style="@style/item2"
+                android:background="@drawable/blue_no_shadow"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/sys_movieflimplay" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_item3"
+            style="@style/layout_item3"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/item3_shadow"
+                style="@style/item3_shadow"
+                android:scaleType="fitXY"
+                android:src="@drawable/shadow_big_right"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/item3"
+                style="@style/item3"
+                android:background="@drawable/yellow_no_shadow"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/sys_play" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

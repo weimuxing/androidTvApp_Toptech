@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/str_ipenablemapping_text"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#8888"
+        android:dividerHeight="1px"
+        android:focusable="true"
+        android:listSelector="@drawable/button_state"
+        android:textColor="#ffffff"
+        android:textSize="13dip" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/list_ip_num"
+            android:layout_width="56dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/list_ip_enable_mapping"
+            android:layout_width="260dip"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/list_ip_num"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <string name="app_name">UI-LocalMM</string>
+
+    <string name="back">назад</string>
+
+    <string name="folder">папка</string>
+
+    <string name="rootDirectory">/mnt/usb</string>
+
+    <string name="sambarootDirectory">/mnt/samba</string>
+
+    <string name="unsupport_format">Этот формат не может играть</string>
+
+    <string name="exit_ok">ОК</string>
+
+    <string name="exit_cancel">отменить</string>
+
+    <string name="current_time">Текущее время:</string>
+
+    <string name="total_duration">Общее время:</string>
+
+    <string name="choice">выбор</string>
+
+    <string name="confirm">подтверждать</string>
+
+    <string name="exit_title">выход</string>
+
+    <string name="exit_confirm">подтверждения удаления?</string>
+
+    <string name="the_first_file">Первый файл!</string>
+
+    <string name="the_last_file">Последний файл!</string>
+
+    <string name="net_disconnect">Сетка отключите, пожалуйста, проверьте это!</string>
+
+    <string name="display_pip">Показать PIP</string>
+
+    <string name="hide_pip">Скрыть PIP</string>
+
+    <string name="pre_channel">Предыдущий канал</string>
+
+    <string name="next_channel">Далее канал</string>
+
+
+
+    <!-- ####################文件浏览模块资源定义区#################### -->
+
+    <string name="picture">картинка</string>
+
+    <string name="song">песня</string>
+
+    <string name="video">видео</string>
+
+    <string name="samba">Самба</string>
+
+    <string name="dlna">DLNA</string>
+
+    <string name="other">другой</string>
+
+    <string name="all">все</string>
+
+    <string name="page_up">на страницу вверх</string>
+
+    <string name="page_down">страницу вниз</string>
+
+    <string name="slash">/</string>
+
+
+
+    <!-- 加载进度提示信息定义区 -->
+
+    <string name="loading_top">Загрузка началу страницы Пожалуйста, подождите</string>
+
+    <string name="loading_usb_device">Загрузка USB-устройства</string>
+
+    <string name="loading_local_resource">Загрузка локальный ресурс, пожалуйста, подождите</string>
+
+    <string name="loading_dlna_device">Загрузка DLNA устройства, пожалуйста, подождите</string>
+
+    <string name="loading_dlna_resource">Загрузка DLNA ресурса, пожалуйста, подождите</string>
+
+    <string name="miss_dlna_device">Загрузка DLNA ресурсов не удалось</string>
+
+    <string name="loading_samba_device">Загрузка SAMBA устройства, пожалуйста, подождите</string>
+
+    <string name="loading_samba_resource">Загрузка ресурсов SAMBA, пожалуйста, подождите</string>
+
+    <string name="miss_samba_device">Нагрузка SAMBA ресурсов не удалось</string>
+
+    <string name="is_scanning_disc">Она сканирует диск!</string>
+
+    <string name="login_wrong_password">Неверный пароль</string>
+
+    <string name="login_failed">Не удалось Войти SAMBA</string>
+
+    <string name="login_other_failed">Вход SAMBA исключений</string>
+
+    <string name="login_title">Войти</string>
+
+    <string name="network_connect_failed">Подключиться к устройству не удалось, не могут совместно использовать сети
+
+			ресурсы</string>
+
+    <string name="network_unconnected">Unconnected сети, пожалуйста, проверьте и повторите
+
+	</string>
+
+    <string name="login_samba">Вход Samba, пожалуйста, подождите</string>
+
+    <string name="logging_out_samba">Logouting Samba, пожалуйста, подождите</string>
+
+    <string name="login_success">Вход Samba Успешный</string>
+
+    <string name="mount_failed">Горе Samba не удалось</string>
+
+
+
+    <string-array name="data_source">
+
+        <item>локальное устройство диск</item>
+
+        <item>сети SAMBA устройство</item>
+
+        <!--<item>сети DLNA устройство</item>-->
+    </string-array>
+
+
+
+    <!-- ####################媒体播放器资源定义区#################### -->
+
+    <!-- 图片播放模块资源定义区 -->
+
+    <string name="file_name">имя файла:</string>
+
+    <string name="photo_info">Информация о фотографии</string>
+
+    <string name="file_create_time">время создания:</string>
+
+    <string name="file_size">размер файла:</string>
+
+    <string name="file_format">Формат файла:</string>
+
+    <string name="display_img_name">Название картины дисплей</string>
+
+    <string name="disk_eject">диск извлечение</string>
+
+    <string name="photo_3D_toast">не работает в режиме 3D</string>
+
+    <string name="photo_set_wallpaper">фото обои</string>
+
+    <string name="first_photo">первое фото!</string>
+
+    <string name="last_photo">последнее фото!</string>
+
+    <string name="can_not_decode">На фотографии слишком велик, чтобы быть analysised!</string>
+
+    <string name="current_pic">Текущая картина:</string>
+
+    <string name="is_setting_wallpaper">Это создает обои, пожалуйста, подождите ...</string>
+
+    <string name="picture_can_not_decode">Эта картина не может декодировать!</string>
+
+    <string name="picture_decoding">Картина декодирования ...</string>
+
+
+
+    <!-- 音乐播放模块资源定义区 -->
+
+    <string name="music_info">информацию о музыке</string>
+
+    <string name="file_duration">Файл Продолжительность:</string>
+
+    <string name="music_default_time">00:00</string>
+
+    <string name="Artist_name">Исполнитель:</string>
+
+    <string name="file_path">Путь к файлу:</string>
+
+    <string name="none_lyrics_find">Не найти слов!</string>
+
+    <string name="unknown">Неизвестный</string>
+
+    <string name="singer">Исполнитель:</string>
+
+    <string name="current_song">Текущая песня:</string>
+
+    <string name="exit_music_play">Определение музыки разыгрывается?</string>
+
+    <string name="alert">Оповещение</string>
+
+
+
+    <!-- 视频播放模块资源定义区 -->
+
+    <string name="no_video_track">трек ни видео</string>
+
+    <string name="audio_codec">аудио кодек</string>
+
+    <string name="video_codec">видео кодек</string>
+
+    <string name="duration">Продолжительность:</string>
+
+    <string name="default_time">--:--:--</string>
+
+	<string name="video_default_time">00:00:00</string>
+
+	<string name="choose_time_0">0</string>
+
+	<string name="choose_time_colon">:</string>
+
+    <string name="programe_info">Programe информация</string>
+
+    <string name="show_info">показать информация</string>
+
+    <string name="buffering">Буферизация ...</string>
+
+    <string name="playing">игры</string>
+
+    <string name="video_subtitle">субтитров видео</string>
+
+    <string name="video_track">видеодорожки</string>
+
+    <string name="video_channel">видеоканал</string>
+
+    <string name="video_media_full_resize">видео полное изменение размера</string>
+
+    <string name="video_media_default">размер видео по умолчанию</string>
+
+    <string name="video_media_full">видео в полный размер</string>
+
+    <string name="video_media_error_unknown">видеоносителей ошибки неизвестна</string>
+
+    <string name="video_media_error_malformed">видеоносителей ошибке неправильно</string>
+
+    <string name="video_media_error_io">видеоносителей ошибка ввода-вывода</string>
+
+    <string name="video_media_error_unsupported">видеоносителей ошибка неподдерживаемого</string>
+
+    <string name="video_media_error_format_unsupport">видеоносителей ошибки формата unsupport</string>
+
+    <string name="video_media_error_not_connected">видеоносителей ошибки не связаны</string>
+
+    <string name="video_media_error_audio_unsupport">видеоносителей ошибка аудио unsupport</string>
+
+    <string name="video_media_error_video_unsupport">видеоносителей ошибка видео unsupport</string>
+
+    <string name="video_media_error_no_license">видеоносителей ошибки нет лицензии</string>
+
+    <string name="video_media_error_license_expired">видеоносителей ошибка лицензии истек</string>
+
+    <string name="video_media_other_error_unknown">другие неизвестная ошибка</string>
+
+    <string name="video_media_error_not_valid">видеоносителей ошибки не действует</string>
+
+    <string name="video_media_error_server_died">медиа-сервер умер</string>
+
+    <string name="video_media_infor_no_index">видео не показатель, он не seeked</string>
+
+    <string name="video_media_infor_no_index_ab">видео не показатель, он не установил AB</string>
+
+    <string name="subtitle_type">подзаголовок типа</string>
+
+    <string name="subtitle_out_path">субтитры из пути</string>
+
+    <string name="subtitle_in_no">субтитров нет</string>
+
+    <string name="subtitle_language">язык субтитров</string>
+
+    <string name="subtitle_color">Подзаголовок цвета</string>
+
+    <string name="subtitle_font">Подзаголовок шрифта</string>
+
+    <string name="subtitle_font_size">Размер шрифта субтитров</string>
+
+    <string name="subtitle_frame">подзаголовок кадра</string>
+
+    <string name="subtitle_area">Подзаголовок области</string>
+
+    <string name="subtitle_adjust">Подзаголовок регулировки</string>
+
+    <string name="subtitleList">subtitleList</string>
+
+    <string name="playList">плейлист</string>
+
+    <string name="subtitle_setting">Установка субтитров</string>
+
+    <string name="a_b_section_repeat">-В разделе повтор</string>
+
+    <string name="section_replay">Раздел повтор</string>
+
+    <string name="set_begin_a">Установить начальную точку</string>
+
+    <string name="set_begin_b">Установить начальную точку B</string>
+
+    <string name="audio_track_count">отслеживать подсчет</string>
+
+    <string name="audio_track_number">отслеживать количество</string>
+
+    <string name="audio_track_duration">отслеживать продолжительность</string>
+
+    <string name="audio_track_language">отслеживать язык</string>
+
+    <string name="audio_track_setting">отслеживать настройки</string>
+
+    <string name="point_a">Дело в положение</string>
+
+    <string name="point_b">Положение точки B</string>
+
+    <string name="one_times_speed">1 раз скорость</string>
+
+    <string name="x_times_speed">раз скорость</string>
+
+    <string name="playing_settings">Игра настройки</string>
+
+    <string name="open_ab_repeat">открыть-Б повтор</string>
+
+    <string name="set_point_a_first">уставки первый</string>
+
+
+
+    <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+
+    <string name="subtitle_0_value_1">показать внешние субтитры</string>
+
+    <string name="subtitle_0_value_2">показать внутренний субтитров</string>
+
+    <string name="subtitle_1_value_1">выбрать путь</string>
+
+    <string name="subtitle_1_value_2">никаких внешних субтитров</string>
+
+    <string name="subtitle_2_value_1">никто</string>
+
+    <string name="subtitle_2_value_2">подзаголовок</string>
+
+    <string name="subtitle_3_value_1">неизвестный</string>
+
+    <string name="subtitle_3_value_2">никто</string>
+
+    <string name="subtitle_4_value_1">songti</string>
+
+    <string name="subtitle_4_value_2">xingxu</string>
+
+    <string name="subtitle_4_value_3">kaiti</string>
+
+    <string name="subtitle_5_value_1">большой</string>
+
+    <string name="subtitle_5_value_2">средний</string>
+
+    <string name="subtitle_5_value_3">небольшой</string>
+
+    <string name="subtitle_6_value_1">белила</string>
+
+    <string name="subtitle_6_value_2">черный</string>
+
+    <string name="subtitle_6_value_3">синий</string>
+
+    <string name="subtitle_7_value_1">нет</string>
+
+    <string name="subtitle_7_value_2">да</string>
+
+    <string name="subtitle_8_value_1">нижний</string>
+
+    <string name="subtitle_8_value_2">топ</string>
+
+    <string name="subtitle_9_value">0 ms</string>
+
+
+
+    <string-array name="subtitle_setting_opt">
+
+        <item>показать внешние субтитры</item>
+
+        <item>выбрать путь</item>
+
+        <item>никто</item>
+
+        <item>неизвестный</item>
+
+        <item>songti</item>
+
+        <item>средний</item>
+
+        <item>белила</item>
+
+        <item>нет</item>
+
+        <item>нижний</item>
+
+        <item>0 ms</item>
+
+    </string-array>
+
+
+
+    <string name="subtitle_change_msg">внешних субтитров, пожалуйста, измените к внутренним!</string>
+
+    <string name="subtitle_change_path">внутренние субтитры, пожалуйста, измените к внешним!</string>
+
+    <string name="choose_time_failed">может не место!</string>
+
+    <string name="choose_time_invalid">недопустимое время, пожалуйста, повторите!</string>
+
+
+
+    <string-array name="play_setting_opt">
+
+        <item>открыть</item>
+
+        <item></item>
+
+    </string-array>
+
+
+
+    <string name="play_setting_0_value_1">открыть</string>
+
+    <string name="play_setting_0_value_2">закрывать</string>
+
+    <string name="video_size_unknown">неизвестный</string>
+
+
+
+    <string-array name="audio_track_setting_opt">
+
+        <item>аудио трека 1</item>
+
+        <item>1</item>
+
+        <item>00:00:00</item>
+
+        <item>неизвестный</item>
+
+    </string-array>
+
+
+
+    <string name="audio_track_setting_0_value_1">звуковую дорожку</string>
+
+	<!-- add by fangcuihong,20160718 -->
+    <string name="toast_scale">Масштаб: %.1f</string>
+    <string name="toast_rotate">Поворот: %.1f</string>
+	
+
+    <!-- end -->
+
+</resources>
+

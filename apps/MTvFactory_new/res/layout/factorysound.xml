@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_design_menu_sound"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_factory_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_lineout"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_lineout"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_lineout" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_lineout"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_factory_peq" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_speaker"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_speaker"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_speaker" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_speaker"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_factory_peq" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_avc_enable"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_avc_enable"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_avc_enable" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_avc_enable"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_factory_avc_enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_avc_threthold"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_avc_threthold"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_avc_threthold" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_avc_threthold"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_factory_avc_threthold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_drc_enable"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_drc_enable"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_drc_enable" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_drc_enable"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_factory_drc_enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_drc_threthold"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_drc_threthold"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_drc_threthold" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_drc_threthold"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_factory_drc_threthold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_sound_effect"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_sound_effect"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_sound_effect" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_sound_effect"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_textview_factory_otheroption_text_off" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_sound_toneffect"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_sound_toneffect"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_sound_toneffect" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_sound_toneffect"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_textview_factory_otheroption_text_off" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_audio_delay"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_audio_delay"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_audio_delay" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_audio_delay"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_textview_factory_otheroption_text_off" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_audio_spdif_delay"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_audio_spdif_delay"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_audio_spdif_delay" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_audio_spdif_delay"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_textview_factory_otheroption_text_off" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_audio_nr"
+            style="@style/ItemCombo" >
+
+            <TextView
+                android:id="@+id/textview_factory_audio_nr"
+                style="@style/TextViewStyleOption"
+                android:text="@string/str_factory_audio_nr" />
+
+            <TextView
+                android:id="@+id/textvalue_factory_audio_nr"
+                style="@style/TextViewStyleValue"
+                android:text="@string/str_textview_factory_otheroption_text_off" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

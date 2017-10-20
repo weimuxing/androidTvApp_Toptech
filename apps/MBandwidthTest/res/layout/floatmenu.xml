@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@+id/scaleImageView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="left|center" android:orientation="horizontal" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/start_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_gravity="center" android:id="@+id/btn_start_tv" android:background="#c0000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/start_tv" android:textColor="@android:color/white" android:textSize="35sp" />
+            <Button android:layout_gravity="center" android:id="@+id/btn_start_mm" android:background="#c0000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/start_mm" android:textColor="@android:color/white" android:textSize="35sp" />
+            <Button android:layout_gravity="center" android:id="@+id/btn_start" android:background="#c0000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/start_test" android:textColor="@android:color/white" android:textSize="35sp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/test_panel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/top_panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:layout_gravity="center" android:id="@+id/btn_test1" android:background="#c0000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/test1" android:textColor="@android:color/white" android:textSize="35sp" />
+                <Button android:layout_gravity="center" android:id="@+id/btn_test2" android:background="#c0000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/test2" android:textColor="@android:color/white" android:textSize="35sp" />
+                <Button android:layout_gravity="center" android:id="@+id/btn_test3" android:background="#c0000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/test3" android:textColor="@android:color/white" android:textSize="35sp" />
+                <Button android:layout_gravity="center" android:id="@+id/btn_finish" android:background="#c0000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/finish" android:textColor="@android:color/white" android:textSize="35sp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/main_panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RadioGroup android:gravity="center" android:layout_gravity="left|center" android:orientation="vertical" android:id="@+id/rg_menu" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:id="@+id/menu_tv" android:button="@drawable/menu_tv" style="@style/left_menu" />
+                    <RadioButton android:id="@+id/menu_application" android:button="@drawable/menu_application" style="@style/left_menu" />
+                    <RadioButton android:id="@+id/menu_my" android:button="@drawable/menu_my" style="@style/left_menu" />
+                    <RadioButton android:id="@+id/menu_setting" android:button="@drawable/menu_setting" style="@style/left_menu" />
+                </RadioGroup>
+                <android.support.v4.view.ViewPager android:id="@+id/apps_panel" android:persistentDrawingCache="animation" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

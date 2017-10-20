@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="weather_condition">
+		<item>Vòi rồng</item>
+		<item>Bão nhiệt đới</item>
+		<item>bão</item>
+		<item>Giông bão nghiêm trọng</item>
+		<item>Bão</item>
+		<item>Mưa và tuyết hỗn hợp</item>
+		<item>Mưa hỗn hợp và mưa tuyết</item>
+		<item>Tuyết hỗn hợp</item>
+		<item>Mưa phùn lạnh giá</item>
+		<item>Mưa</item>
+		<item>Mưa lạnh</item>
+		<item>Vòi hoa sen</item>
+		<item>Vòi hoa sen</item>
+		<item>Tuyết tuyết</item>
+		<item>Mưa tuyết nhẹ</item>
+		<item>Thổi tuyết</item>
+		<item>Tuyết</item>
+		<item>Kêu</item>
+		<item>Sét</item>
+		<item>Bụi bặm</item>
+		<item>Có sương mù</item>
+		<item>Sương mù</item>
+		<item>Khói</item>
+		<item>Sự bốc mùi</item>
+		<item>Windy</item>
+		<item>Lạnh</item>
+		<item>Nhiều mây</item>
+		<item>Chủ yếu có mây</item>
+		<item>Chủ yếu có mây</item>
+		<item>Trời nhiều mây</item>
+		<item>Trời nhiều mây</item>
+		<item>Trong sáng</item>
+		<item>Nắng</item>
+		<item>Hội chợ</item>
+		<item>Hội chợ</item>
+		<item>Mưa hỗn hợp và mưa đá</item>
+		<item>Nóng bức</item>
+		<item>Các cơn giông bão</item>
+		<item>Sấm chớp rải rác</item>
+		<item>Sấm chớp rải rác</item>
+		<item>Mưa rải rác</item>
+		<item>Tuyêt rơi day đặc</item>
+		<item>Mưa tuyết rải rác</item>
+		<item>Tuyêt rơi day đặc</item>
+		<item>Trời nhiều mây</item>
+		<item>Thundershowers</item>
+		<item>Mưa tuyết</item>
+		<item>Các trận mưa bão riêng</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>Dropbox</item>
+		<item>Cửa hàng ứng dụng</item>
+				  
+		<item>Thư viện ứng dụng</item>
+		<item>Quản lý ứng dụng</item>
+		<item>Cài đặt</item>
+		<item>Trình duyệt</item>
+		<item>Skype</item>
+		<item>YouTube</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910 # Seoul</item>
+		<item>2345969 # Gyeonggi-do</item>
+		<item>28816906 # Incheon</item>
+		<item>2345966 # Gangwon-do</item>
+		<item>2345967 # Gyeongsangnam-do</item>
+		<item>2345970 # Gyeongsangbuk-do</item>
+		<item>28816908 # Gwangju</item>
+		<item>28816909 # Daegu</item>
+		<item>28816902 # Daejeon</item>
+		<item>28816913 # Busan</item>
+		<item>28828129 # Sejong</item>
+		<item>28816901 # Ulsan</item>
+		<item>2345972 # Jeollanam-do</item>
+		<item>2345964 # Jeollabuk-do</item>
+		<item>28834807 # Jejudo</item>
+		<item>2345973 # Chungcheongnam-do</item>
+		<item>2345965 # Chungcheongbuk-do</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>Jan</item>
+		<item>Tháng hai</item>
+		<item>tháng Ba</item>
+		<item>Tháng 4</item>
+		<item>Tháng Năm</item>
+		<item>Tháng sáu</item>
+		<item>Tháng bảy</item>
+		<item>Tháng Tám</item>
+		<item>Tháng 9</item>
+		<item>Tháng 10</item>
+		<item>Tháng 11</item>
+		<item>Tháng 12</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>mặt trời</item>
+		<item>Thứ Hai</item>
+		<item>Tue</item>
+		<item>Thứ Tư</item>
+		<item>Thu</item>
+		<item>Thứ sáu</item>
+		<item>Ngồi</item>
+    </string-array>
+
+</resources>

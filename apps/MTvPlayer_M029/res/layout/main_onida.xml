@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainMenu"
+    android:layout_width="670dp"
+    android:layout_height="370dp"
+    android:layout_gravity="center"
+    android:background="@drawable/colour_bg"
+    >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:padding="15dp" >
+
+        <LinearLayout
+            android:layout_width="155dp"
+            android:layout_height="354dp"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/setting_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/listview_blue_bg"
+                android:cacheColorHint="#00000000"
+                android:drawSelectorOnTop="false"
+                android:fadingEdge="none"
+                android:listSelector="@drawable/listview_blue_bg"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="443dp"
+            android:layout_height="387dp"
+            android:layout_weight="0.88"
+            android:background="@drawable/blue_bg"
+            android:orientation="vertical" >
+
+            <ViewFlipper
+                android:id="@+id/view_flipper_main_menu"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:flipInterval="1000"
+                android:focusable="true" >
+            </ViewFlipper>
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="30dip"
+		    android:layout_marginTop="12dip"
+		    android:gravity="center"
+		    android:paddingTop="2dp"
+		    android:orientation="horizontal" >
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:minWidth="65dp"
+		        android:layout_height="25dp"
+		        android:drawableRight="@drawable/navigate_img"
+		        android:textColor="@color/bottom_info_text_color"
+		        android:text="@string/bt_info_adjust"
+		        android:layout_marginLeft="40dp"
+		        android:layout_marginRight="40dp"
+		        android:gravity="center"
+		        android:textSize="14sp" />
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="25dp"
+		        android:textColor="@color/bottom_info_text_color"
+		        android:text="@string/bt_info_switch"
+		        android:textSize="14sp"
+		        android:gravity="center"
+		        android:layout_marginLeft="40dp"
+		        android:layout_marginRight="40dp"/>
+		     <TextView
+		         android:layout_width="65dp"
+		         android:layout_height="25dp"
+		         android:layout_marginLeft="40dp"
+		         android:layout_marginRight="40dp"
+		         android:gravity="center"
+		         android:drawableRight="@drawable/back_image"
+		         android:text="@string/bt_info_back"
+		         android:textColor="@color/bottom_info_text_color"
+		         android:textSize="14sp" />
+		</LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

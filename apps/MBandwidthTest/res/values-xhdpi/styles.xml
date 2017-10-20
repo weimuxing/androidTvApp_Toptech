@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="layout_item0">
+        <item name="android:layout_width">508dp</item>
+        <item name="android:layout_height">490dp</item>
+    </style>
+    <style name="item0_shadow">
+        <item name="android:layout_width">508dp</item>
+        <item name="android:layout_height">490dp</item>
+    </style>
+    <style name="item0">
+        <item name="android:layout_width">247dp</item>
+        <item name="android:layout_height">357dp</item>
+        <item name="android:layout_marginLeft">104dp</item>
+        <item name="android:layout_marginTop">27dp</item>
+    </style>
+
+    <style name="layout_item1">
+        <item name="android:layout_width">562dp</item>
+        <item name="android:layout_height">490dp</item>
+        <item name="android:layout_marginLeft">204dp</item>
+    </style>
+    <style name="item1_shadow">
+        <item name="android:layout_width">562dp</item>
+        <item name="android:layout_height">490dp</item>
+    </style>
+    <style name="item1">
+        <item name="android:layout_width">247dp</item>
+        <item name="android:layout_height">357dp</item>
+        <item name="android:layout_marginLeft">158dp</item>
+        <item name="android:layout_marginTop">27dp</item>
+    </style>
+
+    <style name="layout_item2">
+        <item name="android:layout_width">562dp</item>
+        <item name="android:layout_height">490dp</item>
+        <item name="android:layout_marginLeft">462dp</item>
+    </style>
+    <style name="item2_shadow">
+        <item name="android:layout_width">562dp</item>
+        <item name="android:layout_height">490dp</item>
+    </style>
+    <style name="item2">
+        <item name="android:layout_width">247dp</item>
+        <item name="android:layout_height">357dp</item>
+        <item name="android:layout_marginLeft">158dp</item>
+        <item name="android:layout_marginTop">27dp</item>
+    </style>
+
+    <style name="layout_item3">
+        <item name="android:layout_width">508dp</item>
+        <item name="android:layout_height">490dp</item>
+        <item name="android:layout_marginLeft">720dp</item>
+    </style>
+    <style name="item3_shadow">
+        <item name="android:layout_width">508dp</item>
+        <item name="android:layout_height">490dp</item>
+    </style>
+    <style name="item3">
+        <item name="android:layout_width">247dp</item>
+        <item name="android:layout_height">357dp</item>
+        <item name="android:layout_marginLeft">158dp</item>
+        <item name="android:layout_marginTop">27dp</item>
+    </style>
+</resources>

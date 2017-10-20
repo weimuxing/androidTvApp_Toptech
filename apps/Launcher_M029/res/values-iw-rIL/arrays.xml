@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="weather_condition">
+		<item>טוֹרנָדוֹ</item>
+		<item>סופה טרופית</item>
+		<item>הוֹרִיקָן</item>
+		<item>סופות רעמים חמורות</item>
+		<item>סופות רעמים</item>
+		<item>גשם מעורב ושלג</item>
+		<item>גשם מעורב מעורב</item>
+		<item>שלג מעורב מעורב</item>
+		<item>מקפיא טפטוף</item>
+		<item>זרזיף</item>
+		<item>גשם קפוא</item>
+		<item>מקלחות</item>
+		<item>מקלחות</item>
+		<item>פתיתי שלג</item>
+		<item>מקלחות שלג קלות</item>
+		<item>נושבת שלג</item>
+		<item>שֶׁלֶג</item>
+		<item>בָּרָד</item>
+		<item>סלייט</item>
+		<item>אָבָק</item>
+		<item>מעורפל</item>
+		<item>עֲרָפֶל</item>
+		<item>מָלֵא עָשָׁן</item>
+		<item>סוֹעֵר</item>
+		<item>סוער</item>
+		<item>קַר</item>
+		<item>מְעוּנָן</item>
+		<item>מעונן בעיקר</item>
+		<item>מעונן בעיקר</item>
+		<item>מעונן חלקית</item>
+		<item>מעונן חלקית</item>
+		<item>ברור</item>
+		<item>שִׁמשִׁי</item>
+		<item>הוֹגֶן</item>
+		<item>הוֹגֶן</item>
+		<item>גשם מעורב וברד</item>
+		<item>חַם</item>
+		<item>סופות רעמים מבודדות</item>
+		<item>סופות רעמים פזורות</item>
+		<item>סופות רעמים פזורות</item>
+		<item>מקלחות מפוזרות</item>
+		<item>שלג כבד</item>
+		<item>מקלחות שלג מפוזרות</item>
+		<item>שלג כבד</item>
+		<item>מעונן חלקית</item>
+		<item>ת\'אנדרשבורס</item>
+		<item>מקלחות שלג</item>
+		<item>מבודדים</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>Dropbox</item>
+		<item>חנות אפליקציות</item>
+				  
+		<item>ספריית יישומים</item>
+		<item>מנהל אפליקציה</item>
+		<item>הגדרות</item>
+		<item>דפדפן</item>
+		<item>סקייפ</item>
+		<item>YouTube</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910 # סיאול</item>
+		<item>2345969 # Gyeonggi-do</item>
+		<item>28816906 # אינצ\'ון</item>
+		<item>2345966 # Gangwon-do</item>
+		<item>2345967 # Gyeongsangnam לעשות</item>
+		<item>2345970 # Gyeongsangbuk-do</item>
+		<item>28816908 # Gwangju</item>
+		<item>28816909 # דאגו</item>
+		<item>28816902 # Daejeon</item>
+		<item>28816913 # בוסאן</item>
+		<item>28828129 # Sejong</item>
+		<item>28816901 # אולסן</item>
+		<item>2345972 # Jeollanam-do</item>
+		<item>2345964 # Jeollabuk-do</item>
+		<item>28834807 # ג\'ג\'ודו</item>
+		<item>2345973 # Chungcheongnam לעשות</item>
+		<item>2345965 # Chungcheongbuk לעשות</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>יאן</item>
+		<item>פברואר</item>
+		<item>מרץ</item>
+		<item>אַפּרִיל</item>
+		<item>מאי</item>
+		<item>יוני</item>
+		<item>יולי</item>
+		<item>אוגוסט</item>
+		<item>ספטמבר</item>
+		<item>אוקטובר</item>
+		<item>נובמבר</item>
+		<item>דצמבר</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>שמש</item>
+		<item>יום שני</item>
+		<item>ג</item>
+		<item>להתחתן</item>
+		<item>Thu</item>
+		<item>יום שישי</item>
+		<item>ישבה</item>
+    </string-array>
+
+</resources>

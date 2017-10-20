@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Медиа Плаиер</string>
+	<string name="mm_version">ММ-Продуцт-АН Верзија-1.4.2</string>
+	<string name="back">Назад</string>
+	<string name="folder">Фолдер</string>
+	<string name="rootDirectory">/ Мнт / усб</string>
+	<string name="sambarootDirectory">/ Мнт / самба</string>
+	<string name="unsupport_format">Овај формат није подржан</string>
+	<string name="exit_ok">ок</string>
+	<string name="exit_cancel">Отказати</string>
+	<string name="current_time">Тренутно време :</string>
+	<string name="total_duration">Укупно време :</string>
+	<string name="choice">Навигирајте</string>
+	<string name="confirm">Изаберите</string>
+	<string name="exit_title">Изађи</string>
+	<string name="exit_confirm">Потврдите да је уклоните?</string>
+	<string name="the_first_file">Ово је први фајл!</string>
+	<string name="the_last_file">Ово је последњи фајл!</string>
+	<string name="net_disconnect">Мрежа је прекинута, молим вас проверите!</string>
+	<string name="display_pip">Приказ ПИП</string>
+	<string name="hide_pip">Сакриј ПИП</string>
+	<string name="pre_channel">Претходни канал</string>
+	<string name="next_channel">Следећи канал</string>
+	<string name="max_tip">Дошло је до максималног односа скале!</string>
+	<string name="min_tip">Достигнуо је минимални ниво скале!</string>
+	<string name="busy_tip_notice">Учитавање сачекајте!</string>
+	<string name="busy_tip">Систем је заузет, молимо вас да се позовемо касније!</string>
+
+
+	<string name="picture">Слика</string>
+	<string name="song">Сонг</string>
+	<string name="video">Видео</string>
+	<string name="samba">Самба</string>
+	<string name="dlna">ДЛНА</string>
+	<string name="other">Остало</string>
+	<string name="all">Све</string>
+	<string name="page_up">Страна горе</string>
+	<string name="page_down">Страна доле</string>
+	<string name="samba_usr">Корисничко име:</string>
+	<string name="samba_pwd">Лозинка:</string>
+	<string name="samba_confirm">Пријавите се</string>
+	<string name="samba_cancel">Отказати</string>
+	<string name="slash">/</string>
+
+
+	<string name="loading_top">Лоадинг Топ Паге, Плеасе Ваит</string>
+	<string name="loading_usb_device">Учитавање УСБ уређаја</string>
+	<string name="loading_local_resource">Учитавање локалних ресурса, молимо сачекајте</string>
+	<string name="loading_dlna_device">Учитавање ДЛНА уређаја, молимо сачекајте</string>
+	<string name="loading_dlna_resource">Учитавање ДЛНА Ресурса, молимо сачекајте</string>
+	<string name="miss_dlna_device">Учитај ДЛНА ресурс није успео</string>
+	<string name="loading_samba_device">Учитавање САМБА уређаја, молимо сачекајте</string>
+	<string name="loading_samba_resource">Учитавање САМБА ресурса, молимо сачекајте</string>
+	<string name="miss_samba_device">Уцитавање САМБА Ресурса није успело</string>
+	<string name="is_scanning_disc">То је диск за скенирање!</string>
+	<string name="login_wrong_password">Погрешна лозинка</string>
+	<string name="login_failed">Неуспешно се пријавити САМБА</string>
+	<string name="login_other_failed">Пријава САМБА Изузетак</string>
+	<string name="login_title">Пријавите се</string>
+	<string name="network_connect_failed">Повезивање са уређајем није успело, не могу дијелити мрежне ресурсе</string>
+	<string name="network_unconnected">Неповезана мрежа, Молимо проверите и покушајте поново</string>
+	<string name="login_samba">Пријава Самба, молимо сачекајте</string>
+	<string name="logging_out_samba">Одјављивање Самба, молим сачекајте</string>
+	<string name="login_success">Пријава Самба Успешно</string>
+	<string name="mount_failed">Моунт Самба није успео</string>
+
+	<string-array name="data_source">
+		<item>Локални диск уређај</item>
+		<item>Мрежни САМБА уређај</item>
+    </string-array>
+
+	<string name="file_name">Назив документа:</string>
+	<string name="photo_info">Пхото Инфо</string>
+	<string name="file_create_time">Креирај време:</string>
+	<string name="file_size">Величина фајла:</string>
+	<string name="file_format">Формат датотеке:</string>
+	<string name="file_resolution">Резолуција:</string>
+	<string name="display_img_name">Име приказне слике</string>
+	<string name="disk_eject">Диск ејецт</string>
+	<string name="photo_3D_toast">Да не ради у 3Д режиму</string>
+	<string name="photo_set_wallpaper">Пхото валлпапер</string>
+	<string name="first_photo">Прва фотографија!</string>
+	<string name="last_photo">Последња фотографија!</string>
+	<string name="can_not_decode">Фотографија је превелика за анализу!</string>
+	<string name="current_pic">Тренутна слика је:</string>
+	<string name="is_setting_wallpaper">Подешава позадину, молимо сачекајте ...</string>
+	<string name="picture_can_not_decode">Ова слика се не може декодирати!</string>
+	<string name="picture_decoding">Слика се декодира ...</string>
+	<string name="picture_wallpaper">Позадина се подешава ...</string>
+	<string name="picture_decode_failed">Декодирање слике није успело!</string>
+	<string name="picture_can_not_set3d">Није 3Д слика!</string>
+	<string name="picture_playing_time">Интервално време</string>
+	<string name="picture_animation_setting">Анимацијски ефекат</string>
+	<string name="photo_GIF_toast">Не ради у режиму анимације ГИФ-а</string>
+	<string name="photo_out_of_memory_toast">Ниска меморија!</string>
+	<string name="photo_scale_or_rotate_toast">Да не ради у размери или ротирајући начин рада</string>
+	<string name="photo_pan_success_toast">Имаге пан успешно!</string>
+	<string name="photo_pan_failed_toast">Слика пан није успела!</string>
+	<string name="photo_pan_parameter_invalid">Имаге пан параметар неважећи!</string>
+	<string name="not_supported_3D_this_platform">Не подржава 3Д на платформи!</string>
+	<string name="photo_media_play_next">Наставите да репродукујете следећу фотографију?</string>
+	<string name="file_not_support">Датотека није подржана</string>
+	<string name="photo_not_support_scale">Меморија платформе је прениска да би подржала скалу!</string>
+	<string name="photo_setwallpaper_succ">Постави позадину Успјех!</string>
+	<string name="photo_setwallpaper_fail">Постави позадину Фаил!</string>
+
+
+	<string name="music_info">Мусиц Инфо</string>
+	<string name="file_duration">Трајање датотеке:</string>
+	<string name="music_default_time">0</string>
+	<string name="Artist_name">Артист Наме:</string>
+	<string name="file_path">Путања датотеке:</string>
+	<string name="none_lyrics_find">Нисам нашао лирицс!</string>
+	<string name="unknown">Непознат</string>
+	<string name="singer">Сингер:</string>
+	<string name="current_song">Тренутна песма:</string>
+	<string name="exit_music_play">Одредите ли музику?</string>
+	<string name="alert">Алерт</string>
+	<string name="music_media_play_next">Наставите да репродукујете следећу музику?</string>
+
+	<string name="no_video_track">Ниједна видео записа</string>
+	<string name="audio_codec">Аудио кодек:</string>
+	<string name="video_codec">Видео кодек:</string>
+	<string name="duration">Трајање:</string>
+	<string name="default_time">-: -: -</string>
+	<string name="video_default_time">0</string>
+	<string name="choose_time_0">0</string>
+	<string name="choose_time_colon">:</string>
+	<string name="programe_info">Видео Инфо</string>
+	<string name="show_info">Плаи Еррор</string>
+	<string name="buffering">Буфферинг ...</string>
+	<string name="playing">Играње</string>
+	<string name="video_subtitle">Видео титула</string>
+	<string name="video_track">Видео песма</string>
+	<string name="picture_mode">Режим слике</string>
+	<string name="video_mode">Подешавање звука</string>
+	<string name="video_surround">Окрузити</string>
+	<string name="video_spdif">СПДИФ излаз</string>
+	<string name="music_equalizer">Еквилајзер</string>
+	<string name="Color_tem">Температура боје</string>
+	<string name="noise_resuction">Редукција шума</string>
+	<string name="video_thumbnail_mode">Тхумбнаил мод</string>
+	<string name="video_rotate_mode">Ротирај мод</string>
+	<string name="video_channel">Видео канал</string>
+	<string name="video_media_full_resize">Видео пуна величина</string>
+	<string name="video_media_play_next">Наставите да репродукујете следећи видео?</string>
+	<string name="video_media_default">Видео подразумевана величина</string>
+	<string name="video_media_full">Видео пуна величина</string>
+	<string name="video_media_error_unknown">Видео медијска грешка непозната</string>
+	<string name="video_media_error_malformed">Грешка видео медија је погрешна</string>
+	<string name="video_media_error_io">Видео медијска грешка ио</string>
+	<string name="video_media_error_unsupported">Видео медијска грешка није подржана</string>
+	<string name="video_media_error_format_unsupport">Формат видео грешке није подржан</string>
+	<string name="video_media_error_not_connected">Видео медијска грешка није повезана</string>
+	<string name="video_media_error_audio_unsupport">Аудио аудио не подржава видео медијску грешку</string>
+	<string name="video_media_error_video_unsupport">Видео медијска грешка видео није подржана</string>
+	<string name="video_media_error_no_license">Видео медијска грешка није дозвољена</string>
+	<string name="video_media_error_license_expired">Лиценца за видео медијску грешку је истекла</string>
+	<string name="video_media_other_error_unknown">Друга непозната грешка</string>
+	<string name="video_media_error_not_valid">Грешка видео медија није важећа</string>
+	<string name="video_media_error_server_died">Медијски сервер умро</string>
+	<string name="video_media_infor_no_index">Видео нема индекс, није тражио</string>
+	<string name="video_media_infor_no_index_ab">Видео нема индекс, није постављен АБ</string>
+	<string name="video_media_do_forward_info">Молим вас, не превише често! Интервал би требао> 600 мс</string>
+	<string name="video_audio_track_switch_info">Молим вас, не превише често мењајте аудио запис!</string>
+	<string name="video_thumbnail_switch_info">Молимо вас да не отварате / затварате режим снимања исувише често!</string>
+	<string name="video_no_support_two_4k">Не подржава два 4к видео записа.</string>
+	<string name="video_no_support_seamless_dualscreen">Беспрекидна репродукција у двоструком режиму није подржана!</string>
+	<string name="video_iso_tip">Не подржава блу-раи ИСО датотека!</string>
+	<string name="open_file_fail">Није могуће отворити датотеку!</string>
+	<string name="subtitle_type">Тип титла</string>
+	<string name="subtitle_out_path">Пут из титла</string>
+	<string name="subtitle_in_no">Број поднаслова</string>
+	<string name="subtitle_language">Језик титла</string>
+	<string name="subtitle_color">Боја боја</string>
+	<string name="subtitle_font">Субтитле Фонт</string>
+	<string name="subtitle_font_size">Величина слова титла</string>
+	<string name="subtitle_frame">Фраме титлова</string>
+	<string name="subtitle_area">Подручје поднаслова</string>
+	<string name="subtitle_adjust">Субтитле Адјуст</string>
+	<string name="subtitleList">Листа поднаслова</string>
+	<string name="subtitle_unit">Госпођа</string>
+	<string name="playList">ПлаиЛист</string>
+	<string name="playmusictip">Притисните Мену да бисте уклонили музику са листе</string>
+	<string name="playtip">Притисните Мену да бисте уклонили видео из листе</string>
+	<string name="subtitle_setting">Поднаслов подешавања</string>
+	<string name="a_b_section_repeat">Поновите А-Б Секција</string>
+	<string name="section_replay">Реплаи Сецтион</string>
+	<string name="set_begin_a">Поставите тачку А</string>
+	<string name="set_begin_b">Поставите тачку Б</string>
+	<string name="audio_track_count">Трацк Цоунт</string>
+	<string name="audio_track_number">Трацк Нумбер</string>
+	<string name="audio_track_duration">Трајање лета</string>
+	<string name="audio_track_language">Трацк Лангуаге</string>
+	<string name="audio_track_codec">Трацк Цодец</string>
+	<string name="audio_track_channel">Трацк Цханнел</string>
+	<string name="audio_track_name">Име пјесме</string>
+	<string name="audio_track_setting">Трацк Сеттинг</string>
+	<string name="picture_mode_contrast">Контраст</string>
+	<string name="picture_mode_brightness">Светлост</string>
+	<string name="picture_mode_hue">Нијанса</string>
+	<string name="picture_mode_sharpness">Оштрина</string>
+	<string name="picture_mode_color">Боја</string>
+	<string name="picture_mode_backlight">Бацк Лигхт</string>
+	<string name="video_mode_120hz">120Хз</string>
+	<string name="video_mode_500Hz">500Хз</string>
+	<string name="video_mode_1_5KHz">1.5КХз</string>
+	<string name="video_mode_5KHz">5КХз</string>
+	<string name="video_mode_10KHz">10КХз</string>
+	<string name="video_mode_bass">Бас</string>
+	<string name="video_mode_treble">Требле</string>
+	<string name="video_mode_balance">Баланс</string>
+	<string name="video_mode_kybass">КИ ТХУНДЕР</string>
+	<string name="video_mode_kylevel">ТХУНДЕР Левел</string>
+	<string name="point_a">Тачка А позиција</string>
+	<string name="point_b">Тачка Б позиција</string>
+	<string name="one_times_speed">Нормална брзина</string>
+	<string name="x_times_speed">Тимес Спеед</string>
+	<string name="playing_settings">Плаиинг Сеттингс</string>
+	<string name="open_ab_repeat">Отвори А-Б Поновите</string>
+	<string name="set_point_a_first">Поставите тачку А прво</string>
+	<string name="video_three_d_setting">Видео 3Д подешавање</string>
+	<string name="video_rotate_degrees_setting">Видео Ротирање степена подешавања</string>
+	<string name="video_rotate_degrees_setting_info">Ово подешавање степена ће бити ефикасно на следећој плаи-у</string>
+
+	<string name="video_picture_setting">Подешавање слике</string>
+	<string name="video_sound_setting">Постављање видео звука</string>
+	<string name="music_sound_model">Постављање ЕК-а</string>
+	<string name="music_sound_setting">Подешавање звука</string>
+	<string name="video_3D_none">ВАН</string>
+	<string name="video_3D_side_by_side">СБС</string>
+	<string name="video_3D_top_bottom">ТБ</string>
+	<string name="video_3D_frame_packing">ФП</string>
+	<string name="video_3D_line_alternative">ЛА</string>
+	<string name="video_3D_2dto3d">2Д-3Д</string>
+	<string name="video_3D_3dto2d">3Д-2Д</string>
+	<string name="video_3D_auto">Ауто</string>
+	<string name="video_3D_check_board">ЦБ</string>
+	<string name="video_3D_pixel_alternative">ПА</string>
+	<string name="video_3D_frame_alternative">ФА</string>
+	<string name="video_3D_count">ЦОУНТ</string>
+	<string name="video_3D_switch_info">Молим вас, не отварајте / затворите 3Д превише често!</string>
+	<string name="video_3D_auto_detect_info">Аутоматско откривање 3Д није успео, молимо изаберите мањи формат у 3д формату!</string>
+
+	<string name="aspect_ratio_16X9">Аспецт ратио је 16: 9</string>
+	<string name="aspect_ratio_4X3">Аспецт ратио је 4: 3</string>
+	<string name="aspect_ratio_default">Аспецт ратио је подразумевано</string>
+	<string name="can_not_open_dual">Не може отворити дуал декодирање у 3Д режиму</string>
+	<string name="can_not_open_3D">Не могу отворити 3Д у режиму дуал декодирања</string>
+	<string name="can_not_open_3D_pip">Не може отворити 3Д у ПИП режиму</string>
+	<string name="video_start_time">Време почетка видео записа</string>
+	<string name="video_buffer_time">Буффер Тиме:</string>
+	<string name="video_first_video_frame_time">Пусх Фирст Фраме Тиме:</string>
+	<string name="video_breakpoint_play">Прескочите до последње игре?</string>
+	<string name="video_breakpoint">Настави Плаи</string>
+	<string name="can_not_open_dual_pip">Не може отворити дуал декодирање у режиму ПИП / ПОП / ДУАЛВИЕВ</string>
+	<string name="can_not_open_dual_4kVideo">Не може отворити дуал декодирање у режиму 4к1к / 4к2к</string>
+	<string name="can_not_open_dual_HEVC_Video">Не може отворити дуал декодирање у Х.265 / ХЕВЦ моду</string>
+	<string name="can_not_open_dual_Thumbnail_Video">Не може отворити двоструку децоду у режиму Тхумбнаил</string>
+	<string name="can_not_open_dual_this_platform">Не може отворити дуал декодирање на платформи!</string>
+	<string name="can_not_open_thumbnail_dual_Video">Не може да отвори сличицу у режиму Дуал Децоде</string>
+	<string name="can_not_open_thumbnail_4kVideo">Не може да отвори сличицу у режиму 4к1к / 4к2к</string>
+	<string name="can_not_open_thumbnail_3DMode">Не може да отвори сличицу у 3Д режиму</string>
+	<string name="can_not_open_thumbnail_this_platform">Тхумбнаил није подржан на платформи!</string>
+	<string name="can_not_open_dual_rotate_mode">Не може отворити двоструку децоду у Ротате моду</string>
+	<string name="can_not_open_rotate_dual_mode">Не може да се отвори ротира у Дуал Виев моду</string>
+	<string name="can_not_open_rotate">Ова платформа не подржава ротацију</string>
+	<string name="can_not_support_aspect_ratio">Тренутни видео не може подржати размерје слике</string>
+
+
+	<string name="video_divx_title">Наслов</string>
+	<string name="video_divx_edition">Издање</string>
+	<string name="video_divx_chapter">Поглавље</string>
+	<string name="video_divx_autochapter">АутоЦхаптер</string>
+
+	<string name="video_divx_title_resume">ДивКс Ресуме</string>
+	<string name="video_divx_resume">Настављате одакле сте зауставили у последњој игрици?</string>
+
+	<string name="video_divx_vod">ДивКс (Р) ВОД</string>
+
+	<string name="divx_vod_drm_register">Морате да региструјете свој уређај да бисте репродуковали заштићене видео снимке ДивКс</string>
+	<string name="divx_vod_drm_registration_code">Регистрациони код:</string>
+	<string name="divx_vod_drm_register_at">Региструјте се</string>
+
+	<string name="divx_vod_drm_deregistration_confirm">Ваш уређај је већ регистриран \ н \ нЈеси ли сигурни да желите да одјавите?</string>
+	<string name="divx_vod_drm_deregistration_code">Шифра за дерегистрацију:</string>
+	<string name="divx_vod_drm_deregister_at">Дерегистер ат</string>
+	<string name="divx_vod_drm_deregister">Наставите са регистрацијом?</string>
+
+	<string name="divx_vod_drm_authorization_error">Ваш уређај није овлашћен да репродукује овај видео заштићен од ДивКс</string>
+
+	<string name="divx_vod_drm_rental">Ово издавање ДивКс-а је користило</string>
+	<string name="divx_vod_drm_views">Виевс</string>
+	<string name="divx_vod_drm_rental_expired">Ово издавање ДивКс је истекло.</string>
+	<string name="divx_vod_drm_rental_confirm">Настави?</string>
+
+	<string name="divx_vod_drm_unauthorized_version">Неовлашћена ДивКс ДРМ верзија</string>
+
+	<string name="divx_vod_drm_unauthorized_video">Неовлашћени видео излаз. Молим пробајте још један интерфејс.</string>
+
+	<string name="video_divx_vod_url">Хттп://вод.дивк.цом</string>
+
+
+
+	<string name="subtitle_0_value_1">Прикажи спољни поднаслов</string>
+	<string name="subtitle_0_value_2">Схов Иннер Субтитле</string>
+	<string name="subtitle_1_value_1">Изаберите Путања</string>
+	<string name="subtitle_1_value_2">Нема спољног титла</string>
+	<string name="subtitle_2_value_1">Ниједан</string>
+	<string name="subtitle_2_value_2">Субтитле</string>
+	<string name="subtitle_3_value_1">Непознат</string>
+	<string name="subtitle_3_value_2">Ниједан</string>
+	<string name="subtitle_4_value_1">Уобичајено</string>
+	<string name="subtitle_4_value_2">Санс Сериф</string>
+	<string name="subtitle_4_value_3">Моноспаце</string>
+	<string name="subtitle_5_value_1">Велико</string>
+	<string name="subtitle_5_value_2">Средње</string>
+	<string name="subtitle_5_value_3">Мали</string>
+	<string name="subtitle_6_value_1">бео</string>
+	<string name="subtitle_6_value_2">Црн</string>
+	<string name="subtitle_6_value_3">Плави</string>
+	<string name="subtitle_7_value_1">Не</string>
+	<string name="subtitle_7_value_2">да</string>
+	<string name="subtitle_8_value_1">Дно</string>
+	<string name="subtitle_8_value_2">Врх</string>
+	<string name="subtitle_9_value">0 мс</string>
+	
+    <string-array name="subtitle_setting_opt">
+		<item>Прикажи спољни поднаслов</item>
+		<item>Изаберите Пут</item>
+		<item>Ниједан</item>
+		<item>Непознат</item>
+		<item>Уобичајено</item>
+		<item>Средње</item>
+		<item>бео</item>
+		<item>Не</item>
+		<item>Дно</item>
+		<item>0 мс</item>
+    </string-array>
+
+
+
+	<string name="subtitle_change_msg">Спољни поднаслов, молим вас промените у унутрашњост!</string>
+	<string name="subtitle_change_path">Унутрашњи титл, молимо вас да промените на екстерну!</string>
+	<string name="choose_time_failed">Не може локација!</string>
+	<string name="choose_time_invalid">Неисправно време, молим поновите!</string>
+	<string name="subtitle_change_invalid">Имаге цаптион не подржава ову операцију!</string>
+	<string name="external_subtitle_setting_operation_invalid">Не подржава ову операцију! Молимо проверите да ли је подешен спољни титл за титл!</string>
+
+	<string-array name="play_setting_opt">
+		<item>Отвори</item>
+		<item>Близу</item>
+		<item>Отвори</item>
+		<item>Близу</item>
+		<item>Близу</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+	<string name="play_setting_0_value_1">НА</string>
+	<string name="play_setting_0_value_2">ВАН</string>
+	<string name="video_size_unknown">непознат</string>
+
+	<string-array name="audio_track_setting_opt">
+		<item>Аудио запис 1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>непознат</item>
+		<item>Неодређено</item>
+		<item>Неодређено</item>
+		<item>Неодређено</item>
+	</string-array>
+	<string-array name="picture_setting_opt">
+		<!-- Skye add for onida-->
+		<item>Лаганост</item>
+		<item>Новости</item>
+		<item>Биоскоп</item>
+		<item>Нормално</item>
+		<item>Игра</item>
+		<item>Ауто</item>
+		<item>ПЦ</item>
+		<item>Живописан</item>
+		<item>ЕцоПовер</item>
+		<item>Спорт</item>
+	</string-array>
+	<string-array name="video_setting_opt">
+		<item>Нормално</item>
+		<item>Музика</item>
+		<item>Филм</item>
+		<item>Раван</item>
+	</string-array>
+	<string-array name="video_color_temperature">
+		<item>Хладан</item>
+		<item>Нормално</item>
+		<item>Топло</item>
+	</string-array>
+	<string-array name="noise_reduuction">
+		<item>Ван</item>
+		<item>Ниско</item>
+		<item>Средње</item>
+		<item>Високо</item>
+	</string-array>
+	<string-array name="surround_onoff">
+		<item>Ван</item>
+		<item>на</item>
+	</string-array>
+	<string-array name="spdif_model">
+		<item>ПЦМ</item>
+		<item>ВАН</item>
+		<item>РАВ</item>
+	</string-array>
+	<string-array name="tv_sound_mode_types">
+		<item>Нормално</item>
+		<item>Музика</item>
+		<item>Филм</item>
+		<item>Раван</item>
+	</string-array>
+
+	<string name="audio_track_setting_0_value_1">Аудио трацк</string>
+	<string name="subtitle_setting_0_value_1">Унутрашњи</string>
+	<string name="subtitle_setting_0_value_2">Спољни</string>
+
+	<string name="video_goldenlefteye_mode">Златно лево око</string>
+	<string name="dual_mode_not_support_golden_left_eye">Режим двоструког декодирања не може подржати златно лево око!</string>
+	<string name="stb_not_support_golden_left_eye">Ова платформа не може подржати златно лево око!</string>
+	<string name="menu_exit_confirm">Обришите датотеку са локалног? Непоправљив</string>
+
+	<string name="edit_copy">Копирај</string>
+	<string name="edit_delete">Избриши</string>
+	<string name="edit_move">Потез</string>
+	<string name="edit_paste">Пасте</string>
+	<string name="edit_rename">Преименуј</string>
+	<string name="str_cancel">Отказати</string>
+	<string name="str_del">Избрисати</string>
+	<string name="str_sure_del">Потврдите брисање</string>
+	<string name="str_sure_del_ask">Да ли сте сигурни да избришете?</string>
+	<string name="write_error">Пиши дозвола одбијена</string>
+	<string name="read_error">Читај грешку</string>
+
+	<string name="str_rename_notice">Пажња!</string>
+	<string name="str_rename_file_exist">Име датотеке постоји, да ли желите да покријете?</string>
+
+	<string name="str_copyingtitle">Молим те сачекај тренутак.</string>
+	<string name="str_copyingcontext">Копирање ...</string>
+	<string name="str_copystop">Заустави копирање</string>
+	<string name="str_source">Извор:</string>
+	<string name="str_target">Циљ:</string>
+
+	<string name="str_delcontext">Брисање ...</string>
+
+
+	<string name="err_target_same">Не можете копирати датотеку на исту путању!</string>
+	<string name="err_target_child">Циљна стаза је грешка!</string>
+
+
+	<string name="copy_revocer_text">  Постоји, да ли сте сигурни да ћете се опоравити?</string>
+	<string name="copy_revocer_yes">Опоравити се</string>
+	<string name="copy_revocer_no">Отказати</string>
+	<string name="full">Простор је пун, копије датотека не успевају</string>
+	<string name="copy_interrupt">НетВорк је искључен, копија је прекинута</string>
+	<string name="copy_get_file_count">Израчунајте бројеве датотека</string>
+	<string name="copy_fail">Цопи Фаилед</string>
+	<string name="ok">ок</string>
+	<string name="openning">Отварање, молимо сачекајте ......</string>
+	<string name="del_error">Пропасти</string>
+	<string name="rename_error">Име датотеке садржи посебне знакове, име датотеке се не мења</string>
+	<string name="rename_fail">Филе ренаме фаил</string>
+	<string name="err_not_free_space">Нема довољно простора!</string>
+	<string name="error_invalid_path">Инвалид Патх</string>
+	<string name="str_OK">ок</string>
+	<string name="str_rename_text">Преименуј на:</string>
+	<string name="str_usb1_name">УСБ</string>
+	<string name="str_sdcard_name">СД картица</string>
+
+	<string name="video_media_play_prev">Наставите да репродукујете претходни видео?</string>
+
+
+
+	<string name="toast_scale">Скала:% .1ф</string>
+	<string name="toast_rotate">Ротирај:% .1ф</string>
+
+
+
+	<string name="str_internal_storage">Интерна меморија</string>
+	<string name="str_external_sdcard">Спољни Сдцард</string>
+
+</resources>

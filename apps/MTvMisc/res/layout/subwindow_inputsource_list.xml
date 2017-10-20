@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="333dip"
+    android:layout_gravity="center"
+    android:background="@drawable/list_menu_img_bg">
+    <LinearLayout style="@style/subwindow_inputsource_memu_style">
+        <ListView
+            android:id="@+id/ListView_subwindow_inputsource"
+            style="@style/subwindow_inputsource_listView_style" />
+    </LinearLayout>
+</LinearLayout>

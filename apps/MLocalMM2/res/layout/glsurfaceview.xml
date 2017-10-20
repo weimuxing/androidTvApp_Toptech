@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/glsurfaceview"
+             android:layout_gravity="bottom"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+
+    <LinearLayout
+            android:id="@+id/video_glsurfaceview_layout"
+            android:visibility="gone"
+            android:layout_marginRight="30dip"
+            android:layout_width="950dip"
+            android:layout_height="150dip"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:background="@android:color/transparent">
+
+        <ImageView
+                android:id="@+id/thumbnail_topline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/line" >
+        </ImageView>
+
+        <com.jrm.localmm.business.video.VideoGLSurfaceView
+                android:id="@+id/video_glsurfaceview"
+                android:visibility="gone"
+                android:layout_width="950dip"
+                android:layout_height="150dip" />
+
+        <ImageView
+                android:id="@+id/thumbnail_bottomline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/line" >
+        </ImageView>
+    </LinearLayout>
+
+</FrameLayout>

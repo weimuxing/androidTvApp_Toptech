@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="weather_condition">
+		<item>竜巻</item>
+		<item>トロピカルストーム</item>
+		<item>ハリケーン</item>
+		<item>重度の雷雨</item>
+		<item>雷雨</item>
+		<item>混ざった雨と雪</item>
+		<item>混在した雨と泥</item>
+		<item>混合された雪と泥</item>
+		<item>冷凍霧雨</item>
+		<item>霧雨</item>
+		<item>凍った雨</item>
+		<item>シャワー</item>
+		<item>シャワー</item>
+		<item>吹雪</item>
+		<item>ライトスノーシャワー</item>
+		<item>吹いてる雪</item>
+		<item>雪</item>
+		<item>雹</item>
+		<item>おやすみ</item>
+		<item>ほこり</item>
+		<item>霧の</item>
+		<item>ヘイズ</item>
+		<item>スモーキー</item>
+		<item>塊茎</item>
+		<item>ウィンディ</item>
+		<item>コールド</item>
+		<item>曇り</item>
+		<item>ほとんど曇っている</item>
+		<item>ほとんど曇っている</item>
+		<item>晴れときどき曇り</item>
+		<item>晴れときどき曇り</item>
+		<item>クリア</item>
+		<item>サニー</item>
+		<item>公正</item>
+		<item>公正</item>
+		<item>混合雨と雹</item>
+		<item>ホット</item>
+		<item>孤立した雷雨</item>
+		<item>散在した雷雨</item>
+		<item>散在した雷雨</item>
+		<item>散らばったシャワー</item>
+		<item>大雪</item>
+		<item>散らばった雪のシャワー</item>
+		<item>大雪</item>
+		<item>晴れときどき曇り</item>
+		<item>雷雨</item>
+		<item>雪のシャワー</item>
+		<item>孤立した雷雨</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>ドロップボックス</item>
+		<item>Appstore</item>
+				  
+		<item>Appライブラリ</item>
+		<item>アプリケーションマネージャ</item>
+		<item>設定</item>
+		<item>ブラウザ</item>
+		<item>Skype</item>
+		<item>YouTube</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910＃ソウル</item>
+		<item>2345969＃京畿道</item>
+		<item>28816906＃仁川</item>
+		<item>2345966＃江原道</item>
+		<item>2345967＃慶尚南道</item>
+		<item>2345970＃慶尚北道</item>
+		<item>28816908＃光州</item>
+		<item>28816909＃大邱</item>
+		<item>28816902＃大田</item>
+		<item>28816913＃釜山</item>
+		<item>2882​​8129＃セジョン</item>
+		<item>28816901＃蔚山</item>
+		<item>2345972＃全羅南道</item>
+		<item>2345964＃全羅北道</item>
+		<item>28834807＃済州</item>
+		<item>2345973＃忠清南道</item>
+		<item>2345965＃忠清北道</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>Jan</item>
+		<item>2月</item>
+		<item>行進</item>
+		<item>4月</item>
+		<item>5月</item>
+		<item>六月</item>
+		<item>7月</item>
+		<item>8月</item>
+		<item>9月</item>
+		<item>10月</item>
+		<item>11月</item>
+		<item>12月</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>太陽</item>
+		<item>月</item>
+		<item>火</item>
+		<item>結婚した</item>
+		<item>木</item>
+		<item>金</item>
+		<item>土</item>
+    </string-array>
+
+</resources>

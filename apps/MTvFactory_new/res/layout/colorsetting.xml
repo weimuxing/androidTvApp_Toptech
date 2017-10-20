@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dip"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/str_textview_factory_pq_colorsetting"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+
+    <!-- ICC -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_colorsetting_icc"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusUp="@+id/linearlayout_factory_pq_colorsetting_ihc"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_colorsetting_icc"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_colorsetting_icc"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+        <!-- IBC -->
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_colorsetting_ibc"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_colorsetting_ibc"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_colorsetting_ibc"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+        <!-- IHC -->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_pq_colorsetting_ihc"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusDown="@+id/linearlayout_factory_pq_colorsetting_icc"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp" >
+
+            <TextView
+                android:id="@+id/textview_factory_pq_colorsetting_ihc"
+                android:layout_width="133dip"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_textview_factory_pq_colorsetting_ihc"
+                android:textColor="#ffffff"
+                android:textSize="13dip" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

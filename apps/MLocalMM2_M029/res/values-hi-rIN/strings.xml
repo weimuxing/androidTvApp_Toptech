@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">मीडिया प्लेयर</string>
+	<string name="mm_version">एमएम-उत्पाद-एएन संस्करण-1.4.2</string>
+	<string name="back">वापस</string>
+	<string name="folder">फ़ोल्डर</string>
+	<string name="rootDirectory">/ MNT / usb</string>
+	<string name="sambarootDirectory">/ MNT / साम्बा</string>
+	<string name="unsupport_format">यह प्रारूप समर्थित नहीं है</string>
+	<string name="exit_ok">ठीक</string>
+	<string name="exit_cancel">रद्द करना</string>
+	<string name="current_time">वर्तमान समय :</string>
+	<string name="total_duration">कुल समय :</string>
+	<string name="choice">नेविगेट</string>
+	<string name="confirm">चुनते हैं</string>
+	<string name="exit_title">बाहर जाएं</string>
+	<string name="exit_confirm">इसे हटाने की पुष्टि करें?</string>
+	<string name="the_first_file">यह पहली फाइल है!</string>
+	<string name="the_last_file">यह अंतिम फाइल है!</string>
+	<string name="net_disconnect">नेट डिस्कनेक्ट है, कृपया चेक करें!</string>
+	<string name="display_pip">प्रदर्शन पीआईपी</string>
+	<string name="hide_pip">पीआईपी छुपाएं</string>
+	<string name="pre_channel">पिछला चैनल</string>
+	<string name="next_channel">अगला चैनल</string>
+	<string name="max_tip">मैक्सिमियम स्केल अनुपात तक पहुंचा!</string>
+	<string name="min_tip">न्यूनतम स्केल अनुपात तक पहुंचा!</string>
+	<string name="busy_tip_notice">लोड हो रहा है कृपया प्रतीक्षा करें!</string>
+	<string name="busy_tip">सिस्टम व्यस्त है, कृपया बाद में पुन: प्रयास करें!</string>
+
+
+	<string name="picture">चित्र</string>
+	<string name="song">गाना</string>
+	<string name="video">वीडियो</string>
+	<string name="samba">सांबा</string>
+	<string name="dlna">DLNA</string>
+	<string name="other">अन्य</string>
+	<string name="all">सब</string>
+	<string name="page_up">पन्ना ऊपर</string>
+	<string name="page_down">पन्ना निचे</string>
+	<string name="samba_usr">उपयोगकर्ता नाम:</string>
+	<string name="samba_pwd">पासवर्ड:</string>
+	<string name="samba_confirm">लॉग इन करें</string>
+	<string name="samba_cancel">रद्द करना</string>
+	<string name="slash">/</string>
+
+
+	<string name="loading_top">शीर्ष पृष्ठ लोड हो रहा है, कृपया प्रतीक्षा करें</string>
+	<string name="loading_usb_device">यूएसबी डिवाइस लोड हो रहा है</string>
+	<string name="loading_local_resource">स्थानीय संसाधन लोड हो रहा है, कृपया प्रतीक्षा करें</string>
+	<string name="loading_dlna_device">DLNA डिवाइस लोड हो रहा है, कृपया प्रतीक्षा करें</string>
+	<string name="loading_dlna_resource">DLNA संसाधन लोड हो रहा है, कृपया प्रतीक्षा करें</string>
+	<string name="miss_dlna_device">DLNA संसाधन लोड विफल</string>
+	<string name="loading_samba_device">SAMBA डिवाइस लोड हो रहा है, कृपया प्रतीक्षा करें</string>
+	<string name="loading_samba_resource">सम्बा संसाधन लोड हो रहा है, कृपया प्रतीक्षा करें</string>
+	<string name="miss_samba_device">लोड SAMBA संसाधन असफल</string>
+	<string name="is_scanning_disc">यह डिस्क स्कैन कर रहा है!</string>
+	<string name="login_wrong_password">गलत पासवर्ड</string>
+	<string name="login_failed">लॉग इन SAMBA करने में विफल</string>
+	<string name="login_other_failed">लॉग इन सैमबा अपवाद</string>
+	<string name="login_title">लॉग इन करें</string>
+	<string name="network_connect_failed">कनेक्ट करने के लिए डिवाइस विफल, नेटवर्क संसाधन साझा नहीं कर सकता</string>
+	<string name="network_unconnected">असंबद्ध नेटवर्क, कृपया चेक करें और पुन: प्रयास करें</string>
+	<string name="login_samba">लॉग इन साम्बा, कृपया प्रतीक्षा करें</string>
+	<string name="logging_out_samba">सांबा लॉग आउट करना, कृपया प्रतीक्षा करें</string>
+	<string name="login_success">लॉग इन साम्बा सफल</string>
+	<string name="mount_failed">पर्वत साम्बा विफल</string>
+
+	<string-array name="data_source">
+		<item>स्थानीय डिस्क डिवाइस</item>
+		<item>नेटवर्क संबा डिवाइस</item>
+    </string-array>
+
+	<string name="file_name">फ़ाइल का नाम:</string>
+	<string name="photo_info">फोटो जानकारी</string>
+	<string name="file_create_time">निर्माण का समय:</string>
+	<string name="file_size">फाइल का आकार:</string>
+	<string name="file_format">फाइल प्रारूप:</string>
+	<string name="file_resolution">संकल्प:</string>
+	<string name="display_img_name">प्रदर्शन चित्र का नाम</string>
+	<string name="disk_eject">डिस्क बेदखल</string>
+	<string name="photo_3D_toast">3 डी मोड में काम नहीं करने के लिए</string>
+	<string name="photo_set_wallpaper">फोटो वॉलपेपर</string>
+	<string name="first_photo">पहली तस्वीर!</string>
+	<string name="last_photo">पिछली तस्वीर!</string>
+	<string name="can_not_decode">फ़ोटो का विश्लेषण करने के लिए बहुत बड़ा है!</string>
+	<string name="current_pic">वर्तमान तस्वीर है:</string>
+	<string name="is_setting_wallpaper">यह वॉलपेपर सेट कर रहा है, कृपया प्रतीक्षा करें ...</string>
+	<string name="picture_can_not_decode">यह चित्र डीकोड नहीं कर सकता!</string>
+	<string name="picture_decoding">तस्वीर डीकोडिंग है ...</string>
+	<string name="picture_wallpaper">वॉलपेपर सेट हो रहा है ...</string>
+	<string name="picture_decode_failed">तस्वीर डीकोड विफल!</string>
+	<string name="picture_can_not_set3d">3 डी तस्वीर नहीं है!</string>
+	<string name="picture_playing_time">अंतराल समय खेल रहा है</string>
+	<string name="picture_animation_setting">एनिमेशन प्रभाव</string>
+	<string name="photo_GIF_toast">जीआईएफ एनीमेशन मोड में काम नहीं करना</string>
+	<string name="photo_out_of_memory_toast">कम स्मृति!</string>
+	<string name="photo_scale_or_rotate_toast">पैमाने पर या घुमाएगी मोड में काम नहीं करना</string>
+	<string name="photo_pan_success_toast">छवि सफलतापूर्वक पैन करें!</string>
+	<string name="photo_pan_failed_toast">छवि पैन विफल!</string>
+	<string name="photo_pan_parameter_invalid">छवि पैन पैरामीटर अमान्य!</string>
+	<string name="not_supported_3D_this_platform">मंच में 3 डी का समर्थन नहीं!</string>
+	<string name="photo_media_play_next">अगली तस्वीर खेलने के लिए जारी रखें?</string>
+	<string name="file_not_support">फ़ाइल समर्थित नहीं है</string>
+	<string name="photo_not_support_scale">मंच का समर्थन करने के लिए प्लेटफ़ॉर्म मेमोरी बहुत कम है!</string>
+	<string name="photo_setwallpaper_succ">सेट वॉलपेपर सफलता!</string>
+	<string name="photo_setwallpaper_fail">सेट अप वॉलपेपर विफल!</string>
+
+
+	<string name="music_info">संगीत जानकारी</string>
+	<string name="file_duration">फ़ाइल अवधि:</string>
+	<string name="music_default_time">0</string>
+	<string name="Artist_name">कलाकार का नाम:</string>
+	<string name="file_path">फ़ाइल पथ:</string>
+	<string name="none_lyrics_find">गीत नहीं मिला!</string>
+	<string name="unknown">अनजान</string>
+	<string name="singer">गायक:</string>
+	<string name="current_song">वर्तमान गीत:</string>
+	<string name="exit_music_play">निर्धारित संगीत बाहर खेला?</string>
+	<string name="alert">चेतावनी</string>
+	<string name="music_media_play_next">अगले संगीत खेलना जारी रखें?</string>
+
+	<string name="no_video_track">कोई वीडियो ट्रैक नहीं</string>
+	<string name="audio_codec">ऑडियो कोडेक:</string>
+	<string name="video_codec">वीडियो कोडेक:</string>
+	<string name="duration">अवधि:</string>
+	<string name="default_time">-: -: -</string>
+	<string name="video_default_time">0</string>
+	<string name="choose_time_0">0</string>
+	<string name="choose_time_colon">:</string>
+	<string name="programe_info">वीडियो जानकारी</string>
+	<string name="show_info">चलायें त्रुटि</string>
+	<string name="buffering">बफरिंग ...</string>
+	<string name="playing">खेल रहे हैं</string>
+	<string name="video_subtitle">वीडियो उपशीर्षक</string>
+	<string name="video_track">वीडियो ट्रैक</string>
+	<string name="picture_mode">चित्र मोड</string>
+	<string name="video_mode">ध्वनि सेटिंग</string>
+	<string name="video_surround">चारों ओर से घेरना</string>
+	<string name="video_spdif">SPDIF आउटपुट</string>
+	<string name="music_equalizer">तुल्यकारक</string>
+	<string name="Color_tem">रंग का तापमान</string>
+	<string name="noise_resuction">शोर में कमी</string>
+	<string name="video_thumbnail_mode">थंबनेल मोड</string>
+	<string name="video_rotate_mode">रोटेट मोड</string>
+	<string name="video_channel">वीडियो चैनल</string>
+	<string name="video_media_full_resize">वीडियो पूर्ण आकार</string>
+	<string name="video_media_play_next">अगले वीडियो चलाने के लिए जारी रखें?</string>
+	<string name="video_media_default">वीडियो डिफ़ॉल्ट आकार</string>
+	<string name="video_media_full">वीडियो पूर्ण आकार</string>
+	<string name="video_media_error_unknown">वीडियो मीडिया त्रुटि अज्ञात</string>
+	<string name="video_media_error_malformed">वीडियो मीडिया त्रुटि गलत है</string>
+	<string name="video_media_error_io">वीडियो मीडिया त्रुटि Iio</string>
+	<string name="video_media_error_unsupported">वीडियो मीडिया त्रुटि असमर्थित</string>
+	<string name="video_media_error_format_unsupport">वीडियो मीडिया त्रुटि प्रारूप असमर्थ</string>
+	<string name="video_media_error_not_connected">वीडियो मीडिया त्रुटि जुड़ी नहीं है</string>
+	<string name="video_media_error_audio_unsupport">वीडियो मीडिया त्रुटि ऑडियो असमर्थित</string>
+	<string name="video_media_error_video_unsupport">वीडियो मीडिया त्रुटि वीडियो असमर्थित</string>
+	<string name="video_media_error_no_license">वीडियो मीडिया त्रुटि कोई लाइसेंस नहीं</string>
+	<string name="video_media_error_license_expired">वीडियो मीडिया त्रुटि लाइसेंस की समय सीमा समाप्त हो गई</string>
+	<string name="video_media_other_error_unknown">अन्य अज्ञात त्रुटि</string>
+	<string name="video_media_error_not_valid">वीडियो मीडिया त्रुटि मान्य नहीं है</string>
+	<string name="video_media_error_server_died">मीडिया सर्वर का निधन</string>
+	<string name="video_media_infor_no_index">वीडियो कोई सूचकांक नहीं है, यह तलाश नहीं है</string>
+	<string name="video_media_infor_no_index_ab">वीडियो कोई सूचकांक नहीं है, यह एबी सेट नहीं है</string>
+	<string name="video_media_do_forward_info">कृपया बहुत बार एफएफ न करें! अंतराल चाहिए> 600 एमएस</string>
+	<string name="video_audio_track_switch_info">कृपया ऑडियो ट्रैक को बहुत बार बदल नहींें!</string>
+	<string name="video_thumbnail_switch_info">कृपया अक्सर थंबनेल मोड को न खोलें / बंद न करें!</string>
+	<string name="video_no_support_two_4k">दो 4k वीडियो का समर्थन नहीं करता है</string>
+	<string name="video_no_support_seamless_dualscreen">दोहरी मोड में निर्बाध खेल असमर्थित है!</string>
+	<string name="video_iso_tip">ब्लू-रे आईएसओ फाइल द्वारा समर्थित नहीं है!</string>
+	<string name="open_file_fail">फाइल को खोलने में असमर्थ!</string>
+	<string name="subtitle_type">उपशीर्षक प्रकार</string>
+	<string name="subtitle_out_path">उपशीर्षक मार्ग</string>
+	<string name="subtitle_in_no">उपशीर्षक संख्या</string>
+	<string name="subtitle_language">उपशीर्षक भाषा</string>
+	<string name="subtitle_color">उपशीर्षक रंग</string>
+	<string name="subtitle_font">उपशीर्षक फ़ॉन्ट</string>
+	<string name="subtitle_font_size">उपशीर्षक फ़ॉन्ट आकार</string>
+	<string name="subtitle_frame">उपशीर्षक फ़्रेम</string>
+	<string name="subtitle_area">उपशीर्षक क्षेत्र</string>
+	<string name="subtitle_adjust">उपशीर्षक समायोजित करें</string>
+	<string name="subtitleList">उपशीर्षक सूची</string>
+	<string name="subtitle_unit">सुश्री</string>
+	<string name="playList">प्लेलिस्ट में जोड़ें</string>
+	<string name="playmusictip">सूची से संगीत को निकालने के लिए मेनू दबाएं</string>
+	<string name="playtip">सूची से वीडियो को निकालने के लिए मेनू दबाएं</string>
+	<string name="subtitle_setting">उपशीर्षक सेटिंग</string>
+	<string name="a_b_section_repeat">ए-बी खंड पुनरावृत्ति</string>
+	<string name="section_replay">अनुभाग रिप्ले</string>
+	<string name="set_begin_a">बिंदु ए सेट करें</string>
+	<string name="set_begin_b">बिंदु बी सेट करें</string>
+	<string name="audio_track_count">ट्रैक गणना</string>
+	<string name="audio_track_number">ट्रैक संख्या</string>
+	<string name="audio_track_duration">ट्रैक अवधि</string>
+	<string name="audio_track_language">ट्रैक भाषा</string>
+	<string name="audio_track_codec">कोडेक ट्रैक करें</string>
+	<string name="audio_track_channel">ट्रैक चैनल</string>
+	<string name="audio_track_name">ट्रैक का नाम</string>
+	<string name="audio_track_setting">ट्रैक सेटिंग</string>
+	<string name="picture_mode_contrast">विरोध</string>
+	<string name="picture_mode_brightness">चमक</string>
+	<string name="picture_mode_hue">रंग</string>
+	<string name="picture_mode_sharpness">तीखेपन</string>
+	<string name="picture_mode_color">रंग</string>
+	<string name="picture_mode_backlight">वापस लाइट</string>
+	<string name="video_mode_120hz">120Hz</string>
+	<string name="video_mode_500Hz">500Hz</string>
+	<string name="video_mode_1_5KHz">1.5KHz</string>
+	<string name="video_mode_5KHz">5KHz</string>
+	<string name="video_mode_10KHz">10KHz</string>
+	<string name="video_mode_bass">बास</string>
+	<string name="video_mode_treble">तिहरा</string>
+	<string name="video_mode_balance">संतुलन</string>
+	<string name="video_mode_kybass">केयू थुन्डर</string>
+	<string name="video_mode_kylevel">थुंडर लेवल</string>
+	<string name="point_a">बिंदु एक स्थिति</string>
+	<string name="point_b">बिंदु बी की स्थिति</string>
+	<string name="one_times_speed">सामान्य गति</string>
+	<string name="x_times_speed">टाइम्स स्पीड</string>
+	<string name="playing_settings">सेटिंग बजाना</string>
+	<string name="open_ab_repeat">ए-बी दोहराएं खोलें</string>
+	<string name="set_point_a_first">सेट पॉइंट एक पहले</string>
+	<string name="video_three_d_setting">वीडियो 3 डी सेटिंग</string>
+	<string name="video_rotate_degrees_setting">वीडियो घुमाएगी डिग्री सेटिंग</string>
+	<string name="video_rotate_degrees_setting_info">यह डिग्री सेटिंग अगले वीडियो प्ले में प्रभावी होगी</string>
+
+	<string name="video_picture_setting">चित्र सेटिंग</string>
+	<string name="video_sound_setting">वीडियो ध्वनि सेटिंग</string>
+	<string name="music_sound_model">ईक्यू सेटिंग</string>
+	<string name="music_sound_setting">ध्वनि सेटिंग</string>
+	<string name="video_3D_none">बंद</string>
+	<string name="video_3D_side_by_side">एसबीएस</string>
+	<string name="video_3D_top_bottom">टीबी</string>
+	<string name="video_3D_frame_packing">एफपी</string>
+	<string name="video_3D_line_alternative">ला</string>
+	<string name="video_3D_2dto3d">2 डी-3 डी</string>
+	<string name="video_3D_3dto2d">3 डी-2 डी</string>
+	<string name="video_3D_auto">ऑटो</string>
+	<string name="video_3D_check_board">सीबी</string>
+	<string name="video_3D_pixel_alternative">पीए</string>
+	<string name="video_3D_frame_alternative">एफए</string>
+	<string name="video_3D_count">COUNT</string>
+	<string name="video_3D_switch_info">कृपया 3 डी खोलें / बंद न करें।</string>
+	<string name="video_3D_auto_detect_info">ऑटो का पता लगाने के लिए 3 डी विफल, कृपया 3 डी प्रारूप mannully चुनें!</string>
+
+	<string name="aspect_ratio_16X9">पहलू अनुपात 16: 9 है</string>
+	<string name="aspect_ratio_4X3">पहलू अनुपात 4: 3 है</string>
+	<string name="aspect_ratio_default">पहलू अनुपात डिफ़ॉल्ट है</string>
+	<string name="can_not_open_dual">3 डी मोड में दोहरी डीकोड नहीं खोल सकता</string>
+	<string name="can_not_open_3D">दोहरी डीकोड मोड में 3 डी खोल नहीं सकता</string>
+	<string name="can_not_open_3D_pip">पीआईपी मोड में 3 डी नहीं खोल सकता</string>
+	<string name="video_start_time">वीडियो प्रारंभ समय</string>
+	<string name="video_buffer_time">बफर समय :</string>
+	<string name="video_first_video_frame_time">पहले फ्रेम समय पुश करें:</string>
+	<string name="video_breakpoint_play">आखिरी नाटक छोड़ें?</string>
+	<string name="video_breakpoint">चलायें फिर से शुरू करें</string>
+	<string name="can_not_open_dual_pip">PIP / POP / DUALVIEW मोड में दोहरी डीकोड नहीं खोल सकता</string>
+	<string name="can_not_open_dual_4kVideo">4K1k / 4k2k मोड में दोहरी डीकोड खोल नहीं सकते</string>
+	<string name="can_not_open_dual_HEVC_Video">H.265 / HEVC मोड में दोहरी डीकोड नहीं खोल सकता</string>
+	<string name="can_not_open_dual_Thumbnail_Video">थंबनेल मोड में दोहरी डीकोड नहीं खोल सकता</string>
+	<string name="can_not_open_dual_this_platform">मंच में दोहरी डीकोड नहीं खोल सकता!</string>
+	<string name="can_not_open_thumbnail_dual_Video">दोहरी डिकोड मोड में थंबनेल खोल नहीं सकते</string>
+	<string name="can_not_open_thumbnail_4kVideo">4k1k / 4k2k मोड में थंबनेल खोल नहीं सकते</string>
+	<string name="can_not_open_thumbnail_3DMode">3 डी मोड में थंबनेल खोल नहीं सकते</string>
+	<string name="can_not_open_thumbnail_this_platform">थंबनेल प्लेटफॉर्म में समर्थित नहीं है!</string>
+	<string name="can_not_open_dual_rotate_mode">घुमाएगी मोड में दोहरी डीकोड नहीं खोल सकता</string>
+	<string name="can_not_open_rotate_dual_mode">दोहरी व्यू मोड में घुमाए नहीं जा सकता</string>
+	<string name="can_not_open_rotate">यह प्लेटफ़ॉर्म घुमाएगी का समर्थन नहीं करता है</string>
+	<string name="can_not_support_aspect_ratio">वर्तमान वीडियो पहलू अनुपात का समर्थन नहीं कर सकता</string>
+
+
+	<string name="video_divx_title">शीर्षक</string>
+	<string name="video_divx_edition">संस्करण</string>
+	<string name="video_divx_chapter">अध्याय</string>
+	<string name="video_divx_autochapter">AutoChapter</string>
+
+	<string name="video_divx_title_resume">डिवएक्स फिर से शुरू</string>
+	<string name="video_divx_resume">आखिरी गेम में आपने इसे कहाँ से रोक दिया?</string>
+
+	<string name="video_divx_vod">डिवएक्स (आर) वीओडी</string>
+
+	<string name="divx_vod_drm_register">डिवएक्स संरक्षित वीडियो खेलने के लिए आपको अपना उपकरण पंजीकृत करना होगा</string>
+	<string name="divx_vod_drm_registration_code">पंजीकरण कोड:</string>
+	<string name="divx_vod_drm_register_at">रजिस्टर करें</string>
+
+	<string name="divx_vod_drm_deregistration_confirm">आपका उपकरण पहले से पंजीकृत है \ n \ n क्या आप वाकई पंजीकरण रद्द करना चाहते हैं?</string>
+	<string name="divx_vod_drm_deregistration_code">रद्दकरण कोड:</string>
+	<string name="divx_vod_drm_deregister_at">पर पंजीकरण रद्द करें</string>
+	<string name="divx_vod_drm_deregister">पंजीकरण के साथ जारी रखें?</string>
+
+	<string name="divx_vod_drm_authorization_error">आपका डिवाइस इस डिवएक्स संरक्षित वीडियो को चलाने के लिए अधिकृत नहीं है</string>
+
+	<string name="divx_vod_drm_rental">इस डिविएक्स किराये में इस्तेमाल किया है</string>
+	<string name="divx_vod_drm_views">विचारों</string>
+	<string name="divx_vod_drm_rental_expired">यह डिविएक्स किराया समाप्त हो गया है।</string>
+	<string name="divx_vod_drm_rental_confirm">जारी रहना?</string>
+
+	<string name="divx_vod_drm_unauthorized_version">अनधिकृत डिवएक्स डीआरएम संस्करण</string>
+
+	<string name="divx_vod_drm_unauthorized_video">अनधिकृत वीडियो आउटपुट। कृपया किसी अन्य इंटरफ़ेस का प्रयास करें।</string>
+
+	<string name="video_divx_vod_url">http://vod.divx.com</string>
+
+
+
+	<string name="subtitle_0_value_1">बाहरी उपशीर्षक दिखाएं</string>
+	<string name="subtitle_0_value_2">इनर उपशीर्षक दिखाएं</string>
+	<string name="subtitle_1_value_1">पथ का चयन करें</string>
+	<string name="subtitle_1_value_2">कोई बाह्य उपशीर्षक नहीं है</string>
+	<string name="subtitle_2_value_1">कोई नहीं</string>
+	<string name="subtitle_2_value_2">उपशीर्षक</string>
+	<string name="subtitle_3_value_1">अनजान</string>
+	<string name="subtitle_3_value_2">कोई नहीं</string>
+	<string name="subtitle_4_value_1">चूक</string>
+	<string name="subtitle_4_value_2">सान्स सेरिफ़</string>
+	<string name="subtitle_4_value_3">एकलस्पेस</string>
+	<string name="subtitle_5_value_1">बड़े</string>
+	<string name="subtitle_5_value_2">मध्य</string>
+	<string name="subtitle_5_value_3">छोटा</string>
+	<string name="subtitle_6_value_1">सफेद</string>
+	<string name="subtitle_6_value_2">काली</string>
+	<string name="subtitle_6_value_3">नीला</string>
+	<string name="subtitle_7_value_1">नहीं</string>
+	<string name="subtitle_7_value_2">हाँ</string>
+	<string name="subtitle_8_value_1">तल</string>
+	<string name="subtitle_8_value_2">चोटी</string>
+	<string name="subtitle_9_value">0 एमएस</string>
+   
+	 <string-array name="subtitle_setting_opt">
+		<item>बाहरी उपशीर्षक दिखाएं</item>
+		<item>पथ चुनें</item>
+		<item>कोई नहीं</item>
+		<item>अनजान</item>
+		<item>चूक</item>
+		<item>मध्य</item>
+		<item>सफेद</item>
+		<item>नहीं</item>
+		<item>तल</item>
+		<item>0 एमएस</item>
+	</string-array>
+
+
+	<string name="subtitle_change_msg">बाहरी उपशीर्षक, कृपया आंतरिक में बदलें!</string>
+	<string name="subtitle_change_path">आंतरिक उपशीर्षक, कृपया बाहरी में बदलें!</string>
+	<string name="choose_time_failed">स्थान नहीं कर सकता !!</string>
+	<string name="choose_time_invalid">अमान्य समय, कृपया पुनः प्रयास करें!</string>
+	<string name="subtitle_change_invalid">छवि कैप्शन इस ऑपरेशन का समर्थन नहीं करता!</string>
+	<string name="external_subtitle_setting_operation_invalid">इस ऑपरेशन का समर्थन नहीं करता है! कृपया बाहरी उपशीर्षक पथ wheteher सेट किया गया जांच कृपया!</string>
+
+	<string-array name="play_setting_opt">
+		<item>खुला</item>
+		<item>बंद करे</item>
+		<item>खुला</item>
+		<item>बंद करे</item>
+		<item>बंद करे</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+	<string name="play_setting_0_value_1">पर</string>
+	<string name="play_setting_0_value_2">बंद</string>
+	<string name="video_size_unknown">अनजान</string>
+
+	<string-array name="audio_track_setting_opt">
+		<item>ऑडियो ट्रैक 1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>अनजान</item>
+		<item>अनपेक्षित</item>
+		<item>अनपेक्षित</item>
+		<item>अनपेक्षित</item>
+    </string-array>
+    <string-array name="picture_setting_opt">
+         <!-- Skye add for onida-->
+		<item>लपट</item>
+		<item>समाचार</item>
+		<item>सिनेमा</item>
+		<item>साधारण</item>
+		<item>खेल</item>
+		<item>ऑटो</item>
+		<item>पीसी</item>
+		<item>ज्वलंत</item>
+		<item>EcoPower</item>
+		<item>खेल</item>
+    </string-array>
+    <string-array name="video_setting_opt">
+		<item>साधारण</item>
+		<item>संगीत</item>
+		<item>चलचित्र</item>
+		<item>समतल</item>
+    </string-array>
+    <string-array name="video_color_temperature">
+		<item>ठंडा</item>
+		<item>साधारण</item>
+		<item>गरम</item>
+    </string-array>
+    <string-array name="noise_reduuction">
+		<item>बंद</item>
+		<item>कम</item>
+		<item>मध्यम</item>
+		<item>उच्च</item>
+    </string-array>
+    <string-array name="surround_onoff">
+		<item>बंद</item>
+		<item>पर</item>
+    </string-array>
+    <string-array name="spdif_model">
+		<item>पीसीएम</item>
+		<item>बंद</item>
+		<item>कच्चा</item>
+    </string-array>
+    <string-array name="tv_sound_mode_types">
+		<item>साधारण</item>
+		<item>संगीत</item>
+		<item>चलचित्र</item>
+		<item>समतल</item>
+    </string-array>
+
+	<string name="audio_track_setting_0_value_1">ऑडियो ट्रैक</string>
+	<string name="subtitle_setting_0_value_1">भीतरी</string>
+	<string name="subtitle_setting_0_value_2">बाहरी</string>
+
+	<string name="video_goldenlefteye_mode">सुनहरा बायां आंख</string>
+	<string name="dual_mode_not_support_golden_left_eye">दोहरी डीकोड मोड सुनहरा बायां आंखों का समर्थन नहीं कर सकता!</string>
+	<string name="stb_not_support_golden_left_eye">यह मंच सुनहरा बायां आंखों का समर्थन नहीं कर सकता!</string>
+	<string name="menu_exit_confirm">फ़ाइल को स्थानीय से हटाएं? अप्राप्य</string>
+
+	<string name="edit_copy">प्रतिलिपि</string>
+	<string name="edit_delete">हटाना</string>
+	<string name="edit_move">चाल</string>
+	<string name="edit_paste">चिपकाएं</string>
+	<string name="edit_rename">नाम बदलें</string>
+	<string name="str_cancel">रद्द करना</string>
+	<string name="str_del">हटाना</string>
+	<string name="str_sure_del">मिटाने की पुष्टि</string>
+	<string name="str_sure_del_ask">क्या आप वाकई हटाना चाहते हैं?</string>
+	<string name="write_error">लिखना अनुमति अस्वीकृत</string>
+	<string name="read_error">त्रुटि पढ़ें</string>
+
+	<string name="str_rename_notice">ध्यान!</string>
+	<string name="str_rename_file_exist">फाइल नाम मौजूद है, क्या आप इसे कवर करना चाहते हैं?</string>
+
+	<string name="str_copyingtitle">एक क्षण प्रतीक्षा करें।</string>
+	<string name="str_copyingcontext">कॉपी करना ...</string>
+	<string name="str_copystop">कॉपी रोकें</string>
+	<string name="str_source">स्रोत:</string>
+	<string name="str_target">लक्ष्य:</string>
+
+	<string name="str_delcontext">हटा रहा है ...</string>
+
+
+	<string name="err_target_same">फ़ाइल को उसी पथ में कॉपी नहीं किया जा सकता!</string>
+	<string name="err_target_child">लक्ष्य पथ त्रुटि है!</string>
+
+
+	<string name="copy_revocer_text">  मौजूद है, क्या आप ठीक होने के लिए सुनिश्चित हैं?</string>
+	<string name="copy_revocer_yes">वसूली</string>
+	<string name="copy_revocer_no">रद्द करना</string>
+	<string name="full">स्थान पूर्ण है, प्रतिलिपि फ़ाइलें विफल हैं</string>
+	<string name="copy_interrupt">नेटवर्कर डिस्कनेक्ट हो गया है, कॉपी बाधित है</string>
+	<string name="copy_get_file_count">फ़ाइलों की संख्या की गणना करें</string>
+	<string name="copy_fail">कॉपी विफल</string>
+	<string name="ok">ठीक</string>
+	<string name="openning">उद्घाटन, कृपया प्रतीक्षा करें ......</string>
+	<string name="del_error">असफल</string>
+	<string name="rename_error">फ़ाइल नाम में विशेष वर्ण हैं, फ़ाइल का नाम संशोधित नहीं किया जा रहा है</string>
+	<string name="rename_fail">फ़ाइल का नाम बदलने में विफल</string>
+	<string name="err_not_free_space">पर्याप्त जगह नहीं है!</string>
+	<string name="error_invalid_path">अवैध मार्ग</string>
+	<string name="str_OK">ठीक</string>
+	<string name="str_rename_text">इसका नाम बदलें:</string>
+	<string name="str_usb1_name">यु एस बी</string>
+	<string name="str_sdcard_name">एसडी कार्ड</string>
+
+	<string name="video_media_play_prev">पिछले वीडियो चलाने के लिए जारी रखें?</string>
+
+
+
+	<string name="toast_scale">स्केल:% .1f</string>
+	<string name="toast_rotate">घुमाएँ:% .1f</string>
+
+
+
+	<string name="str_internal_storage">आंतरिक स्टोरेज</string>
+	<string name="str_external_sdcard">बाहरी एसडीकार्ड</string>
+
+</resources>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Menu Nhà máy</string>
+
+
+
+	<string name="str_factory_adc">Điều chỉnh ADC</string>
+	<string name="str_factory_adc_source">Nguồn</string>
+	<string name="str_factory_adc_rgain">R tăng</string>
+	<string name="str_factory_adc_ggain">Tăng G</string>
+	<string name="str_factory_adc_bgain">B tăng</string>
+	<string name="str_factory_adc_roffset">R Offset</string>
+	<string name="str_factory_adc_goffset">G Offset</string>
+	<string name="str_factory_adc_boffset">B Offset</string>
+	<string name="str_factory_adc_phase">giai đoạn</string>
+	<string name="str_factory_adc_autoadjust">Điều chỉnh tự động</string>
+	<string name="str_factory_adc_autoadjust_val">Vui lòng đợi!</string>
+	<string name="str_factory_adc_autoadjust_ok">sự thành công</string>
+	<string name="str_factory_adc_autoadjust_failed">thất bại</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">Chế độ thời gian chọn lỗi</string>
+	<string name="str_text_adc_adjust">Điều chỉnh ADC</string>
+	<string name="str_textview_factory_adc_source_val">VGA</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">Bạn có chắc là nâng cấp?</string>
+	<string name="str_textview_factory_dialogmenu_confirm">Xác nhận</string>
+	<string name="str_textview_factory_dialogmenu_cancel">Hủy</string>
+	<string name="str_design_menu">Thiết kế Menu</string>
+	<string name="str_factory_menu">Menu Nhà máy</string>
+
+
+
+	<string name="str_factory_whitebalance">Cân bằng trắng</string>
+	<string name="str_factory_wbadjust_source">Nguồn</string>
+	<string name="str_factory_wbadjust_rgain">R tăng</string>
+	<string name="str_factory_wbadjust_ggain">Tăng G</string>
+	<string name="str_factory_wbadjust_bgain">B tăng</string>
+	<string name="str_factory_wbadjust_roffset">R Offset</string>
+	<string name="str_factory_wbadjust_goffset">G Offset</string>
+	<string name="str_factory_wbadjust_boffset">B Offset</string>
+	<string name="str_factory_wbadjust_autoadjust">Điều chỉnh tự động</string>
+	<string name="str_factory_wbadjust_colortemp">Nhiệt độ màu</string>
+	<string name="str_wb_adjust_text">Điều chỉnh W / B</string>
+	<string name="str_textview_factory_wbadjust_source_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">Chế độ hình ảnh</string>
+	<string name="str_factory_picmode_picmode">Chế độ hình ảnh</string>
+	<string name="str_factory_picmode_brightness">độ sáng</string>
+	<string name="str_factory_picmode_contrast">Tương phản</string>
+	<string name="str_factory_picmode_saturation">Bão hòa</string>
+	<string name="str_factory_picmode_hue">Huế</string>
+	<string name="str_factory_picmode_sharpness">Độ sắc nét</string>
+	<string name="str_factory_picmode_backlight">Đèn nền</string>
+	<string name="str_picture_mode_text">Chế độ hình ảnh</string>
+	<string name="str_textview_factory_picmode_picmode_val">VGA</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">Các tùy chọn không chuẩn</string>
+	<string name="str_factory_nonstandard_vif">VIF (nhấp vào tôi)</string>
+	<string name="str_factory_nonstandard_vd">VD (click me)</string>
+	<string name="str_factory_nonstandard_audio">AUDIO (nhấp vào tôi)</string>
+	<string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+	<string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+	<string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+	<string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+	<string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+	<string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">China_DES_BOX_Delay</string>
+	<string name="str_factory_nonstandard_delay">Sự chậm trễ</string>
+	<string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+	<string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+	<string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+	<string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+	<string name="str_factory_nonstandard_aefcd5">AFEC_D5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">AFEC_D8 [3: 0]</string>
+	<string name="str_factory_nonstandard_aefcd9">AFEC_D9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+	<string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+	<string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+	<string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+	<string name="str_factory_nonstandard_aefc66">AFEC_66 [7: 6]</string>
+	<string name="str_factory_nonstandard_aefc6e">AFEC_6E [7: 4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">AFEC_6E [3: 0]</string>
+	<string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+	<string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+	<string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+	<string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+	<string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+	<string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+	<string name="str_factory_nonstandard_audiosif">Ngưỡng âm thanh Sif</string>
+	<string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+	<string name="str_Non_Standard_Adjust_text">Điều chỉnh không chuẩn</string>
+	<string name="str_textview_factory_nonstandard_default_val">128</string>
+
+
+	<string name="str_factory_non_linear">Phi tuyến tính</string>
+	<string name="str_factory_nonlinear_curvetype">Loại đường cong</string>
+	<string name="str_factory_nonlinear_osd0">OSD_0</string>
+	<string name="str_factory_nonlinear_osd25">OSD_25</string>
+	<string name="str_factory_nonlinear_osd50">OSD_50</string>
+	<string name="str_factory_nonlinear_osd75">OSD_75</string>
+	<string name="str_factory_nonlinear_osd100">OSD_100</string>
+	<string name="str_Non_Linear_Adjust_text">Điều chỉnh phi tuyến tính</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">VGA</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">OverScan</string>
+	<string name="str_factory_overscan_source">Nguồn</string>
+	<string name="str_factory_overscan_hsize">H Kích thước</string>
+	<string name="str_factory_overscan_hposition">Vị trí H</string>
+	<string name="str_factory_overscan_vsize">V Kích thước</string>
+	<string name="str_factory_overscan_vposition">Vị trí V</string>
+	<string name="str_factory_overscan_adjust_text">Điều chỉnh OverScan</string>
+	<string name="str_textview_factory_overscan_source_val">ATV</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">Điều chỉnh của SSC</string>
+	<string name="str_factory_ssc_miuenable">MIU Kích hoạt</string>
+	<string name="str_factory_ssc_miumodulation">Điều chế MIU</string>
+	<string name="str_factory_ssc_miupercentage">MIU Tỷ lệ phần trăm (%)</string>
+	<string name="str_factory_ssc_lvdsenable">Bật LVDS</string>
+	<string name="str_factory_ssc_lvdsmodulation">Điều chế LVDS</string>
+	<string name="str_factory_ssc_lvdspercentage">LVDS Tỷ lệ phần trăm (%)</string>
+	<string name="str_factory_ssc_u_miuenable">MIU_U Bật</string>
+	<string name="str_factory_ssc_u_miumodulation">Điều chế MIU_U</string>
+	<string name="str_factory_ssc_u_miupercentage">MIU_U Phần trăm (%)</string>
+	<string name="str_factory_ssc_u_lvdsenable">Bật LVDS_U</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">Điều chế LVDS_U</string>
+	<string name="str_factory_ssc_u_lvdspercentage">LVDS_U Phần trăm (%)</string>
+	<string name="str_ssc_adjust_text">Điều chỉnh của SSC</string>
+	<string name="str_textview_factory_ssc_default_val">128</string>
+
+
+
+	<string name="str_factory_peq">PEQ</string>
+	<string name="str_factory_peq_fo1coarse">FO1 thô</string>
+	<string name="str_factory_peq_fo1fine">FO1 Fine</string>
+	<string name="str_factory_peq_fo2coarse">FO2 thô</string>
+	<string name="str_factory_peq_fo2fine">FO2 Fine</string>
+	<string name="str_factory_peq_fo3coarse">FO3 thô</string>
+	<string name="str_factory_peq_fo3fine">FO3 Fine</string>
+	<string name="str_factory_peq_fo4coarse">FO4 thô</string>
+	<string name="str_factory_peq_fo4fine">FO4 Fine</string>
+	<string name="str_factory_peq_fo5coarse">FO5 Coarse</string>
+	<string name="str_factory_peq_fo5fine">FO5 Fine</string>
+	<string name="str_factory_peq_gain1">Tăng1</string>
+	<string name="str_factory_peq_gain2">Tăng2</string>
+	<string name="str_factory_peq_gain3">Tăng3</string>
+	<string name="str_factory_peq_gain4">Tăng 4</string>
+	<string name="str_factory_peq_gain5">Tăng 5</string>
+	<string name="str_factory_peq_q1">Q1</string>
+	<string name="str_factory_peq_q2">Q2</string>
+	<string name="str_factory_peq_q3">Q3</string>
+	<string name="str_factory_peq_q4">Q4</string>
+	<string name="str_factory_peq_q5">Q5</string>
+	<string name="str_peq_adjust_text">Điều chỉnh PEQ</string>
+	<string name="str_textview_factory_peq_default_val">128</string>
+
+
+	<string name="str_factory_ci_setting">Thiết lập CI Factory</string>
+	<string name="str_factory_ci_credential_mode">CI + Chế độ xác thực</string>
+	<string name="str_factory_ci_performance_monitor">Giám sát hiệu suất</string>
+	<string name="str_factory_ci_resource_manager">Quản lý Tài nguyên</string>
+	<string name="str_factory_ci_application_infomation">thông tin ứng dụng</string>
+	<string name="str_factory_ci_conditional_access_support">Hỗ trợ truy cập có điều kiện</string>
+	<string name="str_factory_ci_host_control">Điều khiển máy chủ</string>
+	<string name="str_factory_ci_date_time">Ngày giờ</string>
+	<string name="str_factory_ci_man_machine_interface">Giao diện người máy</string>
+	<string name="str_factory_ci_low_speed_communication">Truyền thông tốc độ thấp</string>
+	<string name="str_factory_ci_content_control">Kiểm soát nội dung</string>
+	<string name="str_factory_ci_host_language_country">Ngôn ngữ nước chủ nhà</string>
+	<string name="str_factory_ci_cam_upgrade">Nâng cấp CAM</string>
+	<string name="str_factory_ci_operator_profile">Tiểu sử Nhà điều hành</string>
+	<string name="str_factory_ci_specific_application_support">Hỗ trợ ứng dụng cụ thể</string>
+	<string name="str_factory_ci_app_man_machine_interface">Giao diện ứng dụng Man Machine</string>
+	<string name="str_factory_ci_program_map_table">Bảng Bản đồ Chương trình (Không sử dụng)</string>
+	<string name="str_factory_ci_host_service_shunning">Huỷ dịch vụ Máy chủ</string>
+	<string name="str_factory_ci_canal_ready_authentication">Xác thực kênh Canal</string>
+	<string name="str_factory_ci_default_tx_rx">Mặc định TX / RX</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">Kiểm tra (Thư viện CI)</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">Thử nghiệm (Nand Flash)</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">Mount Config</string>
+
+
+
+	<string name="str_factory_pqtableupdate">Cập nhật bảng PQ</string>
+
+
+	<string name="str_factory_ursa_info">Ursa Thông tin</string>
+	<string name="str_factory_ursa_version">Phiên bản</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">Danh sách thay đổi</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">Thông tin bảng điều khiển</string>
+	<string name="str_textview_factory_panelinfo_text_timode">Chế độ Ti</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">Chế độ Bit</string>
+	<string name="str_textview_factory_panelinfo_text_swap">Chế độ hoán đổi</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">Chế độ kép</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">Chế độ Mirror</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">VolumeCurve</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω8W</string>
+
+
+
+	<string name="str_set_mute_color">Mute Color</string>
+
+
+	<string name="str_factory_otheroption">Sự lựa chọn khác</string>
+	<string name="str_factory_otheroption_version">Phiên bản</string>
+	<string name="str_factory_otheroption_name">Tên</string>
+	<string name="str_factory_otheroption_build">Xây dựng</string>
+	<string name="str_factory_otheroption_changelist">Danh sách thay đổi</string>
+	<string name="str_factory_otheroption_board">Bảng</string>
+	<string name="str_factory_otheroption_panel">Bảng</string>
+	<string name="str_factory_otheroption_date">Ngày</string>
+	<string name="str_factory_otheroption_time">Thời gian</string>
+	<string name="str_factory_otheroption_watchdog">Xem chó</string>
+	<string name="str_factory_otheroption_wake_on_lan">Wake On Lan</string>
+	<string name="str_factory_otheroption_testpattern">Mẫu kiểm tra</string>
+	<string name="str_factory_otheroption_upgrademboot">Nâng cấp Mboot</string>
+	<string name="str_factory_otheroption_upgrademain">Nâng cấp chính</string>
+	<string name="str_factory_otheroption_upgrade6m30">Nâng cấp 6M30</string>
+	<string name="str_factory_otheroption_upgradedualursa">Nâng cấp Dual Ursa</string>
+	<string name="str_factory_otheroption_restoretodefault">Khôi phục lại mặc định</string>
+	<string name="str_factory_otheroption_poweronmode">Chế độ bật nguồn</string>
+	<string name="str_factory_otheroption_uartenable">Uart Bật</string>
+	<string name="str_factory_otheroption_display_logo">Biểu trưng Hiển thị</string>
+	<string name="str_factory_otheroption_dtvavdelay">DTV AV Delay (Không chuẩn)</string>
+	<string name="str_factory_otheroption_initialfunction">Kênh Ban đầu</string>
+	<string name="str_factory_otheroption_panelswing">Panel Swing</string>
+	<string name="str_factory_otheroption_audioprescale">Âm thanh Prescale</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">Mức phát hiện tự động 3D</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">Bạn có chắc là nâng cấp?</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">Xác nhận</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">Hủy</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">Vui lòng cắm USB!</string>
+	<string name="str_factory_otheroption_xvycc">Xvycc</string>
+	<string name="str_factory_otheroption_pvrrecordall">RVR Record All</string>
+	<string name="str_other_option_text">Điều chỉnh tùy chọn khác</string>
+	<string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+	<string name="str_textview_factory_otheroption_board_val">J2</string>
+	<string name="str_textview_factory_otheroption_panel_val">Full HD</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">Trên</string>
+	<string name="str_textview_factory_otheroption_text_off">Tắt</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+	<string name="str_textview_factory_otheroption_default_val">0 "</string>
+	<string name="str_factory_otheroption_main_pq_version">Phiên bản chính PQ</string>
+	<string name="str_factory_otheroption_sub_pq_version">Phiên bản P Sub</string>
+	<string name="str_textview_factory_otheroption_waiting_val">Xin vui long chơ!</string>
+	<string name="str_factory_otheroption_mstv_tool">Uart gỡ lỗi</string>
+	<string name="str_factory_otheroption_pq_update">Cập nhật PQ</string>
+	<string name="str_factory_otheroption_pq_update_state">Xin Click!</string>
+	<string name="str_factory_nonstandard_afeccf_av">AFEC_CF [2] _AV</string>
+	<string name="str_factory_nonstandard_afeccf_atv">AFEC_CF [2] _ATV</string>
+	<string name="str_ursa_test_result_title">Kết quả :</string>
+	<string name="str_ursa_test_run_auto">Chạy tự động</string>
+	<string name="str_ursa_test_title">Kiểm tra Ursa</string>
+	<string name="str_ursa_test_run">Chạy</string>
+	<string name="str_Info_title">Thông tin</string>
+	<string name="str_factory_otheroption_sw_version">Phiên bản SW</string>
+	<string name="str_factory_otheroption_dtv_preset">DTV Preset</string>
+	<string name="str_factory_otheroption_dtv_preset_state">Xin Click!</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">Vui lòng đợi ...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">Kết thúc, AC off sau 1 phút.</string>
+	<string name="enter">Phím OK nhập menu của nhà máy -></string>
+	<string name="tips">L-R Ajust, "OK" nhập tiếp theo, "Thoát" / "Menu" trở lại</string>
+	<string name="str_factory_otheroption_str_enable">Kích hoạt STR</string>
+	<string name="str_factory_otheroption_audiodelay">Âm thanh Loay hoãn</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">Bản đồ Kích hoạt IP</string>
+	<string name="str_ipenablemapping_text">Bản đồ Kích hoạt IP</string>
+
+
+	<string name="str_factory_update">Nâng cấp từ USB</string>
+	<string name="str_factory_upgrade">Nâng cấp từ USB</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">Cập nhật khóa HDCP Từ USB</string>
+	<string name="str_factory_updateCIkeyfromUSB">Cập nhật Khóa CI Plus Từ USB</string>
+	<string name="str_factory_upgrade_ci_upgrade">Ci Upgrade</string>
+	<string name="str_factory_upgrade_ci_display">Hiển thị Ci</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">Nâng cấp Hdcp</string>
+	<string name="str_factory_upgrade_hdcp_display">Hiển thị Hdcp</string>
+	<string name="str_factory_upgrade_mac_upgrade">Nâng cấp Mac</string>
+	<string name="str_factory_upgrade_mac_display">Màn hình Mac</string>
+	<string name="str_factory_upgrade_sn_upgrade">Nâng cấp SN</string>
+	<string name="str_factory_upgrade_sn_display">Hiển thị SN</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">Nâng cấp lên Hdcp2</string>
+	<string name="str_factory_upgrade_hdcp2_display">Màn hình Hdcp2</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">Thông tin Demod</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">Thông tin DVBT</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">Thông tin DVBC</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">获取 Thông tin DVBT / DVBC 失败</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">Chức năng đặt trước của chương trình nhà máy</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">Cài đặt chương trình Nhà máy</string>
+	<string name="str_factory_otheroption_factoryprogramreset">Thiết lập lại chương trình nhà máy</string>
+	<string name="str_factory_otheroption_backupdbtousb">Backup DB sang USB</string>
+	<string name="str_factory_otheroption_restoredbfromusb">Khôi phục DB từ USB</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">Xin Click!</string>
+	<string name="str_textview_factory_otheroption_text_pass">Vượt qua</string>
+	<string name="str_textview_factory_otheroption_text_fail">Thất bại</string>
+	<string name="str_factory_db_path">/ Tvdatabase / Cơ sở dữ liệu /</string>
+	<string name="str_factory_db_file">* Cmdb * .bin</string>
+
+	<string name="str_factory_again_mode">Chế độ người cao tuổi</string>
+	<string name="str_factory_running_time">THỜI GIAN THỜI GIAN (H / 2)</string>
+
+
+	<string name="str_design_menu_sound">Âm thanh</string>
+	<string name="str_factory_prescale">Prescale</string>
+	<string name="str_factory_avc_enable">Bật Avc</string>
+	<string name="str_factory_avc_threthold">Avc Thl</string>
+	<string name="str_factory_drc_enable">Kích hoạt Drc</string>
+	<string name="str_factory_drc_threthold">Drc Thl</string>
+	<string name="str_factory_sound_effect">Ảnh hưởng (HPF)</string>
+	<string name="str_factory_sound_toneffect">Tấn</string>
+	<string name="str_factory_audio_delay">Audio Delay (loa)</string>
+	<string name="str_factory_audio_nr">Audio NR</string>
+	<string name="str_factory_lineout">LineOut (AUOUT1)</string>
+	<string name="str_factory_speaker">Khối lượng (AUOUT0)</string>
+	<string name="str_factory_audio_spdif_delay">Audio Delay (spdif)</string>
+
+	<string name="str_factory_ota_info">Thông tin OTA</string>
+	<string name="str_factory_ota_info_praname">PraName</string>
+	<string name="str_factory_ota_info_cusname">CusName</string>
+	<string name="str_factory_ota_info_proname">ProName</string>
+	<string name="str_factory_ota_info_preversion">PreVersion</string>
+	<string name="str_factory_onidaview">Tùy chọn di chuyển Có sẵn</string>
+
+	<string name="str_textview_factory_total_run_time">H</string>
+	<string name="str_total_run_time">TotalRunTime</string>
+
+</resources>

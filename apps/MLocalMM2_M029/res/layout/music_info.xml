@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:layout_gravity="center"
+
+    android:background="@drawable/info_bg"
+
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical"
+
+    android:paddingTop="18dip" >
+
+
+
+    <TextView
+
+        android:id="@+id/program_info"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+
+        android:paddingLeft="200dip"
+
+        android:text="@string/music_info"
+
+        android:textSize="20sp" />
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/filename_rl"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/program_info" >
+
+
+
+        <TextView
+
+            android:id="@+id/filename"
+
+            android:layout_width="150dip"
+
+            android:layout_height="wrap_content"
+
+            android:gravity="right"
+
+            android:paddingRight="15dip"
+
+            android:paddingTop="25dip"
+
+            android:text="@string/file_name"
+
+            android:textSize="15sp" />
+
+
+
+        <TextView
+
+            android:id="@+id/file_name"
+
+            android:layout_width="650dip"
+
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/filename"
+
+            android:paddingTop="25dip"
+
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/duration_rl"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/filename_rl" >
+
+
+
+        <TextView
+
+            android:id="@+id/duration_tv"
+
+            android:layout_width="150dip"
+
+            android:layout_height="wrap_content"
+
+            android:gravity="right"
+
+            android:paddingRight="15dip"
+
+            android:paddingTop="15dip"
+
+            android:text="@string/file_duration"
+
+            android:textSize="15sp" />
+
+
+
+        <TextView
+
+            android:id="@+id/duration"
+
+            android:layout_width="350dip"
+
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/duration_tv"
+
+            android:paddingTop="15dip"
+
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/artist_name_rl"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/duration_rl"
+
+        android:background="#86222222" >
+
+
+
+        <TextView
+
+            android:id="@+id/artistname"
+
+            android:layout_width="150dip"
+
+            android:layout_height="wrap_content"
+
+            android:gravity="right"
+
+            android:paddingRight="15dip"
+
+            android:paddingTop="15dip"
+
+            android:text="@string/Artist_name"
+
+            android:textSize="15sp" />
+
+
+
+        <TextView
+
+            android:id="@+id/artist_name"
+
+            android:layout_width="650dip"
+
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/artistname"
+
+            android:paddingTop="15dip"
+
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/fileformat_rl"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/artist_name_rl" >
+
+
+
+        <TextView
+
+            android:id="@+id/fileformat"
+
+            android:layout_width="150dip"
+
+            android:layout_height="wrap_content"
+
+            android:gravity="right"
+
+            android:paddingRight="15dip"
+
+            android:paddingTop="15dip"
+
+            android:text="@string/file_format"
+
+            android:textSize="15sp" />
+
+
+
+        <TextView
+
+            android:id="@+id/file_format"
+
+            android:layout_width="650dip"
+
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/fileformat"
+
+            android:paddingTop="15dip"
+
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/filepath_rl"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/fileformat_rl" >
+
+
+
+        <TextView
+
+            android:id="@+id/filepath"
+
+            android:layout_width="150dip"
+
+            android:layout_height="wrap_content"
+
+            android:gravity="right"
+
+            android:paddingRight="15dip"
+
+            android:paddingTop="15dip"
+
+            android:text="@string/file_path"
+
+            android:textSize="15sp" />
+
+
+
+        <TextView
+
+            android:id="@+id/file_path"
+
+            android:layout_width="650dip"
+
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/filepath"
+
+            android:paddingBottom="15dip"
+
+            android:paddingTop="15dip"
+
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view_item_bg"
+    style="@style/subwindow_inputsource_listview_item_bg_style">
+    <TextView
+        android:id="@+id/input_source_data"
+        style="@style/subwindow_inputsource_listview_item_data_style" />
+</LinearLayout>

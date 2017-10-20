@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dip" >
+
+    <TextView
+        android:id="@+id/program_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/programe_info"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:background="@drawable/line" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/filename_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dip"
+        android:layout_below="@id/program_info" >
+
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dip"
+            android:text="@string/file_name"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <com.jrm.localmm.ui.view.MarqueeTextView
+            android:id="@+id/file_name"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:layout_marginLeft="2dip"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/duration_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:layout_below="@+id/filename_rl" >
+
+        <TextView
+            android:id="@+id/duration_tv"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dip"
+            android:text="@string/duration"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="240dip"
+            android:layout_marginLeft="2dip"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/filesize_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:layout_below="@id/duration_rl" >
+
+        <TextView
+            android:id="@+id/filesize"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dip"
+            android:text="@string/file_size"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_zise"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fileformat_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:layout_below="@id/filesize_rl" >
+
+        <TextView
+            android:id="@+id/fileformat"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dip"
+            android:text="@string/file_format"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_format"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <!-- android:paddingBottom="15dip" -->
+
+    <LinearLayout
+        android:id="@+id/audio_codec_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:layout_below="@+id/fileformat_rl" >
+
+        <TextView
+            android:id="@+id/audiocodec"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dip"
+            android:text="@string/audio_codec"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/audio_codec"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/video_codec_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:paddingBottom="15dip"
+        android:layout_below="@+id/audio_codec_rl" >
+
+        <TextView
+            android:id="@+id/videocodec"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dip"
+            android:text="@string/video_codec"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/video_codec"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line" >
+    </ImageView>
+
+</LinearLayout>

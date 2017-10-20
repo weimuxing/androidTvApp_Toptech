@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">מַשׁגֵר</string>
+    
+    <string name="application_num">מספר היישומים המותקנים:</string>
+    
+     <string name="temp_unit_c">℃</string>
+     <string name="temp_unit_f">℉</string>
+     
+     <string name="loading">טוען...</string>
+     <string name="instruction_loading">אנא wiat, טוען .....</string>
+     
+     <string name="weather_location">בחר עיר מזג האוויר</string>
+     <string name="applabel">יישום</string>
+     
+     <string name="errornetwork">כשל ברשת!</string>
+     <string name="load_error">כשל בנתונים!</string>
+     
+     <!-- datetime -->
+     <string name="day_of_candar">ת</string>
+
+     <string name="add_app_title">בחר ב- APPS מועדפים</string>
+     <string name="tips">האפליקציות שלי</string>
+     <string name="savemsg">      שמור שינויים?</string>
+     <string name="delmsg">האם ברצונך לדלג על קיצור הדרך?</string>
+     <string name="min_apk_num">נדרש לפחות APK אחד!</string>
+     <string name="ok">כן</string>
+     <string name="cancle">לא</string>
+     <string name="all_check_title">כל מסומן</string>
+     <string name="rev_check_title">בדיקה לאחור</string>
+     <string name="month">M</string>
+     <string name="pick_wallpaper">בחר טפט</string>
+     <string name="chooser_wallpaper">בחר טפט</string>
+     <string name="activity_not_found">הפעילות לא נמצאה</string>
+     <string name="url_select">בחר כתובת אתר</string>
+     <string name="wallpaper_instructions">הוראות טפטים</string>
+     <string name="wallpaper">טפט</string>
+      <string name="wallpaper_set">טפט מוגדר בהצלחה!</string>
+    
+     <!-- lyp add -->
+     <string name="contentdes">Img</string>
+     <string name="city001">שנזן</string>
+     <string name="gallery_info">אנא הכנס את כונן הבזק מסוג USB או לא מצליח לזהות תמונות</string>
+
+</resources>

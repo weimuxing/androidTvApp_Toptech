@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/colour_bg" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/str_pic_pcimagemode"
+        android:textColor="#ffffff"
+        android:textSize="20sp" >
+    </TextView>
+
+    	 <!-- For Clock -->
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_clock"
+        style="@style/pic_mode_sty_combo_btn" >
+
+       
+
+
+        <TextView
+            style="@style/pic_image11"
+            android:text="@string/str_pic_clock" />
+<SeekBar style="@style/pic_mode_sty_bar"
+				    android:visibility="visible" />
+        <TextView style="@style/pic_image22" />
+    </LinearLayout>
+
+		<!-- For Phase -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_phase"
+        style="@style/pic_mode_sty_combo_btn" >
+
+       
+     
+
+        <TextView
+            style="@style/pic_image11"
+            android:text="@string/str_pic_phase" />
+<SeekBar style="@style/pic_mode_sty_bar"
+				    android:visibility="visible" />
+        <TextView style="@style/pic_image22" />
+
+        
+    </LinearLayout>
+
+    <!-- For  Horizontal position -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_horizontalpos"
+        style="@style/pic_mode_sty_combo_btn" >
+
+
+        <TextView
+            style="@style/pic_image11"
+            android:text="@string/str_pic_horizontal_pos" />
+        <SeekBar
+            style="@style/pic_mode_sty_bar"
+				    android:visibility="visible" />
+        <TextView style="@style/pic_image22" />
+
+     
+    </LinearLayout>
+
+    <!-- For  Vertical position -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_verticalpos"
+        style="@style/pic_mode_sty_combo_btn" >
+
+
+        <TextView
+            style="@style/pic_image11"
+            android:text="@string/str_pic_vertical_pos" />
+<SeekBar style="@style/pic_mode_sty_bar"
+				    android:visibility="visible" />
+        <TextView style="@style/pic_image22" />
+
+    </LinearLayout>
+
+    <!-- PC Image Mode Back -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_pcimagemodeback"
+        style="@style/button_style" >
+
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:text="@string/str_pic_autotune" />
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="30dip"
+		    android:layout_marginTop="48dip"
+		    android:gravity="center"
+		    android:paddingTop="2dp"
+		    android:orientation="horizontal" >
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:minWidth="65dp"
+		        android:layout_height="25dp"
+		        android:drawableRight="@drawable/navigate_img"
+		        android:textColor="@color/bottom_info_text_color"
+		        android:text="@string/bt_info_adjust"
+		        android:layout_marginLeft="40dp"
+		        android:layout_marginRight="40dp"
+		        android:gravity="center"
+		        android:textSize="14sp" />
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="25dp"
+		        android:textColor="@color/bottom_info_text_color"
+		        android:text="@string/bt_info_switch"
+		        android:textSize="14sp"
+		        android:gravity="center"
+		        android:layout_marginLeft="40dp"
+		        android:layout_marginRight="40dp"/>
+		     <TextView
+		         android:layout_width="65dp"
+		         android:layout_height="25dp"
+		         android:layout_marginLeft="40dp"
+		         android:layout_marginRight="40dp"
+		         android:gravity="center"
+		         android:drawableRight="@drawable/back_image"
+		         android:text="@string/bt_info_back"
+		         android:textColor="@color/bottom_info_text_color"
+		         android:textSize="14sp" />
+		</LinearLayout>
+</LinearLayout>
+

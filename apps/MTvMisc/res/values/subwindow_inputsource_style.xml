@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="subwindow_inputsource_memu_style">
+        <item name="android:layout_width">200dip</item>
+        <item name="android:layout_height">333dip</item>
+        <item name="android:layout_marginTop">17dip</item>
+        <!-- <item name="android:background">@drawable/list_menu_img_bg</item> -->
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="subwindow_inputsource_listView_style">
+        <item name="android:layout_width">200dip</item>
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_height">267dip</item>
+        <item name="android:listSelector">@drawable/button_state</item>
+    </style>
+    <style name="subwindow_inputsource_listview_item_bg_style">
+        <item name="android:layout_width">200dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">33dip</item>
+    </style>
+    <style name="subwindow_inputsource_listview_item_data_style">
+        <item name="android:layout_width">200dip</item>
+        <item name="android:layout_height">33dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>

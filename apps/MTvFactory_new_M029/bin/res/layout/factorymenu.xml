@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_factory_menu"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_factory_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_picture"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@+id/linearlayout_factory_Reset"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_picture"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_picture"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+            <!-- For Picture Mode -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_sound"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_sound"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_sound_menu"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Nonlinear -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_panel_Info"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_panel_Info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_panel_info"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Non-standard -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_User"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_User"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_User"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For SSC -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_Upgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_Upgrade"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_Upgrade"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+            <!-- For PEQ -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_Other"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_Other"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+            <!-- For Mount Config -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_Reset"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusDown="@+id/linearlayout_factory_picture"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_factory_Reset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_Reset"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_factory_info_menu"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_Name"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:id="@+id/textview_factory_Name1"
+                        android:layout_width="140dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_info_name"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/textview_factory_Name2"
+                        android:layout_width="220dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_Build"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:id="@+id/textview_factory_Build1"
+                        android:layout_width="140dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_info_build"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/textview_factory_Build2"
+                        android:layout_width="220dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_Changelist"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:id="@+id/textview_factory_Changelist1"
+                        android:layout_width="140dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_info_changelist"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/textview_factory_Changelist2"
+                        android:layout_width="220dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_Board"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:id="@+id/textview_factory_Board1"
+                        android:layout_width="140dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_factory_Panel"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/textview_factory_Board2"
+                        android:layout_width="220dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_Panel"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:id="@+id/textview_factory_Panel1"
+                        android:layout_width="140dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_factory_otheroption_panel"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/textview_factory_Panel2"
+                        android:layout_width="220dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_Compile_time"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:id="@+id/textview_factory_Compile_time1"
+                        android:layout_width="140dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_factory_Compile_time"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/textview_factory_Compile_time2"
+                        android:layout_width="220dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_OTA_info_plaName_chipName"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_factory_ota_info_praname"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dip" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/factory_ota_info_praname_val"
+                        android:layout_width="220dp"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_OTA_info_plaName_proName"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:layout_width="140dip"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_factory_ota_info_proname"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dip" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/factory_ota_info_proname_val"
+                        android:layout_width="220dip"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_OTA_info_cusName_cusName"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:layout_width="140dip"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_factory_ota_info_cusname"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dip" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/factory_ota_info_cusname_val"
+                        android:layout_width="220dip"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_factory_OTA_info_cusName_preVersion"
+                    android:layout_width="360dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp" >
+
+                    <TextView
+                        android:layout_width="140dip"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/str_factory_ota_info_preversion"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+
+                    <mstar.tvsetting.factory.ui.MarqueeTextView
+                        android:id="@+id/factory_ota_info_preversion_val"
+                        android:layout_width="220dip"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="marquee"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="#BBBBBB"
+                        android:textSize="13dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

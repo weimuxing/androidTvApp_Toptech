@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <string name="app_name">مشغل الوسائط</string>
+
+    <string name="back">خروج</string>
+
+    <string name="folder">مجلد</string>
+
+    <string name="rootDirectory">فلاشة </string>
+
+    <string name="sambarootDirectory">/mnt/samba</string>
+
+    <string name="unsupport_format">هذ البنية لا تعمل </string>
+
+    <string name="exit_ok">موافق</string>
+
+    <string name="exit_cancel">إلغاء</string>
+
+    <string name="current_time">الوقت الحالي:</string>
+
+    <string name="total_duration">مجموع الوقت:</string>
+
+    <string name="choice">الاختيار</string>
+
+    <string name="confirm">موافق</string>
+
+    <string name="exit_title">خروج</string>
+
+    <string name="exit_confirm">تأكيد حذف؟</string>
+
+    <string name="the_first_file">الملف الاول </string>
+
+    <string name="the_last_file">الملف الاخير </string>
+
+    <string name="net_disconnect">شبكة المعلومات لاتعمل ،يرجى التحقق من ذلك</string>
+
+    <string name="display_pip">اعرض صورة فى صورة</string>
+
+    <string name="hide_pip">اخفاء صورة فى صورة</string>
+
+    <string name="pre_channel">القناة السابقة</string>
+
+    <string name="next_channel">القناة التالية</string>
+
+
+
+    <!-- ####################文件浏览模块资源定义区#################### -->
+
+    <string name="picture">صور</string>
+
+    <string name="song">موسيقى</string>
+
+    <string name="video">فيديو</string>
+
+    <string name="samba">سامبا</string>
+
+    <string name="dlna">الشبكة </string>
+
+    <string name="other">آخر</string>
+
+    <string name="all">جميع</string>
+
+    <string name="page_up">الصفحة لأعلى</string>
+
+    <string name="page_down">صفحة لأسفل</string>
+
+    <string name="slash">/</string>
+
+
+
+    <!-- 加载进度提示信息定义区 -->
+
+    <string name="loading_top">تحميل الصفحة الأعلى، من فضلك انتظر</string>
+
+    <string name="loading_usb_device">تحميل الفلاشة</string>
+
+    <string name="loading_local_resource">تحميل الموارد المحلية، من فضلك انتظر</string>
+
+    <string name="loading_dlna_device">تحميل جهاز DLNA، من فضلك انتظر</string>
+
+    <string name="loading_dlna_resource">تحميل الموارد DLNA، من فضلك انتظر</string>
+
+    <string name="miss_dlna_device">فشل تحميل الموارد DLNA</string>
+
+    <string name="loading_samba_device">تحميل جهاز سامبا، يرجى الانتظار</string>
+
+    <string name="loading_samba_resource">تحميل مصادر جهاز سامبا، يرجى الانتظار</string>
+
+    <string name="miss_samba_device">فشل تحميل مصادر جهاز سامبا، يرجى الانتظار</string>
+
+    <string name="is_scanning_disc">جارى مسح  القرص !</string>
+
+    <string name="login_wrong_password">كلمة المرور خطأ</string>
+
+    <string name="login_failed">فشل في تسجيل الدخول سامبا</string>
+
+    <string name="login_other_failed">اعتراض تسجيل الدخول لسامبا</string>
+
+    <string name="login_title">تسجيل الدخول</string>
+
+    <string name="network_connect_failed">فشل الاتصال بالجهاز ، لا يمكن مشاركة مصادر الشبكة </string>
+
+    <string name="network_unconnected">غير متصل بالشبكة ، يرجى التحقق واعادة المحاولة </string>
+
+    <string name="login_samba">جارى  الدخول لسامبا ، يرجى الانتظار</string>
+
+    <string name="logging_out_samba">جارى  الخروج لسامبا ، يرجى الانتظار</string>
+
+    <string name="login_success">تم الدخول بنجاح</string>
+
+    <string name="mount_failed">فشل تثبيت</string>
+
+
+
+    <string-array name="data_source">
+
+        <item>جهاز القرص المحلي</item>
+
+        <item>جهاز شبكة سامبا</item>
+
+        <!--<item>شبكة DLNA جهاز</item>-->
+    </string-array>
+
+
+
+    <!-- ####################媒体播放器资源定义区#################### -->
+
+    <!-- 图片播放模块资源定义区 -->
+
+    <string name="file_name">اسم الملف:</string>
+
+    <string name="photo_info">معلومات الصورة</string>
+
+    <string name="file_create_time">وقت الانشاء:</string>
+
+    <string name="file_size">حجم الملف:</string>
+
+    <string name="file_format">تنسيق الملف:</string>
+
+    <string name="display_img_name">اسم الصورة المعروضة </string>
+
+    <string name="disk_eject">إخراج القرص</string>
+
+    <string name="photo_3D_toast">لايعمل فى وضع ثلاثى الابعاد</string>
+
+    <string name="photo_set_wallpaper">صورة خلفية</string>
+
+    <string name="first_photo">الصورة الاولى !</string>
+
+    <string name="last_photo">الصورة الاخيرة !</string>
+
+    <string name="can_not_decode">صورة كبيرة جدا ليتم تحليلها.</string>
+
+    <string name="current_pic">الصورة الحالية هو:</string>
+
+    <string name="is_setting_wallpaper">هذا هو وضع ورق الجدران، يرجى الانتظار ...</string>
+
+    <string name="picture_can_not_decode">وهذا يمكن أن الصورة ليست فك شفرة!</string>
+
+    <string name="picture_decoding">الصورة الشفرة...</string>
+
+
+
+    <!-- 音乐播放模块资源定义区 -->
+
+    <string name="music_info">معلومات الموسيقى </string>
+
+    <string name="file_duration">مدة الملف:</string>
+
+    <string name="music_default_time">00:00</string>
+
+    <string name="Artist_name">اسم الفنان:</string>
+
+    <string name="file_path">مسار الملف</string>
+
+    <string name="none_lyrics_find">لم أجد أغنية!</string>
+
+    <string name="unknown">غير معروف</string>
+
+    <string name="singer">مطرب:</string>
+
+    <string name="current_song">الاغنية الحالية :</string>
+
+    <string name="exit_music_play">حدد الاغنية التى تريد تشغيلها؟</string>
+
+    <string name="alert">إنذار</string>
+
+
+
+    <!-- 视频播放模块资源定义区 -->
+
+    <string name="no_video_track">لايوجد مسار للفيديو</string>
+
+    <string name="audio_codec">ترميز الصوت</string>
+
+    <string name="video_codec">ترميز الفيديو</string>
+
+    <string name="duration">المدة:</string>
+
+    <string name="default_time">--:--:--</string>
+
+    <string name="video_default_time">00:00:00</string>
+
+    <string name="choose_time_0">0</string>
+
+    <string name="choose_time_colon">:</string>
+
+    <string name="programe_info">معلومات البرنامج</string>
+
+    <string name="show_info">خطأ فى التشغيل </string>
+
+    <string name="buffering">التخزين المؤقت ...</string>
+
+    <string name="playing">تشغيل</string>
+
+    <string name="video_subtitle">لغة الترجمة للفيديو </string>
+
+    <string name="video_track">مسار الفيديو </string>
+
+    <string name="video_channel">فيديو قناة</string>
+
+    <string name="video_media_full_resize">تغيير الحجم الكامل الفيديو</string>
+
+    <string name="video_media_default">فيديو الافتراضية حجم</string>
+
+    <string name="video_media_full">حجم الفيديو الكامل </string>
+
+    <string name="video_media_error_unknown">غير معروف فيديو وسائل الاعلام خطأ</string>
+
+    <string name="video_media_error_malformed">فيديو وسائل الاعلام خطأ تالف</string>
+
+    <string name="video_media_error_io">فيديو وسائل الاعلام خطأ IO</string>
+
+    <string name="video_media_error_unsupported">خطأ فيديو الوسائل الاعلامية غير مدعوم</string>
+
+    <string name="video_media_error_format_unsupport">خطأ تنسيق فيديو الوسائل الاعلامية غير مدعوم </string>
+
+    <string name="video_media_error_not_connected">خطأ فيديو الوسائل الاعلامية غير متصل </string>
+
+    <string name="video_media_error_audio_unsupport">خطأ فيديو وسائل اعلامية الصوت غير مدعوم</string>
+
+    <string name="video_media_error_video_unsupport">خطأ فيديو وسائل اعلامية الفيديو غير مدعوم</string>
+
+    <string name="video_media_error_no_license">خطأ فيديو وسائل اعلامية الفيديو  غير مرخص</string>
+
+    <string name="video_media_error_license_expired">خطأ انتهت صلاحية رخصة فيديو الوسائل الاعلامية </string>
+
+    <string name="video_media_other_error_unknown"> خطأ اخر غير معروف </string>
+
+    <string name="video_media_error_not_valid">خطأ فيديو الوسائل الاعلامية غير صالح</string>
+
+    <string name="video_media_error_server_died">توفي وسائل الاعلام الخادم</string>
+
+    <string name="video_media_infor_no_index">فيديو أي مؤشر، فإنه لا انه يسعى</string>
+
+    <string name="video_media_infor_no_index_ab">فيديو أي مؤشر، فإنه لم يتم تعيين AB</string>
+
+    <string name="subtitle_type">العنوان الفرعي نوع</string>
+
+    <string name="subtitle_out_path">العنوان الفرعي خارج مسار</string>
+
+    <string name="subtitle_in_no">عنوان فرعي في أي</string>
+
+    <string name="subtitle_language">لغة الترجمة</string>
+
+    <string name="subtitle_color">لون لغة الترجمة </string>
+
+    <string name="subtitle_font">خط لغة الترجمة </string>
+
+    <string name="subtitle_font_size">حجم خط لغة الترجمة </string>
+
+    <string name="subtitle_frame">اطار لغة الترجمة </string>
+
+    <string name="subtitle_area">منطقة لغة الترجمة </string>
+
+    <string name="subtitle_adjust">ضبط  لغة الترجمة</string>
+
+    <string name="subtitleList">قائمة لغة الترجمة </string>
+
+    <string name="playList">قائمة التشغيل</string>
+
+    <string name="subtitle_setting">اعدادات لغة الترجمة </string>
+
+    <string name="a_b_section_repeat">تكرار الجزء A-B</string>
+
+    <string name="section_replay">اعادة تشغيل جزء</string>
+
+    <string name="set_begin_a">وضع نقطة البداية ل</string>
+
+    <string name="set_begin_b">تعيين بداية النقطة (ب)</string>
+
+    <string name="audio_track_count">تتبع الاعتماد</string>
+
+    <string name="audio_track_number">تتبع عدد</string>
+
+    <string name="audio_track_duration">تتبع مدة</string>
+
+    <string name="audio_track_language">تتبع لغة</string>
+
+    <string name="audio_track_setting">متابعة الإعداد</string>
+
+    <string name="point_a">في النقطة (أ) موقف</string>
+
+    <string name="point_b">موقف نقطة B</string>
+
+    <string name="one_times_speed">1 مرات سرعة</string>
+
+    <string name="x_times_speed">مرات سرعة</string>
+
+    <string name="playing_settings">لعب إعدادات</string>
+
+    <string name="open_ab_repeat">فتح A-B تكرار</string>
+
+    <string name="set_point_a_first">تحديد نقطة لأول مرة</string>
+
+
+
+    <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+
+    <string name="subtitle_0_value_1">اظهر الترجمة الخارجية </string>
+
+    <string name="subtitle_0_value_2">اظهر الترجمة الداخلية  </string>
+
+    <string name="subtitle_1_value_1">اختيار المسار</string>
+
+    <string name="subtitle_1_value_2">لايوجد ترجمة خارجية </string>
+
+    <string name="subtitle_2_value_1">لا شيء</string>
+
+    <string name="subtitle_2_value_2">ترجمة </string>
+
+    <string name="subtitle_3_value_1">غير معروف</string>
+
+    <string name="subtitle_3_value_2">لا شيء</string>
+
+    <string name="subtitle_4_value_1">افتراضى </string>
+
+    <string name="subtitle_4_value_2">xingxu</string>
+
+    <string name="subtitle_4_value_3">kaiti</string>
+
+    <string name="subtitle_5_value_1">كبير</string>
+
+    <string name="subtitle_5_value_2">وسط</string>
+
+    <string name="subtitle_5_value_3">صغير</string>
+
+    <string name="subtitle_6_value_1">أبيض</string>
+
+    <string name="subtitle_6_value_2">أسود</string>
+
+    <string name="subtitle_6_value_3">أزرق</string>
+
+    <string name="subtitle_7_value_1">لا</string>
+
+    <string name="subtitle_7_value_2">نعم</string>
+
+    <string name="subtitle_8_value_1">أسفل</string>
+
+    <string name="subtitle_8_value_2">أعلى</string>
+
+    <string name="subtitle_9_value">0 ms</string>
+
+
+
+    <string-array name="subtitle_setting_opt">
+
+        <item>تظهر الترجمة الخارجية</item>
+
+        <item>اختيار المسار</item>
+
+        <item>لا شيء</item>
+
+        <item>غير معروف</item>
+
+        <item>songti</item>
+
+        <item>وسط</item>
+
+        <item>أبيض</item>
+
+        <item>لا</item>
+
+        <item>أسفل</item>
+
+        <item>0 ms</item>
+
+    </string-array>
+
+
+
+    <string name="subtitle_change_msg">ترجمة خارجية ، الرجاء تغيير هاالى داخلية  !</string>
+
+    <string name="subtitle_change_path">ترجمة داخلية   ، الرجاء تغييرها الى خارجية !</string>
+
+    <string name="choose_time_failed">لا يوجد موقع !!</string>
+
+    <string name="choose_time_invalid">الوقت غير صالح ، يرجى اعادة المحاولة !</string>
+
+
+
+    <string-array name="play_setting_opt">
+
+        <item>فتح</item>
+
+        <item></item>
+
+    </string-array>
+
+
+
+    <string name="play_setting_0_value_1">فتح</string>
+
+    <string name="play_setting_0_value_2">غلق</string>
+
+    <string name="video_size_unknown">غير معروف</string>
+
+
+
+    <string-array name="audio_track_setting_opt">
+
+        <item>مسار صوت 1</item>
+
+        <item>1</item>
+
+        <item>00:00:00</item>
+
+        <item>غير معروف</item>
+
+    </string-array>
+
+
+
+    <string name="audio_track_setting_0_value_1">الصوت المسار</string>
+
+
+
+</resources>

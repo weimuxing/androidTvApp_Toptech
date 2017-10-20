@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videoplayactivity"
+    android:background="#000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+        <!-- first videoview -->
+
+   <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/firstvideolayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/firstview" />
+    </LinearLayout>
+    <!-- seconde videoview -->
+
+  <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/secondvideolayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/secondview" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/video_focus_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/video_focus"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:padding="3dip"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip"
+            android:text="@string/video"
+            android:textColor="@android:color/transparent" />
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/nonevideolayout"
+            android:visibility="gone"
+            android:background="@drawable/bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+    </LinearLayout>
+    <ImageView android:id="@+id/im_video_player_pause"
+         android:layout_gravity="top|left"
+         android:layout_height="60dip"
+         android:layout_width="60dip"
+         android:layout_marginLeft="5dip"
+         android:layout_marginTop="5dip"
+         android:visibility="invisible"
+         android:background="@drawable/player_icon_pause_focus"
+         />
+    <ImageView android:id="@+id/im_video_player_kuaijin"
+         android:layout_gravity="top|left"
+         android:layout_marginLeft="5dip"
+         android:layout_marginTop="5dip"
+         android:layout_height="60dip"
+         android:layout_width="60dip"
+         android:visibility="invisible"
+         android:background="@drawable/player_icon_wind_focus"
+         />
+     <TextView 
+        android:id="@+id/im_video_player_FF_FR_val"
+        android:layout_gravity="top|left"
+        android:gravity="center|left"
+        android:layout_height="60dip"
+        android:layout_width="80dip"
+        android:layout_marginTop="4dip"
+        android:layout_marginLeft="100dip"
+        android:textSize="33sp"
+        />
+    <ImageView android:id="@+id/im_video_player_kuaitui"
+         android:layout_gravity="top|left"
+         android:layout_height="60dip"
+         android:layout_width="60dip"
+         android:layout_marginLeft="5dip"
+         android:layout_marginTop="5dip"
+         android:visibility="invisible"
+         android:background="@drawable/player_icon_rewind_focus"
+         />
+<!--
+    视频播放view
+
+    <com.jrm.localmm.business.video.VideoPlayView
+        android:id="@+id/videoPlayerSurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent" >
+    </com.jrm.localmm.business.video.VideoPlayView>
+
+    图片字幕view
+
+    <SurfaceView
+        android:id="@+id/videoPlayerImageSurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent" >
+    </SurfaceView>
+
+    文本字幕view
+
+    <com.jrm.localmm.ui.video.BorderTextViews
+        android:id="@+id/video_player_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="3dip"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+ -->
+    <!-- 视频控制条bar -->
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="vertical">
+        <LinearLayout
+                android:id="@+id/main_thumbnail_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip">
+            <include layout="@layout/multi_thumbnail_sw_layout" />
+            <include layout="@layout/glsurfaceview" />
+        </LinearLayout>
+       <LinearLayout
+        android:id="@+id/video_suspension_layout"
+        android:layout_width="828dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/player_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="800dip"
+            android:layout_height="45dip"
+            android:layout_weight="12"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <com.jrm.localmm.ui.view.MarqueeTextView
+                android:id="@+id/video_name_display"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="10"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingTop="10dip"
+                android:singleLine="true"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/video_list_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/video_play_speed_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingTop="10dip"
+                android:text="@string/one_times_speed"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="14"
+            android:orientation="horizontal"
+            android:paddingTop="8dip" >
+
+            <ImageView
+                android:id="@+id/video_previous"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_previous"
+                android:paddingLeft="65dip" />
+
+            <ImageView
+                android:id="@+id/video_rewind"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_rewind" />
+
+            <ImageView
+                android:id="@+id/video_play"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_pause" />
+
+            <ImageView
+                android:id="@+id/video_wind"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_wind" />
+
+            <ImageView
+                android:id="@+id/video_next"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_next" />
+
+            <ImageView
+                android:id="@+id/video_time"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_time" />
+
+            <ImageView
+                android:id="@+id/video_list"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_list" />
+
+            <ImageView
+                android:id="@+id/video_info"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_infor" />
+
+            <ImageView
+                android:id="@+id/video_setting"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_setting" />
+
+            <ImageView
+                android:id="@+id/play_icon_ab"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_ab" />
+
+            <ImageView
+                android:id="@+id/play_icon_voice"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_voice" />
+
+            <ImageView
+                android:id="@+id/play_icon_dual_switch"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_dual_switch" />
+
+            <ImageView
+                android:id="@+id/play_icon_dual_focus_switch"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_dual_focus_switch_cannot_choose" />
+
+            <ImageView
+                android:id="@+id/play_icon_dual_mode_switch"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/player_icon_dual_left_right_cannot_choose" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="700dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_weight="14"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/control_timer_current"
+                android:layout_width="70dip"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/default_time"
+                android:textSize="12.0dip" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <SeekBar
+                    android:id="@+id/progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="533dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dip"
+                    android:focusable="false"
+                    android:maxHeight="12dip"
+                    android:minHeight="12dip"
+                    android:paddingLeft="7dip"
+                    android:paddingRight="8dip"
+                    android:thumb="@drawable/thumb" />
+
+                <ImageView
+                    android:id="@+id/seek_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/point_a"
+                    android:overScrollMode="always"
+                    android:paddingBottom="12dip"
+                    android:paddingLeft="70dip"
+                    android:src="@drawable/seek_a"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/seek_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/point_b"
+                    android:overScrollMode="always"
+                    android:paddingBottom="12dip"
+                    android:paddingLeft="528dip"
+                    android:src="@drawable/seek_b"
+                    android:visibility="invisible" />
+                <ImageView
+                        android:id="@+id/thumbnail_time_position_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/point_a"
+                        android:overScrollMode="always"
+                        android:paddingBottom="12dip"
+                        android:paddingLeft="70dip"
+                        android:src="@drawable/thumbnail_seek_view"
+                        android:visibility="invisible" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/control_timer_total"
+                android:layout_width="70dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/default_time"
+                android:textSize="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

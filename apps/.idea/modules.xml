@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FactoryTools/FactoryTools.iml" filepath="$PROJECT_DIR$/FactoryTools/FactoryTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Launcher_M029/Launcher_M029.iml" filepath="$PROJECT_DIR$/Launcher_M029/Launcher_M029.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MBandwidthTest/MBandwidthTest.iml" filepath="$PROJECT_DIR$/MBandwidthTest/MBandwidthTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MBrowser3/MBrowser3.iml" filepath="$PROJECT_DIR$/MBrowser3/MBrowser3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MDummyAPK/MDummyAPK.iml" filepath="$PROJECT_DIR$/MDummyAPK/MDummyAPK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MLatinIME/java/MLatinIME.iml" filepath="$PROJECT_DIR$/MLatinIME/java/MLatinIME.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MLocalMM2/MLocalMM2.iml" filepath="$PROJECT_DIR$/MLocalMM2/MLocalMM2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MLocalMM2_M029/MLocalMM2_M029.iml" filepath="$PROJECT_DIR$/MLocalMM2_M029/MLocalMM2_M029.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPinyinIME/MPinyinIME.iml" filepath="$PROJECT_DIR$/MPinyinIME/MPinyinIME.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MSetupWizard/MSetupWizard.iml" filepath="$PROJECT_DIR$/MSetupWizard/MSetupWizard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvBoot/src/MTvBoot.iml" filepath="$PROJECT_DIR$/MTvBoot/src/MTvBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvCustomizedMenu/MTvCustomizedMenu.iml" filepath="$PROJECT_DIR$/MTvCustomizedMenu/MTvCustomizedMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvFactory/MTvFactory.iml" filepath="$PROJECT_DIR$/MTvFactory/MTvFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvFactory_M029/MTvFactory_M029.iml" filepath="$PROJECT_DIR$/MTvFactory_M029/MTvFactory_M029.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvFactory_new/MTvFactory_new.iml" filepath="$PROJECT_DIR$/MTvFactory_new/MTvFactory_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvFactory_new_M029/MTvFactory_new_M029.iml" filepath="$PROJECT_DIR$/MTvFactory_new_M029/MTvFactory_new_M029.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvHotkey/MTvHotkey.iml" filepath="$PROJECT_DIR$/MTvHotkey/MTvHotkey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvHotkey_M029/MTvHotkey_M029.iml" filepath="$PROJECT_DIR$/MTvHotkey_M029/MTvHotkey_M029.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvInputService/MTvInputService.iml" filepath="$PROJECT_DIR$/MTvInputService/MTvInputService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvMisc/MTvMisc.iml" filepath="$PROJECT_DIR$/MTvMisc/MTvMisc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvPlayer/MTvPlayer.iml" filepath="$PROJECT_DIR$/MTvPlayer/MTvPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvPlayer_M029/MTvPlayer_M029.iml" filepath="$PROJECT_DIR$/MTvPlayer_M029/MTvPlayer_M029.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvProvide/MTvProvide.iml" filepath="$PROJECT_DIR$/MTvProvide/MTvProvide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MTvTest/MTvTest.iml" filepath="$PROJECT_DIR$/MTvTest/MTvTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MBrowser3/tests/tests.iml" filepath="$PROJECT_DIR$/MBrowser3/tests/tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MLatinIME/tests/tests1.iml" filepath="$PROJECT_DIR$/MLatinIME/tests/tests1.iml" />
+    </modules>
+  </component>
+</project>

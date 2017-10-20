@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="more_setting_listview_icon">
+        <item>setting_icon_personalized</item>
+        <item>setting_icon_image</item>
+        <item>setting_icon_voice</item>
+        <item>setting_icon_channel</item>
+        <item>setting_icon_network</item>
+        <item>setting_icon_system</item>
+    </array>
+     <string-array name="more_setting_listview_icon_focus">
+        <item>setting_icon_personalized_focus</item>
+        <item>setting_icon_image_focus</item>
+        <item>setting_icon_voice_focus</item>
+        <item>setting_icon_channel_focus</item>
+        <item>setting_icon_network_focus</item>
+        <item>setting_icon_system_focus</item>
+    </string-array>
+    
+        <!-- setting listview  -->
+    <string-array name="more_setting_listview_text">
+        <item>Picture</item>
+        <item>Sound</item>
+        <item>Channel</item>
+        <item>Settings</item>
+        <item>Time</item>
+        <item>Lock</item>
+    </string-array> 
+    
+    <string-array name="more_setting_listview_nochannel_text">
+        <item>Picture</item>
+        <item>Sound</item>
+        <item>Settings</item>
+        <item>Time</item>
+        <item>Lock</item>
+    </string-array> 
+    <string-array name="more_setting_listview_nochannelnolock_text">
+        <item>Picture</item>
+        <item>Sound</item>
+        <item>Settings</item>
+        <item>Time</item>
+    </string-array>  
+</resources>

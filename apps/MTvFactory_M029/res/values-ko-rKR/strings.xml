@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">공장 메뉴</string>
+
+
+
+	<string name="str_factory_adc">ADC 조정</string>
+	<string name="str_factory_adc_source">출처</string>
+	<string name="str_factory_adc_rgain">R 게인</string>
+	<string name="str_factory_adc_ggain">G 이득</string>
+	<string name="str_factory_adc_bgain">B 게인</string>
+	<string name="str_factory_adc_roffset">R 오프셋</string>
+	<string name="str_factory_adc_goffset">G 오프셋</string>
+	<string name="str_factory_adc_boffset">B 오프셋</string>
+	<string name="str_factory_adc_phase">단계</string>
+	<string name="str_factory_adc_autoadjust">오토튠</string>
+	<string name="str_factory_adc_autoadjust_val">잠시만 기다려주세요.</string>
+	<string name="str_factory_adc_autoadjust_ok">성공</string>
+	<string name="str_factory_adc_autoadjust_failed">실패한</string>
+	<string name="str_factory_adc_autoadjust_timing_mode_err">타이밍 모드 선택 오류</string>
+	<string name="str_text_adc_adjust">ADC 조정</string>
+	<string name="str_textview_factory_adc_source_val">VGA</string>
+	<string name="str_textview_factory_adc_rgain_val">50</string>
+	<string name="str_textview_factory_adc_ggain_val">50</string>
+	<string name="str_textview_factory_adc_bgain_val">50</string>
+	<string name="str_textview_factory_adc_roffset_val">50</string>
+	<string name="str_textview_factory_adc_goffset_val">50</string>
+	<string name="str_textview_factory_adc_boffset_val">50</string>
+	<string name="str_textview_factory_adc_phase_val">50</string>
+
+
+	<string name="str_textview_factory_dialogmenu_title">당신은 확실한 업 그레 이드입니까?</string>
+	<string name="str_textview_factory_dialogmenu_confirm">확인</string>
+	<string name="str_textview_factory_dialogmenu_cancel">취소</string>
+	<string name="str_design_menu">디자인 메뉴</string>
+	<string name="str_factory_menu">공장 메뉴</string>
+
+
+
+	<string name="str_factory_whitebalance">화이트 밸런스</string>
+	<string name="str_factory_wbadjust_source">출처</string>
+	<string name="str_factory_wbadjust_rgain">R 게인</string>
+	<string name="str_factory_wbadjust_ggain">G 이득</string>
+	<string name="str_factory_wbadjust_bgain">B 게인</string>
+	<string name="str_factory_wbadjust_roffset">R 오프셋</string>
+	<string name="str_factory_wbadjust_goffset">G 오프셋</string>
+	<string name="str_factory_wbadjust_boffset">B 오프셋</string>
+	<string name="str_factory_wbadjust_autoadjust">자동 조정</string>
+	<string name="str_factory_wbadjust_colortemp">색온도</string>
+	<string name="str_wb_adjust_text">W / B 조정</string>
+	<string name="str_textview_factory_wbadjust_source_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_colortemp_val">VGA</string>
+	<string name="str_textview_factory_wbadjust_default_val">50</string>
+
+
+	<string name="str_factory_picturemode">그림 모드</string>
+	<string name="str_factory_picmode_picmode">그림 모드</string>
+	<string name="str_factory_picmode_brightness">명도</string>
+	<string name="str_factory_picmode_contrast">대조</string>
+	<string name="str_factory_picmode_saturation">포화</string>
+	<string name="str_factory_picmode_hue">색조</string>
+	<string name="str_factory_picmode_sharpness">날카로움</string>
+	<string name="str_factory_picmode_backlight">백라이트</string>
+	<string name="str_picture_mode_text">그림 모드</string>
+	<string name="str_textview_factory_picmode_picmode_val">VGA</string>
+	<string name="str_textview_factory_picmode_default_val">50</string>
+
+
+
+	<string name="str_factory_non_standard">비표준 옵션</string>
+	<string name="str_factory_nonstandard_vif">VIF (나를 클릭하십시오)</string>
+	<string name="str_factory_nonstandard_vd">VD (나를 클릭하십시오)</string>
+	<string name="str_factory_nonstandard_audio">오디오 (나를 클릭하십시오)</string>
+	<string name="str_factory_nonstandard_viftop">VIF_TOP</string>
+	<string name="str_factory_nonstandard_vifvgamaximum">VIF_VGA_MAXIMUM</string>
+	<string name="str_factory_nonstandard_vifcpkp">VIF_CR_KP</string>
+	<string name="str_factory_nonstandard_vifcpki">VIF_CR_KI</string>
+	<string name="str_factory_nonstandard_vifasiasignaloption">VIF_ASIA_SIGNAL_OPTION</string>
+	<string name="str_factory_nonstandard_vifcpkpkiadjust">VIF_CR_KP_KI_ADJUST</string>
+	<string name="str_factory_nonstandard_vifovermodulation">VIF_OVER_MODULATION</string>
+	<string name="str_factory_nonstandard_vifclampgain">VIF_CLAMPGAIN_GAIN_OV_NEGATIVE</string>
+	<string name="str_factory_nonstandard_chinadescrambler">CHINA_DESCRAMBLER_BOX</string>
+	<string name="str_factory_nonstandard_chinadescrambler_delay">China_DES_BOX_Delay</string>
+	<string name="str_factory_nonstandard_delay">지연</string>
+	<string name="str_factory_nonstandard_vifcrthr">VIF_CR_THR</string>
+	<string name="str_factory_nonstandard_vifversion">VIF_VERSION</string>
+	<string name="str_factory_nonstandard_vifagcref">VIF_AGC_REF</string>
+	<string name="str_factory_nonstandard_gaindistributionthr">GAIN_DISTRIBUTION_THR</string>
+	<string name="str_factory_nonstandard_afecd4">AFEC_D4</string>
+	<string name="str_factory_nonstandard_aefcd5">AFEC_D5 [2]</string>
+	<string name="str_factory_nonstandard_aefcd8">AFEC_D8 [3 : 0]</string>
+	<string name="str_factory_nonstandard_aefcd9">AFEC_D9 [0]</string>
+	<string name="str_factory_nonstandard_aefcd7high">AFEC_D7_HIGH_BOUN</string>
+	<string name="str_factory_nonstandard_aefcd7">AFEC_D7_LOW_BOUN</string>
+	<string name="str_factory_nonstandard_aefca0">AFEC_A0</string>
+	<string name="str_factory_nonstandard_aefca1">AFEC_A1</string>
+	<string name="str_factory_nonstandard_aefc66">AFEC_66 [7 : 6]</string>
+	<string name="str_factory_nonstandard_aefc6e">AFEC_6E [7 : 4]</string>
+	<string name="str_factory_nonstandard_aefc6elow">AFEC_6E [3 : 0]</string>
+	<string name="str_factory_nonstandard_aefc43">VD_AUTO_AGC</string>
+	<string name="str_factory_nonstandard_aefc44">AFEC_44</string>
+	<string name="str_factory_nonstandard_aefccb">AFEC_CB</string>
+	<string name="str_factory_nonstandard_vddsp">VD_DSP_VERSION</string>
+	<string name="str_factory_nonstandard_audiohidev">AUDIO_HIDEV_MODE</string>
+	<string name="str_factory_nonstandard_audionr">AUDIO_NR_THR</string>
+	<string name="str_factory_nonstandard_audiosif">오디오 SIF 임계 값</string>
+	<string name="str_factory_nonstandard_audiodsp">AUDIO_DSP_VERSION</string>
+	<string name="str_Non_Standard_Adjust_text">비표준 조정</string>
+	<string name="str_textview_factory_nonstandard_default_val">128 자</string>
+
+
+	<string name="str_factory_non_linear">비선형</string>
+	<string name="str_factory_nonlinear_curvetype">곡선 유형</string>
+	<string name="str_factory_nonlinear_osd0">OSD_0</string>
+	<string name="str_factory_nonlinear_osd25">OSD_25</string>
+	<string name="str_factory_nonlinear_osd50">OSD_50</string>
+	<string name="str_factory_nonlinear_osd75">OSD_75</string>
+	<string name="str_factory_nonlinear_osd100">OSD_100</string>
+	<string name="str_Non_Linear_Adjust_text">비선형 조정</string>
+	<string name="str_textview_factory_nonlinear_curvetype_val">VGA</string>
+	<string name="str_textview_factory_nonlinear_osd_val">50</string>
+
+
+
+	<string name="str_factory_overscan">오버 스캔</string>
+	<string name="str_factory_overscan_source">출처</string>
+	<string name="str_factory_overscan_hsize">H 크기</string>
+	<string name="str_factory_overscan_hposition">수평 위치</string>
+	<string name="str_factory_overscan_vsize">V 크기</string>
+	<string name="str_factory_overscan_vposition">V 위치</string>
+	<string name="str_factory_overscan_adjust_text">오버 스캔 조정</string>
+	<string name="str_textview_factory_overscan_source_val">ATV</string>
+	<string name="str_textview_factory_overscan_default_val">50</string>
+
+
+
+	<string name="str_factory_ssc">SSC 조정</string>
+	<string name="str_factory_ssc_miuenable">MIU 사용</string>
+	<string name="str_factory_ssc_miumodulation">MIU 변조</string>
+	<string name="str_factory_ssc_miupercentage">MIU 백분율 (%)</string>
+	<string name="str_factory_ssc_lvdsenable">LVDS 사용</string>
+	<string name="str_factory_ssc_lvdsmodulation">LVDS 변조</string>
+	<string name="str_factory_ssc_lvdspercentage">LVDS 비율 (%)</string>
+	<string name="str_factory_ssc_u_miuenable">MIU_U 사용</string>
+	<string name="str_factory_ssc_u_miumodulation">MIU_U 변조</string>
+	<string name="str_factory_ssc_u_miupercentage">MIU_U 백분율 (%)</string>
+	<string name="str_factory_ssc_u_lvdsenable">LVDS_U 활성화</string>
+	<string name="str_factory_ssc_u_lvdsmodulation">LVDS_U 변조</string>
+	<string name="str_factory_ssc_u_lvdspercentage">LVDS_U 백분율 (%)</string>
+	<string name="str_ssc_adjust_text">SSC 조정</string>
+	<string name="str_textview_factory_ssc_default_val">128 자</string>
+
+
+
+	<string name="str_factory_peq">PEQ</string>
+	<string name="str_factory_peq_fo1coarse">FO1 거친</string>
+	<string name="str_factory_peq_fo1fine">FO1 Fine</string>
+	<string name="str_factory_peq_fo2coarse">FO2 거친</string>
+	<string name="str_factory_peq_fo2fine">FO2 미세</string>
+	<string name="str_factory_peq_fo3coarse">FO3 거친</string>
+	<string name="str_factory_peq_fo3fine">FO3 Fine</string>
+	<string name="str_factory_peq_fo4coarse">FO4 거친</string>
+	<string name="str_factory_peq_fo4fine">FO4 파인더</string>
+	<string name="str_factory_peq_fo5coarse">FO5 거친</string>
+	<string name="str_factory_peq_fo5fine">FO5 Fine</string>
+	<string name="str_factory_peq_gain1">이득 1</string>
+	<string name="str_factory_peq_gain2">이득 2</string>
+	<string name="str_factory_peq_gain3">이득 3</string>
+	<string name="str_factory_peq_gain4">이득 4</string>
+	<string name="str_factory_peq_gain5">이득 5</string>
+	<string name="str_factory_peq_q1">Q1</string>
+	<string name="str_factory_peq_q2">2 분기</string>
+	<string name="str_factory_peq_q3">3 분기</string>
+	<string name="str_factory_peq_q4">4 분기</string>
+	<string name="str_factory_peq_q5">Q5</string>
+	<string name="str_peq_adjust_text">PEQ 조정</string>
+	<string name="str_textview_factory_peq_default_val">128 자</string>
+
+
+	<string name="str_factory_ci_setting">CI 공장 설정</string>
+	<string name="str_factory_ci_credential_mode">CI + 자격증 명 모드</string>
+	<string name="str_factory_ci_performance_monitor">성능 모니터</string>
+	<string name="str_factory_ci_resource_manager">자원 관리자</string>
+	<string name="str_factory_ci_application_infomation">지원 정보</string>
+	<string name="str_factory_ci_conditional_access_support">조건부 액세스 지원</string>
+	<string name="str_factory_ci_host_control">호스트 제어</string>
+	<string name="str_factory_ci_date_time">날짜 시간</string>
+	<string name="str_factory_ci_man_machine_interface">맨 머신 인터페이스</string>
+	<string name="str_factory_ci_low_speed_communication">저속 통신</string>
+	<string name="str_factory_ci_content_control">콘텐츠 제어</string>
+	<string name="str_factory_ci_host_language_country">호스트 언어 국가</string>
+	<string name="str_factory_ci_cam_upgrade">CAM 업그레이드</string>
+	<string name="str_factory_ci_operator_profile">운영자 프로필</string>
+	<string name="str_factory_ci_specific_application_support">특정 응용 프로그램 지원</string>
+	<string name="str_factory_ci_app_man_machine_interface">응용 프로그램 맨 머신 인터페이스</string>
+	<string name="str_factory_ci_program_map_table">프로그램지도 표 (사용되지 않음)</string>
+	<string name="str_factory_ci_host_service_shunning">호스트 서비스 예리한</string>
+	<string name="str_factory_ci_canal_ready_authentication">채널 준비 인증</string>
+	<string name="str_factory_ci_default_tx_rx">기본 TX / RX</string>
+	<string name="str_textview_factory_ci_credential_mode_val_Library">테스트 (CI 라이브러리)</string>
+	<string name="str_textview_factory_ci_credential_mode_va_Flash">테스트 (낸드 플래시)</string>
+	<string name="str_textview_factory_ci_default_val">0</string>
+
+
+	<string name="str_factory_mountconfig">마운트 구성</string>
+
+
+
+	<string name="str_factory_pqtableupdate">PQ 테이블 업데이트</string>
+
+
+	<string name="str_factory_ursa_info">큰곰 자리 정보</string>
+	<string name="str_factory_ursa_version">번역</string>
+	<string name="str_factory_ursa_version_val">0</string>
+	<string name="str_factory_ursa_changelist">변경 목록</string>
+	<string name="str_factory_ursa_changelist_val">0</string>
+
+
+	<string name="str_factory_panel_info">패널 정보</string>
+	<string name="str_textview_factory_panelinfo_text_timode">티 모드</string>
+	<string name="str_textview_factory_panelinfo_text_bitmode">비트 모드</string>
+	<string name="str_textview_factory_panelinfo_text_swap">스왑 모드</string>
+	<string name="str_textview_factory_panelinfo_text_dualport">이중 모드</string>
+	<string name="str_textview_factory_panelinfo_text_mirror">미러 모드</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve">볼륨 커브</string>
+	<string name="str_textview_factory_panelinfo_text_volumecurve_8w">8Ω8W</string>
+
+
+
+	<string name="str_set_mute_color">음소거 색상</string>
+
+
+	<string name="str_factory_otheroption">기타 옵션</string>
+	<string name="str_factory_otheroption_version">번역</string>
+	<string name="str_factory_otheroption_name">이름</string>
+	<string name="str_factory_otheroption_build">짓다</string>
+	<string name="str_factory_otheroption_changelist">변경 목록</string>
+	<string name="str_factory_otheroption_board">판</string>
+	<string name="str_factory_otheroption_panel">패널</string>
+	<string name="str_factory_otheroption_date">날짜</string>
+	<string name="str_factory_otheroption_time">시각</string>
+	<string name="str_factory_otheroption_watchdog">시계 개</string>
+	<string name="str_factory_otheroption_wake_on_lan">Lan에서 깨우기</string>
+	<string name="str_factory_otheroption_testpattern">테스트 패턴</string>
+	<string name="str_factory_otheroption_upgrademboot">Mboot 업그레이드</string>
+	<string name="str_factory_otheroption_upgrademain">메인 업그레이드</string>
+	<string name="str_factory_otheroption_upgrade6m30">6M30 업그레이드</string>
+	<string name="str_factory_otheroption_upgradedualursa">Dual Ursa 업그레이드</string>
+	<string name="str_factory_otheroption_restoretodefault">기본 복원</string>
+	<string name="str_factory_otheroption_poweronmode">전원 켜기 모드</string>
+	<string name="str_factory_otheroption_uartenable">Uart 활성화</string>
+	<string name="str_factory_otheroption_display_logo">로고 표시</string>
+	<string name="str_factory_otheroption_dtvavdelay">DTV AV 지연 (Non_standard)</string>
+	<string name="str_factory_otheroption_initialfunction">초기 채널</string>
+	<string name="str_factory_otheroption_panelswing">패널 스윙</string>
+	<string name="str_factory_otheroption_audioprescale">오디오 프리 스케일</string>
+	<string name="str_factory_otheroption_3d_selfadaptive_detectlevel">3D 자기 적응 형 감지 레벨</string>
+	<string name="str_factory_otheroption_upgrademboot_hint">당신은 확실한 업 그레 이드입니까?</string>
+	<string name="str_factory_otheroption_upgrademboot_confirm">확인</string>
+	<string name="str_factory_otheroption_upgrademboot_cancel">취소</string>
+	<string name="str_factory_otheroption_upgrademboot_nousb">USB를 연결하십시오!</string>
+	<string name="str_factory_otheroption_xvycc">xvycc</string>
+	<string name="str_factory_otheroption_pvrrecordall">RVR 모두 기록</string>
+	<string name="str_other_option_text">기타 옵션 조정</string>
+	<string name="str_textview_factory_otheroption_version_val">0.0.1</string>
+	<string name="str_textview_factory_otheroption_board_val">J2</string>
+	<string name="str_textview_factory_otheroption_panel_val">풀 HD</string>
+	<string name="str_textview_factory_otheroption_date_val">40837.5</string>
+	<string name="str_textview_factory_otheroption_text_on">에</string>
+	<string name="str_textview_factory_otheroption_text_off">떨어져서</string>
+	<string name="str_textview_factory_otheroption_upgrademboot_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrademain_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgrade6m30_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_upgradedualursa_val">- >> "</string>
+	<string name="str_textview_factory_otheroption_initialfunction_val">DTV</string>
+	<string name="str_textview_factory_otheroption_default_val">0 "</string>
+	<string name="str_factory_otheroption_main_pq_version">메인 PQ 버전</string>
+	<string name="str_factory_otheroption_sub_pq_version">하위 PQ 버전</string>
+	<string name="str_textview_factory_otheroption_waiting_val">기다려주십시오!</string>
+	<string name="str_factory_otheroption_mstv_tool">Uart 디버그</string>
+	<string name="str_factory_otheroption_pq_update">PQ 업데이트</string>
+	<string name="str_factory_otheroption_pq_update_state">클릭하세요!</string>
+	<string name="str_factory_nonstandard_afeccf_av">AFEC_CF [2] _AV</string>
+	<string name="str_factory_nonstandard_afeccf_atv">AFEC_CF [2] _ATV</string>
+	<string name="str_ursa_test_result_title">결과 :</string>
+	<string name="str_ursa_test_run_auto">자동 실행</string>
+	<string name="str_ursa_test_title">큰곰 자리 테스트</string>
+	<string name="str_ursa_test_run">운영</string>
+	<string name="str_Info_title">정보</string>
+	<string name="str_factory_otheroption_sw_version">SW 버전</string>
+	<string name="str_factory_otheroption_dtv_preset">DTV 프리셋</string>
+	<string name="str_factory_otheroption_dtv_preset_state">클릭하세요!</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg1">잠시만 기다려주십시오 ...</string>
+	<string name="str_factory_otheroption_dtv_preset_hint_msg2">완료, 1 분 후 AC 꺼짐.</string>
+	<string name="enter">확인 키 공장 메뉴 입력 -></string>
+	<string name="tips">L-R Ajust, "OK"다음에 입력, "Exit"/ "Menu"return</string>
+	<string name="str_factory_otheroption_str_enable">STR 사용</string>
+	<string name="str_factory_otheroption_audiodelay">스피커 오디오 지연</string>
+	<string name="str_textview_factory_otheroption_audiodelay_val">0</string>
+
+
+	<string name="str_factory_ipenablemapping">IP 사용 매핑</string>
+	<string name="str_ipenablemapping_text">IP 사용 매핑</string>
+
+
+	<string name="str_factory_update">USB에서 업그레이드</string>
+	<string name="str_factory_upgrade">USB에서 업그레이드</string>
+	<string name="str_factory_updateHDCPkeyfromUSB">USB에서 HDCP 키 업데이트</string>
+	<string name="str_factory_updateCIkeyfromUSB">CI Plus 키 업데이트 USB</string>
+	<string name="str_factory_upgrade_ci_upgrade">Ci 업 그레 이드</string>
+	<string name="str_factory_upgrade_ci_display">Ci 디스플레이</string>
+	<string name="str_factory_upgrade_hdcp_upgrade">Hdcp 업그레이드</string>
+	<string name="str_factory_upgrade_hdcp_display">Hdcp 디스플레이</string>
+	<string name="str_factory_upgrade_mac_upgrade">Mac 업그레이드</string>
+	<string name="str_factory_upgrade_mac_display">Mac 디스플레이</string>
+	<string name="str_factory_upgrade_sn_upgrade">SN 업그레이드</string>
+	<string name="str_factory_upgrade_sn_display">SN 디스플레이</string>
+	<string name="str_factory_upgrade_hdcp2_upgrade">Hdcp2 업그레이드</string>
+	<string name="str_factory_upgrade_hdcp2_display">Hdcp2 디스플레이</string>
+
+
+	<string name="str_factory_otheroption_dvbt_dvbc_info">데모 정보</string>
+	<string name="str_textview_factory_otheroption_dvbt_dvbc_val">- >></string>
+	<string name="str_textview_factory_otheroption_dvbt_info">DVBT 정보</string>
+	<string name="str_textview_factory_otheroption_dvbc_info">DVBC 정보</string>
+	<string name="str_textview_factory_otheroption_dvbc_info_empty">DVB / DVBC 정보 훼손</string>
+
+
+	<string name="str_factory_otheroption_factoryprogrampresetfunction">공장 프로그램 사전 설정 기능</string>
+	<string name="str_factory_otheroption_factoryprogrampreset">공장 프로그램 프리셋</string>
+	<string name="str_factory_otheroption_factoryprogramreset">공장 초기화</string>
+	<string name="str_factory_otheroption_backupdbtousb">USB에서 DB 백업</string>
+	<string name="str_factory_otheroption_restoredbfromusb">USB에서 DB 복원</string>
+	<string name="str_factory_otheroption_factoryprogrampreset_state">클릭하세요!</string>
+	<string name="str_textview_factory_otheroption_text_pass">패스</string>
+	<string name="str_textview_factory_otheroption_text_fail">실패</string>
+	<string name="str_factory_db_path">/ tvdatabase / 데이터베이스 /</string>
+	<string name="str_factory_db_file">* cmdb * .bin</string>
+
+	<string name="str_factory_again_mode">노화 모드</string>
+	<string name="str_factory_running_time">POWER TIME (H / 2)</string>
+
+
+	<string name="str_design_menu_sound">소리</string>
+	<string name="str_factory_prescale">프리 스케일</string>
+	<string name="str_factory_avc_enable">Avc Enable</string>
+	<string name="str_factory_avc_threthold">Avc Thl</string>
+	<string name="str_factory_drc_enable">Drc 사용</string>
+	<string name="str_factory_drc_threthold">Drc Thl</string>
+	<string name="str_factory_sound_effect">효과 (HPF)</string>
+	<string name="str_factory_sound_toneffect">음정</string>
+	<string name="str_factory_audio_delay">오디오 지연 (스피커)</string>
+	<string name="str_factory_audio_nr">오디오 NR</string>
+	<string name="str_factory_lineout">LineOut (AUOUT1)</string>
+	<string name="str_factory_speaker">볼륨 (AUOUT0)</string>
+	<string name="str_factory_audio_spdif_delay">오디오 지연 (spdif)</string>
+
+	<string name="str_factory_ota_info">오타 정보</string>
+	<string name="str_factory_ota_info_praname">프라</string>
+	<string name="str_factory_ota_info_cusname">cusName</string>
+	<string name="str_factory_ota_info_proname">proName</string>
+	<string name="str_factory_ota_info_preversion">이전 버전</string>
+	<string name="str_factory_onidaview">스크롤링 가능한 옵션</string>
+
+	<string name="str_textview_factory_total_run_time">h</string>
+	<string name="str_total_run_time">TotalRunTime</string>
+
+</resources>

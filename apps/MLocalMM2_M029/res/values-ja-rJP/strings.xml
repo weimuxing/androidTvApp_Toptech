@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <string name="app_name">UI-LocalMM</string>
+
+    <string name="back">バック</string>
+
+    <string name="folder">フォルダ</string>
+
+    <string name="rootDirectory">/mnt/usb</string>
+
+    <string name="sambarootDirectory">/mnt/samba</string>
+
+    <string name="unsupport_format">このフォーマットは再生できません。</string>
+
+    <string name="exit_ok">ok</string>
+
+    <string name="exit_cancel">キャンセル</string>
+
+    <string name="current_time">現在の時刻:</string>
+
+    <string name="total_duration">合計時間:</string>
+
+    <string name="choice">選択</string>
+
+    <string name="confirm">確認する</string>
+
+    <string name="exit_title">終了する</string>
+
+    <string name="exit_confirm">削除を確認する？</string>
+
+    <string name="the_first_file">最初のファイル！</string>
+
+    <string name="the_last_file">最後のファイル！</string>
+
+    <string name="net_disconnect">ネットが切断され、それを確認してください！</string>
+
+    <string name="display_pip">PIPを表示します。</string>
+
+    <string name="hide_pip">PIP隠す</string>
+
+    <string name="pre_channel">前のチャンネル</string>
+
+    <string name="next_channel">次のチャンネル</string>
+
+
+
+    <!-- ####################文件浏览模块资源定义区#################### -->
+
+    <string name="picture">画像</string>
+
+    <string name="song">歌</string>
+
+    <string name="video">ビデオ</string>
+
+    <string name="samba">Samba</string>
+
+    <string name="dlna">DLNA</string>
+
+    <string name="other">その他</string>
+
+    <string name="all">すべて</string>
+
+    <string name="page_up">ページアップ</string>
+
+    <string name="page_down">ページダウン</string>
+
+    <string name="slash">/</string>
+
+
+
+    <!-- 加载进度提示信息定义区 -->
+
+    <string name="loading_top">トップページの読み込み、お待ちください</string>
+
+    <string name="loading_usb_device">USBデバイスをロードする</string>
+
+    <string name="loading_local_resource">ローカルリソースの読み込み、お待ちください</string>
+
+    <string name="loading_dlna_device">DLNAデバイスの読み込み、お待ちください</string>
+
+    <string name="loading_dlna_resource">DLNAリソースの読み込み、お待ちください</string>
+
+    <string name="miss_dlna_device">DLNAリソースのロードに失敗しました</string>
+
+    <string name="loading_samba_device">ローディングSAMBAデバイスは、待ってください。</string>
+
+    <string name="loading_samba_resource">ローディング中SAMBAリソースは、待ってください。</string>
+
+    <string name="miss_samba_device">負荷SAMBAリソースが失敗しました。</string>
+
+    <string name="is_scanning_disc">それがディスクをスキャンしている！</string>
+
+    <string name="login_wrong_password">間違ったパスワード</string>
+
+    <string name="login_failed">SAMBAログインに失敗しました</string>
+
+    <string name="login_other_failed">ログインSAMBA例外</string>
+
+    <string name="login_title">ログイン</string>
+
+    <string name="network_connect_failed">失敗した、ネットワークリソースを共有できないデバイスに接続する</string>
+
+    <string name="network_unconnected">接続されていないネットワークは、確認し、再試行してください。
+
+	</string>
+
+    <string name="login_samba">ログインSambaは、待ってください。</string>
+
+    <string name="logging_out_samba">外出Sambaをログインすると、待ってください。</string>
+
+    <string name="login_success">ログイン成功のSamba</string>
+
+    <string name="mount_failed">マウントSambaは失敗しました。</string>
+
+
+
+    <string-array name="data_source">
+
+        <item>ローカルのディスク·デバイス</item>
+
+        <item>ネットワークSAMBAデバイス</item>
+
+        <!--<item>ネットワークDLNAデバイス</item>-->
+    </string-array>
+
+
+
+    <!-- ####################媒体播放器资源定义区#################### -->
+
+    <!-- 图片播放模块资源定义区 -->
+
+    <string name="file_name">ファイル名:</string>
+
+    <string name="photo_info">写真情報</string>
+
+    <string name="file_create_time">時間を作成します。</string>
+
+    <string name="file_size">ファイルサイズ:</string>
+
+    <string name="file_format">ファイル形式:</string>
+
+    <string name="display_img_name">表示画像の名前</string>
+
+    <string name="disk_eject">イジェクトディスク</string>
+
+    <string name="photo_3D_toast">3Dモードで動作しない</string>
+
+    <string name="photo_set_wallpaper">写真の壁紙</string>
+
+    <string name="first_photo">最初の写真！</string>
+
+    <string name="last_photo">最後の写真！</string>
+
+    <string name="can_not_decode">写真は分析するには大きすぎる！</string>
+
+    <string name="current_pic">現在の画像です:</string>
+
+    <string name="is_setting_wallpaper">これは、壁紙を設定している、しばらくお待ちください...</string>
+
+    <string name="picture_can_not_decode">この画像はデコードできません！</string>
+
+    <string name="picture_decoding">画像のデコードは...</string>
+
+
+
+    <!-- 音乐播放模块资源定义区 -->
+
+    <string name="music_info">音楽情報</string>
+
+    <string name="file_duration">ファイルの長さ:</string>
+
+    <string name="music_default_time">00:00</string>
+
+    <string name="Artist_name">アーティスト名:</string>
+
+    <string name="file_path">ファイルのパス:</string>
+
+    <string name="none_lyrics_find">歌詞を見つけることができませんでした！</string>
+
+    <string name="unknown">未知の</string>
+
+    <string name="singer">歌手:</string>
+
+    <string name="current_song">現在の歌:</string>
+
+    <string name="exit_music_play">演じ音楽を決定する？</string>
+
+    <string name="alert">警告</string>
+
+
+
+    <!-- 视频播放模块资源定义区 -->
+
+    <string name="no_video_track">なしビデオトラック</string>
+
+    <string name="audio_codec">オーディオコーデック</string>
+
+    <string name="video_codec">ビデオコーデック</string>
+
+    <string name="duration">時間:</string>
+
+    <string name="default_time">--:--:--</string>
+
+	<string name="video_default_time">00:00:00</string>
+
+	<string name="choose_time_0">0</string>
+
+	<string name="choose_time_colon">:</string>
+
+    <string name="programe_info">プログラム情報</string>
+
+    <string name="show_info">の情報を見る </string>
+
+    <string name="buffering">バッファリング...</string>
+
+    <string name="playing">再生</string>
+
+    <string name="video_subtitle">ビデオ字幕</string>
+
+    <string name="video_track">ビデオトラック</string>
+
+    <string name="video_channel">ビデオチャンネル</string>
+
+    <string name="video_media_full_resize">ビデオをフルサイズ</string>
+
+    <string name="video_media_default">ビデオのデフォルトサイズ</string>
+
+    <string name="video_media_full">ビデオをフルサイズ</string>
+
+    <string name="video_media_error_unknown">映像メディアのエラー不明</string>
+
+    <string name="video_media_error_malformed">映像メディアエラー不正な形式の</string>
+
+    <string name="video_media_error_io">映像メディアエラーIO</string>
+
+    <string name="video_media_error_unsupported">サポートされていないビデオのメディアエラー</string>
+
+    <string name="video_media_error_format_unsupport">サポートされていないビデオメディアのエラー形式</string>
+
+    <string name="video_media_error_not_connected">ビデオメディア·エラー接続されていません</string>
+
+    <string name="video_media_error_audio_unsupport">サポートされていないビデオのメディアエラーのオーディオ</string>
+
+    <string name="video_media_error_video_unsupport">サポートされていないビデオのメディア·エラー·ビデオ</string>
+
+    <string name="video_media_error_no_license">ビデオメディア·エラーがないライセンス</string>
+
+    <string name="video_media_error_license_expired">ビデオのメディアエラーのライセンスの有効期限が切れ</string>
+
+    <string name="video_media_other_error_unknown">その他不明なエラー</string>
+
+    <string name="video_media_error_not_valid">有効ではありませんビデオのメディアエラー</string>
+
+    <string name="video_media_error_server_died">メディアサーバーが死んだ</string>
+
+    <string name="video_media_infor_no_index">ビデオは、索引には、シークない</string>
+
+    <string name="video_media_infor_no_index_ab">ビデオは、索引には、ABを設定しない</string>
+
+    <string name="subtitle_type">字幕の種類</string>
+
+    <string name="subtitle_out_path">パス外サブタイトル</string>
+
+    <string name="subtitle_in_no">なしで字幕</string>
+
+    <string name="subtitle_language">字幕言語</string>
+
+    <string name="subtitle_color">字幕カラー</string>
+
+    <string name="subtitle_font">字幕フォント</string>
+
+    <string name="subtitle_font_size">字幕のフォントサイズ</string>
+
+    <string name="subtitle_frame">サブタイトルフレーム</string>
+
+    <string name="subtitle_area">字幕エリア</string>
+
+    <string name="subtitle_adjust">字幕調整</string>
+
+    <string name="subtitleList">字幕リスト</string>
+
+    <string name="playList">プレイリスト</string>
+
+    <string name="subtitle_setting">字幕の設定</string>
+
+    <string name="a_b_section_repeat">A-B 区間リピート</string>
+
+    <string name="section_replay">セクションの再生</string>
+
+    <string name="set_begin_a">開始点を設定する</string>
+
+    <string name="set_begin_b">点Bを開始する設定</string>
+
+    <string name="audio_track_count">カウントを追跡する</string>
+
+    <string name="audio_track_number">数を追跡する</string>
+
+    <string name="audio_track_duration">期間を追跡</string>
+
+    <string name="audio_track_language">言語を追跡</string>
+
+    <string name="audio_track_setting">設定を追跡する</string>
+
+    <string name="point_a">点Aの位置</string>
+
+    <string name="point_b">点Bの位置</string>
+
+    <string name="one_times_speed">1 倍の速度</string>
+
+    <string name="x_times_speed">倍の速度</string>
+
+    <string name="playing_settings">設定を再生</string>
+
+    <string name="open_ab_repeat">オープン（A-B）を繰り返し</string>
+
+    <string name="set_point_a_first">最初のポイントを設定</string>
+
+
+
+    <!-- "显示外接字幕", "点击选择路径", "无", "未知", "宋体", "中", "白色", "否", "视频画面底部", "0" -->
+
+    <string name="subtitle_0_value_1">外部字幕を表示する</string>
+
+    <string name="subtitle_0_value_2">内側の字幕を表示する</string>
+
+    <string name="subtitle_1_value_1">パスを選択</string>
+
+    <string name="subtitle_1_value_2">は、外部字幕なし</string>
+
+    <string name="subtitle_2_value_1">なし</string>
+
+    <string name="subtitle_2_value_2">サブタイトル </string>
+
+    <string name="subtitle_3_value_1">未知の</string>
+
+    <string name="subtitle_3_value_2">なし</string>
+
+    <string name="subtitle_4_value_1">songti</string>
+
+    <string name="subtitle_4_value_2">xingxu</string>
+
+    <string name="subtitle_4_value_3">kaiti</string>
+
+    <string name="subtitle_5_value_1">大きい</string>
+
+    <string name="subtitle_5_value_2">真ん中</string>
+
+    <string name="subtitle_5_value_3">小</string>
+
+    <string name="subtitle_6_value_1">白</string>
+
+    <string name="subtitle_6_value_2">black</string>
+
+    <string name="subtitle_6_value_3">blue</string>
+
+    <string name="subtitle_7_value_1">なし</string>
+
+    <string name="subtitle_7_value_2">はい</string>
+
+    <string name="subtitle_8_value_1">ボトム</string>
+
+    <string name="subtitle_8_value_2">トップ</string>
+
+    <string name="subtitle_9_value">0 ms</string>
+
+
+
+    <string-array name="subtitle_setting_opt">
+
+        <item>外部字幕を表示する</item>
+
+        <item>パスを選択</item>
+
+        <item>なし</item>
+
+        <item>未知の</item>
+
+        <item>songti</item>
+
+        <item>真ん中</item>
+
+        <item>白</item>
+
+        <item>なし</item>
+
+        <item>ボトム</item>
+
+        <item>0 ms</item>
+
+    </string-array>
+
+
+
+    <string name="subtitle_change_msg">外部字幕は、内側に変更してください！</string>
+
+    <string name="subtitle_change_path">内側の字幕は、外部に変更してください！</string>
+
+    <string name="choose_time_failed">位置することはできません！!</string>
+
+    <string name="choose_time_invalid">無効な時間は、再試行してください！</string>
+
+
+
+    <string-array name="play_setting_opt">
+
+        <item>開く</item>
+
+        <item>閉じる</item>
+
+    </string-array>
+
+
+
+    <string name="play_setting_0_value_1">開く</string>
+
+    <string name="play_setting_0_value_2">閉じる</string>
+
+    <string name="video_size_unknown">未知の</string>
+
+
+
+    <string-array name="audio_track_setting_opt">
+
+        <item>オーディオトラック 1</item>
+
+        <item>1</item>
+
+        <item>00:00:00</item>
+
+        <item>未知の</item>
+
+    </string-array>
+
+
+
+    <string name="audio_track_setting_0_value_1">オーディオトラック</string>
+
+	<!-- add by fangcuihong,20160718 -->
+    <string name="toast_scale">規模: %.1f</string>
+    <string name="toast_rotate">ローテート: %.1f</string>
+
+    <!-- end -->
+
+</resources>

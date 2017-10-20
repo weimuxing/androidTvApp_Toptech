@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ランチャー</string>
+
+	<string name="application_num">インストールされているアプリケーションの数：</string>
+
+	<string name="temp_unit_c">℃</string>
+	<string name="temp_unit_f">℉</string>
+
+	<string name="loading">読み込んでいます...</string>
+	<string name="instruction_loading">どうぞwiat、loading .....</string>
+
+	<string name="weather_location">天気の都を選択</string>
+	<string name="applabel">応用</string>
+
+	<string name="errornetwork">ネットワーク障害！</string>
+	<string name="load_error">データの読み込みに失敗しました！</string>
+
+
+	<string name="day_of_candar">Th</string>
+
+	<string name="add_app_title">あなたのお気に入りのAPPSを選択してください</string>
+	<string name="tips">私のアプリ</string>
+	<string name="savemsg">      変更内容を保存？</string>
+	<string name="delmsg">ショートカットを削除しますか？</string>
+	<string name="min_apk_num">少なくとも1つのAPKが必要です！</string>
+	<string name="ok">はい</string>
+	<string name="cancle">いいえ</string>
+	<string name="all_check_title">すべてチェック済み</string>
+	<string name="rev_check_title">逆のチェック</string>
+	<string name="month">m</string>
+	<string name="pick_wallpaper">壁紙を選ぶ</string>
+	<string name="chooser_wallpaper">壁紙を選択</string>
+	<string name="activity_not_found">アクティビティが見つかりません</string>
+	<string name="url_select">URL選択</string>
+	<string name="wallpaper_instructions">壁紙の指示</string>
+	<string name="wallpaper">壁紙</string>
+	<string name="wallpaper_set">壁紙が正しく設定されました！</string>
+
+
+	<string name="contentdes">img</string>
+	<string name="city001">深セン</string>
+	<string name="gallery_info">USBフラッシュドライブを挿入するか、イメージを特定できません。</string>
+
+</resources>

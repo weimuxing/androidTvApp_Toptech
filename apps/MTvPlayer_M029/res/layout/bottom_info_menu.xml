@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dip"
+    android:layout_marginTop="12dip"
+    android:gravity="center"
+    android:orientation="horizontal" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:minWidth="65dp"
+        android:layout_height="25dp"
+        android:drawableRight="@drawable/navigate_img"
+        android:textColor="@color/bottom_info_text_color"
+        android:text="@string/bt_info_adjust"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="14sp"
+       
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textColor="@color/bottom_info_text_color"
+        android:text="@string/bt_info_switch"
+        android:textSize="14sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+      
+        />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="25dp"
+         android:layout_marginLeft="40dp"
+         android:layout_marginRight="40dp"
+         android:drawableRight="@drawable/back_image"
+         android:text="@string/bt_info_back"
+         android:textColor="@color/bottom_info_text_color"
+         android:textSize="14sp" />
+	<TextView
+         android:layout_width="80dp"
+         android:layout_height="25dp"
+         android:layout_marginLeft="40dp"
+         android:visibility="gone"
+         android:layout_marginRight="40dp"
+         android:text="@string/bt_info_back_exit"
+         android:textColor="@color/bottom_info_text_color"
+         android:textSize="14sp" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+		android:src="@drawable/ok_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        />
+        <!--android:drawableLeft="@drawable/bottom_info_ok"-->
+	<ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+		android:src="@drawable/back_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        />
+    <!--android:drawableLeft="@drawable/en_bottom_info_back"-->
+</LinearLayout>

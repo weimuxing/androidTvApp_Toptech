@@ -1,0 +1,55 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <!-- zb20140521 add for tv -->
+    <!--  
+    <integer name="videoWindowType_x">104</integer>
+    <integer name="videoWindowType_y">72</integer>
+    <integer name="videoWindowType_width">495</integer>
+    <integer name="videoWindowType_height">350</integer>
+    
+    <integer name="surfaceParams_x">70</integer>
+    <integer name="surfaceParams_y">50</integer>
+    <integer name="surfaceParams_width">330</integer>
+    <integer name="surfaceParams_height">232</integer>
+    
+    <integer name="videoWindowType_x">104</integer>
+    <integer name="videoWindowType_y">72</integer>
+    <integer name="videoWindowType_width">495</integer>
+    <integer name="videoWindowType_height">350</integer>
+    
+    <integer name="surfaceParams_x">72</integer>
+    <integer name="surfaceParams_y">48</integer>
+    <integer name="surfaceParams_width">326</integer>
+    <integer name="surfaceParams_height">234</integer>-->
+<!--      <dimen name="surfaceParams_x">252.5dip</dimen>
+    <dimen name="surfaceParams_y">222.5dip</dimen> TV PIP WINDOW BLACK BG-->
+    <dimen name="surfaceParams_x">50dip</dimen>
+    <dimen name="surfaceParams_y">28dip</dimen>
+    <dimen name="surfaceParams_width">326dp</dimen>
+    <dimen name="surfaceParams_height">216dp</dimen>
+    <!-- PIP SIHNAL VIEW -->
+    <integer name="videoWindowType_dimen_width">652</integer>
+    <integer name="videoWindowType_dimen_height">432</integer>
+    <integer name="videoWindowType_dimen_x">208</integer>
+    <integer name="videoWindowType_dimen_y">413</integer>
+    <integer name="videoWindowType_x">78</integer>
+    <integer name="videoWindowType_y">74</integer>
+    
+    <integer name="videoWindowType_width">339</integer>
+    <integer name="videoWindowType_height">186</integer>
+    <integer name="Widget_width">150</integer>
+    
+    <integer name="Widget_height">105</integer>
+    <integer name="webWidget_x">159</integer>
+    <integer name="webWidget_y">210</integer>
+    <integer name="WeatherWidget_x">320</integer>
+    <integer name="WeatherWidget_y">210</integer>
+    <integer name="appWidget_x">480</integer>
+    <integer name="appWidget_y">210</integer>
+    <integer name="Widget_3dwidth">195</integer>
+    <integer name="Widget_3dheight">292</integer>
+</resources>

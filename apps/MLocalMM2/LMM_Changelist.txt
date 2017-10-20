@@ -1,0 +1,81 @@
+LMM-1.1.02.550642
+	2013/5/28 - 	divx drm support.
+			Remember samba user password.	
+			[548357]fix subtitle Language problem		
+			[545846]fix dlna seek problem
+			[  0394124  ] localmm blank screen After  come back from DTV
+CL.550642
+=====================================================================
+LMM-1.1.02.548331
+	2013/5/20 - fix bug 0400070
+	0397791: [K3][MM]在MM中播放movie时，退出播放，随机出现画面分为两部分，重复显示
+	CL.0400070
+=====================================================================
+LMM-1.1.02.542923
+	2013/5/20 - fix bug 0397791
+	0397791: [K3][MM]播放movies文件时，用鼠标点击timeplay，视频整体上移
+	CL.0397791
+=======================================================================
+LMM-1.1.02.540594
+fix bug video stays in pause after seek but icon shows that video is playing
+CL.540594
+========================================================================
+LMM-1.1.02.540530
+[  0395819  ] 
+fix bug localmm always save the last play time even it play over
+CL.540530
+=====================================================================
+LMM-1.1.02.539852
+	2013/05/15 - fix bug 0394577
+        CL.539852
+=====================================================================
+LMM-1.1.02.539269
+	2013/05/15 - [  0394571  ] remove delay when click "next music", no need delay in K3
+		     [  0394544  ] fix bug show unknow error after Repeat AB 
+		     [  0393523  ] fix bug in mantis that dual mm resume will cause mediaplayer pause
+		     [  394552  ] fix mouse click double switch,the main video stop
+		     [  394549  ] softe baoard cannnot input but the remote control is ok
+		     [  0387252  ] fix play 4K2K photo in FHD mode
+		     fix bug 0390299,0375111,0388035,038364,370031,379835,376278.
+		     add 3D ui 
+		     [  379733  ] fix bug: 379733  mm crash when play MPG-1080.mpg
+
+        CL.539269
+=====================================================================
+
+LMM-1.1.02.526333
+	2013/04/16 - fix bug 0375111
+        CL.526333
+=====================================================================
+LMM-1.1.02.526034
+	2013/04/16 - fix bug 0388035
+        CL.526034
+=====================================================================
+LMM-1.1.02.523580
+	2013/04/16 - add 3D ui 
+        CL.523580
+=====================================================================
+LMM-1.1.02.516467
+	2013/04/16 - fix bug: 0383641  
+        CL.516467
+==================================================================
+LMM-1.1.02.514721
+	2013/04/16 - fix bug: 379733  mm crash when play MPG-1080.mpg
+        CL.514721
+=================================================================
+LMM-1.1.02.513846
+	2013/04/15 - 370031\379835:Do not set the volume in an illegal state.                    
+	             376278:Do not dismiss breakpoint dialog after activity destroy.
+        CL.513846
+====================================================================
+
+LMM-1.1.02.507354
+	2013/04/07 - has a wrong judgment conditions set wallpaper.                     
+	             Modify the volume display of the control logic.
+        CL.507354
+================================================================
+
+LMM-1.1.02.499307
+	2013/03/26 - stop player when resource lost.
+
+        CL.499307

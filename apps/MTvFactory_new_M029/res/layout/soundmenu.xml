@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:background="#3280A0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_sound_menu"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" >
+
+        <!-- For Sound Nonlinear -->
+        
+        <LinearLayout
+            android:id="@+id/linearlayout_sound_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_nonlinear"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@+id/linearlayout_sound_PEQ_Adjust"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_sound_nonlinear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_non_linear"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Sound Mode -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_mode"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_sound_mode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_sound_mode"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+            
+            <!-- For Sound Adjust -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_Adjust"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_sound_Adjust"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_sound_adjust"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!-- For Sound Prescale -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_Prescale"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_sound_Prescale1"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_prescale"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_sound_Prescale2"
+                    style="@style/TextViewStyleValue"
+                    android:layout_width="133dp"
+                    android:layout_height="33dp"
+                    android:gravity="center"
+                    android:text="@string/str_factory_prescale"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+           <!-- For Sound Speaker Audio Delay -->
+
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_Speaker_Audio_Delay"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_sound_Speaker_Audio_Delay1"
+                    android:layout_width="133dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_factory_otheroption_audiodelay"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/textview_sound_Speaker_Audio_Delay2"
+                    style="@style/TextViewStyleValue"
+                    android:layout_width="133dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/str_textview_factory_otheroption_text_off"
+                    android:textSize="13dip" />
+            </LinearLayout>
+            
+            <!-- For Sound PEQ Adjust -->
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_sound_PEQ_Adjust"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/button_state"
+                android:focusable="true"
+                android:nextFocusDown="@+id/linearlayout_sound_nonlinear"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/textview_sound_PEQ_Adjust"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_sound_PEQ_Adjust"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

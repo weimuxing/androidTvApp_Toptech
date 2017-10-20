@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/music_suspension_layout2"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/bg"
+
+    android:screenOrientation="portrait" >
+
+
+
+    <com.jrm.localmm.ui.music.ScrollableViewGroup
+
+        android:id="@+id/ViewFlipper"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/musiccontrol"
+
+        android:gravity="center" >
+
+
+
+        <include
+
+            android:id="@+id/frmMain"
+
+            layout="@layout/music_playlayout" />
+
+
+
+        <include
+
+            android:id="@+id/frmList"
+
+            layout="@layout/listlayout" />
+
+    </com.jrm.localmm.ui.music.ScrollableViewGroup>
+
+
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/musiccontrol"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center_horizontal"
+
+        android:orientation="horizontal" >
+
+
+
+        <include layout="@layout/music_player_control" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

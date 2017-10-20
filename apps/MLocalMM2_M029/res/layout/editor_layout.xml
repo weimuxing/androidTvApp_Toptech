@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+	<LinearLayout
+	    android:id="@+id/edit_copy"
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		 
+    	<ImageView
+    		android:background="@drawable/copy" 
+	    	style="@style/editor_layout_ImageView"/>		
+	    <TextView
+			android:id="@+id/edit_copy_text"	    
+	        android:text="@string/edit_copy"
+	    	style="@style/editor_layout_TextView"/>
+    </LinearLayout>
+    
+    <ImageView style="@style/editor_layout_Line"/>
+    
+    <LinearLayout
+	    android:id="@+id/edit_delete"
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/close_b" 
+	    	style="@style/editor_layout_ImageView"/>	
+	    <TextView 
+			android:id="@+id/edit_delete_text"
+	        android:text="@string/edit_delete"	
+			style="@style/editor_layout_TextView"/>
+    </LinearLayout>
+    
+    <ImageView style="@style/editor_layout_Line"/>
+    
+    <LinearLayout
+	    android:id="@+id/edit_move"	
+	    android:focusable="true"
+	    android:visibility="gone"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/file_sharing" 
+	    	style="@style/editor_layout_ImageView"/>	
+	    <TextView 
+			android:id="@+id/edit_move_text"
+	        android:text="@string/edit_move"
+			style="@style/editor_layout_TextView"/>
+    </LinearLayout>
+    
+    <ImageView style="@style/editor_layout_Line"
+        android:visibility="gone"/>
+    	
+    <LinearLayout
+	    android:id="@+id/edit_paste"
+	    android:focusable="true"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/paste" 
+	    	style="@style/editor_layout_ImageView"/>	
+		<TextView 
+			android:id="@+id/edit_paste_text"
+	        android:text="@string/edit_paste"
+			style="@style/editor_layout_TextView"/>
+    </LinearLayout>
+    
+    <ImageView style="@style/editor_layout_Line"/>
+    	
+    <LinearLayout
+	    android:id="@+id/edit_rename"
+	    android:focusable="true"
+	    android:visibility="gone"
+	    style="@style/editor_layout_LinearLayout">		
+    	<ImageView
+    		android:background="@drawable/rename" 
+	    	style="@style/editor_layout_ImageView"/>	
+		<TextView 
+			android:id="@+id/edit_rename_text"
+	        android:text="@string/edit_rename"
+			style="@style/editor_layout_TextView"/>
+    </LinearLayout>
+    <ImageView style="@style/editor_layout_Line"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:padding="2dp"
+            style="@style/editor_layout_LinearLayout">
+        <Button
+                android:text="@string/str_cancel"
+                android:id="@+id/edit_cancel_btu"
+                android:textSize="23sp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+    </LinearLayout>
+    
+</LinearLayout>

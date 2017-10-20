@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Lanzacohetes</string>
+
+	<string name="application_num">El número de aplicaciones instaladas:</string>
+
+	<string name="temp_unit_c">℃</string>
+	<string name="temp_unit_f">℉</string>
+
+	<string name="loading">Cargando...</string>
+	<string name="instruction_loading">Por favor wiat, cargando .....</string>
+
+	<string name="weather_location">Seleccionar la ciudad del tiempo</string>
+	<string name="applabel">Solicitud</string>
+
+	<string name="errornetwork">¡Falla de red!</string>
+	<string name="load_error">Error de carga de datos!</string>
+
+
+	<string name="day_of_candar">Th</string>
+
+	<string name="add_app_title">Seleccione sus APPS favoritos</string>
+	<string name="tips">MIS APLICACIONES</string>
+	<string name="savemsg">      ¿Guardar cambios?</string>
+	<string name="delmsg">¿Desea descifrar el acceso directo?</string>
+	<string name="min_apk_num">¡Por lo menos un APK Requerido!</string>
+	<string name="ok">Sí</string>
+	<string name="cancle">No</string>
+	<string name="all_check_title">Todos marcados</string>
+	<string name="rev_check_title">Cheque inverso</string>
+	<string name="month">metro</string>
+	<string name="pick_wallpaper">Elegir fondo de pantalla</string>
+	<string name="chooser_wallpaper">Elegir fondo de pantalla</string>
+	<string name="activity_not_found">Actividad no encontrada</string>
+	<string name="url_select">Seleccionar URL</string>
+	<string name="wallpaper_instructions">Instrucciones de papel tapiz</string>
+	<string name="wallpaper">Papel pintado</string>
+	<string name="wallpaper_set">Wallpaper establecido con éxito!</string>
+
+
+	<string name="contentdes">Img</string>
+	<string name="city001">ShenZhen</string>
+	<string name="gallery_info">Por favor, inserte la unidad flash USB o no pueda identificar las imágenes</string>
+
+</resources>

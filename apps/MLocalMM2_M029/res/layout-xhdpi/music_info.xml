@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="2dip" >
+
+    <TextView
+        android:id="@+id/program_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/music_info"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:background="@drawable/line" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/filename_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dip"
+        android:layout_below="@id/program_info" >
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="30dp"
+            android:text="@string/file_name"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <com.jrm.localmm.ui.view.MarqueeTextView
+            android:id="@+id/file_name"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/duration_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:layout_below="@+id/filename_rl" >
+
+        <TextView
+            android:id="@+id/duration_tv"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="30dp"
+            android:text="@string/file_duration"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/artist_name_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/duration_rl"
+        android:paddingTop="15dip">
+
+        <TextView
+            android:id="@+id/artistname"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="30dp"
+            android:text="@string/Artist_name"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fileformat_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:layout_below="@id/artist_name_rl" >
+
+        <TextView
+            android:id="@+id/fileformat"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="30dp"
+            android:text="@string/file_format"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/file_format"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/filepath_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dip"
+        android:paddingBottom="25dip"
+        android:layout_below="@id/fileformat_rl" >
+
+        <TextView
+            android:id="@+id/filepath"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingLeft="30dp"
+            android:text="@string/file_path"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <com.jrm.localmm.ui.view.MarqueeTextView
+            android:id="@+id/file_path"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@android:color/white"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line" >
+    </ImageView>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="weather_condition">
+		<item>พายุทอร์นาโด</item>
+		<item>พายุโซนร้อน</item>
+		<item>พายุเฮอริเคน</item>
+		<item>พายุฝนฟ้าคะนองรุนแรง</item>
+		<item>พายุฝนฟ้าคะนอง</item>
+		<item>มีฝนและหิมะตก</item>
+		<item>ฝนตกและลูกเห็บ</item>
+		<item>หิมะและหิมะมิกซ์</item>
+		<item>ฝนตกปรอยๆ</item>
+		<item>ฝนตกปรอยๆ</item>
+		<item>ฝนตก</item>
+		<item>ที่อาบน้ำ</item>
+		<item>ที่อาบน้ำ</item>
+		<item>หิมะฟุ้งหิมะ</item>
+		<item>ฝนหิมะตก</item>
+		<item>หิมะตก</item>
+		<item>หิมะ</item>
+		<item>ลูกเห็บ</item>
+		<item>หิมะฝน</item>
+		<item>ฝุ่น</item>
+		<item>เต็มไปด้วยหมอก</item>
+		<item>หมอก</item>
+		<item>มีควันคลุ้ง</item>
+		<item>คำพูดวางโต</item>
+		<item>ลมแรง</item>
+		<item>หนาว</item>
+		<item>มีเมฆมาก</item>
+		<item>เมฆมาก</item>
+		<item>เมฆมาก</item>
+		<item>มีเมฆบางส่วน</item>
+		<item>มีเมฆบางส่วน</item>
+		<item>ชัดเจน</item>
+		<item>แดดจัด</item>
+		<item>ธรรม</item>
+		<item>ธรรม</item>
+		<item>ฝนตกและลูกเห็บ</item>
+		<item>ร้อน</item>
+		<item>พายุฝนฟ้าคะนองบางแห่ง</item>
+		<item>พายุฝนฟ้าคะนองกระจาย</item>
+		<item>พายุฝนฟ้าคะนองกระจาย</item>
+		<item>ฝนโปรยปราย</item>
+		<item>หิมะตกหนัก</item>
+		<item>มีฝนฟ้าคะนองกระจาย</item>
+		<item>หิมะตกหนัก</item>
+		<item>มีเมฆบางส่วน</item>
+		<item>มีฝนฟ้าคะนอง</item>
+		<item>พายุหิมะ</item>
+		<item>มีฝนฟ้าคะนองบางแห่ง</item>
+    </string-array>
+    
+    <array name="appnames">
+		<item>Dropbox</item>
+		<item>แอพสโตร์</item>
+				  
+		<item>ห้องสมุดแอป</item>
+		<item>ตัวจัดการแอป</item>
+		<item>การตั้งค่า</item>
+		<item>เบราว์เซอร์</item>
+		<item>Skype</item>
+		<item>YouTube</item>
+    </array>
+    
+    <string-array name="county">
+		<item>28816910 # โซล</item>
+		<item>2345969 # Gyeonggi-do</item>
+		<item>28816906 # อินชอน</item>
+		<item>2345966 # Gangwon-do</item>
+		<item>2345967 # Gyeongsangnam ทำ</item>
+		<item>2345970 # Gyeongsangbuk ทำ</item>
+		<item>28816908 # กวางจู</item>
+		<item>28816909 # Daegu</item>
+		<item>28816902 # Daejeon</item>
+		<item>28816913 # ปูซาน</item>
+		<item>28828129 # Sejong</item>
+		<item>28816901 # อุลซาน</item>
+		<item>2345972 # Jeollanam ทำ</item>
+		<item>2345964 # Jeollabuk ทำ</item>
+		<item>28834807 # เกาะเชจู</item>
+		<item>2345973 # ชุทำ</item>
+		<item>2345965 # Chungcheongbuk ทำ</item>
+    </string-array>
+    
+    <string-array name="months_of_year">
+		<item>ม.ค.</item>
+		<item>กุมภาพันธ์</item>
+		<item>มีนาคม</item>
+		<item>เมษายน</item>
+		<item>อาจ</item>
+		<item>มิถุนายน</item>
+		<item>กรกฎาคม</item>
+		<item>สิงหาคม</item>
+		<item>กันยายน</item>
+		<item>ตุลาคม</item>
+		<item>พฤศจิกายน</item>
+		<item>ธันวาคม</item>
+    </string-array>
+    
+    <string-array name="days_of_weeks">
+		<item>ดวงอาทิตย์</item>
+		<item>จันทร์</item>
+		<item>อังคาร</item>
+		<item>พุธ</item>
+		<item>พฤหัสบดี</item>
+		<item>ศุกร์</item>
+		<item>กกท.</item>
+    </string-array>
+
+</resources>
