@@ -1,0 +1,28 @@
+1、下载代码
+git clone ssh://git@192.168.0.245:/msd348_dtmb/msd348_dtmb
+cd vendor/mstar/ ///这个一定要注意，进入到这个目录再拉其它部分，保证目录结构
+git clone ssh://mgr023@172.168.1.60/msd6a348_dtmb/platform/vendor/mstar/kernel
+git clone ssh://mgr023@172.168.1.60/msd6a348_dtmb/platform/vendor/mstar/pm
+git clone ssh://mgr023@172.168.1.60/msd6a348_dtmb/platform/vendor/mstar/mboot
+
+2、编译
+1）mboot
+cp configs/mainz/.config.mainz.android.125b.rom_emmc.32bit.tee.kernel_512M ./scripts/defconfig
+make defconfig
+make clean && make
+
+
+2)kernel
+./genlink.sh
+cp .config_mainz_SMP_arm_android_emmc_nand .config
+make menuconfig
+
+
+3)supernova
+source
+make rebuild_all -j8 && make image_all
+
+
+4)android
+source build/envsetup.sh
+lunch aosp_persimmon_isdb-userdebug

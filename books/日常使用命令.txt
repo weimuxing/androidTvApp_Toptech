@@ -1,0 +1,64 @@
+﻿Git 操作
+git pull 
+	git pull origin <分支名> #下拉对应分支更新
+	如果别人已提交的修改与你本地的修改有相同文件会造成冲突导致pull失败
+	此时可以checkout冲突的文件然后再合并自己的修改再commit然后push，或者使用stash暂存修改
+
+git stash
+	git stash save "xxxxx" 	  #存储本地修改
+	git stash list 		   	  #查看stash列表
+	git stash apply stash@{x} #应用第x个stash (x个stash不会删除)
+	git stash pop stash@{x}   #应用第x个stash (x个stash会删除)
+	git stash show stash@{0}  #查看stash内容
+
+git format-patch -1 <commit>
+	把commit生成path，提供给他人查看使用
+
+git push origin <分支名>
+	最好在commit之前pull服务器上的更新，push之前必须pull，不然push失败
+
+git checkout <分支名>
+	git branch 	   #查看当前
+	git branch -a  #查看远程分支
+	切换分支，切换之前执行git pull origin 下拉所有分支信息
+
+git log -参数
+	-p  #展开显示每次提交的内容差异，追踪文件修改记录
+	--name-only   #仅在提交信息后显示已修改的文件清单。
+	--name-status #显示新增、修改、删除的文件清单。
+
+git show <commit>
+	显示commit内容，可加参数--name-only、--name-status
+	也可以在最后加上具体路径文件
+
+git reset  <file>   #移除已经add的文件
+git reset HEAD <file>   #移除并checkout已经add的文件
+git reset <commit> 	    #回退到某个commit，此commit之后的内容留在本地
+git reset HEAD <commit> #回退到某个commit，此commit之后的内容不留在本地
+git revert <commit> 	#只删除中间的一个commit对应的修改，其它不变 
+
+Logcat :
+	logcat -s TAG    #显示某一TAG的日志信息 如：logcat -是tvos 只显示sn的log
+	logcat *:E       #只显示报错的log
+	日志级别（Ｖ-verbose,D-debug,I-info,W-warning,E-error,F-fatal,S-silent）
+    	logcat -v 格式   #以某种格式显示日志信息 如：logcat -v time 显示log的时间
+ 	日志格式（brief,process,tag,thread,raw,time,long）
+	logcat -c 		#清除之前的log信息
+    	logcat | grep -i myapp    #-i忽略大小写，与grep搭配方便查找固定字符标签信息
+    						  自己加的调试打印最好写上自己的标签或者日期方便查看log
+
+logcat错误信息
+	修改app报错，logcat *:E  查找cause by：error等信息
+	修改sn报错，查找有没有ASSERT FAIL: 、error字眼，sn的错误一般都会一连串出现
+	修改代码多加自己的调试log
+	。。。。。。
+	。。。。。。
+	。。。。。。
+	
+coredump分析
+    将coredump拷贝出来放到/sn/supernova/projects目录
+	解压coredump_xxxx.gz文件―――gunzip coredump_xxxx.gz
+	进入gdb调试――――arm-none-linux-gnueabi-gdb symbols/applications/bin/tvos
+	设置库路径――――set solib-absolute-prefix symbols/
+	开始分析文件――――core-file coredumpxxxxx
+	定位代码―――――bt
